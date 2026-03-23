@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Be Mighty — by Stefan Friend. On nonlinear paths, entrepreneurial roller coasters, and 3,796 days of sobriety.">
+<title>Be Mighty — Stefan Friend</title>
+<script>
+  (function(){var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);else if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)document.documentElement.setAttribute('data-theme','dark');})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #FAFAF8; --text: #1A1917; --text-secondary: #5C5850;
+  --text-muted: #8A8478; --accent: #1B4332; --accent-hover: #2D6A4F;
+  --border: #E2DFD8; --border-subtle: #ECEAE5;
+  --nav-bg: rgba(250, 250, 248, 0.92);
+  --serif: 'Newsreader', Georgia, serif; --sans: 'DM Sans', -apple-system, sans-serif;
+}
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 17px; -webkit-font-smoothing: antialiased; }
+body { background: var(--bg); color: var(--text); font-family: var(--sans); line-height: 1.72; transition: background-color 0.3s ease, color 0.3s ease; }
+::selection { background: #1B433220; }
+nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; background: var(--nav-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); box-shadow: 0 1px 0 var(--border); }
+.nav-name { font-family: var(--serif); font-size: 1.2rem; font-weight: 500; color: var(--text); text-decoration: none; }
+.nav-back { font-size: 0.78rem; font-weight: 500; color: var(--text-secondary); text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase; transition: color 0.2s; }
+.nav-back:hover { color: var(--text); }
+article { max-width: 660px; margin: 0 auto; padding: 8rem 2rem 5rem; }
+.article-meta { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 1.5rem; }
+article h1 { font-family: var(--serif); font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 500; line-height: 1.18; letter-spacing: -0.025em; color: var(--text); margin-bottom: 2.5rem; }
+article h2 { font-family: var(--serif); font-size: 1.5rem; font-weight: 500; line-height: 1.3; color: var(--text); margin: 3rem 0 1.25rem; }
+.article-body { font-size: 1.05rem; color: var(--text-secondary); line-height: 1.82; }
+.article-body p { margin-bottom: 1.4rem; }
+.article-body strong { color: var(--text); font-weight: 500; }
+.article-body em { font-family: var(--serif); }
+.article-footer { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem; color: var(--text-muted); }
+.article-footer a { color: var(--accent); text-decoration: none; font-weight: 500; }
+@media (max-width: 768px) { article { padding: 6rem 1.25rem 3.5rem; } nav { padding: 0.85rem 1.25rem; } }
+
+[data-theme="dark"] {
+  --nav-bg: rgba(17, 17, 16, 0.92);
+  --bg: #111110; --text: #E8E4DD; --text-secondary: #A8A29E;
+  --text-muted: #78716C; --accent: #60A5FA; --accent-hover: #93C5FD;
+  --border: #2A2826; --border-subtle: #1F1E1C;
+}
+::selection { background: #1B433220; }
+[data-theme="dark"] ::selection { background: #60A5FA20; }
+
+.theme-toggle {
+  background: none; border: 1px solid var(--border); border-radius: 50%;
+  width: 32px; height: 32px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-muted); transition: all 0.2s; flex-shrink: 0; padding: 0;
+}
+.theme-toggle:hover { color: var(--text); border-color: var(--text-muted); }
+.theme-toggle svg { width: 16px; height: 16px; }
+.theme-toggle .icon-moon { display: block; }
+.theme-toggle .icon-sun { display: none; }
+[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-name">Stefan Friend</a>
+  <div style="display:flex;align-items:center;gap:1rem;">
+    <a href="/#writing" class="nav-back">&larr; All Writing</a>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    </button>
+  </div>
+</nav>
+<article>
+  <div class="article-meta">August 31, 2021</div>
+  <h1>Be Mighty</h1>
+  <div class="article-body">
+    <p>I've spent a lot of time recently reflecting on my time here in Charlotte NC and the life I've built.</p>
+
+    <p>I initially intended to stay for the summer after graduation from Clemson University before heading up to New York City. My plan, at least, was to hang out on the lake bartending, make a little money, and basically relax before the incessant grind of pursuing a law degree in the Big Apple.</p>
+
+    <p>Anyone who's known me since then knows I was emphatically excited about this next phase of my life.</p>
+
+    <p>Law School seemed like the perfect opportunity for me to blend my microbiology background with a new technical skill set and process to impact people and companies. That combination was so alluring in fact that from the first moment of orientation the program was lining me up with law firms specifically interested in my science background to help with their patent law work.</p>
+
+    <p>I figured I was set.</p>
+
+    <p>I guess that's why the saying goes, "If you want to make God laugh, tell him your plans."</p>
+
+    <p>That summer I was bartending with the founder of a social media startup idea focused on reinventing nightlife. I was immediately hooked on this pursuit of creating something new and having the massive potential to positively impact people.</p>
+
+    <p>The short version is that it didn't quite pan out the way we'd hoped.</p>
+
+    <p>Is anybody else starting to notice a trend here?</p>
+
+    <p>I still loved this idea though that you could build something that never existed before and help people transform their lives. I have largely pursued helping people at the core of everything I have done since.</p>
+
+    <p>Truthfully, the mindset around learning constantly, focusing on serving people and customers, and that desire to shift things to change the way we do things for the better has not always served me well in the immediate short-term. I'd argue it will always get you ahead in the long term.</p>
+
+    <p>I've been fired for being disruptive to the status quo.</p>
+
+    <p>I quit on the spot when it became clear my direct boss was not living up to the vision I thought we were aligned on for our small firm.</p>
+
+    <p>I've worked for sweat equity earning no salary having to pay bills with odd jobs or bartending.</p>
+
+    <p>I've been paid far under the market rate for what I brought to the table under that same promise of a massive return at an exit in some distant future down the road.</p>
+
+    <p>I started an impact investing focused tech company which had massively positive feedback from potential users, built a simple intuitive UI to match some of the market leaders, and failed to raise the money needed to keep going in a city largely risk-averse in how they invest in startups.</p>
+
+    <p>I pitched to investors of one of my early start-up companies where I came in as employee number one to take over the company from the founder when I thought my leadership and pivot driven by our customers' feedback was the only path forward to success.</p>
+
+    <p>My entrepreneurial roller coaster has been an absolutely wild ride.</p>
+
+    <p>I had arguments with my family over my career choice or perceived lack of career choice when they knew I could take a corporate job that would pay much, much better and provide more security in my life.</p>
+
+    <p>My journey has been tough. It's been harder than I ever imagined it would be.</p>
+
+    <p><strong>And I wouldn't change any of it.</strong></p>
+
+    <p>Despite all the challenges, perhaps even because of them, I have learned and grown in ways that would never have been possible if I had followed some traditional cookie-cutter path to create my life. And I've done some pretty cool things almost in spite of limited resources.</p>
+
+    <p>I took a functional MVP for a cool young fintech company and helped massively transform the business by creating a world-class financing platform unlike anything else that existed in the market.</p>
+
+    <p>It has been 3,796 days since the last time I took an opioid painkiller after spending almost 8 years on a carousel of painkiller addiction after a devastating rugby injury in college. If that injury was life-altering in a negative way, my decision to escape and overcome that addiction was infinitely more positive.</p>
+
+    <p>I graduated with honors from my MBA program at Wake Forest University which I completed while working full-time for 2 years.</p>
+
+    <p>I met and married the love of my life, Lygia. In what seems like an incredibly short amount of time we've traveled the world, built foundations for great careers, bought and sold some houses. Most importantly, we have one incredible baby sir, and another little miss on the way.</p>
+
+    <p>In both my personal and professional lives, I've cultivated a group of people around me — family, friends, and colleagues — that recognize the best of me and have supported me as I pursued a journey that is entirely my own. That's not to say they've cut me any slack along the way, but I have learned to not only take their critical feedback when given but in fact to thrive on it.</p>
+
+    <p>I find the concept of narrative fallacy incredibly fascinating, this idea that from the outside looking in the story or path was always clear from the beginning. From my experience, every single time that's far from the truth.</p>
+
+    <p><strong>My journey to get here was far from linear.</strong></p>
+
+    <p>It's been driven by raw belief in myself, an unbelievable support system around me, and a lot of trial-and-error experimentation. I've built this life around a mindset that's focused on learning quickly, implementing faster, and growing continuously.</p>
+
+    <p>And the people that I have in my life around me are equally responsible for helping me get here.</p>
+
+    <p>So for those who shared in this journey with me, I wish to express gratitude. Nothing I've accomplished in my life has been alone and the best parts of life have always been shared with others.</p>
+
+    <p>So thank you.</p>
+
+    <p>Stay tuned.</p>
+  </div>
+  <div class="article-footer">
+    <span>Stefan Friend</span>
+    <a href="/#writing">&larr; Back to all writing</a>
+  </div>
+</article>
+<script>
+const themeToggle = document.getElementById('themeToggle');
+themeToggle.addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  if (next === 'light') {
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'light');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
+  }
+});
+</script>
+</body>
+</html>

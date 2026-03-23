@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Stefan Friend — Clarity in complex systems. Builder, strategic advisor, and founder of Tabbris. Helping fintech founders and executive teams navigate complexity with decisive alignment.">
+<meta property="og:title" content="Stefan Friend — Clarity in Complex Systems">
+<meta property="og:description" content="Builder. Strategic advisor. Clarity operator. Helping teams cut through noise and build what matters.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://stefanfriend.com">
+<title>Stefan Friend — Clarity in Complex Systems</title>
+<script>
+  // Prevent flash: apply saved theme before render
+  (function(){var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);else if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)document.documentElement.setAttribute('data-theme','dark');})();
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #FAFAF8;
+  --bg-warm: #F5F2ED;
+  --bg-dark: #111110;
+  --bg-dark-subtle: #1A1918;
+  --text: #1A1917;
+  --text-secondary: #5C5850;
+  --text-muted: #8A8478;
+  --text-on-dark: #E8E4DD;
+  --text-on-dark-muted: #9B9588;
+  --accent: #1B4332;
+  --accent-hover: #2D6A4F;
+  --warm: #8B5E34;
+  --warm-light: #A67C52;
+  --border: #E2DFD8;
+  --border-subtle: #ECEAE5;
+  --nav-bg: rgba(250, 250, 248, 0.88);
+  --selection: #1B433220;
+
+  --serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --w-narrow: 640px;
+  --w-content: 720px;
+  --w-wide: 960px;
+}
+
+[data-theme="dark"] {
+  --bg: #111110;
+  --bg-warm: #1A1918;
+  --bg-dark: #0A0A09;
+  --bg-dark-subtle: #141413;
+  --text: #E8E4DD;
+  --text-secondary: #A8A29E;
+  --text-muted: #78716C;
+  --text-on-dark: #E8E4DD;
+  --text-on-dark-muted: #A8A29E;
+  --accent: #60A5FA;
+  --accent-hover: #93C5FD;
+  --warm: #D4A574;
+  --warm-light: #E8C9A0;
+  --border: #2A2826;
+  --border-subtle: #1F1E1C;
+  --nav-bg: rgba(17, 17, 16, 0.88);
+  --selection: #60A5FA20;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+html {
+  font-size: 17px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-weight: 400;
+  line-height: 1.72;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+::selection { background: var(--selection); }
+
+/* Nav */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 1rem 2rem;
+  display: flex; justify-content: space-between; align-items: center;
+  background: var(--nav-bg);
+  backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  transition: box-shadow 0.3s ease;
+}
+nav.scrolled { box-shadow: 0 1px 0 var(--border); }
+.nav-name {
+  font-family: var(--serif); font-size: 1.2rem; font-weight: 500;
+  color: var(--text); text-decoration: none; letter-spacing: -0.02em;
+}
+.nav-links {
+  display: flex; gap: 1.75rem; list-style: none; align-items: center;
+}
+.nav-right {
+  display: flex; align-items: center; gap: 1.25rem;
+}
+.nav-links a {
+  font-size: 0.78rem; font-weight: 500; color: var(--text-secondary);
+  text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase;
+  transition: color 0.2s;
+}
+.nav-links a:hover { color: var(--text); }
+.nav-cta {
+  color: var(--accent) !important; border: 1px solid var(--accent);
+  padding: 0.4rem 1rem; border-radius: 2px; transition: all 0.2s !important;
+}
+.nav-cta:hover { background: var(--accent) !important; color: var(--bg) !important; }
+.nav-toggle {
+  display: none; background: none; border: none; cursor: pointer; padding: 0.25rem;
+}
+.nav-toggle span {
+  display: block; width: 20px; height: 1.5px; background: var(--text); margin: 5px 0;
+}
+
+/* Sections */
+section { padding: 5rem 2rem; }
+.content { max-width: var(--w-content); margin: 0 auto; }
+.wide { max-width: var(--w-wide); margin: 0 auto; }
+.label {
+  font-size: 0.7rem; font-weight: 600; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--text-muted); margin-bottom: 2rem;
+}
+h2 {
+  font-family: var(--serif);
+  font-size: clamp(1.85rem, 3.2vw, 2.5rem);
+  font-weight: 500; line-height: 1.22; letter-spacing: -0.025em;
+  color: var(--text); margin-bottom: 1.5rem;
+}
+.prose { font-size: 1.02rem; color: var(--text-secondary); line-height: 1.78; }
+.prose p { margin-bottom: 1.35rem; }
+.prose p:last-child { margin-bottom: 0; }
+.prose strong { color: var(--text); font-weight: 500; }
+.prose em { font-family: var(--serif); font-style: italic; }
+
+/* Hero */
+.hero {
+  min-height: 100vh; display: flex; align-items: center;
+  padding-top: 8rem; padding-bottom: 5rem;
+}
+.hero-label {
+  font-size: 0.72rem; font-weight: 500; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--accent); margin-bottom: 1.75rem;
+  opacity: 0; animation: fadeUp 0.7s 0.15s ease forwards;
+}
+.hero h1 {
+  font-family: var(--serif);
+  font-size: clamp(2.6rem, 5vw, 3.8rem);
+  font-weight: 400; line-height: 1.12; letter-spacing: -0.03em;
+  color: var(--text); margin-bottom: 2.5rem; max-width: 620px;
+  opacity: 0; animation: fadeUp 0.8s 0.3s ease forwards;
+}
+.hero-text { opacity: 0; animation: fadeUp 0.7s 0.5s ease forwards; }
+.hero-text p {
+  font-size: 1.1rem; line-height: 1.75; color: var(--text-secondary);
+  margin-bottom: 1.35rem; max-width: 540px;
+}
+.hero-text strong { color: var(--text); font-weight: 500; }
+
+/* Warm bg */
+.warm-bg {
+  background: var(--bg-warm);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+/* Pullquote */
+.pullquote {
+  font-family: var(--serif); font-size: 1.45rem; font-weight: 400;
+  font-style: italic; line-height: 1.42; color: var(--accent);
+  margin: 2.5rem 0; padding-left: 1.25rem;
+  border-left: 2px solid var(--accent); max-width: 520px;
+}
+
+/* Sprint phases */
+.phases {
+  display: grid; grid-template-columns: 1fr; gap: 1.25rem; margin-top: 2.5rem;
+}
+.phase {
+  padding: 1.75rem; border: 1px solid var(--border); border-radius: 3px; background: var(--bg);
+}
+.warm-bg .phase { background: var(--bg-warm); }
+.phase-num {
+  font-family: var(--serif); font-size: 2rem; font-weight: 300;
+  color: var(--border); line-height: 1; margin-bottom: 0.5rem;
+}
+.phase h3 {
+  font-family: var(--serif); font-size: 1.2rem; font-weight: 600;
+  color: var(--text); margin-bottom: 0.65rem;
+}
+.phase p { font-size: 0.92rem; color: var(--text-secondary); line-height: 1.65; }
+
+/* Evidence grid */
+.evidence-grid {
+  display: grid; grid-template-columns: 1fr; gap: 1px;
+  background: var(--border); border: 1px solid var(--border);
+  border-radius: 3px; margin-top: 2.5rem; overflow: hidden;
+}
+.evidence-item { padding: 1.35rem 1.5rem; background: var(--bg); }
+.warm-bg .evidence-item { background: var(--bg-warm); }
+.evidence-item h4 {
+  font-family: var(--serif); font-size: 1.02rem; font-weight: 600;
+  color: var(--text); margin-bottom: 0.3rem; line-height: 1.35;
+}
+.evidence-item p { font-size: 0.85rem; color: var(--text-muted); line-height: 1.55; }
+
+/* Philosophy */
+.philosophy-list { list-style: none; margin-top: 1.5rem; }
+.philosophy-list li {
+  font-family: var(--serif); font-size: 1.15rem; font-weight: 400;
+  color: var(--text); padding: 0.85rem 0;
+  border-bottom: 1px solid var(--border-subtle); line-height: 1.45;
+}
+.philosophy-list li:first-child { border-top: 1px solid var(--border-subtle); }
+
+/* Essays */
+.essay-list { margin-top: 2.5rem; }
+.essay-link {
+  display: block; padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+  text-decoration: none; color: inherit; transition: padding-left 0.2s ease;
+}
+.essay-link:first-child { border-top: 1px solid var(--border-subtle); }
+.essay-link:hover { padding-left: 0.6rem; }
+.essay-link h3 {
+  font-family: var(--serif); font-size: 1.25rem; font-weight: 500;
+  color: var(--text); margin-bottom: 0.35rem; line-height: 1.3;
+}
+.essay-link p { font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; max-width: 500px; }
+
+/* Now grid */
+.now-grid { display: grid; grid-template-columns: 1fr; gap: 2rem; margin-top: 2.5rem; }
+.now-item h3 {
+  font-family: var(--serif); font-size: 1.2rem; font-weight: 600;
+  color: var(--text); margin-bottom: 0.5rem;
+}
+.now-item p { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.65; }
+.now-item .tag {
+  display: inline-block; font-size: 0.68rem; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--accent); margin-bottom: 0.6rem;
+}
+
+/* Dark section - "On Becoming" */
+.dark-section { background: var(--bg-dark); color: var(--text-on-dark); }
+.dark-section .label { color: var(--text-on-dark-muted); }
+.dark-section h2 { color: var(--text-on-dark); }
+.dark-section .prose { color: var(--text-on-dark-muted); }
+.dark-section .prose strong { color: var(--text-on-dark); }
+.dark-section .pullquote { color: #C8C0B5; border-left-color: var(--warm-light); }
+[data-theme="dark"] .dark-section { background: var(--bg-dark); }
+[data-theme="dark"] .dark-section .prose { color: var(--text-secondary); }
+[data-theme="dark"] .dark-section .prose strong { color: var(--text); }
+[data-theme="dark"] .dark-section .pullquote { color: var(--warm-light); }
+
+/* Theme toggle */
+.theme-toggle {
+  background: none; border: 1px solid var(--border); border-radius: 50%;
+  width: 32px; height: 32px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-muted); transition: all 0.2s;
+  flex-shrink: 0; padding: 0;
+}
+.theme-toggle:hover { color: var(--text); border-color: var(--text-muted); }
+.theme-toggle svg { width: 16px; height: 16px; transition: transform 0.3s ease; }
+.theme-toggle .icon-moon { display: block; }
+.theme-toggle .icon-sun { display: none; }
+[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+
+/* Contact */
+.contact { text-align: center; padding: 7rem 2rem; }
+.contact .prose { max-width: 440px; margin: 0 auto 2.5rem; }
+.contact-email {
+  display: inline-block; font-family: var(--serif);
+  font-size: 1.25rem; font-weight: 500; color: var(--accent);
+  text-decoration: none; padding-bottom: 2px;
+  border-bottom: 1px solid var(--accent); transition: all 0.2s;
+}
+.contact-email:hover { color: var(--accent-hover); border-color: var(--accent-hover); }
+
+/* Footer */
+footer { padding: 1.5rem 2rem; border-top: 1px solid var(--border-subtle); }
+.footer-inner {
+  max-width: var(--w-wide); margin: 0 auto;
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: 0.78rem; color: var(--text-muted);
+}
+.footer-links { display: flex; gap: 1.5rem; list-style: none; }
+.footer-links a { color: var(--text-muted); text-decoration: none; transition: color 0.2s; }
+.footer-links a:hover { color: var(--text); }
+
+/* Animations */
+@keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+.reveal {
+  opacity: 0; transform: translateY(20px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+/* Responsive */
+@media (min-width: 640px) {
+  .phases { grid-template-columns: 1fr 1fr; }
+  .evidence-grid { grid-template-columns: 1fr 1fr; }
+  .now-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 768px) {
+  section { padding: 3.5rem 1.25rem; }
+  nav { padding: 0.85rem 1.25rem; }
+  .hero { padding-top: 6.5rem; min-height: auto; }
+  .contact { padding: 4.5rem 1.25rem; }
+  .footer-inner { flex-direction: column; gap: 0.6rem; text-align: center; }
+}
+@media (max-width: 600px) {
+  .nav-toggle { display: block; z-index: 200; }
+  .nav-links {
+    position: fixed; top: 0; right: -100%; height: 100vh;
+    width: 72vw; max-width: 280px; flex-direction: column;
+    background: var(--bg); padding: 5rem 2rem 2rem; gap: 1.25rem;
+    border-left: 1px solid var(--border); transition: right 0.3s ease;
+    box-shadow: -4px 0 20px rgba(0,0,0,0.05);
+  }
+  .nav-links.open { right: 0; }
+  .nav-links a { font-size: 0.85rem; }
+}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <a href="#" class="nav-name">Stefan Friend</a>
+  <div class="nav-right">
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#pattern">The Pattern</a></li>
+      <li><a href="#sprint">Clarity Sprint</a></li>
+      <li><a href="#building">Building</a></li>
+      <li><a href="#writing">Writing</a></li>
+      <li><a href="#becoming">About</a></li>
+      <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
+    </ul>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    </button>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="content">
+    <div class="hero-label">Strategic Advisory &middot; Charlotte, NC</div>
+    <h1>The most expensive failures I've seen weren't technical. They were directional.</h1>
+    <div class="hero-text">
+      <p>
+        I've sat in rooms full of sharp, experienced leaders generating enormous activity — refining requirements, commissioning analysis, building roadmaps — while something essential went unspoken.
+      </p>
+      <p>
+        Direction was implied. Tradeoffs were softened. And <strong>motion started masquerading as progress.</strong>
+      </p>
+      <p>
+        I work with fintech founders and executive teams navigating regulatory pressure, platform complexity, and AI acceleration — bringing structure to environments where confusion compounds cost.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- The Pattern -->
+<section class="warm-bg" id="pattern">
+  <div class="content reveal">
+    <div class="label">The Pattern</div>
+    <h2>Leadership too often confuses motion with progress.</h2>
+    <div class="prose">
+      <p>
+        In high-stakes product environments, complexity creates a specific kind of drift. Stakeholders multiply. Constraints layer. AI accelerates what teams <em>can</em> build. Detail expands in every direction.
+      </p>
+      <p>
+        But without a clearly defined aim, signal gets buried in noise. Organizations respond by producing more — more analysis, more alignment meetings, more roadmap iterations — without confronting the core tension: <strong>nobody has articulated what they're actually building toward.</strong>
+      </p>
+      <p>
+        Most strategic inertia isn't caused by external constraints. It's caused by avoided decisions — the accumulated weight of tradeoffs no one was willing to name.
+      </p>
+    </div>
+    <div class="pullquote">
+      When I ask, "What are we actually aiming at?" — the room usually goes quiet. That silence is signal.
+    </div>
+    <div class="prose">
+      <p>
+        I've watched this pattern consume years inside institutions. An initiative that clearly lacked a coherent product vision ran for twelve months — expanding requirements, generating analysis, producing motion — until a senior leader finally asked the simplest question: <em>"Why would we build this if we don't have a vision for what it plugs into?"</em> The work was deprioritized in a week.
+      </p>
+      <p>
+        The data to make that call existed on month one. What was missing wasn't information. It was willingness to decide.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Why Now -->
+<section>
+  <div class="content reveal">
+    <div class="label">Why This Matters Now</div>
+    <h2>Execution is no longer the bottleneck. Intent is.</h2>
+    <div class="prose">
+      <p>
+        I've built more with AI tools in one quarter than was possible in years. That's not a talking point — I built a complex vertical SaaS platform in 48 hours over a holiday break, and I run a multi-agent system on two Mac Minis that handles real operational work daily.
+      </p>
+      <p>
+        When execution becomes cheap, unclear thinking gets expensive fast. I learned this firsthand: in my first agentic build, I omitted authentication. The agents didn't fail — <strong>they did exactly what I told them to do.</strong> The failure was ambiguity in my intent. That structural gap cascaded through the entire system.
+      </p>
+      <p>
+        AI is compressing timelines. Code is cheaper. Prototypes are instant. But the ability to decide — to articulate aim, accept tradeoffs, and commit under incomplete information — is not accelerating at the same rate. More data doesn't automatically produce better judgment. In many organizations, additional analysis becomes a substitute for courage.
+      </p>
+      <p>
+        <strong>When building is easy, knowing what to build matters more than ever.</strong>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Track Record -->
+<section class="warm-bg">
+  <div class="content reveal">
+    <div class="label">Track Record</div>
+    <h2>I've built across the full spectrum.</h2>
+    <div class="prose">
+      <p>
+        Early-stage startups. Fortune 100 institutions. Scrappy founding teams and complex enterprise machines. The failure modes are different. The clarity problems are the same.
+      </p>
+    </div>
+    <div class="evidence-grid">
+      <div class="evidence-item">
+        <h4>Multi-currency payments platform</h4>
+        <p>Architected cross-border payment capabilities, unlocking new commercial revenue streams in year one.</p>
+      </div>
+      <div class="evidence-item">
+        <h4>Enterprise commercial card experiences</h4>
+        <p>Led product strategy for commercial card platforms at a top-4 U.S. bank — mobile wallet, receipt capture, card management.</p>
+      </div>
+      <div class="evidence-item">
+        <h4>Foundational rules engine</h4>
+        <p>Designed rules infrastructure enabling configurable business logic at scale — architecture that became a platform capability.</p>
+      </div>
+      <div class="evidence-item">
+        <h4>Global SDK transitions</h4>
+        <p>Navigated regional regulatory requirements during technology platform migrations across multiple international markets.</p>
+      </div>
+      <div class="evidence-item">
+        <h4>Fintech platform transformation</h4>
+        <p>Took a functional MVP and helped transform it into a world-class financing platform unlike anything else in the market.</p>
+      </div>
+      <div class="evidence-item">
+        <h4>Agentic systems — in production</h4>
+        <p>Built and operate a multi-agent AI system handling real workflows: communications, operations, podcast production, monitoring.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Clarity Sprint -->
+<section id="sprint">
+  <div class="content reveal">
+    <div class="label">The Engagement</div>
+    <h2>The Clarity Sprint</h2>
+    <p style="font-family: var(--serif); font-size: 1.15rem; font-style: italic; color: var(--text); margin-bottom: 1rem;">
+      Decisive alignment, built to last.
+    </p>
+    <div class="prose">
+      <p>
+        4–6 weeks. Structured. End-state driven. The discipline is design thinking applied at the executive level: start with the end, back into current reality, define what must be true, then build the system that sustains decisive leadership.
+      </p>
+      <p>
+        You don't get advice. You get a decision-grade artifact your team can operate from after I'm gone.
+      </p>
+    </div>
+    <div class="phases">
+      <div class="phase">
+        <div class="phase-num">01</div>
+        <h3>Define the End State</h3>
+        <p>What are we actually aiming at? What changes for the user? For the business? What becomes true if we succeed? No features. No roadmap. Just the target.</p>
+      </div>
+      <div class="phase">
+        <div class="phase-num">02</div>
+        <h3>Map Current Reality</h3>
+        <p>Where are we actually? What constraints are real versus assumed? Where is analysis masking uncertainty? Where is inertia compounding? Diagnosis without ego.</p>
+      </div>
+      <div class="phase">
+        <div class="phase-num">03</div>
+        <h3>Define What Must Be True</h3>
+        <p>If the end state is X, what capabilities must exist? What tradeoffs must be accepted? What risk posture? What incentives must change? Alignment forms — or fractures — here.</p>
+      </div>
+      <div class="phase">
+        <div class="phase-num">04</div>
+        <h3>Build the Decision Structure</h3>
+        <p>A clearly articulated aim. Explicit tradeoffs. Prioritization logic. A roadmap anchored to outcomes. A leadership narrative. A reusable decision framework that survives after I'm gone.</p>
+      </div>
+    </div>
+    <div class="prose" style="margin-top: 2.5rem;">
+      <p>
+        I also work with teams through <strong>executive intensives</strong> (1–2 day workshops for urgent alignment needs) and <strong>selective ongoing advisory</strong> for teams that want continued strategic partnership.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- What I'm Building -->
+<section class="warm-bg" id="building">
+  <div class="content reveal">
+    <div class="label">What I'm Building</div>
+    <h2>I'm not just advising. I'm in the arena.</h2>
+    <div class="prose">
+      <p>Credibility comes from building. Here's what I'm actively working on.</p>
+    </div>
+    <div class="now-grid">
+      <div class="now-item">
+        <div class="tag">Coworking &middot; Charlotte</div>
+        <h3>Tabbris</h3>
+        <p>A coworking space on South Boulevard in Charlotte. Home to builders, founders, and the local AI community. Where OpenClaw Community Night drew 120+ people to watch five builders demo live agent systems.</p>
+      </div>
+      <div class="now-item">
+        <div class="tag">Multi-Agent System</div>
+        <h3>OpenClaw &amp; Alfred</h3>
+        <p>A self-hosted multi-agent system running on two Mac Minis at Tabbris. Alfred — the primary agent — handles communications, monitors channels, manages operations, and runs podcast production pipelines. Real infrastructure, not a demo.</p>
+      </div>
+      <div class="now-item">
+        <div class="tag">Podcast</div>
+        <h3>RiskCast</h3>
+        <p>A podcast about what's actually working with AI, what's not, and what happens next. The good, the bad, the ugly of building with these tools. No polish. That's the point.</p>
+      </div>
+      <div class="now-item">
+        <div class="tag">Community</div>
+        <h3>Charlotte AI Builders</h3>
+        <p>Organizing events for people building real AI systems in Charlotte. Not theory — demos, workflows, use cases. Builders experimenting in public, learning by doing.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Philosophy -->
+<section>
+  <div class="content reveal">
+    <div class="label">Philosophy</div>
+    <h2>What I believe.</h2>
+    <ul class="philosophy-list">
+      <li>In complex systems, clarity is leverage.</li>
+      <li>Avoided decisions create inertia. Inertia compounds cost.</li>
+      <li>Analysis is essential — but analysis is not strategy.</li>
+      <li>When the room goes quiet, something important is being avoided.</li>
+      <li>AI expands what teams can build. It does not decide what they should build.</li>
+      <li>Courage under ambiguity is a leadership discipline, not a personality trait.</li>
+      <li>Velocity without systems thinking isn't innovation. It's risk.</li>
+      <li>The best structure survives after the consultant leaves.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Writing -->
+<section class="warm-bg" id="writing">
+  <div class="content reveal">
+    <div class="label">Writing &amp; Thinking</div>
+    <h2>Selected essays.</h2>
+    <div class="prose">
+      <p>On systems, leadership, AI, and the human work underneath all of it.</p>
+    </div>
+    <div class="essay-list">
+      <a href="/writing/agentic-teams.html" class="essay-link">
+        <h3>What Building with Agentic Teams Changes</h3>
+        <p>Once execution stopped being the constraint, the real bottleneck came into focus. On ambiguity as the most dangerous thing in the system.</p>
+      </a>
+      <a href="/writing/first-contact.html" class="essay-link">
+        <h3>First Contact: A Real Workflow, an Agentic Team, and a Working System</h3>
+        <p>A 48-hour build of a vertical SaaS platform. Not a concept deck — a functioning system with real data models, real workflows, and real lessons about intent.</p>
+      </a>
+      <a href="/writing/mental-health-startups.html" class="essay-link">
+        <h3>The Reality of Mental Health and Startups</h3>
+        <p>Entrepreneurs are 50% more likely to report mental health conditions. On killing "fake it till you make it," building identity outside work, and vulnerability as a muscle.</p>
+      </a>
+      <a href="/writing/be-mighty.html" class="essay-link">
+        <h3>Be Mighty</h3>
+        <p>On nonlinear paths, entrepreneurial roller coasters, and 3,796 days clean from an eight-year opioid addiction. The journey was far from linear — and I wouldn't change any of it.</p>
+      </a>
+      <a href="/writing/learning-to-lead.html" class="essay-link">
+        <h3>Learning to Lead</h3>
+        <p>Leadership isn't about standing in the spotlight. On what rugby, humility, and failing your team teaches you about leading.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- On Becoming -->
+<section class="dark-section" id="becoming">
+  <div class="content reveal">
+    <div class="label">On Becoming</div>
+    <h2>This didn't come from a straight line.</h2>
+    <div class="prose">
+      <p>
+        I was supposed to go to law school. I ended up bartending with a startup founder instead and never looked back. Since then I've been fired for being disruptive to the status quo. I've worked for sweat equity with no salary. I pitched to take over a company from its own founder. I started an impact investing tech company that got tremendous feedback from users and failed to raise money in a risk-averse city.
+      </p>
+      <p>
+        I also spent nearly eight years on a carousel of opioid addiction after a devastating rugby injury in college. I had a seizure in the office. That was the moment I realized something had to change. It's been 3,796 days since I last took an opioid painkiller. I'll hit 4,000 days sober on October 13, 2026 — my ninth wedding anniversary.
+      </p>
+      <p>
+        Recovery taught me more about systems than any business book. <strong>Addiction is, at its core, an incentive design problem</strong> — where short-term signals overwhelm long-term aims. Getting clean required the same discipline I now bring to organizations: name the real problem, stop rationalizing drift, and commit to a direction even when the data is incomplete.
+      </p>
+    </div>
+    <div class="pullquote">
+      Vulnerability is a muscle that can be practiced and built just like any other. The rewards from doing so are almost immeasurable.
+    </div>
+    <div class="prose">
+      <p>
+        I've watched teams spend years building without asking what they were building toward. I've done the same thing in my own life. The cost is the same in both cases — time you don't get back, spent on motion that felt productive but wasn't anchored to anything real.
+      </p>
+      <p>
+        The leaders I work best with share something in common: they're willing to confront uncomfortable truths about their organizations, their incentives, and sometimes about themselves. That's not weakness. <strong>That's where alignment actually begins.</strong>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+  <div class="content reveal">
+    <div class="label">Let's Talk</div>
+    <h2>What are you actually aiming at?</h2>
+    <div class="prose">
+      <p>If you already feel the noise and sense the inertia, the question is whether you're ready to interrupt it.</p>
+    </div>
+    <a href="https://www.linkedin.com/in/stefanpfriend/" target="_blank" rel="noopener" class="contact-email">Connect on LinkedIn</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <span>&copy; 2026 Stefan Friend &middot; Charlotte, NC</span>
+    <ul class="footer-links">
+      <li><a href="https://www.linkedin.com/in/stefanpfriend/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://riskcast.ai" target="_blank" rel="noopener">RiskCast</a></li>
+      <li><a href="https://tabbris.com" target="_blank" rel="noopener">Tabbris</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+// Nav scroll
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 40));
+
+// Mobile nav
+const navToggle = document.getElementById('navToggle');
+const navLinks = document.getElementById('navLinks');
+navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+// Theme toggle
+const themeToggle = document.getElementById('themeToggle');
+themeToggle.addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  if (next === 'light') {
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'light');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
+  }
+});
+
+// Scroll reveal
+const reveals = document.querySelectorAll('.reveal');
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }});
+}, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+reveals.forEach(el => obs.observe(el));
+
+// Smooth anchor scroll
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    const t = document.querySelector(a.getAttribute('href'));
+    if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+});
+</script></body>
+</html>
