@@ -308,18 +308,141 @@ footer { padding: 1.5rem 2rem; border-top: 1px solid var(--border-subtle); }
 }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 
+/* Hero split layout */
+.hero-split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  align-items: center;
+  max-width: var(--w-wide);
+  margin: 0 auto;
+}
+.hero-photo img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  display: block;
+}
+
+/* Stats strip */
+.stats-strip {
+  display: flex;
+  justify-content: center;
+  gap: clamp(2rem, 6vw, 5rem);
+  padding: 3.5rem 2rem;
+  background: var(--bg-warm);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+  text-align: center;
+}
+.stat-item .stat-number {
+  font-family: var(--serif);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 500;
+  line-height: 1;
+  color: var(--accent);
+  display: block;
+}
+.stat-item .stat-label {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-top: 0.6rem;
+  display: block;
+}
+
+/* Section photo banner */
+.section-photo {
+  margin-bottom: 2.5rem;
+  overflow: hidden;
+  border-radius: 6px;
+}
+.section-photo img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center 20%;
+  display: block;
+}
+.section-photo-caption {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: 0.75rem;
+  font-style: italic;
+}
+
+/* Family photo in dark section */
+.family-photo {
+  text-align: center;
+  margin: 2.5rem auto;
+  max-width: 480px;
+}
+.family-photo img {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgba(255,255,255,0.08);
+  display: block;
+}
+
+/* Contact avatar */
+.contact-avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 30%;
+  margin: 0 auto 1.5rem;
+  display: block;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+/* Philosophy hover border */
+.philosophy-list li {
+  padding-left: 0;
+  border-left: 2px solid transparent;
+  transition: padding-left 0.25s ease, border-left-color 0.25s ease;
+}
+.philosophy-list li:hover {
+  padding-left: 1rem;
+  border-left-color: var(--accent);
+}
+
+/* Section divider */
+.section-divider {
+  display: block;
+  width: 100%;
+  height: 50px;
+  fill: var(--bg-warm);
+}
+
 /* Responsive */
 @media (min-width: 640px) {
   .phases { grid-template-columns: 1fr 1fr; }
   .evidence-grid { grid-template-columns: 1fr 1fr; }
   .now-grid { grid-template-columns: 1fr 1fr; }
 }
+@media (min-width: 769px) {
+  section { padding: 6.5rem 2rem; }
+  .hero-split { grid-template-columns: 1fr 1fr; }
+  .evidence-item { padding: 2rem 1.75rem; }
+}
 @media (max-width: 768px) {
   section { padding: 3.5rem 1.25rem; }
   nav { padding: 0.85rem 1.25rem; }
   .hero { padding-top: 6.5rem; min-height: auto; }
+  .hero-split { text-align: center; }
+  .hero-photo { order: -1; }
+  .hero-photo img { width: 70%; margin: 0 auto; }
+  .hero h1 { max-width: none; }
+  .hero-text p { max-width: none; }
   .contact { padding: 4.5rem 1.25rem; }
   .footer-inner { flex-direction: column; gap: 0.6rem; text-align: center; }
+  .section-photo { border-radius: 0; margin-left: -1.25rem; margin-right: -1.25rem; }
+  .stats-strip { gap: 1.5rem; padding: 2.5rem 1.25rem; }
 }
 @media (max-width: 600px) {
   .nav-toggle { display: block; z-index: 200; }
@@ -360,25 +483,33 @@ footer { padding: 1.5rem 2rem; border-top: 1px solid var(--border-subtle); }
 
 <!-- Hero -->
 <section class="hero">
-  <div class="content">
-    <div class="hero-label">Strategic Advisory &middot; Charlotte, NC</div>
-    <h1>The most expensive failures I've seen weren't technical. They were directional.</h1>
-    <div class="hero-text">
-      <p>
-        I've sat in rooms full of sharp, experienced leaders generating enormous activity — refining requirements, commissioning analysis, building roadmaps — while something essential went unspoken.
-      </p>
-      <p>
-        Direction was implied. Tradeoffs were softened. And <strong>motion started masquerading as progress.</strong>
-      </p>
-      <p>
-        I work with fintech founders and executive teams navigating regulatory pressure, platform complexity, and AI acceleration — bringing structure to environments where confusion compounds cost.
-      </p>
+  <div class="hero-split">
+    <div class="hero-content">
+      <div class="hero-label">Strategic Advisory &middot; Charlotte, NC</div>
+      <h1>The most expensive failures I've seen weren't technical. They were directional.</h1>
+      <div class="hero-text">
+        <p>
+          I've sat in rooms full of sharp, experienced leaders generating enormous activity — refining requirements, commissioning analysis, building roadmaps — while something essential went unspoken.
+        </p>
+        <p>
+          Direction was implied. Tradeoffs were softened. And <strong>motion started masquerading as progress.</strong>
+        </p>
+        <p>
+          I work with fintech founders and executive teams navigating regulatory pressure, platform complexity, and AI acceleration — bringing structure to environments where confusion compounds cost.
+        </p>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="images/headshot-dumbo.jpg" loading="eager" alt="Stefan Friend in DUMBO, Brooklyn with the Manhattan Bridge behind him">
     </div>
   </div>
 </section>
 
+<!-- Section divider -->
+<svg class="section-divider" viewBox="0 0 1440 50" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,50 C360,0 1080,0 1440,50 L1440,50 L0,50 Z"/></svg>
+
 <!-- The Pattern -->
-<section class="warm-bg" id="pattern">
+<section class="warm-bg" id="pattern" style="padding-top: 3rem;">
   <div class="content reveal">
     <div class="label">The Pattern</div>
     <h2>Leadership too often confuses motion with progress.</h2>
@@ -428,6 +559,22 @@ footer { padding: 1.5rem 2rem; border-top: 1px solid var(--border-subtle); }
     </div>
   </div>
 </section>
+
+<!-- Stats Strip -->
+<div class="stats-strip reveal">
+  <div class="stat-item">
+    <span class="stat-number">3,796+</span>
+    <span class="stat-label">days sober</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-number">120+</span>
+    <span class="stat-label">at first community event</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-number">48 hrs</span>
+    <span class="stat-label">to build a SaaS platform</span>
+  </div>
+</div>
 
 <!-- Track Record -->
 <section class="warm-bg">
@@ -521,6 +668,10 @@ footer { padding: 1.5rem 2rem; border-top: 1px solid var(--border-subtle); }
     <h2>I'm not just advising. I'm in the arena.</h2>
     <div class="prose">
       <p>Credibility comes from building. Here's what I'm actively working on.</p>
+    </div>
+    <div class="section-photo">
+      <img src="images/speaking.jpg" loading="lazy" alt="Stefan Friend speaking at an OpenClaw Community Night event at Tabbris, Charlotte">
+      <div class="section-photo-caption">OpenClaw Community Night at Tabbris — Charlotte, NC</div>
     </div>
     <div class="now-grid">
       <div class="now-item">
@@ -617,6 +768,9 @@ footer { padding: 1.5rem 2rem; border-top: 1px solid var(--border-subtle); }
     <div class="pullquote">
       Vulnerability is a muscle that can be practiced and built just like any other. The rewards from doing so are almost immeasurable.
     </div>
+    <div class="family-photo">
+      <img src="images/family.jpg" loading="lazy" alt="Stefan Friend with his wife and two young children — a joyful black and white family portrait">
+    </div>
     <div class="prose">
       <p>
         I've watched teams spend years building without asking what they were building toward. I've done the same thing in my own life. The cost is the same in both cases — time you don't get back, spent on motion that felt productive but wasn't anchored to anything real.
@@ -631,6 +785,7 @@ footer { padding: 1.5rem 2rem; border-top: 1px solid var(--border-subtle); }
 <!-- Contact -->
 <section class="contact" id="contact">
   <div class="content reveal">
+    <img src="images/smores.jpg" loading="lazy" alt="Stefan Friend at a mountain wedding with a vivid sunset sky" class="contact-avatar">
     <div class="label">Let's Talk</div>
     <h2>What are you actually aiming at?</h2>
     <div class="prose">
