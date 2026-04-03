@@ -97,8 +97,7 @@ h2 { font-family: var(--serif); font-size: clamp(1.85rem, 3.2vw, 2.5rem); font-w
   margin: 2.5rem 0; border-radius: 6px; overflow: hidden;
 }
 .about-photo img {
-  width: 100%; max-height: 420px; object-fit: cover;
-  object-position: center 20%; display: block; border-radius: 6px;
+  width: 100%; display: block; border-radius: 6px;
   border: 1px solid var(--border);
 }
 
@@ -238,7 +237,7 @@ footer { padding: 1.5rem 2rem; border-top: 1px solid var(--border-subtle); }
         I was supposed to go to law school. I ended up bartending with a startup founder instead and never looked back. Since then I've been fired for being disruptive to the status quo. I've worked for sweat equity with no salary. I pitched to take over a company from its own founder. I started an impact investing tech company that got tremendous feedback from users and failed to raise money in a risk-averse city.
       </p>
       <p>
-        I also spent nearly eight years on a carousel of opioid addiction after a devastating rugby injury in college. I had a seizure in the office. That was the moment I realized something had to change. It's been 3,796 days since I last took an opioid painkiller. I'll hit 4,000 days sober on October 13, 2026 — my ninth wedding anniversary.
+        I also spent nearly eight years on a carousel of opioid addiction after a devastating rugby injury in college. I had a seizure in the office. That was the moment I realized something had to change. It's been <strong><span id="sobriety-counter"></span> days</strong> since I last took an opioid painkiller.
       </p>
       <p>
         Recovery taught me more about systems than any business book. <strong>Addiction is, at its core, an incentive design problem</strong> — where short-term signals overwhelm long-term aims. Getting clean required the same discipline I now bring to organizations: name the real problem, stop rationalizing drift, and commit to a direction even when the data is incomplete.
@@ -354,6 +353,15 @@ const navToggle = document.getElementById('navToggle');
 const navLinks = document.getElementById('navLinks');
 navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
 navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+// Sobriety counter — days since October 31, 2015
+const sobrietyEl = document.getElementById('sobriety-counter');
+if (sobrietyEl) {
+  const lastUse = new Date(2015, 9, 31); // Oct 31, 2015
+  const today = new Date();
+  const days = Math.floor((today - lastUse) / (1000 * 60 * 60 * 24));
+  sobrietyEl.textContent = days.toLocaleString();
+}
+
 const reveals = document.querySelectorAll('.reveal');
 const obs = new IntersectionObserver(entries => { entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }}); }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
 reveals.forEach(el => obs.observe(el));
