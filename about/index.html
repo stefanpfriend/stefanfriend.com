@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="About Stefan Friend — builder, product leader, recovering addict, father. The nonlinear path and what I believe.">
+<meta property="og:title" content="About — Stefan Friend">
+<meta property="og:description" content="The nonlinear path. Builder, product leader, thinker. What I believe and how to work with me.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://stefanfriend.com/about/">
+<title>About — Stefan Friend</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #0a0a0f;
+  --bg-elevated: #12121a;
+  --bg-card: #16161f;
+  --text: #e8e4dd;
+  --text-secondary: #a8a29e;
+  --text-muted: #78716c;
+  --accent: #8b7ec8;
+  --accent-hover: #a594f9;
+  --accent-glow: rgba(139, 126, 200, 0.08);
+  --border: #1e1e2a;
+  --border-subtle: #16161f;
+  --nav-bg: rgba(10, 10, 15, 0.88);
+  --selection: rgba(165, 148, 249, 0.2);
+
+  --serif: 'DM Serif Display', Georgia, serif;
+  --sans: 'Instrument Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --mono: 'JetBrains Mono', 'SF Mono', monospace;
+
+  --w-narrow: 640px;
+  --w-content: 720px;
+  --w-wide: 960px;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 17px; scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+
+body {
+  background: var(--bg); color: var(--text);
+  font-family: var(--sans); font-weight: 400; line-height: 1.72;
+  position: relative;
+}
+
+body::before {
+  content: ''; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none; z-index: 9999; opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat; background-size: 256px 256px;
+}
+
+::selection { background: var(--selection); }
+
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 1rem 2rem;
+  display: flex; justify-content: space-between; align-items: center;
+  background: var(--nav-bg);
+  backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  transition: box-shadow 0.3s ease;
+}
+nav.scrolled { box-shadow: 0 1px 0 var(--border); }
+.nav-name { font-family: var(--serif); font-size: 1.2rem; color: var(--text); text-decoration: none; letter-spacing: -0.02em; }
+.nav-right { display: flex; align-items: center; gap: 1.25rem; }
+.nav-links { display: flex; gap: 1.75rem; list-style: none; align-items: center; }
+.nav-links a { font-size: 0.78rem; font-weight: 500; color: var(--text-secondary); text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase; transition: color 0.2s; }
+.nav-links a:hover { color: var(--text); }
+.nav-links a.active { color: var(--accent); }
+.nav-cta { color: var(--accent) !important; border: 1px solid var(--accent); padding: 0.4rem 1rem; border-radius: 2px; transition: all 0.2s !important; }
+.nav-cta:hover { background: var(--accent) !important; color: var(--bg) !important; }
+.nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 0.25rem; }
+.nav-toggle span { display: block; width: 20px; height: 1.5px; background: var(--text); margin: 5px 0; }
+
+section { padding: 5rem 2rem; }
+.content { max-width: var(--w-content); margin: 0 auto; }
+.label { font-family: var(--mono); font-size: 0.7rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.5rem; }
+h1 { font-family: var(--serif); font-size: clamp(2.2rem, 4.5vw, 3.2rem); font-weight: 400; line-height: 1.15; letter-spacing: -0.025em; color: var(--text); margin-bottom: 1.5rem; }
+h2 { font-family: var(--serif); font-size: clamp(1.85rem, 3.2vw, 2.5rem); font-weight: 400; line-height: 1.22; letter-spacing: -0.02em; color: var(--text); margin-bottom: 1.5rem; }
+.prose { font-size: 1.02rem; color: var(--text-secondary); line-height: 1.78; }
+.prose p { margin-bottom: 1.35rem; }
+.prose p:last-child { margin-bottom: 0; }
+.prose strong { color: var(--text); font-weight: 500; }
+.prose em { font-family: var(--serif); font-style: italic; }
+.prose a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+.prose a:hover { border-bottom-color: var(--accent); }
+
+.page-header { padding-top: 8rem; padding-bottom: 2rem; }
+
+/* About photo */
+.about-photo {
+  margin: 2.5rem 0; border-radius: 6px; overflow: hidden;
+}
+.about-photo img {
+  width: 100%; max-height: 420px; object-fit: cover;
+  object-position: center 20%; display: block; border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+/* Family photo */
+.family-photo {
+  text-align: center; margin: 2.5rem auto; max-width: 480px;
+}
+.family-photo img {
+  width: 100%; border-radius: 4px;
+  border: 1px solid var(--border); display: block;
+}
+.photo-caption {
+  font-size: 0.78rem; color: var(--text-muted);
+  text-align: center; margin-top: 0.75rem; font-style: italic;
+}
+
+/* Pullquote */
+.pullquote {
+  font-family: var(--serif); font-size: 1.35rem; font-weight: 400;
+  font-style: italic; line-height: 1.45; color: var(--accent);
+  margin: 2.5rem 0; padding-left: 1.25rem;
+  border-left: 2px solid var(--accent); max-width: 520px;
+}
+
+/* Philosophy */
+.philosophy-list { list-style: none; margin-top: 1.5rem; }
+.philosophy-list li {
+  font-family: var(--serif); font-size: 1.1rem; font-weight: 400;
+  color: var(--text); padding: 0.85rem 0; padding-left: 0;
+  border-bottom: 1px solid var(--border-subtle); line-height: 1.45;
+  border-left: 2px solid transparent;
+  transition: padding-left 0.25s ease, border-left-color 0.25s ease;
+}
+.philosophy-list li:first-child { border-top: 1px solid var(--border-subtle); }
+.philosophy-list li:hover { padding-left: 1rem; border-left-color: var(--accent); }
+
+/* Divider */
+.section-divider {
+  width: 100%; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border), transparent);
+}
+
+/* Elevated section */
+.elevated-bg {
+  background: var(--bg-elevated);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+/* Work cards */
+.work-grid { display: grid; grid-template-columns: 1fr; gap: 1.25rem; margin-top: 2rem; }
+.work-card {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 4px; padding: 2rem;
+}
+.work-card .work-tag {
+  font-family: var(--mono); font-size: 0.65rem; font-weight: 500;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--accent); margin-bottom: 0.6rem; display: block;
+}
+.work-card h3 {
+  font-family: var(--serif); font-size: 1.15rem; font-weight: 400;
+  color: var(--text); margin-bottom: 0.6rem; line-height: 1.3;
+}
+.work-card p { font-size: 0.92rem; color: var(--text-secondary); line-height: 1.7; }
+.work-card .work-detail {
+  font-family: var(--mono); font-size: 0.72rem; color: var(--text-muted);
+  margin-top: 0.75rem; letter-spacing: 0.02em;
+}
+.work-card a { color: var(--accent); text-decoration: none; }
+.work-card a:hover { text-decoration: underline; }
+
+/* Links list */
+.links-list { display: flex; gap: 1.5rem; flex-wrap: wrap; margin-top: 1.5rem; }
+.links-list a {
+  font-family: var(--mono); font-size: 0.82rem; font-weight: 500;
+  color: var(--accent); text-decoration: none;
+  padding-bottom: 2px; border-bottom: 1px solid var(--accent);
+  transition: color 0.2s, border-color 0.2s;
+}
+.links-list a:hover { color: var(--accent-hover); border-color: var(--accent-hover); }
+
+footer { padding: 1.5rem 2rem; border-top: 1px solid var(--border-subtle); }
+.footer-inner { max-width: var(--w-wide); margin: 0 auto; display: flex; justify-content: space-between; align-items: center; font-size: 0.78rem; color: var(--text-muted); }
+.footer-links { display: flex; gap: 1.5rem; list-style: none; }
+.footer-links a { color: var(--text-muted); text-decoration: none; transition: color 0.2s; }
+.footer-links a:hover { color: var(--text); }
+
+@keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+.reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.65s ease, transform 0.65s ease; }
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+@media (min-width: 769px) { section { padding: 6.5rem 2rem; } }
+@media (max-width: 768px) { section { padding: 3.5rem 1.25rem; } nav { padding: 0.85rem 1.25rem; } .page-header { padding-top: 6.5rem; } .footer-inner { flex-direction: column; gap: 0.6rem; text-align: center; } }
+@media (max-width: 600px) {
+  .nav-toggle { display: block; z-index: 200; }
+  .nav-links { position: fixed; top: 0; right: -100%; height: 100vh; width: 72vw; max-width: 280px; flex-direction: column; background: var(--bg); padding: 5rem 2rem 2rem; gap: 1.25rem; border-left: 1px solid var(--border); transition: right 0.3s ease; box-shadow: -4px 0 20px rgba(0,0,0,0.3); }
+  .nav-links.open { right: 0; }
+  .nav-links a { font-size: 0.85rem; }
+}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <a href="/" class="nav-name">Stefan Friend</a>
+  <div class="nav-right">
+    <ul class="nav-links" id="navLinks">
+      <li><a href="/">Home</a></li>
+      <li><a href="/writing/">Writing</a></li>
+      <li><a href="/lab/">Lab</a></li>
+      <li><a href="/about/" class="active">About</a></li>
+      <li><a href="mailto:stefan@stefanfriend.com" class="nav-cta">Let's talk</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Header -->
+<section class="page-header">
+  <div class="content">
+    <div class="label">About</div>
+    <h1>This didn't come from a straight line.</h1>
+  </div>
+</section>
+
+<!-- Story -->
+<section style="padding-top: 0;">
+  <div class="content reveal">
+    <div class="about-photo">
+      <img src="/images/headshot-dumbo.jpg" loading="eager" alt="Stefan Friend in DUMBO, Brooklyn with the Manhattan Bridge behind him">
+    </div>
+    <div class="prose">
+      <p>
+        I was supposed to go to law school. I ended up bartending with a startup founder instead and never looked back. Since then I've been fired for being disruptive to the status quo. I've worked for sweat equity with no salary. I pitched to take over a company from its own founder. I started an impact investing tech company that got tremendous feedback from users and failed to raise money in a risk-averse city.
+      </p>
+      <p>
+        I also spent nearly eight years on a carousel of opioid addiction after a devastating rugby injury in college. I had a seizure in the office. That was the moment I realized something had to change. It's been 3,796 days since I last took an opioid painkiller. I'll hit 4,000 days sober on October 13, 2026 — my ninth wedding anniversary.
+      </p>
+      <p>
+        Recovery taught me more about systems than any business book. <strong>Addiction is, at its core, an incentive design problem</strong> — where short-term signals overwhelm long-term aims. Getting clean required the same discipline I now bring to organizations: name the real problem, stop rationalizing drift, and commit to a direction even when the data is incomplete.
+      </p>
+    </div>
+
+    <div class="pullquote">
+      Vulnerability is a muscle that can be practiced and built just like any other. The rewards from doing so are almost immeasurable.
+    </div>
+
+    <div class="family-photo">
+      <img src="/images/family.jpg" loading="lazy" alt="Stefan Friend with his wife and two young children — a joyful black and white family portrait">
+    </div>
+
+    <div class="prose">
+      <p>
+        I've watched teams spend years building without asking what they were building toward. I've done the same thing in my own life. The cost is the same in both cases — time you don't get back, spent on motion that felt productive but wasn't anchored to anything real.
+      </p>
+      <p>
+        The leaders I work best with share something in common: they're willing to confront uncomfortable truths about their organizations, their incentives, and sometimes about themselves. That's not weakness. <strong>That's where alignment actually begins.</strong>
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- What I Believe -->
+<section>
+  <div class="content reveal">
+    <div class="label">Philosophy</div>
+    <h2>What I believe.</h2>
+    <ul class="philosophy-list">
+      <li>In complex systems, clarity is leverage.</li>
+      <li>Avoided decisions create inertia. Inertia compounds cost.</li>
+      <li>Analysis is essential — but analysis is not strategy.</li>
+      <li>When the room goes quiet, something important is being avoided.</li>
+      <li>AI expands what teams can build. It does not decide what they should build.</li>
+      <li>Courage under ambiguity is a leadership discipline, not a personality trait.</li>
+      <li>Velocity without systems thinking isn't innovation. It's risk.</li>
+      <li>The best structure survives after the consultant leaves.</li>
+    </ul>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- Work With Me -->
+<section class="elevated-bg" id="work">
+  <div class="content reveal">
+    <div class="label">Work With Me</div>
+    <h2>How we can work together.</h2>
+    <div class="prose" style="margin-bottom: 2rem;">
+      <p>I keep my commitments focused and my client list short. Here's what that looks like.</p>
+    </div>
+    <div class="work-grid">
+      <div class="work-card">
+        <span class="work-tag">Direct</span>
+        <h3>Fractional Product Leadership</h3>
+        <p>Embedded senior PM for regulated environments, platform migrations, and strategic pivots. I work as part of your team — not a fly-in advisor. Best for companies navigating complexity who need experienced product leadership without a full-time hire.</p>
+        <div class="work-detail">4 clients max &middot; $5K/month minimum</div>
+      </div>
+      <div class="work-card">
+        <span class="work-tag">Advisory</span>
+        <h3>Selective Advising</h3>
+        <p>Advisor at <a href="https://revtechlabs.com" target="_blank" rel="noopener">RevTech Labs</a>, Charlotte's fintech accelerator. I also take on a small number of startup advisory relationships — product strategy, AI systems design, go-to-market for technical products.</p>
+      </div>
+      <div class="work-card">
+        <span class="work-tag">Studio</span>
+        <h3>Project Work via FriendTech Ventures</h3>
+        <p><a href="https://friendtechventures.com" target="_blank" rel="noopener">FriendTech Ventures</a> is my studio for project-based work — building AI systems, shaping product strategy, and framing narratives. If you need a defined engagement with a clear deliverable, that's where it lives.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- Find Me -->
+<section>
+  <div class="content reveal">
+    <div class="label">Find Me</div>
+    <h2>Let's connect.</h2>
+    <div class="prose">
+      <p>I'm always up for a conversation about systems, AI, building things, or the nonlinear path. Here's where to find me.</p>
+    </div>
+    <div class="links-list">
+      <a href="mailto:stefan@stefanfriend.com">Email</a>
+      <a href="https://www.linkedin.com/in/stefanpfriend/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://friendtechventures.com" target="_blank" rel="noopener">FriendTech Ventures</a>
+      <a href="https://tabbris.com" target="_blank" rel="noopener">Tabbris</a>
+      <a href="https://riskcast.ai" target="_blank" rel="noopener">RiskCast</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <span>&copy; 2026 Stefan Friend &middot; Charlotte, NC</span>
+    <ul class="footer-links">
+      <li><a href="https://www.linkedin.com/in/stefanpfriend/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://riskcast.ai" target="_blank" rel="noopener">RiskCast</a></li>
+      <li><a href="https://tabbris.com" target="_blank" rel="noopener">Tabbris</a></li>
+      <li><a href="https://friendtechventures.com" target="_blank" rel="noopener">FTV</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 40));
+const navToggle = document.getElementById('navToggle');
+const navLinks = document.getElementById('navLinks');
+navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+const reveals = document.querySelectorAll('.reveal');
+const obs = new IntersectionObserver(entries => { entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }}); }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+reveals.forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
