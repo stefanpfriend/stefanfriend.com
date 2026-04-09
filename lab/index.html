@@ -155,7 +155,37 @@ footer { padding: 1.5rem 2rem; border-top: 1px solid var(--border-subtle); }
   .nav-links.open { right: 0; }
   .nav-links a { font-size: 0.85rem; }
 }
+
+/* Light mode */
+[data-theme="light"] {
+  --bg: #f5f4f1; --bg-elevated: #eceae5; --bg-card: #e8e5df;
+  --text: #1a1a1f; --text-secondary: #5c5b58; --text-muted: #8a8680;
+  --accent: #6b5eb0; --accent-hover: #5a4e9c;
+  --border: #d8d5cf; --border-subtle: #e8e5df;
+  --nav-bg: rgba(245, 244, 241, 0.88);
+  --selection: rgba(107, 94, 176, 0.15);
+}
+[data-theme="light"] body::before { opacity: 0.02; }
+[data-theme="light"] .lab-tag { background: rgba(107, 94, 176, 0.1); }
+
+/* Theme toggle */
+.theme-toggle {
+  background: none; border: 1px solid var(--border); border-radius: 50%;
+  width: 34px; height: 34px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-muted); transition: color 0.25s, border-color 0.25s;
+  flex-shrink: 0; padding: 0;
+}
+.theme-toggle:hover { color: var(--accent); border-color: var(--accent); }
+.theme-toggle svg { width: 16px; height: 16px; }
+.theme-toggle .icon-sun { display: block; }
+.theme-toggle .icon-moon { display: none; }
+[data-theme="light"] .theme-toggle .icon-sun { display: none; }
+[data-theme="light"] .theme-toggle .icon-moon { display: block; }
 </style>
+<script>
+(function(){var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme:light)').matches?'light':'dark');document.documentElement.setAttribute('data-theme',t);})();
+</script>
 </head>
 <body>
 
@@ -169,6 +199,10 @@ footer { padding: 1.5rem 2rem; border-top: 1px solid var(--border-subtle); }
       <li><a href="/about/">About</a></li>
       <li><a href="mailto:stefan@stefanfriend.com" class="nav-cta">Let's talk</a></li>
     </ul>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
     <button class="nav-toggle" id="navToggle" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
@@ -260,6 +294,14 @@ navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => na
 const reveals = document.querySelectorAll('.reveal, .reveal-stagger');
 const obs = new IntersectionObserver(entries => { entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }}); }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
 reveals.forEach(el => obs.observe(el));
+
+// Theme toggle
+document.getElementById('themeToggle').addEventListener('click', function() {
+  var current = document.documentElement.getAttribute('data-theme');
+  var next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+});
 </script>
 </body>
 </html>
