@@ -1,0 +1,1459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Pack Ripper — stefanfriend/lab</title>
+<meta name="description" content="A Pokémon booster pack ripping experiment. Real sets, real cards, real pull rates, fake wallet." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Space+Mono:wght@400;700&family=Archivo+Black&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+<style>
+  /* Lab strip — links back to parent site */
+  .lab-strip {
+    background: #0a0a0a;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    padding: 0.6rem 1.25rem;
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.5);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    z-index: 200;
+  }
+  .lab-strip a {
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+  .lab-strip a:hover { color: #b8a7ff; }
+  .lab-strip .sep { color: rgba(255,255,255,0.2); }
+  .lab-strip .tag {
+    background: rgba(184,167,255,0.1);
+    border: 1px solid rgba(184,167,255,0.25);
+    color: #b8a7ff;
+    padding: 0.15rem 0.5rem;
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-family: 'JetBrains Mono', 'Space Mono', monospace;
+  }
+
+  /* Full-viewport reset so the app fills below the strip */
+  html, body { margin: 0; padding: 0; background: #0a0e1a; }
+  body { font-family: 'Space Mono', monospace; }
+  #pack-ripper-root { min-height: calc(100vh - 42px); }
+
+  /* Loading fallback shown before React hydrates */
+  .pre-hydrate {
+    min-height: calc(100vh - 42px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255,255,255,0.4);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+  }
+  .pre-hydrate .dot { animation: dot-pulse 1.4s infinite; }
+  .pre-hydrate .dot:nth-child(2) { animation-delay: 0.2s; }
+  .pre-hydrate .dot:nth-child(3) { animation-delay: 0.4s; }
+  @keyframes dot-pulse {
+    0%, 80%, 100% { opacity: 0.2; }
+    40% { opacity: 1; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Lab strip: provides a way back to the parent site without being part of main nav -->
+<div class="lab-strip">
+  <a href="https://stefanfriend.com/">← stefanfriend</a>
+  <span class="sep">/</span>
+  <a href="https://stefanfriend.com/lab/">lab</a>
+  <span class="sep">/</span>
+  <span>pack-ripper</span>
+  <span class="tag">experiment</span>
+</div>
+
+<div id="pack-ripper-root">
+  <div class="pre-hydrate">LOADING<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></div>
+</div>
+
+<!-- React via CDN. Production builds (no dev warnings, smaller). -->
+<script crossorigin src="https://unpkg.com/react@18.3.1/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+<!-- Babel compiles JSX in-browser. Fine for a single-file experiment; not what you'd ship commercially. -->
+<script src="https://unpkg.com/@babel/standalone@7.25.6/babel.min.js"></script>
+
+<script type="text/babel" data-presets="react">
+const { useState, useEffect, useRef, useCallback, useMemo } = React;
+
+// ============================================================================
+// PACK COMPOSITION LOGIC
+// ============================================================================
+const RARITY_WEIGHTS = {
+  'Rare': 55,
+  'Rare Holo': 20,
+  'Rare Holo V': 8,
+  'Rare Holo VMAX': 3,
+  'Rare Holo VSTAR': 3,
+  'Rare Ultra': 4,
+  'Rare Secret': 2,
+  'Rare Rainbow': 2,
+  'Rare Shiny': 1.5,
+  'Rare Shiny GX': 1,
+  'Amazing Rare': 0.5,
+  'Double Rare': 6,
+  'Illustration Rare': 2,
+  'Special Illustration Rare': 1.5,
+  'Hyper Rare': 1,
+};
+
+const HIGH_VALUE_RARITIES = new Set([
+  'Rare Holo', 'Rare Holo V', 'Rare Holo VMAX', 'Rare Holo VSTAR',
+  'Rare Ultra', 'Rare Secret', 'Rare Rainbow', 'Rare Shiny',
+  'Rare Shiny GX', 'Amazing Rare', 'Rare Holo EX', 'Rare Holo GX',
+  'Rare Holo LV.X', 'Rare Prime', 'Rare ACE', 'Rare BREAK',
+  'Rare Prism Star', 'LEGEND', 'Radiant Rare', 'Trainer Gallery Rare Holo',
+  'Double Rare', 'Ultra Rare', 'Illustration Rare', 'Special Illustration Rare',
+  'Hyper Rare', 'Shiny Rare', 'Shiny Ultra Rare',
+]);
+
+const isHighValue = (rarity) => {
+  if (!rarity) return false;
+  return HIGH_VALUE_RARITIES.has(rarity) || rarity.includes('Holo') ||
+         rarity.includes('Ultra') || rarity.includes('Secret') ||
+         rarity.includes('Rainbow') || rarity.includes('Shiny') ||
+         rarity.includes('Illustration') || rarity.includes('Hyper');
+};
+
+const getCardMarketPrice = (card) => {
+  if (!card?.tcgplayer?.prices) return 0;
+  const prices = card.tcgplayer.prices;
+  const sources = ['holofoil', 'reverseHolofoil', 'normal', 'unlimited', '1stEdition'];
+  for (const source of sources) {
+    if (prices[source]?.market) return prices[source].market;
+    if (prices[source]?.mid) return prices[source].mid;
+  }
+  return 0;
+};
+
+const weightedRandom = (weights) => {
+  const total = Object.values(weights).reduce((a, b) => a + b, 0);
+  let r = Math.random() * total;
+  for (const [key, weight] of Object.entries(weights)) {
+    r -= weight;
+    if (r <= 0) return key;
+  }
+  return Object.keys(weights)[0];
+};
+
+const SET_THEMES = {
+  'sv1': { bg: '#c1272d', accent: '#fbb040', pattern: 'stripes' },
+  'sv2': { bg: '#662d91', accent: '#ff6bb5', pattern: 'stripes' },
+  'sv3': { bg: '#00a99d', accent: '#fff200', pattern: 'rays' },
+  'sv4': { bg: '#004e7c', accent: '#00c0f0', pattern: 'rays' },
+  'sv5': { bg: '#8b4513', accent: '#ffd700', pattern: 'geometric' },
+  'sv6': { bg: '#1a1a4e', accent: '#ff00ff', pattern: 'rays' },
+  'sv7': { bg: '#2e7d32', accent: '#c6ff00', pattern: 'organic' },
+  'sv8': { bg: '#4a148c', accent: '#ffeb3b', pattern: 'rays' },
+  'swsh7': { bg: '#1a237e', accent: '#00bcd4', pattern: 'rays' },
+  'swsh9': { bg: '#b71c1c', accent: '#ff9800', pattern: 'stripes' },
+  'swsh12pt5': { bg: '#4a148c', accent: '#ffd700', pattern: 'rays' },
+  'swsh11': { bg: '#263238', accent: '#f44336', pattern: 'stripes' },
+  'base1': { bg: '#d32f2f', accent: '#fbc02d', pattern: 'classic' },
+  'base2': { bg: '#f57c00', accent: '#ffc107', pattern: 'classic' },
+  'base3': { bg: '#7b1fa2', accent: '#ffd54f', pattern: 'classic' },
+};
+
+const getSetTheme = (setId) => {
+  if (SET_THEMES[setId]) return SET_THEMES[setId];
+  let hash = 0;
+  for (let i = 0; i < setId.length; i++) {
+    hash = setId.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  const hue = Math.abs(hash) % 360;
+  const accentHue = (hue + 180) % 360;
+  const patterns = ['stripes', 'rays', 'geometric', 'organic'];
+  const pattern = patterns[Math.abs(hash) % patterns.length];
+  return {
+    bg: `hsl(${hue}, 65%, 35%)`,
+    accent: `hsl(${accentHue}, 85%, 60%)`,
+    pattern,
+  };
+};
+
+// localStorage-backed state (works offline, persists across sessions, no artifact sandbox)
+const STORAGE_KEYS = {
+  COLLECTION: 'packripper:collection',
+  RIP_LOG: 'packripper:log',
+  STATS: 'packripper:stats',
+};
+
+const loadStored = (key, fallback) => {
+  try {
+    const val = localStorage.getItem(key);
+    return val ? JSON.parse(val) : fallback;
+  } catch (e) { return fallback; }
+};
+
+const saveStored = (key, value) => {
+  try { localStorage.setItem(key, JSON.stringify(value)); }
+  catch (e) { console.warn('localStorage write failed', e); }
+};
+
+const PACK_COST = 4.49;
+const API_BASE = 'https://api.pokemontcg.io/v2';
+
+// ============================================================================
+// MAIN APP
+// ============================================================================
+function PokemonPackRipper() {
+  const [view, setView] = useState('shelf');
+  const [sets, setSets] = useState([]);
+  const [loadingSets, setLoadingSets] = useState(true);
+  const [apiError, setApiError] = useState(null);
+  const [selectedSet, setSelectedSet] = useState(null);
+  const [heroCards, setHeroCards] = useState({});
+  const [pulledCards, setPulledCards] = useState([]);
+  const [revealIndex, setRevealIndex] = useState(0);
+  const [collection, setCollection] = useState(() => loadStored(STORAGE_KEYS.COLLECTION, []));
+  const [ripLog, setRipLog] = useState(() => loadStored(STORAGE_KEYS.RIP_LOG, []));
+  const [stats, setStats] = useState(() => loadStored(STORAGE_KEYS.STATS, { packsOpened: 0, totalSpent: 0, totalValue: 0 }));
+  const [ripStage, setRipStage] = useState(0);
+  const [cardCache, setCardCache] = useState({});
+  const [loadingPack, setLoadingPack] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [filterSeries, setFilterSeries] = useState('all');
+
+  useEffect(() => {
+    fetch(`${API_BASE}/sets?orderBy=-releaseDate&pageSize=250`)
+      .then(r => {
+        if (!r.ok) throw new Error(`API returned ${r.status}`);
+        return r.json();
+      })
+      .then(data => {
+        setSets(data.data || []);
+        setLoadingSets(false);
+      })
+      .catch(e => {
+        console.error('Sets fetch failed', e);
+        setApiError(e.message);
+        setLoadingSets(false);
+      });
+  }, []);
+
+  const persistCollection = (newCollection) => {
+    setCollection(newCollection);
+    saveStored(STORAGE_KEYS.COLLECTION, newCollection);
+  };
+  const persistLog = (newLog) => {
+    setRipLog(newLog);
+    saveStored(STORAGE_KEYS.RIP_LOG, newLog);
+  };
+  const persistStats = (newStats) => {
+    setStats(newStats);
+    saveStored(STORAGE_KEYS.STATS, newStats);
+  };
+
+  const fetchSetCards = async (setId) => {
+    if (cardCache[setId]) return cardCache[setId];
+    const allCards = [];
+    let page = 1;
+    while (page <= 3) {
+      const res = await fetch(`${API_BASE}/cards?q=set.id:${setId}&pageSize=250&page=${page}`);
+      if (!res.ok) throw new Error(`API error ${res.status}`);
+      const data = await res.json();
+      if (!data.data || data.data.length === 0) break;
+      allCards.push(...data.data);
+      if (data.data.length < 250) break;
+      page++;
+    }
+    const byRarity = {};
+    allCards.forEach(card => {
+      const r = card.rarity || 'Common';
+      if (!byRarity[r]) byRarity[r] = [];
+      byRarity[r].push(card);
+    });
+    const cache = { all: allCards, byRarity };
+    setCardCache(prev => ({ ...prev, [setId]: cache }));
+    return cache;
+  };
+
+  const fetchHeroCard = useCallback(async (set) => {
+    if (heroCards[set.id]) return;
+    try {
+      const preferredRarities = ['Rare Secret', 'Rare Rainbow', 'Special Illustration Rare',
+        'Hyper Rare', 'Rare Holo VMAX', 'Rare Holo VSTAR', 'Illustration Rare',
+        'Rare Ultra', 'Rare Holo V', 'Rare Holo'];
+      for (const rarity of preferredRarities) {
+        const res = await fetch(
+          `${API_BASE}/cards?q=set.id:${set.id} rarity:"${rarity}"&pageSize=5&orderBy=-nationalPokedexNumbers`
+        );
+        if (!res.ok) continue;
+        const data = await res.json();
+        if (data.data?.length > 0) {
+          const hero = data.data[Math.floor(Math.random() * Math.min(3, data.data.length))];
+          setHeroCards(prev => ({ ...prev, [set.id]: hero.images?.large || hero.images?.small }));
+          return;
+        }
+      }
+      const res = await fetch(`${API_BASE}/cards?q=set.id:${set.id}&pageSize=1`);
+      if (res.ok) {
+        const data = await res.json();
+        if (data.data?.[0]) {
+          setHeroCards(prev => ({ ...prev, [set.id]: data.data[0].images?.large || data.data[0].images?.small }));
+        }
+      }
+    } catch (e) { /* silent fail */ }
+  }, [heroCards]);
+
+  const openPack = async (set) => {
+    setLoadingPack(true);
+    setRipStage(0);
+    setView('ripping');
+    try {
+      const { byRarity } = await fetchSetCards(set.id);
+      const pack = generatePack(byRarity);
+      setPulledCards(pack);
+      setLoadingPack(false);
+      setTimeout(() => setRipStage(1), 300);
+      setTimeout(() => setRipStage(2), 1200);
+      setTimeout(() => {
+        setRipStage(3);
+        setRevealIndex(0);
+        setView('reveal');
+        const packValue = pack.reduce((sum, c) => sum + getCardMarketPrice(c), 0);
+        persistStats({
+          packsOpened: stats.packsOpened + 1,
+          totalSpent: stats.totalSpent + PACK_COST,
+          totalValue: stats.totalValue + packValue,
+        });
+        const logEntry = {
+          id: Date.now(),
+          setName: set.name,
+          setId: set.id,
+          setImage: set.images?.logo,
+          cards: pack.map(c => ({
+            id: c.id, name: c.name, rarity: c.rarity,
+            image: c.images?.small, price: getCardMarketPrice(c)
+          })),
+          value: packValue,
+          timestamp: new Date().toISOString(),
+        };
+        persistLog([logEntry, ...ripLog].slice(0, 100));
+        const newHits = pack.filter(c => isHighValue(c.rarity));
+        if (newHits.length > 0) {
+          const collectionCards = newHits.map(c => ({
+            id: c.id + '-' + Date.now() + Math.random(),
+            cardId: c.id,
+            name: c.name,
+            rarity: c.rarity,
+            image: c.images?.large || c.images?.small,
+            smallImage: c.images?.small,
+            price: getCardMarketPrice(c),
+            setName: set.name,
+            setId: set.id,
+            pulledAt: new Date().toISOString(),
+            types: c.types,
+            hp: c.hp,
+            number: c.number,
+          }));
+          persistCollection([...collectionCards, ...collection]);
+        }
+      }, 2200);
+    } catch (e) {
+      console.error('Pack open failed', e);
+      setLoadingPack(false);
+      setView('shelf');
+      alert('Failed to open pack. The API may be down — try again or pick a different set.');
+    }
+  };
+
+  const generatePack = (byRarity) => {
+    const pack = [];
+    const pickFrom = (rarity, count) => {
+      const pool = byRarity[rarity];
+      if (!pool || pool.length === 0) return [];
+      const picks = [];
+      for (let i = 0; i < count; i++) {
+        picks.push(pool[Math.floor(Math.random() * pool.length)]);
+      }
+      return picks;
+    };
+    pack.push(...pickFrom('Common', 4));
+    pack.push(...pickFrom('Uncommon', 3));
+    const reverseCandidates = [...(byRarity['Common'] || []), ...(byRarity['Uncommon'] || [])];
+    if (reverseCandidates.length > 0) {
+      const rh = { ...reverseCandidates[Math.floor(Math.random() * reverseCandidates.length)] };
+      rh._reverseHolo = true;
+      pack.push(rh);
+    }
+    pack.push(...pickFrom('Common', 1));
+    const weights = {};
+    Object.keys(RARITY_WEIGHTS).forEach(r => {
+      if (byRarity[r]?.length > 0) weights[r] = RARITY_WEIGHTS[r];
+    });
+    Object.keys(byRarity).forEach(r => {
+      if (!weights[r] && r !== 'Common' && r !== 'Uncommon' && byRarity[r].length > 0) {
+        weights[r] = isHighValue(r) ? 2 : 5;
+      }
+    });
+    let hitRarity = weightedRandom(weights);
+    if (!byRarity[hitRarity] || byRarity[hitRarity].length === 0) {
+      hitRarity = Object.keys(byRarity).find(r => r.includes('Rare')) || 'Common';
+    }
+    if (byRarity[hitRarity]?.length > 0) {
+      pack.push(byRarity[hitRarity][Math.floor(Math.random() * byRarity[hitRarity].length)]);
+    } else {
+      const anyCard = Object.values(byRarity).flat()[0];
+      if (anyCard) pack.push(anyCard);
+    }
+    return pack.filter(Boolean);
+  };
+
+  const revealNext = () => {
+    if (revealIndex < pulledCards.length - 1) setRevealIndex(revealIndex + 1);
+    else setView('summary');
+  };
+
+  const confirmBuy = (set) => {
+    setSelectedSet(set);
+    fetchHeroCard(set);
+    setView('confirm');
+  };
+
+  const removeFromCollection = (id) => {
+    persistCollection(collection.filter(c => c.id !== id));
+  };
+
+  const clearAllData = () => {
+    if (!confirm('Clear entire collection, log, and stats?')) return;
+    persistCollection([]);
+    persistLog([]);
+    persistStats({ packsOpened: 0, totalSpent: 0, totalValue: 0 });
+  };
+
+  const allSeries = useMemo(() => [...new Set(sets.map(s => s.series))], [sets]);
+  const filteredSets = sets.filter(s => {
+    const matchesSearch = s.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                         s.series.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesSeries = filterSeries === 'all' || s.series === filterSeries;
+    return matchesSearch && matchesSeries;
+  });
+
+  const pnl = stats.totalValue - stats.totalSpent;
+
+  return (
+    <div className="ripper-root">
+      <Styles />
+      <header className="ripper-header">
+        <div className="logo-mark" onClick={() => setView('shelf')}>
+          <span className="logo-bolt">⚡</span>
+          <h1>PACK RIPPER</h1>
+        </div>
+        <nav className="ripper-nav">
+          <button className={view === 'shelf' ? 'nav-btn active' : 'nav-btn'} onClick={() => setView('shelf')}>SHOP</button>
+          <button className={view === 'collection' ? 'nav-btn active' : 'nav-btn'} onClick={() => setView('collection')}>
+            COLLECTION <span className="count-badge">{collection.length}</span>
+          </button>
+          <button className={view === 'log' ? 'nav-btn active' : 'nav-btn'} onClick={() => setView('log')}>LOG</button>
+        </nav>
+        <div className="stats-bar">
+          <div className="stat-chip"><span className="stat-label">PACKS</span><span className="stat-val">{stats.packsOpened}</span></div>
+          <div className="stat-chip"><span className="stat-label">SPENT</span><span className="stat-val">${stats.totalSpent.toFixed(2)}</span></div>
+          <div className={`stat-chip pnl ${pnl >= 0 ? 'up' : 'down'}`}>
+            <span className="stat-label">P&L</span>
+            <span className="stat-val">{pnl >= 0 ? '+' : ''}${pnl.toFixed(0)}</span>
+          </div>
+        </div>
+      </header>
+
+      <main className="ripper-main">
+        {apiError && (
+          <div className="api-error">
+            <strong>API unreachable:</strong> {apiError}.
+            The Pokémon TCG API may be rate-limiting or down. Try refreshing in a moment.
+          </div>
+        )}
+
+        {view === 'shelf' && (
+          <PackShelf
+            sets={filteredSets}
+            loading={loadingSets}
+            onSelect={confirmBuy}
+            searchQuery={searchQuery}
+            setSearchQuery={setSearchQuery}
+            filterSeries={filterSeries}
+            setFilterSeries={setFilterSeries}
+            allSeries={allSeries}
+            heroCards={heroCards}
+            fetchHeroCard={fetchHeroCard}
+          />
+        )}
+        {view === 'confirm' && selectedSet && (
+          <BuyConfirmation
+            set={selectedSet}
+            heroImage={heroCards[selectedSet.id]}
+            onConfirm={() => openPack(selectedSet)}
+            onCancel={() => setView('shelf')}
+          />
+        )}
+        {view === 'ripping' && (
+          <RipAnimation
+            set={selectedSet}
+            stage={ripStage}
+            loading={loadingPack}
+            heroImage={heroCards[selectedSet?.id]}
+          />
+        )}
+        {view === 'reveal' && pulledCards.length > 0 && (
+          <CardReveal cards={pulledCards} revealIndex={revealIndex} onNext={revealNext} />
+        )}
+        {view === 'summary' && (
+          <PackSummary
+            cards={pulledCards}
+            set={selectedSet}
+            onRipAgain={() => openPack(selectedSet)}
+            onBackToShelf={() => setView('shelf')}
+            onViewCollection={() => setView('collection')}
+          />
+        )}
+        {view === 'collection' && (
+          <Collection cards={collection} onRemove={removeFromCollection} onClear={clearAllData} />
+        )}
+        {view === 'log' && <RipLog log={ripLog} />}
+      </main>
+    </div>
+  );
+}
+
+// ============================================================================
+// PACK SHELF
+// ============================================================================
+function PackShelf({ sets, loading, onSelect, searchQuery, setSearchQuery,
+                    filterSeries, setFilterSeries, allSeries, heroCards, fetchHeroCard }) {
+  if (loading) {
+    return (
+      <div className="loading-screen">
+        <div className="poke-loader">
+          <div className="poke-ball-spinner" />
+          <p>Loading shelf...</p>
+        </div>
+      </div>
+    );
+  }
+  return (
+    <div className="pack-shelf">
+      <div className="shelf-hero">
+        <h2 className="section-title">THE SHOP</h2>
+        <p className="section-subtitle">Pick a pack. Tap to buy. Rip it open.</p>
+        <div className="shelf-filters">
+          <input
+            type="text"
+            className="search-input"
+            placeholder="Search sets..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
+          <select className="series-select" value={filterSeries} onChange={(e) => setFilterSeries(e.target.value)}>
+            <option value="all">All Series</option>
+            {allSeries.map(s => <option key={s} value={s}>{s}</option>)}
+          </select>
+        </div>
+      </div>
+      {sets.length === 0 ? (
+        <div className="empty-state">
+          <div className="empty-icon">◇</div>
+          <h3>NO PACKS MATCH</h3>
+          <p>Try a different search or series filter.</p>
+        </div>
+      ) : (
+        <div className="pack-grid">
+          {sets.map(set => (
+            <PackThumb key={set.id} set={set} onSelect={onSelect} heroImage={heroCards[set.id]} fetchHero={fetchHeroCard} />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function PackThumb({ set, onSelect, heroImage, fetchHero }) {
+  const theme = useMemo(() => getSetTheme(set.id), [set.id]);
+  const ref = useRef(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    if (!ref.current) return;
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        setVisible(true);
+        fetchHero(set);
+        observer.disconnect();
+      }
+    }, { rootMargin: '100px' });
+    observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, [set.id]);
+
+  return (
+    <button ref={ref} className="pack-thumb" onClick={() => onSelect(set)} aria-label={`Buy ${set.name} booster pack`}>
+      <PackArt set={set} theme={theme} heroImage={visible ? heroImage : null} />
+      <div className="pack-thumb-info">
+        <div className="pack-thumb-name">{set.name}</div>
+        <div className="pack-thumb-meta">
+          <span>{set.total} cards</span>
+          <span className="pack-thumb-price">${PACK_COST}</span>
+        </div>
+      </div>
+    </button>
+  );
+}
+
+function PackArt({ set, theme, heroImage, large }) {
+  return (
+    <div className={`pack-art ${large ? 'large' : ''}`} style={{ '--pack-bg': theme.bg, '--pack-accent': theme.accent }}>
+      <div className={`pack-art-bg pattern-${theme.pattern}`} />
+      <div className="pack-art-gradient" />
+      <div className="pack-art-top">
+        {set.images?.logo && <img src={set.images.logo} alt="" className="pack-art-logo" />}
+      </div>
+      <div className="pack-art-hero">
+        {heroImage ? (
+          <img src={heroImage} alt="" className="pack-art-hero-img" />
+        ) : (
+          <div className="pack-art-hero-placeholder">
+            {set.images?.symbol && <img src={set.images.symbol} alt="" />}
+          </div>
+        )}
+      </div>
+      <div className="pack-art-shine" />
+      <div className="pack-art-holo" />
+      <div className="pack-art-bottom">
+        <div className="pack-art-label">BOOSTER PACK</div>
+        <div className="pack-art-count">10 CARDS</div>
+      </div>
+      <div className="pack-art-tear-line" />
+    </div>
+  );
+}
+
+function BuyConfirmation({ set, heroImage, onConfirm, onCancel }) {
+  const theme = useMemo(() => getSetTheme(set.id), [set.id]);
+  return (
+    <div className="buy-confirm">
+      <div className="buy-confirm-pack"><PackArt set={set} theme={theme} heroImage={heroImage} large /></div>
+      <div className="buy-confirm-details">
+        <div className="buy-series">{set.series}</div>
+        <h2 className="buy-title">{set.name}</h2>
+        <div className="buy-meta">
+          <div className="buy-meta-row">
+            <span className="buy-meta-label">Released</span>
+            <span className="buy-meta-value">
+              {new Date(set.releaseDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+            </span>
+          </div>
+          <div className="buy-meta-row"><span className="buy-meta-label">Total Cards</span><span className="buy-meta-value">{set.total}</span></div>
+          <div className="buy-meta-row"><span className="buy-meta-label">Per Pack</span><span className="buy-meta-value">10 cards</span></div>
+          <div className="buy-meta-row"><span className="buy-meta-label">Price</span><span className="buy-meta-value price">${PACK_COST.toFixed(2)}</span></div>
+        </div>
+        <div className="buy-actions">
+          <button className="action-btn primary large" onClick={onConfirm}>BUY & RIP →</button>
+          <button className="action-btn secondary" onClick={onCancel}>BACK TO SHELF</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function RipAnimation({ set, stage, loading, heroImage }) {
+  const theme = useMemo(() => set ? getSetTheme(set.id) : null, [set]);
+  return (
+    <div className="rip-stage">
+      <div className={`pack-rip-container stage-${stage}`}>
+        <div className="pack-rip-wrapper">
+          {set && theme && <PackArt set={set} theme={theme} heroImage={heroImage} large />}
+        </div>
+        <div className="rip-status">
+          {loading && <p>Fetching cards...</p>}
+          {!loading && stage === 0 && <p>Getting ready...</p>}
+          {!loading && stage === 1 && <p>Shaking it up...</p>}
+          {!loading && stage === 2 && <p className="tearing-text">TEARING...</p>}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function CardReveal({ cards, revealIndex, onNext }) {
+  const card = cards[revealIndex];
+  if (!card) return null;
+  const isLast = revealIndex === cards.length - 1;
+  const isHit = isHighValue(card.rarity);
+  const price = getCardMarketPrice(card);
+  return (
+    <div className="reveal-stage">
+      <div className="reveal-progress">
+        <div className="progress-label">
+          CARD {revealIndex + 1} / {cards.length}
+          {isLast && <span className="hit-slot-label"> • HIT SLOT</span>}
+        </div>
+        <div className="progress-bar">
+          <div className="progress-fill" style={{ width: `${((revealIndex + 1) / cards.length) * 100}%` }} />
+        </div>
+        <div className="card-dots">
+          {cards.map((c, i) => (
+            <div key={i} className={`dot-pip ${i === revealIndex ? 'active' : ''} ${i < revealIndex ? 'revealed' : ''} ${isHighValue(c.rarity) && i <= revealIndex ? 'hit' : ''}`} />
+          ))}
+        </div>
+      </div>
+      <div key={revealIndex} className={`reveal-card-wrapper ${isHit ? 'is-hit' : ''}`} onClick={onNext}>
+        {isHit && <div className="hit-burst" />}
+        {isHit && <div className="hit-stars">✦✦✦</div>}
+        <CardDisplay card={card} large interactive />
+        <div className="reveal-card-info">
+          <div className="reveal-card-name">{card.name}</div>
+          <div className="reveal-card-meta">
+            <span className={`rarity-tag rarity-${getRarityTier(card.rarity)}`}>
+              {card.rarity || 'Common'}{card._reverseHolo && ' (Reverse Holo)'}
+            </span>
+            {price > 0 && <span className="card-price">${price.toFixed(2)}</span>}
+          </div>
+        </div>
+      </div>
+      <button className="reveal-next-btn" onClick={onNext}>{isLast ? 'SEE RESULTS →' : 'NEXT CARD →'}</button>
+      <div className="tap-hint">or tap the card</div>
+    </div>
+  );
+}
+
+function CardDisplay({ card, large, interactive, small }) {
+  const ref = useRef(null);
+  const [transform, setTransform] = useState('');
+  const [shineStyle, setShineStyle] = useState({});
+  const isHolo = card.rarity && (card.rarity.includes('Holo') || card.rarity.includes('Ultra')
+    || card.rarity.includes('Secret') || card.rarity.includes('Rainbow')
+    || card.rarity.includes('Shiny') || card.rarity.includes('Rare') || card._reverseHolo
+    || card.rarity.includes('Illustration') || card.rarity.includes('Hyper'));
+  const handleMouseMove = useCallback((e) => {
+    if (!interactive || !ref.current) return;
+    const rect = ref.current.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * 100;
+    const y = ((e.clientY - rect.top) / rect.height) * 100;
+    const tiltX = (y - 50) / 5;
+    const tiltY = (50 - x) / 5;
+    setTransform(`perspective(1000px) rotateX(${tiltX}deg) rotateY(${tiltY}deg) scale(1.02)`);
+    setShineStyle({
+      background: `radial-gradient(circle at ${x}% ${y}%, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 50%)`,
+      opacity: 1,
+    });
+  }, [interactive]);
+  const handleMouseLeave = useCallback(() => { setTransform(''); setShineStyle({ opacity: 0 }); }, []);
+  const imageUrl = card.images?.large || card.images?.small || card.image || card.smallImage;
+  const rarityClass = isHolo ? `holo-${getRarityTier(card.rarity)}` : '';
+  return (
+    <div ref={ref}
+      className={`card-display ${large ? 'large' : ''} ${small ? 'small' : ''} ${rarityClass}`}
+      style={{ transform, transition: interactive && !transform ? 'transform 0.4s ease' : 'transform 0.1s ease' }}
+      onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
+      {imageUrl ? <img src={imageUrl} alt={card.name} loading="lazy" /> : <div className="card-placeholder">{card.name}</div>}
+      {isHolo && <div className="holo-effect" />}
+      {isHolo && <div className="holo-shine" style={shineStyle} />}
+    </div>
+  );
+}
+
+function PackSummary({ cards, set, onRipAgain, onBackToShelf, onViewCollection }) {
+  const totalValue = cards.reduce((sum, c) => sum + getCardMarketPrice(c), 0);
+  const profit = totalValue - PACK_COST;
+  const hits = cards.filter(c => isHighValue(c.rarity));
+  return (
+    <div className="summary-stage">
+      <div className="summary-header">
+        <h2 className="summary-title">PACK CRACKED</h2>
+        <div className="summary-set">{set?.name}</div>
+      </div>
+      <div className="summary-stats">
+        <div className={`summary-stat-card ${profit >= 0 ? 'profit' : 'loss'}`}>
+          <div className="stat-card-label">PACK VALUE</div>
+          <div className="stat-card-value">${totalValue.toFixed(2)}</div>
+          <div className="stat-card-sub">vs ${PACK_COST} cost = {profit >= 0 ? '+' : ''}${profit.toFixed(2)}</div>
+        </div>
+        <div className="summary-stat-card">
+          <div className="stat-card-label">HIT CARDS</div>
+          <div className="stat-card-value">{hits.length}</div>
+          <div className="stat-card-sub">{hits.length > 0 ? 'Added to collection' : 'No hits this pack'}</div>
+        </div>
+      </div>
+      <div className="summary-cards-grid">
+        {cards.map((card, i) => (
+          <div key={i} className={`summary-card ${isHighValue(card.rarity) ? 'is-hit' : ''}`}>
+            <CardDisplay card={card} />
+            <div className="summary-card-label">
+              <div className="summary-card-name">{card.name}</div>
+              <div className="summary-card-rarity">{card.rarity || 'Common'}{card._reverseHolo && ' ↻'}</div>
+              {getCardMarketPrice(card) > 0 && <div className="summary-card-price">${getCardMarketPrice(card).toFixed(2)}</div>}
+            </div>
+          </div>
+        ))}
+      </div>
+      <div className="summary-actions">
+        <button className="action-btn primary" onClick={onRipAgain}>BUY ANOTHER →</button>
+        <button className="action-btn" onClick={onViewCollection}>VIEW COLLECTION</button>
+        <button className="action-btn secondary" onClick={onBackToShelf}>BACK TO SHOP</button>
+      </div>
+    </div>
+  );
+}
+
+function Collection({ cards, onRemove, onClear }) {
+  const [sortBy, setSortBy] = useState('recent');
+  const [filterSet, setFilterSet] = useState('all');
+  const sets = [...new Set(cards.map(c => c.setName))];
+  let displayed = filterSet === 'all' ? cards : cards.filter(c => c.setName === filterSet);
+  displayed = [...displayed].sort((a, b) => {
+    if (sortBy === 'value') return (b.price || 0) - (a.price || 0);
+    if (sortBy === 'name') return a.name.localeCompare(b.name);
+    if (sortBy === 'rarity') return (b.rarity || '').localeCompare(a.rarity || '');
+    return new Date(b.pulledAt) - new Date(a.pulledAt);
+  });
+  const totalValue = cards.reduce((sum, c) => sum + (c.price || 0), 0);
+  if (cards.length === 0) {
+    return (
+      <div className="empty-state">
+        <div className="empty-icon">◈</div>
+        <h3>NO HITS YET</h3>
+        <p>Rip some packs. Holo rares and above will auto-add to your collection.</p>
+      </div>
+    );
+  }
+  return (
+    <div className="collection-view">
+      <div className="collection-header">
+        <div>
+          <h2 className="section-title">COLLECTION</h2>
+          <div className="collection-meta">{cards.length} cards • ${totalValue.toFixed(2)} total value</div>
+        </div>
+        <div className="collection-controls">
+          <select value={filterSet} onChange={e => setFilterSet(e.target.value)} className="control-select">
+            <option value="all">All sets</option>
+            {sets.map(s => <option key={s} value={s}>{s}</option>)}
+          </select>
+          <select value={sortBy} onChange={e => setSortBy(e.target.value)} className="control-select">
+            <option value="recent">Most recent</option>
+            <option value="value">Highest value</option>
+            <option value="rarity">Rarity</option>
+            <option value="name">Name</option>
+          </select>
+          <button className="control-btn danger" onClick={onClear}>CLEAR ALL</button>
+        </div>
+      </div>
+      <div className="collection-grid">
+        {displayed.map(card => (
+          <div key={card.id} className="collection-card">
+            <CardDisplay card={card} />
+            <div className="collection-card-info">
+              <div className="collection-card-name">{card.name}</div>
+              <div className="collection-card-set">{card.setName}</div>
+              <div className="collection-card-bottom">
+                <span className={`rarity-tag rarity-${getRarityTier(card.rarity)}`}>{card.rarity}</span>
+                {card.price > 0 && <span className="collection-card-price">${card.price.toFixed(2)}</span>}
+              </div>
+              <button className="remove-btn" onClick={() => onRemove(card.id)}>Remove</button>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function RipLog({ log }) {
+  if (log.length === 0) {
+    return (
+      <div className="empty-state">
+        <div className="empty-icon">⟲</div>
+        <h3>NO RIPS LOGGED</h3>
+        <p>Every pack you open gets logged here with a value breakdown.</p>
+      </div>
+    );
+  }
+  return (
+    <div className="log-view">
+      <h2 className="section-title">RIP HISTORY</h2>
+      <div className="log-list">
+        {log.map(entry => {
+          const profit = entry.value - PACK_COST;
+          const hits = entry.cards.filter(c => isHighValue(c.rarity));
+          return (
+            <div key={entry.id} className="log-entry">
+              <div className="log-entry-header">
+                {entry.setImage && <img src={entry.setImage} alt="" className="log-set-img" />}
+                <div className="log-entry-info">
+                  <div className="log-set-name">{entry.setName}</div>
+                  <div className="log-time">{new Date(entry.timestamp).toLocaleString()}</div>
+                </div>
+                <div className={`log-entry-value ${profit >= 0 ? 'profit' : 'loss'}`}>
+                  ${entry.value.toFixed(2)}
+                  <span className="log-profit">({profit >= 0 ? '+' : ''}${profit.toFixed(2)})</span>
+                </div>
+              </div>
+              <div className="log-cards-strip">
+                {entry.cards.map((c, i) => (
+                  <div key={i} className={`log-card-mini ${isHighValue(c.rarity) ? 'hit' : ''}`}>
+                    {c.image && <img src={c.image} alt={c.name} loading="lazy" />}
+                  </div>
+                ))}
+              </div>
+              {hits.length > 0 && <div className="log-hits">HITS: {hits.map(h => h.name).join(' • ')}</div>}
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+function getRarityTier(rarity) {
+  if (!rarity) return 'common';
+  const r = rarity.toLowerCase();
+  if (r.includes('secret') || r.includes('rainbow') || r.includes('hyper')) return 'secret';
+  if (r.includes('vmax') || r.includes('vstar')) return 'vmax';
+  if (r.includes('shiny') || r.includes('amazing') || r.includes('illustration')) return 'shiny';
+  if (r.includes('ultra') || r.includes('v') || r.includes('ex') || r.includes('gx')) return 'ultra';
+  if (r.includes('holo')) return 'holo';
+  if (r.includes('rare')) return 'rare';
+  if (r.includes('uncommon')) return 'uncommon';
+  return 'common';
+}
+
+function Styles() {
+  return (
+    <style>{`
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      .ripper-root {
+        --bg-dark: #0a0e1a;
+        --bg-mid: #141b2e;
+        --bg-light: #1e2842;
+        --accent-yellow: #ffcb05;
+        --accent-red: #ff1a3c;
+        --accent-blue: #3d7dca;
+        --accent-green: #4dad5b;
+        --text-primary: #ffffff;
+        --text-secondary: #a0aec0;
+        --text-muted: #64748b;
+        --border: rgba(255, 203, 5, 0.2);
+        --shadow: 0 10px 40px rgba(0,0,0,0.5);
+        min-height: calc(100vh - 42px);
+        background: var(--bg-dark);
+        background-image:
+          radial-gradient(at 20% 10%, rgba(255, 203, 5, 0.08) 0, transparent 50%),
+          radial-gradient(at 80% 80%, rgba(255, 26, 60, 0.08) 0, transparent 50%),
+          radial-gradient(at 50% 50%, rgba(61, 125, 202, 0.05) 0, transparent 50%);
+        color: var(--text-primary);
+        font-family: 'Space Mono', monospace;
+        position: relative;
+        overflow-x: hidden;
+      }
+      .ripper-root::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.9'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.03 0'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23n)'/%3E%3C/svg%3E");
+        pointer-events: none; opacity: 0.4; z-index: 1;
+      }
+      .ripper-root > * { position: relative; z-index: 2; }
+      .api-error {
+        background: rgba(255,26,60,0.1);
+        border: 1px solid var(--accent-red);
+        color: #ffcccc;
+        padding: 1rem 1.25rem;
+        margin-bottom: 2rem;
+        font-size: 0.9rem;
+        border-radius: 4px;
+      }
+      .ripper-header {
+        padding: 1.5rem 2rem;
+        border-bottom: 2px solid var(--border);
+        background: rgba(10, 14, 26, 0.85);
+        backdrop-filter: blur(12px);
+        position: sticky; top: 0; z-index: 100;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        align-items: center; gap: 2rem;
+      }
+      .logo-mark { display: flex; align-items: center; gap: 0.75rem; cursor: pointer; }
+      .logo-bolt {
+        font-size: 2rem; color: var(--accent-yellow);
+        filter: drop-shadow(0 0 8px rgba(255, 203, 5, 0.6));
+        animation: bolt-pulse 2s ease-in-out infinite;
+      }
+      @keyframes bolt-pulse {
+        0%, 100% { transform: rotate(-5deg) scale(1); }
+        50% { transform: rotate(5deg) scale(1.1); }
+      }
+      .logo-mark h1 {
+        font-family: 'Bungee', sans-serif;
+        font-size: 1.75rem; letter-spacing: 0.02em;
+        background: linear-gradient(180deg, #ffcb05 0%, #ff8c00 100%);
+        -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .ripper-nav { display: flex; gap: 0.5rem; justify-self: center; }
+      .nav-btn {
+        background: transparent; border: 1px solid transparent;
+        color: var(--text-secondary); padding: 0.6rem 1.2rem;
+        font-family: 'Archivo Black', sans-serif; font-size: 0.75rem;
+        letter-spacing: 0.1em; cursor: pointer; transition: all 0.2s;
+        display: flex; align-items: center; gap: 0.5rem;
+      }
+      .nav-btn:hover { color: var(--accent-yellow); border-color: var(--border); }
+      .nav-btn.active { background: var(--accent-yellow); color: var(--bg-dark); border-color: var(--accent-yellow); }
+      .count-badge { background: var(--accent-red); color: white; padding: 0.1rem 0.4rem; font-size: 0.7rem; border-radius: 2px; }
+      .nav-btn.active .count-badge { background: var(--bg-dark); color: var(--accent-yellow); }
+      .stats-bar { display: flex; gap: 0.5rem; }
+      .stat-chip {
+        background: var(--bg-mid); border: 1px solid var(--border);
+        padding: 0.5rem 0.9rem; display: flex; flex-direction: column;
+        align-items: center; min-width: 70px;
+      }
+      .stat-label { font-size: 0.6rem; color: var(--text-muted); letter-spacing: 0.1em; font-family: 'Archivo Black', sans-serif; }
+      .stat-val { font-size: 0.9rem; font-weight: 700; }
+      .stat-chip.pnl.up .stat-val { color: var(--accent-green); }
+      .stat-chip.pnl.down .stat-val { color: var(--accent-red); }
+      .ripper-main { max-width: 1500px; margin: 0 auto; padding: 2.5rem 2rem 4rem; }
+      .loading-screen { padding: 6rem 2rem; display: flex; justify-content: center; }
+      .poke-loader { text-align: center; }
+      .poke-ball-spinner {
+        width: 80px; height: 80px; border-radius: 50%; margin: 0 auto 1.5rem;
+        background: linear-gradient(180deg, var(--accent-red) 0%, var(--accent-red) 48%, #000 48%, #000 52%, white 52%, white 100%);
+        box-shadow: 0 0 40px rgba(255, 26, 60, 0.4), inset -8px -8px 20px rgba(0,0,0,0.3);
+        animation: spin 1.2s linear infinite; position: relative;
+      }
+      .poke-ball-spinner::after {
+        content: ''; position: absolute; top: 50%; left: 50%;
+        transform: translate(-50%, -50%); width: 20px; height: 20px;
+        border-radius: 50%; background: white; border: 4px solid black;
+      }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      .shelf-hero { margin-bottom: 3rem; text-align: center; }
+      .section-title {
+        font-family: 'Bungee', sans-serif; font-size: 2.5rem;
+        letter-spacing: 0.02em; margin-bottom: 0.5rem;
+        background: linear-gradient(180deg, #ffffff 0%, #a0aec0 100%);
+        -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .section-subtitle { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem; }
+      .shelf-filters { display: flex; gap: 0.75rem; max-width: 700px; margin: 0 auto; flex-wrap: wrap; justify-content: center; }
+      .search-input {
+        flex: 1; min-width: 250px; padding: 0.9rem 1.25rem;
+        background: var(--bg-mid); border: 2px solid var(--border);
+        color: var(--text-primary); font-family: 'Space Mono', monospace;
+        font-size: 0.95rem; transition: all 0.2s;
+      }
+      .search-input:focus { outline: none; border-color: var(--accent-yellow); box-shadow: 0 0 0 4px rgba(255, 203, 5, 0.1); }
+      .series-select {
+        padding: 0.9rem 1.25rem; background: var(--bg-mid);
+        border: 2px solid var(--border); color: var(--text-primary);
+        font-family: 'Space Mono', monospace; font-size: 0.9rem; cursor: pointer;
+      }
+      .pack-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 2rem 1.5rem; }
+      .pack-thumb {
+        background: transparent; border: none; padding: 0; cursor: pointer;
+        display: flex; flex-direction: column; gap: 0.75rem;
+        color: inherit; font-family: inherit; text-align: center;
+        transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+      }
+      .pack-thumb:hover { transform: translateY(-8px); }
+      .pack-thumb:hover .pack-art::after { opacity: 1; }
+      .pack-thumb-info { padding: 0 0.25rem; }
+      .pack-thumb-name {
+        font-family: 'Archivo Black', sans-serif; font-size: 0.85rem;
+        margin-bottom: 0.4rem; line-height: 1.2; overflow: hidden;
+        display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+        min-height: 2.4em;
+      }
+      .pack-thumb-meta { display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; color: var(--text-muted); }
+      .pack-thumb-price { color: var(--accent-yellow); font-family: 'Archivo Black', sans-serif; }
+      .pack-art {
+        position: relative; width: 100%; aspect-ratio: 3 / 5;
+        background: var(--pack-bg, #1a3a72); border-radius: 12px; overflow: hidden;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.4), inset 0 0 20px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.2);
+        transition: all 0.3s;
+      }
+      .pack-art.large { max-width: 340px; }
+      .pack-art::after {
+        content: ''; position: absolute; inset: -2px; border-radius: 12px;
+        background: linear-gradient(135deg, var(--pack-accent), var(--pack-bg), var(--pack-accent));
+        z-index: -1; opacity: 0; transition: opacity 0.3s; filter: blur(12px);
+      }
+      .pack-art-bg { position: absolute; inset: 0; opacity: 0.6; }
+      .pattern-stripes { background: repeating-linear-gradient(45deg, transparent 0, transparent 12px, rgba(255,255,255,0.08) 12px, rgba(255,255,255,0.08) 24px); }
+      .pattern-rays {
+        background: conic-gradient(from 0deg at 50% 100%,
+          transparent 0deg, rgba(255,255,255,0.1) 20deg, transparent 40deg,
+          rgba(255,255,255,0.1) 60deg, transparent 80deg,
+          rgba(255,255,255,0.1) 100deg, transparent 120deg,
+          rgba(255,255,255,0.1) 140deg, transparent 160deg,
+          rgba(255,255,255,0.1) 180deg, transparent 360deg);
+      }
+      .pattern-geometric {
+        background-image:
+          radial-gradient(circle at 20% 20%, rgba(255,255,255,0.1) 2px, transparent 2px),
+          radial-gradient(circle at 80% 40%, rgba(255,255,255,0.1) 2px, transparent 2px),
+          radial-gradient(circle at 40% 70%, rgba(255,255,255,0.1) 2px, transparent 2px);
+        background-size: 60px 60px;
+      }
+      .pattern-organic {
+        background: radial-gradient(ellipse at 30% 30%, rgba(255,255,255,0.15), transparent 50%),
+          radial-gradient(ellipse at 70% 70%, rgba(0,0,0,0.2), transparent 50%);
+      }
+      .pattern-classic {
+        background: linear-gradient(90deg, transparent 48%, rgba(255,255,255,0.05) 49%, rgba(255,255,255,0.05) 51%, transparent 52%),
+          repeating-linear-gradient(0deg, transparent 0, transparent 20px, rgba(0,0,0,0.1) 20px, rgba(0,0,0,0.1) 21px);
+      }
+      .pack-art-gradient { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, transparent 25%, transparent 75%, rgba(0,0,0,0.4) 100%); }
+      .pack-art-top {
+        position: absolute; top: 0; left: 0; right: 0; height: 20%;
+        display: flex; align-items: center; justify-content: center; padding: 0.75rem;
+        background: linear-gradient(180deg, var(--pack-accent) 0%, transparent 100%); z-index: 3;
+      }
+      .pack-art-logo { max-width: 85%; max-height: 80%; object-fit: contain; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.6)); }
+      .pack-art-hero {
+        position: absolute; top: 20%; left: 0; right: 0; bottom: 15%;
+        display: flex; align-items: center; justify-content: center;
+        overflow: hidden; padding: 0.5rem;
+      }
+      .pack-art-hero-img {
+        max-width: 100%; max-height: 100%; object-fit: contain;
+        filter: drop-shadow(0 4px 12px rgba(0,0,0,0.6)) brightness(1.05) contrast(1.1);
+        transform: rotate(-3deg); transition: transform 0.5s ease;
+      }
+      .pack-thumb:hover .pack-art-hero-img { transform: rotate(0deg) scale(1.05); }
+      .pack-art-hero-placeholder { display: flex; align-items: center; justify-content: center; width: 60%; height: 60%; opacity: 0.3; }
+      .pack-art-hero-placeholder img { max-width: 100%; max-height: 100%; }
+      .pack-art-shine {
+        position: absolute; top: -50%; left: -50%; width: 200%; height: 200%;
+        background: linear-gradient(45deg, transparent 40%, rgba(255,255,255,0.2) 50%, transparent 60%);
+        animation: pack-shine 4s infinite; pointer-events: none; z-index: 4;
+      }
+      .pack-thumb:hover .pack-art-shine { animation-duration: 1.5s; }
+      @keyframes pack-shine {
+        0% { transform: translateX(-100%) translateY(-100%); }
+        100% { transform: translateX(100%) translateY(100%); }
+      }
+      .pack-art-holo {
+        position: absolute; inset: 0;
+        background: conic-gradient(from 180deg at 50% 50%,
+          transparent 0deg, rgba(255, 0, 150, 0.1) 60deg,
+          rgba(255, 230, 0, 0.1) 120deg, rgba(0, 200, 255, 0.1) 180deg,
+          rgba(150, 0, 255, 0.1) 240deg, rgba(255, 100, 0, 0.1) 300deg,
+          transparent 360deg);
+        mix-blend-mode: color-dodge; opacity: 0.5; pointer-events: none;
+      }
+      .pack-art-bottom {
+        position: absolute; bottom: 0; left: 0; right: 0; height: 12%;
+        display: flex; align-items: center; justify-content: space-between;
+        padding: 0 0.75rem; background: rgba(0,0,0,0.4); z-index: 3;
+      }
+      .pack-art-label, .pack-art-count {
+        font-family: 'Archivo Black', sans-serif; font-size: 0.6rem;
+        color: rgba(255,255,255,0.9); letter-spacing: 0.1em;
+      }
+      .pack-art-count { color: var(--pack-accent); }
+      .pack-art-tear-line {
+        position: absolute; top: 15%; left: 0; right: 0; height: 2px;
+        background: repeating-linear-gradient(90deg, rgba(0,0,0,0.4) 0, rgba(0,0,0,0.4) 3px, transparent 3px, transparent 6px);
+        z-index: 2;
+      }
+      .buy-confirm {
+        max-width: 900px; margin: 0 auto;
+        display: grid; grid-template-columns: auto 1fr;
+        gap: 3rem; align-items: center; padding: 2rem;
+        animation: fade-in 0.4s ease;
+      }
+      @keyframes fade-in { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+      .buy-confirm-pack { width: 280px; animation: pack-hover 3s ease-in-out infinite; }
+      @keyframes pack-hover {
+        0%, 100% { transform: translateY(0) rotateZ(-2deg); }
+        50% { transform: translateY(-10px) rotateZ(2deg); }
+      }
+      .buy-confirm-details { max-width: 450px; }
+      .buy-series { font-family: 'Archivo Black', sans-serif; font-size: 0.75rem; color: var(--accent-yellow); letter-spacing: 0.2em; margin-bottom: 0.5rem; }
+      .buy-title { font-family: 'Bungee', sans-serif; font-size: 2.25rem; line-height: 1.1; margin-bottom: 1.5rem; }
+      .buy-meta { margin-bottom: 2rem; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 1rem 0; }
+      .buy-meta-row { display: flex; justify-content: space-between; padding: 0.5rem 0; font-size: 0.9rem; }
+      .buy-meta-label { color: var(--text-muted); }
+      .buy-meta-value { font-weight: 700; }
+      .buy-meta-value.price { color: var(--accent-yellow); font-size: 1.1rem; }
+      .buy-actions { display: flex; gap: 0.75rem; flex-direction: column; }
+      .action-btn.large { padding: 1.25rem 2rem; font-size: 1rem; }
+      .rip-stage { min-height: 70vh; display: flex; align-items: center; justify-content: center; perspective: 1500px; }
+      .pack-rip-container { text-align: center; }
+      .pack-rip-wrapper { display: flex; justify-content: center; margin-bottom: 3rem; width: 280px; }
+      .pack-rip-container .pack-art { transform-style: preserve-3d; transition: transform 0.3s; }
+      .stage-1 .pack-art { animation: shake 0.15s ease-in-out 6; }
+      @keyframes shake {
+        0%, 100% { transform: translateX(0) rotateZ(0); }
+        25% { transform: translateX(-8px) rotateZ(-2deg); }
+        75% { transform: translateX(8px) rotateZ(2deg); }
+      }
+      .stage-2 .pack-art { animation: tear-open 1s ease-out forwards; }
+      @keyframes tear-open {
+        0% { transform: scale(1); }
+        40% { transform: scale(1.1) rotateY(10deg); }
+        100% { transform: scale(0.8) rotateY(60deg) translateY(-50px); opacity: 0; }
+      }
+      .rip-status p { font-family: 'Archivo Black', sans-serif; font-size: 1rem; color: var(--text-secondary); letter-spacing: 0.15em; }
+      .tearing-text { color: var(--accent-red) !important; animation: pulse-text 0.4s ease-in-out infinite; }
+      @keyframes pulse-text {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+      }
+      .reveal-stage { max-width: 600px; margin: 0 auto; text-align: center; padding: 2rem 1rem; }
+      .reveal-progress { margin-bottom: 2rem; }
+      .progress-label { font-family: 'Archivo Black', sans-serif; font-size: 0.8rem; letter-spacing: 0.15em; color: var(--text-secondary); margin-bottom: 0.75rem; }
+      .hit-slot-label { color: var(--accent-yellow); animation: pulse-text 1s infinite; }
+      .progress-bar { height: 3px; background: var(--bg-mid); border: 1px solid var(--border); overflow: hidden; margin-bottom: 1rem; }
+      .progress-fill { height: 100%; background: linear-gradient(90deg, var(--accent-yellow) 0%, var(--accent-red) 100%); transition: width 0.4s ease; }
+      .card-dots { display: flex; gap: 0.4rem; justify-content: center; }
+      .dot-pip { width: 8px; height: 8px; border-radius: 50%; background: var(--bg-mid); border: 1px solid var(--text-muted); transition: all 0.3s; }
+      .dot-pip.active { background: var(--accent-yellow); border-color: var(--accent-yellow); transform: scale(1.3); box-shadow: 0 0 8px rgba(255,203,5,0.6); }
+      .dot-pip.revealed { background: var(--text-muted); }
+      .dot-pip.hit { background: var(--accent-red); border-color: var(--accent-red); box-shadow: 0 0 8px rgba(255,26,60,0.6); }
+      .reveal-card-wrapper { position: relative; margin-bottom: 2rem; cursor: pointer; animation: reveal-in 0.6s cubic-bezier(0.22, 1, 0.36, 1); }
+      @keyframes reveal-in {
+        0% { opacity: 0; transform: translateY(40px) scale(0.9) rotateX(30deg); }
+        100% { opacity: 1; transform: translateY(0) scale(1) rotateX(0); }
+      }
+      .reveal-card-wrapper.is-hit { animation: reveal-in-hit 0.8s cubic-bezier(0.22, 1, 0.36, 1); }
+      @keyframes reveal-in-hit {
+        0% { opacity: 0; transform: scale(0.5) rotateZ(-180deg); filter: blur(20px); }
+        50% { opacity: 1; transform: scale(1.15) rotateZ(5deg); filter: blur(0); }
+        100% { opacity: 1; transform: scale(1) rotateZ(0); filter: blur(0); }
+      }
+      .hit-burst {
+        position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+        width: 500px; height: 500px;
+        background: radial-gradient(circle, rgba(255,203,5,0.4) 0%, transparent 60%);
+        animation: burst 1.2s ease-out; pointer-events: none; z-index: -1;
+      }
+      @keyframes burst {
+        0% { transform: translate(-50%, -50%) scale(0.3); opacity: 1; }
+        100% { transform: translate(-50%, -50%) scale(1.5); opacity: 0; }
+      }
+      .hit-stars {
+        position: absolute; top: -20px; left: 50%; transform: translateX(-50%);
+        font-size: 1.5rem; color: var(--accent-yellow);
+        animation: stars-float 2s ease-in-out infinite;
+        text-shadow: 0 0 20px rgba(255,203,5,0.8);
+      }
+      @keyframes stars-float {
+        0%, 100% { transform: translateX(-50%) translateY(0); }
+        50% { transform: translateX(-50%) translateY(-10px); }
+      }
+      .reveal-card-info { margin-top: 1.5rem; }
+      .reveal-card-name { font-family: 'Archivo Black', sans-serif; font-size: 1.3rem; margin-bottom: 0.75rem; }
+      .reveal-card-meta { display: flex; justify-content: center; gap: 1rem; align-items: center; }
+      .rarity-tag { padding: 0.4rem 0.8rem; font-family: 'Archivo Black', sans-serif; font-size: 0.7rem; letter-spacing: 0.1em; border: 1px solid currentColor; }
+      .rarity-common { color: var(--text-muted); }
+      .rarity-uncommon { color: #7fcc7f; }
+      .rarity-rare { color: #ffd54f; }
+      .rarity-holo { color: #42a5f5; background: rgba(66,165,245,0.1); }
+      .rarity-ultra { color: #ab47bc; background: rgba(171,71,188,0.15); box-shadow: 0 0 12px rgba(171,71,188,0.3); }
+      .rarity-vmax { color: #ef5350; background: rgba(239,83,80,0.15); box-shadow: 0 0 12px rgba(239,83,80,0.3); }
+      .rarity-shiny { color: #fdd835; background: rgba(253,216,53,0.15); box-shadow: 0 0 14px rgba(253,216,53,0.4); }
+      .rarity-secret {
+        color: #ffffff;
+        background: linear-gradient(90deg, #ff00ff, #00ffff, #ffff00);
+        background-size: 200% 100%; animation: rainbow-shift 3s linear infinite;
+        border-color: white; text-shadow: 0 0 4px rgba(0,0,0,0.8);
+      }
+      @keyframes rainbow-shift { to { background-position: -200% 0; } }
+      .card-price { font-family: 'Archivo Black', sans-serif; font-size: 1rem; color: var(--accent-green); }
+      .reveal-next-btn {
+        background: var(--accent-yellow); color: var(--bg-dark); border: none;
+        padding: 1rem 2rem; font-family: 'Archivo Black', sans-serif;
+        font-size: 0.9rem; letter-spacing: 0.15em; cursor: pointer; transition: all 0.2s;
+      }
+      .reveal-next-btn:hover { background: white; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(255,203,5,0.3); }
+      .tap-hint { margin-top: 0.75rem; font-size: 0.7rem; color: var(--text-muted); letter-spacing: 0.1em; }
+      .card-display {
+        position: relative; display: inline-block; width: 200px;
+        aspect-ratio: 63 / 88; transform-style: preserve-3d; transition: transform 0.3s;
+      }
+      .card-display.large { width: 280px; }
+      .card-display.small { width: 120px; }
+      .card-display img { width: 100%; height: 100%; object-fit: cover; border-radius: 8px; display: block; box-shadow: 0 10px 30px rgba(0,0,0,0.4); }
+      .card-placeholder {
+        width: 100%; height: 100%; background: var(--bg-mid);
+        border: 1px solid var(--border); display: flex; align-items: center;
+        justify-content: center; padding: 1rem; text-align: center; font-size: 0.9rem;
+      }
+      .holo-effect {
+        position: absolute; inset: 0; border-radius: 8px;
+        background: conic-gradient(from 45deg,
+          transparent 0deg, rgba(255, 0, 150, 0.2) 60deg,
+          rgba(255, 230, 0, 0.2) 120deg, rgba(0, 200, 255, 0.2) 180deg,
+          rgba(150, 0, 255, 0.2) 240deg, rgba(255, 100, 0, 0.2) 300deg,
+          transparent 360deg);
+        mix-blend-mode: color-dodge; opacity: 0.6; pointer-events: none;
+        animation: holo-rotate 4s linear infinite;
+      }
+      .holo-shine { position: absolute; inset: 0; border-radius: 8px; opacity: 0; transition: opacity 0.3s; mix-blend-mode: overlay; pointer-events: none; }
+      @keyframes holo-rotate {
+        0% { filter: hue-rotate(0deg); }
+        100% { filter: hue-rotate(360deg); }
+      }
+      .card-display.holo-secret .holo-effect,
+      .card-display.holo-shiny .holo-effect { opacity: 0.9; animation-duration: 2s; }
+      .card-display.holo-ultra .holo-effect,
+      .card-display.holo-vmax .holo-effect { opacity: 0.7; }
+      .summary-stage { padding: 1rem 0 4rem; }
+      .summary-header { text-align: center; margin-bottom: 2rem; }
+      .summary-title {
+        font-family: 'Bungee', sans-serif; font-size: 3rem;
+        background: linear-gradient(180deg, var(--accent-yellow) 0%, var(--accent-red) 100%);
+        -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        background-clip: text; margin-bottom: 0.5rem;
+        animation: pop-in 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+      }
+      @keyframes pop-in {
+        0% { opacity: 0; transform: scale(0.5); }
+        100% { opacity: 1; transform: scale(1); }
+      }
+      .summary-set { font-family: 'Archivo Black', sans-serif; letter-spacing: 0.15em; color: var(--text-secondary); font-size: 0.9rem; }
+      .summary-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; max-width: 700px; margin: 0 auto 3rem; }
+      .summary-stat-card { background: var(--bg-mid); border: 1px solid var(--border); padding: 1.5rem; text-align: center; }
+      .summary-stat-card.profit { border-color: var(--accent-green); background: rgba(77, 173, 91, 0.08); }
+      .summary-stat-card.loss { border-color: var(--accent-red); background: rgba(255, 26, 60, 0.08); }
+      .stat-card-label { font-family: 'Archivo Black', sans-serif; font-size: 0.7rem; letter-spacing: 0.15em; color: var(--text-secondary); margin-bottom: 0.5rem; }
+      .stat-card-value { font-family: 'Bungee', sans-serif; font-size: 2rem; margin-bottom: 0.25rem; }
+      .summary-stat-card.profit .stat-card-value { color: var(--accent-green); }
+      .summary-stat-card.loss .stat-card-value { color: var(--accent-red); }
+      .stat-card-sub { font-size: 0.8rem; color: var(--text-muted); }
+      .summary-cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; }
+      .summary-card { display: flex; flex-direction: column; align-items: center; gap: 0.75rem; position: relative; }
+      .summary-card.is-hit::before {
+        content: '★'; position: absolute; top: -10px; right: -10px;
+        background: var(--accent-yellow); color: var(--bg-dark);
+        width: 28px; height: 28px; border-radius: 50%;
+        display: flex; align-items: center; justify-content: center;
+        font-size: 1rem; box-shadow: 0 0 12px rgba(255,203,5,0.6); z-index: 10;
+      }
+      .summary-card .card-display { width: 100%; max-width: 180px; }
+      .summary-card-label { text-align: center; width: 100%; }
+      .summary-card-name {
+        font-family: 'Archivo Black', sans-serif; font-size: 0.85rem;
+        margin-bottom: 0.25rem; overflow: hidden;
+        text-overflow: ellipsis; white-space: nowrap;
+      }
+      .summary-card-rarity { font-size: 0.7rem; color: var(--text-muted); letter-spacing: 0.05em; }
+      .summary-card-price { font-family: 'Archivo Black', sans-serif; font-size: 0.8rem; color: var(--accent-green); margin-top: 0.25rem; }
+      .summary-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+      .action-btn {
+        background: var(--bg-mid); border: 1px solid var(--border);
+        color: var(--text-primary); padding: 1rem 1.5rem;
+        font-family: 'Archivo Black', sans-serif; font-size: 0.8rem;
+        letter-spacing: 0.15em; cursor: pointer; transition: all 0.2s;
+      }
+      .action-btn:hover { border-color: var(--accent-yellow); transform: translateY(-2px); }
+      .action-btn.primary { background: var(--accent-yellow); color: var(--bg-dark); border-color: var(--accent-yellow); }
+      .action-btn.primary:hover { background: white; box-shadow: 0 8px 24px rgba(255,203,5,0.3); }
+      .action-btn.secondary { background: transparent; }
+      .collection-view { padding: 1rem 0; }
+      .collection-header { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; }
+      .collection-meta { color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem; }
+      .collection-controls { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+      .control-select, .control-btn {
+        background: var(--bg-mid); border: 1px solid var(--border);
+        color: var(--text-primary); padding: 0.6rem 1rem;
+        font-family: 'Space Mono', monospace; font-size: 0.85rem; cursor: pointer;
+      }
+      .control-btn.danger { border-color: var(--accent-red); color: var(--accent-red); }
+      .control-btn.danger:hover { background: var(--accent-red); color: white; }
+      .collection-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.5rem; }
+      .collection-card {
+        display: flex; flex-direction: column; align-items: center; gap: 0.75rem;
+        background: var(--bg-mid); border: 1px solid var(--border);
+        padding: 1rem; transition: all 0.2s;
+      }
+      .collection-card:hover { border-color: var(--accent-yellow); transform: translateY(-2px); }
+      .collection-card .card-display { width: 100%; max-width: 160px; }
+      .collection-card-info { width: 100%; text-align: center; }
+      .collection-card-name {
+        font-family: 'Archivo Black', sans-serif; font-size: 0.85rem;
+        margin-bottom: 0.25rem; overflow: hidden;
+        text-overflow: ellipsis; white-space: nowrap;
+      }
+      .collection-card-set { font-size: 0.7rem; color: var(--text-muted); margin-bottom: 0.75rem; }
+      .collection-card-bottom { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; gap: 0.5rem; }
+      .collection-card-bottom .rarity-tag { padding: 0.3rem 0.5rem; font-size: 0.65rem; }
+      .collection-card-price { font-family: 'Archivo Black', sans-serif; font-size: 0.85rem; color: var(--accent-green); }
+      .remove-btn {
+        background: transparent; border: 1px solid var(--text-muted);
+        color: var(--text-muted); padding: 0.4rem 0.8rem; font-size: 0.7rem;
+        font-family: 'Archivo Black', sans-serif; letter-spacing: 0.1em;
+        cursor: pointer; width: 100%; transition: all 0.2s;
+      }
+      .remove-btn:hover { border-color: var(--accent-red); color: var(--accent-red); }
+      .empty-state { text-align: center; padding: 6rem 2rem; }
+      .empty-icon { font-size: 4rem; color: var(--text-muted); margin-bottom: 1rem; }
+      .empty-state h3 { font-family: 'Bungee', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem; }
+      .empty-state p { color: var(--text-secondary); }
+      .log-view { padding: 1rem 0; }
+      .log-list { display: flex; flex-direction: column; gap: 1rem; margin-top: 2rem; }
+      .log-entry { background: var(--bg-mid); border: 1px solid var(--border); padding: 1.25rem; transition: all 0.2s; }
+      .log-entry:hover { border-color: var(--accent-yellow); }
+      .log-entry-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
+      .log-set-img { width: 60px; height: 40px; object-fit: contain; }
+      .log-entry-info { flex: 1; }
+      .log-set-name { font-family: 'Archivo Black', sans-serif; font-size: 0.95rem; }
+      .log-time { font-size: 0.75rem; color: var(--text-muted); margin-top: 0.2rem; }
+      .log-entry-value { font-family: 'Archivo Black', sans-serif; text-align: right; }
+      .log-entry-value.profit { color: var(--accent-green); }
+      .log-entry-value.loss { color: var(--accent-red); }
+      .log-profit { display: block; font-size: 0.75rem; font-weight: normal; }
+      .log-cards-strip { display: flex; gap: 0.4rem; overflow-x: auto; padding-bottom: 0.25rem; }
+      .log-card-mini {
+        flex-shrink: 0; width: 50px; height: 70px; border-radius: 4px;
+        overflow: hidden; background: var(--bg-dark); border: 1px solid var(--border);
+      }
+      .log-card-mini.hit { border-color: var(--accent-yellow); box-shadow: 0 0 8px rgba(255,203,5,0.4); }
+      .log-card-mini img { width: 100%; height: 100%; object-fit: cover; }
+      .log-hits { margin-top: 0.75rem; font-size: 0.75rem; color: var(--accent-yellow); font-family: 'Archivo Black', sans-serif; letter-spacing: 0.05em; }
+      @media (max-width: 900px) {
+        .buy-confirm { grid-template-columns: 1fr; text-align: center; }
+        .buy-confirm-pack { margin: 0 auto; }
+        .buy-confirm-details { max-width: none; }
+      }
+      @media (max-width: 768px) {
+        .ripper-header { grid-template-columns: 1fr; gap: 1rem; padding: 1rem; }
+        .ripper-nav { justify-self: start; overflow-x: auto; width: 100%; }
+        .stats-bar { justify-self: start; overflow-x: auto; width: 100%; }
+        .logo-mark h1 { font-size: 1.3rem; }
+        .section-title { font-size: 1.8rem; }
+        .summary-title { font-size: 2rem; }
+        .ripper-main { padding: 1.5rem 1rem; }
+        .card-display.large { width: 220px; }
+        .pack-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1.5rem 1rem; }
+        .buy-title { font-size: 1.75rem; }
+      }
+    `}</style>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('pack-ripper-root'));
+root.render(<PokemonPackRipper />);
+</script>
+
+</body>
+</html>
