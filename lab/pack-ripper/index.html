@@ -225,6 +225,7 @@ function PokemonPackRipper() {
   const [revealIndex, setRevealIndex] = useState(0);
   const [collection, setCollection] = useState(() => loadStored(STORAGE_KEYS.COLLECTION, []));
   const [ripLog, setRipLog] = useState(() => loadStored(STORAGE_KEYS.RIP_LOG, []));
+  const [addedPackIndices, setAddedPackIndices] = useState(new Set());
   const [stats, setStats] = useState(() => loadStored(STORAGE_KEYS.STATS, { packsOpened: 0, totalSpent: 0, totalValue: 0 }));
   const [ripStage, setRipStage] = useState(0);
   const [cardCache, setCardCache] = useState({});
@@ -317,6 +318,7 @@ function PokemonPackRipper() {
   const openPack = async (set) => {
     setLoadingPack(true);
     setRipStage(0);
+    setAddedPackIndices(new Set());
     setView('ripping');
     try {
       const { byRarity } = await fetchSetCards(set.id);
@@ -348,25 +350,32 @@ function PokemonPackRipper() {
           timestamp: new Date().toISOString(),
         };
         persistLog([logEntry, ...ripLog].slice(0, 100));
-        const newHits = pack.filter(c => isHighValue(c.rarity));
-        if (newHits.length > 0) {
-          const collectionCards = newHits.map(c => ({
-            id: c.id + '-' + Date.now() + Math.random(),
-            cardId: c.id,
-            name: c.name,
-            rarity: c.rarity,
-            image: c.images?.large || c.images?.small,
-            smallImage: c.images?.small,
-            price: getCardMarketPrice(c),
-            setName: set.name,
-            setId: set.id,
-            pulledAt: new Date().toISOString(),
-            types: c.types,
-            hp: c.hp,
-            number: c.number,
-          }));
+        const hitIndices = new Set();
+        const collectionCards = [];
+        pack.forEach((c, idx) => {
+          if (isHighValue(c.rarity)) {
+            hitIndices.add(idx);
+            collectionCards.push({
+              id: c.id + '-' + Date.now() + Math.random(),
+              cardId: c.id,
+              name: c.name,
+              rarity: c.rarity,
+              image: c.images?.large || c.images?.small,
+              smallImage: c.images?.small,
+              price: getCardMarketPrice(c),
+              setName: set.name,
+              setId: set.id,
+              pulledAt: new Date().toISOString(),
+              types: c.types,
+              hp: c.hp,
+              number: c.number,
+            });
+          }
+        });
+        if (collectionCards.length > 0) {
           persistCollection([...collectionCards, ...collection]);
         }
+        setAddedPackIndices(hitIndices);
       }, 2200);
     } catch (e) {
       console.error('Pack open failed', e);
@@ -421,6 +430,31 @@ function PokemonPackRipper() {
   const revealNext = () => {
     if (revealIndex < pulledCards.length - 1) setRevealIndex(revealIndex + 1);
     else setView('summary');
+  };
+
+  const addCardToCollection = (index) => {
+    if (addedPackIndices.has(index)) return;
+    const c = pulledCards[index];
+    if (!c || !selectedSet) return;
+    const collectionCard = {
+      id: c.id + '-' + Date.now() + Math.random(),
+      cardId: c.id,
+      name: c.name,
+      rarity: c.rarity,
+      image: c.images?.large || c.images?.small,
+      smallImage: c.images?.small,
+      price: getCardMarketPrice(c),
+      setName: selectedSet.name,
+      setId: selectedSet.id,
+      pulledAt: new Date().toISOString(),
+      types: c.types,
+      hp: c.hp,
+      number: c.number,
+    };
+    persistCollection([collectionCard, ...collection]);
+    const next = new Set(addedPackIndices);
+    next.add(index);
+    setAddedPackIndices(next);
   };
 
   const confirmBuy = (set) => {
@@ -514,7 +548,7 @@ function PokemonPackRipper() {
           />
         )}
         {view === 'reveal' && pulledCards.length > 0 && (
-          <CardReveal cards={pulledCards} revealIndex={revealIndex} onNext={revealNext} />
+          <CardReveal cards={pulledCards} revealIndex={revealIndex} onNext={revealNext} onAddToCollection={addCardToCollection} addedIndices={addedPackIndices} />
         )}
         {view === 'summary' && (
           <PackSummary
@@ -692,11 +726,12 @@ function RipAnimation({ set, stage, loading, heroImage }) {
   );
 }
 
-function CardReveal({ cards, revealIndex, onNext }) {
+function CardReveal({ cards, revealIndex, onNext, onAddToCollection, addedIndices }) {
   const card = cards[revealIndex];
   if (!card) return null;
   const isLast = revealIndex === cards.length - 1;
   const isHit = isHighValue(card.rarity);
+  const isAdded = addedIndices && addedIndices.has(revealIndex);
   const price = getCardMarketPrice(card);
   return (
     <div className="reveal-stage">
@@ -728,8 +763,15 @@ function CardReveal({ cards, revealIndex, onNext }) {
           </div>
         </div>
       </div>
-      <button className="reveal-next-btn" onClick={onNext}>{isLast ? 'SEE RESULTS →' : 'NEXT CARD →'}</button>
-      <div className="tap-hint">or tap the card</div>
+      <div className="reveal-actions">
+        {isAdded ? (
+          <button className="reveal-add-btn is-added" disabled>✓ IN COLLECTION</button>
+        ) : (
+          <button className="reveal-add-btn" onClick={() => onAddToCollection(revealIndex)}>+ COLLECTION</button>
+        )}
+        <button className="reveal-next-btn" onClick={onNext}>{isLast ? 'SEE RESULTS →' : 'NEXT CARD →'}</button>
+      </div>
+      <div className="tap-hint">or tap the card to advance</div>
     </div>
   );
 }
@@ -1285,6 +1327,21 @@ function Styles() {
         font-size: 0.9rem; letter-spacing: 0.15em; cursor: pointer; transition: all 0.2s;
       }
       .reveal-next-btn:hover { background: white; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(255,203,5,0.3); }
+      .reveal-actions { display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; justify-content: center; }
+      .reveal-add-btn {
+        background: transparent; color: var(--text-primary);
+        border: 2px solid rgba(255,255,255,0.25);
+        padding: calc(1rem - 2px) 1.5rem; font-family: 'Archivo Black', sans-serif;
+        font-size: 0.8rem; letter-spacing: 0.15em; cursor: pointer; transition: all 0.2s;
+      }
+      .reveal-add-btn:hover:not(:disabled) {
+        border-color: var(--accent-green); color: var(--accent-green);
+        transform: translateY(-2px); box-shadow: 0 8px 24px rgba(77,173,91,0.25);
+      }
+      .reveal-add-btn.is-added {
+        border-color: var(--accent-green); color: var(--accent-green);
+        cursor: default; opacity: 0.75;
+      }
       .tap-hint { margin-top: 0.75rem; font-size: 0.7rem; color: var(--text-muted); letter-spacing: 0.1em; }
       .card-display {
         position: relative; display: inline-block; width: 200px;
