@@ -90,9 +90,158 @@
 <script crossorigin src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
 <!-- Babel compiles JSX in-browser. Fine for a single-file experiment; not what you'd ship commercially. -->
 <script src="https://unpkg.com/@babel/standalone@7.25.6/babel.min.js"></script>
+<!-- Supabase for auth + cloud sync -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 
 <script type="text/babel" data-presets="react">
 const { useState, useEffect, useRef, useCallback, useMemo } = React;
+
+// ============================================================================
+// SUPABASE CLIENT + AUTH
+// ============================================================================
+const SUPABASE_URL = 'https://kzuvrcfquevlnnyjthsz.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt6dXZyY2ZxdWV2bG5ueWp0aHN6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY4Njk0MjMsImV4cCI6MjA5MjQ0NTQyM30.u5S0YjiYRqRsu6HCf_CqxqDLjVKNPSf4gtKWzRXV0O0';
+const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const FAMILY_EMAIL = 'family@packripper.internal';
+
+function useAuth() {
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [showLogin, setShowLogin] = useState(false);
+
+  useEffect(() => {
+    supabaseClient.auth.getSession().then(({ data: { session } }) => {
+      setUser(session?.user ?? null);
+      setLoading(false);
+    });
+    const { data: { subscription } } = supabaseClient.auth.onAuthStateChange((_event, session) => {
+      setUser(session?.user ?? null);
+      if (session?.user) setShowLogin(false);
+    });
+    return () => subscription.unsubscribe();
+  }, []);
+
+  const signInWithPin = async (pin) => {
+    const { error } = await supabaseClient.auth.signInWithPassword({
+      email: FAMILY_EMAIL, password: pin,
+    });
+    return { error };
+  };
+
+  const signInWithMagicLink = async (email) => {
+    const { error } = await supabaseClient.auth.signInWithOtp({
+      email,
+      options: { emailRedirectTo: window.location.origin + window.location.pathname },
+    });
+    return { error };
+  };
+
+  const signOut = async () => {
+    await supabaseClient.auth.signOut();
+    setUser(null);
+  };
+
+  return { user, loading, showLogin, setShowLogin, signInWithPin, signInWithMagicLink, signOut };
+}
+
+// ============================================================================
+// PROFILES HOOK (Supabase-backed)
+// ============================================================================
+const profileStorageKeys = (profileId) => ({
+  COLLECTION: `packripper:p:${profileId}:collection`,
+  RIP_LOG: `packripper:p:${profileId}:log`,
+  STATS: `packripper:p:${profileId}:stats`,
+});
+
+function useProfiles(user) {
+  const [profiles, setProfiles] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [activeProfileId, setActiveProfileIdRaw] = useState(null);
+
+  useEffect(() => {
+    if (!user) { setProfiles([]); setActiveProfileIdRaw(null); return; }
+    loadProfiles();
+  }, [user?.id]);
+
+  const loadProfiles = async () => {
+    setLoading(true);
+    try {
+      const { data, error } = await supabaseClient
+        .from('profiles').select('*').eq('user_id', user.id).order('sort_order');
+      if (error) throw error;
+
+      let list = data;
+      if (data.length === 0) list = await seedProfiles();
+
+      list.forEach(p => {
+        const k = profileStorageKeys(p.id);
+        saveStored(k.COLLECTION, p.collection || []);
+        saveStored(k.RIP_LOG, p.rip_log || []);
+        saveStored(k.STATS, p.stats || { packsOpened: 0, totalSpent: 0, totalValue: 0 });
+      });
+
+      setProfiles(list);
+      const lastId = localStorage.getItem('packripper:activeProfileId');
+      const match = list.find(p => p.id === lastId);
+      setActiveProfileIdRaw(match ? match.id : list[0]?.id);
+    } catch (err) {
+      console.error('Profile load failed, using localStorage fallback', err);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const seedProfiles = async () => {
+    const isFamily = user.email === FAMILY_EMAIL;
+    const templates = isFamily
+      ? [{ name: 'Ollie', color: '#3d7dca', sort_order: 0 },
+         { name: 'Sky', color: '#ff69b4', sort_order: 1 },
+         { name: 'Dadai', color: '#ff9800', sort_order: 2 }]
+      : [{ name: 'My Collection', color: '#3d7dca', sort_order: 0 }];
+
+    const rows = templates.map(t => {
+      const row = { user_id: user.id, ...t };
+      if (isFamily) {
+        const old = storageKeys(t.name);
+        const c = loadStored(old.COLLECTION, []);
+        const r = loadStored(old.RIP_LOG, []);
+        const s = loadStored(old.STATS, { packsOpened: 0, totalSpent: 0, totalValue: 0 });
+        if (c.length > 0) row.collection = c;
+        if (r.length > 0) row.rip_log = r;
+        if (s.packsOpened > 0) row.stats = s;
+      }
+      return row;
+    });
+
+    const { data, error } = await supabaseClient.from('profiles').insert(rows).select();
+    if (error) { console.error('Seed failed', error); return []; }
+    return data;
+  };
+
+  const setActiveProfile = (id) => {
+    setActiveProfileIdRaw(id);
+    localStorage.setItem('packripper:activeProfileId', id);
+  };
+
+  const syncProfile = async (id, updates) => {
+    setProfiles(prev => prev.map(p => p.id === id ? { ...p, ...updates } : p));
+    supabaseClient.from('profiles').update(updates).eq('id', id)
+      .then(({ error }) => { if (error) console.warn('Sync error:', error); });
+  };
+
+  const addProfile = async (name, color) => {
+    if (!user) return { error: 'Not signed in' };
+    color = color || ['#3d7dca','#ff69b4','#ff9800','#4dad5b','#ab47bc','#ef5350'][profiles.length % 6];
+    const ord = profiles.length > 0 ? Math.max(...profiles.map(p => p.sort_order)) + 1 : 0;
+    const { data, error } = await supabaseClient
+      .from('profiles').insert({ user_id: user.id, name, color, sort_order: ord }).select().single();
+    if (error) return { error };
+    setProfiles(prev => [...prev, data]);
+    return { data };
+  };
+
+  return { profiles, loading, activeProfileId, setActiveProfile, syncProfile, addProfile };
+}
 
 // ============================================================================
 // PACK COMPOSITION LOGIC
@@ -190,9 +339,6 @@ const getSetTheme = (setId) => {
 };
 
 // localStorage-backed state (works offline, persists across sessions, no artifact sandbox)
-const PROFILES = ['Ollie', 'Sky', 'Dadai'];
-const PROFILE_COLORS = { Ollie: '#3d7dca', Sky: '#ff69b4', Dadai: '#ff9800' };
-
 const storageKeys = (profile) => ({
   COLLECTION: `packripper:${profile}:collection`,
   RIP_LOG: `packripper:${profile}:log`,
@@ -233,9 +379,16 @@ const API_BASE = 'https://api.pokemontcg.io/v2';
 // ============================================================================
 // MAIN APP
 // ============================================================================
-function PokemonPackRipper() {
-  const [activeProfile, setActiveProfile] = useState(() => localStorage.getItem('packripper:activeProfile') || 'Ollie');
-  const STORAGE_KEYS = useMemo(() => storageKeys(activeProfile), [activeProfile]);
+function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, activeProfileId, setActiveProfileFn, syncProfile, addProfile, profilesLoading }) {
+  const activeProfile = useMemo(() => {
+    if (!user || !profiles || !activeProfileId) return null;
+    return profiles.find(p => p.id === activeProfileId) || null;
+  }, [user, profiles, activeProfileId]);
+
+  const STORAGE_KEYS = useMemo(() => {
+    if (!activeProfileId) return null;
+    return profileStorageKeys(activeProfileId);
+  }, [activeProfileId]);
 
   const [view, setView] = useState('shelf');
   const [sets, setSets] = useState([]);
@@ -245,23 +398,29 @@ function PokemonPackRipper() {
   const [heroCards, setHeroCards] = useState({});
   const [pulledCards, setPulledCards] = useState([]);
   const [revealIndex, setRevealIndex] = useState(0);
-  const [collection, setCollection] = useState(() => loadStored(storageKeys(localStorage.getItem('packripper:activeProfile') || 'Ollie').COLLECTION, []));
-  const [ripLog, setRipLog] = useState(() => loadStored(storageKeys(localStorage.getItem('packripper:activeProfile') || 'Ollie').RIP_LOG, []));
+  const [collection, setCollection] = useState([]);
+  const [ripLog, setRipLog] = useState([]);
   const [addedPackIndices, setAddedPackIndices] = useState(new Set());
-  const [stats, setStats] = useState(() => loadStored(storageKeys(localStorage.getItem('packripper:activeProfile') || 'Ollie').STATS, { packsOpened: 0, totalSpent: 0, totalValue: 0 }));
+  const [stats, setStats] = useState({ packsOpened: 0, totalSpent: 0, totalValue: 0 });
   const [ripStage, setRipStage] = useState(0);
   const [cardCache, setCardCache] = useState({});
   const [loadingPack, setLoadingPack] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [filterSeries, setFilterSeries] = useState('all');
 
-  const switchProfile = (name) => {
-    localStorage.setItem('packripper:activeProfile', name);
-    setActiveProfile(name);
-    const keys = storageKeys(name);
-    setCollection(loadStored(keys.COLLECTION, []));
-    setRipLog(loadStored(keys.RIP_LOG, []));
-    setStats(loadStored(keys.STATS, { packsOpened: 0, totalSpent: 0, totalValue: 0 }));
+  // Load data when active profile changes
+  useEffect(() => {
+    if (!user || !activeProfile) {
+      if (!user) { setCollection([]); setRipLog([]); setStats({ packsOpened: 0, totalSpent: 0, totalValue: 0 }); }
+      return;
+    }
+    setCollection(activeProfile.collection || []);
+    setRipLog(activeProfile.rip_log || []);
+    setStats(activeProfile.stats || { packsOpened: 0, totalSpent: 0, totalValue: 0 });
+  }, [activeProfileId, user?.id]);
+
+  const switchProfile = (id) => {
+    setActiveProfileFn(id);
     setView('shelf');
   };
 
@@ -284,15 +443,24 @@ function PokemonPackRipper() {
 
   const persistCollection = (newCollection) => {
     setCollection(newCollection);
-    saveStored(STORAGE_KEYS.COLLECTION, newCollection);
+    if (user && STORAGE_KEYS) {
+      saveStored(STORAGE_KEYS.COLLECTION, newCollection);
+      syncProfile(activeProfileId, { collection: newCollection });
+    }
   };
   const persistLog = (newLog) => {
     setRipLog(newLog);
-    saveStored(STORAGE_KEYS.RIP_LOG, newLog);
+    if (user && STORAGE_KEYS) {
+      saveStored(STORAGE_KEYS.RIP_LOG, newLog);
+      syncProfile(activeProfileId, { rip_log: newLog });
+    }
   };
   const persistStats = (newStats) => {
     setStats(newStats);
-    saveStored(STORAGE_KEYS.STATS, newStats);
+    if (user && STORAGE_KEYS) {
+      saveStored(STORAGE_KEYS.STATS, newStats);
+      syncProfile(activeProfileId, { stats: newStats });
+    }
   };
 
   const fetchSetCards = async (setId) => {
@@ -538,26 +706,48 @@ function PokemonPackRipper() {
             <span className="stat-label">P&L</span>
             <span className="stat-val">{pnl >= 0 ? '+' : ''}${pnl.toFixed(0)}</span>
           </div>
+          {user ? (
+            <button className="auth-btn" onClick={signOut}>SIGN OUT</button>
+          ) : (
+            <button className="auth-btn sign-in" onClick={() => setShowLogin(true)}>SIGN IN</button>
+          )}
         </div>
       </header>
 
-      <div className="profile-switcher">
-        {PROFILES.map(p => (
-          <button
-            key={p}
-            className={`profile-chip ${activeProfile === p ? 'active' : ''}`}
-            style={{
-              '--chip-color': PROFILE_COLORS[p],
-              background: activeProfile === p ? PROFILE_COLORS[p] : 'transparent',
-              borderColor: PROFILE_COLORS[p],
-              color: activeProfile === p ? '#0a0e1a' : PROFILE_COLORS[p],
-            }}
-            onClick={() => switchProfile(p)}
-          >
-            {p}
-          </button>
-        ))}
-      </div>
+      {user && (
+        <div className="profile-switcher">
+          {profilesLoading ? (
+            <span className="profile-loading">Loading profiles...</span>
+          ) : (
+            <>
+              {profiles.map(p => (
+                <button
+                  key={p.id}
+                  className={`profile-chip ${activeProfileId === p.id ? 'active' : ''}`}
+                  style={{
+                    '--chip-color': p.color,
+                    background: activeProfileId === p.id ? p.color : 'transparent',
+                    borderColor: p.color,
+                    color: activeProfileId === p.id ? '#0a0e1a' : p.color,
+                  }}
+                  onClick={() => switchProfile(p.id)}
+                >
+                  {p.name}
+                </button>
+              ))}
+              <button className="profile-chip add-profile-btn" onClick={() => {
+                const name = prompt('Profile name:');
+                if (name?.trim()) addProfile(name.trim());
+              }}>+</button>
+            </>
+          )}
+        </div>
+      )}
+      {!user && (
+        <div className="profile-switcher">
+          <span className="guest-label">GUEST MODE — data won't save</span>
+        </div>
+      )}
 
       <main className="ripper-main">
         {apiError && (
@@ -607,12 +797,14 @@ function PokemonPackRipper() {
             onRipAgain={() => openPack(selectedSet)}
             onBackToShelf={() => setView('shelf')}
             onViewCollection={() => setView('collection')}
+            isGuest={!user}
+            onSignIn={() => setShowLogin(true)}
           />
         )}
         {view === 'collection' && (
-          <Collection cards={collection} onRemove={removeFromCollection} onClear={clearAllData} />
+          <Collection cards={collection} onRemove={removeFromCollection} onClear={clearAllData} isGuest={!user} onSignIn={() => setShowLogin(true)} />
         )}
-        {view === 'log' && <RipLog log={ripLog} />}
+        {view === 'log' && <RipLog log={ripLog} isGuest={!user} onSignIn={() => setShowLogin(true)} />}
       </main>
     </div>
   );
@@ -862,7 +1054,7 @@ function CardDisplay({ card, large, interactive, small }) {
   );
 }
 
-function PackSummary({ cards, set, onRipAgain, onBackToShelf, onViewCollection }) {
+function PackSummary({ cards, set, onRipAgain, onBackToShelf, onViewCollection, isGuest, onSignIn }) {
   const totalValue = cards.reduce((sum, c) => sum + getCardMarketPrice(c), 0);
   const profit = totalValue - PACK_COST;
   const hits = cards.filter(c => isHighValue(c.rarity));
@@ -896,6 +1088,11 @@ function PackSummary({ cards, set, onRipAgain, onBackToShelf, onViewCollection }
           </div>
         ))}
       </div>
+      {isGuest && (
+        <div className="guest-nudge" onClick={onSignIn}>
+          ✦ Sign in to keep your collection ✦
+        </div>
+      )}
       <div className="summary-actions">
         <button className="action-btn primary" onClick={onRipAgain}>BUY ANOTHER →</button>
         <button className="action-btn" onClick={onViewCollection}>VIEW COLLECTION</button>
@@ -905,7 +1102,7 @@ function PackSummary({ cards, set, onRipAgain, onBackToShelf, onViewCollection }
   );
 }
 
-function Collection({ cards, onRemove, onClear }) {
+function Collection({ cards, onRemove, onClear, isGuest, onSignIn }) {
   const [sortBy, setSortBy] = useState('recent');
   const [filterSet, setFilterSet] = useState('all');
   const sets = [...new Set(cards.map(c => c.setName))];
@@ -923,6 +1120,7 @@ function Collection({ cards, onRemove, onClear }) {
         <div className="empty-icon">◈</div>
         <h3>NO HITS YET</h3>
         <p>Rip some packs. Holo rares and above will auto-add to your collection.</p>
+        {isGuest && <SignInPrompt onSignIn={onSignIn} message="Sign in to save your collection across devices" />}
       </div>
     );
   }
@@ -967,13 +1165,14 @@ function Collection({ cards, onRemove, onClear }) {
   );
 }
 
-function RipLog({ log }) {
+function RipLog({ log, isGuest, onSignIn }) {
   if (log.length === 0) {
     return (
       <div className="empty-state">
         <div className="empty-icon">⟲</div>
         <h3>NO RIPS LOGGED</h3>
         <p>Every pack you open gets logged here with a value breakdown.</p>
+        {isGuest && <SignInPrompt onSignIn={onSignIn} message="Sign in to save your rip history" />}
       </div>
     );
   }
@@ -1024,6 +1223,127 @@ function getRarityTier(rarity) {
   if (r.includes('rare')) return 'rare';
   if (r.includes('uncommon')) return 'uncommon';
   return 'common';
+}
+
+// ============================================================================
+// LOGIN MODAL
+// ============================================================================
+function LoginModal({ onClose, signInWithPin, signInWithMagicLink }) {
+  const [mode, setMode] = useState('pin');
+  const [pin, setPin] = useState('');
+  const [email, setEmail] = useState('');
+  const [error, setError] = useState('');
+  const [sent, setSent] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  const handlePin = async () => {
+    if (!pin) return;
+    setLoading(true); setError('');
+    const { error } = await signInWithPin(pin);
+    setLoading(false);
+    if (error) setError('Invalid code. Try again.');
+  };
+
+  const handleEmail = async () => {
+    if (!email) return;
+    setLoading(true); setError('');
+    const { error } = await signInWithMagicLink(email);
+    setLoading(false);
+    if (error) setError('Failed to send link. Check your email.');
+    else setSent(true);
+  };
+
+  return (
+    <div className="login-overlay" onClick={onClose}>
+      <div className="login-modal" onClick={e => e.stopPropagation()}>
+        <button className="login-close" onClick={onClose}>✕</button>
+        <h2 className="login-title">SIGN IN</h2>
+        <p className="login-subtitle">Save your collection across devices</p>
+        <div className="login-tabs">
+          <button className={`login-tab ${mode === 'pin' ? 'active' : ''}`} onClick={() => { setMode('pin'); setError(''); }}>FAMILY CODE</button>
+          <button className={`login-tab ${mode === 'email' ? 'active' : ''}`} onClick={() => { setMode('email'); setError(''); setSent(false); }}>EMAIL</button>
+        </div>
+        {mode === 'pin' && (
+          <div className="login-form">
+            <input type="password" className="login-input" placeholder="Enter family code" value={pin}
+              onChange={e => setPin(e.target.value)} onKeyDown={e => e.key === 'Enter' && handlePin()} autoFocus />
+            <button className="login-submit" onClick={handlePin} disabled={loading || !pin}>
+              {loading ? 'SIGNING IN...' : 'ENTER'}
+            </button>
+          </div>
+        )}
+        {mode === 'email' && !sent && (
+          <div className="login-form">
+            <input type="email" className="login-input" placeholder="your@email.com" value={email}
+              onChange={e => setEmail(e.target.value)} onKeyDown={e => e.key === 'Enter' && handleEmail()} autoFocus />
+            <button className="login-submit" onClick={handleEmail} disabled={loading || !email}>
+              {loading ? 'SENDING...' : 'SEND MAGIC LINK'}
+            </button>
+          </div>
+        )}
+        {mode === 'email' && sent && (
+          <div className="login-sent">
+            <div className="sent-icon">✉</div>
+            <p>Check your email for a magic link!</p>
+            <p className="sent-note">Click the link to sign in. You can close this.</p>
+          </div>
+        )}
+        {error && <div className="login-error">{error}</div>}
+      </div>
+    </div>
+  );
+}
+
+function SignInPrompt({ onSignIn, message }) {
+  return (
+    <div className="sign-in-prompt">
+      <p>{message || 'Sign in to save your progress'}</p>
+      <button className="action-btn primary" onClick={onSignIn}>SIGN IN</button>
+    </div>
+  );
+}
+
+// ============================================================================
+// APP WRAPPER (auth orchestration)
+// ============================================================================
+function App() {
+  const auth = useAuth();
+  const profilesHook = useProfiles(auth.user);
+
+  if (auth.loading) {
+    return (
+      <div className="ripper-root">
+        <Styles />
+        <div className="loading-screen">
+          <div className="poke-loader"><div className="poke-ball-spinner" /><p>Loading...</p></div>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <>
+      <PokemonPackRipper
+        user={auth.user}
+        signOut={auth.signOut}
+        showLogin={auth.showLogin}
+        setShowLogin={auth.setShowLogin}
+        profiles={profilesHook.profiles}
+        activeProfileId={profilesHook.activeProfileId}
+        setActiveProfileFn={profilesHook.setActiveProfile}
+        syncProfile={profilesHook.syncProfile}
+        addProfile={profilesHook.addProfile}
+        profilesLoading={profilesHook.loading}
+      />
+      {auth.showLogin && (
+        <LoginModal
+          onClose={() => auth.setShowLogin(false)}
+          signInWithPin={auth.signInWithPin}
+          signInWithMagicLink={auth.signInWithMagicLink}
+        />
+      )}
+    </>
+  );
 }
 
 function Styles() {
@@ -1574,12 +1894,129 @@ function Styles() {
         .pack-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1.5rem 1rem; }
         .buy-title { font-size: 1.75rem; }
       }
+
+      /* Auth button */
+      .auth-btn {
+        background: transparent; border: 1px solid var(--border);
+        color: var(--text-secondary); padding: 0.5rem 0.9rem;
+        font-family: 'Archivo Black', sans-serif; font-size: 0.65rem;
+        letter-spacing: 0.1em; cursor: pointer; transition: all 0.2s;
+      }
+      .auth-btn:hover { border-color: var(--accent-yellow); color: var(--accent-yellow); }
+      .auth-btn.sign-in { border-color: var(--accent-yellow); color: var(--accent-yellow); }
+
+      /* Profile switcher tweaks */
+      .profile-loading { color: var(--text-muted); font-size: 0.8rem; letter-spacing: 0.1em; }
+      .guest-label {
+        color: var(--text-muted); font-size: 0.75rem; letter-spacing: 0.1em;
+        font-family: 'Archivo Black', sans-serif;
+      }
+      .add-profile-btn {
+        border-color: var(--text-muted) !important;
+        color: var(--text-muted) !important;
+        font-size: 1.1rem !important;
+        padding: 0.3rem 0.9rem !important;
+        line-height: 1;
+      }
+      .add-profile-btn:hover {
+        border-color: var(--accent-yellow) !important;
+        color: var(--accent-yellow) !important;
+      }
+
+      /* Login modal */
+      .login-overlay {
+        position: fixed; inset: 0; z-index: 1000;
+        background: rgba(0,0,0,0.7); backdrop-filter: blur(8px);
+        display: flex; align-items: center; justify-content: center;
+        animation: fade-in 0.2s ease;
+      }
+      .login-modal {
+        background: var(--bg-mid); border: 1px solid var(--border);
+        padding: 2.5rem; max-width: 400px; width: 90%;
+        position: relative; animation: fade-in 0.3s ease;
+      }
+      .login-close {
+        position: absolute; top: 1rem; right: 1rem;
+        background: transparent; border: none; color: var(--text-muted);
+        font-size: 1.2rem; cursor: pointer; transition: color 0.2s;
+      }
+      .login-close:hover { color: var(--text-primary); }
+      .login-title {
+        font-family: 'Bungee', sans-serif; font-size: 1.5rem;
+        text-align: center; margin-bottom: 0.5rem;
+        background: linear-gradient(180deg, #ffcb05 0%, #ff8c00 100%);
+        -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .login-subtitle {
+        text-align: center; color: var(--text-secondary);
+        font-size: 0.85rem; margin-bottom: 1.5rem;
+      }
+      .login-tabs {
+        display: flex; gap: 0; margin-bottom: 1.5rem;
+        border-bottom: 2px solid var(--border);
+      }
+      .login-tab {
+        flex: 1; background: transparent; border: none;
+        color: var(--text-muted); padding: 0.75rem;
+        font-family: 'Archivo Black', sans-serif; font-size: 0.75rem;
+        letter-spacing: 0.1em; cursor: pointer; transition: all 0.2s;
+        border-bottom: 2px solid transparent; margin-bottom: -2px;
+      }
+      .login-tab.active { color: var(--accent-yellow); border-bottom-color: var(--accent-yellow); }
+      .login-tab:hover { color: var(--text-primary); }
+      .login-form { display: flex; flex-direction: column; gap: 1rem; }
+      .login-input {
+        padding: 0.9rem 1rem; background: var(--bg-dark);
+        border: 2px solid var(--border); color: var(--text-primary);
+        font-family: 'Space Mono', monospace; font-size: 1rem;
+        text-align: center; letter-spacing: 0.15em;
+      }
+      .login-input:focus { outline: none; border-color: var(--accent-yellow); }
+      .login-submit {
+        background: var(--accent-yellow); color: var(--bg-dark);
+        border: none; padding: 1rem; font-family: 'Archivo Black', sans-serif;
+        font-size: 0.85rem; letter-spacing: 0.15em; cursor: pointer;
+        transition: all 0.2s;
+      }
+      .login-submit:hover:not(:disabled) { background: white; }
+      .login-submit:disabled { opacity: 0.5; cursor: default; }
+      .login-error {
+        margin-top: 1rem; padding: 0.75rem;
+        background: rgba(255,26,60,0.1); border: 1px solid var(--accent-red);
+        color: #ffcccc; font-size: 0.85rem; text-align: center;
+      }
+      .login-sent { text-align: center; padding: 1rem 0; }
+      .sent-icon { font-size: 3rem; margin-bottom: 1rem; }
+      .login-sent p { color: var(--text-primary); margin-bottom: 0.5rem; }
+      .sent-note { color: var(--text-muted); font-size: 0.8rem; }
+
+      /* Sign-in prompt */
+      .sign-in-prompt {
+        margin-top: 2rem; padding: 1.5rem; text-align: center;
+        border: 1px dashed var(--border);
+        background: rgba(255,203,5,0.03);
+      }
+      .sign-in-prompt p {
+        color: var(--text-secondary); margin-bottom: 1rem; font-size: 0.9rem;
+      }
+      .sign-in-prompt .action-btn { font-size: 0.75rem; padding: 0.75rem 1.5rem; }
+
+      /* Guest nudge */
+      .guest-nudge {
+        text-align: center; padding: 0.75rem 1.5rem;
+        color: var(--accent-yellow); font-family: 'Archivo Black', sans-serif;
+        font-size: 0.8rem; letter-spacing: 0.1em; cursor: pointer;
+        margin-bottom: 1.5rem; transition: all 0.2s;
+        border: 1px dashed var(--border); background: rgba(255,203,5,0.05);
+      }
+      .guest-nudge:hover { background: rgba(255,203,5,0.1); border-color: var(--accent-yellow); }
     `}</style>
   );
 }
 
 const root = ReactDOM.createRoot(document.getElementById('pack-ripper-root'));
-root.render(<PokemonPackRipper />);
+root.render(<App />);
 </script>
 
 </body>
