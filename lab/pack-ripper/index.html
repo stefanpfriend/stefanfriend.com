@@ -788,7 +788,7 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
           />
         )}
         {view === 'reveal' && pulledCards.length > 0 && (
-          <CardReveal cards={pulledCards} revealIndex={revealIndex} onNext={revealNext} onAddToCollection={addCardToCollection} addedIndices={addedPackIndices} />
+          <CardReveal cards={pulledCards} revealIndex={revealIndex} onNext={revealNext} onAddToCollection={addCardToCollection} addedIndices={addedPackIndices} collection={collection} />
         )}
         {view === 'summary' && (
           <PackSummary
@@ -801,6 +801,7 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
             onSignIn={() => setShowLogin(true)}
             onAddToCollection={addCardToCollection}
             addedIndices={addedPackIndices}
+            collection={collection}
           />
         )}
         {view === 'collection' && (
@@ -970,13 +971,14 @@ function RipAnimation({ set, stage, loading, heroImage }) {
   );
 }
 
-function CardReveal({ cards, revealIndex, onNext, onAddToCollection, addedIndices }) {
+function CardReveal({ cards, revealIndex, onNext, onAddToCollection, addedIndices, collection }) {
   const card = cards[revealIndex];
   if (!card) return null;
   const isLast = revealIndex === cards.length - 1;
   const isHit = isHighValue(card.rarity);
   const isAdded = addedIndices && addedIndices.has(revealIndex);
   const price = getCardMarketPrice(card);
+  const ownedCount = collection ? collection.filter(c => c.cardId === card.id).length : 0;
   return (
     <div className="reveal-stage">
       <div className="reveal-progress">
@@ -1004,6 +1006,7 @@ function CardReveal({ cards, revealIndex, onNext, onAddToCollection, addedIndice
               {card.rarity || 'Common'}{card._reverseHolo && ' (Reverse Holo)'}
             </span>
             {price > 0 && <span className="card-price">${price.toFixed(2)}</span>}
+            {ownedCount > 0 && <span className="owned-badge">OWNED ×{ownedCount}</span>}
           </div>
         </div>
       </div>
@@ -1056,7 +1059,7 @@ function CardDisplay({ card, large, interactive, small }) {
   );
 }
 
-function PackSummary({ cards, set, onRipAgain, onBackToShelf, onViewCollection, isGuest, onSignIn, onAddToCollection, addedIndices }) {
+function PackSummary({ cards, set, onRipAgain, onBackToShelf, onViewCollection, isGuest, onSignIn, onAddToCollection, addedIndices, collection }) {
   const totalValue = cards.reduce((sum, c) => sum + getCardMarketPrice(c), 0);
   const profit = totalValue - PACK_COST;
   const hits = cards.filter(c => isHighValue(c.rarity));
@@ -1079,12 +1082,17 @@ function PackSummary({ cards, set, onRipAgain, onBackToShelf, onViewCollection, 
         </div>
       </div>
       <div className="summary-cards-grid">
-        {cards.map((card, i) => (
+        {cards.map((card, i) => {
+          const owned = collection ? collection.filter(c => c.cardId === card.id).length : 0;
+          return (
           <div key={i} className={`summary-card ${isHighValue(card.rarity) ? 'is-hit' : ''}`}>
             <CardDisplay card={card} />
             <div className="summary-card-label">
               <div className="summary-card-name">{card.name}</div>
-              <div className="summary-card-rarity">{card.rarity || 'Common'}{card._reverseHolo && ' ↻'}</div>
+              <div className="summary-card-rarity">
+                {card.rarity || 'Common'}{card._reverseHolo && ' ↻'}
+                {owned > 0 && <span className="owned-badge">×{owned}</span>}
+              </div>
               <div className="summary-card-bottom-row">
                 {getCardMarketPrice(card) > 0 && <span className="summary-card-price">${getCardMarketPrice(card).toFixed(2)}</span>}
                 {addedIndices && addedIndices.has(i) ? (
@@ -1095,7 +1103,8 @@ function PackSummary({ cards, set, onRipAgain, onBackToShelf, onViewCollection, 
               </div>
             </div>
           </div>
-        ))}
+          );
+        })}
       </div>
       {isGuest && (
         <div className="guest-nudge" onClick={onSignIn}>
@@ -1807,6 +1816,13 @@ function Styles() {
       }
       .summary-add-btn:hover { border-color: var(--accent-green); color: var(--accent-green); }
       .summary-add-btn.added { border-color: var(--accent-green); color: var(--accent-green); font-size: 0.7rem; cursor: default; }
+      .owned-badge {
+        display: inline-block; margin-left: 0.4rem;
+        padding: 0.1rem 0.4rem; font-size: 0.6rem;
+        background: rgba(61,125,202,0.15); border: 1px solid var(--accent-blue);
+        color: var(--accent-blue); font-family: 'Archivo Black', sans-serif;
+        letter-spacing: 0.05em; vertical-align: middle;
+      }
       .summary-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
       .action-btn {
         background: var(--bg-mid); border: 1px solid var(--border);
