@@ -190,11 +190,14 @@ const getSetTheme = (setId) => {
 };
 
 // localStorage-backed state (works offline, persists across sessions, no artifact sandbox)
-const STORAGE_KEYS = {
-  COLLECTION: 'packripper:collection',
-  RIP_LOG: 'packripper:log',
-  STATS: 'packripper:stats',
-};
+const PROFILES = ['Ollie', 'Sky', 'Dadai'];
+const PROFILE_COLORS = { Ollie: '#3d7dca', Sky: '#ff69b4', Dadai: '#ff9800' };
+
+const storageKeys = (profile) => ({
+  COLLECTION: `packripper:${profile}:collection`,
+  RIP_LOG: `packripper:${profile}:log`,
+  STATS: `packripper:${profile}:stats`,
+});
 
 const loadStored = (key, fallback) => {
   try {
@@ -208,6 +211,22 @@ const saveStored = (key, value) => {
   catch (e) { console.warn('localStorage write failed', e); }
 };
 
+// Migrate legacy flat keys → Dadai namespace (one-time)
+(() => {
+  const old = localStorage.getItem('packripper:collection');
+  if (old && !localStorage.getItem('packripper:Dadai:collection')) {
+    ['collection', 'log', 'stats'].forEach(k => {
+      const v = localStorage.getItem(`packripper:${k}`);
+      if (v) localStorage.setItem(`packripper:Dadai:${k}`, v);
+    });
+  }
+  // Remove old keys after migration
+  if (old && localStorage.getItem('packripper:Dadai:collection')) {
+    ['collection', 'log', 'stats'].forEach(k => localStorage.removeItem(`packripper:${k}`));
+  }
+})();
+
+
 const PACK_COST = 4.49;
 const API_BASE = 'https://api.pokemontcg.io/v2';
 
@@ -215,6 +234,9 @@ const API_BASE = 'https://api.pokemontcg.io/v2';
 // MAIN APP
 // ============================================================================
 function PokemonPackRipper() {
+  const [activeProfile, setActiveProfile] = useState(() => localStorage.getItem('packripper:activeProfile') || 'Ollie');
+  const STORAGE_KEYS = useMemo(() => storageKeys(activeProfile), [activeProfile]);
+
   const [view, setView] = useState('shelf');
   const [sets, setSets] = useState([]);
   const [loadingSets, setLoadingSets] = useState(true);
@@ -223,15 +245,25 @@ function PokemonPackRipper() {
   const [heroCards, setHeroCards] = useState({});
   const [pulledCards, setPulledCards] = useState([]);
   const [revealIndex, setRevealIndex] = useState(0);
-  const [collection, setCollection] = useState(() => loadStored(STORAGE_KEYS.COLLECTION, []));
-  const [ripLog, setRipLog] = useState(() => loadStored(STORAGE_KEYS.RIP_LOG, []));
+  const [collection, setCollection] = useState(() => loadStored(storageKeys(localStorage.getItem('packripper:activeProfile') || 'Ollie').COLLECTION, []));
+  const [ripLog, setRipLog] = useState(() => loadStored(storageKeys(localStorage.getItem('packripper:activeProfile') || 'Ollie').RIP_LOG, []));
   const [addedPackIndices, setAddedPackIndices] = useState(new Set());
-  const [stats, setStats] = useState(() => loadStored(STORAGE_KEYS.STATS, { packsOpened: 0, totalSpent: 0, totalValue: 0 }));
+  const [stats, setStats] = useState(() => loadStored(storageKeys(localStorage.getItem('packripper:activeProfile') || 'Ollie').STATS, { packsOpened: 0, totalSpent: 0, totalValue: 0 }));
   const [ripStage, setRipStage] = useState(0);
   const [cardCache, setCardCache] = useState({});
   const [loadingPack, setLoadingPack] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [filterSeries, setFilterSeries] = useState('all');
+
+  const switchProfile = (name) => {
+    localStorage.setItem('packripper:activeProfile', name);
+    setActiveProfile(name);
+    const keys = storageKeys(name);
+    setCollection(loadStored(keys.COLLECTION, []));
+    setRipLog(loadStored(keys.RIP_LOG, []));
+    setStats(loadStored(keys.STATS, { packsOpened: 0, totalSpent: 0, totalValue: 0 }));
+    setView('shelf');
+  };
 
   useEffect(() => {
     fetch(`${API_BASE}/sets?orderBy=-releaseDate&pageSize=250`)
@@ -508,6 +540,24 @@ function PokemonPackRipper() {
           </div>
         </div>
       </header>
+
+      <div className="profile-switcher">
+        {PROFILES.map(p => (
+          <button
+            key={p}
+            className={`profile-chip ${activeProfile === p ? 'active' : ''}`}
+            style={{
+              '--chip-color': PROFILE_COLORS[p],
+              background: activeProfile === p ? PROFILE_COLORS[p] : 'transparent',
+              borderColor: PROFILE_COLORS[p],
+              color: activeProfile === p ? '#0a0e1a' : PROFILE_COLORS[p],
+            }}
+            onClick={() => switchProfile(p)}
+          >
+            {p}
+          </button>
+        ))}
+      </div>
 
       <main className="ripper-main">
         {apiError && (
@@ -1437,6 +1487,26 @@ function Styles() {
       }
       .control-btn.danger { border-color: var(--accent-red); color: var(--accent-red); }
       .control-btn.danger:hover { background: var(--accent-red); color: white; }
+      .profile-switcher {
+        display: flex; justify-content: center; gap: 0.5rem;
+        padding: 0.75rem 1rem;
+        background: rgba(10, 14, 26, 0.6);
+        border-bottom: 1px solid rgba(255,255,255,0.06);
+        position: relative; z-index: 2;
+      }
+      .profile-chip {
+        padding: 0.45rem 1.2rem;
+        border: 2px solid;
+        border-radius: 20px;
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 0.75rem;
+        letter-spacing: 0.1em;
+        cursor: pointer;
+        transition: all 0.2s;
+        background: transparent;
+      }
+      .profile-chip:hover { transform: translateY(-1px); filter: brightness(1.2); }
+      .profile-chip.active { font-weight: 700; box-shadow: 0 0 12px color-mix(in srgb, var(--chip-color) 50%, transparent); }
       .collection-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.5rem; }
       .collection-card {
         display: flex; flex-direction: column; align-items: center; gap: 0.75rem;
