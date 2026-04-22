@@ -177,7 +177,7 @@ function useProfiles(user) {
         const k = profileStorageKeys(p.id);
         saveStored(k.COLLECTION, p.collection || []);
         saveStored(k.RIP_LOG, p.rip_log || []);
-        saveStored(k.STATS, p.stats || { packsOpened: 0, totalSpent: 0, totalValue: 0 });
+        saveStored(k.STATS, normalizeStats(p.stats));
       });
 
       setProfiles(list);
@@ -205,10 +205,10 @@ function useProfiles(user) {
         const old = storageKeys(t.name);
         const c = loadStored(old.COLLECTION, []);
         const r = loadStored(old.RIP_LOG, []);
-        const s = loadStored(old.STATS, { packsOpened: 0, totalSpent: 0, totalValue: 0 });
+        const s = loadStored(old.STATS, defaultStats());
         if (c.length > 0) row.collection = c;
         if (r.length > 0) row.rip_log = r;
-        if (s.packsOpened > 0) row.stats = s;
+        if (s.packsOpened > 0) row.stats = normalizeStats(s);
       }
       return row;
     });
@@ -374,6 +374,13 @@ const saveStored = (key, value) => {
 
 
 const PACK_COST = 4.49;
+const STARTING_BALANCE = 25;
+const defaultStats = () => ({ packsOpened: 0, totalSpent: 0, totalValue: 0, balance: STARTING_BALANCE });
+const normalizeStats = (s) => {
+  const base = defaultStats();
+  if (!s) return base;
+  return { ...base, ...s, balance: s.balance === undefined ? STARTING_BALANCE : s.balance };
+};
 const API_BASE = 'https://api.pokemontcg.io/v2';
 
 // ============================================================================
@@ -401,7 +408,7 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
   const [collection, setCollection] = useState([]);
   const [ripLog, setRipLog] = useState([]);
   const [addedPackIndices, setAddedPackIndices] = useState(new Set());
-  const [stats, setStats] = useState({ packsOpened: 0, totalSpent: 0, totalValue: 0 });
+  const [stats, setStats] = useState(defaultStats());
   const [ripStage, setRipStage] = useState(0);
   const [cardCache, setCardCache] = useState({});
   const [loadingPack, setLoadingPack] = useState(false);
@@ -411,12 +418,12 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
   // Load data when active profile changes
   useEffect(() => {
     if (!user || !activeProfile) {
-      if (!user) { setCollection([]); setRipLog([]); setStats({ packsOpened: 0, totalSpent: 0, totalValue: 0 }); }
+      if (!user) { setCollection([]); setRipLog([]); setStats(defaultStats()); }
       return;
     }
     setCollection(activeProfile.collection || []);
     setRipLog(activeProfile.rip_log || []);
-    setStats(activeProfile.stats || { packsOpened: 0, totalSpent: 0, totalValue: 0 });
+    setStats(normalizeStats(activeProfile.stats));
   }, [activeProfileId, user?.id]);
 
   const switchProfile = (id) => {
@@ -516,6 +523,10 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
   }, [heroCards]);
 
   const openPack = async (set) => {
+    if (stats.balance < PACK_COST) {
+      alert(`Not enough money! You need $${PACK_COST.toFixed(2)} but only have $${stats.balance.toFixed(2)}. Sell some cards to earn more.`);
+      return;
+    }
     setLoadingPack(true);
     setRipStage(0);
     setAddedPackIndices(new Set());
@@ -536,6 +547,7 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
           packsOpened: stats.packsOpened + 1,
           totalSpent: stats.totalSpent + PACK_COST,
           totalValue: stats.totalValue + packValue,
+          balance: stats.balance - PACK_COST,
         });
         const logEntry = {
           id: Date.now(),
@@ -664,14 +676,18 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
   };
 
   const removeFromCollection = (id) => {
+    const card = collection.find(c => c.id === id);
     persistCollection(collection.filter(c => c.id !== id));
+    if (card && card.price > 0) {
+      persistStats({ ...stats, balance: stats.balance + card.price });
+    }
   };
 
   const clearAllData = () => {
     if (!confirm('Clear entire collection, log, and stats?')) return;
     persistCollection([]);
     persistLog([]);
-    persistStats({ packsOpened: 0, totalSpent: 0, totalValue: 0 });
+    persistStats(defaultStats());
   };
 
   const allSeries = useMemo(() => [...new Set(sets.map(s => s.series))], [sets]);
@@ -700,6 +716,7 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
           <button className={view === 'log' ? 'nav-btn active' : 'nav-btn'} onClick={() => setView('log')}>LOG</button>
         </nav>
         <div className="stats-bar">
+          <div className="stat-chip balance"><span className="stat-label">WALLET</span><span className="stat-val">${stats.balance.toFixed(2)}</span></div>
           <div className="stat-chip"><span className="stat-label">PACKS</span><span className="stat-val">{stats.packsOpened}</span></div>
           <div className="stat-chip"><span className="stat-label">SPENT</span><span className="stat-val">${stats.totalSpent.toFixed(2)}</span></div>
           <div className={`stat-chip pnl ${pnl >= 0 ? 'up' : 'down'}`}>
@@ -775,6 +792,7 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
           <BuyConfirmation
             set={selectedSet}
             heroImage={heroCards[selectedSet.id]}
+            balance={stats.balance}
             onConfirm={() => openPack(selectedSet)}
             onCancel={() => setView('shelf')}
           />
@@ -924,8 +942,9 @@ function PackArt({ set, theme, heroImage, large }) {
   );
 }
 
-function BuyConfirmation({ set, heroImage, onConfirm, onCancel }) {
+function BuyConfirmation({ set, heroImage, balance, onConfirm, onCancel }) {
   const theme = useMemo(() => getSetTheme(set.id), [set.id]);
+  const canAfford = balance === undefined || balance >= PACK_COST;
   return (
     <div className="buy-confirm">
       <div className="buy-confirm-pack"><PackArt set={set} theme={theme} heroImage={heroImage} large /></div>
@@ -942,9 +961,15 @@ function BuyConfirmation({ set, heroImage, onConfirm, onCancel }) {
           <div className="buy-meta-row"><span className="buy-meta-label">Total Cards</span><span className="buy-meta-value">{set.total}</span></div>
           <div className="buy-meta-row"><span className="buy-meta-label">Per Pack</span><span className="buy-meta-value">10 cards</span></div>
           <div className="buy-meta-row"><span className="buy-meta-label">Price</span><span className="buy-meta-value price">${PACK_COST.toFixed(2)}</span></div>
+          {balance !== undefined && (
+            <div className="buy-meta-row"><span className="buy-meta-label">Your wallet</span><span className="buy-meta-value">${balance.toFixed(2)}</span></div>
+          )}
         </div>
+        {!canAfford && (
+          <div className="buy-insufficient">Not enough money — sell some cards from your collection to earn more.</div>
+        )}
         <div className="buy-actions">
-          <button className="action-btn primary large" onClick={onConfirm}>BUY & RIP →</button>
+          <button className="action-btn primary large" onClick={onConfirm} disabled={!canAfford}>BUY & RIP →</button>
           <button className="action-btn secondary" onClick={onCancel}>BACK TO SHELF</button>
         </div>
       </div>
@@ -1458,6 +1483,8 @@ function Styles() {
       .stat-val { font-size: 0.9rem; font-weight: 700; }
       .stat-chip.pnl.up .stat-val { color: var(--accent-green); }
       .stat-chip.pnl.down .stat-val { color: var(--accent-red); }
+      .stat-chip.balance { border-color: var(--accent-yellow); }
+      .stat-chip.balance .stat-val { color: var(--accent-yellow); }
       .ripper-main { max-width: 1500px; margin: 0 auto; padding: 2.5rem 2rem 4rem; }
       .loading-screen { padding: 6rem 2rem; display: flex; justify-content: center; }
       .poke-loader { text-align: center; }
@@ -1834,6 +1861,9 @@ function Styles() {
       .action-btn.primary { background: var(--accent-yellow); color: var(--bg-dark); border-color: var(--accent-yellow); }
       .action-btn.primary:hover { background: white; box-shadow: 0 8px 24px rgba(255,203,5,0.3); }
       .action-btn.secondary { background: transparent; }
+      .action-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
+      .action-btn:disabled:hover { border-color: var(--border); transform: none; box-shadow: none; background: var(--bg-mid); color: var(--text-primary); }
+      .buy-insufficient { color: var(--accent-red); font-size: 0.85rem; margin-bottom: 1rem; text-align: center; }
       .collection-view { padding: 1rem 0; }
       .collection-header { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; }
       .collection-meta { color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem; }
