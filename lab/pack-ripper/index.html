@@ -543,12 +543,6 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
         setRevealIndex(0);
         setView('reveal');
         const packValue = pack.reduce((sum, c) => sum + getCardMarketPrice(c), 0);
-        persistStats({
-          packsOpened: stats.packsOpened + 1,
-          totalSpent: stats.totalSpent + PACK_COST,
-          totalValue: stats.totalValue + packValue,
-          balance: stats.balance - PACK_COST,
-        });
         const logEntry = {
           id: Date.now(),
           setName: set.name,
@@ -588,6 +582,13 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
           persistCollection([...collectionCards, ...collection]);
         }
         setAddedPackIndices(hitIndices);
+        const autoKeptValue = collectionCards.reduce((sum, c) => sum + (c.price || 0), 0);
+        persistStats({
+          packsOpened: stats.packsOpened + 1,
+          totalSpent: stats.totalSpent + PACK_COST,
+          totalValue: stats.totalValue + packValue,
+          balance: stats.balance - PACK_COST + packValue - autoKeptValue,
+        });
       }, 2200);
     } catch (e) {
       console.error('Pack open failed', e);
@@ -648,6 +649,7 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
     if (addedPackIndices.has(index)) return;
     const c = pulledCards[index];
     if (!c || !selectedSet) return;
+    const price = getCardMarketPrice(c);
     const collectionCard = {
       id: c.id + '-' + Date.now() + Math.random(),
       cardId: c.id,
@@ -655,7 +657,7 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
       rarity: c.rarity,
       image: c.images?.large || c.images?.small,
       smallImage: c.images?.small,
-      price: getCardMarketPrice(c),
+      price,
       setName: selectedSet.name,
       setId: selectedSet.id,
       pulledAt: new Date().toISOString(),
@@ -664,6 +666,9 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
       number: c.number,
     };
     persistCollection([collectionCard, ...collection]);
+    if (price > 0) {
+      persistStats({ ...stats, balance: stats.balance - price });
+    }
     const next = new Set(addedPackIndices);
     next.add(index);
     setAddedPackIndices(next);
