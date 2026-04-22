@@ -1174,7 +1174,7 @@ function Collection({ cards, onRemove, onClear, isGuest, onSignIn }) {
                 <span className={`rarity-tag rarity-${getRarityTier(card.rarity)}`}>{card.rarity}</span>
                 {card.price > 0 && <span className="collection-card-price">${card.price.toFixed(2)}</span>}
               </div>
-              <button className="remove-btn" onClick={() => onRemove(card.id)}>Remove</button>
+              <button className="sell-btn" onClick={() => onRemove(card.id)}>SELL{card.price > 0 ? ` $${card.price.toFixed(2)}` : ''}</button>
             </div>
           </div>
         ))}
@@ -1883,13 +1883,13 @@ function Styles() {
       .collection-card-bottom { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; gap: 0.5rem; }
       .collection-card-bottom .rarity-tag { padding: 0.3rem 0.5rem; font-size: 0.65rem; }
       .collection-card-price { font-family: 'Archivo Black', sans-serif; font-size: 0.85rem; color: var(--accent-green); }
-      .remove-btn {
-        background: transparent; border: 1px solid var(--text-muted);
-        color: var(--text-muted); padding: 0.4rem 0.8rem; font-size: 0.7rem;
+      .sell-btn {
+        background: transparent; border: 1px solid var(--accent-green);
+        color: var(--accent-green); padding: 0.4rem 0.8rem; font-size: 0.7rem;
         font-family: 'Archivo Black', sans-serif; letter-spacing: 0.1em;
         cursor: pointer; width: 100%; transition: all 0.2s;
       }
-      .remove-btn:hover { border-color: var(--accent-red); color: var(--accent-red); }
+      .sell-btn:hover { background: var(--accent-green); color: var(--bg-dark); }
       .empty-state { text-align: center; padding: 6rem 2rem; }
       .empty-icon { font-size: 4rem; color: var(--text-muted); margin-bottom: 1rem; }
       .empty-state h3 { font-family: 'Bungee', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem; }
