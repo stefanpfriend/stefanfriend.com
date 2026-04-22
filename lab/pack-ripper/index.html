@@ -799,6 +799,8 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
             onViewCollection={() => setView('collection')}
             isGuest={!user}
             onSignIn={() => setShowLogin(true)}
+            onAddToCollection={addCardToCollection}
+            addedIndices={addedPackIndices}
           />
         )}
         {view === 'collection' && (
@@ -1054,7 +1056,7 @@ function CardDisplay({ card, large, interactive, small }) {
   );
 }
 
-function PackSummary({ cards, set, onRipAgain, onBackToShelf, onViewCollection, isGuest, onSignIn }) {
+function PackSummary({ cards, set, onRipAgain, onBackToShelf, onViewCollection, isGuest, onSignIn, onAddToCollection, addedIndices }) {
   const totalValue = cards.reduce((sum, c) => sum + getCardMarketPrice(c), 0);
   const profit = totalValue - PACK_COST;
   const hits = cards.filter(c => isHighValue(c.rarity));
@@ -1083,7 +1085,14 @@ function PackSummary({ cards, set, onRipAgain, onBackToShelf, onViewCollection, 
             <div className="summary-card-label">
               <div className="summary-card-name">{card.name}</div>
               <div className="summary-card-rarity">{card.rarity || 'Common'}{card._reverseHolo && ' ↻'}</div>
-              {getCardMarketPrice(card) > 0 && <div className="summary-card-price">${getCardMarketPrice(card).toFixed(2)}</div>}
+              <div className="summary-card-bottom-row">
+                {getCardMarketPrice(card) > 0 && <span className="summary-card-price">${getCardMarketPrice(card).toFixed(2)}</span>}
+                {addedIndices && addedIndices.has(i) ? (
+                  <span className="summary-add-btn added">✓</span>
+                ) : (
+                  <button className="summary-add-btn" onClick={() => onAddToCollection(i)}>+</button>
+                )}
+              </div>
             </div>
           </div>
         ))}
@@ -1784,7 +1793,20 @@ function Styles() {
         text-overflow: ellipsis; white-space: nowrap;
       }
       .summary-card-rarity { font-size: 0.7rem; color: var(--text-muted); letter-spacing: 0.05em; }
-      .summary-card-price { font-family: 'Archivo Black', sans-serif; font-size: 0.8rem; color: var(--accent-green); margin-top: 0.25rem; }
+      .summary-card-price { font-family: 'Archivo Black', sans-serif; font-size: 0.8rem; color: var(--accent-green); }
+      .summary-card-bottom-row {
+        display: flex; align-items: center; justify-content: center; gap: 0.5rem; margin-top: 0.25rem;
+      }
+      .summary-add-btn {
+        width: 24px; height: 24px; border-radius: 50%;
+        background: transparent; border: 1px solid var(--text-muted);
+        color: var(--text-muted); font-size: 1rem; line-height: 1;
+        cursor: pointer; transition: all 0.2s;
+        display: flex; align-items: center; justify-content: center;
+        padding: 0; font-family: 'Archivo Black', sans-serif;
+      }
+      .summary-add-btn:hover { border-color: var(--accent-green); color: var(--accent-green); }
+      .summary-add-btn.added { border-color: var(--accent-green); color: var(--accent-green); font-size: 0.7rem; cursor: default; }
       .summary-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
       .action-btn {
         background: var(--bg-mid); border: 1px solid var(--border);
