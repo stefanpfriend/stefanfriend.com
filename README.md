@@ -31,7 +31,7 @@ CNAME                               — Custom domain config
 
 ## Customization
 
-- **Contact**: Currently links to LinkedIn. Swap to `mailto:stefan@stefanfriend.com` once Google Workspace is connected.
+- **Contact**: `mailto:stefan@friendtechventures.com`
 - **Sobriety count**: Update "3,796 days" in index.html and be-mighty.html as time passes (or build a JS counter).
 - **Colors**: Edit CSS variables in `:root` on any page.
 - **New essays**: Copy any essay template, update content, and add a link to the essay-list in index.html.
