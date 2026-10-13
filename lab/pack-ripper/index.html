@@ -382,6 +382,9 @@ const normalizeStats = (s) => {
   return { ...base, ...s, balance: s.balance === undefined ? STARTING_BALANCE : s.balance };
 };
 const API_BASE = 'https://api.pokemontcg.io/v2';
+// Bundled snapshot of the fields this game reads, from PokemonTCG/pokemon-tcg-data.
+// The live API is only used if a bundled file is missing.
+const DATA_BASE = '/lab/pack-ripper/data';
 // A client-side key is visible in page source. That's acceptable for this hobby experiment; never commit a real key.
 const POKEMON_TCG_API_KEY = ''; // paste key from https://pokemontcg.io (free account) — leave blank to run unauthenticated
 
@@ -568,6 +571,21 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
 
   const loadSets = useCallback(async () => {
     const gen = ++setsLoadGen.current;
+    try {
+      const res = await fetch(`${DATA_BASE}/sets.json`);
+      if (!res.ok) throw new Error(`Static sets returned ${res.status}`);
+      const list = await res.json();
+      if (gen !== setsLoadGen.current) return;
+      if (!Array.isArray(list) || list.length === 0) throw new Error('Static sets were empty');
+      setsRef.current = list;
+      setSets(list);
+      setApiStatus(null);
+      setLoadingSets(false);
+      return;
+    } catch (staticErr) {
+      console.warn('Bundled sets unavailable, trying the live API', staticErr);
+    }
+
     const cached = readCacheEntry(SETS_CACHE_KEY);
     const usableCache = cached && Array.isArray(cached.data) && cached.data.length > 0 ? cached : null;
 
@@ -643,6 +661,17 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
 
   const fetchSetCards = async (setId) => {
     if (cardCache[setId]) return cardCache[setId];
+    try {
+      const res = await fetch(`${DATA_BASE}/cards/${encodeURIComponent(setId)}.json`);
+      if (!res.ok) throw new Error(`Static cards returned ${res.status}`);
+      const allCards = await res.json();
+      if (!Array.isArray(allCards) || allCards.length === 0) throw new Error('Static cards were empty');
+      const grouped = groupCardsByRarity(allCards);
+      setCardCache(prev => ({ ...prev, [setId]: grouped }));
+      return grouped;
+    } catch (staticErr) {
+      console.warn('Bundled cards unavailable, trying the live API', staticErr);
+    }
     const cacheKey = cardsCacheKey(setId);
     const stored = readCacheEntry(cacheKey);
     const storedCards = stored && Array.isArray(stored.data) && stored.data.length > 0 ? stored.data : null;
@@ -679,6 +708,13 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
 
   const fetchHeroCard = useCallback(async (set) => {
     if (heroCards[set.id]) return;
+    if (set.heroImages && set.heroImages.length) {
+      const hero = set.heroImages[Math.floor(Math.random() * Math.min(3, set.heroImages.length))];
+      if (hero) {
+        setHeroCards(prev => (prev[set.id] ? prev : { ...prev, [set.id]: hero }));
+        return;
+      }
+    }
     try {
       const preferredRarities = ['Rare Secret', 'Rare Rainbow', 'Special Illustration Rare',
         'Hyper Rare', 'Rare Holo VMAX', 'Rare Holo VSTAR', 'Illustration Rare',
