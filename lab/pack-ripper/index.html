@@ -382,6 +382,139 @@ const normalizeStats = (s) => {
   return { ...base, ...s, balance: s.balance === undefined ? STARTING_BALANCE : s.balance };
 };
 const API_BASE = 'https://api.pokemontcg.io/v2';
+// A client-side key is visible in page source. That's acceptable for this hobby experiment; never commit a real key.
+const POKEMON_TCG_API_KEY = ''; // paste key from https://pokemontcg.io (free account) — leave blank to run unauthenticated
+
+const SETS_CACHE_KEY = 'packripper_sets_cache_v1';
+const SETS_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
+const CARDS_CACHE_TTL_MS = 12 * 60 * 60 * 1000;
+const API_MAX_ATTEMPTS = 3;
+// Three attempts total. Waits between them are ~600ms, then ~1800ms, with ±15% jitter.
+// ~4000ms is the next step on this schedule. Retry-After overrides a wait and is capped at 10s.
+const API_RETRY_DELAYS_MS = [600, 1800, 4000];
+const API_RETRY_AFTER_CAP_MS = 10000;
+const RETRYABLE_API_STATUSES = new Set([429, 500, 502, 503, 504]);
+
+function getApiKey() {
+  try {
+    const stored = localStorage.getItem('pokemontcg_api_key');
+    if (stored) return stored;
+  } catch (e) { /* localStorage unavailable */ }
+  return POKEMON_TCG_API_KEY;
+}
+
+function isPokemonTcgRequest(url) {
+  try {
+    return new URL(url, window.location.href).hostname === 'api.pokemontcg.io';
+  } catch (e) {
+    return String(url).indexOf('api.pokemontcg.io') !== -1;
+  }
+}
+
+function readCacheEntry(key) {
+  try {
+    const raw = localStorage.getItem(key);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed.timestamp !== 'number' || !('data' in parsed)) return null;
+    return parsed;
+  } catch (e) {
+    return null;
+  }
+}
+
+function writeCacheEntry(key, data) {
+  try {
+    localStorage.setItem(key, JSON.stringify({ timestamp: Date.now(), data }));
+  } catch (e) {
+    console.warn('localStorage write failed', e);
+  }
+}
+
+function cacheIsFresh(entry, ttlMs) {
+  return !!entry && (Date.now() - entry.timestamp) < ttlMs;
+}
+
+function cardsCacheKey(setId) {
+  return `packripper_cards_${setId}_v1`;
+}
+
+function groupCardsByRarity(allCards) {
+  const byRarity = {};
+  allCards.forEach(card => {
+    const r = card.rarity || 'Common';
+    if (!byRarity[r]) byRarity[r] = [];
+    byRarity[r].push(card);
+  });
+  return { all: allCards, byRarity };
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function retryAfterMs(response) {
+  if (!response || !response.headers || typeof response.headers.get !== 'function') return null;
+  const header = response.headers.get('Retry-After');
+  if (header == null || header === '') return null;
+  const seconds = Number(header);
+  if (Number.isFinite(seconds)) {
+    return Math.min(Math.max(0, seconds * 1000), API_RETRY_AFTER_CAP_MS);
+  }
+  const when = Date.parse(header);
+  if (!Number.isNaN(when)) {
+    return Math.min(Math.max(0, when - Date.now()), API_RETRY_AFTER_CAP_MS);
+  }
+  return null;
+}
+
+function backoffDelayMs(attemptIndex, response) {
+  const retryAfter = retryAfterMs(response);
+  if (retryAfter !== null) return retryAfter;
+  const base = API_RETRY_DELAYS_MS[Math.min(attemptIndex, API_RETRY_DELAYS_MS.length - 1)];
+  const spread = base * 0.15;
+  return Math.max(0, Math.round(base + (Math.random() * 2 - 1) * spread));
+}
+
+// Retries network errors and 429/500/502/503/504. Never retries 400/401/403/404.
+// Sends X-Api-Key only to api.pokemontcg.io, and only when a key is configured.
+async function apiFetch(url, options) {
+  const opts = options || {};
+  const onRetry = opts.onRetry;
+  const incomingHeaders = opts.headers;
+  const rest = { ...opts };
+  delete rest.onRetry;
+  delete rest.headers;
+
+  const headers = {};
+  if (incomingHeaders) {
+    new Headers(incomingHeaders).forEach((value, key) => { headers[key] = value; });
+  }
+  if (isPokemonTcgRequest(url)) {
+    const key = getApiKey();
+    if (key && String(key).trim()) headers['X-Api-Key'] = String(key).trim();
+  }
+
+  let lastResponse = null;
+  let lastError = null;
+  for (let attempt = 0; attempt < API_MAX_ATTEMPTS; attempt++) {
+    try {
+      const response = await fetch(url, { ...rest, headers });
+      const retryable = RETRYABLE_API_STATUSES.has(response.status);
+      if (response.ok || !retryable || attempt === API_MAX_ATTEMPTS - 1) return response;
+      lastResponse = response;
+      if (typeof onRetry === 'function') onRetry({ attempt, status: response.status });
+      await sleep(backoffDelayMs(attempt, response));
+    } catch (err) {
+      lastError = err;
+      if (attempt === API_MAX_ATTEMPTS - 1) throw err;
+      if (typeof onRetry === 'function') onRetry({ attempt, error: err });
+      await sleep(backoffDelayMs(attempt, null));
+    }
+  }
+  if (lastResponse) return lastResponse;
+  throw lastError || new Error('API request failed');
+}
 
 // ============================================================================
 // MAIN APP
@@ -400,7 +533,9 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
   const [view, setView] = useState('shelf');
   const [sets, setSets] = useState([]);
   const [loadingSets, setLoadingSets] = useState(true);
-  const [apiError, setApiError] = useState(null);
+  const [apiStatus, setApiStatus] = useState(null);
+  const setsRef = useRef([]);
+  const setsLoadGen = useRef(0);
   const [selectedSet, setSelectedSet] = useState(null);
   const [heroCards, setHeroCards] = useState({});
   const [pulledCards, setPulledCards] = useState([]);
@@ -431,22 +566,58 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
     setView('shelf');
   };
 
-  useEffect(() => {
-    fetch(`${API_BASE}/sets?orderBy=-releaseDate&pageSize=250`)
-      .then(r => {
-        if (!r.ok) throw new Error(`API returned ${r.status}`);
-        return r.json();
-      })
-      .then(data => {
-        setSets(data.data || []);
-        setLoadingSets(false);
-      })
-      .catch(e => {
-        console.error('Sets fetch failed', e);
-        setApiError(e.message);
-        setLoadingSets(false);
+  const loadSets = useCallback(async () => {
+    const gen = ++setsLoadGen.current;
+    const cached = readCacheEntry(SETS_CACHE_KEY);
+    const usableCache = cached && Array.isArray(cached.data) && cached.data.length > 0 ? cached : null;
+
+    if (usableCache) {
+      setsRef.current = usableCache.data;
+      setSets(usableCache.data);
+      setLoadingSets(false);
+    } else if (setsRef.current.length === 0) {
+      setLoadingSets(true);
+    }
+
+    try {
+      const res = await apiFetch(`${API_BASE}/sets?orderBy=-releaseDate&pageSize=250`, {
+        onRetry: () => {
+          if (gen === setsLoadGen.current) setApiStatus('retrying');
+        },
       });
+      if (gen !== setsLoadGen.current) return;
+      if (!res.ok) throw new Error(`API returned ${res.status}`);
+      const data = await res.json();
+      const list = Array.isArray(data.data) ? data.data : [];
+      if (list.length > 0) {
+        writeCacheEntry(SETS_CACHE_KEY, list);
+        setsRef.current = list;
+        setSets(list);
+      } else if (setsRef.current.length === 0) {
+        setSets([]);
+      }
+      setApiStatus(null);
+      setLoadingSets(false);
+    } catch (e) {
+      if (gen !== setsLoadGen.current) return;
+      console.error('Sets fetch failed', e);
+      const fallback = readCacheEntry(SETS_CACHE_KEY);
+      const fromCache = fallback && Array.isArray(fallback.data) && fallback.data.length > 0
+        ? fallback.data
+        : null;
+      const keep = fromCache || (setsRef.current.length > 0 ? setsRef.current : null);
+      if (keep) {
+        setsRef.current = keep;
+        setSets(keep);
+        setApiStatus('cached');
+      } else {
+        setApiStatus('failed');
+      }
+      setLoadingSets(false);
+    }
   }, []);
+
+  useEffect(() => { loadSets(); }, [loadSets]);
 
   const persistCollection = (newCollection) => {
     setCollection(newCollection);
@@ -472,26 +643,38 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
 
   const fetchSetCards = async (setId) => {
     if (cardCache[setId]) return cardCache[setId];
-    const allCards = [];
-    let page = 1;
-    while (page <= 3) {
-      const res = await fetch(`${API_BASE}/cards?q=set.id:${setId}&pageSize=250&page=${page}`);
-      if (!res.ok) throw new Error(`API error ${res.status}`);
-      const data = await res.json();
-      if (!data.data || data.data.length === 0) break;
-      allCards.push(...data.data);
-      if (data.data.length < 250) break;
-      page++;
+    const cacheKey = cardsCacheKey(setId);
+    const stored = readCacheEntry(cacheKey);
+    const storedCards = stored && Array.isArray(stored.data) && stored.data.length > 0 ? stored.data : null;
+    if (storedCards && cacheIsFresh(stored, CARDS_CACHE_TTL_MS)) {
+      const grouped = groupCardsByRarity(storedCards);
+      setCardCache(prev => ({ ...prev, [setId]: grouped }));
+      return grouped;
     }
-    const byRarity = {};
-    allCards.forEach(card => {
-      const r = card.rarity || 'Common';
-      if (!byRarity[r]) byRarity[r] = [];
-      byRarity[r].push(card);
-    });
-    const cache = { all: allCards, byRarity };
-    setCardCache(prev => ({ ...prev, [setId]: cache }));
-    return cache;
+    try {
+      const allCards = [];
+      let page = 1;
+      while (page <= 3) {
+        const res = await apiFetch(`${API_BASE}/cards?q=set.id:${setId}&pageSize=250&page=${page}`);
+        if (!res.ok) throw new Error(`API error ${res.status}`);
+        const data = await res.json();
+        if (!data.data || data.data.length === 0) break;
+        allCards.push(...data.data);
+        if (data.data.length < 250) break;
+        page++;
+      }
+      const grouped = groupCardsByRarity(allCards);
+      if (allCards.length > 0) writeCacheEntry(cacheKey, allCards);
+      setCardCache(prev => ({ ...prev, [setId]: grouped }));
+      return grouped;
+    } catch (e) {
+      if (storedCards) {
+        const grouped = groupCardsByRarity(storedCards);
+        setCardCache(prev => ({ ...prev, [setId]: grouped }));
+        return grouped;
+      }
+      throw e;
+    }
   };
 
   const fetchHeroCard = useCallback(async (set) => {
@@ -501,7 +684,7 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
         'Hyper Rare', 'Rare Holo VMAX', 'Rare Holo VSTAR', 'Illustration Rare',
         'Rare Ultra', 'Rare Holo V', 'Rare Holo'];
       for (const rarity of preferredRarities) {
-        const res = await fetch(
+        const res = await apiFetch(
           `${API_BASE}/cards?q=set.id:${set.id} rarity:"${rarity}"&pageSize=5&orderBy=-nationalPokedexNumbers`
         );
         if (!res.ok) continue;
@@ -512,7 +695,7 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
           return;
         }
       }
-      const res = await fetch(`${API_BASE}/cards?q=set.id:${set.id}&pageSize=1`);
+      const res = await apiFetch(`${API_BASE}/cards?q=set.id:${set.id}&pageSize=1`);
       if (res.ok) {
         const data = await res.json();
         if (data.data?.[0]) {
@@ -772,10 +955,16 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
       )}
 
       <main className="ripper-main">
-        {apiError && (
-          <div className="api-error">
-            <strong>API unreachable:</strong> {apiError}.
-            The Pokémon TCG API may be rate-limiting or down. Try refreshing in a moment.
+        {apiStatus && (
+          <div className={`api-error ${apiStatus === 'failed' ? 'fatal' : 'soft'}`} role="status" aria-live="polite">
+            <span>
+              {apiStatus === 'retrying' && 'API is having a moment — retrying…'}
+              {apiStatus === 'cached' && 'Using cached sets — API is having a moment.'}
+              {apiStatus === 'failed' && "Still can't reach the Pokémon TCG API."}
+            </span>
+            {apiStatus !== 'retrying' && (
+              <button type="button" className="api-retry-btn" onClick={loadSets}>Retry</button>
+            )}
           </div>
         )}
 
@@ -791,6 +980,7 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
             allSeries={allSeries}
             heroCards={heroCards}
             fetchHeroCard={fetchHeroCard}
+            suppressNoMatch={sets.length === 0 && apiStatus !== null}
           />
         )}
         {view === 'confirm' && selectedSet && (
@@ -840,7 +1030,8 @@ function PokemonPackRipper({ user, signOut, showLogin, setShowLogin, profiles, a
 // PACK SHELF
 // ============================================================================
 function PackShelf({ sets, loading, onSelect, searchQuery, setSearchQuery,
-                    filterSeries, setFilterSeries, allSeries, heroCards, fetchHeroCard }) {
+                    filterSeries, setFilterSeries, allSeries, heroCards, fetchHeroCard,
+                    suppressNoMatch }) {
   if (loading) {
     return (
       <div className="loading-screen">
@@ -871,11 +1062,13 @@ function PackShelf({ sets, loading, onSelect, searchQuery, setSearchQuery,
         </div>
       </div>
       {sets.length === 0 ? (
+        suppressNoMatch ? null : (
         <div className="empty-state">
           <div className="empty-icon">◇</div>
           <h3>NO PACKS MATCH</h3>
           <p>Try a different search or series filter.</p>
         </div>
+        )
       ) : (
         <div className="pack-grid">
           {sets.map(set => (
@@ -1438,7 +1631,29 @@ function Styles() {
         margin-bottom: 2rem;
         font-size: 0.9rem;
         border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        flex-wrap: wrap;
       }
+      .api-error.soft {
+        background: rgba(255, 203, 5, 0.08);
+        border-color: rgba(255, 203, 5, 0.55);
+        color: #ffe7a3;
+      }
+      .api-retry-btn {
+        background: transparent;
+        color: inherit;
+        border: 1px solid currentColor;
+        padding: 0.45rem 0.9rem;
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 0.72rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+      .api-retry-btn:hover { background: rgba(255,255,255,0.08); }
       .ripper-header {
         padding: 1.5rem 2rem;
         border-bottom: 2px solid var(--border);
