@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Engineering specs for PavingOS: architecture, offline, data model, APIs, security, and testing.">
+<title>PavingOS Engineering Specs — Stefan Friend</title>
+<meta property="og:title" content="PavingOS Engineering Specs — Stefan Friend">
+<meta property="og:description" content="Engineering specs for PavingOS: architecture, offline, data model, APIs, security, and testing.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://stefanfriend.com/writing/pavingos-eng-specs.html">
+<script>
+  (function(){var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);else if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)document.documentElement.setAttribute('data-theme','dark');})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #FAFAF8; --text: #1A1917; --text-secondary: #5C5850;
+  --text-muted: #8A8478; --accent: #1B4332; --accent-hover: #2D6A4F;
+  --border: #E2DFD8; --border-subtle: #ECEAE5;
+  --nav-bg: rgba(250, 250, 248, 0.92);
+  --serif: 'Newsreader', Georgia, serif; --sans: 'DM Sans', -apple-system, sans-serif;
+}
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 17px; scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+body { background: var(--bg); color: var(--text); font-family: var(--sans); line-height: 1.72; transition: background-color 0.3s ease, color 0.3s ease; }
+::selection { background: #1B433220; }
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center;
+  background: var(--nav-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 1px 0 var(--border);
+}
+.nav-name { font-family: var(--serif); font-size: 1.2rem; font-weight: 500; color: var(--text); text-decoration: none; }
+.nav-back { font-size: 0.78rem; font-weight: 500; color: var(--text-secondary); text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase; transition: color 0.2s; }
+.nav-back:hover { color: var(--text); }
+article { max-width: 660px; margin: 0 auto; padding: 8rem 2rem 5rem; }
+.article-meta { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 1.5rem; }
+article h1 { font-family: var(--serif); font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 500; line-height: 1.18; letter-spacing: -0.025em; color: var(--text); margin-bottom: 2.5rem; }
+article h2 { font-family: var(--serif); font-size: 1.5rem; font-weight: 500; line-height: 1.3; color: var(--text); margin: 3rem 0 1.25rem; }
+.article-body { font-size: 1.05rem; color: var(--text-secondary); line-height: 1.82; }
+.article-body p { margin-bottom: 1.4rem; }
+.article-body strong { color: var(--text); font-weight: 500; }
+.article-body em { font-family: var(--serif); }
+.article-body ul, .article-body ol { margin: 0.5rem 0 1.4rem 1.5rem; color: var(--text-secondary); }
+.article-body li { margin-bottom: 0.4rem; }
+.article-footer { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; font-size: 0.85rem; color: var(--text-muted); }
+.article-work { flex-basis: 100%; margin-bottom: 0.85rem; }
+.article-footer a { color: var(--accent); text-decoration: none; font-weight: 500; }
+@media (max-width: 768px) { article { padding: 6rem 1.25rem 3.5rem; } nav { padding: 0.85rem 1.25rem; } }
+
+[data-theme="dark"] {
+  --nav-bg: rgba(17, 17, 16, 0.92);
+  --bg: #111110; --text: #E8E4DD; --text-secondary: #A8A29E;
+  --text-muted: #78716C; --accent: #60A5FA; --accent-hover: #93C5FD;
+  --border: #2A2826; --border-subtle: #1F1E1C;
+}
+::selection { background: #1B433220; }
+[data-theme="dark"] ::selection { background: #60A5FA20; }
+
+.theme-toggle {
+  background: none; border: 1px solid var(--border); border-radius: 50%;
+  width: 32px; height: 32px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-muted); transition: all 0.2s; flex-shrink: 0; padding: 0;
+}
+.theme-toggle:hover { color: var(--text); border-color: var(--text-muted); }
+.theme-toggle svg { width: 16px; height: 16px; }
+.theme-toggle .icon-moon { display: block; }
+.theme-toggle .icon-sun { display: none; }
+[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+
+
+article h3 { font-family: var(--serif); font-size: 1.22rem; font-weight: 500; line-height: 1.35; color: var(--text); margin: 2.1rem 0 0.85rem; }
+article h4 { font-family: var(--serif); font-size: 1.05rem; font-weight: 500; line-height: 1.4; color: var(--text); margin: 1.6rem 0 0.65rem; }
+.article-body > h2:first-child { margin-top: 0; }
+.article-body a { color: var(--accent); text-decoration: underline; text-underline-offset: 0.18em; }
+.article-body a:hover { color: var(--accent-hover); }
+.article-body p, .article-body li, .article-body td, .article-body th { overflow-wrap: break-word; }
+.table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0.35rem 0 1.4rem; border: 1px solid var(--border); }
+.article-body table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.article-body th, .article-body td { padding: 0.55rem 0.8rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--border); color: var(--text-secondary); }
+.article-body th { color: var(--text); font-weight: 500; background: var(--border-subtle); }
+.article-body tr:last-child td { border-bottom: none; }
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-name">Stefan Friend</a>
+  <div style="display:flex;align-items:center;gap:1rem;">
+    <a href="/#writing" class="nav-back">&larr; All Writing</a>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    </button>
+  </div>
+</nav>
+<article>
+<div class="article-meta">December 2025</div>
+<h1>PavingOS Engineering Specs</h1>
+<div class="article-body">
+<h2>Engineering Specification — PavingOS</h2>
+<p>Version: MVP v1 (Authoritative)</p>
+<p>Focus: Field reliability (offline), financial correctness, scalable estimating logic</p>
+<h2>1. Product &amp; Architectural Goals</h2>
+<h3>Primary Product Goals</h3>
+<p>Opinionated estimating built for paving (templates → assemblies → estimates).</p>
+<p>Zero-reentry workflow: Estimate → Job → Actuals → Invoice.</p>
+<p>Continuous feedback loop from job actuals back to estimating insights.</p>
+<p>Foreman-first execution experience with minimal friction.</p>
+<h3>Day-1 Non-Negotiables</h3>
+<p>Minimum viable offline support for foremen:</p>
+<p>View assigned jobs</p>
+<p>Start / complete job</p>
+<p>Log labor hours</p>
+<p>Add notes</p>
+<p>Capture photos</p>
+<p>Sync later without data loss</p>
+<p>Financial correctness</p>
+<p>No floating-point currency math</p>
+<p>Deterministic, auditable calculations</p>
+<p>Multi-tenant, secure-by-default</p>
+<p>Row Level Security everywhere</p>
+<p>Strong auditability for financial actions</p>
+<h2>2. System Architecture</h2>
+<h3>High-Level Stack</h3>
+<p>Frontend &amp; API: Next.js (App Router) deployed on Vercel</p>
+<p>Database: Supabase Postgres</p>
+<p>Auth: Supabase Auth (magic link initially)</p>
+<p>Storage: Supabase Storage (private buckets)</p>
+<p>Offline: Service Worker + IndexedDB (event queue + photo staging)</p>
+<p>Integrations: QuickBooks Online (OAuth2 + REST APIs)</p>
+<h3>Runtime Responsibilities</h3>
+<p>Vercel Edge</p>
+<p>Session handling</p>
+<p>Lightweight reads</p>
+<p>Middleware (auth, rate limiting)</p>
+<p>Vercel Serverless</p>
+<p>Job/event ingestion</p>
+<p>Estimate → Job transactions</p>
+<p>Invoice creation</p>
+<p>QBO OAuth + API calls</p>
+<p>Supabase</p>
+<p>Data integrity, RLS enforcement</p>
+<p>Storage signing</p>
+<p>Optional realtime subscriptions</p>
+<h2>3. Offline Strategy (Authoritative)</h2>
+<h3>Philosophy</h3>
+<p>This is not a full local-first replica.</p>
+<p>This is minimum viable offline, optimized for reliability and speed.</p>
+<h3>Client Behavior</h3>
+<p>Foreman actions are written first to IndexedDB.</p>
+<p>Each action generates a job_event with a UUID client_event_id.</p>
+<p>Photos are staged locally until upload succeeds.</p>
+<p>Sync runs automatically when connectivity is detected.</p>
+<h3>Server Behavior</h3>
+<p>Events are appended idempotently.</p>
+<p>Duplicate client_event_ids are ignored.</p>
+<p>Derived summaries are recomputed server-side.</p>
+<h3>Why This Approach</h3>
+<p>Predictable</p>
+<p>Auditable</p>
+<p>Easy to reason about</p>
+<p>Avoids premature sync-engine complexity</p>
+<h2>4. Authentication &amp; Foreman PIN Security</h2>
+<h3>Supabase Auth</h3>
+<p>Email magic link for all users.</p>
+<p>Sessions managed server-side (@supabase/ssr).</p>
+<h3>Foreman PIN Gate (Required)</h3>
+<p>Field devices are shared. We add a local PIN lock.</p>
+<h3>Behavior</h3>
+<p>After initial login, foreman sets a 4–6 digit PIN.</p>
+<p>App requires PIN to unlock cached jobs and offline UI.</p>
+<p>PIN is required after:</p>
+<p>App restart</p>
+<p>Inactivity timeout</p>
+<p>Ops/Owner can remotely reset or lock PINs.</p>
+<h3>Data Model</h3>
+<p>profiles</p>
+<p>user_id (pk)</p>
+<p>pin_hash text</p>
+<p>pin_set_at timestamptz</p>
+<p>pin_failed_attempts int</p>
+<p>pin_locked_until timestamptz</p>
+<h3>Notes</h3>
+<p>PIN ≠ Auth token</p>
+<p>PIN protects against casual misuse, not device compromise</p>
+<p>IndexedDB encryption may be added later</p>
+<h2>5. Data Model (Postgres, Multi-Tenant)</h2>
+<h3>Core Tenancy</h3>
+<p>All tables include org_id.</p>
+<p>All access enforced via RLS.</p>
+<h3>orgs</h3>
+<p>id uuid pk</p>
+<p>name text</p>
+<p>timezone text</p>
+<p>created_at</p>
+<h3>profiles</h3>
+<p>user_id uuid pk</p>
+<p>full_name</p>
+<p>phone</p>
+<p>PIN fields (see above)</p>
+<h3>org_memberships</h3>
+<p>org_id</p>
+<p>user_id</p>
+<p>role enum (owner|ops|estimator|foreman)</p>
+<p>status</p>
+<p>Unique (org_id, user_id)</p>
+<h2>6. Financial Modeling (Critical)</h2>
+<h3>Money Rules (Hard Requirements)</h3>
+<p>All currency stored as integer cents (bigint)</p>
+<p>All percentages stored as basis points (int)</p>
+<p>Quantities stored as numeric</p>
+<p>No floats. Ever.</p>
+<h3>Estimating</h3>
+<h3>estimate_templates</h3>
+<p>id</p>
+<p>org_id</p>
+<p>name</p>
+<p>default_markup_bps</p>
+<p>notes</p>
+<p>archived_at</p>
+<h3>assemblies</h3>
+<p>id</p>
+<p>org_id</p>
+<p>template_id</p>
+<p>name</p>
+<p>kind (labor|equipment|materials|mobilization)</p>
+<p>uom</p>
+<p>default_qty numeric</p>
+<p>default_unit_cost_cents bigint</p>
+<p>production_rate numeric null</p>
+<p>sort_order</p>
+<h3>estimates</h3>
+<p>id</p>
+<p>org_id</p>
+<p>customer_id</p>
+<p>template_id null</p>
+<p>status (draft|sent|approved|rejected)</p>
+<p>subtotal_cents</p>
+<p>markup_bps</p>
+<p>total_cents</p>
+<p>pricing_snapshot jsonb</p>
+<p>job_site jsonb</p>
+<p>assumptions text</p>
+<p>created_by</p>
+<h3>estimate_line_items</h3>
+<p>id</p>
+<p>estimate_id</p>
+<p>assembly_id null</p>
+<p>name</p>
+<p>kind</p>
+<p>qty numeric</p>
+<p>unit_cost_cents</p>
+<p>unit_price_cents</p>
+<p>line_total_cents</p>
+<p>sort_order</p>
+<h2>7. Jobs &amp; Field Execution</h2>
+<h3>jobs</h3>
+<p>id</p>
+<p>org_id</p>
+<p>estimate_id</p>
+<p>status (ready|in_progress|completed|invoiced)</p>
+<p>scheduled_date date</p>
+<p>job_site jsonb</p>
+<p>scope_snapshot jsonb</p>
+<p>created_at</p>
+<h3>Event Log (Append-Only)</h3>
+<h3>job_events</h3>
+<p>id uuid pk</p>
+<p>org_id</p>
+<p>job_id</p>
+<p>client_event_id uuid</p>
+<p>type enum</p>
+<p>start</p>
+<p>complete</p>
+<p>note</p>
+<p>labor_hours</p>
+<p>equipment_usage</p>
+<p>photo_add</p>
+<p>photo_remove</p>
+<p>adjustment</p>
+<p>payload jsonb</p>
+<p>created_by</p>
+<p>device_ts</p>
+<p>created_at</p>
+<p>Unique (org_id, client_event_id)</p>
+<h3>Derived Data</h3>
+<h3>job_actuals_summary</h3>
+<p>job_id pk</p>
+<p>labor_hours numeric</p>
+<p>equipment_hours numeric</p>
+<p>notes_count</p>
+<p>photos_count</p>
+<p>last_event_at</p>
+<h3>job_variances</h3>
+<p>job_id pk</p>
+<p>estimate_totals_cents jsonb</p>
+<p>actual_totals_cents jsonb</p>
+<p>variance_cents jsonb</p>
+<p>signal enum (ok|warn|bad)</p>
+<h2>8. Invoicing &amp; QuickBooks</h2>
+<h3>invoices</h3>
+<p>id</p>
+<p>org_id</p>
+<p>job_id</p>
+<p>status (draft|sent_to_qbo|paid|void)</p>
+<p>line_items_snapshot jsonb</p>
+<p>total_cents</p>
+<p>qbo_invoice_id text</p>
+<p>created_at</p>
+<h3>qbo_connections</h3>
+<p>org_id pk</p>
+<p>realm_id</p>
+<p>access_token encrypted</p>
+<p>refresh_token encrypted</p>
+<p>token_expires_at</p>
+<p>scopes</p>
+<p>connected_at</p>
+<h2>9. API Surface (Primary)</h2>
+<h3>Core</h3>
+<p>POST /api/estimates</p>
+<p>POST /api/estimates/:id/approve</p>
+<p>POST /api/jobs/:id/events</p>
+<p>POST /api/jobs/:id/events/batch</p>
+<p>GET /api/jobs/:id</p>
+<p>POST /api/invoices/from-job/:jobId</p>
+<p>POST /api/invoices/:id/push-to-qbo</p>
+<h3>Foreman PIN</h3>
+<p>POST /api/foreman/pin/set</p>
+<p>POST /api/foreman/pin/reset</p>
+<p>POST /api/foreman/pin/lock</p>
+<h2>10. Storage</h2>
+<p>Bucket: job-photos (private)</p>
+<p>Path: org/{org_id}/jobs/{job_id}/{uuid}.jpg</p>
+<p>Upload via signed URLs</p>
+<p>Read via short-TTL signed URLs only</p>
+<h2>11. Security &amp; Integrity</h2>
+<p>RLS on every table</p>
+<p>Server-derived org_id only</p>
+<p>Idempotency enforced at DB level</p>
+<p>Audit log for:</p>
+<p>Estimate approval</p>
+<p>Job completion</p>
+<p>Invoice push</p>
+<p>PIN resets</p>
+<p>Rate limiting on:</p>
+<p>Auth</p>
+<p>Event ingestion</p>
+<p>QBO endpoints</p>
+<h2>12. Testing &amp; CI</h2>
+<h3>Required Tests</h3>
+<p>Unit</p>
+<p>Pricing math (decimal correctness)</p>
+<p>Markup bps logic</p>
+<p>Variance signals</p>
+<p>Integration</p>
+<p>Supabase migrations + RLS policies</p>
+<p>Event idempotency</p>
+<p>E2E</p>
+<p>Estimate → Job</p>
+<p>Offline job execution → sync → invoice</p>
+<h3>CI</h3>
+<p>Lint</p>
+<p>Typecheck</p>
+<p>Unit</p>
+<p>Integration</p>
+<p>E2E</p>
+<p>Vercel Preview Deploys per PR</p>
+<h2>13. Explicit Non-Goals (MVP)</h2>
+<p>Full local-first replication</p>
+<p>Multi-foreman concurrent editing conflict resolution</p>
+<p>Automated template mutation</p>
+<p>ERP integrations beyond QBO</p>
+<h2>14. Design &amp; UX Governance</h2>
+<p>All user-facing functionality MUST comply with the</p>
+<p>&quot;PavingOS Design Contract (MVP)&quot;.</p>
+<p>The Engineering Spec defines system behavior and constraints.</p>
+<p>The Design Contract defines interaction rules, friction limits, and experience principles.</p>
+<p>In cases of conflict:</p>
+<p>Data integrity &gt; UX polish</p>
+<p>Field usability &gt; office convenience</p>
+<p>Design Contract &gt; ad-hoc UI decisions</p>
+</div>
+<div class="article-footer">
+  <p class="article-work">Work with me: <a href="https://friendtechventures.com/services/" target="_blank" rel="noopener">friendtechventures.com/services</a></p>
+  <a href="/writing/pavingos-specs.html">&larr; PavingOS Specs</a>
+  <a href="/writing/first-contact.html">First Contact &rarr;</a>
+</div>
+</article>
+<script>
+const themeToggle = document.getElementById('themeToggle');
+themeToggle.addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  if (next === 'light') {
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'light');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
+  }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The PRD, engineering specs, and design contract that drove PavingOS — product, engineering, and design as one set.">
+<title>PavingOS Specs — Stefan Friend</title>
+<meta property="og:title" content="PavingOS Specs — Stefan Friend">
+<meta property="og:description" content="The PRD, engineering specs, and design contract that drove PavingOS — product, engineering, and design as one set.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://stefanfriend.com/writing/pavingos-specs.html">
+<script>
+  (function(){var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);else if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)document.documentElement.setAttribute('data-theme','dark');})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #FAFAF8; --text: #1A1917; --text-secondary: #5C5850;
+  --text-muted: #8A8478; --accent: #1B4332; --accent-hover: #2D6A4F;
+  --border: #E2DFD8; --border-subtle: #ECEAE5;
+  --nav-bg: rgba(250, 250, 248, 0.92);
+  --serif: 'Newsreader', Georgia, serif; --sans: 'DM Sans', -apple-system, sans-serif;
+}
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 17px; scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+body { background: var(--bg); color: var(--text); font-family: var(--sans); line-height: 1.72; transition: background-color 0.3s ease, color 0.3s ease; }
+::selection { background: #1B433220; }
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center;
+  background: var(--nav-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 1px 0 var(--border);
+}
+.nav-name { font-family: var(--serif); font-size: 1.2rem; font-weight: 500; color: var(--text); text-decoration: none; }
+.nav-back { font-size: 0.78rem; font-weight: 500; color: var(--text-secondary); text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase; transition: color 0.2s; }
+.nav-back:hover { color: var(--text); }
+article { max-width: 660px; margin: 0 auto; padding: 8rem 2rem 5rem; }
+.article-meta { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 1.5rem; }
+article h1 { font-family: var(--serif); font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 500; line-height: 1.18; letter-spacing: -0.025em; color: var(--text); margin-bottom: 2.5rem; }
+article h2 { font-family: var(--serif); font-size: 1.5rem; font-weight: 500; line-height: 1.3; color: var(--text); margin: 3rem 0 1.25rem; }
+.article-body { font-size: 1.05rem; color: var(--text-secondary); line-height: 1.82; }
+.article-body p { margin-bottom: 1.4rem; }
+.article-body strong { color: var(--text); font-weight: 500; }
+.article-body em { font-family: var(--serif); }
+.article-body ul, .article-body ol { margin: 0.5rem 0 1.4rem 1.5rem; color: var(--text-secondary); }
+.article-body li { margin-bottom: 0.4rem; }
+.article-footer { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; font-size: 0.85rem; color: var(--text-muted); }
+.article-work { flex-basis: 100%; margin-bottom: 0.85rem; }
+.article-footer a { color: var(--accent); text-decoration: none; font-weight: 500; }
+@media (max-width: 768px) { article { padding: 6rem 1.25rem 3.5rem; } nav { padding: 0.85rem 1.25rem; } }
+
+[data-theme="dark"] {
+  --nav-bg: rgba(17, 17, 16, 0.92);
+  --bg: #111110; --text: #E8E4DD; --text-secondary: #A8A29E;
+  --text-muted: #78716C; --accent: #60A5FA; --accent-hover: #93C5FD;
+  --border: #2A2826; --border-subtle: #1F1E1C;
+}
+::selection { background: #1B433220; }
+[data-theme="dark"] ::selection { background: #60A5FA20; }
+
+.theme-toggle {
+  background: none; border: 1px solid var(--border); border-radius: 50%;
+  width: 32px; height: 32px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-muted); transition: all 0.2s; flex-shrink: 0; padding: 0;
+}
+.theme-toggle:hover { color: var(--text); border-color: var(--text-muted); }
+.theme-toggle svg { width: 16px; height: 16px; }
+.theme-toggle .icon-moon { display: block; }
+.theme-toggle .icon-sun { display: none; }
+[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+
+
+article h3 { font-family: var(--serif); font-size: 1.22rem; font-weight: 500; line-height: 1.35; color: var(--text); margin: 2.1rem 0 0.85rem; }
+article h4 { font-family: var(--serif); font-size: 1.05rem; font-weight: 500; line-height: 1.4; color: var(--text); margin: 1.6rem 0 0.65rem; }
+.article-body > h2:first-child { margin-top: 0; }
+.article-body a { color: var(--accent); text-decoration: underline; text-underline-offset: 0.18em; }
+.article-body a:hover { color: var(--accent-hover); }
+.article-body p, .article-body li, .article-body td, .article-body th { overflow-wrap: break-word; }
+.table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0.35rem 0 1.4rem; border: 1px solid var(--border); }
+.article-body table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.article-body th, .article-body td { padding: 0.55rem 0.8rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--border); color: var(--text-secondary); }
+.article-body th { color: var(--text); font-weight: 500; background: var(--border-subtle); }
+.article-body tr:last-child td { border-bottom: none; }
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-name">Stefan Friend</a>
+  <div style="display:flex;align-items:center;gap:1rem;">
+    <a href="/#writing" class="nav-back">&larr; All Writing</a>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    </button>
+  </div>
+</nav>
+<article>
+<div class="article-meta">December 2025 · Specs</div>
+<h1>PavingOS Specs</h1>
+<div class="article-body">
+
+<p>These three documents together drove the product, engineering, and design trifecta for PavingOS. The PRD defines the problem and the wedge. The engineering specs define how the system is built. The design contract defines how it has to feel and behave. Together they were the PRD, the engineering contract, and the agent prompt: one set of artifacts product, engineering, and AI coding agents could all execute against.</p>
+<p>This was drafted in December 2025 and hasn&#x27;t been changed since. Today I&#x27;d update the prompts, the information, and the requirements for each piece. I&#x27;m sharing the set as written, lightly cleaned only where needed for privacy.</p>
+<p>The narrative case study of the build is <a href="/writing/first-contact.html">First Contact</a>. These pages are the underlying specs.</p>
+<h2>The three documents</h2>
+<p><strong><a href="/writing/pavingos-prd.html">Product Requirements (PRD)</a></strong> — The problem, ICP, jobs-to-be-done, and MVP wedge: estimating → job costing feedback loop for paving contractors.</p>
+<p><strong><a href="/writing/pavingos-eng-specs.html">Engineering Specs</a></strong> — System architecture, offline strategy, data model, APIs, security, and testing.</p>
+<p><strong><a href="/writing/pavingos-design-contract.html">Design Contract</a></strong> — Experience laws and friction limits. How the product must feel and behave for field and office users, including AI coding agents.</p>
+
+</div>
+<div class="article-footer">
+  <p class="article-work">Work with me: <a href="https://friendtechventures.com/services/" target="_blank" rel="noopener">friendtechventures.com/services</a></p>
+  <span>Stefan Friend</span>
+  <a href="/writing/first-contact.html">First Contact &rarr;</a>
+</div>
+</article>
+<script>
+const themeToggle = document.getElementById('themeToggle');
+themeToggle.addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  if (next === 'light') {
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'light');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
+  }
+});
+</script>
+</body>
+</html>
