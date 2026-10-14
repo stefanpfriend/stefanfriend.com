@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Engineering specs for PavingOS: architecture, offline, data model, APIs, security, and testing. Three draft variants from December 2025.">
+<title>PavingOS Engineering Specs — Stefan Friend</title>
+<meta property="og:title" content="PavingOS Engineering Specs — Stefan Friend">
+<meta property="og:description" content="Engineering specs for PavingOS: architecture, offline, data model, APIs, security, and testing. Three draft variants from December 2025.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://stefanfriend.com/writing/pavingos-eng-specs.html">
+<script>
+  (function(){var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);else if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)document.documentElement.setAttribute('data-theme','dark');})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #FAFAF8; --text: #1A1917; --text-secondary: #5C5850;
+  --text-muted: #8A8478; --accent: #1B4332; --accent-hover: #2D6A4F;
+  --border: #E2DFD8; --border-subtle: #ECEAE5;
+  --nav-bg: rgba(250, 250, 248, 0.92);
+  --serif: 'Newsreader', Georgia, serif; --sans: 'DM Sans', -apple-system, sans-serif;
+}
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 17px; scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+body { background: var(--bg); color: var(--text); font-family: var(--sans); line-height: 1.72; transition: background-color 0.3s ease, color 0.3s ease; }
+::selection { background: #1B433220; }
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center;
+  background: var(--nav-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 1px 0 var(--border);
+}
+.nav-name { font-family: var(--serif); font-size: 1.2rem; font-weight: 500; color: var(--text); text-decoration: none; }
+.nav-back { font-size: 0.78rem; font-weight: 500; color: var(--text-secondary); text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase; transition: color 0.2s; }
+.nav-back:hover { color: var(--text); }
+article { max-width: 660px; margin: 0 auto; padding: 8rem 2rem 5rem; }
+.article-meta { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 1.5rem; }
+article h1 { font-family: var(--serif); font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 500; line-height: 1.18; letter-spacing: -0.025em; color: var(--text); margin-bottom: 2.5rem; }
+article h2 { font-family: var(--serif); font-size: 1.5rem; font-weight: 500; line-height: 1.3; color: var(--text); margin: 3rem 0 1.25rem; }
+.article-body { font-size: 1.05rem; color: var(--text-secondary); line-height: 1.82; }
+.article-body p { margin-bottom: 1.4rem; }
+.article-body strong { color: var(--text); font-weight: 500; }
+.article-body em { font-family: var(--serif); }
+.article-body ul, .article-body ol { margin: 0.5rem 0 1.4rem 1.5rem; color: var(--text-secondary); }
+.article-body li { margin-bottom: 0.4rem; }
+.article-footer { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; font-size: 0.85rem; color: var(--text-muted); }
+.article-work { flex-basis: 100%; margin-bottom: 0.85rem; }
+.article-footer a { color: var(--accent); text-decoration: none; font-weight: 500; }
+@media (max-width: 768px) { article { padding: 6rem 1.25rem 3.5rem; } nav { padding: 0.85rem 1.25rem; } }
+
+[data-theme="dark"] {
+  --nav-bg: rgba(17, 17, 16, 0.92);
+  --bg: #111110; --text: #E8E4DD; --text-secondary: #A8A29E;
+  --text-muted: #78716C; --accent: #60A5FA; --accent-hover: #93C5FD;
+  --border: #2A2826; --border-subtle: #1F1E1C;
+}
+::selection { background: #1B433220; }
+[data-theme="dark"] ::selection { background: #60A5FA20; }
+
+.theme-toggle {
+  background: none; border: 1px solid var(--border); border-radius: 50%;
+  width: 32px; height: 32px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-muted); transition: all 0.2s; flex-shrink: 0; padding: 0;
+}
+.theme-toggle:hover { color: var(--text); border-color: var(--text-muted); }
+.theme-toggle svg { width: 16px; height: 16px; }
+.theme-toggle .icon-moon { display: block; }
+.theme-toggle .icon-sun { display: none; }
+[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+
+
+article h3 { font-family: var(--serif); font-size: 1.22rem; font-weight: 500; line-height: 1.35; color: var(--text); margin: 2.1rem 0 0.85rem; }
+article h4 { font-family: var(--serif); font-size: 1.05rem; font-weight: 500; line-height: 1.4; color: var(--text); margin: 1.6rem 0 0.65rem; }
+.article-body > h2:first-child { margin-top: 0; }
+.article-body a { color: var(--accent); text-decoration: underline; text-underline-offset: 0.18em; }
+.article-body a:hover { color: var(--accent-hover); }
+.article-body p, .article-body li, .article-body td, .article-body th { overflow-wrap: break-word; }
+.table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0.35rem 0 1.4rem; border: 1px solid var(--border); }
+.article-body table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.article-body th, .article-body td { padding: 0.55rem 0.8rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--border); color: var(--text-secondary); }
+.article-body th { color: var(--text); font-weight: 500; background: var(--border-subtle); }
+.article-body tr:last-child td { border-bottom: none; }
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-name">Stefan Friend</a>
+  <div style="display:flex;align-items:center;gap:1rem;">
+    <a href="/#writing" class="nav-back">&larr; All Writing</a>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    </button>
+  </div>
+</nav>
+<article>
+<div class="article-meta">December 2025</div>
+<h1>PavingOS Engineering Specs</h1>
+<div class="article-body">
+<p>Eng Spec 1 - Gemini</p>
+<p>This is a detailed engineering specification for PavingOS.</p>
+<p>As a Senior Staff Engineer, my primary focus here is reliability in the field (offline first), data integrity (financials), and scalability of the logic (estimating calculations).</p>
+<p>The architecture deviates from a standard CRUD app to accommodate the &quot;Day 1 Requirement&quot; of offline support for Foremen. We cannot rely on simple browser caching; we require a local database synchronized with the server.</p>
+<h2>1. Architecture Overview</h2>
+<p>We will utilize a Hybrid Architecture:</p>
+<p>Office App (Owner/Ops/Estimator): A standard server-rendered Next.js application optimized for desktop/tablet. Focus is on complex forms and data visualization.</p>
+<p>Field App (Foreman): A Local-First PWA (Progressive Web App) running on Next.js, utilizing a client-side database (SQLite via WASM) that syncs to Supabase.</p>
+<h3>High-Level Stack</h3>
+<p>Frontend: Next.js 15 (App Router).</p>
+<p>Hosting/Edge: Vercel.</p>
+<p>Database: Supabase (PostgreSQL).</p>
+<p>Offline Sync Engine: PowerSync (Recommended). It connects Supabase Postgres to a client-side SQLite database, allowing the Foreman to work 100% offline and sync when connectivity returns.</p>
+<p>Background Jobs: Inngest (via Vercel Integration) for QuickBooks syncing and async calculations.</p>
+<h3>System Diagram Description</h3>
+<p>Client (Field): Writes to local SQLite. PowerSync SDK uploads mutations to Supabase.</p>
+<p>Client (Office): Reads/Writes directly via Next.js Server Actions (or Supabase SDK) for real-time connectivity.</p>
+<p>Supabase:</p>
+<p>Postgres: Core data storage.</p>
+<p>Auth: Handles JWTs and Row Level Security (RLS).</p>
+<p>Realtime: Pushes updates to Office dashboards.</p>
+<p>Integration Layer (Inngest):</p>
+<p>Listens for job.status = &#x27;completed&#x27; events.</p>
+<p>Triggers transformation of Job Data → QBO Invoice.</p>
+<p>Handles QBO OAuth token refreshing and retry logic.</p>
+<h2>2. Data Model</h2>
+<p>The schema must support the &quot;Snapshot&quot; pattern. When an Estimate becomes a Job, data must be copied, not referenced, so that changing a template price today does not alter the historical margin analysis of a job done last month.</p>
+<h3>Core Entities (PostgreSQL Schema)</h3>
+<h3>organizations (Tenancy)</h3>
+<p>id: UUID</p>
+<p>legal_name: Text</p>
+<p>settings: JSONB (Default margins, QBO tokens)</p>
+<h3>users</h3>
+<p>id: UUID (FK to auth.users)</p>
+<p>role: Enum (owner, estimator, ops, foreman)</p>
+<p>pin_code: Hashed (For simplified Foreman login in the field)</p>
+<h3>catalogs (The &quot;Truth&quot; for Estimating)</h3>
+<p>items: Labor types, Equipment types, Materials (Asphalt, Tack, Base).</p>
+<p>production_rates: Logic for performance (e.g., &quot;Paving Crew A&quot; = 150 tons/day).</p>
+<h3>estimates</h3>
+<p>id: UUID</p>
+<p>status: Enum (draft, approved, rejected, converted)</p>
+<p>target_margin: Decimal</p>
+<p>total_price: Currency</p>
+<p>markup_config: JSONB (Overhead/Profit settings)</p>
+<h3>estimate_line_items</h3>
+<p>estimate_id: FK</p>
+<p>type: (labor, equipment, material)</p>
+<p>qty: Decimal</p>
+<p>unit_cost: Currency (Snapshot from Catalog)</p>
+<p>unit_price: Currency (Calculated)</p>
+<h3>jobs (The Execution Record)</h3>
+<p>id: UUID</p>
+<p>estimate_id: FK (Nullable, for legacy jobs)</p>
+<p>status: (scheduled, in_progress, completed, invoiced)</p>
+<p>schedule_date: Date</p>
+<p>foreman_id: FK</p>
+<p>site_address: JSONB</p>
+<p>qbo_id: Text (External ID)</p>
+<h3>job_actuals (The Feedback Loop)</h3>
+<p>job_id: FK</p>
+<p>entry_type: (labor_hours, material_load, equipment_hours)</p>
+<p>qty: Decimal</p>
+<p>recorded_at: Timestamp</p>
+<p>notes: Text</p>
+<p>media_urls: Text[] (Photos from Supabase Storage)</p>
+<h2>3. API &amp; Edge Functions</h2>
+<p>We will prioritize Server Actions for the Office App and Sync Protocol for the Field App.</p>
+<h3>Critical Server Actions (Office)</h3>
+<p>createEstimateFromTemplate(templateId): Deep clones a template into a new estimate.</p>
+<p>convertEstimateToJob(estimateId):</p>
+<p>Creates jobs row.</p>
+<p>Deep copies estimate_line_items to job_budget (to track variance).</p>
+<p>Sets status to scheduled.</p>
+<p>syncToQuickBooks(jobId): Manually triggers the Inngest workflow.</p>
+<h3>Field App Sync Strategy (The Offline Challenge)</h3>
+<p>The Foreman app must not fail when the network is flaky (common on paving sites).</p>
+<p>Read: The Foreman&#x27;s device downloads a &quot;Bucket&quot; of data (Assigned Jobs + associated Line Items) via PowerSync to local SQLite.</p>
+<p>Write: Foreman writes to local SQLite.</p>
+<p>Sync: When network is available, the sync engine pushes mutations to the Supabase write-API.</p>
+<p>Conflict Resolution: Last-write-wins is acceptable for this MVP, as Foremen rarely edit the same job simultaneously.</p>
+<h3>Inngest Background Functions</h3>
+<p>jobs/completed:</p>
+<p>Trigger: jobs table update where status changes to completed.</p>
+<p>Action: Generate Invoice JSON -&gt; Authenticate QBO -&gt; Post Invoice -&gt; Save QBO Invoice ID to jobs table.</p>
+<p>pricing/update-rates:</p>
+<p>Scheduled: Weekly.</p>
+<p>Action: Analyze job_actuals vs estimates to suggest new production rates to the Owner (Feedback Loop).</p>
+<h2>4. Auth &amp; Security Considerations</h2>
+<h3>Row Level Security (RLS)</h3>
+<p>This is a multi-tenant application. Strict RLS is required on every table.</p>
+<p>Policy: auth.uid() IN (SELECT user_id FROM organization_users WHERE org_id = current_row.org_id)</p>
+<h3>Role-Based Access Control (RBAC)</h3>
+<p>We will implement RBAC logic within RLS policies or middleware.</p>
+<p>Foreman:</p>
+<p>READ: Only jobs assigned to them OR jobs scheduled for &quot;Today&quot;.</p>
+<p>WRITE: Only job_actuals and job_status. Cannot see pricing or margins.</p>
+<p>Owner/Estimator: Full Access.</p>
+<h3>QuickBooks OAuth</h3>
+<p>Tokens must be encrypted at rest in the organizations table or a dedicated integrations table.</p>
+<p>We must handle the &quot;Refresh Token&quot; rotation gracefully. If a token expires during a sync, the Inngest job must pause, alert the user to re-authenticate, and retry.</p>
+<h3>Field Device Security</h3>
+<p>Foremen devices are often shared. We should implement a &quot;Session Pin&quot; (4 digits) that wraps the long-lived Auth token, preventing accidental data entry by the wrong crew member if the phone is passed around.</p>
+<h2>5. Testing &amp; CI/CD</h2>
+<h3>Testing Strategy</h3>
+<p>Unit Tests (Vitest):</p>
+<p>Critical: Estimating math. We cannot have floating point errors.</p>
+<p>Use dinero.js or decimal.js logic in tests to ensure $100.00 + $0.01 = $100.01, not $100.0099999.</p>
+<p>E2E Tests (Playwright):</p>
+<p>Scenario A (Office): Create Estimate -&gt; Convert to Job.</p>
+<p>Scenario B (Field): (Mocked Offline Mode) Load Job -&gt; Add Photo -&gt; Complete Job -&gt; Reconnect.</p>
+<p>Integration Tests:</p>
+<p>Mock QBO API responses to test invoice generation logic.</p>
+<h3>CI/CD Pipeline (GitHub Actions)</h3>
+<p>Lint/Typecheck: eslint, prettier, tsc.</p>
+<p>Test: Run Vitest and Playwright (Headless).</p>
+<p>Preview: Deploy to Vercel Preview on PR.</p>
+<p>Migration Safety: Supabase CLI to check for breaking schema changes.</p>
+<p>Production: Merge to main -&gt; Vercel Production Deploy.</p>
+<h2>6. Recommended Dependencies (Stable Versions)</h2>
+<p>Research conducted on December 17, 2025.</p>
+<h3>Core Framework</h3>
+<p>Next.js: v15.1.0 (Latest stable, utilizing improved caching semantics).</p>
+<p>React: v19.0.0 (Peer dependency of Next 15).</p>
+<p>TypeScript: v5.7.0.</p>
+<h3>Data &amp; State</h3>
+<p>@supabase/supabase-js: v2.47.0.</p>
+<p>@powersync/web: v0.1.0 (or latest stable SDK for local-first sync).</p>
+<p>swr or @tanstack/react-query: v5.62.0 (For office-side data fetching).</p>
+<h3>UI &amp; Forms</h3>
+<p>Tailwind CSS: v3.4.16 (Stick to v3 for stability in production).</p>
+<p>clsx / tailwind-merge: For conditional classes.</p>
+<p>shadcn/ui: Components (Radix UI primitives).</p>
+<p>react-hook-form: v7.54.0.</p>
+<p>zod: v3.24.1 (Schema validation for forms and API inputs).</p>
+<h3>Domain Specific</h3>
+<p>dinero.js: v2.0.0-alpha.14 (or decimal.js v10.4.3 if avoiding alpha) - Mandatory for financial math.</p>
+<p>luxon or date-fns: v4.1.0 (Timezone handling is critical for job scheduling).</p>
+<p>react-dropzone: For photo uploads in the field.</p>
+<h3>Infrastructure/Backend</h3>
+<p>inngest: v3.25.0 (Background queues).</p>
+<p>intuit-oauth: v4.0.0 (Official QBO SDK wrapper).</p>
+<p>Eng Spec 2 - ChatGPT</p>
+<h2>Engineering Specification — PavingOS (Next.js + Vercel + Supabase)</h2>
+<h3>1) Architecture overview</h3>
+<p>Goals</p>
+<p>Fast, opinionated estimating workflow + tight feedback loop from actuals → templates.</p>
+<p>“Foreman-first” mobile UX with minimum viable offline: view job, start/complete, notes, photos, sync later.</p>
+<p>High-level</p>
+<p>Frontend + API: Next.js (App Router) deployed on Vercel.</p>
+<p>Auth/DB/Storage/Realtime: Supabase (Postgres + RLS + Storage).</p>
+<p>Integrations: QuickBooks Online via Intuit OAuth2 + QBO APIs.</p>
+<p>Offline: Service Worker + IndexedDB queue for “job events” + photo staging; background sync when online.</p>
+<p>Runtime split</p>
+<p>Vercel Edge: lightweight auth/session handling, reads, caching, web middleware.</p>
+<p>Vercel Serverless: QBO OAuth callbacks, invoice creation, sync jobs (need Node libs).</p>
+<p>Supabase Edge Functions (Deno): optional for webhook ingestion + lightweight DB writes (can keep everything in Vercel if preferred; pick one and standardize).</p>
+<p>Core flows</p>
+<p>Estimating</p>
+<p>Templates (assemblies) → estimate → approval.</p>
+<p>Inline “historical actuals” surfaces from past jobs linked to the template/assembly.</p>
+<p>Estimate → Job</p>
+<p>Approved estimate converts to a job (no re-entry).</p>
+<p>Field execution (offline-capable)</p>
+<p>Foreman actions append immutable job_events (started/completed/notes/photos/labor hours).</p>
+<p>Client writes to IndexedDB first; syncs when online; server applies idempotently.</p>
+<p>Job costing feedback</p>
+<p>Job aggregates actuals from events into job_actuals_summary.</p>
+<p>Variances update template insights (never auto-mutate template rates without explicit user action).</p>
+<p>Invoice → QuickBooks</p>
+<p>Completed job generates invoice draft; ops reviews; push to QBO; store QBO IDs + sync state.</p>
+<h3>2) Data model (Supabase Postgres)</h3>
+<p>Multi-tenant first-class: everything scoped to org_id. Use RLS everywhere.</p>
+<h3>Auth &amp; tenancy</h3>
+<p>orgs</p>
+<p>id (uuid pk), name, timezone, created_at</p>
+<p>profiles</p>
+<p>user_id (uuid pk -&gt; auth.users.id), full_name, phone, created_at</p>
+<p>org_memberships</p>
+<p>org_id, user_id, role (owner|estimator|ops|foreman), status, created_at</p>
+<p>Unique (org_id, user_id)</p>
+<h3>Customers &amp; QBO mapping</h3>
+<p>customers</p>
+<p>id, org_id, display_name, billing_email, billing_address (jsonb), qbo_customer_id (text, nullable), updated_at</p>
+<p>qbo_connections</p>
+<p>org_id (pk), realm_id, access_token (encrypted), refresh_token (encrypted), token_expires_at, scopes, connected_at</p>
+<p>qbo_sync_state</p>
+<p>org_id, entity_type (customer|invoice|account|item), last_sync_at, cursor (text/jsonb), status, error (jsonb)</p>
+<h3>Estimating (opinionated)</h3>
+<p>estimate_templates</p>
+<p>id, org_id, name, default_markup_pct, notes, archived_at</p>
+<p>assemblies</p>
+<p>id, org_id, template_id, name, kind (labor|equipment|materials|mobilization), uom (hr|day|ton|sqft|each), default_qty, default_unit_cost, production_rate (numeric, nullable), sort_order</p>
+<p>estimates</p>
+<p>id, org_id, customer_id, template_id (nullable), status (draft|sent|approved|rejected),</p>
+<p>job_site (jsonb), assumptions (text), pricing_snapshot (jsonb) (frozen copy of rates used), created_by</p>
+<p>estimate_line_items</p>
+<p>id, org_id, estimate_id, assembly_id (nullable), name, kind, qty, uom, unit_cost, unit_price, sort_order</p>
+<h3>Jobs + actuals feedback loop</h3>
+<p>jobs</p>
+<p>id, org_id, estimate_id, status (ready|in_progress|completed|invoiced),</p>
+<p>scheduled_date (date, nullable), job_site (jsonb), scope_snapshot (jsonb), created_at</p>
+<p>job_events (append-only event log; sync-friendly)</p>
+<p>id (uuid pk), org_id, job_id, client_event_id (uuid) unique (org_id, client_event_id) for idempotency</p>
+<p>type (start|complete|note|labor_hours|photo_add|photo_remove|adjustment)</p>
+<p>payload (jsonb) (e.g., {hours: 6.5}, {text:&quot;...&quot;}, {storage_path:&quot;...&quot;})</p>
+<p>created_by, created_at, device_ts</p>
+<p>job_actuals_summary (derived, can be table or view + materialization)</p>
+<p>job_id (pk), labor_hours, equipment_hours, notes_count, photos_count, last_event_at</p>
+<p>job_variances</p>
+<p>job_id (pk), estimate_totals (jsonb), actual_totals (jsonb), variance (jsonb), signal (ok|warn|bad)</p>
+<h3>Invoicing</h3>
+<p>invoices</p>
+<p>id, org_id, job_id, status (draft|sent_to_qbo|paid|void),</p>
+<p>line_items_snapshot (jsonb), qbo_invoice_id (text, nullable), created_at</p>
+<p>audit_log (security + troubleshooting)</p>
+<p>id, org_id, actor_user_id, action, entity_type, entity_id, meta (jsonb), created_at</p>
+<p>Supabase Storage buckets</p>
+<p>job-photos (private)</p>
+<p>path convention: org/{org_id}/jobs/{job_id}/{uuid}.jpg</p>
+<p>access via signed URLs; uploads via short-lived signed upload URL.</p>
+<h3>3) API / Edge Functions</h3>
+<p>Use Next.js Route Handlers (/app/api/...) as the primary API. Keep it boring.</p>
+<h3>Core API</h3>
+<p>POST /api/estimates create draft from template</p>
+<p>POST /api/estimates/:id/approve → converts to job (transaction)</p>
+<p>POST /api/jobs/:id/events append job event (idempotent via client_event_id)</p>
+<p>GET /api/jobs/:id job + derived summary + signed photo URLs</p>
+<p>POST /api/invoices/from-job/:jobId create invoice draft from estimate snapshot + adjustments</p>
+<p>POST /api/invoices/:id/push-to-qbo creates/updates QBO invoice, persists qbo_invoice_id</p>
+<h3>Offline sync contract (critical)</h3>
+<p>Client stores events in IndexedDB.</p>
+<p>On reconnect: batch send job_events[] to POST /api/jobs/:id/events/batch</p>
+<p>Server:</p>
+<p>validates membership + role</p>
+<p>inserts only new client_event_ids</p>
+<p>triggers recompute of summaries/variances (DB function or background job)</p>
+<h3>QuickBooks Online</h3>
+<p>GET /api/qbo/connect start OAuth (redirect to Intuit)</p>
+<p>GET /api/qbo/callback exchange code → store tokens in qbo_connections</p>
+<p>POST /api/qbo/webhook (optional)</p>
+<p>verify signature, enqueue sync work, update qbo_sync_state</p>
+<p>POST /api/qbo/sync/customers (admin/ops)</p>
+<p>POST /api/qbo/sync/accounts-items (admin/ops)</p>
+<p>Token refresh</p>
+<p>Prefer a scheduled job (Vercel Cron) that refreshes tokens nearing expiry and updates qbo_connections.</p>
+<p>Never refresh from the client.</p>
+<h3>4) Auth + security considerations</h3>
+<p>Auth</p>
+<p>Supabase Auth (email + magic link to start; add SSO later if needed).</p>
+<p>Session on server using @supabase/ssr (Supabase recommends this over deprecated auth helpers).</p>
+<p>Authorization</p>
+<p>RLS policies on every table:</p>
+<p>user must be in org_memberships for org_id</p>
+<p>role gates:</p>
+<p>foreman: read job, create job_events, upload photos</p>
+<p>ops/owner: everything + invoicing + QBO sync</p>
+<p>estimator: templates/estimates, read variances</p>
+<p>Enforce org_id from server-side session; never trust client-provided org_id.</p>
+<p>Data integrity</p>
+<p>Use DB constraints:</p>
+<p>unique idempotency key: (org_id, client_event_id)</p>
+<p>foreign keys everywhere</p>
+<p>Convert estimate → job via a transaction:</p>
+<p>lock estimate row</p>
+<p>verify approved</p>
+<p>create job + snapshot fields</p>
+<p>mark estimate “approved”</p>
+<p>Storage security</p>
+<p>Photos bucket private.</p>
+<p>Upload via server-minted signed upload URLs.</p>
+<p>Serve via signed read URLs with short TTL.</p>
+<p>Supply-chain + runtime security (don’t ignore this)</p>
+<p>Keep React patched: there have been critical RSC vulns recently; stay current and pin exact versions in lockfile.</p>
+<p>Enable Dependabot + npm provenance checks where possible.</p>
+<p>Strict CSP + secure headers in Next.js.</p>
+<p>Rate limit sensitive endpoints (/api/qbo/*, auth, event ingest) using middleware.</p>
+<p>PII</p>
+<p>Minimal: names, emails, jobsite addresses, photos.</p>
+<p>Encrypt QBO tokens at rest (Supabase Vault or app-layer encryption + KMS).</p>
+<h3>5) Testing + CI</h3>
+<p>Testing pyramid</p>
+<p>Unit (Vitest): pricing math, template calculations, variance signals, idempotency logic.</p>
+<p>Component: React Testing Library for key forms + foreman job screen.</p>
+<p>Integration:</p>
+<p>Supabase local (CLI) migrations + RLS tests</p>
+<p>API route tests against local Postgres</p>
+<p>E2E (Playwright):</p>
+<p>“Estimate → approve → job → offline event queue → sync → invoice → QBO push (mocked)”</p>
+<p>API mocking: MSW for browser+node tests.</p>
+<p>CI (GitHub Actions)</p>
+<p>Jobs:</p>
+<p>install (pnpm)</p>
+<p>lint (ESLint)</p>
+<p>typecheck (tsc)</p>
+<p>unit tests (vitest)</p>
+<p>integration tests (supabase start + migrations + RLS tests)</p>
+<p>e2e (playwright install + run)</p>
+<p>Required checks before merge.</p>
+<p>Preview deployments on Vercel per PR; run smoke E2E against preview.</p>
+<h3>6) Recommended libraries / dependencies (latest stable as of Dec 17, 2025)</h3>
+<p>Core</p>
+<p>next@16.0.3</p>
+<p>react@19.2.3</p>
+<p>react-dom@19.1.1</p>
+<p>typescript@5.5.4</p>
+<p>Supabase</p>
+<p>@supabase/supabase-js@2.86.2</p>
+<p>@supabase/ssr@0.7.0</p>
+<p>UI / forms</p>
+<p>tailwindcss@4.1.13</p>
+<p>zod@4.1.12</p>
+<p>react-hook-form@7.66.0</p>
+<p>@hookform/resolvers@5.2.2</p>
+<p>@tanstack/react-query@5.90.7</p>
+<p>lucide-react@0.561.0</p>
+<p>date-fns@4.1.0</p>
+<p>clsx@2.1.1</p>
+<p>tailwind-merge@2.3.0</p>
+<p>Offline / PWA</p>
+<p>next-pwa@5.6.0</p>
+<p>dexie@4.2.1 (IndexedDB queue)</p>
+<p>QuickBooks</p>
+<p>intuit-oauth@4.2.0</p>
+<p>node-quickbooks@2.0.43 (QBO API client; or call REST directly if you want less dependency risk)</p>
+<p>Observability</p>
+<p>@sentry/nextjs@10.25.0</p>
+<p>@vercel/analytics@1.5.0</p>
+<p>Tooling</p>
+<p>eslint@9.39.1</p>
+<p>prettier@3.7.4</p>
+<p>vitest@4.0.16</p>
+<p>playwright@1.56.1</p>
+<p>@testing-library/react@16.3.0</p>
+<p>msw@2.12.4</p>
+<p>Eng Spec 3 - Updated Combined</p>
+<h2>Engineering Specification — PavingOS</h2>
+<p>Version: MVP v1 (Authoritative)</p>
+<p>Focus: Field reliability (offline), financial correctness, scalable estimating logic</p>
+<h2>1. Product &amp; Architectural Goals</h2>
+<h3>Primary Product Goals</h3>
+<p>Opinionated estimating built for paving (templates → assemblies → estimates).</p>
+<p>Zero-reentry workflow: Estimate → Job → Actuals → Invoice.</p>
+<p>Continuous feedback loop from job actuals back to estimating insights.</p>
+<p>Foreman-first execution experience with minimal friction.</p>
+<h3>Day-1 Non-Negotiables</h3>
+<p>Minimum viable offline support for foremen:</p>
+<p>View assigned jobs</p>
+<p>Start / complete job</p>
+<p>Log labor hours</p>
+<p>Add notes</p>
+<p>Capture photos</p>
+<p>Sync later without data loss</p>
+<p>Financial correctness</p>
+<p>No floating-point currency math</p>
+<p>Deterministic, auditable calculations</p>
+<p>Multi-tenant, secure-by-default</p>
+<p>Row Level Security everywhere</p>
+<p>Strong auditability for financial actions</p>
+<h2>2. System Architecture</h2>
+<h3>High-Level Stack</h3>
+<p>Frontend &amp; API: Next.js (App Router) deployed on Vercel</p>
+<p>Database: Supabase Postgres</p>
+<p>Auth: Supabase Auth (magic link initially)</p>
+<p>Storage: Supabase Storage (private buckets)</p>
+<p>Offline: Service Worker + IndexedDB (event queue + photo staging)</p>
+<p>Integrations: QuickBooks Online (OAuth2 + REST APIs)</p>
+<h3>Runtime Responsibilities</h3>
+<p>Vercel Edge</p>
+<p>Session handling</p>
+<p>Lightweight reads</p>
+<p>Middleware (auth, rate limiting)</p>
+<p>Vercel Serverless</p>
+<p>Job/event ingestion</p>
+<p>Estimate → Job transactions</p>
+<p>Invoice creation</p>
+<p>QBO OAuth + API calls</p>
+<p>Supabase</p>
+<p>Data integrity, RLS enforcement</p>
+<p>Storage signing</p>
+<p>Optional realtime subscriptions</p>
+<h2>3. Offline Strategy (Authoritative)</h2>
+<h3>Philosophy</h3>
+<p>This is not a full local-first replica.</p>
+<p>This is minimum viable offline, optimized for reliability and speed.</p>
+<h3>Client Behavior</h3>
+<p>Foreman actions are written first to IndexedDB.</p>
+<p>Each action generates a job_event with a UUID client_event_id.</p>
+<p>Photos are staged locally until upload succeeds.</p>
+<p>Sync runs automatically when connectivity is detected.</p>
+<h3>Server Behavior</h3>
+<p>Events are appended idempotently.</p>
+<p>Duplicate client_event_ids are ignored.</p>
+<p>Derived summaries are recomputed server-side.</p>
+<h3>Why This Approach</h3>
+<p>Predictable</p>
+<p>Auditable</p>
+<p>Easy to reason about</p>
+<p>Avoids premature sync-engine complexity</p>
+<h2>4. Authentication &amp; Foreman PIN Security</h2>
+<h3>Supabase Auth</h3>
+<p>Email magic link for all users.</p>
+<p>Sessions managed server-side (@supabase/ssr).</p>
+<h3>Foreman PIN Gate (Required)</h3>
+<p>Field devices are shared. We add a local PIN lock.</p>
+<h3>Behavior</h3>
+<p>After initial login, foreman sets a 4–6 digit PIN.</p>
+<p>App requires PIN to unlock cached jobs and offline UI.</p>
+<p>PIN is required after:</p>
+<p>App restart</p>
+<p>Inactivity timeout</p>
+<p>Ops/Owner can remotely reset or lock PINs.</p>
+<h3>Data Model</h3>
+<p>profiles</p>
+<p>user_id (pk)</p>
+<p>pin_hash text</p>
+<p>pin_set_at timestamptz</p>
+<p>pin_failed_attempts int</p>
+<p>pin_locked_until timestamptz</p>
+<h3>Notes</h3>
+<p>PIN ≠ Auth token</p>
+<p>PIN protects against casual misuse, not device compromise</p>
+<p>IndexedDB encryption may be added later</p>
+<h2>5. Data Model (Postgres, Multi-Tenant)</h2>
+<h3>Core Tenancy</h3>
+<p>All tables include org_id.</p>
+<p>All access enforced via RLS.</p>
+<h3>orgs</h3>
+<p>id uuid pk</p>
+<p>name text</p>
+<p>timezone text</p>
+<p>created_at</p>
+<h3>profiles</h3>
+<p>user_id uuid pk</p>
+<p>full_name</p>
+<p>phone</p>
+<p>PIN fields (see above)</p>
+<h3>org_memberships</h3>
+<p>org_id</p>
+<p>user_id</p>
+<p>role enum (owner|ops|estimator|foreman)</p>
+<p>status</p>
+<p>Unique (org_id, user_id)</p>
+<h2>6. Financial Modeling (Critical)</h2>
+<h3>Money Rules (Hard Requirements)</h3>
+<p>All currency stored as integer cents (bigint)</p>
+<p>All percentages stored as basis points (int)</p>
+<p>Quantities stored as numeric</p>
+<p>No floats. Ever.</p>
+<h3>Estimating</h3>
+<h3>estimate_templates</h3>
+<p>id</p>
+<p>org_id</p>
+<p>name</p>
+<p>default_markup_bps</p>
+<p>notes</p>
+<p>archived_at</p>
+<h3>assemblies</h3>
+<p>id</p>
+<p>org_id</p>
+<p>template_id</p>
+<p>name</p>
+<p>kind (labor|equipment|materials|mobilization)</p>
+<p>uom</p>
+<p>default_qty numeric</p>
+<p>default_unit_cost_cents bigint</p>
+<p>production_rate numeric null</p>
+<p>sort_order</p>
+<h3>estimates</h3>
+<p>id</p>
+<p>org_id</p>
+<p>customer_id</p>
+<p>template_id null</p>
+<p>status (draft|sent|approved|rejected)</p>
+<p>subtotal_cents</p>
+<p>markup_bps</p>
+<p>total_cents</p>
+<p>pricing_snapshot jsonb</p>
+<p>job_site jsonb</p>
+<p>assumptions text</p>
+<p>created_by</p>
+<h3>estimate_line_items</h3>
+<p>id</p>
+<p>estimate_id</p>
+<p>assembly_id null</p>
+<p>name</p>
+<p>kind</p>
+<p>qty numeric</p>
+<p>unit_cost_cents</p>
+<p>unit_price_cents</p>
+<p>line_total_cents</p>
+<p>sort_order</p>
+<h2>7. Jobs &amp; Field Execution</h2>
+<h3>jobs</h3>
+<p>id</p>
+<p>org_id</p>
+<p>estimate_id</p>
+<p>status (ready|in_progress|completed|invoiced)</p>
+<p>scheduled_date date</p>
+<p>job_site jsonb</p>
+<p>scope_snapshot jsonb</p>
+<p>created_at</p>
+<h3>Event Log (Append-Only)</h3>
+<h3>job_events</h3>
+<p>id uuid pk</p>
+<p>org_id</p>
+<p>job_id</p>
+<p>client_event_id uuid</p>
+<p>type enum</p>
+<p>start</p>
+<p>complete</p>
+<p>note</p>
+<p>labor_hours</p>
+<p>equipment_usage</p>
+<p>photo_add</p>
+<p>photo_remove</p>
+<p>adjustment</p>
+<p>payload jsonb</p>
+<p>created_by</p>
+<p>device_ts</p>
+<p>created_at</p>
+<p>Unique (org_id, client_event_id)</p>
+<h3>Derived Data</h3>
+<h3>job_actuals_summary</h3>
+<p>job_id pk</p>
+<p>labor_hours numeric</p>
+<p>equipment_hours numeric</p>
+<p>notes_count</p>
+<p>photos_count</p>
+<p>last_event_at</p>
+<h3>job_variances</h3>
+<p>job_id pk</p>
+<p>estimate_totals_cents jsonb</p>
+<p>actual_totals_cents jsonb</p>
+<p>variance_cents jsonb</p>
+<p>signal enum (ok|warn|bad)</p>
+<h2>8. Invoicing &amp; QuickBooks</h2>
+<h3>invoices</h3>
+<p>id</p>
+<p>org_id</p>
+<p>job_id</p>
+<p>status (draft|sent_to_qbo|paid|void)</p>
+<p>line_items_snapshot jsonb</p>
+<p>total_cents</p>
+<p>qbo_invoice_id text</p>
+<p>created_at</p>
+<h3>qbo_connections</h3>
+<p>org_id pk</p>
+<p>realm_id</p>
+<p>access_token encrypted</p>
+<p>refresh_token encrypted</p>
+<p>token_expires_at</p>
+<p>scopes</p>
+<p>connected_at</p>
+<h2>9. API Surface (Primary)</h2>
+<h3>Core</h3>
+<p>POST /api/estimates</p>
+<p>POST /api/estimates/:id/approve</p>
+<p>POST /api/jobs/:id/events</p>
+<p>POST /api/jobs/:id/events/batch</p>
+<p>GET /api/jobs/:id</p>
+<p>POST /api/invoices/from-job/:jobId</p>
+<p>POST /api/invoices/:id/push-to-qbo</p>
+<h3>Foreman PIN</h3>
+<p>POST /api/foreman/pin/set</p>
+<p>POST /api/foreman/pin/reset</p>
+<p>POST /api/foreman/pin/lock</p>
+<h2>10. Storage</h2>
+<p>Bucket: job-photos (private)</p>
+<p>Path: org/{org_id}/jobs/{job_id}/{uuid}.jpg</p>
+<p>Upload via signed URLs</p>
+<p>Read via short-TTL signed URLs only</p>
+<h2>11. Security &amp; Integrity</h2>
+<p>RLS on every table</p>
+<p>Server-derived org_id only</p>
+<p>Idempotency enforced at DB level</p>
+<p>Audit log for:</p>
+<p>Estimate approval</p>
+<p>Job completion</p>
+<p>Invoice push</p>
+<p>PIN resets</p>
+<p>Rate limiting on:</p>
+<p>Auth</p>
+<p>Event ingestion</p>
+<p>QBO endpoints</p>
+<h2>12. Testing &amp; CI</h2>
+<h3>Required Tests</h3>
+<p>Unit</p>
+<p>Pricing math (decimal correctness)</p>
+<p>Markup bps logic</p>
+<p>Variance signals</p>
+<p>Integration</p>
+<p>Supabase migrations + RLS policies</p>
+<p>Event idempotency</p>
+<p>E2E</p>
+<p>Estimate → Job</p>
+<p>Offline job execution → sync → invoice</p>
+<h3>CI</h3>
+<p>Lint</p>
+<p>Typecheck</p>
+<p>Unit</p>
+<p>Integration</p>
+<p>E2E</p>
+<p>Vercel Preview Deploys per PR</p>
+<h2>13. Explicit Non-Goals (MVP)</h2>
+<p>Full local-first replication</p>
+<p>Multi-foreman concurrent editing conflict resolution</p>
+<p>Automated template mutation</p>
+<p>ERP integrations beyond QBO</p>
+<h2>14. Design &amp; UX Governance</h2>
+<p>All user-facing functionality MUST comply with the</p>
+<p>&quot;PavingOS Design Contract (MVP)&quot;.</p>
+<p>The Engineering Spec defines system behavior and constraints.</p>
+<p>The Design Contract defines interaction rules, friction limits, and experience principles.</p>
+<p>In cases of conflict:</p>
+<p>Data integrity &gt; UX polish</p>
+<p>Field usability &gt; office convenience</p>
+<p>Design Contract &gt; ad-hoc UI decisions</p>
+</div>
+<div class="article-footer">
+  <p class="article-work">Work with me: <a href="https://friendtechventures.com/services/" target="_blank" rel="noopener">friendtechventures.com/services</a></p>
+  <a href="/writing/pavingos-specs.html">&larr; PavingOS Specs</a>
+  <a href="/writing/first-contact.html">First Contact &rarr;</a>
+</div>
+</article>
+<script>
+const themeToggle = document.getElementById('themeToggle');
+themeToggle.addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  if (next === 'light') {
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'light');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
+  }
+});
+</script>
+</body>
+</html>

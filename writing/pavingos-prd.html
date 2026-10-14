@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The PRD for PavingOS: problem, ICP, wedge, MVP scope, and field constraints.">
+<title>PavingOS Product Requirements — Stefan Friend</title>
+<meta property="og:title" content="PavingOS Product Requirements — Stefan Friend">
+<meta property="og:description" content="The PRD for PavingOS: problem, ICP, wedge, MVP scope, and field constraints.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://stefanfriend.com/writing/pavingos-prd.html">
+<script>
+  (function(){var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);else if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)document.documentElement.setAttribute('data-theme','dark');})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #FAFAF8; --text: #1A1917; --text-secondary: #5C5850;
+  --text-muted: #8A8478; --accent: #1B4332; --accent-hover: #2D6A4F;
+  --border: #E2DFD8; --border-subtle: #ECEAE5;
+  --nav-bg: rgba(250, 250, 248, 0.92);
+  --serif: 'Newsreader', Georgia, serif; --sans: 'DM Sans', -apple-system, sans-serif;
+}
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 17px; scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+body { background: var(--bg); color: var(--text); font-family: var(--sans); line-height: 1.72; transition: background-color 0.3s ease, color 0.3s ease; }
+::selection { background: #1B433220; }
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center;
+  background: var(--nav-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 1px 0 var(--border);
+}
+.nav-name { font-family: var(--serif); font-size: 1.2rem; font-weight: 500; color: var(--text); text-decoration: none; }
+.nav-back { font-size: 0.78rem; font-weight: 500; color: var(--text-secondary); text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase; transition: color 0.2s; }
+.nav-back:hover { color: var(--text); }
+article { max-width: 660px; margin: 0 auto; padding: 8rem 2rem 5rem; }
+.article-meta { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 1.5rem; }
+article h1 { font-family: var(--serif); font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 500; line-height: 1.18; letter-spacing: -0.025em; color: var(--text); margin-bottom: 2.5rem; }
+article h2 { font-family: var(--serif); font-size: 1.5rem; font-weight: 500; line-height: 1.3; color: var(--text); margin: 3rem 0 1.25rem; }
+.article-body { font-size: 1.05rem; color: var(--text-secondary); line-height: 1.82; }
+.article-body p { margin-bottom: 1.4rem; }
+.article-body strong { color: var(--text); font-weight: 500; }
+.article-body em { font-family: var(--serif); }
+.article-body ul, .article-body ol { margin: 0.5rem 0 1.4rem 1.5rem; color: var(--text-secondary); }
+.article-body li { margin-bottom: 0.4rem; }
+.article-footer { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; font-size: 0.85rem; color: var(--text-muted); }
+.article-work { flex-basis: 100%; margin-bottom: 0.85rem; }
+.article-footer a { color: var(--accent); text-decoration: none; font-weight: 500; }
+@media (max-width: 768px) { article { padding: 6rem 1.25rem 3.5rem; } nav { padding: 0.85rem 1.25rem; } }
+
+[data-theme="dark"] {
+  --nav-bg: rgba(17, 17, 16, 0.92);
+  --bg: #111110; --text: #E8E4DD; --text-secondary: #A8A29E;
+  --text-muted: #78716C; --accent: #60A5FA; --accent-hover: #93C5FD;
+  --border: #2A2826; --border-subtle: #1F1E1C;
+}
+::selection { background: #1B433220; }
+[data-theme="dark"] ::selection { background: #60A5FA20; }
+
+.theme-toggle {
+  background: none; border: 1px solid var(--border); border-radius: 50%;
+  width: 32px; height: 32px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-muted); transition: all 0.2s; flex-shrink: 0; padding: 0;
+}
+.theme-toggle:hover { color: var(--text); border-color: var(--text-muted); }
+.theme-toggle svg { width: 16px; height: 16px; }
+.theme-toggle .icon-moon { display: block; }
+.theme-toggle .icon-sun { display: none; }
+[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+
+
+article h3 { font-family: var(--serif); font-size: 1.22rem; font-weight: 500; line-height: 1.35; color: var(--text); margin: 2.1rem 0 0.85rem; }
+article h4 { font-family: var(--serif); font-size: 1.05rem; font-weight: 500; line-height: 1.4; color: var(--text); margin: 1.6rem 0 0.65rem; }
+.article-body > h2:first-child { margin-top: 0; }
+.article-body a { color: var(--accent); text-decoration: underline; text-underline-offset: 0.18em; }
+.article-body a:hover { color: var(--accent-hover); }
+.article-body p, .article-body li, .article-body td, .article-body th { overflow-wrap: break-word; }
+.table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0.35rem 0 1.4rem; border: 1px solid var(--border); }
+.article-body table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.article-body th, .article-body td { padding: 0.55rem 0.8rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--border); color: var(--text-secondary); }
+.article-body th { color: var(--text); font-weight: 500; background: var(--border-subtle); }
+.article-body tr:last-child td { border-bottom: none; }
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-name">Stefan Friend</a>
+  <div style="display:flex;align-items:center;gap:1rem;">
+    <a href="/#writing" class="nav-back">&larr; All Writing</a>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    </button>
+  </div>
+</nav>
+<article>
+<div class="article-meta">December 2025</div>
+<h1>PavingOS Product Requirements</h1>
+<div class="article-body">
+<h2>PRD: PavingOS — Vertical Operating System for Paving Contractors</h2>
+<h2>1. Summary</h2>
+<p>PavingOS is a vertical operating system for SMB paving contractors ($2M–$20M revenue) focused on fixing the most painful, expensive blind spot in the business:</p>
+<p>Estimates are wrong, and no one knows why until it’s too late.</p>
+<p>The product’s wedge is an estimating → job costing feedback loop that helps owners price work correctly, understand margins, and professionalize operations without adding office overhead.</p>
+<p>This is not generic construction software.</p>
+<p>This is paving-specific execution software, designed for commercial and light municipal work.</p>
+<h2>2. Target Users &amp; ICP</h2>
+<h3>Company Profile (ICP Sweet Spot)</h3>
+<p>Revenue: $2M–$20M</p>
+<p>Stage: Owner-operator transitioning to professional management</p>
+<p>Work Type: Commercial + light municipal</p>
+<p>Trade Focus: Asphalt paving (initially)</p>
+<p>Tech Stack Today: Excel + QuickBooks + duct tape</p>
+<p>Explicitly out of scope (for now):</p>
+<p>&lt;$2M mom-and-pop shops (too price sensitive, chaotic)</p>
+<p>$20M+ mid-market / enterprise (too much reporting + integration drag)</p>
+<p>Residential paving (homeowner chaos, thin margins)</p>
+<p>Primary Users</p>
+<p>Owner / GM</p>
+<p>Wants confidence in pricing</p>
+<p>Wants margin visibility before mistakes repeat</p>
+<p>Still close to day-to-day ops</p>
+<p>Estimator (often the owner)</p>
+<p>Needs fast, defensible estimates</p>
+<p>Wants templates grounded in reality, not guesswork</p>
+<p>Ops / Office Manager</p>
+<p>Needs clean handoff from estimate → job → invoice</p>
+<p>Wants fewer manual corrections</p>
+<p>Foreman (Secondary)</p>
+<p>Needs minimal-friction job execution</p>
+<p>Not interested in “software,” only speed</p>
+<h2>3. Core Jobs-to-Be-Done</h2>
+<h3>Owner / Estimator</h3>
+<p>Price jobs accurately and consistently</p>
+<p>Understand why margins miss</p>
+<p>Improve estimates over time using real data</p>
+<h3>Ops</h3>
+<p>Turn approved estimates into executable jobs</p>
+<p>Capture job outcomes with minimal friction</p>
+<p>Invoice faster, with fewer errors</p>
+<h3>Foreman</h3>
+<p>Know what the job is, where to be, and what’s expected</p>
+<p>Record what actually happened without paperwork</p>
+<h2>4. Problems &amp; Pain Points</h2>
+<h3>Estimating</h3>
+<p>Estimates live in Excel and intuition</p>
+<p>No feedback loop from actual job performance</p>
+<p>Pricing errors repeat silently</p>
+<h3>Job Execution</h3>
+<p>Field data is incomplete or delayed</p>
+<p>Paper tickets, texts, memory-based reporting</p>
+<p>Actuals captured too late to matter</p>
+<h3>Financials</h3>
+<p>Invoicing lags job completion</p>
+<p>Change orders missed</p>
+<p>Job profitability discovered after the fact</p>
+<h2>5. Product Strategy &amp; Wedge</h2>
+<h3>Initial Wedge (What Customers Buy For)</h3>
+<p>Estimating + job costing feedback loop</p>
+<p>This is the non-negotiable entry point.</p>
+<p>Not CRM.</p>
+<p>Not scheduling.</p>
+<p>Not payroll.</p>
+<p>Owners buy when they believe:</p>
+<p>“This will fix my pricing and margins.”</p>
+<h3>What We Replace First</h3>
+<p>Estimating spreadsheets</p>
+<p>Generic estimating tools (JobNimbus, Joist, etc.)</p>
+<p>Frankenstein workflows</p>
+<p>We do not replace QuickBooks.</p>
+<h2>6. Proposed Solution (MVP Scope)</h2>
+<h3>Core Principles</h3>
+<p>Extremely opinionated</p>
+<p>Trade-specific</p>
+<p>Workflow-first</p>
+<p>Field friction ≈ zero</p>
+<h3>MVP Capabilities</h3>
+<h3>1. Paving-Specific Estimating (Core Wedge)</h3>
+<p>Assemblies:</p>
+<p>Labor</p>
+<p>Equipment</p>
+<p>Materials (tonnage, sq ft, mobilization)</p>
+<p>Production-rate driven pricing</p>
+<p>Reusable estimate templates</p>
+<p>Historical job performance surfaced inline</p>
+<p>Simple margin visibility</p>
+<p>This is the heart of the product.</p>
+<h3>2. Estimate → Job Conversion</h3>
+<p>Approved estimates convert directly into jobs</p>
+<p>Scope, assumptions, and pricing flow through</p>
+<p>No re-entry</p>
+<h3>3. Field Execution (Minimal, Foreman-First)</h3>
+<p>Mobile job view</p>
+<p>Start / complete job</p>
+<p>Capture:</p>
+<p>Labor hours (job-level)</p>
+<p>Notes</p>
+<p>Photos</p>
+<p>No mandatory typing</p>
+<p>&lt;10 seconds per interaction</p>
+<h3>4. Actuals &amp; Variance Tracking</h3>
+<p>Estimated vs actual:</p>
+<p>Labor</p>
+<p>Equipment usage (basic)</p>
+<p>Simple variance signals</p>
+<p>Feeds back into estimating templates</p>
+<h3>5. Invoicing + Accounting Handoff</h3>
+<p>One-click invoice from completed job</p>
+<p>Line items derived from estimate + adjustments</p>
+<p>Sync to QuickBooks Online only</p>
+<h2>7. User Stories (High-Level)</h2>
+<h3>Owner</h3>
+<p>As an owner, I want to see margin variance so I can fix pricing before repeating mistakes.</p>
+<p>As an owner, I want to trust my estimates without micromanaging.</p>
+<h3>Estimator</h3>
+<p>As an estimator, I want to reuse proven templates instead of guessing.</p>
+<p>As an estimator, I want real job data baked into future estimates.</p>
+<h3>Ops</h3>
+<p>As ops, I want jobs to flow cleanly from estimate to invoice.</p>
+<p>As ops, I want fewer billing errors and faster cash collection.</p>
+<h3>Foreman</h3>
+<p>As a foreman, I want today’s job info without paperwork.</p>
+<p>As a foreman, I want to record what happened quickly and move on.</p>
+<h2>8. Non-Goals (MVP)</h2>
+<p>Explicitly not building:</p>
+<p>Full ERP</p>
+<p>Payroll processing</p>
+<p>Residential workflows</p>
+<p>Deep municipal compliance</p>
+<p>CRM-heavy lead management</p>
+<p>QB Desktop support</p>
+<p>NetSuite / enterprise integrations</p>
+<h2>9. Integrations Strategy</h2>
+<h3>Launch</h3>
+<p>QuickBooks Online only</p>
+<p>Customers</p>
+<p>Invoices</p>
+<p>Chart of accounts mapping</p>
+<p>Job → invoice flow</p>
+<h3>Payroll</h3>
+<p>No payroll integrations in v1</p>
+<p>Provide:</p>
+<p>Job-level labor tracking</p>
+<p>Exportable summaries / CSVs</p>
+<h2>10. Workflow Depth &amp; Configuration Philosophy</h2>
+<p>Opinionated by default</p>
+<p>Templates over free-form</p>
+<p>Minimal configuration</p>
+<p>Toggles only after proven patterns</p>
+<p>If a customer asks for deep customization early:</p>
+<p>They are not your ICP</p>
+<p>Or they are operationally broken</p>
+<p>Both are red flags.</p>
+<h2>11. Field Reality Constraints</h2>
+<h3>Friction Tolerance</h3>
+<p>Almost zero</p>
+<p>Gloves on</p>
+<p>Phones dying</p>
+<p>Crews will bypass friction instantly</p>
+<h3>Offline Support (Day 1 Requirement)</h3>
+<p>Minimum viable offline:</p>
+<p>View job details</p>
+<p>Mark job started / completed</p>
+<p>Capture notes + photos</p>
+<p>Sync later without data loss</p>
+<p>If the app fails on a jobsite:</p>
+<p>Trust is gone</p>
+<p>Account churns</p>
+</div>
+<div class="article-footer">
+  <p class="article-work">Work with me: <a href="https://friendtechventures.com/services/" target="_blank" rel="noopener">friendtechventures.com/services</a></p>
+  <a href="/writing/pavingos-specs.html">&larr; PavingOS Specs</a>
+  <a href="/writing/first-contact.html">First Contact &rarr;</a>
+</div>
+</article>
+<script>
+const themeToggle = document.getElementById('themeToggle');
+themeToggle.addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  if (next === 'light') {
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'light');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
+  }
+});
+</script>
+</body>
+</html>
