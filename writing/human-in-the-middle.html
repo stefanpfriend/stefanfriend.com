@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Human in the Middle — by Stefan Friend. Why the version of my agent system that looked like a step backward is the one I can actually improve.">
+<meta property="og:title" content="Human in the Middle — Stefan Friend">
+<meta property="og:description" content="Why the version of my agent system that looked like a step backward is the one I can actually improve.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://stefanfriend.com/writing/human-in-the-middle.html">
+<link rel="canonical" href="https://stefanfriend.com/writing/human-in-the-middle.html">
+<title>Human in the Middle — Stefan Friend</title>
+<script>
+  (function(){var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);else if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)document.documentElement.setAttribute('data-theme','dark');})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #FAFAF8; --bg-warm: #F5F2ED; --text: #1A1917; --text-secondary: #5C5850;
+  --text-muted: #8A8478; --accent: #1B4332; --accent-hover: #2D6A4F;
+  --border: #E2DFD8; --border-subtle: #ECEAE5;
+  --nav-bg: rgba(250, 250, 248, 0.92);
+  --serif: 'Newsreader', Georgia, serif; --sans: 'DM Sans', -apple-system, sans-serif;
+}
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 17px; scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+body { background: var(--bg); color: var(--text); font-family: var(--sans); line-height: 1.72; transition: background-color 0.3s ease, color 0.3s ease; }
+::selection { background: #1B433220; }
+
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center;
+  background: var(--nav-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 1px 0 var(--border);
+}
+.nav-name {
+  font-family: var(--serif); font-size: 1.2rem; font-weight: 500;
+  color: var(--text); text-decoration: none;
+}
+.nav-back {
+  font-size: 0.78rem; font-weight: 500; color: var(--text-secondary);
+  text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase;
+  transition: color 0.2s;
+}
+.nav-back:hover { color: var(--text); }
+
+article {
+  max-width: 660px; margin: 0 auto;
+  padding: 8rem 2rem 5rem;
+}
+.article-meta {
+  font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--text-muted); margin-bottom: 1.5rem;
+}
+article h1 {
+  font-family: var(--serif); font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 500; line-height: 1.18; letter-spacing: -0.025em;
+  color: var(--text); margin-bottom: 2.5rem;
+}
+article h2 {
+  font-family: var(--serif); font-size: 1.5rem; font-weight: 500;
+  line-height: 1.3; color: var(--text); margin: 3rem 0 1.25rem;
+  letter-spacing: -0.015em;
+}
+.article-body { font-size: 1.05rem; color: var(--text-secondary); line-height: 1.82; }
+.article-body p { margin-bottom: 1.4rem; }
+.article-body strong { color: var(--text); font-weight: 500; }
+.article-body em { font-family: var(--serif); }
+.article-body ul, .article-body ol {
+  margin: 0.5rem 0 1.4rem 1.5rem; color: var(--text-secondary);
+}
+.article-body li { margin-bottom: 0.4rem; }
+.article-body a { color: var(--accent); font-weight: 500; }
+.article-body a:hover { color: var(--accent-hover); }
+
+.article-footer {
+  margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle);
+  display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;
+  font-size: 0.85rem; color: var(--text-muted);
+}
+.article-footer a {
+  color: var(--accent); text-decoration: none; font-weight: 500;
+  transition: color 0.2s;
+}
+.article-footer a:hover { color: var(--accent-hover); }
+
+@media (max-width: 768px) {
+  article { padding: 6rem 1.25rem 3.5rem; }
+  nav { padding: 0.85rem 1.25rem; }
+}
+
+[data-theme="dark"] {
+  --nav-bg: rgba(17, 17, 16, 0.92);
+  --bg: #111110; --text: #E8E4DD; --text-secondary: #A8A29E;
+  --text-muted: #78716C; --accent: #60A5FA; --accent-hover: #93C5FD;
+  --border: #2A2826; --border-subtle: #1F1E1C;
+}
+::selection { background: #1B433220; }
+[data-theme="dark"] ::selection { background: #60A5FA20; }
+
+.theme-toggle {
+  background: none; border: 1px solid var(--border); border-radius: 50%;
+  width: 32px; height: 32px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-muted); transition: all 0.2s; flex-shrink: 0; padding: 0;
+}
+.theme-toggle:hover { color: var(--text); border-color: var(--text-muted); }
+.theme-toggle svg { width: 16px; height: 16px; }
+.theme-toggle .icon-moon { display: block; }
+.theme-toggle .icon-sun { display: none; }
+[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-name">Stefan Friend</a>
+  <div style="display:flex;align-items:center;gap:1rem;">
+    <a href="/#writing" class="nav-back">&larr; All Writing</a>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    </button>
+  </div>
+</nav>
+
+<article>
+  <div class="article-meta">October 15, 2026</div>
+  <h1>Human in the Middle</h1>
+
+  <div class="article-body">
+    <p><strong>Why the version of my agent system that looked like a step backward is the one I can actually improve.</strong></p>
+
+    <p><em>Part 1 of a series on building agent systems with a human in the loop.</em></p>
+
+    <p>After I retired OpenClaw, I rebuilt my agent system twice.</p>
+
+    <p>The first rebuild was more automated. The second put me back in the middle. The second one is better—not because it does more on day one, but because it's the one I can see into, and a system you can't see into is a system you can't refine.</p>
+
+    <p>That's the whole argument. The rest of this is how I got there.</p>
+
+    <h2>Where this started</h2>
+
+    <p>OpenClaw was a multi-agent ops system I ran at Tabbris on two Mac Minis. I retired it in early August 2026. The reason was simple: maintenance outweighed the value. Keeping it running took more of my time than it gave back.</p>
+
+    <p>Retiring it didn't mean giving up on the idea. It meant rebuilding with a different shape.</p>
+
+    <h2>Version 1: one agent in the middle</h2>
+
+    <p>The first rebuild routed everything through a single Hermes agent.</p>
+
+    <p>The bet was that if I designed enough up front—routing, responsibilities, handoffs—the system would run with minimal input from me. One orchestrator. Everything flows through it.</p>
+
+    <p>In some ways, that bet paid off early. Version 1 was more functional sooner. A lot of the work happened without me touching it.</p>
+
+    <h2>Why version 1 felt better early</h2>
+
+    <p>Up-front design front-loads progress. You make a lot of decisions at once, encode them, and the system starts executing against all of them immediately.</p>
+
+    <p>That feels like momentum, and some of it is. But the decisions you encode up front are the ones you can see before anything runs. The ones that matter most usually show up later, once real work hits the system.</p>
+
+    <p>Version 1 had answers to the questions I knew to ask. It didn't have a good way to surface the ones I didn't.</p>
+
+    <h2>Where it broke down: the far end of the cycle</h2>
+
+    <p>The problem with version 1 wasn't that it failed. It was that I couldn't tell where it needed to change.</p>
+
+    <p>When everything routes through one agent, the judgment calls get buried inside it. Something comes out wrong at the end, and the cause sits somewhere upstream: a routing choice, a handoff, an assumption baked in at design time.</p>
+
+    <p>The further out in the cycle we went, the harder it got to discern where the adjustment needed to be made. Tight loops near the start were easy to reason about. Loops that ran several steps deep were not. By the time an output looked off, there were too many places it could have gone off.</p>
+
+    <p>So I could see that the system needed refinement. I couldn't see where. That's the worst kind of problem to have with an automated system, because the only fixes available are broad ones.</p>
+
+    <h2>Version 2: me in the middle</h2>
+
+    <p>The second rebuild puts me at the center. I route through ChatGPT Astra to agents on Claude, Grok Bot, and Muse.</p>
+
+    <p>On paper, this looks like a step backward. More of the work passes through a person. Less of it runs on its own.</p>
+
+    <p>It isn't a step backward. It's a different bet: that being able to see the system matters more early than how much it does without me.</p>
+
+    <h2>Why the middle makes refinement easier</h2>
+
+    <p>Being in the middle means every routing decision is visible to me when it happens, not reconstructed after something goes wrong.</p>
+
+    <p>That changes what I can learn. I see which handoffs are routine. I see which ones need a real decision. I see where the agents consistently get it right and where they consistently need correction.</p>
+
+    <p>With Hermes, those patterns were inside the system. With me in the middle, they're in front of me.</p>
+
+    <p>That's what makes the loops easier to refine. I'm not debugging a black box from the far end of the cycle. I'm watching the cycle as it runs, and adjusting the specific loop that needs it.</p>
+
+    <h2>How judgment moves out of the middle</h2>
+
+    <p>This is the part I didn't expect.</p>
+
+    <p>Being in the middle makes it easier to get out of the middle—selectively. Once a loop has shown that it doesn't need my judgment, it's easy to move it out. I've already watched it work. I know what the decision looks like and what good output looks like. Handing it off is a small, specific change, not a redesign.</p>
+
+    <p>The loops that do need judgment stay with me. And I know exactly which ones those are, because I've been making those calls.</p>
+
+    <p>Version 1 tried to decide all of that up front. Version 2 decides it one loop at a time, based on what actually happened.</p>
+
+    <p>I don't need to be the primary keyboard. I need to be the primary judge. In version 2, being the judge is how the system learns what can run without one.</p>
+
+    <h2>The tradeoffs</h2>
+
+    <p>This isn't free.</p>
+
+    <ul>
+      <li><strong>It's slower at the start.</strong> More passes through me means less runs unattended. Version 1 was more functional early, and that was real.</li>
+      <li><strong>I'm a bottleneck by design.</strong> That's the point, but it's still a bottleneck. It only works if loops actually move out over time.</li>
+      <li><strong>It takes discipline to let go.</strong> The value of being in the middle depends on moving routine loops out. If I don't, I've just rebuilt manual work with extra steps.</li>
+    </ul>
+
+    <p>The tradeoff I'd make again: slower early, in exchange for a system I can actually see into and improve.</p>
+
+    <h2>Not "move fast and break things"</h2>
+
+    <p>I don't buy "move fast and break things" as a way to build systems people depend on. Breaking things isn't the goal. Learning is.</p>
+
+    <p>Growth comes from taking action, making mistakes, learning from them, and doing that alongside the people around you. Version 1 wasn't a mistake to hide. It's how I learned where judgment actually lives in this system. That learning didn't happen alone, either. It takes a village.</p>
+
+    <h2>What this means for client builds</h2>
+
+    <p>This changed how I scope work.</p>
+
+    <p>The temptation with any agent build is to design the whole automated system up front and hand it over. That's version 1. It looks great early, and it gets harder to tune the longer it runs.</p>
+
+    <p>The approach I trust now:</p>
+
+    <ul>
+      <li>Start with a person in the middle of the workflow—usually someone on the client's team who already makes those calls.</li>
+      <li>Make every decision visible while it happens.</li>
+      <li>Move loops out of the middle once they've shown they don't need judgment.</li>
+      <li>Keep the ones that do, and be explicit about why.</li>
+    </ul>
+
+    <p>The goal isn't maximum automation on day one. It's a system that gets more automated for the right reasons, and that the people running it can still see into.</p>
+
+    <h2>Next: the open agent system</h2>
+
+    <p>Version 2 settled where judgment belongs. It didn't settle how the rest of the system scales around it.</p>
+
+    <p>Part 2 takes the human-in-the-middle loop a step further. Today I'm setting up Ando, an open agent system. The point is to build more of this ourselves and keep refining the cycle: judgment integrated where it actually belongs, inside an agent system smooth enough to help everything scale.</p>
+
+    <p>The experiment is testing how much of this holds up, iterating and refining along the way.</p>
+
+    <p>Part 2: <strong>Building the Open Agent System.</strong></p>
+
+    <p>If any of this lines up with a build you're thinking about, here's how I work with teams: <a href="https://friendtechventures.com/services?utm_source=blog&amp;utm_medium=referral&amp;utm_campaign=human-in-loop">friendtechventures.com/services</a></p>
+  </div>
+
+  <div class="article-footer">
+    <span>Stefan Friend</span>
+    <a href="/#writing">&larr; Back to all writing</a>
+  </div>
+</article>
+<script>
+const themeToggle = document.getElementById('themeToggle');
+themeToggle.addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  if (next === 'light') {
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'light');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
+  }
+});
+</script>
+</body>
+</html>
