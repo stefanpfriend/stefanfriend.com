@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Intelligence Briefing — Stefan Friend</title>
+<meta name="description" content="A daily global news briefing, researched and synthesized by Claude with web search across US, European, Asian, and Middle Eastern sources.">
+<link rel="canonical" href="https://stefanfriend.com/lab/briefing/">
+<meta property="og:title" content="Daily Intelligence Briefing — Stefan Friend">
+<meta property="og:description" content="Today's global news in one briefing: a TL;DR plus 6–8 sections, researched with Claude and web search.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://stefanfriend.com/lab/briefing/">
+<meta name="theme-color" content="#0f172a">
+
+<style>
+:root {
+  --slate-950: #020617; --slate-900: #0f172a; --slate-800: #1e293b; --slate-700: #334155;
+  --slate-600: #475569; --slate-500: #64748b; --slate-400: #94a3b8; --slate-300: #cbd5e1; --slate-200: #e2e8f0;
+  --red-500: #ef4444; --red-400: #f87171; --amber-500: #f59e0b; --amber-400: #fbbf24;
+  --blue-400: #60a5fa; --green-400: #4ade80;
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { -webkit-font-smoothing: antialiased; background: #0f172a; }
+body {
+  font-family: var(--font); color: var(--slate-300); min-height: 100vh;
+  background: var(--slate-900);
+  background-image: linear-gradient(135deg, var(--slate-900), var(--slate-800) 50%, var(--slate-900));
+  background-attachment: fixed;
+  display: flex; flex-direction: column;
+}
+a { color: var(--amber-400); }
+:focus-visible { outline: 2px solid var(--amber-400); outline-offset: 2px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.skip-link { position: absolute; left: 1rem; top: -100px; z-index: 100; background: var(--amber-400); color: var(--slate-900); padding: 0.5rem 1rem; border-radius: 6px; font-weight: 700; }
+.skip-link:focus { top: 0.5rem; }
+
+.lab-strip { background: var(--slate-950); border-bottom: 1px solid rgba(255,255,255,0.06); padding: 0.6rem 1.25rem; font-size: 13px; color: var(--slate-400); display: flex; align-items: center; flex-wrap: wrap; gap: 0.4rem 0.9rem; }
+.lab-strip a { color: var(--slate-300); text-decoration: none; }
+.lab-strip a:hover { color: var(--amber-400); }
+.lab-strip .tag { background: rgba(245,158,11,0.1); border: 1px solid rgba(245,158,11,0.3); color: var(--amber-400); padding: 0.1rem 0.5rem; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; }
+
+main { flex: 1; width: 100%; max-width: 760px; margin: 0 auto; padding: 2rem 1rem 3rem; }
+
+/* States */
+.state-card { max-width: 440px; margin: 12vh auto 0; text-align: center; background: rgba(15,23,42,0.85); border: 1px solid rgba(148,163,184,0.12); border-radius: 18px; padding: 2.5rem 1.75rem; box-shadow: 0 20px 50px rgba(0,0,0,0.35); }
+.classified { color: var(--red-500); font-size: 12px; font-weight: 700; letter-spacing: 0.3em; text-transform: uppercase; margin-bottom: 0.9rem; }
+.state-card h1 { font-size: 28px; font-weight: 700; color: #fff; line-height: 1.2; }
+.state-date { color: var(--slate-400); margin-top: 0.5rem; font-size: 15px; }
+.state-msg { color: var(--slate-300); margin-top: 1.25rem; font-size: 15px; line-height: 1.6; }
+.btn-gen { margin-top: 1.5rem; display: inline-block; border: none; cursor: pointer; font: 700 15px var(--font); color: #fff; padding: 0.85rem 1.6rem; border-radius: 12px; background: linear-gradient(90deg, var(--red-500), var(--amber-500)); box-shadow: 0 6px 18px rgba(239,68,68,0.25); transition: transform 0.15s, box-shadow 0.15s; }
+.btn-gen:hover { transform: translateY(-1px); box-shadow: 0 10px 24px rgba(239,68,68,0.35); }
+.powered { margin-top: 1.5rem; font-size: 12px; color: var(--slate-400); }
+
+.spinner { width: 48px; height: 48px; margin: 0 auto 1.25rem; border-radius: 50%; border: 3px solid rgba(148,163,184,0.15); border-top-color: var(--red-500); border-right-color: var(--amber-500); animation: spin 0.9s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.skeleton { margin-top: 1.5rem; display: grid; gap: 0.6rem; }
+.skeleton span { display: block; height: 12px; border-radius: 6px; background: rgba(148,163,184,0.12); position: relative; overflow: hidden; animation: pulse 1.6s ease-in-out infinite; }
+.skeleton span::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.08), transparent); transform: translateX(-100%); animation: scan 1.8s ease-in-out infinite; }
+.skeleton span:nth-child(2) { width: 85%; } .skeleton span:nth-child(3) { width: 92%; } .skeleton span:nth-child(4) { width: 70%; } .skeleton span:nth-child(5) { width: 80%; }
+@keyframes pulse { 50% { opacity: 0.55; } }
+@keyframes scan { to { transform: translateX(100%); } }
+
+/* Briefing */
+.head { display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+.head h1 { font-size: 24px; font-weight: 700; color: #fff; display: flex; align-items: center; flex-wrap: wrap; gap: 0.6rem; }
+.badge { font-size: 10px; font-weight: 700; letter-spacing: 0.1em; color: var(--amber-400); background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.25); border-radius: 6px; padding: 0.25rem 0.5rem; }
+.head-date { color: var(--slate-400); font-size: 14px; margin-top: 0.35rem; }
+.edition-picker { display: flex; align-items: center; gap: 0.5rem; font-size: 12px; color: var(--slate-400); }
+.edition-picker select { font: 12px var(--font); color: var(--slate-200); background: rgba(30,41,59,0.8); border: 1px solid var(--slate-700); border-radius: 8px; padding: 0.4rem 0.5rem; max-width: 12rem; }
+
+.tldr { border: 1px solid rgba(239,68,68,0.3); background: rgba(239,68,68,0.04); border-radius: 14px; padding: 1.1rem 1.25rem; margin-bottom: 1.25rem; }
+.tldr h2 { font-size: 13px; font-weight: 700; color: var(--red-400); letter-spacing: 0.08em; margin-bottom: 0.6rem; }
+.tldr ul { list-style: none; display: grid; gap: 0.5rem; }
+.tldr li { font-size: 14px; line-height: 1.55; color: var(--slate-400); padding-left: 1rem; position: relative; }
+.tldr li::before { content: ''; position: absolute; left: 0; top: 0.6em; width: 5px; height: 5px; border-radius: 50%; background: var(--red-500); }
+.tldr li strong { color: #fff; }
+
+.sections { display: grid; gap: 0.75rem; }
+details.section { border-left: 4px solid var(--red-500); background: rgba(30,41,59,0.7); border-radius: 0 12px 12px 0; }
+details.section > summary { list-style: none; cursor: pointer; padding: 0.95rem 1.1rem; display: grid; grid-template-columns: 1fr auto; gap: 0.15rem 0.75rem; align-items: center; }
+details.section > summary::-webkit-details-marker { display: none; }
+.sec-title { font-size: 17px; font-weight: 700; color: #fff; grid-column: 1; }
+.sec-summary { font-size: 13px; color: var(--slate-400); grid-column: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.chev { grid-column: 2; grid-row: 1 / span 2; color: var(--red-500); transition: transform 0.2s; width: 18px; height: 18px; }
+details[open] .chev { transform: rotate(180deg); }
+details[open] .sec-summary { white-space: normal; }
+.sec-body { padding: 0 1.1rem 1rem; font-size: 14px; line-height: 1.65; color: var(--slate-300); }
+.sec-body p + p { margin-top: 0.75rem; }
+.sec-body strong { color: var(--slate-200); }
+.sec-sources { margin-top: 0.9rem; padding-top: 0.6rem; border-top: 1px solid rgba(148,163,184,0.12); font-size: 11px; color: var(--slate-400); }
+
+.tag { display: inline-block; border-radius: 9999px; font-size: 11px; font-weight: 600; line-height: 1.4; padding: 0.05rem 0.5rem; margin: 0 0.1rem; border: 1px solid; vertical-align: 0.05em; }
+.tag-danger { color: var(--red-400); background: rgba(239,68,68,0.15); border-color: rgba(239,68,68,0.3); }
+.tag-warning { color: var(--amber-400); background: rgba(245,158,11,0.15); border-color: rgba(245,158,11,0.3); }
+.tag-info { color: var(--blue-400); background: rgba(59,130,246,0.15); border-color: rgba(59,130,246,0.3); }
+.tag-success { color: var(--green-400); background: rgba(34,197,94,0.15); border-color: rgba(34,197,94,0.3); }
+
+.foot { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid rgba(51,65,85,0.15); text-align: center; font-size: 12px; color: var(--slate-400); line-height: 1.7; }
+.foot a { color: var(--slate-300); }
+.disclaimer { margin-top: 0.4rem; }
+
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to the briefing</a>
+
+<div class="lab-strip">
+  <a href="/">← stefanfriend</a>
+  <span aria-hidden="true">/</span>
+  <a href="/lab/">lab</a>
+  <span aria-hidden="true">/</span>
+  <span aria-current="page">briefing</span>
+  <span class="tag">experiment</span>
+</div>
+
+<main id="main" tabindex="-1">
+  <div class="state-card" id="loading" role="status">
+    <div class="spinner" aria-hidden="true"></div>
+    <p class="classified">Loading briefing</p>
+    <p class="state-date">Retrieving the latest edition…</p>
+    <div class="skeleton" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+  </div>
+  <noscript>
+    <div class="state-card">
+      <p class="classified">Classified</p>
+      <h1>Daily Intelligence Briefing</h1>
+      <p class="state-msg">The briefing needs JavaScript to display. The raw data is at <a href="data/latest.json">data/latest.json</a>.</p>
+    </div>
+  </noscript>
+  <div id="app"></div>
+</main>
+
+<script>
+(function () {
+  'use strict';
+  var app = document.getElementById('app');
+  var TAG_RE = /\[\[TAG:(danger|warning|info|success):(.+?)\]\]/g;
+  var CHEVRON = 'M6 9l6 6 6-6';
+
+  function h(tag, attrs) {
+    var el = document.createElement(tag);
+    if (attrs) Object.keys(attrs).forEach(function (k) {
+      var v = attrs[k];
+      if (v == null || v === false) return;
+      if (k === 'class') el.className = v;
+      else if (k === 'text') el.textContent = v;
+      else if (k.slice(0, 2) === 'on') el.addEventListener(k.slice(2), v);
+      else el.setAttribute(k, v === true ? '' : String(v));
+    });
+    for (var i = 2; i < arguments.length; i++) add(el, arguments[i]);
+    return el;
+  }
+  function add(el, c) {
+    if (c == null || c === false) return;
+    if (Array.isArray(c)) { c.forEach(function (x) { add(el, x); }); return; }
+    el.appendChild(typeof c === 'string' ? document.createTextNode(c) : c);
+  }
+  function str(v) { return typeof v === 'string' ? v : ''; }
+
+  // Model output is untrusted text: build nodes, never HTML.
+  function withTags(text) {
+    var out = [], last = 0, m;
+    TAG_RE.lastIndex = 0;
+    while ((m = TAG_RE.exec(text))) {
+      if (m.index > last) out.push(text.slice(last, m.index));
+      out.push(h('span', { class: 'tag tag-' + m[1], text: m[2] }));
+      last = m.index + m[0].length;
+    }
+    if (last < text.length) out.push(text.slice(last));
+    return out;
+  }
+  function chevron() {
+    var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('viewBox', '0 0 24 24'); svg.setAttribute('class', 'chev'); svg.setAttribute('aria-hidden', 'true');
+    svg.setAttribute('fill', 'none'); svg.setAttribute('stroke', 'currentColor'); svg.setAttribute('stroke-width', '2.5');
+    svg.setAttribute('stroke-linecap', 'round'); svg.setAttribute('stroke-linejoin', 'round');
+    var p = document.createElementNS('http://www.w3.org/2000/svg', 'path'); p.setAttribute('d', CHEVRON); svg.appendChild(p);
+    return svg;
+  }
+  function todayLong() { return new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }); }
+  function fmtUpdated(iso) {
+    var d = new Date(iso);
+    if (isNaN(d)) return '';
+    return d.toLocaleString('en-US', { timeZone: 'America/New_York', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) + ' ET';
+  }
+
+  function showState(title, msg, retry) {
+    document.getElementById('loading').hidden = true;
+    app.replaceChildren(h('div', { class: 'state-card', role: 'status' },
+      h('p', { class: 'classified', text: 'Classified' }),
+      h('h1', { text: 'Daily Intelligence Briefing' }),
+      h('p', { class: 'state-date', text: todayLong() }),
+      h('p', { class: 'state-msg', text: msg }),
+      retry ? h('button', { type: 'button', class: 'btn-gen', onclick: retry }, 'Try again') : null,
+      h('p', { class: 'powered', text: 'Powered by Claude · Web Search' })
+    ));
+    document.title = title + ' — Stefan Friend';
+  }
+
+  var editions = [];
+
+  function render(b) {
+    document.getElementById('loading').hidden = true;
+    var meta = b.meta || {};
+    var picker = null;
+    if (editions.length > 1) {
+      var sel = h('select', { id: 'editionSelect', onchange: function () { go(sel.value); } },
+        editions.map(function (e, i) {
+          var o = h('option', { value: i === 0 ? '' : e.id, text: (i === 0 ? 'Latest · ' : '') + e.id + (e.edition ? ' · ' + e.edition : '') });
+          if (e.id === meta.id) o.selected = true;
+          return o;
+        }));
+      picker = h('div', { class: 'edition-picker' }, h('label', { for: 'editionSelect', text: 'Edition' }), sel);
+    }
+    var sections = (Array.isArray(b.sections) ? b.sections : []).map(function (s, i) {
+      return h('details', { class: 'section', open: i === 0 },
+        h('summary', null,
+          h('span', { class: 'sec-title' }, (str(s.icon) ? str(s.icon) + ' ' : '') + str(s.title)),
+          h('span', { class: 'sec-summary', text: str(s.summary) }),
+          chevron()),
+        h('div', { class: 'sec-body' },
+          (Array.isArray(s.paragraphs) ? s.paragraphs : []).map(function (p) {
+            return h('p', null, str(p.heading) ? [h('strong', { text: str(p.heading).replace(/[.:]?\s*$/, '.') }), ' '] : null, withTags(str(p.body)));
+          }),
+          str(s.sources) ? h('p', { class: 'sec-sources', text: 'Sources: ' + str(s.sources) }) : null)
+      );
+    });
+    var bullets = Array.isArray(b.tldr_bullets) ? b.tldr_bullets : [];
+    var footBits = [];
+    if (meta.source_count) footBits.push(meta.source_count + ' sources');
+    if (meta.searches) footBits.push(meta.searches + ' searches');
+    if (meta.generated_at) footBits.push('Updated ' + fmtUpdated(meta.generated_at));
+
+    app.replaceChildren(
+      h('header', { class: 'head' },
+        h('div', null,
+          h('h1', null, 'Intelligence Briefing', str(b.edition) ? h('span', { class: 'badge', text: str(b.edition) }) : null),
+          h('p', { class: 'head-date', text: str(b.date) })),
+        picker),
+      bullets.length ? h('section', { class: 'tldr', 'aria-labelledby': 'tldrLabel' },
+        h('h2', { id: 'tldrLabel', text: str(b.tldr_label) || 'TL;DR' }),
+        h('ul', null, bullets.map(function (x) {
+          return h('li', null, str(x.label) ? [h('strong', { text: str(x.label) }), ' '] : null, withTags(str(x.body)));
+        }))) : null,
+      h('div', { class: 'sections' }, sections),
+      h('footer', { class: 'foot' },
+        h('p', { text: footBits.join(' · ') }),
+        h('p', null, 'Powered by Claude · Web Search · Published daily. ', h('a', { href: '/lab/', text: 'Back to the Lab' })),
+        h('p', { class: 'disclaimer', text: 'Generated automatically by an AI model from web sources and not reviewed by a person before publishing. It can contain errors; check primary sources before relying on it.' }))
+    );
+    document.title = 'Intelligence Briefing · ' + (str(b.date) || 'Latest') + ' — Stefan Friend';
+  }
+
+  function fetchJSON(url) {
+    return fetch(url, { cache: 'no-cache' }).then(function (r) {
+      if (!r.ok) { var e = new Error('HTTP ' + r.status); e.status = r.status; throw e; }
+      return r.json();
+    });
+  }
+
+  function load() {
+    var id = new URLSearchParams(location.search).get('d');
+    var valid = id && /^\d{4}-\d{2}-\d{2}$/.test(id);
+    var url = valid ? 'data/editions/' + id + '.json' : 'data/latest.json';
+    document.getElementById('loading').hidden = false;
+    app.replaceChildren();
+    fetchJSON(url).then(function (b) {
+      if (!b || !Array.isArray(b.sections) || !b.sections.length) throw new Error('empty');
+      render(b);
+    }).catch(function (err) {
+      if (err.status === 404 && !valid) showState('Daily Intelligence Briefing', 'The first edition hasn’t been published yet. A new briefing is generated every morning around 6:30am ET.');
+      else if (err.status === 404) showState('Edition not found', 'There’s no briefing for ' + id + '. Editions are kept for 60 days.', function () { go(''); });
+      else showState('Daily Intelligence Briefing', 'The briefing couldn’t be loaded. Check your connection and try again.', load);
+    });
+  }
+
+  function go(id) {
+    var u = new URL(location.href);
+    if (id) u.searchParams.set('d', id); else u.searchParams.delete('d');
+    history.pushState(null, '', u);
+    load();
+  }
+  window.addEventListener('popstate', load);
+
+  fetchJSON('data/index.json').then(function (x) { editions = Array.isArray(x.editions) ? x.editions : []; })
+    .catch(function () { editions = []; })
+    .then(load);
+})();
+</script>
+</body>
+</html>

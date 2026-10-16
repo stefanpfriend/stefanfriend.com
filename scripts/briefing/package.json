@@ -1,0 +1,8 @@
+{
+  "name": "daily-briefing-generator",
+  "private": true,
+  "type": "module",
+  "description": "Generates the Daily Intelligence Briefing JSON for /lab/briefing/. Run by .github/workflows/daily-briefing.yml.",
+  "scripts": { "generate": "node generate.mjs" },
+  "dependencies": { "@anthropic-ai/sdk": "0.135.0" }
+}
