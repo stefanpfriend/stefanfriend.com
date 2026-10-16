@@ -240,6 +240,14 @@ textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; 
 .match { font-size: 0.85rem; color: var(--text-muted); margin-top: 0.4rem; }
 
 /* Library */
+.filters { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+.filter {
+  font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase;
+  padding: 0.4rem 0.75rem; border: 1px solid var(--border-strong); border-radius: 2px;
+  background: transparent; color: var(--text-secondary); cursor: pointer;
+}
+.filter:hover { border-color: var(--accent); color: var(--text); }
+.filter[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); color: var(--accent-text); }
 .lib { list-style: none; }
 .lib-item { display: flex; flex-direction: column; gap: 0.5rem; }
 .lib-item .meta { margin: 0; }
@@ -328,7 +336,7 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 1.25rem; }
     <h1>Decision Gym</h1>
     <p class="deck">Make the call before you know how it ends.</p>
     <p class="lede">Short business cases that force a choice, a confidence level, and an honest downside. Then you see what happened and what your pattern says about you.</p>
-    <p class="fine">Every case is a fictional composite. Names, events, and figures are invented for practice and do not describe any real company.</p>
+    <p class="fine">Every case is a fictional composite inspired by a classic business-school dilemma. Names, events, and figures are invented for practice and do not describe any real company. Each debrief names the real framework behind the case.</p>
     <div class="actions" id="heroActions" hidden>
       <button type="button" class="btn btn-primary" id="startToday">Start today's case</button>
       <button type="button" class="btn" id="browseAll">Browse all cases</button>
@@ -380,7 +388,7 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 1.25rem; }
   var KEY = 'decisiongym:v1:state';
   var MIN_DOWNSIDE = 12;
   var PROFILE_DISCLAIMER = 'A behavioral snapshot from these choices, not a scientific assessment.';
-  var CASE_DISCLAIMER = 'All cases are fictional composites. Names, events, and figures are invented for practice and do not describe any real company.';
+  var CASE_DISCLAIMER = 'All cases are fictional composites inspired by classic business-school dilemmas. Names, events, and figures are invented for practice and do not describe any real company. Related ideas point to real frameworks and published work.';
 
   var DIMS = [
     { id: 'risk', name: 'Risk appetite', low: 'Protect downside', high: 'Take the bet',
@@ -436,7 +444,8 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 1.25rem; }
       actual: 'C',
       outcome: 'The tiered migration created more work up front and some low-usage customers left, but most customers self-selected cleanly. Revenue per account rose without making the longest-tenured customers absorb the full jump at once.',
       secondOrder: 'Packaging forced the team to define which product capabilities actually created value, which sharpened both sales and the roadmap.',
-      principle: 'A price change is also a product-positioning decision.'
+      principle: 'A price change is also a product-positioning decision.',
+      concept: 'Good-better-best packaging.'
     },
     {
       id: 'second-location', category: 'Expansion', title: 'The second location',
@@ -458,7 +467,8 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 1.25rem; }
       actual: 'B',
       outcome: 'The pop-up sold out event nights but weekday traffic was weak. The company passed on the large lease and later opened a smaller event-led format with lower fixed costs.',
       secondOrder: 'The pilot revealed that customers wanted a different format in the second district, not a copy of the original.',
-      principle: 'Test the demand shape, not merely whether demand exists.'
+      principle: 'Test the demand shape, not merely whether demand exists.',
+      concept: 'The minimum viable product (Eric Ries, The Lean Startup).'
     },
     {
       id: 'viral-channel', category: 'Marketing', title: 'The viral channel',
@@ -480,7 +490,8 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 1.25rem; }
       actual: 'B',
       outcome: 'Growth slowed for two months, then recovered as three smaller creators became reliable acquisition channels and repeat purchase improved. No single partner again represented more than 15% of sales.',
       secondOrder: 'The brand learned how to produce repeatable creative briefs instead of depending on one person’s instincts.',
-      principle: 'A winning channel is not yet a durable system.'
+      principle: 'A winning channel is not yet a durable system.',
+      concept: 'Concentration risk in customer acquisition.'
     },
     {
       id: 'inventory-bet', category: 'Inventory', title: 'The inventory bet',
@@ -502,7 +513,8 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 1.25rem; }
       actual: 'B',
       outcome: 'Reservations filled quickly but slowed before reaching the full allocation. The buffer sold through over three weeks, producing less upside than a perfect forecast but avoiding a large stale position.',
       secondOrder: 'The reservation list became a reusable signal for future buys and segmented the retailer’s highest-intent customers.',
-      principle: 'When the forecast is weak, buy information before buying inventory.'
+      principle: 'When the forecast is weak, buy information before buying inventory.',
+      concept: 'The newsvendor problem from operations research.'
     },
     {
       id: 'services-trap', category: 'Business model', title: 'The services trap',
@@ -524,7 +536,8 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 1.25rem; }
       actual: 'B',
       outcome: 'Some prospects rejected the narrower entry offer, but sales cycles shortened and the team delivered a consistent first win without the founder in every meeting. Custom implementation remained available after the audit.',
       secondOrder: 'Repeated audit findings created the firm’s first reusable intellectual property and made hiring easier.',
-      principle: 'Productize the decision point before trying to productize the whole service.'
+      principle: 'Productize the decision point before trying to productize the whole service.',
+      concept: 'Productized services.'
     },
     {
       id: 'runway', category: 'Runway', title: 'The 11-month runway',
@@ -546,7 +559,284 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 1.25rem; }
       actual: 'C',
       outcome: 'Consumer growth slowed sharply, but runway extended beyond two years. Two enterprise contracts closed inside six months, giving the company stronger evidence and better financing options.',
       secondOrder: 'The cut clarified which work drove durable revenue and reduced the founders’ dependence on a fundraising deadline.',
-      principle: 'Runway is strategic optionality, not just time until zero.'
+      principle: 'Runway is strategic optionality, not just time until zero.',
+      concept: 'Real options thinking: paying to keep choices open.'
+    },
+    {
+      id: 'cheaper-copy', category: 'Strategy', title: 'The cheaper copy',
+      setup: 'A maker of professional audio interfaces earns strong margins selling to recording studios. A startup now sells a simpler version at a third of the price. Studios dismiss it, but hobbyists and students are buying it in volume, and each new version gets better.',
+      stakes: 'The core business is still growing, but the low end is where the next generation of professionals gets started.',
+      constraints: ['The sales team is paid on margin and will resist a cheap product.', 'Retail partners carry only premium lines.', 'Engineering can staff one new initiative this year.'],
+      question: 'How do you respond to a competitor your best customers ignore?',
+      options: [
+        { id: 'A', text: 'Launch a cheaper model under the main brand through existing channels.',
+          reads: 'You chose to meet the threat with the strengths you already have: brand and distribution. It is fast, but a cheap product inside a margin-driven sales organization tends to get starved, and it can pull premium buyers down a tier.',
+          deltas: { speed: 1, growth: 1, customer: 1, systems: -1 } },
+        { id: 'B', text: 'Set up a small separate team with its own budget, brand, and online channel to compete at the low end.',
+          reads: 'You chose to let the new business play by different rules. It costs focus and some duplication, and it may eat into your own entry tier, but the low-end business gets judged on its own economics.',
+          deltas: { horizon: 2, optionality: 1, lens: 1, systems: 1 } },
+        { id: 'C', text: 'Stay focused on studios and move further upmarket with higher-end features.',
+          reads: 'You chose to defend where you are strongest and most profitable. Margins stay healthy and the team stays focused, while the market you leave becomes the training ground for a competitor.',
+          deltas: { risk: -1, horizon: -1, customer: -1, growth: -1 } }
+      ],
+      actual: 'B',
+      outcome: 'The separate team launched within a year and won a meaningful share of the student market, mostly from customers the premium line had never reached. Premium sales dipped slightly in the entry tier, then stabilized.',
+      secondOrder: 'When the startup later moved upmarket, the company already understood low-cost economics and could respond on price without wrecking its premium margin.',
+      principle: 'A disruptive business looks unattractive until it isn’t. Give it a separate scoreboard.',
+      concept: 'Disruptive innovation (Clayton Christensen, The Innovator’s Dilemma).'
+    },
+    {
+      id: 'loudest-customer', category: 'Product', title: 'The loudest customer',
+      setup: 'A scheduling software company loses about 3% of its customers every month. Its largest account, worth 9% of revenue, wants a complex custom reporting module and hints that it may leave without it. A public feature board has 400 votes, led by calendar integrations.',
+      stakes: 'Next quarter’s engineering capacity can go to one major initiative.',
+      constraints: ['Churned customers rarely give reasons in exit surveys.', 'The reporting module would take the full quarter.', 'Sales has already told the large account it is “on the roadmap.”'],
+      question: 'What do you build next?',
+      options: [
+        { id: 'A', text: 'Build the reporting module and protect the biggest account.',
+          reads: 'You chose to protect concentrated revenue and your sales team’s credibility. It is a concrete, defensible win. The risk is building for one customer while the broader leak keeps draining the base.',
+          deltas: { risk: -1, horizon: -1, lens: -1, conviction: -1 } },
+        { id: 'B', text: 'Build the most-voted feature on the public board.',
+          reads: 'You chose to follow what the broad user base says it wants. It is visible and easy to defend, but votes measure what active users imagine, not why departing users actually left.',
+          deltas: { speed: 1, customer: 1, conviction: -1 } },
+        { id: 'C', text: 'Spend three weeks interviewing recently churned customers about what they were trying to get done, then decide.',
+          reads: 'You chose to delay the build to learn why people leave. It costs three weeks and may irritate the large account, in exchange for aiming the quarter at the actual cause of churn.',
+          deltas: { speed: -1, evidence: 2, customer: 1, systems: 1 } }
+      ],
+      actual: 'C',
+      outcome: 'Interviews showed that most churned customers were small clinics that never finished setup. Neither reporting nor integrations would have kept them. A guided onboarding flow cut monthly churn substantially over the next two quarters, and the large account accepted a simpler export in the meantime and stayed.',
+      secondOrder: 'The team began recording what each customer was trying to accomplish at signup, which changed how sales qualified leads.',
+      principle: 'Learn why people leave before deciding what to build for the people who stay.',
+      concept: 'Jobs to be done (Clayton Christensen, Competing Against Luck).'
+    },
+    {
+      id: 'free-tier', category: 'Pricing', title: 'The free tier',
+      setup: 'A developer tool has 120,000 free users and 3,000 paying teams. Free usage drives most new paid signups, but hosting costs for free accounts now exceed a quarter of revenue. Many heavy free users are small companies that could afford to pay.',
+      stakes: 'Without a change, gross margin falls below what the next funding round requires.',
+      constraints: ['Developers react loudly and publicly to pricing changes.', 'The product can meter usage precisely.', 'Every competitor offers some kind of free tier.'],
+      question: 'How do you fix the economics without killing the funnel?',
+      options: [
+        { id: 'A', text: 'Remove the free tier and offer a 14-day trial instead.',
+          reads: 'You chose a clean break that fixes costs immediately. Every user now faces a buying decision. The cost is losing the long, free on-ramp through which most of your paying teams arrived.',
+          deltas: { speed: 2, customer: -1, growth: -1, optionality: -1, conviction: 1 } },
+        { id: 'B', text: 'Keep the free tier but cap usage at the point where teams typically start getting real value, with a clear upgrade path.',
+          reads: 'You chose to tie price to the moment value shows up. It needs careful measurement and some users will hit the limit angrily, but it keeps the funnel while charging the users who benefit most.',
+          deltas: { evidence: 1, customer: 1, lens: 1, systems: 1 } },
+        { id: 'C', text: 'Keep everything free and cut infrastructure costs aggressively.',
+          reads: 'You chose to protect the funnel and solve the problem on the cost side. It avoids any pricing backlash, but engineering time goes to cost work and the mismatch between value and price stays in place.',
+          deltas: { risk: -1, growth: 1, lens: 1, systems: -1 } }
+      ],
+      actual: 'B',
+      outcome: 'A week of loud criticism followed, and some heavy free users moved to competitors. Within two quarters, paid conversion had nearly doubled and free-tier costs had fallen below a tenth of revenue.',
+      secondOrder: 'Measuring the value moment gave the product team a shared definition of activation it had never had.',
+      principle: 'Charge on the measure that grows with the value customers get.',
+      concept: 'Value-based pricing and choosing a value metric.'
+    },
+    {
+      id: 'bad-batch', category: 'Crisis', title: 'The bad batch',
+      setup: 'A regional packaged-food company learns that an ingredient supplier may have shipped contaminated product. Two customers have reported illness, not yet confirmed. Lab results will take 72 hours. The suspect ingredient went into four products over 30 days of production.',
+      stakes: 'If the contamination is real, delay could harm customers. If it is not, a recall costs about a year of profit.',
+      constraints: ['Regulators have not required a recall.', 'Retailers can pull product within 24 hours.', 'The company cannot quickly trace which lots used the suspect shipment.'],
+      question: 'Do you act before you know?',
+      options: [
+        { id: 'A', text: 'Issue a voluntary recall of all four products now and explain publicly why.',
+          reads: 'You chose to act on the possibility of harm instead of waiting for proof. It is expensive and may prove unnecessary, but it puts customer safety and your credibility ahead of a year of profit.',
+          deltas: { speed: 2, horizon: 1, customer: 2, conviction: 1 } },
+        { id: 'B', text: 'Quietly ask retailers to pull the one product most likely to be affected while you wait for results.',
+          reads: 'You chose a response sized to what you know. It limits cost, but a quiet partial withdrawal can look like concealment if the problem turns out to be larger.',
+          deltas: { risk: 1, customer: -1, optionality: 1, lens: 1 } },
+        { id: 'C', text: 'Wait 72 hours for lab results before acting.',
+          reads: 'You chose to act on evidence. If the results are negative, you avoided a costly overreaction. If they are positive, three more days of product stayed on shelves with your name on it.',
+          deltas: { risk: 1, speed: -2, evidence: 2 } }
+      ],
+      actual: 'A',
+      outcome: 'Lab results confirmed contamination in two of the four products. Because the recall was already underway, no further illnesses were linked to the company. Sales fell sharply for a quarter and recovered to prior levels within a year.',
+      secondOrder: 'The company invested in lot-level traceability so the next scare could be scoped in hours instead of days.',
+      principle: 'In a safety crisis, speed and candor are the asset you are protecting.',
+      concept: 'Johnson & Johnson’s 1982 Tylenol recall, the classic study of crisis response.'
+    },
+    {
+      id: 'top-performer', category: 'People', title: 'The top performer',
+      setup: 'A growing B2B company’s best sales leader brings in 30% of new revenue. Two strong reps have left in six months, both citing how the leader treats people. Exit interviews and an anonymous survey say the same thing. The leader does not seem to grasp how serious the problem is.',
+      stakes: 'The next two quarters of revenue depend heavily on this person. The team’s trust depends on what you do.',
+      constraints: ['There is no obvious internal successor.', 'One informal warning was given a year ago.', 'Other managers are watching.'],
+      question: 'What do you do?',
+      options: [
+        { id: 'A', text: 'Part ways now with a fair transition, and tell the team clearly which behavior will not be tolerated.',
+          reads: 'You chose to make the standard real, at a real price. Revenue will dip and the transition will be hard, but the team sees that results do not buy an exemption.',
+          deltas: { risk: 1, horizon: 1, lens: -1, conviction: 2 } },
+        { id: 'B', text: 'Keep the leader on a formal coaching plan with clear expectations and a 90-day review.',
+          reads: 'You chose to give a valuable person a structured chance to change. It is fair and protects revenue, but the team keeps working under the same leader while you find out whether change is possible.',
+          deltas: { risk: -1, speed: -1, optionality: 1, lens: 1 } },
+        { id: 'C', text: 'Move the leader into an individual role selling to the biggest accounts, with no direct reports.',
+          reads: 'You chose to keep the revenue and remove the people problem from the org chart. It is pragmatic. The risk is that the move reads as a reward, or that the leader resents it.',
+          deltas: { growth: 1, optionality: 1, lens: -1, conviction: -1 } }
+      ],
+      actual: 'A',
+      outcome: 'New bookings fell for about two quarters while a new leader was hired. Regretted attrition on the sales team dropped to near zero, and two former reps asked to come back.',
+      secondOrder: 'Managers across the company began addressing behavior problems earlier because they had seen the standard enforced at the top.',
+      principle: 'The behavior you tolerate from your best performer becomes the culture.',
+      concept: 'The “no brilliant jerks” principle from Netflix’s culture memo.'
+    },
+    {
+      id: 'new-city', category: 'Expansion', title: 'The new city',
+      setup: 'A local services marketplace connects homeowners with vetted handypeople. It is profitable in its first city and now entering a second, larger one. Early tests show that customers leave if no provider responds within an hour, and providers leave if they get fewer than five jobs a week.',
+      stakes: 'The launch budget covers about four months before investors expect clear traction.',
+      constraints: ['Competitors already operate citywide with thin coverage.', 'Paid acquisition is expensive on both sides.', 'Provider density is the main driver of response time.'],
+      question: 'How do you launch the second city?',
+      options: [
+        { id: 'A', text: 'Launch citywide with heavy customer promotions and guaranteed earnings for providers.',
+          reads: 'You chose to buy scale on both sides at once. If it works, you match competitors’ footprint immediately. If the subsidies end before density arrives, both sides leave together.',
+          deltas: { risk: 2, speed: 1, growth: 2, optionality: -1 } },
+        { id: 'B', text: 'Recruit providers citywide first, then turn on demand once supply is in place.',
+          reads: 'You chose to solve supply before demand. It reduces unanswered requests, but providers who wait weeks for work tend to drift away before customers arrive.',
+          deltas: { risk: -1, speed: -1, lens: 1 } },
+        { id: 'C', text: 'Launch in three adjacent neighborhoods only, hit response-time targets there, then expand outward.',
+          reads: 'You chose density over coverage. It looks small next to citywide competitors and may test investor patience, but it recreates the conditions that made the first city work.',
+          deltas: { evidence: 1, customer: 1, growth: -1, systems: 2 } }
+      ],
+      actual: 'C',
+      outcome: 'The three neighborhoods hit target response times within six weeks, and retention on both sides matched the first city. Covering the rest of the city took a year, slower than planned, at a fraction of the projected subsidy cost.',
+      secondOrder: 'Each new neighborhood launched faster, because providers from adjacent areas could pick up overflow work.',
+      principle: 'In a network business, density beats coverage.',
+      concept: 'Atomic networks (Andrew Chen, The Cold Start Problem).'
+    },
+    {
+      id: 'anchor-customer', category: 'Sales', title: 'The anchor customer',
+      setup: 'An industrial software vendor’s largest customer accounts for 35% of revenue. It offers a three-year renewal that would raise its spend by half, in exchange for a 20% discount on everything, most-favored-customer pricing, and a dedicated engineering team.',
+      stakes: 'Accepting secures three years of revenue and makes the customer even more central to the business.',
+      constraints: ['Most-favored pricing would cap price increases for every other customer.', 'The dedicated team would come from the core product group.', 'The customer has alternatives, but switching would take it about a year.'],
+      question: 'How much leverage do you hand your biggest customer?',
+      options: [
+        { id: 'A', text: 'Accept the deal as offered.',
+          reads: 'You chose certainty and scale. Three years of growing revenue is real. So is a customer that now sets your prices and claims part of your roadmap.',
+          deltas: { risk: -1, speed: 1, growth: 1, optionality: -2 } },
+        { id: 'B', text: 'Accept the volume with a smaller discount, reject most-favored pricing, and staff the dedicated team with new hires.',
+          reads: 'You chose to negotiate on the terms that shape the whole business. It risks a harder negotiation or a smaller deal, but protects pricing power and the core product team.',
+          deltas: { horizon: 1, optionality: 1, conviction: 1, systems: 2 } },
+        { id: 'C', text: 'Decline and offer only standard terms, using the renewal to push diversification.',
+          reads: 'You chose to reduce dependence outright. It protects your independence, and it also invites the customer to begin that year-long switch.',
+          deltas: { risk: 1, growth: -1, conviction: 2 } }
+      ],
+      actual: 'B',
+      outcome: 'The customer pushed back for six weeks, then signed with a 12% discount and no most-favored clause. Concentration rose briefly, then fell as the company used the stable base to win mid-sized accounts at full price.',
+      secondOrder: 'Rejecting most-favored pricing left the company free to raise prices across its base the following year.',
+      principle: 'Negotiate the terms that bind the whole business, not just the headline price.',
+      concept: 'Buyer power, one of Michael Porter’s five competitive forces.'
+    },
+    {
+      id: 'long-project', category: 'Product', title: 'The 18-month project',
+      setup: 'A fintech company has spent 18 months and a third of its engineering budget on a new budgeting app. A private beta shows that only 8% of users return after a month. One feature, automatic bill detection, keeps 45% of the users who try it coming back monthly.',
+      stakes: 'The board expects a public launch next quarter, and the team is invested in the full vision.',
+      constraints: ['Marketing has a launch campaign ready.', 'Bill detection runs on infrastructure the core product already has.', 'The team lead has warned that cancellation would likely cause departures.'],
+      question: 'What do you do with the project?',
+      options: [
+        { id: 'A', text: 'Cut scope to bill detection, ship it inside the core product, and shelve the rest.',
+          reads: 'You chose to keep the part the data supports and let the rest go. It disappoints a team that built a bigger vision, but it turns 18 months of work into something users actually return to.',
+          deltas: { evidence: 2, growth: -1, optionality: 1, systems: 1 } },
+        { id: 'B', text: 'Launch the full app on schedule and iterate after launch.',
+          reads: 'You chose to honor the commitment and learn in the market. Launch energy is real. The risk is spending marketing money to amplify a product most users do not come back to.',
+          deltas: { risk: 1, speed: 1, evidence: -1, conviction: -1 } },
+        { id: 'C', text: 'Cancel the project and move the team to the core product roadmap.',
+          reads: 'You chose a clean stop. It frees capacity quickly, but it also discards the one signal in the beta that looked like real demand.',
+          deltas: { risk: -1, speed: 2, optionality: -1 } }
+      ],
+      actual: 'A',
+      outcome: 'Bill detection shipped inside the core app two months later and became one of its most-used features. Two engineers left over the decision; most of the team moved onto the new feature.',
+      secondOrder: 'The board adopted a rule that every new product must pass a retention threshold before launch spending is approved.',
+      principle: 'Past spending is not a reason. Current evidence is.',
+      concept: 'Escalation of commitment (Barry Staw) and the sunk cost fallacy.'
+    },
+    {
+      id: 'big-box', category: 'Distribution', title: 'The big-box offer',
+      setup: 'A direct-to-consumer kitchenware brand sells mostly through its own website. A national retailer offers placement in 600 stores, which could double revenue, but requires prices 15% below the brand’s own site and a promise not to undercut the retailer online.',
+      stakes: 'Retail could transform reach. It could also train customers to buy elsewhere and squeeze margin.',
+      constraints: ['Website margin funds the brand’s marketing.', 'Manufacturing can scale but needs four months’ notice.', 'The retailer reviews sell-through after six months.'],
+      question: 'How do you enter retail on terms you can live with?',
+      options: [
+        { id: 'A', text: 'Accept the deal across the full product line.',
+          reads: 'You chose reach. Six hundred stores is a step change in awareness. The cost is pricing power on your own site and margin across the whole line.',
+          deltas: { risk: 1, growth: 2, optionality: -1, conviction: -1 } },
+        { id: 'B', text: 'Decline and keep investing in direct sales.',
+          reads: 'You chose to protect the direct relationship and its margin. You keep control of the brand and the customer data, and give up a distribution step a competitor may take instead.',
+          deltas: { risk: -1, customer: 1, growth: -1, conviction: 1 } },
+        { id: 'C', text: 'Offer the retailer a dedicated range with different sets and packaging, and keep signature products direct.',
+          reads: 'You chose to separate the channels by product instead of fighting over price. It takes design work and the retailer may push back, but neither channel undercuts the other.',
+          deltas: { customer: 1, optionality: 1, lens: 1, systems: 2 } }
+      ],
+      actual: 'C',
+      outcome: 'The retailer accepted after negotiation and started with 250 stores. The retail sets sold through, and website sales rose as shoppers discovered the brand in stores and bought its signature products online.',
+      secondOrder: 'Designing for two channels clarified which products defined the brand and which were accessories.',
+      principle: 'When channels compete on price, change what each channel sells.',
+      concept: 'Channel conflict and channel-specific assortments.'
+    },
+    {
+      id: 'sole-supplier', category: 'Supply chain', title: 'The sole supplier',
+      setup: 'A medical-device startup buys a critical sensor from a single supplier. The supplier announces a 30% price increase and longer lead times. No other qualified supplier exists today, and qualifying a new one takes about six months of testing.',
+      stakes: 'The increase wipes out most of the product’s gross margin.',
+      constraints: ['Customers are on fixed-price annual contracts.', 'The startup has eight months of cash.', 'Designing its own sensor would take more than a year.'],
+      question: 'How do you respond to a supplier who knows you have no alternative?',
+      options: [
+        { id: 'A', text: 'Accept the increase for now, start qualifying a second supplier immediately, and tell the incumbent you are doing it.',
+          reads: 'You chose to absorb short-term pain while building leverage you can actually use. It costs margin and engineering time now, in exchange for never being in this position again.',
+          deltas: { risk: -1, horizon: 1, optionality: 2, systems: 1 } },
+        { id: 'B', text: 'Accept the increase and pass it on to customers at renewal.',
+          reads: 'You chose the simplest path through. Engineering stays focused, but the supplier can do this again and the pain moves to your customers.',
+          deltas: { speed: 1, customer: -1, optionality: -1, systems: -1 } },
+        { id: 'C', text: 'Start designing your own sensor and negotiate hard with the supplier in the meantime.',
+          reads: 'You chose independence through building it yourself. It is the biggest bet on control, and it competes for engineering and cash with the product that pays the bills.',
+          deltas: { risk: 2, horizon: 1, optionality: -1, conviction: 2 } }
+      ],
+      actual: 'A',
+      outcome: 'A second supplier was qualified in seven months. Facing competition, the incumbent cut its increase to 10% before qualification was finished. Margins recovered within the year.',
+      secondOrder: 'The company made dual sourcing a requirement for every critical component in its next product.',
+      principle: 'Leverage is built before the negotiation, not during it.',
+      concept: 'Supplier power (Michael Porter’s five forces) and dual sourcing.'
+    },
+    {
+      id: 'outage-streak', category: 'Operations', title: 'The outage streak',
+      setup: 'A payments software company has had four major outages in two months. Engineers say the core system has become fragile after years of rushed releases. Sales has a large deal pending that requires three new features this quarter.',
+      stakes: 'Another serious outage could cost existing customers. Missing the deal would cost the quarter’s growth target.',
+      constraints: ['Engineering cannot do both well at the same time.', 'The prospect has noticed the outages too.', 'The executive team is split.'],
+      question: 'Where does engineering time go this quarter?',
+      options: [
+        { id: 'A', text: 'Freeze new features for six weeks and put the whole team on reliability.',
+          reads: 'You chose to fix the foundation before building on it. It puts the deal at risk and frustrates sales, but it stops the pattern that threatens every customer you already have.',
+          deltas: { horizon: 2, growth: -1, lens: 1, conviction: 1, systems: 1 } },
+        { id: 'B', text: 'Split capacity: 70% on the deal features, 30% on reliability.',
+          reads: 'You chose to make progress on both. It keeps the deal alive and shows the team you take reliability seriously. The risk is doing neither well enough.',
+          deltas: { growth: 1, optionality: 1, conviction: -1 } },
+        { id: 'C', text: 'Ship the deal features first and turn to reliability next quarter.',
+          reads: 'You chose growth now and repair later. If the system holds, you win the deal. If it does not, you may lose more than the deal.',
+          deltas: { risk: 2, horizon: -1, speed: 1, growth: 2 } }
+      ],
+      actual: 'A',
+      outcome: 'The outages stopped after the freeze. The prospect delayed signing by a quarter, then signed and cited the improved reliability as a reason.',
+      secondOrder: 'The company set a standing share of engineering time for reliability so it would never need another freeze.',
+      principle: 'Technical debt is a loan. The interest compounds while you wait.',
+      concept: 'Technical debt, a term coined by Ward Cunningham.'
+    },
+    {
+      id: 'free-competitor', category: 'Competition', title: 'The free competitor',
+      setup: 'A design tool for marketing teams charges $40 per seat. A large platform company launches a competing product, free for its existing customers. It is less capable but good enough for simple work. Trial signups drop 30% in a month.',
+      stakes: 'The competitor can afford to lose money on this product for years.',
+      constraints: ['Retention is strongest among agencies with complex brand workflows.', 'Most at-risk customers are small teams doing simple work.', 'A price cut would hit revenue immediately.'],
+      question: 'How do you compete with free?',
+      options: [
+        { id: 'A', text: 'Launch your own free tier to stop the drop in signups.',
+          reads: 'You chose to match the competitor’s terms. It defends the top of the funnel, but on the ground where the larger company has the deepest pockets.',
+          deltas: { risk: 1, speed: 2, growth: 1, systems: -1 } },
+        { id: 'B', text: 'Cut prices 40% across the board.',
+          reads: 'You chose to narrow the gap on price. It may slow defections, at an immediate revenue cost and without changing why customers would choose you.',
+          deltas: { customer: 1, growth: 1, optionality: -1, systems: -1 } },
+        { id: 'C', text: 'Concede the simple end, invest in the agency workflows where you are clearly better, and raise prices on advanced features.',
+          reads: 'You chose to stop competing where you are weakest. It means shrinking for a while and losing customers you liked, in exchange for a position the competitor has little reason to attack.',
+          deltas: { horizon: 1, growth: -1, conviction: 2, systems: 1 } }
+      ],
+      actual: 'C',
+      outcome: 'The company lost about a fifth of its customers over a year, mostly small teams. Revenue per customer rose, and total revenue returned to its previous level within 18 months at higher margins.',
+      secondOrder: 'A narrower focus simplified the roadmap and made sales conversations sharper.',
+      principle: 'Strategy includes choosing which customers you will not serve.',
+      concept: 'Michael Porter, “What Is Strategy?” (Harvard Business Review, 1996).'
     }
   ];
 
@@ -925,7 +1215,8 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 1.25rem; }
           : 'You chose differently. The case shows one path that played out, not the only defensible one.' })),
       h('div', { class: 'debrief-section' }, h('h3', { text: 'How your choice reads' }), h('p', { text: chosen.reads })),
       h('div', { class: 'debrief-section' }, h('h3', { text: 'Second-order effect' }), h('p', { text: c.secondOrder })),
-      h('div', { class: 'debrief-section' }, h('h3', { text: 'Principle to keep' }), h('p', { class: 'principle', text: c.principle }))
+      h('div', { class: 'debrief-section' }, h('h3', { text: 'Principle to keep' }), h('p', { class: 'principle', text: c.principle })),
+      c.concept ? h('div', { class: 'debrief-section' }, h('h3', { text: 'Related idea' }), h('p', { text: c.concept })) : null
     ));
 
     wrap.appendChild(h('div', { class: 'actions' },
@@ -936,13 +1227,28 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 1.25rem; }
     return wrap;
   }
 
-  function renderLibrary() {
+  var libFilter = 'all';
+  var LIB_FILTERS = [['all', 'All'], ['open', 'Not started'], ['done', 'Completed']];
+
+  function renderLibrary(focusFilter) {
     var root = $('view-library');
     var today = todayCase();
+    var shown = CASES.filter(function (c) {
+      return libFilter === 'all' || (libFilter === 'done') === isDone(c);
+    });
     root.replaceChildren(
       h('h2', { id: 'libraryHeading', tabindex: '-1', text: 'Case library' }),
       h('p', { class: 'stat', text: completedCount() + ' of ' + CASES.length + ' cases completed. Take them in any order.' }),
-      h('ul', { class: 'lib' }, CASES.map(function (c) {
+      h('div', { class: 'filters', role: 'group', 'aria-label': 'Filter cases' }, LIB_FILTERS.map(function (f) {
+        return h('button', { type: 'button', class: 'filter', 'data-filter': f[0], 'aria-pressed': libFilter === f[0] ? 'true' : 'false',
+          onclick: function () {
+            libFilter = f[0];
+            renderLibrary(f[0]);
+            announce('Showing ' + f[1].toLowerCase() + ' cases.');
+          } }, f[1]);
+      })),
+      shown.length ? null : h('p', { class: 'stat', text: libFilter === 'done' ? 'No completed cases yet.' : 'You have completed every case.' }),
+      h('ul', { class: 'lib' }, shown.map(function (c) {
         var r = state.responses[c.id];
         var status = r
           ? 'Completed. You chose ' + r.choiceId + ' at ' + r.confidence + '% confidence.'
@@ -958,6 +1264,7 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 1.25rem; }
         );
       }))
     );
+    if (focusFilter) root.querySelector('[data-filter="' + focusFilter + '"]').focus();
   }
 
   function renderProfile() {
@@ -1075,6 +1382,7 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 1.25rem; }
       lines.push('Downside you named:', '', mdQuote(r.downside), '');
       lines.push('What happened: ' + c.outcome, '');
       lines.push('Principle: **' + c.principle + '**', '');
+      if (c.concept) lines.push('Related idea: ' + c.concept, '');
     });
     lines.push('---', '', '_' + CASE_DISCLAIMER + ' ' + PROFILE_DISCLAIMER + '_', '');
     return lines.join('\n');
