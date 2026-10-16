@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Patches — Stefan Friend</title>
+<meta name="description" content="Patches: a daily Shikaku puzzle. Split the grid into rectangles so each one holds exactly one number equal to its area.">
+<link rel="canonical" href="https://stefanfriend.com/lab/patches/">
+<meta property="og:title" content="Patches — Stefan Friend">
+<meta property="og:description" content="A daily Shikaku puzzle. One grid a day, plus unlimited practice.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://stefanfriend.com/lab/patches/">
+<meta name="theme-color" content="#0a0a0f" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f5f4f1" media="(prefers-color-scheme: light)">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #0a0a0f; --bg-elevated: #12121a; --bg-card: #16161f;
+  --text: #e8e4dd; --text-secondary: #a8a29e; --text-muted: #9a948e;
+  --accent: #8b7ec8; --accent-hover: #a594f9; --accent-text: #a99ee0;
+  --accent-soft: rgba(139, 126, 200, 0.1); --on-accent: #0a0a0f;
+  --border: #1e1e2a; --border-strong: #2e2e3e; --grid-line: #34344a;
+  --patch-l: 62%; --patch-a: 0.30; --patch-edge: 72%;
+  --selection: rgba(165, 148, 249, 0.2);
+  --serif: 'DM Serif Display', Georgia, serif;
+  --sans: 'Instrument Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --mono: 'JetBrains Mono', 'SF Mono', monospace;
+}
+[data-theme="light"] {
+  --bg: #f5f4f1; --bg-elevated: #eceae5; --bg-card: #e8e5df;
+  --text: #1a1a1f; --text-secondary: #5c5b58; --text-muted: #605d58;
+  --accent: #6b5eb0; --accent-hover: #5a4e9c; --accent-text: #5a4e9c;
+  --accent-soft: rgba(107, 94, 176, 0.1); --on-accent: #ffffff;
+  --border: #d8d5cf; --border-strong: #c2beb6; --grid-line: #c9c5bd;
+  --patch-l: 55%; --patch-a: 0.28; --patch-edge: 40%;
+  --selection: rgba(107, 94, 176, 0.15);
+}
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 17px; -webkit-font-smoothing: antialiased; }
+body { background: var(--bg); color: var(--text); font-family: var(--sans); line-height: 1.6; min-height: 100vh; display: flex; flex-direction: column; }
+::selection { background: var(--selection); }
+a { color: var(--accent-text); }
+a:hover { color: var(--accent-hover); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.skip-link { position: absolute; left: 1rem; top: -100px; z-index: 10000; background: var(--accent); color: var(--on-accent); padding: 0.5rem 1rem; border-radius: 2px; font-weight: 600; text-decoration: none; }
+.skip-link:focus { top: 0.5rem; color: var(--on-accent); }
+
+.lab-strip { background: var(--bg-elevated); border-bottom: 1px solid var(--border); padding: 0.55rem 1.25rem; font-size: 0.8rem; color: var(--text-muted); display: flex; align-items: center; flex-wrap: wrap; gap: 0.4rem 0.9rem; }
+.lab-strip a { color: var(--text-secondary); text-decoration: none; }
+.lab-strip a:hover { color: var(--accent-hover); }
+.lab-strip .current { color: var(--text); }
+.lab-strip .tag { background: var(--accent-soft); border: 1px solid var(--accent); color: var(--accent-text); padding: 0.1rem 0.5rem; font-size: 0.66rem; letter-spacing: 0.08em; text-transform: uppercase; font-family: var(--mono); }
+.theme-toggle { margin-left: auto; background: none; border: 1px solid var(--border-strong); border-radius: 50%; width: 32px; height: 32px; cursor: pointer; display: flex; align-items: center; justify-content: center; color: var(--text-secondary); flex-shrink: 0; padding: 0; }
+.theme-toggle:hover { color: var(--accent-text); border-color: var(--accent); }
+.theme-toggle svg { width: 15px; height: 15px; }
+.theme-toggle .icon-moon { display: none; }
+[data-theme="light"] .theme-toggle .icon-sun { display: none; }
+[data-theme="light"] .theme-toggle .icon-moon { display: block; }
+
+main { flex: 1; width: 100%; max-width: 640px; margin: 0 auto; padding: 3rem 1.25rem 3rem; }
+.label { font-family: var(--mono); font-size: 0.7rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-text); margin-bottom: 0.75rem; }
+h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(2.2rem, 7vw, 3rem); line-height: 1.1; letter-spacing: -0.025em; margin-bottom: 0.5rem; }
+.lede { color: var(--text-secondary); margin-bottom: 0.5rem; }
+details { margin-top: 0.75rem; color: var(--text-secondary); font-size: 0.92rem; }
+summary { cursor: pointer; color: var(--accent-text); font-weight: 600; }
+details ul { margin: 0.5rem 0 0 1.2rem; }
+details li { margin-bottom: 0.25rem; }
+
+.toolbar { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; margin-top: 1.75rem; }
+.seg { display: inline-flex; border: 1px solid var(--border-strong); border-radius: 2px; }
+.seg button { background: none; border: none; padding: 0.45rem 0.8rem; font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-secondary); cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--border-strong); }
+.seg button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent-text); }
+select { font-family: var(--mono); font-size: 0.78rem; padding: 0.4rem 0.5rem; background: var(--bg-card); color: var(--text); border: 1px solid var(--border-strong); border-radius: 2px; }
+.btn { font-family: var(--sans); font-size: 0.88rem; font-weight: 600; padding: 0.5rem 0.95rem; border-radius: 2px; cursor: pointer; border: 1px solid var(--accent); background: transparent; color: var(--accent-text); }
+.btn:hover { background: var(--accent-soft); color: var(--accent-hover); }
+.btn-primary { background: var(--accent); color: var(--on-accent); }
+.btn-primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); color: var(--on-accent); }
+.btn-quiet { border-color: var(--border-strong); color: var(--text-secondary); }
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
+
+.status { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 0.25rem 1rem; margin: 1.25rem 0 0.6rem; font-family: var(--mono); font-size: 0.78rem; color: var(--text-secondary); }
+.timer { color: var(--accent-text); font-size: 0.95rem; }
+
+.board-wrap { position: relative; }
+.board {
+  --n: 7;
+  display: grid; grid-template-columns: repeat(var(--n), 1fr); grid-template-rows: repeat(var(--n), 1fr);
+  width: 100%; aspect-ratio: 1; background: var(--bg-card);
+  border: 2px solid var(--border-strong); border-radius: 4px;
+  touch-action: none; user-select: none; -webkit-user-select: none; position: relative;
+}
+.cell {
+  position: relative; z-index: 2; background: transparent; border: none; margin: 0; padding: 0;
+  box-shadow: inset -1px -1px 0 var(--grid-line);
+  font-family: var(--mono); font-weight: 500; font-size: clamp(0.9rem, 4.2vw, 1.35rem); color: var(--text);
+  display: flex; align-items: center; justify-content: center; cursor: pointer; min-width: 0; min-height: 0;
+}
+.cell:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+.cell.anchor { outline: 3px dashed var(--accent); outline-offset: -4px; }
+.clue { width: 1.9em; height: 1.9em; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: var(--bg); border: 1px solid var(--border-strong); }
+.patch {
+  z-index: 1; margin: 2px; border-radius: 3px; pointer-events: none;
+  background: hsla(var(--h), 60%, var(--patch-l), var(--patch-a));
+  border: 2px solid hsl(var(--h), 55%, var(--patch-edge));
+}
+.patch.bad {
+  background: repeating-linear-gradient(45deg, transparent 0 6px, var(--accent-soft) 6px 12px);
+  border: 2px dashed var(--text-muted);
+}
+.patch.preview { background: var(--accent-soft); border: 2px dashed var(--accent); z-index: 1; }
+.board.solved .patch { border-style: solid; }
+
+.result { margin-top: 1.25rem; padding: 1.25rem; background: var(--bg-elevated); border: 1px solid var(--border-strong); border-left: 3px solid var(--accent); }
+.result h2 { font-family: var(--serif); font-weight: 400; font-size: 1.5rem; margin-bottom: 0.25rem; }
+.result p { color: var(--text-secondary); }
+.result .actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.9rem; }
+.notice { margin-top: 1rem; font-size: 0.85rem; color: var(--text-secondary); }
+
+footer { border-top: 1px solid var(--border); padding: 1.5rem 1.25rem; }
+.footer-inner { max-width: 640px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem 1.5rem; font-size: 0.8rem; color: var(--text-muted); }
+.footer-inner a { color: var(--text-secondary); text-decoration: none; }
+.footer-inner a:hover { color: var(--accent-hover); }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+</style>
+<script>
+(function(){var t;try{t=localStorage.getItem('theme');}catch(e){}t=t||(window.matchMedia('(prefers-color-scheme:light)').matches?'light':'dark');document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to the puzzle</a>
+
+<div class="lab-strip">
+  <a href="/">← stefanfriend</a>
+  <span aria-hidden="true">/</span>
+  <a href="/lab/">lab</a>
+  <span aria-hidden="true">/</span>
+  <span class="current" aria-current="page">patches</span>
+  <span class="tag">game</span>
+  <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light theme">
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+  </button>
+</div>
+
+<main id="main" tabindex="-1">
+  <p class="label">Lab · Game</p>
+  <h1>Patches</h1>
+  <p class="lede">Split the grid into rectangles. Each rectangle holds exactly one number, and that number is its area.</p>
+  <details>
+    <summary>How to play</summary>
+    <ul>
+      <li>Drag from one corner to the opposite corner to draw a patch.</li>
+      <li>Tap a patch to remove it. Drawing over patches replaces them.</li>
+      <li>Keyboard: arrow keys move, Enter sets the first corner, Enter again draws, Delete removes, Escape cancels.</li>
+      <li>Valid patches are solid. Patches that break the rules are dashed and striped.</li>
+      <li>One daily puzzle for everyone, plus unlimited practice. Every puzzle has exactly one solution.</li>
+    </ul>
+  </details>
+
+  <noscript><p class="notice">Patches needs JavaScript to run.</p></noscript>
+
+  <div class="toolbar" id="toolbar" hidden>
+    <div class="seg" role="group" aria-label="Mode">
+      <button type="button" id="modeDaily" aria-pressed="true">Daily</button>
+      <button type="button" id="modePractice" aria-pressed="false">Practice</button>
+    </div>
+    <label class="sr-only" for="sizeSelect">Practice grid size</label>
+    <select id="sizeSelect" hidden>
+      <option value="5">5 × 5</option>
+      <option value="6">6 × 6</option>
+      <option value="7" selected>7 × 7</option>
+      <option value="8">8 × 8</option>
+    </select>
+    <button type="button" class="btn btn-quiet" id="newBtn" hidden>New puzzle</button>
+  </div>
+
+  <div class="status" id="statusRow" hidden>
+    <span id="title" style="white-space:nowrap"></span>
+    <span style="white-space:nowrap"><span id="progress"></span> · <span class="timer" id="timer" aria-label="Elapsed time">0:00</span></span>
+  </div>
+
+  <div class="board-wrap">
+    <div class="board" id="board" role="grid" aria-label="Puzzle grid" hidden></div>
+  </div>
+
+  <div class="toolbar" id="actions" hidden>
+    <button type="button" class="btn btn-quiet" id="undoBtn">Undo</button>
+    <button type="button" class="btn btn-quiet" id="clearBtn">Clear</button>
+    <button type="button" class="btn btn-quiet" id="hintBtn">Hint</button>
+  </div>
+
+  <div class="result" id="result" hidden tabindex="-1">
+    <h2>Solved</h2>
+    <p id="resultText"></p>
+    <div class="actions">
+      <button type="button" class="btn btn-primary" id="copyBtn">Copy result</button>
+      <button type="button" class="btn" id="practiceBtn">Play a practice puzzle</button>
+    </div>
+  </div>
+  <p class="notice" id="storageNotice" hidden>This browser is blocking local storage, so progress will not be saved.</p>
+</main>
+
+<div class="sr-only" id="live" aria-live="polite" aria-atomic="true"></div>
+
+<footer>
+  <div class="footer-inner">
+    <a href="/lab/">← Back to the Lab</a>
+    <span>Shikaku-style puzzles, generated in your browser.</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+  var KEY = 'patches:v1';
+  var DAILY_SIZE = 7;
+  var MAX_AREA = { 5: 6, 6: 8, 7: 9, 8: 10 };
+
+  function $(id) { return document.getElementById(id); }
+  var liveTimer;
+  function announce(msg) { var l = $('live'); l.textContent = ''; clearTimeout(liveTimer); liveTimer = setTimeout(function () { l.textContent = msg; }, 50); }
+
+  // ---------- Seeded random ----------
+  function mulberry32(a) {
+    return function () {
+      a |= 0; a = a + 0x6D2B79F5 | 0;
+      var t = Math.imul(a ^ a >>> 15, 1 | a);
+      t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
+      return ((t ^ t >>> 14) >>> 0) / 4294967296;
+    };
+  }
+  function hashStr(s) { var h = 2166136261; for (var i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
+  function localDateKey(d) { d = d || new Date(); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
+
+  // ---------- Solver ----------
+  function candidatesFor(n, clues) {
+    var clueAt = {};
+    clues.forEach(function (k, i) { clueAt[k.r * n + k.c] = i; });
+    return clues.map(function (k, ki) {
+      var list = [];
+      for (var h = 1; h <= k.v; h++) {
+        if (k.v % h) continue;
+        var w = k.v / h;
+        if (w > n || h > n) continue;
+        for (var r0 = k.r - h + 1; r0 <= k.r; r0++) {
+          for (var c0 = k.c - w + 1; c0 <= k.c; c0++) {
+            if (r0 < 0 || c0 < 0 || r0 + h > n || c0 + w > n) continue;
+            var ok = true;
+            for (var rr = r0; rr < r0 + h && ok; rr++) for (var cc = c0; cc < c0 + w; cc++) {
+              var j = clueAt[rr * n + cc];
+              if (j !== undefined && j !== ki) { ok = false; break; }
+            }
+            if (ok) list.push({ r: r0, c: c0, w: w, h: h });
+          }
+        }
+      }
+      return list;
+    });
+  }
+
+  function solve(n, clues, limit) {
+    var cands = candidatesFor(n, clues);
+    var used = new Uint8Array(n * n);
+    var placed = clues.map(function () { return false; });
+    var chosen = new Array(clues.length);
+    var count = 0, first = null;
+    function fits(q) {
+      for (var rr = q.r; rr < q.r + q.h; rr++) for (var cc = q.c; cc < q.c + q.w; cc++) if (used[rr * n + cc]) return false;
+      return true;
+    }
+    function mark(q, v) { for (var rr = q.r; rr < q.r + q.h; rr++) for (var cc = q.c; cc < q.c + q.w; cc++) used[rr * n + cc] = v; }
+    function rec(left) {
+      if (count >= limit) return;
+      if (left === 0) { count++; if (!first) first = chosen.slice(); return; }
+      var best = -1, bestList = null;
+      for (var i = 0; i < clues.length; i++) {
+        if (placed[i]) continue;
+        var fl = cands[i].filter(fits);
+        if (!fl.length) return;
+        if (!bestList || fl.length < bestList.length) { best = i; bestList = fl; if (fl.length === 1) break; }
+      }
+      placed[best] = true;
+      for (var k = 0; k < bestList.length && count < limit; k++) {
+        mark(bestList[k], 1); chosen[best] = bestList[k];
+        rec(left - 1);
+        mark(bestList[k], 0);
+      }
+      placed[best] = false;
+    }
+    rec(clues.length);
+    return { count: count, solution: first };
+  }
+
+  // ---------- Generator ----------
+  function generate(n, rand) {
+    var maxA = MAX_AREA[n] || 9;
+    var fallback = null;
+    for (var attempt = 0; attempt < 400; attempt++) {
+      var owner = new Int16Array(n * n).fill(-1);
+      var rects = [], singles = 0;
+      for (var i = 0; i < n * n; i++) {
+        if (owner[i] !== -1) continue;
+        var r = Math.floor(i / n), c = i % n;
+        var maxW = 0;
+        while (c + maxW < n && owner[r * n + c + maxW] === -1) maxW++;
+        var cands = [];
+        for (var w = 1; w <= maxW; w++) {
+          for (var h = 1; r + h <= n; h++) {
+            var free = true;
+            for (var cc = c; cc < c + w; cc++) if (owner[(r + h - 1) * n + cc] !== -1) { free = false; break; }
+            if (!free) break;
+            var a = w * h;
+            if (a >= 2 && a <= maxA) cands.push([w, h]);
+          }
+        }
+        var pick;
+        if (!cands.length) { pick = [1, 1]; singles++; }
+        else pick = cands[Math.floor(rand() * cands.length)];
+        var q = { r: r, c: c, w: pick[0], h: pick[1] };
+        for (var rr = r; rr < r + q.h; rr++) for (var c2 = c; c2 < c + q.w; c2++) owner[rr * n + c2] = rects.length;
+        rects.push(q);
+      }
+      if (singles > 1) continue;
+      var clues = rects.map(function (q) {
+        var k = Math.floor(rand() * q.w * q.h);
+        return { r: q.r + Math.floor(k / q.w), c: q.c + (k % q.w), v: q.w * q.h };
+      });
+      var res = solve(n, clues, 2);
+      if (res.count === 1) return { n: n, clues: clues, solution: res.solution };
+      if (!fallback && res.count >= 1) fallback = { n: n, clues: clues, solution: rects };
+    }
+    return fallback;
+  }
+
+  // ---------- Storage ----------
+  var store = { version: 1, daily: {} }, canStore = true;
+  try {
+    var raw = localStorage.getItem(KEY);
+    if (raw) {
+      var p = JSON.parse(raw);
+      if (p && p.version === 1 && p.daily && typeof p.daily === 'object') store = p;
+    }
+  } catch (e) { canStore = false; }
+  function persist() {
+    if (!canStore) return;
+    var keys = Object.keys(store.daily).sort();
+    while (keys.length > 30) delete store.daily[keys.shift()];
+    try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) { canStore = false; $('storageNotice').hidden = false; }
+  }
+  if (!canStore) $('storageNotice').hidden = false;
+
+  // ---------- Game state ----------
+  var mode = 'daily', puzzle, rects = [], history = [], hints = 0;
+  var started = 0, paused = false, elapsedBefore = 0, solvedMs = null, tick = null;
+  var anchor = null, focusIdx = 0, drag = null;
+  var dailyKey = localDateKey();
+
+  function clueAtCell(r, c) {
+    for (var i = 0; i < puzzle.clues.length; i++) if (puzzle.clues[i].r === r && puzzle.clues[i].c === c) return puzzle.clues[i];
+    return null;
+  }
+  function cluesIn(q) { return puzzle.clues.filter(function (k) { return k.r >= q.r && k.r < q.r + q.h && k.c >= q.c && k.c < q.c + q.w; }); }
+  function isValid(q) { var ks = cluesIn(q); return ks.length === 1 && ks[0].v === q.w * q.h; }
+  function overlaps(a, b) { return a.r < b.r + b.h && b.r < a.r + a.h && a.c < b.c + b.w && b.c < a.c + a.w; }
+  function rectAt(r, c) { for (var i = 0; i < rects.length; i++) { var q = rects[i]; if (r >= q.r && r < q.r + q.h && c >= q.c && c < q.c + q.w) return i; } return -1; }
+  function fromCorners(a, b) { return { r: Math.min(a.r, b.r), c: Math.min(a.c, b.c), w: Math.abs(a.c - b.c) + 1, h: Math.abs(a.r - b.r) + 1 }; }
+  function isSolved() {
+    if (!rects.every(isValid)) return false;
+    var area = rects.reduce(function (s, q) { return s + q.w * q.h; }, 0);
+    return area === puzzle.n * puzzle.n;
+  }
+  function elapsed() { return solvedMs !== null ? solvedMs : elapsedBefore + (started ? Date.now() - started : 0); }
+  function fmt(ms) { var s = Math.floor(ms / 1000); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); }
+
+  function startClock() {
+    if (solvedMs !== null || started) return;
+    started = Date.now();
+    clearInterval(tick);
+    tick = setInterval(function () { $('timer').textContent = fmt(elapsed()); }, 1000);
+  }
+  function stopClock() { if (started) { elapsedBefore += Date.now() - started; started = 0; } clearInterval(tick); }
+
+  function saveDaily() {
+    if (mode !== 'daily') return;
+    store.daily[dailyKey] = { rects: rects, elapsed: elapsed(), solvedMs: solvedMs, hints: hints };
+    persist();
+  }
+
+  function loadPuzzle(newMode, size, seed) {
+    stopClock();
+    paused = false;
+    mode = newMode;
+    var n = size;
+    puzzle = generate(n, mulberry32(seed));
+    rects = []; history = []; hints = 0; started = 0; elapsedBefore = 0; solvedMs = null; anchor = null; focusIdx = 0;
+    if (mode === 'daily') {
+      var saved = store.daily[dailyKey];
+      if (saved && Array.isArray(saved.rects)) {
+        rects = saved.rects.filter(function (q) { return q && q.r >= 0 && q.c >= 0 && q.w >= 1 && q.h >= 1 && q.r + q.h <= n && q.c + q.w <= n; });
+        elapsedBefore = Number(saved.elapsed) || 0;
+        hints = Number(saved.hints) || 0;
+        if (saved.solvedMs !== null && saved.solvedMs !== undefined && isSolved()) solvedMs = Number(saved.solvedMs);
+        else if (rects.length) startClock();
+      }
+    }
+    $('modeDaily').setAttribute('aria-pressed', mode === 'daily' ? 'true' : 'false');
+    $('modePractice').setAttribute('aria-pressed', mode === 'practice' ? 'true' : 'false');
+    $('sizeSelect').hidden = mode !== 'practice';
+    $('newBtn').hidden = mode !== 'practice';
+    $('title').textContent = mode === 'daily' ? 'Daily · ' + dailyKey : 'Practice · ' + n + ' × ' + n;
+    buildBoard();
+    render();
+  }
+
+  // ---------- Board ----------
+  var cells = [];
+  function buildBoard() {
+    var n = puzzle.n, board = $('board');
+    board.replaceChildren();
+    board.style.setProperty('--n', n);
+    cells = [];
+    for (var r = 0; r < n; r++) {
+      var row = document.createElement('div');
+      row.setAttribute('role', 'row');
+      row.style.display = 'contents';
+      for (var c = 0; c < n; c++) {
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'cell';
+        b.setAttribute('role', 'gridcell');
+        b.style.gridRow = (r + 1);
+        b.style.gridColumn = (c + 1);
+        b.tabIndex = -1;
+        b.dataset.r = r; b.dataset.c = c;
+        var k = clueAtCell(r, c);
+        if (k) { var s = document.createElement('span'); s.className = 'clue'; s.textContent = k.v; s.setAttribute('aria-hidden', 'true'); b.appendChild(s); }
+        row.appendChild(b);
+        cells.push(b);
+      }
+      board.appendChild(row);
+    }
+    var layer = document.createElement('div');
+    layer.id = 'patches';
+    layer.style.display = 'contents';
+    board.appendChild(layer);
+    cells[focusIdx].tabIndex = 0;
+  }
+
+  function patchEl(q, cls, hue) {
+    var d = document.createElement('div');
+    d.className = 'patch ' + (cls || '');
+    d.style.gridRow = (q.r + 1) + ' / span ' + q.h;
+    d.style.gridColumn = (q.c + 1) + ' / span ' + q.w;
+    if (hue !== undefined) d.style.setProperty('--h', hue);
+    d.setAttribute('aria-hidden', 'true');
+    return d;
+  }
+
+  function render(preview) {
+    var n = puzzle.n, layer = $('patches');
+    layer.replaceChildren();
+    rects.forEach(function (q) {
+      var ok = isValid(q);
+      var hue = (hashStr(q.r + ',' + q.c + ',' + q.w + ',' + q.h) % 12) * 30;
+      layer.appendChild(patchEl(q, ok ? '' : 'bad', hue));
+    });
+    if (preview) layer.appendChild(patchEl(preview, 'preview'));
+    cells.forEach(function (b) {
+      var r = +b.dataset.r, c = +b.dataset.c, k = clueAtCell(r, c), i = rectAt(r, c);
+      var label = 'Row ' + (r + 1) + ', column ' + (c + 1) + (k ? ', clue ' + k.v : '');
+      if (i >= 0) { var q = rects[i]; label += ', in a ' + q.w + ' by ' + q.h + ' patch' + (isValid(q) ? '' : ' that breaks the rules'); }
+      else label += ', empty';
+      if (anchor && anchor.r === r && anchor.c === c) label += ', first corner';
+      b.setAttribute('aria-label', label);
+      b.classList.toggle('anchor', !!(anchor && anchor.r === r && anchor.c === c));
+    });
+    var solved = solvedMs !== null;
+    var good = rects.filter(isValid).length;
+    $('progress').textContent = good + ' / ' + puzzle.clues.length + ' patches';
+    $('timer').textContent = fmt(elapsed());
+    $('board').classList.toggle('solved', solved);
+    $('undoBtn').disabled = solved || !history.length;
+    $('clearBtn').disabled = solved || !rects.length;
+    $('hintBtn').disabled = solved;
+    $('result').hidden = !solved;
+    if (solved) {
+      $('resultText').textContent = (mode === 'daily' ? 'Today’s puzzle' : 'This ' + n + ' × ' + n + ' puzzle') + ' solved in ' + fmt(solvedMs) +
+        (hints ? ' with ' + hints + ' hint' + (hints === 1 ? '' : 's') + '.' : ' with no hints.');
+      $('practiceBtn').hidden = mode !== 'daily';
+    }
+  }
+
+  function commit(q) {
+    if (solvedMs !== null) return;
+    startClock();
+    history.push(rects.slice());
+    if (history.length > 200) history.shift();
+    rects = rects.filter(function (x) { return !overlaps(x, q); });
+    rects.push(q);
+    afterChange(q.w + ' by ' + q.h + ' patch placed' + (isValid(q) ? '.' : '. It breaks the rules.'));
+  }
+  function removeAt(r, c) {
+    var i = rectAt(r, c);
+    if (i < 0 || solvedMs !== null) return false;
+    history.push(rects.slice());
+    rects.splice(i, 1);
+    afterChange('Patch removed.');
+    return true;
+  }
+  function afterChange(msg) {
+    if (isSolved()) {
+      solvedMs = elapsed();
+      stopClock();
+      render();
+      saveDaily();
+      announce('Solved in ' + fmt(solvedMs) + '.');
+      $('result').focus({ preventScroll: true });
+      $('result').scrollIntoView({ block: 'nearest', behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+      return;
+    }
+    render();
+    saveDaily();
+    if (msg) announce(msg);
+  }
+
+  // Pointer input
+  var board = $('board');
+  function cellFromPoint(x, y) {
+    var rect = board.getBoundingClientRect(), n = puzzle.n;
+    var c = Math.floor((x - rect.left) / rect.width * n), r = Math.floor((y - rect.top) / rect.height * n);
+    return { r: Math.max(0, Math.min(n - 1, r)), c: Math.max(0, Math.min(n - 1, c)) };
+  }
+  board.addEventListener('pointerdown', function (e) {
+    if (solvedMs !== null || (e.pointerType === 'mouse' && e.button !== 0)) return;
+    e.preventDefault();
+    board.setPointerCapture(e.pointerId);
+    var p = cellFromPoint(e.clientX, e.clientY);
+    drag = { start: p, end: p, id: e.pointerId };
+    anchor = null;
+    render(fromCorners(p, p));
+  });
+  board.addEventListener('pointermove', function (e) {
+    if (!drag || e.pointerId !== drag.id) return;
+    var p = cellFromPoint(e.clientX, e.clientY);
+    if (p.r === drag.end.r && p.c === drag.end.c) return;
+    drag.end = p;
+    render(fromCorners(drag.start, p));
+  });
+  function endDrag(e, cancel) {
+    if (!drag || e.pointerId !== drag.id) return;
+    var d = drag; drag = null;
+    if (cancel) { render(); return; }
+    var single = d.start.r === d.end.r && d.start.c === d.end.c;
+    if (single && removeAt(d.start.r, d.start.c)) return;
+    commit(fromCorners(d.start, d.end));
+  }
+  board.addEventListener('pointerup', function (e) { endDrag(e, false); });
+  board.addEventListener('pointercancel', function (e) { endDrag(e, true); });
+
+  // Keyboard input
+  function moveFocus(i) {
+    cells[focusIdx].tabIndex = -1;
+    focusIdx = i;
+    cells[i].tabIndex = 0;
+    cells[i].focus();
+    if (anchor) render(fromCorners(anchor, { r: Math.floor(i / puzzle.n), c: i % puzzle.n }));
+  }
+  board.addEventListener('focusin', function (e) {
+    var i = cells.indexOf(e.target);
+    if (i >= 0 && i !== focusIdx) { cells[focusIdx].tabIndex = -1; focusIdx = i; cells[i].tabIndex = 0; }
+  });
+  board.addEventListener('keydown', function (e) {
+    var i = cells.indexOf(e.target);
+    if (i < 0) return;
+    var n = puzzle.n, r = Math.floor(i / n), c = i % n;
+    switch (e.key) {
+      case 'ArrowUp': if (r > 0) moveFocus(i - n); break;
+      case 'ArrowDown': if (r < n - 1) moveFocus(i + n); break;
+      case 'ArrowLeft': if (c > 0) moveFocus(i - 1); break;
+      case 'ArrowRight': if (c < n - 1) moveFocus(i + 1); break;
+      case 'Home': moveFocus(r * n); break;
+      case 'End': moveFocus(r * n + n - 1); break;
+      case 'Enter': case ' ':
+        if (solvedMs !== null) break;
+        if (!anchor) { anchor = { r: r, c: c }; render(fromCorners(anchor, anchor)); announce('First corner set. Move to the opposite corner and press Enter.'); }
+        else { var q = fromCorners(anchor, { r: r, c: c }); anchor = null; commit(q); }
+        break;
+      case 'Escape': if (anchor) { anchor = null; render(); announce('Drawing cancelled.'); } break;
+      case 'Delete': case 'Backspace': if (!removeAt(r, c)) announce('No patch here.'); break;
+      default: return;
+    }
+    e.preventDefault();
+  });
+
+  // Actions
+  $('undoBtn').addEventListener('click', function () {
+    if (!history.length) return;
+    rects = history.pop();
+    afterChange('Undone.');
+  });
+  $('clearBtn').addEventListener('click', function () {
+    if (!rects.length) return;
+    history.push(rects.slice());
+    rects = [];
+    afterChange('Board cleared.');
+  });
+  $('hintBtn').addEventListener('click', function () {
+    var sol = puzzle.solution;
+    var missing = sol.filter(function (s) { return !rects.some(function (q) { return q.r === s.r && q.c === s.c && q.w === s.w && q.h === s.h; }); });
+    if (!missing.length) return;
+    // Prefer fixing a patch the player got wrong
+    var target = missing.find(function (s) { return rects.some(function (q) { return overlaps(q, s); }); }) || missing[0];
+    hints++;
+    commit({ r: target.r, c: target.c, w: target.w, h: target.h });
+  });
+  $('copyBtn').addEventListener('click', function () {
+    var text = 'Patches ' + (mode === 'daily' ? dailyKey : 'practice ' + puzzle.n + '×' + puzzle.n) + ' · ' + fmt(solvedMs) + (hints ? ' · ' + hints + ' hint' + (hints === 1 ? '' : 's') : '') + '\nstefanfriend.com/lab/patches/';
+    var done = function () { announce('Result copied.'); $('copyBtn').textContent = 'Copied'; setTimeout(function () { $('copyBtn').textContent = 'Copy result'; }, 1500); };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, function () { announce('Copy failed.'); });
+    else announce('Copy is not available in this browser.');
+  });
+  function newPractice() { loadPuzzle('practice', +$('sizeSelect').value, (Math.random() * 4294967296) >>> 0); announce('New ' + puzzle.n + ' by ' + puzzle.n + ' practice puzzle.'); }
+  $('practiceBtn').addEventListener('click', newPractice);
+  $('newBtn').addEventListener('click', newPractice);
+  $('sizeSelect').addEventListener('change', newPractice);
+  $('modePractice').addEventListener('click', function () { if (mode !== 'practice') newPractice(); });
+  $('modeDaily').addEventListener('click', function () {
+    if (mode === 'daily') return;
+    loadPuzzle('daily', DAILY_SIZE, hashStr('patches:' + dailyKey));
+    announce('Daily puzzle.');
+  });
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden) { if (started) { stopClock(); saveDaily(); paused = true; } }
+    else if (paused) { paused = false; startClock(); }
+  });
+
+  // Theme
+  function syncTheme() { $('themeToggle').setAttribute('aria-label', document.documentElement.getAttribute('data-theme') === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'); }
+  $('themeToggle').addEventListener('click', function () {
+    var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+    syncTheme();
+  });
+  syncTheme();
+
+  ['toolbar', 'statusRow', 'board', 'actions'].forEach(function (id) { $(id).hidden = false; });
+  loadPuzzle('daily', DAILY_SIZE, hashStr('patches:' + dailyKey));
+})();
+</script>
+</body>
+</html>
