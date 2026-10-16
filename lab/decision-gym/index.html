@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Decision Gym — Stefan Friend</title>
+<meta name="description" content="Decision Gym: five-minute business cases that make you commit to a call, a confidence level, and an honest downside before you see what happened.">
+<link rel="canonical" href="https://stefanfriend.com/lab/decision-gym/">
+<meta property="og:title" content="Decision Gym — Stefan Friend">
+<meta property="og:description" content="Make the call before you know how it ends. Short business cases, a committed decision, then the debrief and your decision profile.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://stefanfriend.com/lab/decision-gym/">
+<meta name="theme-color" content="#0a0a0f" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f5f4f1" media="(prefers-color-scheme: light)">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #0a0a0f;
+  --bg-elevated: #12121a;
+  --bg-card: #16161f;
+  --text: #e8e4dd;
+  --text-secondary: #a8a29e;
+  --text-muted: #9a948e;
+  --accent: #8b7ec8;
+  --accent-hover: #a594f9;
+  --accent-text: #a99ee0;
+  --accent-soft: rgba(139, 126, 200, 0.1);
+  --on-accent: #0a0a0f;
+  --border: #1e1e2a;
+  --border-strong: #2e2e3e;
+  --selection: rgba(165, 148, 249, 0.2);
+
+  --serif: 'DM Serif Display', Georgia, serif;
+  --sans: 'Instrument Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --mono: 'JetBrains Mono', 'SF Mono', monospace;
+
+  --w-content: 720px;
+}
+[data-theme="light"] {
+  --bg: #f5f4f1; --bg-elevated: #eceae5; --bg-card: #e8e5df;
+  --text: #1a1a1f; --text-secondary: #5c5b58; --text-muted: #605d58;
+  --accent: #6b5eb0; --accent-hover: #5a4e9c; --accent-text: #5a4e9c;
+  --accent-soft: rgba(107, 94, 176, 0.1);
+  --on-accent: #ffffff;
+  --border: #d8d5cf; --border-strong: #c2beb6;
+  --selection: rgba(107, 94, 176, 0.15);
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 17px; -webkit-font-smoothing: antialiased; }
+body {
+  background: var(--bg); color: var(--text);
+  font-family: var(--sans); font-weight: 400; line-height: 1.65;
+  min-height: 100vh; display: flex; flex-direction: column;
+}
+body::before {
+  content: ''; position: fixed; inset: 0;
+  pointer-events: none; z-index: 9999; opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 256px 256px;
+}
+[data-theme="light"] body::before { opacity: 0.02; }
+::selection { background: var(--selection); }
+
+a { color: var(--accent-text); }
+a:hover { color: var(--accent-hover); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+.skip-link {
+  position: absolute; left: 1rem; top: -100px; z-index: 10000;
+  background: var(--accent); color: var(--on-accent); padding: 0.5rem 1rem;
+  border-radius: 2px; font-weight: 600; text-decoration: none;
+}
+.skip-link:focus { top: 0.5rem; color: var(--on-accent); }
+
+/* Lab strip */
+.lab-strip {
+  background: var(--bg-elevated); border-bottom: 1px solid var(--border);
+  padding: 0.55rem 1.25rem; font-size: 0.8rem; color: var(--text-muted);
+  display: flex; align-items: center; flex-wrap: wrap; gap: 0.4rem 0.9rem;
+}
+.lab-strip a { color: var(--text-secondary); text-decoration: none; }
+.lab-strip a:hover { color: var(--accent-hover); }
+.lab-strip .sep { color: var(--text-muted); }
+.lab-strip .current { color: var(--text); }
+.lab-strip .tag {
+  background: var(--accent-soft); border: 1px solid var(--accent);
+  color: var(--accent-text); padding: 0.1rem 0.5rem; font-size: 0.66rem;
+  letter-spacing: 0.08em; text-transform: uppercase; font-family: var(--mono);
+}
+.theme-toggle {
+  margin-left: auto; background: none; border: 1px solid var(--border-strong); border-radius: 50%;
+  width: 32px; height: 32px; cursor: pointer; display: flex; align-items: center; justify-content: center;
+  color: var(--text-secondary); transition: color 0.2s, border-color 0.2s; flex-shrink: 0; padding: 0;
+}
+.theme-toggle:hover { color: var(--accent-text); border-color: var(--accent); }
+.theme-toggle svg { width: 15px; height: 15px; }
+.theme-toggle .icon-moon { display: none; }
+[data-theme="light"] .theme-toggle .icon-sun { display: none; }
+[data-theme="light"] .theme-toggle .icon-moon { display: block; }
+
+main { flex: 1; width: 100%; max-width: var(--w-content); margin: 0 auto; padding: 4rem 1.25rem 4rem; }
+
+.label {
+  font-family: var(--mono); font-size: 0.7rem; font-weight: 500; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--accent-text); margin-bottom: 1rem;
+}
+h1 {
+  font-family: var(--serif); font-size: clamp(2.3rem, 7vw, 3.2rem); font-weight: 400;
+  line-height: 1.1; letter-spacing: -0.025em; margin-bottom: 0.75rem;
+}
+.deck { font-family: var(--serif); font-style: italic; font-size: clamp(1.2rem, 3.5vw, 1.45rem); color: var(--text); line-height: 1.35; margin-bottom: 1rem; }
+.lede { color: var(--text-secondary); font-size: 1.02rem; margin-bottom: 0.75rem; }
+.fine { font-size: 0.82rem; color: var(--text-muted); }
+h2 { font-family: var(--serif); font-weight: 400; font-size: clamp(1.5rem, 4.5vw, 1.9rem); line-height: 1.2; letter-spacing: -0.015em; }
+h3 { font-family: var(--mono); font-size: 0.72rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent-text); margin-bottom: 0.5rem; }
+h2:focus, h3:focus { outline: none; }
+h2:focus-visible, h3:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+
+.actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
+.btn {
+  font-family: var(--sans); font-size: 0.92rem; font-weight: 600; line-height: 1.2;
+  padding: 0.7rem 1.2rem; border-radius: 2px; cursor: pointer; text-align: center;
+  border: 1px solid var(--accent); background: transparent; color: var(--accent-text);
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.btn:hover { background: var(--accent-soft); color: var(--accent-hover); }
+.btn-primary { background: var(--accent); color: var(--on-accent); }
+.btn-primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); color: var(--on-accent); }
+.btn-quiet { border-color: var(--border-strong); color: var(--text-secondary); }
+.btn-quiet:hover { border-color: var(--accent); }
+.btn-danger { border-color: var(--border-strong); color: var(--text-secondary); }
+.btn[aria-disabled="true"] {
+  background: transparent; color: var(--text-muted); border-color: var(--border-strong);
+  border-style: dashed; cursor: not-allowed;
+}
+.link-btn {
+  background: none; border: none; padding: 0; font: inherit; color: var(--accent-text);
+  text-decoration: underline; text-underline-offset: 3px; cursor: pointer;
+}
+.link-btn:hover { color: var(--accent-hover); }
+
+.notice {
+  margin-top: 1.5rem; padding: 0.75rem 1rem; font-size: 0.85rem; color: var(--text-secondary);
+  border: 1px solid var(--border-strong); border-left: 3px solid var(--accent); background: var(--bg-elevated);
+}
+
+/* View tabs */
+.views {
+  display: flex; flex-wrap: wrap; gap: 0.25rem; margin: 3rem 0 2rem;
+  border-bottom: 1px solid var(--border);
+}
+.views button {
+  background: none; border: none; border-bottom: 2px solid transparent; margin-bottom: -1px;
+  font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--text-secondary); padding: 0.75rem 0.6rem; cursor: pointer;
+}
+.views button:hover { color: var(--text); }
+.views button[aria-current="page"] { color: var(--accent-text); border-bottom-color: var(--accent); }
+
+.card {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: 4px;
+  padding: 1.5rem; margin-top: 1.25rem;
+}
+.meta {
+  display: flex; flex-wrap: wrap; gap: 0.35rem 0.9rem; font-family: var(--mono);
+  font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+.meta .cat { color: var(--accent-text); }
+.badge {
+  display: inline-block; font-family: var(--mono); font-size: 0.64rem; letter-spacing: 0.08em;
+  text-transform: uppercase; padding: 0.1rem 0.45rem; border: 1px solid var(--accent);
+  color: var(--accent-text); border-radius: 2px;
+}
+.case-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem 1rem; margin-bottom: 1.25rem; }
+.setup { color: var(--text-secondary); margin-top: 0.75rem; }
+.block { margin-top: 1.5rem; }
+.block p, .block li { color: var(--text-secondary); }
+.block ul { padding-left: 1.2rem; }
+.block li { margin-bottom: 0.25rem; }
+
+fieldset { border: none; margin-top: 1.75rem; min-width: 0; }
+legend { font-family: var(--serif); font-size: 1.3rem; line-height: 1.3; margin-bottom: 1rem; color: var(--text); }
+.legend-label { display: block; font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent-text); margin-bottom: 0.4rem; }
+.opt { position: relative; display: block; margin-bottom: 0.75rem; cursor: pointer; }
+.opt input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.opt-body {
+  display: flex; gap: 1rem; align-items: flex-start; padding: 1rem 1.1rem;
+  background: var(--bg-card); border: 1px solid var(--border-strong); border-radius: 4px;
+  transition: border-color 0.2s, background 0.2s;
+}
+.opt:hover .opt-body { border-color: var(--accent); }
+.opt input:focus-visible + .opt-body { outline: 2px solid var(--accent); outline-offset: 3px; }
+.opt input:checked + .opt-body { border-color: var(--accent); background: var(--accent-soft); box-shadow: inset 3px 0 0 var(--accent); }
+.opt-letter {
+  flex-shrink: 0; width: 2rem; height: 2rem; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  font-family: var(--mono); font-weight: 500; font-size: 0.85rem; border: 1px solid var(--border-strong); color: var(--text-secondary);
+}
+.opt input:checked + .opt-body .opt-letter { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.opt-text { color: var(--text); padding-top: 0.2rem; }
+.opt-check { display: none; font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-text); margin-top: 0.3rem; }
+.opt input:checked + .opt-body .opt-check { display: block; }
+
+.field { margin-top: 1.75rem; }
+.field-label { display: block; font-weight: 600; margin-bottom: 0.5rem; }
+.range-row { display: flex; align-items: center; gap: 1rem; }
+input[type="range"] { flex: 1; min-width: 0; accent-color: var(--accent); height: 2rem; cursor: pointer; }
+output.conf { font-family: var(--mono); font-size: 1.1rem; color: var(--accent-text); min-width: 3.5rem; text-align: right; }
+.range-ends { display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--text-muted); margin-top: 0.15rem; }
+textarea {
+  width: 100%; min-height: 6rem; resize: vertical; padding: 0.75rem 0.9rem;
+  font-family: var(--sans); font-size: 1rem; line-height: 1.5; color: var(--text);
+  background: var(--bg-card); border: 1px solid var(--border-strong); border-radius: 4px;
+}
+textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
+.hint { font-size: 0.82rem; color: var(--text-muted); margin-top: 0.4rem; }
+.reqs { list-style: none; margin-top: 1.5rem; font-size: 0.85rem; color: var(--text-secondary); }
+.reqs li { margin-bottom: 0.2rem; }
+.reqs .mark { font-family: var(--mono); display: inline-block; width: 1.4rem; }
+.reqs li.done { color: var(--text); }
+.reqs li.done .mark { color: var(--accent-text); }
+
+/* Debrief */
+.debrief-section { margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--border); }
+.debrief-section:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+.debrief-section p { color: var(--text-secondary); }
+.your-call dl { display: grid; grid-template-columns: max-content 1fr; gap: 0.35rem 1rem; }
+.your-call dt { font-size: 0.82rem; color: var(--text-muted); }
+.your-call dd { color: var(--text); overflow-wrap: anywhere; white-space: pre-wrap; }
+.principle { font-family: var(--serif); font-size: 1.3rem; line-height: 1.35; color: var(--text) !important; }
+.match { font-size: 0.85rem; color: var(--text-muted); margin-top: 0.4rem; }
+
+/* Library */
+.lib { list-style: none; }
+.lib-item { display: flex; flex-direction: column; gap: 0.5rem; }
+.lib-item .meta { margin: 0; }
+.lib-item h3.title { font-family: var(--serif); font-size: 1.25rem; font-weight: 400; line-height: 1.3; letter-spacing: -0.01em; text-transform: none; color: var(--text); margin: 0; }
+.lib-status { font-size: 0.88rem; color: var(--text-secondary); }
+.lib-item .btn { align-self: flex-start; margin-top: 0.25rem; }
+
+/* Profile */
+.stat { font-size: 0.95rem; color: var(--text-secondary); margin-top: 0.75rem; }
+.dims { list-style: none; margin-top: 0.5rem; }
+.dim { margin-top: 1.25rem; }
+.dim-head { display: flex; justify-content: space-between; gap: 1rem; align-items: baseline; }
+.dim-name { font-weight: 600; }
+.dim-score { font-family: var(--mono); font-size: 0.85rem; color: var(--accent-text); }
+.bar { position: relative; height: 8px; margin: 0.45rem 0 0.3rem; background: var(--bg-elevated); border: 1px solid var(--border-strong); border-radius: 4px; }
+.bar::after { content: ''; position: absolute; left: 50%; top: -3px; bottom: -3px; width: 1px; background: var(--border-strong); }
+.bar-fill { position: absolute; top: -1px; bottom: -1px; background: var(--accent); opacity: 0.55; transition: width 0.4s ease, left 0.4s ease; }
+.bar-marker { position: absolute; top: 50%; width: 14px; height: 14px; margin: -7px 0 0 -7px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); z-index: 1; }
+.poles { display: flex; justify-content: space-between; gap: 1rem; font-size: 0.78rem; color: var(--text-muted); }
+.poles span:last-child { text-align: right; }
+.obs { list-style: none; margin-top: 0.5rem; }
+.obs li { color: var(--text-secondary); padding-left: 1.2rem; position: relative; margin-bottom: 0.4rem; }
+.obs li::before { content: '→'; position: absolute; left: 0; color: var(--accent-text); }
+.history { list-style: none; }
+.history li { padding: 0.85rem 0; border-top: 1px solid var(--border); }
+.history li:first-child { border-top: none; padding-top: 0; }
+.history .h-title { font-weight: 600; }
+.history .h-meta { font-size: 0.85rem; color: var(--text-secondary); }
+
+dialog {
+  margin: auto; max-width: min(30rem, calc(100vw - 2rem)); padding: 1.5rem;
+  background: var(--bg-elevated); color: var(--text); border: 1px solid var(--border-strong); border-radius: 4px;
+}
+dialog::backdrop { background: rgba(0, 0, 0, 0.6); }
+dialog h2 { font-size: 1.4rem; margin-bottom: 0.75rem; }
+dialog p { color: var(--text-secondary); font-size: 0.95rem; }
+.check { display: flex; gap: 0.6rem; align-items: flex-start; margin-top: 1rem; font-size: 0.92rem; cursor: pointer; }
+.check input { margin-top: 0.3rem; width: 1rem; height: 1rem; accent-color: var(--accent); flex-shrink: 0; }
+
+.nojs { margin-top: 2rem; }
+
+footer { border-top: 1px solid var(--border); padding: 1.5rem 1.25rem; }
+.footer-inner { max-width: var(--w-content); margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem 1.5rem; font-size: 0.8rem; color: var(--text-muted); }
+.footer-inner a { color: var(--text-secondary); text-decoration: none; }
+.footer-inner a:hover { color: var(--accent-hover); }
+
+.fade-in { animation: fadeUp 0.35s ease both; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+@media (min-width: 769px) { main { padding: 5rem 2rem 5rem; } .card { padding: 2rem; } }
+@media (max-width: 420px) {
+  .opt-body { gap: 0.75rem; padding: 0.9rem; }
+  .your-call dl { grid-template-columns: 1fr; gap: 0.1rem; }
+  .your-call dd { margin-bottom: 0.5rem; }
+  .btn { width: 100%; }
+  .lib-item .btn { align-self: stretch; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+</style>
+<script>
+(function(){var t;try{t=localStorage.getItem('theme');}catch(e){}t=t||(window.matchMedia('(prefers-color-scheme:light)').matches?'light':'dark');document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="lab-strip">
+  <a href="/">← stefanfriend</a>
+  <span class="sep" aria-hidden="true">/</span>
+  <a href="/lab/">lab</a>
+  <span class="sep" aria-hidden="true">/</span>
+  <span class="current" aria-current="page">decision-gym</span>
+  <span class="tag">experiment</span>
+  <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light theme">
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+  </button>
+</div>
+
+<main id="main" tabindex="-1">
+  <header>
+    <p class="label">Lab · Decision tool</p>
+    <h1>Decision Gym</h1>
+    <p class="deck">Make the call before you know how it ends.</p>
+    <p class="lede">Short business cases that force a choice, a confidence level, and an honest downside. Then you see what happened and what your pattern says about you.</p>
+    <p class="fine">Every case is a fictional composite. Names, events, and figures are invented for practice and do not describe any real company.</p>
+    <div class="actions" id="heroActions" hidden>
+      <button type="button" class="btn btn-primary" id="startToday">Start today's case</button>
+      <button type="button" class="btn" id="browseAll">Browse all cases</button>
+      <button type="button" class="btn btn-quiet" id="nextIncompleteHero" hidden>Go to next incomplete case</button>
+    </div>
+  </header>
+
+  <noscript>
+    <p class="notice nojs">The interactive exercise requires JavaScript. Turn it on to choose, commit, and see the debrief.</p>
+  </noscript>
+
+  <p class="notice" id="storageNotice" hidden></p>
+
+  <nav class="views" id="viewNav" aria-label="Decision Gym views" hidden>
+    <button type="button" data-view="practice">Practice</button>
+    <button type="button" data-view="library">Case library</button>
+    <button type="button" data-view="profile">Your profile</button>
+  </nav>
+
+  <section id="view-practice" aria-labelledby="practiceHeading" hidden></section>
+  <section id="view-library" aria-labelledby="libraryHeading" hidden></section>
+  <section id="view-profile" aria-labelledby="profileHeading" hidden></section>
+</main>
+
+<dialog id="resetDialog" aria-labelledby="resetTitle" aria-describedby="resetDesc">
+  <h2 id="resetTitle">Reset all progress?</h2>
+  <p id="resetDesc">This removes every decision you have saved in this browser, along with your profile history. It cannot be undone. Nothing else on this site is affected.</p>
+  <label class="check"><input type="checkbox" id="resetConfirmCheck"> <span>I understand my local decisions and profile history will be removed.</span></label>
+  <div class="actions">
+    <button type="button" class="btn btn-primary" id="resetConfirm" aria-disabled="true" aria-describedby="resetConfirmHint">Erase my decisions</button>
+    <button type="button" class="btn btn-quiet" id="resetCancel">Cancel</button>
+  </div>
+  <p class="hint" id="resetConfirmHint">Tick the box above to enable erasing.</p>
+</dialog>
+
+<div class="sr-only" id="live" aria-live="polite" aria-atomic="true"></div>
+
+<footer>
+  <div class="footer-inner">
+    <a href="/lab/">← Back to the Lab</a>
+    <span>Fictional composite cases. Profile is a behavioral snapshot, not a scientific assessment.</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var KEY = 'decisiongym:v1:state';
+  var MIN_DOWNSIDE = 12;
+  var PROFILE_DISCLAIMER = 'A behavioral snapshot from these choices, not a scientific assessment.';
+  var CASE_DISCLAIMER = 'All cases are fictional composites. Names, events, and figures are invented for practice and do not describe any real company.';
+
+  var DIMS = [
+    { id: 'risk', name: 'Risk appetite', low: 'Protect downside', high: 'Take the bet',
+      lowObs: 'You tend to protect the downside before reaching for upside.',
+      highObs: 'You are willing to take a concentrated bet when the upside looks real.' },
+    { id: 'horizon', name: 'Time horizon', low: 'Near-term', high: 'Long-term',
+      lowObs: 'You prioritize near-term results and relationships over long-range positioning.',
+      highObs: 'You weight long-term position over near-term results.' },
+    { id: 'speed', name: 'Decision speed', low: 'Deliberate', high: 'Decisive',
+      lowObs: 'You prefer to work a decision through before moving.',
+      highObs: 'You favor moving quickly and accepting some rework later.' },
+    { id: 'evidence', name: 'Evidence orientation', low: 'Intuition', high: 'Evidence',
+      lowObs: 'You are comfortable acting on judgment when the data is thin.',
+      highObs: 'You look for a way to buy information before committing.' },
+    { id: 'customer', name: 'Customer orientation', low: 'Inside-out', high: 'Customer-first',
+      lowObs: 'You start from the company’s own constraints and economics.',
+      highObs: 'You start from what customers will experience.' },
+    { id: 'growth', name: 'Growth orientation', low: 'Efficiency', high: 'Growth',
+      lowObs: 'You favor efficiency and margin over expansion.',
+      highObs: 'You are willing to trade short-term efficiency for growth.' },
+    { id: 'optionality', name: 'Reversibility preference', low: 'Commit', high: 'Preserve options',
+      lowObs: 'You are comfortable closing doors in order to commit fully.',
+      highObs: 'You tend to preserve options before committing capital.' },
+    { id: 'lens', name: 'Operating lens', low: 'People', high: 'Process',
+      lowObs: 'You reach for people and relationships to solve operating problems.',
+      highObs: 'You reach for process and structure to solve operating problems.' },
+    { id: 'conviction', name: 'Conviction', low: 'Seek consensus', high: 'Independent call',
+      lowObs: 'You lean toward choices that keep stakeholders aligned.',
+      highObs: 'You are willing to make the call alone and hold your terms.' },
+    { id: 'systems', name: 'Systems thinking', low: 'First-order', high: 'Second-order',
+      lowObs: 'You focus on solving the immediate problem in front of you.',
+      highObs: 'You pay attention to what a choice sets in motion after the first effect.' }
+  ];
+
+  var CASES = [
+    {
+      id: 'price-increase', category: 'Pricing', title: 'The price increase',
+      setup: 'A five-year-old B2B workflow platform has 1,800 customers. Most are on a legacy $49 plan, support costs have doubled, and the roadmap increasingly serves larger accounts. New customers accept $99, but legacy customers are vocal and refer nearly a third of new business.',
+      stakes: 'Without more gross margin, the company must slow product investment within two quarters.',
+      constraints: ['The team can support one migration campaign.', 'Annual contracts cannot change until renewal.', 'The product has no clean usage-based billing yet.'],
+      question: 'How do you reset pricing without treating loyalty as a liability?',
+      options: [
+        { id: 'A', text: 'Grandfather every existing customer indefinitely and charge only new customers $99.',
+          reads: 'You protected the relationships that built the business. That keeps referrals flowing and avoids a hard conversation, but the margin problem now has to be solved entirely by new customers, and the gap between legacy and new pricing keeps widening.',
+          deltas: { risk: -1, horizon: -1, customer: 1, growth: -1, lens: -1 } },
+        { id: 'B', text: 'Move every customer to $99 at the next renewal with 30 days’ notice.',
+          reads: 'You chose a clean, fast fix to the margin problem. It is simple to explain and simple to operate. The cost is that your most loyal customers absorb a doubling at once, which puts the referral engine at risk when you need it most.',
+          deltas: { risk: 1, speed: 2, growth: 1, customer: -1, optionality: -1, conviction: 1 } },
+        { id: 'C', text: 'Introduce $69 and $99 tiers, map customers by value received, and give legacy customers a 90-day migration window plus an annual-plan credit.',
+          reads: 'You chose more work up front so price follows the value each customer actually gets. It asks a lot of a stretched team and some customers will still leave, but it turns a price increase into a packaging decision.',
+          deltas: { speed: -1, horizon: 1, evidence: 1, customer: 1, lens: 1, systems: 1 } }
+      ],
+      actual: 'C',
+      outcome: 'The tiered migration created more work up front and some low-usage customers left, but most customers self-selected cleanly. Revenue per account rose without making the longest-tenured customers absorb the full jump at once.',
+      secondOrder: 'Packaging forced the team to define which product capabilities actually created value, which sharpened both sales and the roadmap.',
+      principle: 'A price change is also a product-positioning decision.'
+    },
+    {
+      id: 'second-location', category: 'Expansion', title: 'The second location',
+      setup: 'A profitable neighborhood concept has one location near capacity on weekends. A broker offers a larger second site in a fast-growing district. The lease is attractive only if signed this month, but weekday demand in the new area is unproven.',
+      stakes: 'The full build would consume most of the company’s available cash and occupy the founder for six months.',
+      constraints: ['The landlord will not offer a short lease.', 'A temporary venue nearby is available for eight weekends.', 'The current location still has operational bottlenecks.'],
+      question: 'Do you take the site, test the market, or stay focused?',
+      options: [
+        { id: 'A', text: 'Sign the lease now and move quickly while the site is available.',
+          reads: 'You backed momentum and the scarcity of a good site. If weekday demand shows up, you are ahead of anyone who waited. If it does not, most of the company’s cash and the founder’s attention are tied to a long lease.',
+          deltas: { risk: 2, speed: 2, growth: 1, evidence: -1, optionality: -2 } },
+        { id: 'B', text: 'Run an eight-weekend pop-up nearby, collect customer data, and accept that the original site may disappear.',
+          reads: 'You chose to buy evidence before buying a lease. It costs eight weekends of effort and possibly the site itself, but you learn what customers in that district actually want, not just whether they show up.',
+          deltas: { speed: -1, evidence: 2, customer: 1, optionality: 1, systems: 1 } },
+        { id: 'C', text: 'Pass and spend the next six months removing constraints at the current location.',
+          reads: 'You chose depth over breadth. Fixing the bottlenecks you already have is low-risk and compounds, but it gives up a time-bound opportunity and assumes a comparable site will exist when you are ready.',
+          deltas: { risk: -1, growth: -2, lens: 1 } }
+      ],
+      actual: 'B',
+      outcome: 'The pop-up sold out event nights but weekday traffic was weak. The company passed on the large lease and later opened a smaller event-led format with lower fixed costs.',
+      secondOrder: 'The pilot revealed that customers wanted a different format in the second district, not a copy of the original.',
+      principle: 'Test the demand shape, not merely whether demand exists.'
+    },
+    {
+      id: 'viral-channel', category: 'Marketing', title: 'The viral channel',
+      setup: 'A consumer brand gets 38% of monthly sales from one creator whose videos repeatedly go viral. The creator offers a year of category exclusivity in exchange for a large guaranteed fee and control over campaign timing.',
+      stakes: 'Signing could accelerate growth. It could also make one external partner the brand’s distribution strategy.',
+      constraints: ['The guarantee equals four months of the current marketing budget.', 'Other channels are profitable but small.', 'The creator will not accept a short trial.'],
+      question: 'Do you lock in the winner or reduce concentration?',
+      options: [
+        { id: 'A', text: 'Accept the guarantee and exclusivity while the channel is hot.',
+          reads: 'You chose to press the advantage while it exists. Guaranteed access to a proven channel can compound fast. The tradeoff is that timing, message, and much of your growth now depend on one partner for a year.',
+          deltas: { speed: 1, growth: 2, optionality: -2, systems: -1 } },
+        { id: 'B', text: 'Decline exclusivity and move half the proposed budget into ten smaller creators plus email retention.',
+          reads: 'You chose to turn one hit into a repeatable system. Growth likely dips while smaller channels ramp, and you give up the proven partner’s full attention, in exchange for not depending on any single person.',
+          deltas: { horizon: 1, optionality: 1, lens: 1, systems: 2 } },
+        { id: 'C', text: 'Offer a higher performance commission but no guarantee or exclusivity, knowing the creator may walk.',
+          reads: 'You held the line on terms and kept the relationship tied to results. That protects cash and flexibility, and accepts a real chance the creator walks and takes a third of your sales momentum with them.',
+          deltas: { risk: -1, evidence: 1, growth: -1, conviction: 2 } }
+      ],
+      actual: 'B',
+      outcome: 'Growth slowed for two months, then recovered as three smaller creators became reliable acquisition channels and repeat purchase improved. No single partner again represented more than 15% of sales.',
+      secondOrder: 'The brand learned how to produce repeatable creative briefs instead of depending on one person’s instincts.',
+      principle: 'A winning channel is not yet a durable system.'
+    },
+    {
+      id: 'inventory-bet', category: 'Inventory', title: 'The inventory bet',
+      setup: 'A specialty retailer can buy a scarce launch allocation that customers are asking for. Taking the full allocation would tie up 60% of available cash. Comparable launches have ranged from instant sellouts to heavy discounting.',
+      stakes: 'Underbuying leaves demand and customer trust on the table; overbuying could freeze purchasing power for the rest of the season.',
+      constraints: ['The supplier requires a decision in 48 hours.', 'Returns are not allowed.', 'The retailer has an engaged customer list but limited historical data for this category.'],
+      question: 'How much demand risk should the retailer own?',
+      options: [
+        { id: 'A', text: 'Take the full allocation and maximize upside.',
+          reads: 'You chose to own the upside. If the launch sells out, you capture margin and customer trust that more cautious buyers leave behind. If it stalls, more than half the company’s cash sits on a shelf you cannot return.',
+          deltas: { risk: 2, speed: 1, evidence: -1, growth: 1, optionality: -2 } },
+        { id: 'B', text: 'Open refundable reservations for 24 hours, buy reserved demand plus a 20% buffer, and accept a smaller margin.',
+          reads: 'You chose to let customers tell you how much to buy. You give up some margin and some upside, and in return the risk you carry is sized to demand you can actually see.',
+          deltas: { evidence: 2, customer: 1, optionality: 1, systems: 1 } },
+        { id: 'C', text: 'Skip the launch and protect cash for proven inventory.',
+          reads: 'You chose to protect the season over a single launch. Cash stays available for proven inventory, at the cost of disappointing customers who asked for it and learning little about this category.',
+          deltas: { risk: -2, customer: -1, growth: -1 } }
+      ],
+      actual: 'B',
+      outcome: 'Reservations filled quickly but slowed before reaching the full allocation. The buffer sold through over three weeks, producing less upside than a perfect forecast but avoiding a large stale position.',
+      secondOrder: 'The reservation list became a reusable signal for future buys and segmented the retailer’s highest-intent customers.',
+      principle: 'When the forecast is weak, buy information before buying inventory.'
+    },
+    {
+      id: 'services-trap', category: 'Business model', title: 'The services trap',
+      setup: 'A small consultancy is booked solid, but nearly every engagement is custom. Clients buy the founder’s judgment, delivery quality varies by team, and proposals take days to create. Demand is not the problem; founder throughput is.',
+      stakes: 'More custom work raises revenue now but deepens the bottleneck.',
+      constraints: ['The firm can afford one senior hire.', 'Past attempts at templates felt generic to clients.', 'One recurring diagnostic appears in most successful engagements.'],
+      question: 'What do you standardize first?',
+      options: [
+        { id: 'A', text: 'Hire a senior operator to absorb custom delivery while the founder keeps selling.',
+          reads: 'You solved the bottleneck with a person. A strong senior operator can absorb delivery quickly, but the work stays custom, so the constraint may move one seat over rather than disappear.',
+          deltas: { speed: 1, growth: 1, lens: -2, systems: -1 } },
+        { id: 'B', text: 'Turn the recurring diagnostic into a fixed-scope paid audit with a standard output and use it as the entry point for custom work.',
+          reads: 'You chose to standardize the part of the work that already repeats. Some prospects will want the full custom engagement up front, but a fixed entry point makes delivery consistent and frees the founder from every first meeting.',
+          deltas: { horizon: 1, customer: 1, lens: 2, systems: 1 } },
+        { id: 'C', text: 'Raise all prices 30% and keep the model otherwise unchanged.',
+          reads: 'You used price to manage demand. It raises revenue per hour immediately and filters for clients who value the work most, but the founder remains the bottleneck, now at a higher rate.',
+          deltas: { speed: 2, customer: -1, growth: -1, conviction: 1, systems: -1 } }
+      ],
+      actual: 'B',
+      outcome: 'Some prospects rejected the narrower entry offer, but sales cycles shortened and the team delivered a consistent first win without the founder in every meeting. Custom implementation remained available after the audit.',
+      secondOrder: 'Repeated audit findings created the firm’s first reusable intellectual property and made hiring easier.',
+      principle: 'Productize the decision point before trying to productize the whole service.'
+    },
+    {
+      id: 'runway', category: 'Runway', title: 'The 11-month runway',
+      setup: 'A software company is growing 8% month over month with 11 months of cash remaining. A new enterprise segment is promising but early. Investors will fund another round only if the company keeps its current growth plan. A strategic buyer has also made an acquisition offer that is respectable, not transformative.',
+      stakes: 'Every path closes another path: raising adds pressure, selling ends the independent bet, and cutting may damage momentum.',
+      constraints: ['The founders are aligned on the mission but not on risk.', 'Enterprise sales cycles are six to nine months.', 'A 25% cost reduction would reach near break-even but slow consumer growth.'],
+      question: 'Which option buys the best future?',
+      options: [
+        { id: 'A', text: 'Raise now and keep investing for growth.',
+          reads: 'You chose to keep the growth story intact and fund it. If the plan holds, you have capital and momentum. It also ties the company to the growth rate investors expect and leaves the enterprise bet competing for attention against that plan.',
+          deltas: { risk: 2, growth: 2, optionality: -1 } },
+        { id: 'B', text: 'Accept the acquisition offer and lock in the current value.',
+          reads: 'You chose certainty. Locking in value now protects the team and investors from the downside, and it closes the question of whether the enterprise segment would have changed the company’s outcome.',
+          deltas: { risk: -2, horizon: -1, speed: 1, optionality: -2 } },
+        { id: 'C', text: 'Cut to near break-even, protect the enterprise team, and use six months to test whether that segment converts.',
+          reads: 'You chose to trade growth for time. Consumer momentum suffers and the team feels the cut, but the company stops living against a fundraising deadline and gets a real test of the enterprise thesis.',
+          deltas: { horizon: 2, evidence: 1, growth: -1, optionality: 1, conviction: 1 } }
+      ],
+      actual: 'C',
+      outcome: 'Consumer growth slowed sharply, but runway extended beyond two years. Two enterprise contracts closed inside six months, giving the company stronger evidence and better financing options.',
+      secondOrder: 'The cut clarified which work drove durable revenue and reduced the founders’ dependence on a fundraising deadline.',
+      principle: 'Runway is strategic optionality, not just time until zero.'
+    }
+  ];
+
+  // ---------- Helpers ----------
+  function h(tag, attrs) {
+    var el = document.createElement(tag);
+    if (attrs) {
+      Object.keys(attrs).forEach(function (k) {
+        var v = attrs[k];
+        if (v === null || v === undefined || v === false) return;
+        if (k === 'class') el.className = v;
+        else if (k === 'text') el.textContent = v;
+        else if (k.indexOf('on') === 0) el.addEventListener(k.slice(2), v);
+        else if (v === true) el.setAttribute(k, '');
+        else el.setAttribute(k, String(v));
+      });
+    }
+    for (var i = 2; i < arguments.length; i++) add(el, arguments[i]);
+    return el;
+  }
+  function add(el, c) {
+    if (c === null || c === undefined || c === false) return;
+    if (Array.isArray(c)) { c.forEach(function (x) { add(el, x); }); return; }
+    if (typeof c === 'string' || typeof c === 'number') { el.appendChild(document.createTextNode(String(c))); return; }
+    el.appendChild(c);
+  }
+  function $(id) { return document.getElementById(id); }
+  function caseById(id) { for (var i = 0; i < CASES.length; i++) if (CASES[i].id === id) return CASES[i]; return null; }
+  function optionById(c, id) { for (var i = 0; i < c.options.length; i++) if (c.options[i].id === id) return c.options[i]; return null; }
+  function caseIndex(c) { return CASES.indexOf(c); }
+  function charCount(s) { return String(s || '').replace(/\s/g, '').length; }
+  function fmtDate(iso) {
+    var d = new Date(iso);
+    if (isNaN(d.getTime())) return iso;
+    return d.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+  }
+  function prefersReducedMotion() {
+    return window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  }
+
+  var liveTimer = null;
+  function announce(msg) {
+    var live = $('live');
+    live.textContent = '';
+    clearTimeout(liveTimer);
+    liveTimer = setTimeout(function () { live.textContent = msg; }, 60);
+  }
+
+  // ---------- State and persistence ----------
+  var persist = true;
+  var storageCorrupt = false;
+  var storageMessage = '';
+
+  function emptyState() { return { version: 1, responses: {} }; }
+
+  function sanitize(parsed) {
+    if (!parsed || typeof parsed !== 'object' || parsed.version !== 1 || !parsed.responses || typeof parsed.responses !== 'object') {
+      throw new Error('Unrecognized state');
+    }
+    var clean = emptyState();
+    CASES.forEach(function (c) {
+      var r = parsed.responses[c.id];
+      if (!r || typeof r !== 'object') return;
+      var conf = Number(r.confidence);
+      if (!optionById(c, r.choiceId)) return;
+      if (!(conf >= 50 && conf <= 100)) return;
+      if (typeof r.downside !== 'string') return;
+      if (typeof r.decidedAt !== 'string' || isNaN(new Date(r.decidedAt).getTime())) return;
+      clean.responses[c.id] = { choiceId: r.choiceId, confidence: Math.round(conf), downside: r.downside, decidedAt: r.decidedAt };
+    });
+    return clean;
+  }
+
+  function loadState() {
+    var raw;
+    try {
+      raw = window.localStorage.getItem(KEY);
+    } catch (e) {
+      persist = false;
+      storageMessage = 'This browser is blocking local storage, so your decisions will not persist after you leave this page.';
+      return emptyState();
+    }
+    if (raw === null) return emptyState();
+    try {
+      return sanitize(JSON.parse(raw));
+    } catch (e) {
+      persist = false;
+      storageCorrupt = true;
+      storageMessage = 'Saved progress could not be read, so this session starts fresh and will not persist. Resetting all progress from your profile clears the unreadable record.';
+      return emptyState();
+    }
+  }
+
+  function saveState() {
+    if (!persist) return false;
+    try {
+      window.localStorage.setItem(KEY, JSON.stringify(state));
+      return true;
+    } catch (e) {
+      persist = false;
+      storageMessage = 'This browser would not save your decision, so progress will not persist after you leave this page.';
+      renderNotice();
+      return false;
+    }
+  }
+
+  var state = loadState();
+  var drafts = {};
+
+  function isDone(c) { return !!state.responses[c.id]; }
+  function completedCount() { return CASES.filter(isDone).length; }
+
+  function todayCase() {
+    var d = new Date();
+    var dayNumber = Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86400000);
+    return CASES[dayNumber % CASES.length];
+  }
+
+  function nextIncomplete(from) {
+    var start = from ? caseIndex(from) : -1;
+    for (var i = 1; i <= CASES.length; i++) {
+      var c = CASES[(start + i + CASES.length) % CASES.length];
+      if (!isDone(c)) return c;
+    }
+    return null;
+  }
+
+  // ---------- Profile math ----------
+  function computeProfile() {
+    var done = CASES.filter(isDone);
+    var n = done.length;
+    if (!n) return null;
+    var sums = {};
+    DIMS.forEach(function (d) { sums[d.id] = 0; });
+    done.forEach(function (c) {
+      var opt = optionById(c, state.responses[c.id].choiceId);
+      DIMS.forEach(function (d) { sums[d.id] += (opt.deltas[d.id] || 0); });
+    });
+    return DIMS.map(function (d) {
+      var score = Math.round(50 + (sums[d.id] / (n * 2)) * 50);
+      score = Math.max(0, Math.min(100, score));
+      return { dim: d, score: score, sum: sums[d.id] };
+    });
+  }
+
+  function observations(profile) {
+    return profile
+      .map(function (p, i) { return { p: p, i: i, dist: Math.abs(p.score - 50) }; })
+      .filter(function (x) { return x.dist > 0; })
+      .sort(function (a, b) { return b.dist - a.dist || a.i - b.i; })
+      .slice(0, 3)
+      .map(function (x) { return x.p.score > 50 ? x.p.dim.highObs : x.p.dim.lowObs; });
+  }
+
+  // ---------- Views ----------
+  var currentView = 'practice';
+  var currentCaseId = todayCase().id;
+
+  function showView(view, opts) {
+    opts = opts || {};
+    currentView = view;
+    ['practice', 'library', 'profile'].forEach(function (v) {
+      $('view-' + v).hidden = v !== view;
+    });
+    Array.prototype.forEach.call($('viewNav').querySelectorAll('button'), function (b) {
+      if (b.getAttribute('data-view') === view) b.setAttribute('aria-current', 'page');
+      else b.removeAttribute('aria-current');
+    });
+    render();
+    if (opts.focus !== false) {
+      var target = opts.focusId ? $(opts.focusId) : $('view-' + view).querySelector('h2');
+      if (target) {
+        target.focus({ preventScroll: true });
+        target.scrollIntoView({ behavior: prefersReducedMotion() ? 'auto' : 'smooth', block: 'start' });
+      }
+    }
+    if (opts.announce !== false) {
+      var names = { practice: 'Practice', library: 'Case library', profile: 'Your profile' };
+      announce(opts.message || ('Showing ' + names[view] + '.'));
+    }
+  }
+
+  function openCase(c, opts) {
+    currentCaseId = c.id;
+    opts = opts || {};
+    showView('practice', { message: (isDone(c) ? 'Reviewing ' : 'Opened ') + 'case: ' + c.title + '.', focus: opts.focus });
+  }
+
+  function render() {
+    renderHero();
+    renderNotice();
+    if (currentView === 'practice') renderPractice();
+    else if (currentView === 'library') renderLibrary();
+    else renderProfile();
+  }
+
+  function renderHero() {
+    var t = todayCase();
+    $('startToday').textContent = isDone(t) ? 'Review today’s case' : 'Start today’s case';
+    var next = nextIncomplete(t);
+    $('nextIncompleteHero').hidden = !(isDone(t) && next);
+  }
+
+  function renderNotice() {
+    var n = $('storageNotice');
+    n.textContent = storageMessage;
+    n.hidden = !storageMessage;
+  }
+
+  function caseMeta(c) {
+    var isToday = todayCase().id === c.id;
+    return h('p', { class: 'meta' },
+      h('span', { class: 'cat', text: c.category }),
+      h('span', { text: '5 min' }),
+      h('span', { text: 'Case ' + (caseIndex(c) + 1) + ' of ' + CASES.length }),
+      h('span', { text: completedCount() + ' of ' + CASES.length + ' completed' }),
+      isToday ? h('span', { class: 'badge', text: 'Today' }) : null
+    );
+  }
+
+  function caseBrief(c) {
+    return [
+      h('h2', { id: 'practiceHeading', tabindex: '-1', text: c.title }),
+      h('p', { class: 'setup', text: c.setup }),
+      h('div', { class: 'block' }, h('h3', { text: 'Stakes' }), h('p', { text: c.stakes })),
+      h('div', { class: 'block' }, h('h3', { text: 'Constraints' }),
+        h('ul', null, c.constraints.map(function (x) { return h('li', { text: x }); })))
+    ];
+  }
+
+  function renderPractice() {
+    var root = $('view-practice');
+    var c = caseById(currentCaseId);
+    root.replaceChildren();
+    root.appendChild(h('div', { class: 'case-top' },
+      h('p', { class: 'label', style: 'margin:0', text: todayCase().id === c.id ? 'Today’s case' : 'Practice' }),
+      h('button', { type: 'button', class: 'link-btn', onclick: function () { showView('library'); } }, 'Choose another case')
+    ));
+    root.appendChild(caseMeta(c));
+    add(root, caseBrief(c));
+    if (isDone(c)) root.appendChild(renderDebrief(c));
+    else root.appendChild(renderForm(c));
+  }
+
+  function renderForm(c) {
+    var draft = drafts[c.id] || (drafts[c.id] = { choiceId: null, confidence: 70, downside: '' });
+    var name = 'choice-' + c.id;
+
+    var reqChoice = h('li', null, h('span', { class: 'mark', 'aria-hidden': 'true' }), h('span', { class: 'req-text' }));
+    var reqDown = h('li', null, h('span', { class: 'mark', 'aria-hidden': 'true' }), h('span', { class: 'req-text' }));
+    var commit = h('button', { type: 'submit', class: 'btn btn-primary', id: 'commitBtn', 'aria-describedby': 'commitReqs' }, 'Commit my decision');
+    var counter = h('p', { class: 'hint', id: 'downsideHint' });
+
+    function update() {
+      var hasChoice = !!draft.choiceId;
+      var count = charCount(draft.downside);
+      var hasDown = count >= MIN_DOWNSIDE;
+      reqChoice.className = hasChoice ? 'done' : '';
+      reqChoice.firstChild.textContent = hasChoice ? '✓' : '○';
+      reqChoice.lastChild.textContent = hasChoice ? 'Option ' + draft.choiceId + ' selected.' : 'Choose option A, B, or C.';
+      reqDown.className = hasDown ? 'done' : '';
+      reqDown.firstChild.textContent = hasDown ? '✓' : '○';
+      reqDown.lastChild.textContent = hasDown ? 'Downside written.' : 'Write the downside: ' + (MIN_DOWNSIDE - count) + ' more character' + (MIN_DOWNSIDE - count === 1 ? '' : 's') + ' needed.';
+      counter.textContent = 'At least ' + MIN_DOWNSIDE + ' characters, not counting spaces. ' + count + ' so far.';
+      commit.setAttribute('aria-disabled', hasChoice && hasDown ? 'false' : 'true');
+    }
+
+    var options = c.options.map(function (o) {
+      var input = h('input', { type: 'radio', name: name, value: o.id, id: name + '-' + o.id, checked: draft.choiceId === o.id,
+        onchange: function () { draft.choiceId = o.id; update(); } });
+      return h('label', { class: 'opt', for: name + '-' + o.id },
+        input,
+        h('span', { class: 'opt-body' },
+          h('span', { class: 'opt-letter', 'aria-hidden': 'true', text: o.id }),
+          h('span', null,
+            h('span', { class: 'sr-only', text: 'Option ' + o.id + ': ' }),
+            h('span', { class: 'opt-text', text: o.text }),
+            h('span', { class: 'opt-check', 'aria-hidden': 'true', text: 'Your choice' })
+          )
+        )
+      );
+    });
+
+    var out = h('output', { class: 'conf', id: 'confOut', for: 'confidence', text: draft.confidence + '%' });
+    var range = h('input', { type: 'range', id: 'confidence', min: '50', max: '100', step: '5', value: String(draft.confidence),
+      'aria-valuetext': draft.confidence + '%',
+      oninput: function () {
+        draft.confidence = Number(range.value);
+        out.textContent = draft.confidence + '%';
+        range.setAttribute('aria-valuetext', draft.confidence + '%');
+      } });
+
+    var ta = h('textarea', { id: 'downside', rows: '4', required: true, 'aria-describedby': 'downsideHint',
+      oninput: function () { draft.downside = ta.value; update(); } });
+    ta.value = draft.downside;
+
+    var form = h('form', { novalidate: true, 'aria-label': 'Your decision for ' + c.title,
+      onsubmit: function (e) {
+        e.preventDefault();
+        if (!draft.choiceId) {
+          announce('Choose option A, B, or C before committing.');
+          form.querySelector('input[type=radio]').focus();
+          return;
+        }
+        if (charCount(draft.downside) < MIN_DOWNSIDE) {
+          announce('Describe the most likely downside in at least ' + MIN_DOWNSIDE + ' characters before committing.');
+          ta.focus();
+          return;
+        }
+        commitDecision(c, draft);
+      } },
+      h('fieldset', null,
+        h('legend', null, h('span', { class: 'legend-label', text: 'The decision' }), c.question),
+        options
+      ),
+      h('div', { class: 'field' },
+        h('label', { class: 'field-label', for: 'confidence', text: 'How confident are you in this call?' }),
+        h('div', { class: 'range-row' }, range, out),
+        h('div', { class: 'range-ends', 'aria-hidden': 'true' }, h('span', { text: '50% coin flip' }), h('span', { text: '100% certain' }))
+      ),
+      h('div', { class: 'field' },
+        h('label', { class: 'field-label', for: 'downside', text: 'What is the most likely downside of your choice?' }),
+        ta, counter
+      ),
+      h('ul', { class: 'reqs', id: 'commitReqs', 'aria-label': 'Before you commit' }, reqChoice, reqDown),
+      h('div', { class: 'actions' }, commit)
+    );
+    update();
+    return form;
+  }
+
+  function commitDecision(c, draft) {
+    if (isDone(c)) return; // completed cases are immutable
+    state.responses[c.id] = {
+      choiceId: draft.choiceId,
+      confidence: draft.confidence,
+      downside: draft.downside.trim(),
+      decidedAt: new Date().toISOString()
+    };
+    var saved = saveState();
+    delete drafts[c.id];
+    render();
+    var heading = $('debriefHeading');
+    if (heading) {
+      heading.focus({ preventScroll: true });
+      heading.scrollIntoView({ behavior: prefersReducedMotion() ? 'auto' : 'smooth', block: 'start' });
+    }
+    announce(saved ? 'Decision saved. The debrief is below.' : 'Decision recorded for this session only. The debrief is below.');
+  }
+
+  function renderDebrief(c) {
+    var r = state.responses[c.id];
+    var chosen = optionById(c, r.choiceId);
+    var actual = optionById(c, c.actual);
+    var next = nextIncomplete(c) || CASES[(caseIndex(c) + 1) % CASES.length];
+
+    var wrap = h('div', { class: 'fade-in' });
+    wrap.appendChild(h('div', { class: 'block' },
+      h('p', { class: 'fine', text: 'You committed this decision on ' + fmtDate(r.decidedAt) + '. Completed cases stay as you decided them; resetting all progress from your profile is the only way to retake one.' })));
+
+    wrap.appendChild(h('div', { class: 'card your-call' },
+      h('h3', { id: 'debriefHeading', tabindex: '-1', text: 'Your call' }),
+      h('dl', null,
+        h('dt', { text: 'Choice' }), h('dd', { text: chosen.id + ' — ' + chosen.text }),
+        h('dt', { text: 'Confidence' }), h('dd', { text: r.confidence + '%' }),
+        h('dt', { text: 'Downside you named' }), h('dd', { text: r.downside })
+      )
+    ));
+
+    wrap.appendChild(h('div', { class: 'card' },
+      h('div', { class: 'debrief-section' }, h('h3', { text: 'What happened' }), h('p', { text: c.outcome })),
+      h('div', { class: 'debrief-section' }, h('h3', { text: 'The actual call' }),
+        h('p', { text: actual.id + ' — ' + actual.text }),
+        h('p', { class: 'match', text: chosen.id === actual.id
+          ? 'You made the same call as the case. That is one outcome, not proof the other paths would have failed.'
+          : 'You chose differently. The case shows one path that played out, not the only defensible one.' })),
+      h('div', { class: 'debrief-section' }, h('h3', { text: 'How your choice reads' }), h('p', { text: chosen.reads })),
+      h('div', { class: 'debrief-section' }, h('h3', { text: 'Second-order effect' }), h('p', { text: c.secondOrder })),
+      h('div', { class: 'debrief-section' }, h('h3', { text: 'Principle to keep' }), h('p', { class: 'principle', text: c.principle }))
+    ));
+
+    wrap.appendChild(h('div', { class: 'actions' },
+      h('button', { type: 'button', class: 'btn btn-primary', onclick: function () { openCase(next); } }, 'Next case'),
+      h('button', { type: 'button', class: 'btn', onclick: function () { showView('profile'); } }, 'View my profile'),
+      h('button', { type: 'button', class: 'btn btn-quiet', onclick: function () { showView('library'); } }, 'Back to all cases')
+    ));
+    return wrap;
+  }
+
+  function renderLibrary() {
+    var root = $('view-library');
+    var today = todayCase();
+    root.replaceChildren(
+      h('h2', { id: 'libraryHeading', tabindex: '-1', text: 'Case library' }),
+      h('p', { class: 'stat', text: completedCount() + ' of ' + CASES.length + ' cases completed. Take them in any order.' }),
+      h('ul', { class: 'lib' }, CASES.map(function (c) {
+        var r = state.responses[c.id];
+        var status = r
+          ? 'Completed. You chose ' + r.choiceId + ' at ' + r.confidence + '% confidence.'
+          : 'Not started.';
+        return h('li', { class: 'card lib-item' },
+          h('p', { class: 'meta' },
+            h('span', { class: 'cat', text: c.category }), h('span', { text: '5 min' }),
+            c.id === today.id ? h('span', { class: 'badge', text: 'Today' }) : null),
+          h('h3', { class: 'title', text: c.title }),
+          h('p', { class: 'lib-status' }, h('span', { 'aria-hidden': 'true', text: r ? '✓ ' : '○ ' }), status),
+          h('button', { type: 'button', class: r ? 'btn btn-quiet' : 'btn', 'aria-label': (r ? 'Review ' : 'Start ') + c.title,
+            onclick: function () { openCase(c); } }, r ? 'Review case' : 'Start case')
+        );
+      }))
+    );
+  }
+
+  function renderProfile() {
+    var root = $('view-profile');
+    var profile = computeProfile();
+    root.replaceChildren(h('h2', { id: 'profileHeading', tabindex: '-1', text: 'Your profile' }));
+
+    if (!profile) {
+      root.appendChild(h('div', { class: 'card' },
+        h('p', { text: 'No decisions yet. Your profile builds from the calls you commit, so there is nothing to show until you finish a case.' }),
+        h('div', { class: 'actions' },
+          h('button', { type: 'button', class: 'btn btn-primary', onclick: function () { openCase(todayCase()); } }, 'Start today’s case'))
+      ));
+      if (storageCorrupt) root.appendChild(resetBlock());
+      return;
+    }
+
+    var n = completedCount();
+    root.appendChild(h('p', { class: 'stat', text: n + ' of ' + CASES.length + ' cases completed.' }));
+    root.appendChild(h('p', { class: 'fine', text: PROFILE_DISCLAIMER }));
+
+    root.appendChild(h('div', { class: 'card' },
+      h('h3', { text: 'Ten dimensions' }),
+      h('ul', { class: 'dims' }, profile.map(function (p) {
+        var label = p.dim.name + ': ' + p.score + ' out of 100, between ' + p.dim.low + ' (0) and ' + p.dim.high + ' (100).';
+        return h('li', { class: 'dim' },
+          h('div', { class: 'dim-head' }, h('span', { class: 'dim-name', text: p.dim.name }), h('span', { class: 'dim-score', 'aria-hidden': 'true', text: String(p.score) })),
+          h('div', { class: 'bar', role: 'img', 'aria-label': label },
+            h('span', { class: 'bar-fill', style: 'left:' + Math.min(50, p.score) + '%;width:' + Math.abs(p.score - 50) + '%' }),
+            h('span', { class: 'bar-marker', style: 'left:' + p.score + '%' })),
+          h('div', { class: 'poles', 'aria-hidden': 'true' }, h('span', { text: p.dim.low }), h('span', { text: p.dim.high }))
+        );
+      }))
+    ));
+
+    var obs = observations(profile);
+    root.appendChild(h('div', { class: 'card' },
+      h('h3', { text: 'What stands out' }),
+      obs.length
+        ? h('ul', { class: 'obs' }, obs.map(function (o) { return h('li', { text: o }); }))
+        : h('p', { class: 'stat', text: 'Your choices so far balance out across every dimension.' }),
+      n < 3 ? h('p', { class: 'hint', text: 'With only ' + n + ' case' + (n === 1 ? '' : 's') + ' done, these readings swing widely. More cases make the pattern steadier.' }) : null
+    ));
+
+    var done = CASES.filter(isDone).slice().sort(function (a, b) {
+      return state.responses[b.id].decidedAt.localeCompare(state.responses[a.id].decidedAt);
+    });
+    root.appendChild(h('div', { class: 'card' },
+      h('h3', { text: 'Decision history' }),
+      h('ul', { class: 'history' }, done.map(function (c) {
+        var r = state.responses[c.id];
+        return h('li', null,
+          h('p', { class: 'h-title', text: c.title }),
+          h('p', { class: 'h-meta', text: 'Chose ' + r.choiceId + ' · ' + r.confidence + '% confident · ' + fmtDate(r.decidedAt) + ' · case went with ' + c.actual }),
+          h('button', { type: 'button', class: 'link-btn', 'aria-label': 'Review ' + c.title, onclick: function () { openCase(c); } }, 'Review')
+        );
+      }))
+    ));
+
+    root.appendChild(h('div', { class: 'actions' },
+      h('button', { type: 'button', class: 'btn btn-primary', onclick: exportLog }, 'Download my decision log')
+    ));
+    root.appendChild(resetBlock());
+  }
+
+  function resetBlock() {
+    return h('div', { class: 'block' },
+      h('p', { class: 'hint', text: 'Everything here lives only in this browser. Nothing is sent anywhere.' }),
+      h('div', { class: 'actions' },
+        h('button', { type: 'button', class: 'btn btn-danger', id: 'resetOpen', onclick: openReset }, 'Reset all progress')));
+  }
+
+  // ---------- Export ----------
+  function mdEscape(s) {
+    return String(s).replace(/\r\n?/g, '\n').replace(/([\\`*_{}\[\]<>#|~])/g, '\\$1');
+  }
+  function mdQuote(s) {
+    return mdEscape(s).split('\n').map(function (line) {
+      line = line.replace(/^(\s*)([-+])/, '$1\\$2').replace(/^(\s*\d+)\./, '$1\\.');
+      return line.trim() ? '> ' + line : '>';
+    }).join('\n');
+  }
+
+  function buildMarkdown() {
+    var profile = computeProfile();
+    var now = new Date();
+    var lines = [];
+    lines.push('# Decision Gym: decision log', '');
+    lines.push('- Exported: ' + now.toISOString().slice(0, 10));
+    lines.push('- Completed cases: ' + completedCount() + ' of ' + CASES.length, '');
+    lines.push('_' + CASE_DISCLAIMER + '_', '');
+    lines.push('## Profile', '');
+    lines.push('_' + PROFILE_DISCLAIMER + '_', '');
+    lines.push('| Dimension | Score (0–100) | 0 = | 100 = |', '| --- | ---: | --- | --- |');
+    (profile || []).forEach(function (p) {
+      lines.push('| ' + p.dim.name + ' | ' + p.score + ' | ' + p.dim.low + ' | ' + p.dim.high + ' |');
+    });
+    lines.push('');
+    var obs = profile ? observations(profile) : [];
+    if (obs.length) {
+      lines.push('What stands out:', '');
+      obs.forEach(function (o) { lines.push('- ' + o); });
+      lines.push('');
+    }
+    lines.push('## Decisions', '');
+    CASES.filter(isDone).forEach(function (c) {
+      var r = state.responses[c.id];
+      var o = optionById(c, r.choiceId);
+      var a = optionById(c, c.actual);
+      lines.push('### ' + c.title + ' (' + c.category + ')', '');
+      lines.push('- Decided: ' + r.decidedAt.slice(0, 10));
+      lines.push('- Your choice: ' + o.id + ' — ' + o.text);
+      lines.push('- Confidence: ' + r.confidence + '%');
+      lines.push('- Actual call: ' + a.id + ' — ' + a.text, '');
+      lines.push('Downside you named:', '', mdQuote(r.downside), '');
+      lines.push('What happened: ' + c.outcome, '');
+      lines.push('Principle: **' + c.principle + '**', '');
+    });
+    lines.push('---', '', '_' + CASE_DISCLAIMER + ' ' + PROFILE_DISCLAIMER + '_', '');
+    return lines.join('\n');
+  }
+
+  function exportLog() {
+    var md = buildMarkdown();
+    var blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
+    var url = URL.createObjectURL(blob);
+    var a = h('a', { href: url, download: 'decision-gym-log-' + new Date().toISOString().slice(0, 10) + '.md', hidden: true });
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+    announce('Decision log downloaded as a Markdown file.');
+  }
+
+  // ---------- Reset ----------
+  var dlg = $('resetDialog');
+  var check = $('resetConfirmCheck');
+  var confirmBtn = $('resetConfirm');
+
+  function syncResetConfirm() {
+    confirmBtn.setAttribute('aria-disabled', check.checked ? 'false' : 'true');
+    $('resetConfirmHint').textContent = check.checked ? 'Erasing removes only Decision Gym progress.' : 'Tick the box above to enable erasing.';
+  }
+  function openReset() {
+    check.checked = false;
+    syncResetConfirm();
+    if (typeof dlg.showModal === 'function') {
+      dlg.showModal();
+      check.focus();
+    } else if (window.confirm('Reset all progress? This removes your local decisions and profile history.') &&
+               window.confirm('Are you sure? This cannot be undone.')) {
+      doReset();
+    }
+  }
+  function closeReset() {
+    if (dlg.open) dlg.close();
+  }
+  dlg.addEventListener('close', function () {
+    var b = $('resetOpen') || $('view-profile').querySelector('h2');
+    if (b) b.focus();
+  });
+  check.addEventListener('change', syncResetConfirm);
+  $('resetCancel').addEventListener('click', closeReset);
+  confirmBtn.addEventListener('click', function () {
+    if (!check.checked) {
+      announce('Tick the confirmation box first.');
+      check.focus();
+      return;
+    }
+    closeReset();
+    doReset();
+  });
+
+  function doReset() {
+    var ok = true;
+    try { window.localStorage.removeItem(KEY); } catch (e) { ok = false; }
+    state = emptyState();
+    drafts = {};
+    if (ok) { persist = true; storageCorrupt = false; storageMessage = ''; }
+    currentCaseId = todayCase().id;
+    showView('profile', { message: 'All Decision Gym progress has been reset.' });
+  }
+
+  // ---------- Theme ----------
+  function syncThemeLabel() {
+    var t = document.documentElement.getAttribute('data-theme');
+    $('themeToggle').setAttribute('aria-label', t === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
+  }
+  $('themeToggle').addEventListener('click', function () {
+    var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+    syncThemeLabel();
+  });
+  syncThemeLabel();
+
+  // ---------- Wire up ----------
+  $('startToday').addEventListener('click', function () { openCase(todayCase()); });
+  $('browseAll').addEventListener('click', function () { showView('library'); });
+  $('nextIncompleteHero').addEventListener('click', function () {
+    var n = nextIncomplete(todayCase());
+    if (n) openCase(n);
+  });
+  Array.prototype.forEach.call($('viewNav').querySelectorAll('button'), function (b) {
+    b.addEventListener('click', function () { showView(b.getAttribute('data-view')); });
+  });
+
+  $('heroActions').hidden = false;
+  $('viewNav').hidden = false;
+  showView('practice', { focus: false, announce: false });
+})();
+</script>
+</body>
+</html>

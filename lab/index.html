@@ -97,6 +97,8 @@ h1 { font-family: var(--serif); font-size: clamp(2.2rem, 4.5vw, 3.2rem); font-we
   position: relative; overflow: hidden;
 }
 .lab-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+a.lab-card { display: block; color: inherit; text-decoration: none; }
+a.lab-card:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .lab-card::before {
   content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
   background: linear-gradient(90deg, var(--accent), transparent);
@@ -145,6 +147,8 @@ footer { padding: 1.5rem 2rem; border-top: 1px solid var(--border-subtle); }
 .reveal-stagger.visible .lab-card:nth-child(3) { transition-delay: 0.16s; }
 .reveal-stagger.visible .lab-card:nth-child(4) { transition-delay: 0.24s; }
 .reveal-stagger.visible .lab-card:nth-child(5) { transition-delay: 0.32s; }
+.reveal-stagger.visible .lab-card:nth-child(6) { transition-delay: 0.40s; }
+.reveal-stagger.visible .lab-card:nth-child(7) { transition-delay: 0.48s; }
 
 @media (min-width: 640px) { .lab-grid { grid-template-columns: 1fr 1fr; } }
 @media (min-width: 769px) { section { padding: 6.5rem 2rem; } }
@@ -222,6 +226,24 @@ footer { padding: 1.5rem 2rem; border-top: 1px solid var(--border-subtle); }
 <section style="padding-top: 0;">
   <div class="content reveal-stagger">
     <div class="lab-grid">
+
+      <a class="lab-card" href="/lab/decision-gym/">
+        <div class="lab-card-header">
+          <span class="lab-tag">Decision Tool</span>
+          <span class="lab-status">Live</span>
+        </div>
+        <h3>Decision Gym</h3>
+        <p>Practice CEO decisions. Commit to a call and name the downside before you see what happened, then build a profile from your choices.</p>
+      </a>
+
+      <a class="lab-card" href="/lab/pack-ripper/">
+        <div class="lab-card-header">
+          <span class="lab-tag">Game</span>
+          <span class="lab-status">Live</span>
+        </div>
+        <h3>Pack Ripper</h3>
+        <p>Rip Pokémon packs, build a collection, and track your profit and loss with real sets, real cards, and a fake wallet.</p>
+      </a>
 
       <div class="lab-card">
         <div class="lab-card-header">
