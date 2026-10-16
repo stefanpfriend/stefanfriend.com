@@ -1,0 +1,225 @@
+{
+  "date": "Friday, October 16, 2026",
+  "edition": "WARTIME EDITION",
+  "tldr_label": "TL;DR — War, oil and an AI sell-off squeeze markets three weeks before the midterms",
+  "tldr_bullets": [
+    {
+      "label": "Iran war",
+      "body": "US officials told CNN and CBS the Pentagon has drawn up plans to use 'mother of all bombs' munitions on Iranian sites if Trump orders renewed strikes; Tehran says talks continue through intermediaries. [[TAG:danger:escalation risk]]"
+    },
+    {
+      "label": "Hormuz",
+      "body": "CENTCOM says the US and partners control the strait and denies Iran's claim that a mine sank the container ship GFS Pride; shipping traffic remains far below prewar levels."
+    },
+    {
+      "label": "Markets",
+      "body": "The Nasdaq fell 2.1% Friday and 4.5% on the week, its worst week since June, as chip stocks slid on Chinese memory-chip competition and AI debt worries. [[TAG:warning:tech sell-off]]"
+    },
+    {
+      "label": "Inflation",
+      "body": "September CPI rose to 3.7% year over year on a 9.1% jump in gasoline; Brent crude hovered around $105 a barrel."
+    },
+    {
+      "label": "White House",
+      "body": "Press secretary Katie Zacharia is out after five days, the shortest tenure in modern history, according to Axios."
+    },
+    {
+      "label": "Ukraine",
+      "body": "Zelenskyy asked EU leaders in Brussels for about €70 billion for next year after Kyiv resumed strikes on Russian refineries, ending a Trump-brokered energy truce."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Iran War and the Strait of Hormuz",
+      "icon": "🔥",
+      "summary": "US readies bunker-buster options as Iran signals openness to talks; Hormuz traffic still depressed",
+      "paragraphs": [
+        {
+          "heading": "Strike planning",
+          "body": "The US military has prepared plans that could use the GBU-43/B Massive Ordnance Air Blast bomb against Iranian military, energy and nuclear sites if President Trump orders renewed combat, CNN and CBS reported, citing US officials. Trump has ruled out a nuclear strike, according to Fox News. [[TAG:danger:contingency plans]]"
+        },
+        {
+          "heading": "Diplomacy",
+          "body": "Iran's president denied seeking nuclear weapons and said he is ready for talks, CBS reported. Iran's foreign minister said negotiations with Washington continue through intermediaries and that Tehran is reviewing a US response to its proposal. [[TAG:info:indirect talks]]"
+        },
+        {
+          "heading": "Control of the strait",
+          "body": "CENTCOM said the US and its partners control the Strait of Hormuz, citing more than 40 commercial transits in 24 hours, and rejected Iran's claim that the Singapore-flagged GFS Pride hit a mine. CENTCOM says an IRGC projectile struck the ship, which later sank under tow; all 21 crew were evacuated. Shipping data cited by gCaptain puts recent traffic at about 22% of the prewar benchmark, and UKMTO recorded at least 12 vessels struck in the week of October 5, the most of the conflict."
+        },
+        {
+          "heading": "Regional spillover",
+          "body": "Diplomats told The Jerusalem Post that Iran has warned Hezbollah to prepare for an expected US strike. Iran's army spokesman said the strait would reopen if US forces leave the region."
+        }
+      ],
+      "sources": "CNN, CBS News, Fox News, CENTCOM via Israel National News, gCaptain, The Jerusalem Post, Gulf News"
+    },
+    {
+      "title": "Yemen and the Saudi Front",
+      "icon": "🚀",
+      "summary": "Houthi missiles hit Aden's presidential palace after a deadly week of strikes on Saudi airports",
+      "paragraphs": [
+        {
+          "heading": "Aden palace strike",
+          "body": "Houthi missiles struck the presidential palace in Aden, seat of Yemen's internationally recognized government, killing five people, The Jerusalem Post reported. i24NEWS reported no ministers were hurt. [[TAG:danger:5 killed]]"
+        },
+        {
+          "heading": "Attacks on Saudi airports",
+          "body": "Houthi missile and drone attacks on Saudi airports between October 6 and 12 killed at least 20 people. Saudi officials said the October 10 strike on Riyadh's King Khalid International Airport killed 12, Al Jazeera reported; other outlets put the toll at 13. The UN Secretary-General condemned the attack."
+        },
+        {
+          "heading": "Ceasefire collapse",
+          "body": "The attacks follow the collapse of the UN-brokered truce that had largely held since 2022. The Houthis have warned airliners to avoid Saudi airspace. [[TAG:warning:aviation risk]]"
+        }
+      ],
+      "sources": "Al Jazeera, CNN, NBC News, The Jerusalem Post, i24NEWS"
+    },
+    {
+      "title": "Markets: AI and Chip Sell-off",
+      "icon": "📉",
+      "summary": "Nasdaq -2.1% Friday, worst week since June; chip index down eight straight sessions",
+      "paragraphs": [
+        {
+          "heading": "Friday's close",
+          "body": "The S&P 500 fell 1.1% to 7,659.44, the Dow slipped 0.3% to 52,002.41 and the Nasdaq dropped 2.1% to 26,140.03, according to the Associated Press. The Nasdaq lost 4.5% for the week, ending a monthlong winning streak. [[TAG:danger:Nasdaq -4.5% week]]"
+        },
+        {
+          "heading": "Chinese competition",
+          "body": "Memory stocks have slid since Chinese chipmaker CXMT announced progress on a next-generation DDR5 product. Micron fell about 11% over five days. Some analysts called the reaction overdone, noting the product does not compete with the high-bandwidth memory used in AI servers."
+        },
+        {
+          "heading": "AI debt worries",
+          "body": "CoreWeave lost about a quarter of its value this week amid scrutiny of AI cloud providers' borrowing, CNN reported. A major semiconductor index fell 3.8% Friday and 11.4% on the week, its worst since April 2025. Nvidia's Jensen Huang said CoreWeave's finances are improving. [[TAG:warning:AI credit concerns]]"
+        },
+        {
+          "heading": "Asia and havens",
+          "body": "In Asia, Japan's Nikkei closed 1.39% higher at 65,324.29 and South Korea's Kospi rose 2.05%. Spot gold traded near $4,168 an ounce late Friday, and the 10-year Treasury yield was around 5.1%."
+        }
+      ],
+      "sources": "AP, CNN, CNBC, Yahoo Finance, TheStreet, TradingKey, Kitco"
+    },
+    {
+      "title": "Economy, Oil and the Fed",
+      "icon": "🛢️",
+      "summary": "CPI at 3.7%, Brent near $105, and the IMF sees lasting damage to Gulf growth",
+      "paragraphs": [
+        {
+          "heading": "Inflation",
+          "body": "Consumer prices rose 3.7% from a year earlier in September, up from 3.4% in August, as gasoline jumped 9.1% on the month, per the Labor Department report released October 14. Core inflation was 2.6%. Producer prices rose 6.3% year over year. [[TAG:danger:CPI 3.7%]]"
+        },
+        {
+          "heading": "Oil",
+          "body": "Brent crude traded around $105 a barrel on Friday and WTI near $97, after a week of attacks on shipping and an 8.6 million barrel drop in US crude inventories. Traders are also weighing a possible US easing of tanker sanctions and emergency stock releases."
+        },
+        {
+          "heading": "The Fed",
+          "body": "Prediction markets give roughly 87% odds that the Fed holds rates at its October 27–28 meeting, with the target range at 3.75%–4.00% after a September hike. Several analysts see December as the likelier date for another increase. [[TAG:info:hold expected]]"
+        },
+        {
+          "heading": "Gulf economies",
+          "body": "The IMF's regional director Jihad Azour said Gulf economies will not return to their prewar growth paths in the medium term, calling the war the largest oil shock in six decades. The IMF projects GCC economies to contract 4.8% this year, including 3.3% for Saudi Arabia."
+        }
+      ],
+      "sources": "Bloomberg, Yahoo Finance, BLS, Oilprice.com, Kalshi, CNBC, Business Recorder, The National"
+    },
+    {
+      "title": "US Politics",
+      "icon": "🏛️",
+      "summary": "Press secretary ousted after five days; Democrats favored in midterm forecasts",
+      "paragraphs": [
+        {
+          "heading": "Press secretary out",
+          "body": "Katie Zacharia is leaving the White House press secretary job after five days, following a criticized first briefing and questions about whether she misrepresented herself as a lawyer, CBS, CNN and Axios reported. No replacement has been named. [[TAG:warning:shortest tenure]]"
+        },
+        {
+          "heading": "Midterms",
+          "body": "With the election on November 3, forecasters and prediction markets favor Democrats to win the House and give them a narrower edge in the Senate. Recent polls show tight Senate races in Iowa and Texas."
+        },
+        {
+          "heading": "Suspicious mailings",
+          "body": "The FBI and US Postal Inspection Service are investigating packages sent to election officials and congressional offices, some containing an unidentified white powder, NBC News reported. [[TAG:danger:under investigation]]"
+        },
+        {
+          "heading": "Other fights",
+          "body": "Trump cancelled Defense Secretary Pete Hegseth's plan to livestream the execution of Fort Hood shooter Nidal Hasan, NBC News reported. The administration is also arguing in court that White House papers belong to Trump personally."
+        }
+      ],
+      "sources": "CBS News, CNN, Axios, Fox News, Forbes, NBC News, RealClearPolling, Decision Desk HQ"
+    },
+    {
+      "title": "Ukraine and Europe",
+      "icon": "🇺🇦",
+      "summary": "Kyiv turns to Brussels for €70B as its truce with Trump's energy plan collapses",
+      "paragraphs": [
+        {
+          "heading": "Truce ends",
+          "body": "Ukraine resumed drone strikes on Russian oil refineries, including Rosneft's Ryazan plant, after a three-day pause requested by Washington, saying Russian attacks on its power grid continued. Trump said the strikes 'damn well better stop', Al Jazeera reported. [[TAG:danger:truce collapsed]]"
+        },
+        {
+          "heading": "Brussels summit",
+          "body": "Zelenskyy asked EU leaders for an additional €70 billion for next year, France 24 and the Globe and Mail reported. Ursula von der Leyen said sanctions will stay until Russia ends the war, and Council president António Costa said this is no time to ease them. Estonia's prime minister said the EU will probably need a new loan for Ukraine."
+        },
+        {
+          "heading": "Tension with Washington",
+          "body": "Kyiv's ties with the Trump administration have deteriorated after the US eased some Russia sanctions as part of a diesel-supply deal, according to France 24. Zelenskyy called Moscow's peace overtures a 'parody'. [[TAG:warning:US-Kyiv rift]]"
+        },
+        {
+          "heading": "EU agenda",
+          "body": "Ireland's Europe minister said a deal on the EU's long-term budget is still possible by Christmas. Separately, Russia placed local assets of several French, German, Swedish and Dutch companies under temporary management on October 15."
+        }
+      ],
+      "sources": "Al Jazeera, NPR, CNBC, Bloomberg, France 24, The Globe and Mail, Euronews, Rio Times"
+    },
+    {
+      "title": "Asia-Pacific",
+      "icon": "🌏",
+      "summary": "Russia detains a Japanese reporter; China-Japan friction ahead of November's APEC summit",
+      "paragraphs": [
+        {
+          "heading": "Journalist detained",
+          "body": "Russia's FSB detained Hokkaido Shimbun reporter Yuki Imai in Sakhalin on suspicion of espionage, the Seoul Economic Daily reported, as a Chinese delegation visited the Russian-held Kuril Islands that Japan claims. [[TAG:warning:espionage charge]]"
+        },
+        {
+          "heading": "China and Japan",
+          "body": "Beijing and Tokyo clashed over China's omission of an honorific for Prime Minister Sanae Takaichi, the South China Morning Post reported. Trump is due in China for APEC in November and Xi Jinping in Miami for the G20 in December."
+        },
+        {
+          "heading": "Aid retreat",
+          "body": "A Lowy Institute report found China, Japan and the US have all cut development finance to Southeast Asia, ABC Australia reported."
+        }
+      ],
+      "sources": "Seoul Economic Daily, South China Morning Post, Nikkei Asia, CSIS, ABC Australia"
+    },
+    {
+      "title": "Global Roundup",
+      "icon": "🌍",
+      "summary": "Ebola spreads in DR Congo; Costa Rica opens a mega-prison; deadly strikes in Sudan",
+      "paragraphs": [
+        {
+          "heading": "Ebola",
+          "body": "Ebola has spread to an eighth province of DR Congo and Kenya has reported a third case, OkayAfrica reported, citing Africa CDC. Africa CDC and Congolese officials say a large share of donor response funding is unaccounted for, though reported figures vary. [[TAG:danger:outbreak spreading]]"
+        },
+        {
+          "heading": "Sudan",
+          "body": "At least 72 civilians were reported killed in air strikes on artisanal gold miners in River Nile state, according to an October 12 report compiled by allAfrica."
+        },
+        {
+          "heading": "Costa Rica",
+          "body": "President Laura Fernández opened a 5,100-bed high-security prison modeled on El Salvador's CECOT, Al Jazeera and ABC News reported. Separately, the US is sending several hundred soldiers to train with forces in Colombia and Honduras."
+        },
+        {
+          "heading": "Africa's economies",
+          "body": "The IMF said African economies have weathered the Iran-war energy shock relatively well, forecasting 4.5% growth. [[TAG:success:resilient growth]]"
+        }
+      ],
+      "sources": "OkayAfrica, allAfrica, Al Jazeera, ABC News, Havana Times"
+    }
+  ],
+  "meta": {
+    "id": "2026-10-16",
+    "generated_at": "2026-10-16T22:57:18.681Z",
+    "model": "claude-opus-5-5",
+    "via": "claude-code-routine",
+    "searches": 16,
+    "source_count": 40
+  }
+}
