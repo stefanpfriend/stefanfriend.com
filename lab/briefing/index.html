@@ -270,7 +270,7 @@ details[open] .sec-summary { white-space: normal; }
       if (!b || !Array.isArray(b.sections) || !b.sections.length) throw new Error('empty');
       render(b);
     }).catch(function (err) {
-      if (err.status === 404 && !valid) showState('Daily Intelligence Briefing', 'The first edition hasn’t been published yet. A new briefing is generated every morning around 6:30am ET.');
+      if (err.status === 404 && !valid) showState('Daily Intelligence Briefing', 'The first edition hasn’t been published yet. A new briefing is published every morning at about 6:20am ET.');
       else if (err.status === 404) showState('Edition not found', 'There’s no briefing for ' + id + '. Editions are kept for 60 days.', function () { go(''); });
       else showState('Daily Intelligence Briefing', 'The briefing couldn’t be loaded. Check your connection and try again.', load);
     });

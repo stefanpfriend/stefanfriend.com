@@ -1,9 +1,9 @@
-name: Daily briefing
+name: Daily briefing (API backup)
 
+# Manual backup only. The daily edition is published by a Claude Code routine on
+# Stefan's Claude plan (see scripts/briefing/ROUTINE.md). This workflow uses API credits
+# and needs the ANTHROPIC_API_KEY repository secret.
 on:
-  schedule:
-    # 10:20 UTC = 6:20am EDT / 5:20am EST
-    - cron: "20 10 * * *"
   workflow_dispatch:
 
 permissions:
