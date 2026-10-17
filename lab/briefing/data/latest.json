@@ -1,225 +1,213 @@
 {
-  "date": "Friday, October 16, 2026",
+  "date": "Saturday, October 17, 2026",
   "edition": "WARTIME EDITION",
-  "tldr_label": "TL;DR — War, oil and an AI sell-off squeeze markets three weeks before the midterms",
+  "tldr_label": "TL;DR — Hormuz attacks mount, oil nears $110 and Egypt offers to defend Saudi Arabia",
   "tldr_bullets": [
     {
-      "label": "Iran war",
-      "body": "US officials told CNN and CBS the Pentagon has drawn up plans to use 'mother of all bombs' munitions on Iranian sites if Trump orders renewed strikes; Tehran says talks continue through intermediaries. [[TAG:danger:escalation risk]]"
+      "label": "Hormuz",
+      "body": "Iran's Revolutionary Guard says a supertanker carrying more than 2 million barrels hit a mine and caught fire in the strait on Saturday; the claim has not been independently confirmed. [[TAG:danger:unverified blast]]"
     },
     {
-      "label": "Hormuz",
-      "body": "CENTCOM says the US and partners control the strait and denies Iran's claim that a mine sank the container ship GFS Pride; shipping traffic remains far below prewar levels."
+      "label": "Egypt and the Gulf",
+      "body": "President Sisi asked parliament to authorize military action to defend Saudi Arabia if Riyadh requests it, as Houthi attacks on the kingdom continue."
+    },
+    {
+      "label": "Oil",
+      "body": "Brent settled near $109.86 on Friday, its highest close since May according to The Nation, on Middle East supply fears and reduced Russian refining."
     },
     {
       "label": "Markets",
-      "body": "The Nasdaq fell 2.1% Friday and 4.5% on the week, its worst week since June, as chip stocks slid on Chinese memory-chip competition and AI debt worries. [[TAG:warning:tech sell-off]]"
-    },
-    {
-      "label": "Inflation",
-      "body": "September CPI rose to 3.7% year over year on a 9.1% jump in gasoline; Brent crude hovered around $105 a barrel."
+      "body": "The Nasdaq ended its worst week since June, down 4.5%, as AI and chip stocks slid; the Dow eked out a weekly gain."
     },
     {
       "label": "White House",
-      "body": "Press secretary Katie Zacharia is out after five days, the shortest tenure in modern history, according to Axios."
+      "body": "Press secretary Katie Zacharia is 'transitioning out' after five days; Trump says there is no rush to name a replacement."
     },
     {
       "label": "Ukraine",
-      "body": "Zelenskyy asked EU leaders in Brussels for about €70 billion for next year after Kyiv resumed strikes on Russian refineries, ending a Trump-brokered energy truce."
+      "body": "A CNN source says Kyiv has run out of Patriot interceptors, and drone strikes on ships off Romania are raising fears of spillover into NATO waters. [[TAG:warning:air-defense gap]]"
     }
   ],
   "sections": [
     {
       "title": "Iran War and the Strait of Hormuz",
       "icon": "🔥",
-      "summary": "US readies bunker-buster options as Iran signals openness to talks; Hormuz traffic still depressed",
+      "summary": "IRGC claims a supertanker hit a mine; CENTCOM insists the strait is open as attacks hit a record",
       "paragraphs": [
         {
-          "heading": "Strike planning",
-          "body": "The US military has prepared plans that could use the GBU-43/B Massive Ordnance Air Blast bomb against Iranian military, energy and nuclear sites if President Trump orders renewed combat, CNN and CBS reported, citing US officials. Trump has ruled out a nuclear strike, according to Fox News. [[TAG:danger:contingency plans]]"
+          "heading": "Supertanker blast claim",
+          "body": "Iran's Revolutionary Guard navy said a tanker carrying more than 2 million barrels of crude struck a mine on Saturday while using what it called an unauthorized route through the Strait of Hormuz, causing a large explosion and fire, Euronews, Al Arabiya and The New Arab reported. The statement did not name the ship, its flag or any casualties, and alleged the vessel had switched off its tracking systems and had US military support. There was no independent confirmation. [[TAG:danger:unconfirmed]]"
         },
         {
-          "heading": "Diplomacy",
-          "body": "Iran's president denied seeking nuclear weapons and said he is ready for talks, CBS reported. Iran's foreign minister said negotiations with Washington continue through intermediaries and that Tehran is reviewing a US response to its proposal. [[TAG:info:indirect talks]]"
+          "heading": "Competing traffic counts",
+          "body": "CENTCOM commander Adm. Brad Cooper said Friday that nearly 400 commercial vessels crossed the strait in the previous seven days and that it 'remains open for business', according to Times Kuwait and The Jerusalem Post. Ship-tracking data tells a different story: Kpler counted 131 crossings in the week to October 14, down from 176 the week before, CNBC reported. An Iranian lawmaker called claims that the strait had reopened 'completely false'. [[TAG:warning:disputed data]]"
         },
         {
-          "heading": "Control of the strait",
-          "body": "CENTCOM said the US and its partners control the Strait of Hormuz, citing more than 40 commercial transits in 24 hours, and rejected Iran's claim that the Singapore-flagged GFS Pride hit a mine. CENTCOM says an IRGC projectile struck the ship, which later sank under tow; all 21 crew were evacuated. Shipping data cited by gCaptain puts recent traffic at about 22% of the prewar benchmark, and UKMTO recorded at least 12 vessels struck in the week of October 5, the most of the conflict."
+          "heading": "Record attacks on shipping",
+          "body": "NBC News reported that attacks on shipping in and around Hormuz have hit a record high, and a British maritime monitor said October is the busiest month for reported attacks since March. UKMTO separately reported two tankers attacked off Saudi Arabia on Friday, one by a rocket-propelled grenade fired from a small boat; all crew were reported safe."
         },
         {
-          "heading": "Regional spillover",
-          "body": "Diplomats told The Jerusalem Post that Iran has warned Hezbollah to prepare for an expected US strike. Iran's army spokesman said the strait would reopen if US forces leave the region."
+          "heading": "Strike planning and threats",
+          "body": "US officials told CNN the Pentagon could use the GBU-43/B Massive Ordnance Air Blast bomb if strikes resume; Trump has said he will not resume strikes before the November 3 midterms and has ruled out nuclear weapons and ground troops. Iran's acting oil minister promised 'precise, appropriate retaliatory measures' for any attack on energy sites, and its security council chief threatened UAE data centers and undersea cables, The New Arab and Fox News reported."
         }
       ],
-      "sources": "CNN, CBS News, Fox News, CENTCOM via Israel National News, gCaptain, The Jerusalem Post, Gulf News"
+      "sources": "Euronews, Al Arabiya, The New Arab, Mehr News, Times Kuwait, The Jerusalem Post, CNBC, NBC News, Iran International, CNN, Fox News, Al Jazeera"
     },
     {
-      "title": "Yemen and the Saudi Front",
+      "title": "Saudi Arabia, Yemen and Egypt",
       "icon": "🚀",
-      "summary": "Houthi missiles hit Aden's presidential palace after a deadly week of strikes on Saudi airports",
+      "summary": "Sisi seeks authority to defend Saudi Arabia; Houthis fire missiles at Aden airport",
       "paragraphs": [
         {
-          "heading": "Aden palace strike",
-          "body": "Houthi missiles struck the presidential palace in Aden, seat of Yemen's internationally recognized government, killing five people, The Jerusalem Post reported. i24NEWS reported no ministers were hurt. [[TAG:danger:5 killed]]"
+          "heading": "Egypt steps forward",
+          "body": "Egyptian President Abdel-Fattah el-Sisi said Egypt would act to protect Saudi Arabia and asked parliament to convene an emergency session to authorize it, but only if Riyadh requests help, Anadolu and Iran International reported. Sisi said Egypt does not want to attack anyone and would only defend the kingdom. [[TAG:warning:regional widening]]"
         },
         {
-          "heading": "Attacks on Saudi airports",
-          "body": "Houthi missile and drone attacks on Saudi airports between October 6 and 12 killed at least 20 people. Saudi officials said the October 10 strike on Riyadh's King Khalid International Airport killed 12, Al Jazeera reported; other outlets put the toll at 13. The UN Secretary-General condemned the attack."
+          "heading": "Houthi campaign",
+          "body": "Saudi Arabia says Houthi attacks on Riyadh's airport, Aramco headquarters and other sites have killed at least 12 people in the deadliest strike and at least 19 overall, according to AP and PBS. On Friday the Houthis fired two missiles that landed near the runway at Aden International Airport, Yemen's government told Al Jazeera, days after a strike on the Aden presidential compound killed at least five. [[TAG:danger:airports targeted]]"
         },
         {
-          "heading": "Ceasefire collapse",
-          "body": "The attacks follow the collapse of the UN-brokered truce that had largely held since 2022. The Houthis have warned airliners to avoid Saudi airspace. [[TAG:warning:aviation risk]]"
+          "heading": "Saudi response and warnings",
+          "body": "The Saudi-led coalition has struck Houthi-held areas and said it was preparing evacuation warnings for part of Sanaa, CBS News reported. The Houthis have threatened a 'painful' response if the US joins the offensive. UN envoy Hans Grundberg called attacks on civilian airports 'a grave escalation'. Yemeni government forces claim major gains in Marib, which could not be independently verified."
         }
       ],
-      "sources": "Al Jazeera, CNN, NBC News, The Jerusalem Post, i24NEWS"
+      "sources": "Anadolu, Iran International, AP, PBS, Al Jazeera, CBS News, WRAL"
     },
     {
-      "title": "Markets: AI and Chip Sell-off",
+      "title": "Markets: Weekly Wrap",
       "icon": "📉",
-      "summary": "Nasdaq -2.1% Friday, worst week since June; chip index down eight straight sessions",
+      "summary": "Nasdaq -4.5% on the week as AI fears bite; energy the lone bright spot",
       "paragraphs": [
         {
           "heading": "Friday's close",
-          "body": "The S&P 500 fell 1.1% to 7,659.44, the Dow slipped 0.3% to 52,002.41 and the Nasdaq dropped 2.1% to 26,140.03, according to the Associated Press. The Nasdaq lost 4.5% for the week, ending a monthlong winning streak. [[TAG:danger:Nasdaq -4.5% week]]"
+          "body": "The S&P 500 fell 1.1% to 7,659.44, the Dow slipped 0.3% to 52,002.41 and the Nasdaq dropped 2.1% to 26,140.03, the Associated Press reported. For the week the S&P lost 1.9% and the Nasdaq 4.5%, snapping a four-week winning streak, while the Dow rose 0.7%. [[TAG:danger:Nasdaq -4.5% week]]"
         },
         {
-          "heading": "Chinese competition",
-          "body": "Memory stocks have slid since Chinese chipmaker CXMT announced progress on a next-generation DDR5 product. Micron fell about 11% over five days. Some analysts called the reaction overdone, noting the product does not compete with the high-bandwidth memory used in AI servers."
+          "heading": "Tech leads the slide",
+          "body": "The S&P technology sector fell more than 3% Friday, with Micron down 5.6% and Intel down 5.8%, Yahoo Finance reported. TheStreet said worries about an AI bubble are mounting as small caps in the Russell 2000 also sank."
         },
         {
-          "heading": "AI debt worries",
-          "body": "CoreWeave lost about a quarter of its value this week amid scrutiny of AI cloud providers' borrowing, CNN reported. A major semiconductor index fell 3.8% Friday and 11.4% on the week, its worst since April 2025. Nvidia's Jensen Huang said CoreWeave's finances are improving. [[TAG:warning:AI credit concerns]]"
-        },
-        {
-          "heading": "Asia and havens",
-          "body": "In Asia, Japan's Nikkei closed 1.39% higher at 65,324.29 and South Korea's Kospi rose 2.05%. Spot gold traded near $4,168 an ounce late Friday, and the 10-year Treasury yield was around 5.1%."
+          "heading": "Energy rallies",
+          "body": "Energy was the best-performing sector, up 2.52% on Friday as crude prices jumped, according to Yahoo Finance. [[TAG:success:energy +2.5%]]"
         }
       ],
-      "sources": "AP, CNN, CNBC, Yahoo Finance, TheStreet, TradingKey, Kitco"
+      "sources": "AP, ABC News, Washington Post, Yahoo Finance, TheStreet, Trading Economics"
     },
     {
-      "title": "Economy, Oil and the Fed",
+      "title": "Oil, Inflation and the Fed",
       "icon": "🛢️",
-      "summary": "CPI at 3.7%, Brent near $105, and the IMF sees lasting damage to Gulf growth",
+      "summary": "Brent near $110, highest close since May; Fed seen holding in October but hawkish",
       "paragraphs": [
         {
-          "heading": "Inflation",
-          "body": "Consumer prices rose 3.7% from a year earlier in September, up from 3.4% in August, as gasoline jumped 9.1% on the month, per the Labor Department report released October 14. Core inflation was 2.6%. Producer prices rose 6.3% year over year. [[TAG:danger:CPI 3.7%]]"
+          "heading": "Crude surges",
+          "body": "Brent settled around $109.86 a barrel on Friday and US crude near $101.41, The Rio Times reported, after trading near $105 to $106 earlier in the day. The Nation called it the highest settlement since May 19 and attributed the move to the Middle East conflict and reduced Russian refining capacity after Ukrainian drone strikes. [[TAG:danger:Brent ~$110]]"
         },
         {
-          "heading": "Oil",
-          "body": "Brent crude traded around $105 a barrel on Friday and WTI near $97, after a week of attacks on shipping and an 8.6 million barrel drop in US crude inventories. Traders are also weighing a possible US easing of tanker sanctions and emergency stock releases."
+          "heading": "The Fed's path",
+          "body": "Minutes from the September meeting showed most officials expect another rate increase by year end. Richmond Fed President Tom Barkin has said one hike may not be enough, while New York Fed President John Williams has signaled no need for urgency, according to CNBC and Chase. Forecasters broadly expect a hold at the October 27–28 meeting. [[TAG:info:hold expected]]"
         },
         {
-          "heading": "The Fed",
-          "body": "Prediction markets give roughly 87% odds that the Fed holds rates at its October 27–28 meeting, with the target range at 3.75%–4.00% after a September hike. Several analysts see December as the likelier date for another increase. [[TAG:info:hold expected]]"
-        },
-        {
-          "heading": "Gulf economies",
-          "body": "The IMF's regional director Jihad Azour said Gulf economies will not return to their prewar growth paths in the medium term, calling the war the largest oil shock in six decades. The IMF projects GCC economies to contract 4.8% this year, including 3.3% for Saudi Arabia."
+          "heading": "Inflation backdrop",
+          "body": "September consumer prices rose 3.7% from a year earlier, driven by a 9.1% monthly jump in gasoline, and Yahoo Finance reported that Fed officials say they are troubled by the hot data."
         }
       ],
-      "sources": "Bloomberg, Yahoo Finance, BLS, Oilprice.com, Kalshi, CNBC, Business Recorder, The National"
+      "sources": "The Rio Times, The Nation, Fortune, OilPriceAPI, CNBC, Chase, Yahoo Finance"
     },
     {
       "title": "US Politics",
       "icon": "🏛️",
-      "summary": "Press secretary ousted after five days; Democrats favored in midterm forecasts",
+      "summary": "Press secretary out after five days; GOP's $740M blitz fails to shift the midterm map",
       "paragraphs": [
         {
-          "heading": "Press secretary out",
-          "body": "Katie Zacharia is leaving the White House press secretary job after five days, following a criticized first briefing and questions about whether she misrepresented herself as a lawyer, CBS, CNN and Axios reported. No replacement has been named. [[TAG:warning:shortest tenure]]"
+          "heading": "Press secretary exit",
+          "body": "A White House official said Katie Zacharia is 'transitioning out' as press secretary after five days, NPR and Al Jazeera reported. Trump said he told her to reconsider the job but denied firing her, and said there is no rush to name a successor. Newsweek reported that Laura Loomer has floated herself for the role. [[TAG:warning:no successor yet]]"
         },
         {
-          "heading": "Midterms",
-          "body": "With the election on November 3, forecasters and prediction markets favor Democrats to win the House and give them a narrower edge in the Senate. Recent polls show tight Senate races in Iowa and Texas."
+          "heading": "Turbulent week",
+          "body": "Politico reported Trump was consulting allies about replacing chief of staff Susie Wiles after the midterms, which Trump denied, according to US News. Trump also directed the White House counsel to review Alina Habba's claim that Ric Grenell failed to deposit a roughly $6 million donation to the Kennedy Center. Trump separately called off Pete Hegseth's plan to livestream the December 3 execution of Fort Hood shooter Nidal Hasan."
         },
         {
-          "heading": "Suspicious mailings",
-          "body": "The FBI and US Postal Inspection Service are investigating packages sent to election officials and congressional offices, some containing an unidentified white powder, NBC News reported. [[TAG:danger:under investigation]]"
-        },
-        {
-          "heading": "Other fights",
-          "body": "Trump cancelled Defense Secretary Pete Hegseth's plan to livestream the execution of Fort Hood shooter Nidal Hasan, NBC News reported. The administration is also arguing in court that White House papers belong to Trump personally."
+          "heading": "Midterm outlook",
+          "body": "CNBC reported that Republican groups have spent more than $740 million on House and Senate races since Labor Day with little effect, as Democrats lead polling averages in nine of the most competitive Senate races. Kalshi traders gave Democrats about 63% odds of winning the Senate as of October 16. Texas remains close: one poll has Ken Paxton narrowly ahead of James Talarico, while Marist has Talarico up 47 to 45. [[TAG:info:Nov 3 election]]"
         }
       ],
-      "sources": "CBS News, CNN, Axios, Fox News, Forbes, NBC News, RealClearPolling, Decision Desk HQ"
+      "sources": "NPR, Al Jazeera, Newsweek, US News, Washington Post, CNBC, Kalshi, RealClearPolling, Democracy Now"
     },
     {
       "title": "Ukraine and Europe",
       "icon": "🇺🇦",
-      "summary": "Kyiv turns to Brussels for €70B as its truce with Trump's energy plan collapses",
+      "summary": "Kyiv out of Patriot interceptors, CNN source says; EU summit ends without budget deal",
       "paragraphs": [
         {
-          "heading": "Truce ends",
-          "body": "Ukraine resumed drone strikes on Russian oil refineries, including Rosneft's Ryazan plant, after a three-day pause requested by Washington, saying Russian attacks on its power grid continued. Trump said the strikes 'damn well better stop', Al Jazeera reported. [[TAG:danger:truce collapsed]]"
+          "heading": "Air-defense gap",
+          "body": "A source told CNN that Ukraine has run out of Patriot interceptors and that nearly all ballistic missiles in Russia's latest major attack got through; strikes on Kyiv power plants killed four and injured 25. The exact stockpile has not been made public. [[TAG:danger:no Patriot missiles]]"
         },
         {
-          "heading": "Brussels summit",
-          "body": "Zelenskyy asked EU leaders for an additional €70 billion for next year, France 24 and the Globe and Mail reported. Ursula von der Leyen said sanctions will stay until Russia ends the war, and Council president António Costa said this is no time to ease them. Estonia's prime minister said the EU will probably need a new loan for Ukraine."
+          "heading": "Spillover fears",
+          "body": "A drone struck the chemical tanker Wine Trader off Sulina in Romanian waters on October 15, leaving seven crew missing, AP reported. Drones have hit at least seven cargo ships off Romania and Bulgaria in recent weeks, leaving 25 dead or missing; Bulgaria's prime minister said Russia was likely responsible. Poland scrambled fighter jets during overnight Russian strikes on western Ukraine, Al Jazeera reported. [[TAG:warning:NATO waters]]"
         },
         {
-          "heading": "Tension with Washington",
-          "body": "Kyiv's ties with the Trump administration have deteriorated after the US eased some Russia sanctions as part of a diesel-supply deal, according to France 24. Zelenskyy called Moscow's peace overtures a 'parody'. [[TAG:warning:US-Kyiv rift]]"
+          "heading": "EU summit",
+          "body": "EU leaders ended their Brussels summit without a final deal on the 2028–2034 budget, aiming for agreement by year end, according to the Council and Euronews. They backed Zelenskyy and pledged to keep sanctions while Russia's invasion continues, but a €70 billion Ukraine funding gap for next year remains. Bulgaria's prime minister broke ranks to support the Trump-Putin diesel deal others condemned, and leaders clashed over migration."
         },
         {
-          "heading": "EU agenda",
-          "body": "Ireland's Europe minister said a deal on the EU's long-term budget is still possible by Christmas. Separately, Russia placed local assets of several French, German, Swedish and Dutch companies under temporary management on October 15."
+          "heading": "Strikes on Russia",
+          "body": "Russia's Defense Ministry said it intercepted 644 Ukrainian drones overnight across several regions, causing flight delays at Moscow airports, as Zelenskyy said Ukraine would keep striking refineries despite Trump's objections."
         }
       ],
-      "sources": "Al Jazeera, NPR, CNBC, Bloomberg, France 24, The Globe and Mail, Euronews, Rio Times"
+      "sources": "CNN, Defence Matters, AP, PBS, Washington Times, DTN, Al Jazeera, Euronews, European Council, RFE/RL"
     },
     {
       "title": "Asia-Pacific",
       "icon": "🌏",
-      "summary": "Russia detains a Japanese reporter; China-Japan friction ahead of November's APEC summit",
+      "summary": "China expands export controls; carrier drills and missiles near Taiwan keep tensions high",
       "paragraphs": [
         {
-          "heading": "Journalist detained",
-          "body": "Russia's FSB detained Hokkaido Shimbun reporter Yuki Imai in Sakhalin on suspicion of espionage, the Seoul Economic Daily reported, as a Chinese delegation visited the Russian-held Kuril Islands that Japan claims. [[TAG:warning:espionage charge]]"
+          "heading": "Export controls",
+          "body": "China plans to add AI, biopharma and solar technologies to its export control list, Nikkei Asia reported. The EU summit separately agreed to develop new trade defense tools aimed at China, Euronews reported. [[TAG:warning:tech controls]]"
         },
         {
-          "heading": "China and Japan",
-          "body": "Beijing and Tokyo clashed over China's omission of an honorific for Prime Minister Sanae Takaichi, the South China Morning Post reported. Trump is due in China for APEC in November and Xi Jinping in Miami for the G20 in December."
+          "heading": "Military signals",
+          "body": "China sent its Liaoning carrier group into the western Pacific for training, and Japan tracked the flotilla, The Japan Times reported. The US plans to deploy an anti-ship missile system on Yonaguni, a Japanese island near Taiwan, during joint drills."
         },
         {
-          "heading": "Aid retreat",
-          "body": "A Lowy Institute report found China, Japan and the US have all cut development finance to Southeast Asia, ABC Australia reported."
+          "heading": "Diplomatic chill",
+          "body": "Beijing and Tokyo remain at odds, including over China's omission of an honorific for Prime Minister Sanae Takaichi, the South China Morning Post reported, despite Trump urging Xi Jinping to end the freeze ahead of APEC in November."
         }
       ],
-      "sources": "Seoul Economic Daily, South China Morning Post, Nikkei Asia, CSIS, ABC Australia"
+      "sources": "Nikkei Asia, The Japan Times, South China Morning Post, Euronews"
     },
     {
       "title": "Global Roundup",
       "icon": "🌍",
-      "summary": "Ebola spreads in DR Congo; Costa Rica opens a mega-prison; deadly strikes in Sudan",
+      "summary": "Ebola passes 9,200 cases in DR Congo; Lebanon fears renewed war; Iran rial slides",
       "paragraphs": [
         {
           "heading": "Ebola",
-          "body": "Ebola has spread to an eighth province of DR Congo and Kenya has reported a third case, OkayAfrica reported, citing Africa CDC. Africa CDC and Congolese officials say a large share of donor response funding is unaccounted for, though reported figures vary. [[TAG:danger:outbreak spreading]]"
+          "body": "DR Congo has recorded 9,277 confirmed cases and 4,478 deaths in the Bundibugyo-strain outbreak as of October 15, according to ECDC, with no approved vaccine or treatment for this strain. Kenya reported a third case, a relative of its first patient, with no sign of community transmission, Al Jazeera reported. [[TAG:danger:9,277 cases]]"
         },
         {
-          "heading": "Sudan",
-          "body": "At least 72 civilians were reported killed in air strikes on artisanal gold miners in River Nile state, according to an October 12 report compiled by allAfrica."
+          "heading": "Lebanon",
+          "body": "Statements from Israeli officials and Hezbollah raised fears of a new war, Arab News reported. Lebanese authorities seized hundreds of kilograms of explosives, which Hezbollah acknowledged were its own, according to Middle East Monitor. President Joseph Aoun said US-mediated talks with Israel have slowed but not stopped."
         },
         {
-          "heading": "Costa Rica",
-          "body": "President Laura Fernández opened a 5,100-bed high-security prison modeled on El Salvador's CECOT, Al Jazeera and ABC News reported. Separately, the US is sending several hundred soldiers to train with forces in Colombia and Honduras."
+          "heading": "Iran's economy",
+          "body": "The rial trades around 2.65 million to the dollar on the open market, against an official rate near 1.82 million, Iran International reported, and an Iranian trade official warned import curbs could deepen shortages. Iranian exports to Pakistan face a temporary halt over banking sanctions."
         },
         {
-          "heading": "Africa's economies",
-          "body": "The IMF said African economies have weathered the Iran-war energy shock relatively well, forecasting 4.5% growth. [[TAG:success:resilient growth]]"
+          "heading": "Americas",
+          "body": "Colombia resumed electricity sales to Ecuador after more than a month, The Rio Times reported. [[TAG:success:power restored]]"
         }
       ],
-      "sources": "OkayAfrica, allAfrica, Al Jazeera, ABC News, Havana Times"
+      "sources": "ECDC, WHO, Al Jazeera, UN News, Arab News, Middle East Monitor, Times of Israel, Iran International, Trend, The Rio Times"
     }
   ],
   "meta": {
-    "id": "2026-10-16",
-    "generated_at": "2026-10-16T22:57:18.681Z",
+    "id": "2026-10-17",
+    "generated_at": "2026-10-17T10:22:44.012Z",
     "model": "claude-opus-5-5",
     "via": "claude-code-routine",
-    "searches": 16,
-    "source_count": 40
+    "searches": 21,
+    "source_count": 62
   }
 }

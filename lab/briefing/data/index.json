@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "id": "2026-10-17",
+      "date": "Saturday, October 17, 2026",
+      "edition": "WARTIME EDITION"
+    },
+    {
       "id": "2026-10-16",
       "date": "Friday, October 16, 2026",
       "edition": "WARTIME EDITION"
