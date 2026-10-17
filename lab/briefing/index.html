@@ -98,6 +98,9 @@ details[open] .sec-summary { white-space: normal; }
 
 .foot { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid rgba(51,65,85,0.15); text-align: center; font-size: 12px; color: var(--slate-400); line-height: 1.7; }
 .foot a { color: var(--slate-300); }
+.foot .sources-cta { margin: 0.25rem 0 0.75rem; text-decoration: none; }
+.foot .cta-sub { font-size: 13px; color: var(--slate-300); margin-bottom: 0.75rem; }
+.sec-sources a { color: var(--amber-400); }
 .disclaimer { margin-top: 0.4rem; }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
@@ -204,6 +207,8 @@ details[open] .sec-summary { white-space: normal; }
   function render(b) {
     document.getElementById('loading').hidden = true;
     var meta = b.meta || {};
+    var editionId = meta.id || new URLSearchParams(location.search).get('d') || '';
+    var sourcesUrl = '/lab/briefing/sources/' + (editionId ? '?d=' + encodeURIComponent(editionId) : '');
     var picker = null;
     if (editions.length > 1) {
       var sel = h('select', { id: 'editionSelect', onchange: function () { go(sel.value); } },
@@ -224,14 +229,16 @@ details[open] .sec-summary { white-space: normal; }
           (Array.isArray(s.paragraphs) ? s.paragraphs : []).map(function (p) {
             return h('p', null, str(p.heading) ? [h('strong', { text: str(p.heading).replace(/[.:]?\s*$/, '.') }), ' '] : null, withTags(str(p.body)));
           }),
-          str(s.sources) ? h('p', { class: 'sec-sources', text: 'Sources: ' + str(s.sources) }) : null)
+          h('p', { class: 'sec-sources' }, str(s.sources) ? 'Sources: ' + str(s.sources) + ' · ' : '',
+            h('a', { href: sourcesUrl + '#s' + (i + 1), text: 'See links →' })))
       );
     });
     var bullets = Array.isArray(b.tldr_bullets) ? b.tldr_bullets : [];
-    var footBits = [];
-    if (meta.source_count) footBits.push(meta.source_count + ' sources');
-    if (meta.searches) footBits.push(meta.searches + ' searches');
-    if (meta.generated_at) footBits.push('Updated ' + fmtUpdated(meta.generated_at));
+    var ctaText = meta.cited_count
+      ? 'See all ' + meta.cited_count + ' sources and ' + meta.searches + ' searches →'
+      : meta.results_count
+        ? 'See all ' + meta.results_count + ' links from ' + meta.searches + ' searches →'
+        : 'See every source →';
 
     app.replaceChildren(
       h('header', { class: 'head' },
@@ -246,7 +253,10 @@ details[open] .sec-summary { white-space: normal; }
         }))) : null,
       h('div', { class: 'sections' }, sections),
       h('footer', { class: 'foot' },
-        h('p', { text: footBits.join(' · ') }),
+        h('a', { class: 'btn-gen sources-cta', href: sourcesUrl, text: ctaText }),
+        h('p', { class: 'cta-sub' }, 'Every search, every result and every cited link for this edition. ',
+          h('a', { href: '/lab/briefing/sources/', text: 'Browse the full sources log' }), '.'),
+        meta.generated_at ? h('p', { text: 'Updated ' + fmtUpdated(meta.generated_at) }) : null,
         h('p', null, 'Powered by Claude · Web Search · Published daily. ', h('a', { href: '/lab/', text: 'Back to the Lab' })),
         h('p', { class: 'disclaimer', text: 'Generated automatically by an AI model from web sources and not reviewed by a person before publishing. It can contain errors; check primary sources before relying on it.' }))
     );

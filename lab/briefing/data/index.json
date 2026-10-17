@@ -3,12 +3,18 @@
     {
       "id": "2026-10-17",
       "date": "Saturday, October 17, 2026",
-      "edition": "WARTIME EDITION"
+      "edition": "WARTIME EDITION",
+      "searches": 21,
+      "cited_count": null,
+      "results_count": 192
     },
     {
       "id": "2026-10-16",
       "date": "Friday, October 16, 2026",
-      "edition": "WARTIME EDITION"
+      "edition": "WARTIME EDITION",
+      "searches": 22,
+      "cited_count": 58,
+      "results_count": 200
     }
   ]
 }

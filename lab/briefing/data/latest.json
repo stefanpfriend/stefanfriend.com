@@ -51,7 +51,8 @@
           "body": "US officials told CNN the Pentagon could use the GBU-43/B Massive Ordnance Air Blast bomb if strikes resume; Trump has said he will not resume strikes before the November 3 midterms and has ruled out nuclear weapons and ground troops. Iran's acting oil minister promised 'precise, appropriate retaliatory measures' for any attack on energy sites, and its security council chief threatened UAE data centers and undersea cables, The New Arab and Fox News reported."
         }
       ],
-      "sources": "Euronews, Al Arabiya, The New Arab, Mehr News, Times Kuwait, The Jerusalem Post, CNBC, NBC News, Iran International, CNN, Fox News, Al Jazeera"
+      "sources": "Euronews, Al Arabiya, The New Arab, Mehr News, Times Kuwait, The Jerusalem Post, CNBC, NBC News, Iran International, CNN, Fox News, Al Jazeera",
+      "citations": []
     },
     {
       "title": "Saudi Arabia, Yemen and Egypt",
@@ -71,7 +72,8 @@
           "body": "The Saudi-led coalition has struck Houthi-held areas and said it was preparing evacuation warnings for part of Sanaa, CBS News reported. The Houthis have threatened a 'painful' response if the US joins the offensive. UN envoy Hans Grundberg called attacks on civilian airports 'a grave escalation'. Yemeni government forces claim major gains in Marib, which could not be independently verified."
         }
       ],
-      "sources": "Anadolu, Iran International, AP, PBS, Al Jazeera, CBS News, WRAL"
+      "sources": "Anadolu, Iran International, AP, PBS, Al Jazeera, CBS News, WRAL",
+      "citations": []
     },
     {
       "title": "Markets: Weekly Wrap",
@@ -91,7 +93,8 @@
           "body": "Energy was the best-performing sector, up 2.52% on Friday as crude prices jumped, according to Yahoo Finance. [[TAG:success:energy +2.5%]]"
         }
       ],
-      "sources": "AP, ABC News, Washington Post, Yahoo Finance, TheStreet, Trading Economics"
+      "sources": "AP, ABC News, Washington Post, Yahoo Finance, TheStreet, Trading Economics",
+      "citations": []
     },
     {
       "title": "Oil, Inflation and the Fed",
@@ -111,7 +114,8 @@
           "body": "September consumer prices rose 3.7% from a year earlier, driven by a 9.1% monthly jump in gasoline, and Yahoo Finance reported that Fed officials say they are troubled by the hot data."
         }
       ],
-      "sources": "The Rio Times, The Nation, Fortune, OilPriceAPI, CNBC, Chase, Yahoo Finance"
+      "sources": "The Rio Times, The Nation, Fortune, OilPriceAPI, CNBC, Chase, Yahoo Finance",
+      "citations": []
     },
     {
       "title": "US Politics",
@@ -131,7 +135,8 @@
           "body": "CNBC reported that Republican groups have spent more than $740 million on House and Senate races since Labor Day with little effect, as Democrats lead polling averages in nine of the most competitive Senate races. Kalshi traders gave Democrats about 63% odds of winning the Senate as of October 16. Texas remains close: one poll has Ken Paxton narrowly ahead of James Talarico, while Marist has Talarico up 47 to 45. [[TAG:info:Nov 3 election]]"
         }
       ],
-      "sources": "NPR, Al Jazeera, Newsweek, US News, Washington Post, CNBC, Kalshi, RealClearPolling, Democracy Now"
+      "sources": "NPR, Al Jazeera, Newsweek, US News, Washington Post, CNBC, Kalshi, RealClearPolling, Democracy Now",
+      "citations": []
     },
     {
       "title": "Ukraine and Europe",
@@ -155,7 +160,8 @@
           "body": "Russia's Defense Ministry said it intercepted 644 Ukrainian drones overnight across several regions, causing flight delays at Moscow airports, as Zelenskyy said Ukraine would keep striking refineries despite Trump's objections."
         }
       ],
-      "sources": "CNN, Defence Matters, AP, PBS, Washington Times, DTN, Al Jazeera, Euronews, European Council, RFE/RL"
+      "sources": "CNN, Defence Matters, AP, PBS, Washington Times, DTN, Al Jazeera, Euronews, European Council, RFE/RL",
+      "citations": []
     },
     {
       "title": "Asia-Pacific",
@@ -175,7 +181,8 @@
           "body": "Beijing and Tokyo remain at odds, including over China's omission of an honorific for Prime Minister Sanae Takaichi, the South China Morning Post reported, despite Trump urging Xi Jinping to end the freeze ahead of APEC in November."
         }
       ],
-      "sources": "Nikkei Asia, The Japan Times, South China Morning Post, Euronews"
+      "sources": "Nikkei Asia, The Japan Times, South China Morning Post, Euronews",
+      "citations": []
     },
     {
       "title": "Global Roundup",
@@ -199,15 +206,911 @@
           "body": "Colombia resumed electricity sales to Ecuador after more than a month, The Rio Times reported. [[TAG:success:power restored]]"
         }
       ],
-      "sources": "ECDC, WHO, Al Jazeera, UN News, Arab News, Middle East Monitor, Times of Israel, Iran International, Trend, The Rio Times"
+      "sources": "ECDC, WHO, Al Jazeera, UN News, Arab News, Middle East Monitor, Times of Israel, Iran International, Trend, The Rio Times",
+      "citations": []
     }
   ],
+  "searches": [
+    {
+      "query": "Iran US strikes news October 17 2026",
+      "results": [
+        {
+          "title": "Iran War: Latest News, Live Coverage and Video",
+          "url": "https://www.nbcnews.com/world/iran-war"
+        },
+        {
+          "title": "7 May 2026 United States strikes on Iran",
+          "url": "https://en.wikipedia.org/wiki/7_May_2026_United_States_strikes_on_Iran"
+        },
+        {
+          "title": "Iran threatens response to US strikes on energy facilities",
+          "url": "https://www.newarab.com/news/iran-threatens-response-us-strikes-energy-facilities"
+        },
+        {
+          "title": "U.S. reportedly weighs 'mother of all bombs' for Iran strikes",
+          "url": "https://www.cnbc.com/2026/10/15/us-iran-war-trump-hormuz.html"
+        },
+        {
+          "title": "Trump rules out nuclear strike on Iran as Tehran warns US bombs won't force surrender",
+          "url": "https://www.foxnews.com/live-news/us-iran-war-peace-donald-trump-strait-hormuz-oil-prices-midterms-october-15"
+        },
+        {
+          "title": "US-Israel-Iran War Latest Live News: Trump Signals Possible US Strike on Iran’s ‘Pickaxe Mountain’ Nuclear Site, Rules Out Nuclear Weapons and Ground Troops Deployment",
+          "url": "https://sundayguardianlive.com/world/us-israel-iran-war-latest-live-news-trump-signals-possible-us-strike-on-irans-pickaxe-mountain-nuclear-site-rules-out-nuclear-weapons-and-ground-troops-deployment-306996/"
+        },
+        {
+          "title": "Iran reportedly fortifies nuclear sites as it prepares for possible U.S. strikes after midterms",
+          "url": "https://www.cnbc.com/2026/10/13/iran-us-war-houthis-saudi-arabia-airport.html"
+        },
+        {
+          "title": "Washington eyeing MOAB deployment against Iran's underground nuclear facilities",
+          "url": "https://www.foxnews.com/live-news/iran-war-trump-strait-hormuz-oil-prices-midterms-october-16"
+        },
+        {
+          "title": "What is the ‘Mother of All Bombs’ US could use in Iran?",
+          "url": "https://www.aljazeera.com/news/2026/10/15/what-is-the-mother-of-all-bombs-us-could-use-in-iran"
+        }
+      ]
+    },
+    {
+      "query": "Strait of Hormuz shipping October 17 2026",
+      "results": [
+        {
+          "title": "Live Updates: Iran's president denies nuclear ambitions, says he's ready for talks",
+          "url": "https://cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia"
+        },
+        {
+          "title": "Strait of Hormuz: After more oil left the Gulf, Iran tries to regain its stranglehold on shipping",
+          "url": "https://www.cnn.com/2026/10/11/middleeast/iran-hormuz-oil-analysis-intl"
+        },
+        {
+          "title": "One Singapore ship was sunk, but here's why others are still transiting the Strait of Hormuz",
+          "url": "https://www.cnbc.com/2026/10/16/strait-hormuz-singapore-ships-attacked.html"
+        },
+        {
+          "title": "Tracking ship traffic through the Strait of Hormuz. Updated regularly.",
+          "url": "https://www.nbcnews.com/data-graphics/strait-of-hormuz-ports-traffic-trump-us-iran-war-rcna331507"
+        },
+        {
+          "title": "Hormuz ship attacks hit record high as Iran escalates strikes with little U.S. response",
+          "url": "https://www.nbcnews.com/world/iran/iran-strikes-strait-hormuz-shipping-trump-oil-prices-midterms-rcna603670"
+        },
+        {
+          "title": "Nearly 400 merchant ships sailed through Hormuz Strait last week, says Adm Cooper - Times Kuwait",
+          "url": "https://timeskuwait.com/nearly-400-merchant-ships-sailed-through-hormuz-strait-last-week-says-adm-cooper"
+        },
+        {
+          "title": "Strait of Hormuz Closed, Day 230",
+          "url": "https://straits.live/"
+        },
+        {
+          "title": "Strait of Hormuz - Tanker Traffic - Daily Transits & Tonnage",
+          "url": "https://tankermap.com/analytics/straits/hormuz"
+        },
+        {
+          "title": "nx s1 5744857",
+          "url": "https://www.npr.org/transcripts/nx-s1-5744857"
+        },
+        {
+          "title": "Shipping in Strait of Hormuz at a standstill despite US-Iran ceasefire",
+          "url": "https://aljazeera.com/economy/2026/4/10/shipping-in-strait-of-hormuz-at-a-trickle-despite-us-iran-ceasefire"
+        }
+      ]
+    },
+    {
+      "query": "White House Trump news October 16 2026",
+      "results": [
+        {
+          "title": "Headlines for October 16, 2026",
+          "url": "https://www.democracynow.org/2026/10/16/headlines"
+        },
+        {
+          "title": "Donald Trump - The Washington Post - The Washington Post",
+          "url": "https://www.washingtonpost.com/donald-trump/"
+        },
+        {
+          "title": "Katie Zacharia is 'transitioning out' as press secretary, White House says",
+          "url": "https://www.npr.org/2026/10/16/nx-s1-6005317/trump-casts-doubt-on-press-secretarys-future"
+        },
+        {
+          "title": "Trump Says Zacharia Should Reconsider White House Spokeswoman Role",
+          "url": "https://www.usnews.com/news/politics/articles/2026-10-16/trump-says-zacharia-should-reconsider-white-house-spokeswoman-role"
+        },
+        {
+          "title": "Timeline of the second Trump presidency (2025 Q4)",
+          "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q4)"
+        },
+        {
+          "title": "Staff Turnover and Missing Funds: A Tumultuous Week at Trump’s White House",
+          "url": "https://www.usnews.com/news/politics/articles/2026-10-16/staff-turnover-and-missing-funds-a-tumultuous-week-at-trumps-white-house"
+        },
+        {
+          "title": "2026 in Washington, D.C.",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Washington,_D.C."
+        },
+        {
+          "title": "2026 hacking of the Obama White House Instagram",
+          "url": "https://en.wikipedia.org/wiki/2026_hacking_of_the_Obama_White_House_Instagram"
+        },
+        {
+          "title": "Timeline of the first Trump presidency (2020 Q4%E2%80%93January 2021)",
+          "url": "https://en.wikipedia.org/wiki/Timeline_of_the_first_Trump_presidency_(2020_Q4%E2%80%93January_2021)"
+        }
+      ]
+    },
+    {
+      "query": "oil prices Brent October 16 2026",
+      "results": [
+        {
+          "title": "Brent Crude Price at $105 After the IEA’s 20 Million Barrel Diesel Release: Bull and Bear Case",
+          "url": "https://financefeeds.com/brent-crude-oil-price-105-iea-diesel-release-eia-draw-shadow-fleet-bull-110-bear-98/"
+        },
+        {
+          "title": "Brent oil - Price - Chart - Historical Data - News",
+          "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+        },
+        {
+          "title": "Stock Market Today (Oct. 16, 2026): AI 'bubble' worries mount as Nasdaq, Russell 2000 sink on tech declines - TheStreet",
+          "url": "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-16-2026"
+        },
+        {
+          "title": "Brent Crude Oil Price Live",
+          "url": "https://www.oilpriceapi.com/live/brent-crude-oil-price"
+        },
+        {
+          "title": "Oil Prices Today: Brent Holds Steady at $106 as WTI Slips to $97.68 - Arbiterz",
+          "url": "https://arbiterz.com/oil-prices-today-brent-holds-steady-at-106-as-wti-slips-to-97-68"
+        },
+        {
+          "title": "Brent Oil Rises 3.7% to US$109.86 on Supply Fears",
+          "url": "https://www.riotimesonline.com/oil-markets-latam-friday-october-16-2026/"
+        },
+        {
+          "title": "Brent hits US$110 a barrel on October 16 over supply fears",
+          "url": "https://www.nationthailand.com/news/world/40072388"
+        },
+        {
+          "title": "Brent Crude Oil Price Today — Live Chart & Forecast",
+          "url": "https://worldoilmonitor.com/brent"
+        },
+        {
+          "title": "Brent rises to $108.51 per barrel on October 16, 2026 — Fortune",
+          "url": "https://ua.news/en/energetika/brent-podorozhchala-do-108-51-za-barel-16-zhovtnia-2026-roku-fortune"
+        }
+      ]
+    },
+    {
+      "query": "stock market Friday October 16 2026 close Dow S&P Nasdaq",
+      "results": [
+        {
+          "title": "US Stock Market Today: Dow, S&P 500 and Nasdaq Close",
+          "url": "https://hdfcsky.com/news/us-stock-market-close-dow-sp500-nasdaq-october-16-2026"
+        },
+        {
+          "title": "Stock Market News for Oct 16, 2026",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-oct-16-115900532.html"
+        },
+        {
+          "title": "Markets News, Oct. 16, 2026: Nasdaq, S&P 500 End Lower, Post Weekly Losses; AI Stocks Fall; Dow Logs Weekly Gain",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-16-2026-103800633.html"
+        },
+        {
+          "title": "Stock Market Today (Oct. 16, 2026): AI 'bubble' worries mount as Nasdaq, Russell 2000 sink on tech declines - TheStreet",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-16-2026"
+        },
+        {
+          "title": "Closing milestones of the Nasdaq Composite",
+          "url": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite"
+        },
+        {
+          "title": "How major US stock indexes fared Friday 10/16/2026 - ABC News",
+          "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-friday-10162026-137331951"
+        },
+        {
+          "title": "How major US stock indexes fared Friday 10/16/2026 - The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/10/16/wall-street-stocks-dow-nasdaq/b0444434-c99e-11f1-aefb-abe4112d087e_story.html"
+        },
+        {
+          "title": "United States Stock Market Index - Quote - Chart - Historical Data - News",
+          "url": "https://tradingeconomics.com/united-states/stock-market"
+        },
+        {
+          "title": "How major US stock indexes fared Friday 10/16/2026",
+          "url": "https://www.kens5.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-friday-10162026/616-a0bdb55c-653b-410b-bc01-ae1f2a7523c8"
+        },
+        {
+          "title": "Nasdaq",
+          "url": "https://en.wikipedia.org/wiki/Nasdaq"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Russia war news October 17 2026",
+      "results": [
+        {
+          "title": "Russian invasion of Ukraine: Latest news, analysis and videos",
+          "url": "https://www.cnn.com/world/europe/ukraine"
+        },
+        {
+          "title": "Russia-Ukraine war",
+          "url": "https://www.aljazeera.com/tag/ukraine-russia-crisis/"
+        },
+        {
+          "title": "'Only so much he could do'; Zelensky says Ukraine will resume strikes on Russia",
+          "url": "https://www.yahoo.com/news/videos/only-much-could-zelensky-says-145400865.html"
+        },
+        {
+          "title": "Russia strikes 9 Ukrainian regions as strain grows between Zelenskyy and Trump",
+          "url": "https://www.pbs.org/newshour/world/russia-strikes-9-ukrainian-regions-as-strain-grows-between-zelenskyy-and-trump"
+        },
+        {
+          "title": "Russia-Ukraine war: List of key events, day 1,287",
+          "url": "https://www.aljazeera.com/news/2025/9/3/russia-ukraine-war-list-of-key-events-day-1287"
+        },
+        {
+          "title": "Russia-Ukraine war: List of key events, day 1,142",
+          "url": "https://www.aljazeera.com/news/2025/4/11/russia-ukraine-war-list-of-key-events-day-1142"
+        },
+        {
+          "title": "Russia-Ukraine war: List of key events – day 1,082",
+          "url": "https://www.aljazeera.com/news/2025/2/10/russia-ukraine-war-list-of-key-events-day-one-thousand-eighty-two"
+        },
+        {
+          "title": "Russia-Ukraine war: List of key events, day 1,323",
+          "url": "https://www.aljazeera.com/news/2025/10/9/russia-ukraine-war-list-of-key-events-day-1323"
+        },
+        {
+          "title": "Russia-Ukraine war: List of key events, day 413",
+          "url": "https://www.aljazeera.com/news/2023/4/12/russia-ukraine-war-list-of-key-events-day-413"
+        }
+      ]
+    },
+    {
+      "query": "Zacharia press secretary replacement named",
+      "results": [
+        {
+          "title": "White House press secretary Katie Zacharia fired after five days on the job",
+          "url": "https://www.aljazeera.com/news/2026/10/16/white-house-press-secretary-katie-zacharia-fired-after-five-days-on-the-job"
+        },
+        {
+          "title": "Who Could Replace Katie Zacharia? Laura Loomer Eyes White House Role - Newsweek",
+          "url": "https://www.newsweek.com/who-could-replace-katie-zacharia-white-house-press-secretary-12581932"
+        },
+        {
+          "title": "Katie Zacharia",
+          "url": "https://en.wikipedia.org/wiki/Katie_Zacharia"
+        },
+        {
+          "title": "Katie Zacharia Out as White House Press Secretary",
+          "url": "https://www.riotimesonline.com/katie-zacharia-out-as-white-house-press-secretary-2026/"
+        },
+        {
+          "title": "Janine Zacharia",
+          "url": "https://en.wikipedia.org/wiki/Janine_Zacharia"
+        },
+        {
+          "title": "Aqorda Press Secretary",
+          "url": "https://en.wikipedia.org/wiki/Aqorda_Press_Secretary"
+        },
+        {
+          "title": "Katie Zacharia fired",
+          "url": "https://mediabias.news/politics/katie-zacharia-fired-as-white-house-press-secretary-after-four-days"
+        },
+        {
+          "title": "Cesar Chavez named new press secretary – source",
+          "url": "https://newsinfo.inquirer.net/1980280/cesar-chavez-named-new-press-secretary/amp"
+        },
+        {
+          "title": "Cesar Chavez named new press secretary",
+          "url": "https://newsinfo.inquirer.net/1980280/cesar-chavez-named-new-press-secretary"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Patriot interceptors run out AP Russia attack 33 killed",
+      "results": [
+        {
+          "title": "CNN reports Ukraine has run out of Patriot missiles",
+          "url": "https://www.yahoo.com/news/world/articles/cnn-reports-ukraine-run-patriot-182200844.html"
+        },
+        {
+          "title": "Ukraine Runs Out of Patriot Interceptors as Russian Ballistic Strikes Expose Critical Air-Defence Gap - Defence Matters",
+          "url": "https://defencematters.eu/ukraine-patriot-interceptors-exhausted-ballistic-defence/"
+        },
+        {
+          "title": "Ukraine Is Left Without Patriot Missiles to Intercept Russian Ballistic Missiles — CNN",
+          "url": "https://ua.news/en/war-vs-rf/ukrayina-zalishilasia-bez-raket-patriot-dlia-perekhoplennia-rosiiskoyi-balistiki-cnn"
+        },
+        {
+          "title": "Ukraine depletes Patriot missile stock, says CNN source - Newsy Today",
+          "url": "https://www.newsy-today.com/ukraine-depletes-patriot-missile-stock-says-cnn-source/"
+        },
+        {
+          "title": "Patriot air defence system defeats Russia's latest missile attack on Kyiv",
+          "url": "https://news.yahoo.com/patriot-air-defence-system-defeats-153700620.html"
+        },
+        {
+          "title": "Ukraine denies Russia’s claims of destroying Patriot air defense battery",
+          "url": "https://news.yahoo.com/ukraine-denies-russia-claims-destroying-202500186.html"
+        },
+        {
+          "title": "Ukraine Situation Report: Spent Patriot Missile Narrowly Misses Kyiv Motorists",
+          "url": "https://news.yahoo.com/ukraine-situation-report-spent-patriot-234902927.html"
+        },
+        {
+          "title": "Russian missile and drone attacks kill 4 in Ukraine as Zelenskyy pleads for air defense",
+          "url": "https://www.yahoo.com/news/articles/russian-strikes-ukraine-kill-least-071244862.html"
+        },
+        {
+          "title": "Ukraine denies Russia destroyed Patriot missile defence system",
+          "url": "https://news.yahoo.com/ukraine-denies-russia-destroyed-patriot-082959551.html?fr=sycsrp_catchall"
+        }
+      ]
+    },
+    {
+      "query": "Iran news Saturday October 17",
+      "results": [
+        {
+          "title": "Live - Two tankers attacked off Saudi Arabia, one by RPG fired from small boat, UKMTO says",
+          "url": "https://www.iranintl.com/en/liveblog/202610105959"
+        },
+        {
+          "title": "Iran claims oil tanker exploded after hitting mine, CENTCOM chief touts military success in Gulf",
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-10-17/live-updates-911954"
+        },
+        {
+          "title": "Iran releases currency exchange rates for October 17 - Trend.Az",
+          "url": "https://www.trend.az/iran/4235991.html"
+        },
+        {
+          "title": "October 2024 Friday Prayer in Tehran",
+          "url": "https://en.wikipedia.org/wiki/October_2024_Friday_Prayer_in_Tehran"
+        },
+        {
+          "title": "2026 Iran explosions",
+          "url": "https://en.wikipedia.org/wiki/2026_Iran_explosions"
+        },
+        {
+          "title": "2022 in Iran",
+          "url": "https://en.wikipedia.org/wiki/2022_in_Iran"
+        },
+        {
+          "title": "Esmail Baghaei",
+          "url": "https://en.wikipedia.org/wiki/Esmail_Baghaei"
+        },
+        {
+          "title": "Timeline of the 2026 Iran war",
+          "url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war"
+        },
+        {
+          "title": "Iran's Imam Khomeini Port handles $1.5B in exports in six months - Trend.Az",
+          "url": "https://www.trend.az/iran/4235975.html"
+        },
+        {
+          "title": "Iran News in Brief",
+          "url": "https://www.ncr-iran.org/en/news/iran-news-in-brief-october-17-2026/"
+        }
+      ]
+    },
+    {
+      "query": "midterm elections 2026 news October 17 poll Senate",
+      "results": [
+        {
+          "title": "2026 United States elections",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_elections"
+        },
+        {
+          "title": "Senate Election Polls 2026",
+          "url": "https://www.realclearpolling.com/latest-polls/senate"
+        },
+        {
+          "title": "2026 United States Senate elections",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections"
+        },
+        {
+          "title": "2026 Senate Election Interactive Map - 270toWin",
+          "url": "https://www.270towin.com/2026-senate-election/"
+        },
+        {
+          "title": "2026 Pennsylvania elections",
+          "url": "https://en.wikipedia.org/wiki/2026_Pennsylvania_elections"
+        },
+        {
+          "title": "2026 New York State Senate election",
+          "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Senate_election"
+        },
+        {
+          "title": "2026 Midterm Forecast: House and Senate Predictions",
+          "url": "https://www.poliwave.com/us/fed/projection"
+        },
+        {
+          "title": "2026 Midterm Election Predictions & Odds: Live Senate, House & Governor Forecasts",
+          "url": "https://kalshi.com/category/elections/midterms"
+        },
+        {
+          "title": "Why Trump and GOP’s billion-dollar midterm election blitz isn’t working",
+          "url": "https://www.cnbc.com/2026/10/16/republicans-midterms-spending-trump-musk-2026.html"
+        }
+      ]
+    },
+    {
+      "query": "Houthi Saudi Arabia Yemen latest October 17",
+      "results": [
+        {
+          "title": "Saudi conflict with Houthis escalates with new strikes",
+          "url": "https://www.pbs.org/newshour/show/saudi-conflict-with-houthis-escalates-with-new-strikes"
+        },
+        {
+          "title": "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength :: WRAL.com",
+          "url": "https://www.wral.com/news/ap/27173-houthi-strikes-on-saudi-arabia-show-the-yemeni-rebels-growing-strength/"
+        },
+        {
+          "title": "Yemen’s government says Houthis fired two missiles at Aden airport",
+          "url": "https://www.aljazeera.com/news/2026/10/16/yemens-government-says-houthis-fired-two-missiles-at-aden-airport"
+        },
+        {
+          "title": "World condemns deadly Houthi attack on Saudi Arabia’s Riyadh airport",
+          "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+        },
+        {
+          "title": "Saudis launch new strikes on Houthis; Iran-backed group threatens U.S. if it joins in",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-saudi-arabia-houthi/"
+        },
+        {
+          "title": "Live Updates: Iran's president denies nuclear ambitions, says he's ready for talks",
+          "url": "https://cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia"
+        },
+        {
+          "title": "What’s happening in Yemen today",
+          "url": "https://alaskahub.substack.com/p/what-s-happening-in-yemen-today-92820b21be14"
+        },
+        {
+          "title": "Saudi Arabia-led Coalition Intensifies Airstrikes Against Houthis in Yemen",
+          "url": "https://www.globalsecurity.org/military/library/news/2015/03/mil-150329-sputnik02.htm"
+        },
+        {
+          "title": "www.malaymail.com",
+          "url": "https://www.malaymail.com/news/world/2021/04/17/yemens-houthis-say-they-have-hit-saudi-arabias-king-khalid-air-base/1967311"
+        }
+      ]
+    },
+    {
+      "query": "China Japan Asia news October 17 2026",
+      "results": [
+        {
+          "title": "Nikkei Asia - Business, Politics, Economy and Tech News & Analysis",
+          "url": "https://asia.nikkei.com/"
+        },
+        {
+          "title": "China-Japan relations: Latest News and Updates",
+          "url": "https://www.scmp.com/topics/china-japan-relations"
+        },
+        {
+          "title": "China Today (TV program)",
+          "url": "https://en.wikipedia.org/wiki/China_Today_(TV_program)"
+        },
+        {
+          "title": "Asia Pacific Daily",
+          "url": "https://en.wikipedia.org/wiki/Asia_Pacific_Daily"
+        },
+        {
+          "title": "China Breaking News & Headlines",
+          "url": "https://www.scmp.com/news/china"
+        },
+        {
+          "title": "US, China and Japan cut foreign aid to South-East Asia as development finance plummets - ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-11/china-us-japan-cut-aid-to-south-east-asia-lowy-report/107249020"
+        },
+        {
+          "title": "China sends aircraft carrier group into western Pacific - The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/10/14/japan/china-aircraft-carrier-western-pacific-japan/"
+        },
+        {
+          "title": "Japan/China Relations",
+          "url": "https://www.newsnow.com/ng/World/Asia/China/Japan~China"
+        },
+        {
+          "title": "asiadailynews.gumroad.com",
+          "url": "https://asiadailynews.gumroad.com/"
+        },
+        {
+          "title": "Top Asian News 2:19 a.m. GMT",
+          "url": "https://www.yahoo.com/news/top-asian-news-4-03-040000313.html"
+        }
+      ]
+    },
+    {
+      "query": "Sisi Egypt parliament defend Saudi Arabia emergency session",
+      "results": [
+        {
+          "title": "Live - Two tankers attacked off Saudi Arabia, one by RPG fired from small boat, UKMTO says",
+          "url": "https://www.iranintl.com/en/liveblog/202610105959"
+        },
+        {
+          "title": "Egypt’s Sisi says presidential term will end in 2030, rules out constitutional changes",
+          "url": "https://www.aa.com.tr/en/middle-east/egypt-s-sisi-says-presidential-term-will-end-in-2030-rules-out-constitutional-changes/4091797"
+        },
+        {
+          "title": "Egypt’s Sisi says presidential term will end in 2030, rules out constitutional changes",
+          "url": "https://www.anews.com.tr/world/2026/10/17/egypts-sisi-says-presidential-term-will-end-in-2030-rules-out-constitutional-changes"
+        },
+        {
+          "title": "mil 170614 presstv01",
+          "url": "https://www.globalsecurity.org/military/library/news/2017/06/mil-170614-presstv01.htm"
+        },
+        {
+          "title": "Al-Sisi, Bin Salman reaffirm stance against Iranian interference, review pending agreements",
+          "url": "https://www.pressreader.com/egypt/the-daily-news-egypt/20181128/281479277474141"
+        },
+        {
+          "title": "Print Print    Close Close",
+          "url": "https://www.foxnews.com/world/egypt-parliament-in-tumultuous-meet-over-saudi-islands-pact.print"
+        },
+        {
+          "title": "egypt court sides against government in saudi islands case",
+          "url": "https://www.foxnews.com/world/egypt-court-sides-against-government-in-saudi-islands-case"
+        },
+        {
+          "title": "Egypt's president in Saudi Arabia for bilateral talks with king about anti-terrorism force",
+          "url": "https://www.foxnews.com/world/egypts-president-in-saudi-arabia-for-bilateral-talks-with-king-about-anti-terrorism-force.amp"
+        },
+        {
+          "title": "The Custodian of the Two Holy Mosques Chairs Cabinet Session",
+          "url": "https://www.globalsecurity.org/wmd/library/news/saudi/2025/saudi-250826-spa01.htm"
+        }
+      ]
+    },
+    {
+      "query": "Europe news October 16 2026 EU summit Brussels conclusions",
+      "results": [
+        {
+          "title": "Results of the European Council 16 October 2026",
+          "url": "https://irish-presidency.consilium.europa.eu/en/news/results-of-the-european-council-16-october-2026/"
+        },
+        {
+          "title": "Wider Europe Briefing: What To Expect At The EU's October Summit",
+          "url": "https://www.rferl.org/amp/wider-europe-eu-summit-ukraine-funding-russia-sanctions-enlargement/33875302.html"
+        },
+        {
+          "title": "Budget, Ukraine, migration: Five takeaways from the EU leaders’ summit",
+          "url": "https://www.euronews.com/2026/10/16/budget-ukraine-migration-five-takeaways-from-the-eu-leaders-summit"
+        },
+        {
+          "title": "EU summit: Leaders clash over migration, as Denmark, Italy and Poland push for stronger language",
+          "url": "https://www.euronews.com/2026/10/16/eu-summit-leaders-to-rally-behind-zelenskyy-amid-bitter-row-with-trump"
+        },
+        {
+          "title": "1st European Political Community Summit",
+          "url": "https://en.wikipedia.org/wiki/1st_European_Political_Community_Summit"
+        },
+        {
+          "title": "2026 EU%E2%80%93Armenia summit",
+          "url": "https://en.wikipedia.org/wiki/2026_EU%E2%80%93Armenia_summit"
+        },
+        {
+          "title": "Euro summit",
+          "url": "https://en.wikipedia.org/wiki/Euro_summit"
+        },
+        {
+          "title": "2022 EU-Western Balkans summit",
+          "url": "https://en.wikipedia.org/wiki/2022_EU-Western_Balkans_summit"
+        },
+        {
+          "title": "EU Budget Deadlock Sparks Major Brussels Summit Standoff",
+          "url": "https://brusselsmorning.com/eu-budget-deadlock-brussels-summit/105486/"
+        }
+      ]
+    },
+    {
+      "query": "Federal Reserve October 2026 officials comments inflation rate hike",
+      "results": [
+        {
+          "title": "Will the Fed Hike Rates in October? 50 Basis Points in Total Hikes Expected, But Fed Officials Say There's 'No Need for Urgency'",
+          "url": "https://www.chase.com/personal/investments/learning-and-insights/article/will-the-federal-reserve-hike-rates-at-october-2026-fomc-meeting"
+        },
+        {
+          "title": "Fed officials see another hike coming, but no sign as to when, minutes show",
+          "url": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html"
+        },
+        {
+          "title": "Market sees next Fed hike in October, following Barr comments and hot inflation reading",
+          "url": "https://www.cnbc.com/2026/09/23/market-sees-next-fed-hike-in-october-following-barr-comments-hot-inflation.html"
+        },
+        {
+          "title": "Are Fed Officials Changing Their Tone Ahead of October’s FOMC Meeting? Here’s What They’re Saying",
+          "url": "https://www.chase.com/personal/investments/learning-and-insights/article/federal-reserve-officials-hawkish-tone-ahead-of-october-2026-fomc-meeting"
+        },
+        {
+          "title": "Fed Officials Say They’re Troubled By Hot Inflation Data",
+          "url": "https://finance.yahoo.com/economy/policy/articles/fed-officials-troubled-hot-inflation-214237569.html"
+        },
+        {
+          "title": "Fed Hikes in 12-0 Vote, Commits to Inflation Fight",
+          "url": "https://www.schwab.com/learn/story/fomc-meeting"
+        },
+        {
+          "title": "Fed Officials Say They’re Troubled By Hot Inflation Data - AOL",
+          "url": "https://www.aol.com/articles/fed-officials-troubled-hot-inflation-214237000.html"
+        },
+        {
+          "title": "fed officials inflation slower interest rate hikes",
+          "url": "https://fortune.com/2022/11/10/fed-officials-inflation-slower-interest-rate-hikes"
+        },
+        {
+          "title": "federal reserve rate hike william dudley",
+          "url": "https://fortune.com/2016/10/20/federal-reserve-rate-hike-william-dudley"
+        }
+      ]
+    },
+    {
+      "query": "Ebola DR Congo Kenya October 2026",
+      "results": [
+        {
+          "title": "Ebola disease outbreak in the Democratic Republic of the Congo",
+          "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+        },
+        {
+          "title": "2026 Ebola epidemic",
+          "url": "https://en.wikipedia.org/wiki/2026_Ebola_epidemic"
+        },
+        {
+          "title": "Kenya confirms first Ebola case as man dies in Nairobi after DRC return",
+          "url": "https://www.aljazeera.com/news/2026/10/6/kenya-confirms-first-ebola-case-after-patient-from-dr-congo-dies-in-nairobi"
+        },
+        {
+          "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619"
+        },
+        {
+          "title": "Kenya records third Ebola case, linked to first patient who died",
+          "url": "https://www.aljazeera.com/news/2026/10/16/kenya-reports-third-bundibugyo-strain-ebola-case"
+        },
+        {
+          "title": "WHO urges vigilance after Kenya confirms second Ebola case",
+          "url": "https://news.un.org/en/story/2026/10/1168602"
+        },
+        {
+          "title": "DR Congo Ebola cases pass 9,000 as efforts to curb transmission falter",
+          "url": "https://www.aljazeera.com/news/2026/10/13/dr-congo-ebola-cases-pass-9000-as-efforts-to-curb-transmission-falter"
+        },
+        {
+          "title": "Kenya records first Ebola case from Congo outbreak that has killed thousands - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/10/06/kenya-records-first-ebola-case-congo-outbreak-that-has-killed-thousands/"
+        },
+        {
+          "title": "Ebola spreads in eastern DRC as Kenya confirms imported case",
+          "url": "https://www.aljazeera.com/news/2026/10/11/ebola-spreads-in-eastern-drc-as-kenya-confirms-imported-case"
+        },
+        {
+          "title": "2026 Central Africa Ebola epidemic",
+          "url": "https://en.wikipedia.org/wiki/2026_Central_Africa_Ebola_epidemic"
+        }
+      ]
+    },
+    {
+      "query": "White House missing funds staff turnover week AP October 16 2026",
+      "results": [
+        {
+          "title": "Staff Turnover and Missing Funds: A Tumultuous Week at Trump’s White House",
+          "url": "https://www.usnews.com/news/politics/articles/2026-10-16/staff-turnover-and-missing-funds-a-tumultuous-week-at-trumps-white-house"
+        },
+        {
+          "title": "‘Great resignation’ reaches White House with staff turnover",
+          "url": "https://www.wavy.com/news/politics/great-resignation-reaches-white-house-with-staff-turnover/"
+        },
+        {
+          "title": "AP: Trump admin sets record for White House turnover",
+          "url": "https://thehill.com/homenews/395222-ap-trump-admin-sets-record-for-white-house-turnover/"
+        },
+        {
+          "title": "White House Dealing With Sudden Exodus as Staffers Flee",
+          "url": "https://newrepublic.com/post/214515/white-house-exodus-treasury"
+        },
+        {
+          "title": "White House losing staff at increasing rate ahead of midterms",
+          "url": "https://www.msn.com/en-us/news/other/white-house-losing-staff-at-increasing-rate-ahead-of-midterms/ar-AA2dpMiX?ocid=TobArticle"
+        },
+        {
+          "title": "Trump suffers spate of Cabinet turnover, but staffing overall remains stable in second term",
+          "url": "https://www.washingtontimes.com/news/2026/jun/2/trump-suffers-spate-cabinet-turnover-staffing-overall-remains-stable/"
+        },
+        {
+          "title": "donald trump white house staff turnover",
+          "url": "https://globalnews.ca/news/4308275/donald-trump-white-house-staff-turnover"
+        },
+        {
+          "title": "Trump White House sets turnover records, analysis shows",
+          "url": "https://www.nbcnews.com/politics/white-house/trump-white-house-sets-turnover-records-analysis-shows-n888396"
+        },
+        {
+          "title": "globalnews.ca",
+          "url": "https://globalnews.ca/news/4308275/donald-trump-white-house-staff-turnover/amp"
+        },
+        {
+          "title": "‘Great resignation’ reaches White House with staff turnover",
+          "url": "https://www.aol.com/finance/great-resignation-reaches-white-house-195708729-153038235.html"
+        }
+      ]
+    },
+    {
+      "query": "Israel Lebanon Hezbollah Gaza news October 16 2026",
+      "results": [
+        {
+          "title": "Haaretz",
+          "url": "https://www.haaretz.com/"
+        },
+        {
+          "title": "Hezbollah",
+          "url": "https://www.timesofisrael.com/topic/hezbollah/"
+        },
+        {
+          "title": "Arab News",
+          "url": "https://www.arabnews.com/middle-east/lebanon-fears-renewed-war-as-israel-hezbollah-tensions-rise-3006564"
+        },
+        {
+          "title": "Hezbollah vows to compensate owners of Lebanese homes destroyed in war with Israel",
+          "url": "https://www.timesofisrael.com/liveblog_entry/hezbollah-vows-to-compensate-owners-of-lebanese-homes-destroyed-in-war-with-israel/"
+        },
+        {
+          "title": "Lebanon",
+          "url": "https://www.timesofisrael.com/topic/lebanon/"
+        },
+        {
+          "title": "Hezbollah",
+          "url": "https://www.aljazeera.com/tag/hezbollah/"
+        },
+        {
+          "title": "Israel/Lebanon News Today",
+          "url": "https://www.newsnow.com/us/World/Middle+East/Israel~Lebanon"
+        },
+        {
+          "title": "Hezbollah News",
+          "url": "https://www.newsnow.com/ng/World/Middle+East/Lebanon/Hezbollah"
+        },
+        {
+          "title": "Hezbollah acknowledges ownership of explosives seized by Lebanese authorities",
+          "url": "https://middleeastmonitor.com/20261016-hezbollah-acknowledges-ownership-of-explosives-seized-by-lebanese-authorities"
+        }
+      ]
+    },
+    {
+      "query": "Romania drone strike ship Black Sea Poland scrambles jets October 2026",
+      "results": [
+        {
+          "title": "Poland scrambles fighter jets as Russia strikes western Ukraine",
+          "url": "https://www.aljazeera.com/news/2026/10/16/poland-scrambles-fighter-jets-as-russia-strikes-western-ukraine"
+        },
+        {
+          "title": "Drone strike and fire on ship in Romanian waters raise fears that war in Ukraine is spreading",
+          "url": "https://www.clickondetroit.com/news/world/2026/10/15/drone-strike-and-fire-on-ship-in-romanian-waters-raise-fears-that-war-in-ukraine-is-spreading/"
+        },
+        {
+          "title": "Drone strike and fire on ship in Romanian waters raise fears that war in Ukraine is spreading",
+          "url": "https://www.washingtontimes.com/news/2026/oct/15/drone-strike-fire-ship-romanian-waters-raising-fears-war-ukraine/"
+        },
+        {
+          "title": "Drone Strikes in the Black Sea Raise Fears of Russian Escalation to Test NATO's Response",
+          "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/16/drone-strikes-black-sea-raise-fears"
+        },
+        {
+          "title": "Drone strike and fire on ship in Romanian waters raise fears that war in Ukraine is spreading",
+          "url": "https://www.wsls.com/news/world/2026/10/15/drone-strike-and-fire-on-ship-in-romanian-waters-raise-fears-that-war-in-ukraine-is-spreading/"
+        },
+        {
+          "title": "Romania destroys explosive drone near major Black Sea gas project",
+          "url": "https://www.euronews.com/my-europe/2026/08/20/nato-jets-scrambled-as-drone-enters-romanian-airspace"
+        },
+        {
+          "title": "Drone strike on ship in Romanian waters raises fear that war in Ukraine is spreading",
+          "url": "https://www.pbs.org/newshour/world/drone-strike-on-ship-in-romanian-waters-raises-fear-that-war-in-ukraine-is-spreading"
+        },
+        {
+          "title": "Russian jet intercepts Polish plane over Black Sea–Romania",
+          "url": "https://newsinfo.inquirer.net/1765956/russian-jet-intercepts-polish-plane-over-black-sea-romania/amp"
+        },
+        {
+          "title": "Russian jet intercepts Polish plane over Black Sea--Romania | Inquirer News",
+          "url": "https://newsinfo.inquirer.net/1765956/russian-jet-intercepts-polish-plane-over-black-sea-romania"
+        },
+        {
+          "title": "mil 241019 rferl04",
+          "url": "https://www.globalsecurity.org/military/library/news/2024/10/mil-241019-rferl04.htm"
+        }
+      ]
+    },
+    {
+      "query": "IRGC tanker exploded mine Hormuz CENTCOM Cooper October 17",
+      "results": [
+        {
+          "title": "Super tanker ablaze after striking mine in Strait of Hormuz, IRGC says",
+          "url": "https://www.euronews.com/2026/10/17/super-tanker-ablaze-after-striking-mine-in-strait-of-hormuz-irgc-says"
+        },
+        {
+          "title": "Shafaq News..IRGC alleges mine blast on supertanker in Hormuz",
+          "url": "https://shafaq.com/en/World/IRGC-alleges-mine-blast-on-supertanker-in-Hormuz"
+        },
+        {
+          "title": "Iran’s Revolutionary Guard Navy says oil tanker struck mine in Strait of Hormuz",
+          "url": "https://tribune.com.pk/story/2634380/irans-revolutionary-guard-navy-says-oil-tanker-struck-mine-in-strait-of-hormuz"
+        },
+        {
+          "title": "Tanker explodes after hitting mine in Strait of Hormuz: Iran’s IRGC",
+          "url": "https://english.alarabiya.net/News/middle-east/2026/10/17/tanker-explodes-after-hitting-mine-in-strait-of-hormuz-iran-s-irgc"
+        },
+        {
+          "title": "IRGC say tanker on fire after hitting mine in Strait of Hormuz",
+          "url": "https://www.newarab.com/news/irgc-say-tanker-exploded-after-hitting-mine-hormuz-strait"
+        },
+        {
+          "title": "CENTCOM claims Iran unable to finance proxy militia amid US naval blockade",
+          "url": "https://aninews.in/news/world/us/centcom-claims-iran-unable-to-finance-proxy-militia-amid-us-naval-blockade20261017140900/"
+        },
+        {
+          "title": "Iranian seizure of the tanker Talara",
+          "url": "https://en.wikipedia.org/wiki/Iranian_seizure_of_the_tanker_Talara"
+        },
+        {
+          "title": "Oil Tanker explodes in Hormuz after hitting naval mine: IRGC - Mehr News Agency",
+          "url": "https://en.mehrnews.com/news/248631/Oil-Tanker-explodes-in-Hormuz-after-hitting-naval-mine-IRGC"
+        },
+        {
+          "title": "Bridgeton incident",
+          "url": "https://en.wikipedia.org/wiki/Bridgeton_incident"
+        }
+      ]
+    },
+    {
+      "query": "Latin America news October 16 2026 Venezuela Colombia Mexico",
+      "results": [
+        {
+          "title": "Latin America News: Breaking News and Analysis on Latin America Politics, Business & More",
+          "url": "https://www.nbcnews.com/news/latin-america"
+        },
+        {
+          "title": "Latest News From Latin America and Africa",
+          "url": "https://www.riotimesonline.com/latest-news/"
+        },
+        {
+          "title": "Latin American Union of News Agencies",
+          "url": "https://en.wikipedia.org/wiki/Latin_American_Union_of_News_Agencies"
+        },
+        {
+          "title": "Venezuela News in English",
+          "url": "https://www.riotimesonline.com/latin-america/venezuela/"
+        },
+        {
+          "title": "Latin America - Latest News",
+          "url": "https://www.breitbart.com/latin-america/"
+        },
+        {
+          "title": "LatinNews",
+          "url": "https://www.latinnews.com/"
+        },
+        {
+          "title": "LatinAmerican Post - What is happening in Latin America?",
+          "url": "https://latinamericanpost.com/"
+        },
+        {
+          "title": "Sitemap - 2017 - Latin America Daily Briefing",
+          "url": "https://latinamericadailybriefing.substack.com/sitemap/2017"
+        },
+        {
+          "title": "Latin America Risk Report",
+          "url": "https://boz.substack.com/p/crime-and-security-updates-5-april"
+        }
+      ]
+    }
+  ],
+  "fetched": [],
   "meta": {
     "id": "2026-10-17",
     "generated_at": "2026-10-17T10:22:44.012Z",
     "model": "claude-opus-5-5",
     "via": "claude-code-routine",
     "searches": 21,
-    "source_count": 62
+    "reported_source_count": 62,
+    "results_count": 192,
+    "cited_count": null,
+    "provenance_note": "This edition was published before per-section source links were recorded. On October 17 its complete search log was recovered from the routine session's transcript and is listed below; each section shows the outlets it credited. The run reported citing 62 sources."
   }
 }

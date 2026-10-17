@@ -8,14 +8,23 @@ what it does.
 
 1. **Repository.** Work in `stefanpfriend/stefanfriend.com` on `main`. If it isn't in the
    session, attach it with push access, then clone it. Run `git pull --ff-only origin main`.
-2. **Research.** Follow the analyst brief in `SYSTEM_PROMPT` in `scripts/briefing/lib.mjs`:
-   search today's news across US, European, Asian, and Middle Eastern outlets with web
-   search (about 15–20 searches, aiming for 60 distinct sources). Prefer primary reporting
-   (wire services, major papers, official statements). Count the searches you run and the
-   distinct source URLs you read.
+2. **Research, and log everything.** Follow the analyst brief in `SYSTEM_PROMPT` in
+   `scripts/briefing/lib.mjs`: search today's news across US, European, Asian, and Middle
+   Eastern outlets with web search (about 15–20 searches, aiming for 60 distinct sources).
+   Prefer primary reporting (wire services, major papers, official statements).
+   The briefing publishes a public page listing every source, so keep a complete record as
+   you go:
+   - After **every** search, add `{ "query": <the exact query>, "results": [ { "title", "url" }, … ] }`
+     to a `searches` list, with **every** result link exactly as returned, including ones
+     you didn't use. Don't skip or tidy up searches.
+   - If you open a page (web fetch), add `{ "title", "url" }` to a `fetched` list.
 3. **Write the JSON.** Write one object matching `SCHEMA_EXAMPLE` in `lib.mjs` to a temp
-   file outside the repo (for example `/tmp/briefing-raw.json`):
+   file outside the repo (for example `/tmp/briefing-raw.json`), including `searches`
+   and `fetched` from step 2:
    - 6–8 sections; every paragraph has a short `heading` and a `body`.
+   - Every section has `citations`: `{ "outlet", "title", "url" }` for each source its
+     claims rest on. Copy URLs exactly from your search results or fetched pages. The
+     publish step rejects any cited URL that isn't in your log.
    - Inline emphasis only as `[[TAG:variant:label]]`, variant one of `danger`, `warning`,
      `info`, `success`; labels one to four words.
    - `summary` under 100 characters; `edition` a short all-caps theme label, never blank.
@@ -23,16 +32,19 @@ what it does.
    - Plain text only: no HTML, no Markdown, no links inside strings.
    - Report only what sources say. Attribute contested claims ("according to …").
      Don't speculate or editorialize, and don't include anything you could not verify
-     today.
+     today. When outlets disagree on a figure, say so.
 4. **Publish.** Run
-   `node scripts/briefing/publish.mjs /tmp/briefing-raw.json --searches <N> --sources <N> --model <your model id>`.
-   If it fails, fix the JSON and run it again. Never hand-edit files in `lab/briefing/data/`.
+   `node scripts/briefing/publish.mjs /tmp/briefing-raw.json --model <your model id>`.
+   It validates the briefing and computes the source counts from your log; the public
+   sources page (`/lab/briefing/sources/?d=YYYY-MM-DD`) renders straight from the
+   published JSON. If it fails, fix the JSON (never by inventing or removing log
+   entries) and run it again. Never hand-edit files in `lab/briefing/data/`.
 5. **Commit and push.** Stage only `lab/briefing/data/`. Commit as
    `Daily briefing YYYY-MM-DD` (date in America/New_York) and push to `main`. If the push
    is rejected, `git pull --rebase origin main` and push again (up to three tries). Don't
    commit or change any other file.
-6. **Finish.** End with one line: the edition label, the section count, and the commit
-   hash. If anything failed, push nothing and end with what failed.
+6. **Finish.** End with one line: the edition label, the section count, the cited-source
+   and search counts, and the commit hash. If anything failed, push nothing and end with what failed.
 
 ## Rules
 

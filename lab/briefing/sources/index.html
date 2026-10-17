@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sources — Daily Intelligence Briefing</title>
+<meta name="description" content="Every search, result and citation behind each edition of the Daily Intelligence Briefing, plus a running log of all editions.">
+<link rel="canonical" href="https://stefanfriend.com/lab/briefing/sources/">
+<meta property="og:title" content="Sources — Daily Intelligence Briefing">
+<meta property="og:description" content="Every search, result and citation behind each edition of the Daily Intelligence Briefing.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://stefanfriend.com/lab/briefing/sources/">
+<meta name="theme-color" content="#0f172a">
+<style>
+:root{--s950:#020617;--s900:#0f172a;--s800:#1e293b;--s400:#94a3b8;--s300:#cbd5e1;--red:#ef4444;--red4:#f87171;--amber:#fbbf24;--green:#4ade80;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{background:var(--s900);-webkit-font-smoothing:antialiased}
+body{font-family:var(--font);color:var(--s300);min-height:100vh;background:linear-gradient(135deg,var(--s900),var(--s800) 50%,var(--s900)) fixed;line-height:1.55}
+a{color:var(--amber);text-decoration:none}a:hover{text-decoration:underline}
+:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip{position:absolute;left:1rem;top:-100px;background:var(--amber);color:var(--s900);padding:.5rem 1rem;border-radius:6px;font-weight:700}.skip:focus{top:.5rem}
+.strip{background:var(--s950);border-bottom:1px solid rgba(255,255,255,.06);padding:.6rem 1.25rem;font-size:13px;color:var(--s400);display:flex;flex-wrap:wrap;gap:.4rem .9rem;align-items:center}
+.strip a{color:var(--s300)}
+main{max-width:820px;margin:0 auto;padding:2rem 1rem 3rem}
+main:focus{outline:none}
+.kicker{color:var(--red);font-size:12px;font-weight:700;letter-spacing:.25em;text-transform:uppercase}
+h1{color:#fff;font-size:26px;line-height:1.2;margin:.4rem 0 .3rem;display:flex;flex-wrap:wrap;gap:.6rem;align-items:center}
+.badge{font-size:10px;font-weight:700;letter-spacing:.1em;color:var(--amber);background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.25);border-radius:6px;padding:.25rem .5rem}
+.sub{color:var(--s400);font-size:14px}
+.lede{margin-top:1rem;font-size:15px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.6rem;margin:1.25rem 0}
+.stat{background:rgba(30,41,59,.7);border:1px solid rgba(148,163,184,.12);border-radius:12px;padding:.8rem 1rem}
+.stat b{display:block;font-size:24px;color:#fff;line-height:1.1}.stat span{font-size:12px;color:var(--s400)}
+.actions{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;font-size:14px;margin-bottom:1.25rem}
+.note{border:1px solid rgba(239,68,68,.3);background:rgba(239,68,68,.04);border-radius:12px;padding:.9rem 1.1rem;font-size:14px;margin:1rem 0 1.25rem}
+.note strong{color:#fff}
+h2{color:#fff;font-size:19px;margin:2rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid rgba(148,163,184,.15)}
+h3{color:#fff;font-size:16px;margin-bottom:.35rem}
+.card{border-left:4px solid var(--red);background:rgba(30,41,59,.7);border-radius:0 12px 12px 0;padding:.9rem 1.1rem;margin-bottom:.75rem;scroll-margin-top:1rem}
+.card:target{box-shadow:0 0 0 2px var(--amber)}
+.outlets{font-size:13px;color:var(--s400);margin-bottom:.5rem}
+ul.links{list-style:none;display:grid;gap:.45rem}
+ul.links li{font-size:14px;overflow-wrap:anywhere}
+.site{color:var(--s400);font-size:12px;margin-left:.35rem}
+.cited{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--green);border:1px solid rgba(34,197,94,.35);background:rgba(34,197,94,.12);border-radius:9999px;padding:0 .45rem;margin-left:.4rem;vertical-align:.1em}
+ol.searches{list-style:none;display:grid;gap:.75rem}
+ol.searches>li{background:rgba(30,41,59,.5);border:1px solid rgba(148,163,184,.1);border-radius:12px;padding:.8rem 1rem}
+.q{color:#fff;font-weight:600;font-size:14px;margin-bottom:.45rem}
+.q .i{color:var(--red4)}.q .n{color:var(--s400);font-weight:400;font-size:12px}
+details{margin-top:.5rem}summary{cursor:pointer;color:var(--amber);font-size:14px}
+.pager{display:flex;justify-content:space-between;gap:1rem;margin-top:2rem;font-size:14px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:.6rem .5rem;border-bottom:1px solid rgba(148,163,184,.12);vertical-align:top}
+th{color:var(--s400);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.foot{margin-top:2.5rem;padding-top:1rem;border-top:1px solid rgba(51,65,85,.3);font-size:12px;color:var(--s400);text-align:center}
+@media (max-width:560px){.hide-sm{display:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="strip"><a href="/">← stefanfriend</a><span aria-hidden="true">/</span><a href="/lab/">lab</a><span aria-hidden="true">/</span><a href="/lab/briefing/">briefing</a><span aria-hidden="true">/</span><span id="crumb" aria-current="page">sources</span></div>
+<main id="main" tabindex="-1">
+  <p class="sub" id="status" role="status">Loading sources…</p>
+  <noscript><p class="note">This page needs JavaScript to display. The raw records are in <a href="/lab/briefing/data/index.json">data/index.json</a> and <a href="/lab/briefing/data/editions/">data/editions/</a>.</p></noscript>
+  <div id="app"></div>
+  <p class="foot">Generated automatically by an AI model from web sources and not reviewed by a person before publishing. Source links point to third-party sites. <a href="/lab/">Back to the Lab</a></p>
+</main>
+<script>
+(function () {
+  'use strict';
+  var app = document.getElementById('app');
+  var statusEl = document.getElementById('status');
+
+  function h(tag, attrs) {
+    var el = document.createElement(tag);
+    if (attrs) Object.keys(attrs).forEach(function (k) {
+      var v = attrs[k];
+      if (v == null || v === false) return;
+      if (k === 'class') el.className = v;
+      else if (k === 'text') el.textContent = v;
+      else el.setAttribute(k, String(v));
+    });
+    for (var i = 2; i < arguments.length; i++) add(el, arguments[i]);
+    return el;
+  }
+  function add(el, c) {
+    if (c == null || c === false) return;
+    if (Array.isArray(c)) { c.forEach(function (x) { add(el, x); }); return; }
+    el.appendChild(typeof c === 'string' || typeof c === 'number' ? document.createTextNode(String(c)) : c);
+  }
+  function str(v) { return typeof v === 'string' ? v : ''; }
+  function safeUrl(u) {
+    try { var x = new URL(u); return (x.protocol === 'https:' || x.protocol === 'http:') ? x.href : null; } catch (e) { return null; }
+  }
+  function key(u) {
+    try { var x = new URL(u); x.hash = ''; return (x.host.toLowerCase().replace(/^www\./, '') + x.pathname.replace(/\/+$/, '') + x.search).toLowerCase(); } catch (e) { return ''; }
+  }
+  function site(u) { try { return new URL(u).host.replace(/^www\./, ''); } catch (e) { return ''; } }
+  function ext(u, text) {
+    var href = safeUrl(u);
+    if (!href) return h('span', { text: text || str(u) });
+    return h('a', { href: href, rel: 'noopener noreferrer nofollow', target: '_blank', text: text || href });
+  }
+  function plural(n, w) { return n + ' ' + w + (n === 1 ? '' : 's'); }
+  function fmtTime(iso) {
+    var d = new Date(iso); if (isNaN(d)) return '';
+    return d.toLocaleString('en-US', { timeZone: 'America/New_York', weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit' }) + ' ET';
+  }
+  function stat(n, label) { return h('div', { class: 'stat' }, h('b', { text: String(n) }), h('span', { text: label })); }
+  function getJSON(url) {
+    return fetch(url, { cache: 'no-cache' }).then(function (r) { if (!r.ok) { var e = new Error('HTTP ' + r.status); e.status = r.status; throw e; } return r.json(); });
+  }
+  function done(title) { statusEl.textContent = ''; statusEl.hidden = true; document.title = title; }
+
+  // ---------- One edition ----------
+  function renderDay(e, index) {
+    var meta = e.meta || {};
+    var searches = Array.isArray(e.searches) ? e.searches : [];
+    var fetched = Array.isArray(e.fetched) ? e.fetched : [];
+    var sections = Array.isArray(e.sections) ? e.sections : [];
+    var citedKeys = {};
+    sections.forEach(function (s) { (s.citations || []).forEach(function (c) { citedKeys[key(c.url)] = true; }); });
+    var all = {}, order = [];
+    function remember(r) { var k = key(r.url); if (k && !all[k]) { all[k] = r; order.push(k); } }
+    searches.forEach(function (q) { (q.results || []).forEach(remember); });
+    fetched.forEach(remember);
+    sections.forEach(function (s) { (s.citations || []).forEach(remember); });
+    var bySite = {};
+    order.forEach(function (k) { var s = site(all[k].url); (bySite[s] = bySite[s] || []).push(all[k]); });
+    var sites = Object.keys(bySite).sort();
+    function badge(u) { return citedKeys[key(u)] ? h('span', { class: 'cited', text: 'cited' }) : null; }
+    var citedCount = meta.cited_count != null ? meta.cited_count : Object.keys(citedKeys).length || null;
+
+    var pos = index.map(function (x) { return x.id; }).indexOf(e.id);
+    var newer = pos > 0 ? index[pos - 1].id : null;
+    var older = pos > -1 && pos < index.length - 1 ? index[pos + 1].id : null;
+
+    document.getElementById('crumb').textContent = 'sources / ' + e.id;
+    app.replaceChildren(h('div', null,
+      h('p', { class: 'kicker', text: 'Sources' }),
+      h('h1', null, 'Every source behind this briefing', h('span', { class: 'badge', text: str(e.edition) })),
+      h('p', { class: 'sub', text: str(e.date) }),
+      h('p', { class: 'lede', text: 'Every web search the model ran for this edition, every result it got back, any page it opened, and the links each section cites. Nothing is filtered out.' }),
+      h('div', { class: 'stats' },
+        citedCount != null ? stat(citedCount, 'sources cited') : null,
+        stat(meta.searches != null ? meta.searches : searches.length, 'searches run'),
+        stat(meta.results_count != null ? meta.results_count : order.length, 'links returned'),
+        stat(sites.length, 'distinct sites')),
+      h('div', { class: 'actions' },
+        h('a', { href: '/lab/briefing/?d=' + encodeURIComponent(e.id), text: 'Read this briefing →' }),
+        h('a', { href: '/lab/briefing/data/editions/' + encodeURIComponent(e.id) + '.json', text: 'Raw data (JSON)' }),
+        h('a', { href: '/lab/briefing/sources/', text: 'All days' })),
+      meta.provenance_note ? h('div', { class: 'note' }, h('strong', { text: 'About this record. ' }), str(meta.provenance_note)) : null,
+      meta.generated_at ? h('p', { class: 'sub', text: 'Generated ' + fmtTime(meta.generated_at) + ' by ' + (str(meta.model) || 'Claude') + (meta.via === 'claude-code-routine' ? ' in a Claude Code routine.' : meta.via === 'api' ? ' via the Anthropic API.' : '.') }) : null,
+
+      h('h2', { id: 'cited', text: 'Cited, by section' }),
+      sections.map(function (s, i) {
+        var cites = Array.isArray(s.citations) ? s.citations : [];
+        return h('section', { class: 'card', id: 's' + (i + 1), 'aria-labelledby': 's' + (i + 1) + 'h' },
+          h('h3', { id: 's' + (i + 1) + 'h', text: (str(s.icon) ? str(s.icon) + ' ' : '') + str(s.title) }),
+          str(s.sources) ? h('p', { class: 'outlets', text: 'Credited: ' + str(s.sources) }) : null,
+          cites.length
+            ? h('ul', { class: 'links' }, cites.map(function (c) {
+                return h('li', null, str(c.outlet) ? [h('strong', { text: str(c.outlet) }), ' · '] : null, ext(c.url, str(c.title)), h('span', { class: 'site', text: site(c.url) }));
+              }))
+            : h('p', { class: 'outlets', text: 'No per-section links were recorded for this edition. Every search and result is listed below.' }));
+      }),
+
+      h('h2', { id: 'searches', text: 'Every search (' + searches.length + ')' }),
+      searches.length
+        ? h('ol', { class: 'searches' }, searches.map(function (q, i) {
+            var res = Array.isArray(q.results) ? q.results : [];
+            return h('li', null,
+              h('p', { class: 'q' }, h('span', { class: 'i', text: (i + 1) + '. ' }), str(q.query), h('span', { class: 'n', text: ' · ' + plural(res.length, 'result') })),
+              h('ul', { class: 'links' }, res.map(function (r) { return h('li', null, ext(r.url, str(r.title)), h('span', { class: 'site', text: site(r.url) }), badge(r.url)); })));
+          }))
+        : h('p', { class: 'outlets', text: 'No search log was recorded for this edition.' }),
+
+      fetched.length ? [
+        h('h2', { id: 'opened', text: 'Pages opened (' + fetched.length + ')' }),
+        h('ul', { class: 'links' }, fetched.map(function (r) { return h('li', null, ext(r.url, str(r.title)), h('span', { class: 'site', text: site(r.url) }), badge(r.url)); }))
+      ] : null,
+
+      h('h2', { id: 'all', text: 'All ' + order.length + ' links, by site' }),
+      h('details', null, h('summary', { text: 'Show ' + plural(sites.length, 'site') }),
+        sites.map(function (s) {
+          return [h('h3', { style: 'margin-top:1rem' }, s, h('span', { class: 'site', text: String(bySite[s].length) })),
+            h('ul', { class: 'links' }, bySite[s].map(function (r) { return h('li', null, ext(r.url, str(r.title)), badge(r.url)); }))];
+        })),
+
+      h('nav', { class: 'pager', 'aria-label': 'Other days' },
+        older ? h('a', { href: '?d=' + encodeURIComponent(older), text: '← ' + older }) : h('span'),
+        newer ? h('a', { href: '?d=' + encodeURIComponent(newer), text: newer + ' →' }) : h('span'))
+    ));
+    done('Sources · ' + str(e.date) + ' — Daily Intelligence Briefing');
+    if (location.hash) { var t = document.getElementById(location.hash.slice(1)); if (t) t.scrollIntoView(); }
+  }
+
+  // ---------- Running log ----------
+  function renderLog(index) {
+    function sum(f) { return index.reduce(function (n, e) { return n + (e[f] || 0); }, 0); }
+    app.replaceChildren(
+      h('p', { class: 'kicker', text: 'Sources log' }),
+      h('h1', { text: 'Every edition, every source' }),
+      h('p', { class: 'lede', text: 'A running log of the Daily Intelligence Briefing. Each day has its own page with every search the model ran, every result it saw, and every link it cited. Editions are never deleted.' }),
+      h('div', { class: 'stats' }, stat(index.length, 'editions'), stat(sum('searches'), 'searches run'), stat(sum('results_count'), 'links returned')),
+      index.length ? h('table', null,
+        h('thead', null, h('tr', null,
+          h('th', { scope: 'col', text: 'Edition' }), h('th', { scope: 'col', class: 'hide-sm', text: 'Theme' }),
+          h('th', { scope: 'col', text: 'Cited' }), h('th', { scope: 'col', text: 'Searches' }),
+          h('th', { scope: 'col', class: 'hide-sm', text: 'Links' }), h('th', { scope: 'col' }, h('span', { class: 'sr-only', text: 'Briefing' })))),
+        h('tbody', null, index.map(function (e) {
+          return h('tr', null,
+            h('td', null, h('a', { href: '?d=' + encodeURIComponent(e.id), text: str(e.date) || e.id })),
+            h('td', { class: 'hide-sm', text: str(e.edition) }),
+            h('td', { class: 'num', text: e.cited_count != null ? String(e.cited_count) : '—' }),
+            h('td', { class: 'num', text: e.searches != null ? String(e.searches) : '—' }),
+            h('td', { class: 'num hide-sm', text: e.results_count != null ? String(e.results_count) : '—' }),
+            h('td', null, h('a', { href: '/lab/briefing/?d=' + encodeURIComponent(e.id), text: 'Read' })));
+        }))) : h('p', { class: 'sub', text: 'No editions yet.' })
+    );
+    done('Sources log — Daily Intelligence Briefing');
+  }
+
+  var id = new URLSearchParams(location.search).get('d');
+  var valid = id && /^\d{4}-\d{2}-\d{2}$/.test(id);
+  getJSON('/lab/briefing/data/index.json').catch(function () { return { editions: [] }; }).then(function (x) {
+    var index = Array.isArray(x.editions) ? x.editions : [];
+    if (!valid) { renderLog(index); return; }
+    return getJSON('/lab/briefing/data/editions/' + id + '.json').then(function (e) { e.id = e.id || id; renderDay(e, index); });
+  }).catch(function (err) {
+    statusEl.textContent = err && err.status === 404 ? 'There is no edition for ' + id + '.' : 'The sources couldn’t be loaded. Check your connection and try again.';
+    app.replaceChildren(h('p', { class: 'actions' }, h('a', { href: '/lab/briefing/sources/', text: 'See all days →' })));
+  });
+})();
+</script>
+</body>
+</html>

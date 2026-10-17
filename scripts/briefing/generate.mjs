@@ -6,7 +6,7 @@
 // edition stays live.
 
 import Anthropic from "@anthropic-ai/sdk";
-import { SYSTEM_PROMPT, SCHEMA_EXAMPLE, todayParts, extractJSON, normalize, writeEdition } from "./lib.mjs";
+import { SYSTEM_PROMPT, SCHEMA_EXAMPLE, todayParts, extractJSON, normalize, sourceStats, writeEdition } from "./lib.mjs";
 
 const MODEL = "claude-sonnet-5-5";
 const MAX_CONTINUATIONS = 8;
@@ -24,12 +24,11 @@ async function main() {
 Return a JSON object with exactly this shape:
 ${SCHEMA_EXAMPLE}
 
-Tag variants for [[TAG:variant:label]] are danger, warning, info, and success. Keep tags short (one to four words). Every paragraph needs a "heading". Your final message must be the JSON object only.`,
+Tag variants for [[TAG:variant:label]] are danger, warning, info, and success. Keep tags short (one to four words). Every paragraph needs a "heading". Every section needs "citations": the outlet, title and exact URL of each search result it relies on (copy URLs exactly from the search results). Leave "searches" and "fetched" out; they are recorded automatically. Your final message must be the JSON object only.`,
   }];
 
   let final;
-  const searchResultUrls = new Set();
-  let searches = 0;
+  const searchLog = new Map(); // tool_use_id -> { query, results }
   const usage = { input_tokens: 0, output_tokens: 0, cache_read_input_tokens: 0 };
 
   for (let turn = 0; turn <= MAX_CONTINUATIONS; turn++) {
@@ -47,10 +46,14 @@ Tag variants for [[TAG:variant:label]] are danger, warning, info, and success. K
     usage.input_tokens += msg.usage?.input_tokens || 0;
     usage.output_tokens += msg.usage?.output_tokens || 0;
     usage.cache_read_input_tokens += msg.usage?.cache_read_input_tokens || 0;
-    searches += msg.usage?.server_tool_use?.web_search_requests || 0;
     for (const block of msg.content) {
+      if (block.type === "server_tool_use" && block.name === "web_search") {
+        searchLog.set(block.id, { query: String(block.input?.query || ""), results: [] });
+      }
       if (block.type === "web_search_tool_result" && Array.isArray(block.content)) {
-        for (const r of block.content) if (r?.url) searchResultUrls.add(r.url);
+        const entry = searchLog.get(block.tool_use_id) || { query: "(query not recorded)", results: [] };
+        for (const r of block.content) if (r?.url) entry.results.push({ title: r.title || "", url: r.url });
+        searchLog.set(block.tool_use_id, entry);
       }
     }
 
@@ -76,18 +79,15 @@ Tag variants for [[TAG:variant:label]] are danger, warning, info, and success. K
   if (!text.includes("{")) text = blocks.filter((b) => b.type === "text").map((b) => b.text).join("");
   if (!text.trim()) throw new Error(`No text in the final response (stop_reason: ${final.stop_reason})`);
 
-  const briefing = normalize(extractJSON(text), long);
-  briefing.meta = {
-    id: iso,
-    generated_at: generatedAt,
-    model: final.model || MODEL,
-    searches,
-    source_count: searchResultUrls.size,
-    usage,
-  };
+  // The search log comes from the API's own tool blocks, not from the model's text.
+  const raw = extractJSON(text);
+  raw.searches = [...searchLog.values()];
+  raw.fetched = [];
+  const briefing = normalize(raw, long);
+  briefing.meta = { id: iso, generated_at: generatedAt, model: final.model || MODEL, via: "api", ...sourceStats(briefing), usage };
 
   writeEdition(briefing, iso);
-  console.log(`Wrote ${iso}: ${briefing.edition}, ${briefing.sections.length} sections, ${searches} searches, ${searchResultUrls.size} sources`);
+  console.log(`Wrote ${iso}: ${briefing.edition}, ${briefing.sections.length} sections, ${briefing.meta.searches} searches, ${briefing.meta.cited_count} cited sources`);
   console.log(`Usage: ${JSON.stringify(usage)}`);
 }
 
