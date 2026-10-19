@@ -1,1371 +1,1295 @@
 {
-  "date": "Sunday, October 18, 2026",
+  "date": "Monday, October 19, 2026",
   "edition": "WARTIME EDITION",
-  "tldr_label": "TL;DR — Iran claims more Hormuz mine strikes as Trump waives Russia sanctions and France erupts",
+  "tldr_label": "TL;DR — Trump and Tehran trade threats as Lavrov lands in Iran and Kyiv defies Washington",
   "tldr_bullets": [
     {
-      "label": "Hormuz",
-      "body": "Iran's Revolutionary Guard says two tankers, each carrying about 2 million barrels, hit mines in the strait on Saturday; there was no independent confirmation. [[TAG:danger:unverified claim]]"
-    },
-    {
-      "label": "Russia sanctions",
-      "body": "Trump signed an order waiving Graham Act sanctions and tariffs on Russia before they took effect, drawing bipartisan criticism and condemnation from Zelenskyy."
+      "label": "Iran",
+      "body": "After Trump said the US would soon 'finish the job', Iran's foreign minister replied 'want to try your luck again?'; Russia's Lavrov is in Tehran Monday for talks aimed at averting a return to large-scale war."
     },
     {
       "label": "Ukraine",
-      "body": "Russia hit more than 15 power facilities in what Zelenskyy called one of the largest strikes on Ukraine's grid; at least seven were killed, per regional officials."
+      "body": "Russia says it downed 1,015 Ukrainian drones overnight into Sunday as Kyiv hit a St. Petersburg oil terminal; Trump said Zelensky 'doesn't want to end this war'. [[TAG:danger:US-Kyiv rupture]]"
     },
     {
-      "label": "France",
-      "body": "PM Sébastien Lecornu said 1,200 people were detained and 150 officers injured in nationwide cost-of-living protests tied to war-driven fuel prices. [[TAG:warning:unrest spreads]]"
+      "label": "China",
+      "body": "Third-quarter GDP grew 4.5% year on year, beating the 4.4% consensus on strong exports."
     },
     {
-      "label": "Midterms",
-      "body": "Trump rallied in Kentucky and said the Iran war would end soon; early voting data shows Democrats outvoting Republicans in Iowa and North Carolina."
+      "label": "Oil",
+      "body": "Brent fell about 2% to near $108 in Asian trading after Trump's Russia sanctions waiver, off Friday's five-month high near $110."
     },
     {
-      "label": "Week ahead",
-      "body": "China reports third-quarter GDP Monday, with economists expecting about 4.4%; Tesla, Meta and Netflix headline US earnings."
+      "label": "Polls",
+      "body": "Trump's approval hit a record-low 33% in the Washington Post-ABC-Ipsos poll; Texas early voting opens Monday with Talarico narrowly ahead of Paxton."
+    },
+    {
+      "label": "Ebola",
+      "body": "Kenya confirmed its eighth Ebola case as Congo's outbreak spread to an eighth province."
     }
   ],
   "sections": [
     {
       "title": "Iran War and the Strait of Hormuz",
       "icon": "🔥",
-      "summary": "IRGC says two tankers hit mines; US weighs strike options as Trump says Iran is 'ready to fold up'",
+      "summary": "Trump vows to 'finish the job'; Araghchi dares him to 'try your luck'; Lavrov arrives in Tehran",
       "paragraphs": [
         {
-          "heading": "Mine strikes claimed",
-          "body": "Iran's Revolutionary Guard navy said two oil tankers, each carrying about 2 million barrels, caught fire after hitting mines in the Strait of Hormuz on Saturday, according to IRNA as reported by gCaptain and Modern Diplomacy. The IRGC said the ships had switched off tracking systems and used an unauthorized route; it did not name the vessels, their flags or any casualties. Early reports described only one tanker, and there was no independent confirmation. [[TAG:danger:unconfirmed]]"
+          "heading": "War of words",
+          "body": "Trump said Washington would soon 'finish the job' against Iran unless Tehran changed course. Foreign Minister Abbas Araghchi replied on X that Iran emerged stronger from the last round and asked 'want to try your luck again?', adding 'we have unfinished jobs too', The Hill and JNS reported. Araghchi accused Netanyahu of pushing Washington toward another war. [[TAG:warning:escalating rhetoric]]"
         },
         {
-          "heading": "Record attacks",
-          "body": "UK Maritime Trade Operations said at least 10 vessels were attacked in or near the strait in the past week, CBS News reported, as attacks reached a record pace. CENTCOM's commander said the US naval blockade has kept Iran from exporting about $25 billion of oil. [[TAG:warning:shipping risk]]"
+          "heading": "Lavrov in Tehran",
+          "body": "Russian Foreign Minister Sergey Lavrov is in Tehran on Monday to meet Araghchi and President Masoud Pezeshkian. Lavrov said the talks aim at 'preventing the return of a large-scale war' and called for a return to the Pakistan-brokered framework that collapsed in July, CBS News and Kurdistan24 reported. Iran's foreign ministry framed the trip as consultations on bilateral agreements, according to Anadolu. [[TAG:info:mediation push]]"
         },
         {
-          "heading": "US options",
-          "body": "ABC News reported that officials have prepared a range of strike options for Trump, including the GBU-43/B Massive Ordnance Air Blast bomb. Trump has ruled out nuclear weapons and said he will not resume strikes before the November 3 midterms; CBS reported he said Iran is 'ready to fold up' and the US would win 'right after the election'."
-        },
-        {
-          "heading": "Tehran's line",
-          "body": "Iran's parliament speaker said the country must prepare for war even while negotiating, and an army spokesperson said the strait would reopen 'if America leaves the region', according to CBS News and Fox News. Iraq's foreign minister said his country has lost about $60 billion during the war."
+          "heading": "Hormuz still choked",
+          "body": "The UK navy counted 10 attacks on commercial ships in and near the strait last week, making October the worst month since the war's early days, CBS News reported. Araghchi said Iran's offer of a seven-day ceasefire and phased reopening, conditional on the US lifting its blockade and sanctions, still stands. Trump and CENTCOM say the route is open to all but Iranian ships, while trackers such as straits.live record traffic far below the prewar norm of about 85 transits a day. [[TAG:danger:disputed traffic]]"
         }
       ],
-      "sources": "gCaptain, Modern Diplomacy, Izvestia, Anadolu, CBS News, ABC News, Fox News, Al Jazeera, CNBC",
+      "sources": "The Hill, JNS, Business Today, CBS News, Kurdistan24, Anadolu, Times of Israel, Fox News, straits.live",
       "citations": [
         {
-          "outlet": "gCaptain",
-          "title": "Iran’s Guards Say Two Tankers Hit Mines In Strait Of Hormuz",
-          "url": "https://gcaptain.com/irans-guards-say-two-tankers-hit-mines-in-strait-of-hormuz/"
+          "outlet": "The Hill",
+          "title": "Iran warns US against renewed attack, says it has ‘unfinished jobs’ too",
+          "url": "https://thehill.com/policy/international/6157194-iran-minister-warns-us-attacks/"
         },
         {
-          "outlet": "Modern Diplomacy",
-          "title": "Iran Says Mines Hit Two Tankers in Strait of Hormuz, Escalating Maritime Security Fears",
-          "url": "https://moderndiplomacy.eu/2026/10/17/iran-says-mines-hit-two-tankers-in-strait-of-hormuz-escalating-maritime-security-fears/"
+          "outlet": "JNS",
+          "title": "After Trump threat, Araghchi warns Iran has unfinished business",
+          "url": "https://jns.org/news/world/after-trump-threat-araghchi-warns-iran-has-unfinished-business"
         },
         {
-          "outlet": "Izvestia",
-          "title": "Tanker with 2 million oil hit by mine in Strait of Hormuz",
-          "url": "https://en.iz.ru/en/2185863/2026-10-17/tanker-2-million-oil-hit-mine-strait-hormuz"
+          "outlet": "Business Today",
+          "title": "'Last time you wanted to finish the job...': Iranian foreign minister challenges Donald Trump",
+          "url": "https://www.businesstoday.in/world/story/last-time-you-wanted-to-finish-the-job-iranian-foreign-minister-challenges-donald-trump-562325-2026-10-19"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Live Updates: Russian foreign minister says he's visiting Iran for talks to avert return to \"large-scale war\"",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/"
+        },
+        {
+          "outlet": "Kurdistan24",
+          "title": "Russian Foreign Minister Lavrov Heads to Tehran for Iran War Talks",
+          "url": "https://www.kurdistan24.net/en/story/947072/russian-foreign-minister-lavrov-heads-to-tehran-for-iran-war-talks"
         },
         {
           "outlet": "Anadolu (A News)",
-          "title": "Iran says oil tanker hit naval mine in Strait of Hormuz",
-          "url": "https://www.anews.com.tr/world/2026/10/17/iran-says-oil-tanker-hit-naval-mine-in-strait-of-hormuz"
-        },
-        {
-          "outlet": "CBS News",
-          "title": "Live Updates: Reported attacks on ships in or near Strait of Hormuz reach record high, data shows",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
-        },
-        {
-          "outlet": "CBS News",
-          "title": "Trump says Iran \"ready to fold up,\" after threatening post-midterm attacks",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-negotiations-strait-of-hormuz-oil/"
-        },
-        {
-          "outlet": "ABC News",
-          "title": "Iran live updates: Trump admin prepares range of options to target Iran",
-          "url": "https://abcnews.com/International/live-updates/iran-live-updates-trump-us-attack-iran-ahead/?id=137063637"
-        },
-        {
-          "outlet": "Fox News",
-          "title": "Iran says 'global economy will improve' if US removes forces from the Middle East",
-          "url": "https://www.foxnews.com/live-news/iran-war-trump-strait-hormuz-oil-prices-midterms-10-17-26"
-        },
-        {
-          "outlet": "Al Jazeera",
-          "title": "Trump rules out using a nuclear bomb on Iran: Why that matters",
-          "url": "https://www.aljazeera.com/news/2026/10/16/trump-rules-out-using-a-nuclear-bomb-on-iran-why-that-matters"
-        }
-      ]
-    },
-    {
-      "title": "Gulf, Yemen and Israel",
-      "icon": "🚀",
-      "summary": "Houthi campaign on Saudi Arabia grinds on; Israel heads to a deadlocked October 27 vote",
-      "paragraphs": [
-        {
-          "heading": "Houthi strikes",
-          "body": "Houthi attacks on Riyadh's airport and other Saudi sites have killed at least a dozen people, though outlets report tolls of 12, 13 or 17 for the deadliest strike, according to Al Jazeera and PBS. The Houthis also struck an Aramco administrative building in the Eastern Province, causing a limited fire. The Jerusalem Post, citing the Wall Street Journal, reported that many attacks rely on Iranian targeting intelligence; Iran denies this. [[TAG:danger:airports hit]]"
-        },
-        {
-          "heading": "Saudi response",
-          "body": "The Saudi-led coalition has struck Houthi-held areas, including oil facilities west of Sanaa, and said it intercepted missiles aimed at Riyadh and Khamis Mushait. The Houthis have warned the US against joining the offensive, CBS News reported. Iran's foreign minister, at a regional meeting in Baghdad, backed a 'political process' to end the Saudi-Houthi conflict, Fox News reported."
-        },
-        {
-          "heading": "Israel's election",
-          "body": "Israel votes on October 27 with neither bloc near a 61-seat majority. A Maariv poll had the coalition and opposition tied at 52 seats, and Gadi Eisenkot's Yashar party is competing with Likud for first place, The Jerusalem Post reported. Opposition figure Yair Lapid said he does not trust Netanyahu not to launch an Iran strike that could disrupt the vote, The Times of Israel reported. [[TAG:info:Oct 27 vote]]"
-        }
-      ],
-      "sources": "Al Jazeera, PBS, The Jerusalem Post, CBS News, Fox News, The Times of Israel",
-      "citations": [
-        {
-          "outlet": "Al Jazeera",
-          "title": "Houthis strike Aramco hours after Saudi-led coalition hits Sanaa oil site",
-          "url": "https://www.aljazeera.com/news/2026/10/13/houthis-threaten-saudi-arabias-aramco-facilities-and-airports"
-        },
-        {
-          "outlet": "Al Jazeera",
-          "title": "Fighting in Yemen intensifies: What’s the latest on the battlefield?",
-          "url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
-        },
-        {
-          "outlet": "PBS",
-          "title": "Saudi conflict with Houthis escalates with new strikes",
-          "url": "https://www.pbs.org/newshour/show/saudi-conflict-with-houthis-escalates-with-new-strikes"
-        },
-        {
-          "outlet": "The Jerusalem Post",
-          "title": "Houthi attacks on Saudi Arabia reportedly based on intelligence provided by Iran",
-          "url": "https://www.jpost.com/middle-east/article-911957"
-        },
-        {
-          "outlet": "CBS News",
-          "title": "Saudis launch new strikes on Houthis; Iran-backed group threatens U.S. if it joins in",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-saudi-arabia-houthi/"
-        },
-        {
-          "outlet": "Fox News",
-          "title": "Iran says 'global economy will improve' if US removes forces from the Middle East",
-          "url": "https://www.foxnews.com/live-news/iran-war-trump-strait-hormuz-oil-prices-midterms-10-17-26"
-        },
-        {
-          "outlet": "The Jerusalem Post",
-          "title": "Coalition, opposition tie at 52 seats as Netanyahu's Likud gets closer to Eisenkot's Yashar - poll",
-          "url": "https://www.jpost.com/israel-election-2026/article-911139"
-        },
-        {
-          "outlet": "The Jerusalem Post",
-          "title": "Israel election: Benjamin Netanyahu, Gadi Eisenkot blocs struggle to secure Knesset majority",
-          "url": "https://www.jpost.com/israel-election-2026/article-911622"
+          "title": "Russian foreign minister set to visit Iran for talks on bilateral ties, regional developments",
+          "url": "https://www.anews.com.tr/world/2026/10/19/russian-foreign-minister-set-to-visit-iran-for-talks-on-bilateral-ties-regional-developments"
         },
         {
           "outlet": "The Times of Israel",
-          "title": "Oct. 17: Lapid says he doesn’t trust Netanyahu not to launch Iran strike that could disrupt election",
-          "url": "https://www.timesofisrael.com/liveblog-october-17-2026/"
+          "title": "Russia's Lavrov to visit Tehran on Monday, Iran says",
+          "url": "https://www.timesofisrael.com/liveblog_entry/russias-lavrov-to-visit-tehran-on-monday-iran-says/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Trump warns Russia could join forces with Iran as Tehran dares US to strike again: 'Try your luck'",
+          "url": "https://www.foxnews.com/live-news/us-iran-war-peace-talks-oil-strait-hormuz-trump-october-18"
+        },
+        {
+          "outlet": "straits.live",
+          "title": "Strait of Hormuz Closed, Day 232",
+          "url": "https://straits.live/"
         }
       ]
     },
     {
-      "title": "Ukraine and the Russia Sanctions Waiver",
-      "icon": "🇺🇦",
-      "summary": "Trump waives Graham Act penalties on Russia as Moscow pounds Ukraine's power grid",
+      "title": "Gulf, Yemen, Israel and Lebanon",
+      "icon": "🚀",
+      "summary": "GCC condemns Houthi strikes as drones hit Najran; Lebanon heads to US-hosted talks",
       "paragraphs": [
         {
-          "heading": "Sanctions waived",
-          "body": "Trump signed an executive order on Friday waiving sanctions and tariffs under the Graham Act, including tariffs of up to 500% on Russian goods, just before they were due to take effect on October 18, ABC News, CNBC and The Washington Post reported. Trump told Congress the waiver serves the national interest; existing sanctions under earlier orders remain. It follows a temporary waiver on Russian diesel exports through April 2027. [[TAG:warning:sanctions eased]]"
+          "heading": "Houthi attacks continue",
+          "body": "Saudi air defenses shot down drones near Riyadh and in the Eastern Province early Sunday, and a Houthi projectile injured six people in a residential area of Najran, Al Jazeera reported. Houthi media said a Saudi airstrike in Yemen killed at least nine people; that claim could not be verified. [[TAG:danger:Najran hit]]"
         },
         {
-          "heading": "Bipartisan backlash",
-          "body": "Republican Sen. Thom Tillis called the move 'beyond irresponsible' and Rep. Don Bacon said the president is 'prolonging the war, not ending it', according to The Hill and Fox Business. Zelenskyy called the decision wrong and said he expects more sanctions relief to follow, CNBC reported."
+          "heading": "Gulf response",
+          "body": "Gulf Cooperation Council ministers condemned the attacks and called for tighter enforcement of the arms embargo on the Houthis, Al Jazeera reported. Egypt has pledged help to Saudi Arabia, and Arab News reported coalition forces destroying incoming missiles and drones. In Yemen, government troops reported gains in Taiz as the Houthis fired missiles toward Marib."
         },
         {
-          "heading": "Grid under fire",
-          "body": "Russia fired 332 drones and missiles overnight into Saturday, hitting more than 15 key power facilities in what Zelenskyy called one of the largest strikes on Ukraine's energy system, the Kyiv Independent reported. Regional officials reported seven deaths and about 90 injuries; Al Jazeera put the toll at at least eight killed. [[TAG:danger:energy strikes]]"
+          "heading": "Gaza and Lebanon",
+          "body": "Israeli strikes killed at least two Palestinians in Gaza on Sunday, and the IDF said weekend strikes killed a Hamas commander, according to reports compiled by Kayhan and the Times of Israel. The World Food Programme said it will end monthly aid to 500,000 Gazans because of a funding shortfall. Lebanon's military is set to attend US-hosted talks in Tampa on October 20, while Israeli forces hold a zone up to 10 km into southern Lebanon. Israel votes on October 27."
         }
       ],
-      "sources": "ABC News, CNBC, The Washington Post, UPI, The Hill, Fox Business, Kyiv Independent, Al Jazeera, PBS",
+      "sources": "Al Jazeera, Arab News, Gulf News, Times of Israel, Kayhan, Politics Today",
       "citations": [
         {
-          "outlet": "ABC News",
-          "title": "Trump signs order waiving Graham Act sanctions on Russia, drawing backlash from some lawmakers and Zelenskyy",
-          "url": "https://abcnews.com/Politics/trump-signs-order-waiving-graham-act-sanctions-russia/story?id=137341529"
-        },
-        {
-          "outlet": "CNBC",
-          "title": "Trump waives broad new Russia sanctions, Zelenskyy condemns it as 'wrong'",
-          "url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html"
-        },
-        {
-          "outlet": "The Washington Post",
-          "title": "Trump’s waiver of sanctions on Russia stirs bipartisan outrage",
-          "url": "https://www.washingtonpost.com/politics/2026/10/17/trump-signs-executive-order-waiving-sanctions-against-russia/"
-        },
-        {
-          "outlet": "UPI",
-          "title": "Trump executive order blocks U.S. sanctions on Russia",
-          "url": "https://www.upi.com/Top_News/US/2026/10/17/trump-waives-sanctions-against-russia/5771792263731/"
-        },
-        {
-          "outlet": "The Hill",
-          "title": "Republican lawmakers bash Donald Trump over decision to waive Russia sanction",
-          "url": "https://thehill.com/homenews/administration/6155725-trump-waives-russia-sanctions/"
-        },
-        {
-          "outlet": "Fox Business",
-          "title": "Trump faces bipartisan backlash over Russia sanctions waiver, causing top Republicans to break ranks",
-          "url": "https://www.foxbusiness.com/politics/trump-faces-bipartisan-backlash-over-russia-sanctions-waiver-causing-top-republicans-break-ranks"
-        },
-        {
-          "outlet": "Kyiv Independent",
-          "title": "Russia launches 'one of its largest attacks' on Ukraine's energy grid as US 'disregards' Graham's sanctions, Zelensky says",
-          "url": "https://kyivindependent.com/russian-attacks-kill-7-injure-dozens-across-ukraine-amid-continued-strikes-on-energy-infrastructure/"
+          "outlet": "Al Jazeera",
+          "title": "GCC condemns Houthi attacks on Saudi Arabia as Yemen fighting intensifies",
+          "url": "https://www.aljazeera.com/news/2026/10/18/gcc-condemns-houthi-attacks-on-saudi-arabia-as-yemen-fighting-intensifies"
         },
         {
           "outlet": "Al Jazeera",
-          "title": "Russian strikes kill civilians, injure dozens across Ukraine",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/russian-strikes-kill-civilians-injure-dozens-across-ukraine"
+          "title": "Saudi-led coalition intercepts drones as Egypt weighs sending help",
+          "url": "https://www.aljazeera.com/news/2026/10/17/saudi-led-coalition-intercepts-drones-as-egypt-weighs-sending-help"
         },
         {
-          "outlet": "PBS",
-          "title": "Ukraine resumes strikes on energy targets, saying Russia never stopped its attacks",
-          "url": "https://www.pbs.org/newshour/show/ukraine-resumes-strikes-on-energy-targets-saying-russia-never-stopped-its-attacks"
+          "outlet": "Arab News",
+          "title": "Coalition destroys incoming Houthi missiles, drones amid renewed attacks",
+          "url": "https://www.arabnews.com/saudi-arabia/coalition-destroy-incoming-houthi-missiles-drones-amid-renewed-attacks-3006940"
+        },
+        {
+          "outlet": "Gulf News",
+          "title": "Middle East Tensions Escalate: Saudi Arabia Intercepts Houthi Missiles, Trump Predicts Quick End to Iran War",
+          "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-drones-missiles-trump-says-iran-war-will-end-soon-1.500714637"
+        },
+        {
+          "outlet": "The Times of Israel",
+          "title": "UK warns firms that bidding on E1 settlement tenders exposes them to sanctions",
+          "url": "https://timesofisrael.com/liveblog-october-19-2026"
+        },
+        {
+          "outlet": "Kayhan",
+          "title": "Israeli Strikes Kill Gazans, Shelling Hits Lebanon, Forces Advance in Quneitra",
+          "url": "https://kayhan.ir/en/news/154807/israeli-strikes-kill-gazans-shelling-hits-lebanon-forces-advance-in-quneitra"
+        },
+        {
+          "outlet": "Politics Today",
+          "title": "Israel’s Expanding ‘Yellow Lines’ Reshape Gaza and Southern Lebanon",
+          "url": "https://politicstoday.org/israels-expanding-yellow-lines-reshape-gaza-and-southern-lebanon/"
         }
       ]
     },
     {
-      "title": "Europe",
-      "icon": "🇪🇺",
-      "summary": "France detains 1,200 in fuel-price protests; Pope Leo leaves hospital after lung surgery",
+      "title": "Ukraine and Russia",
+      "icon": "🇺🇦",
+      "summary": "Kyiv launches 1,000-plus drones at Russia; Trump says Zelensky never wanted to end the war",
       "paragraphs": [
         {
-          "heading": "France in the streets",
-          "body": "Prime Minister Sébastien Lecornu said 1,200 people were detained after nationwide cost-of-living protests on Saturday, with 550,000 participants by interior ministry count and 800,000 according to the CGT union, Archynewsy reported. Earlier tallies put arrests at 166 by midday and about 400 later. Lecornu said 150 officers were injured. The protests are tied to fuel prices driven up by the Iran war. [[TAG:danger:1,200 detained]]"
+          "heading": "Mass drone strike",
+          "body": "Russia's defense ministry said it shot down 1,015 Ukrainian drones overnight into Sunday, as Ukraine hit a key oil terminal near St. Petersburg in one of its biggest drone attacks of the year, CNN and Al Jazeera reported. At least one person was killed and five injured in Russia. The strike defied Trump's demand that Kyiv stop hitting Russian energy sites. [[TAG:warning:defying Washington]]"
         },
         {
-          "heading": "Wider unrest",
-          "body": "Euronews reported dozens of arrests as protesters clashed with security forces in Paris, and CNN reported police firing tear gas in several French cities. Cost-of-living protests also hit Belgium, Italy and Portugal, according to The Rio Times' European roundup."
+          "heading": "Trump turns on Zelensky",
+          "body": "In a Truth Social post, Trump said he is negotiating peace and does not want to push Russia away from the table, and said Zelensky 'doesn't want to end this war, and probably never did', CBS News and CNN reported. The clash follows Friday's waiver of congressionally mandated Russia sanctions."
         },
         {
-          "heading": "Pope Leo discharged",
-          "body": "Pope Leo XIV left Rome's Gemelli hospital on Saturday, four days after surgery to remove part of his right lung for adenocarcinoma, ABC News and NBC News reported. His surgeon said he could fully recover in about ten days and that nothing clinically prevents his planned trip to Latin America in November. [[TAG:success:discharged early]]"
+          "heading": "'Historic mistake'",
+          "body": "Zelensky told NBC's Meet the Press that a US decision to side with Russia would be 'a historic mistake and a big tragedy' and that Ukraine would not prevail in that case, The Hill and the Philadelphia Inquirer reported. He said Kyiv still wants to trust Trump and linked restrictions on Starlink-based service for Ukrainian drones to a 'message from the American government', which the administration denies. Kremlin officials welcomed the rift. [[TAG:danger:alliance strain]]"
         }
       ],
-      "sources": "Archynewsy, Democrata, Euronews, CNN, The Rio Times, ABC News, NBC News, Catholic Courier",
+      "sources": "CNN, Al Jazeera, CBS News, NBC News, The Hill, Philadelphia Inquirer, France 24, Yahoo News",
       "citations": [
         {
-          "outlet": "Archynewsy",
-          "title": "France Sees 1,200 Arrests in Cost-of-Living Protests",
-          "url": "https://www.archynewsy.com/france-sees-1200-arrests-in-cost-of-living-protests/"
-        },
-        {
-          "outlet": "Democrata",
-          "title": "166 detained in France for the protests over the cost of living",
-          "url": "https://www.democrata.es/en/international/at-least-166-arrests-by-noon-in-the-protests-over-the-cost-of-living-in-france/"
-        },
-        {
-          "outlet": "Euronews",
-          "title": "Dozens arrested as protesters clash with security forces in Paris",
-          "url": "https://www.euronews.com/2026/10/17/france-braces-for-tense-protests-as-security-concerns-take-centre-stage"
-        },
-        {
           "outlet": "CNN",
-          "title": "Police clash with protesters during huge demonstrations across France",
-          "url": "https://www.cnn.com/2026/10/17/world/live-news/france-protests-paris-intl"
+          "title": "Trump slams Zelensky after Ukraine defies US president with major attack on Russia",
+          "url": "https://www.cnn.com/2026/10/18/europe/ukraine-russia-drone-attack-trump-intl"
         },
         {
-          "outlet": "The Rio Times",
-          "title": "Europe Intelligence Brief for Saturday, October 17, 2026",
-          "url": "https://www.riotimesonline.com/europe-intelligence-brief-saturday-october-17-2026/"
+          "outlet": "Al Jazeera",
+          "title": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
+          "url": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites"
         },
         {
-          "outlet": "ABC News",
-          "title": "Pope Leo XIV discharged from hospital, returns to Vatican",
-          "url": "https://abcnews.com/International/pope-leo-xiv-discharged-hospital-return-vatican/story?id=137343868"
+          "outlet": "CBS News",
+          "title": "Trump says he's \"negotiating Peace\" as Ukraine launches 1,000 drones at Russia amid continued back-and-forth strikes",
+          "url": "https://www.cbsnews.com/news/ukraine-russia-drone-st-petersburg-oil-facilites/"
         },
         {
           "outlet": "NBC News",
-          "title": "Pope Leo discharged from hospital after lung cancer surgery",
-          "url": "https://www.nbcnews.com/world/pope-leo-xiv/pope-leo-discharged-hospital-lung-cancer-surgery-rcna604005"
+          "title": "Zelenskyy says Ukraine 'will not prevail’ if U.S. takes Russia's side: Full interview",
+          "url": "https://www.nbcnews.com/meet-the-press/video/zelenskyy-says-ukraine-will-not-prevail-if-u-s-takes-russia-s-side-full-interview-271776837876"
         },
         {
-          "outlet": "Catholic Courier",
-          "title": "Pope Leo XIV discharged from hospital early",
-          "url": "https://catholiccourier.com/articles/pope-leo-discharged-from-hospital-early/"
+          "outlet": "The Hill",
+          "title": "Volodymyr Zelensky warns US that supporting Vladimir Putin would be a historic mistake",
+          "url": "https://thehill.com/policy/defense/6156521-zelensky-warns-trump-russia/"
+        },
+        {
+          "outlet": "Philadelphia Inquirer",
+          "title": "Zelensky says Trump risks ‘historic mistake’ if he backs Russia",
+          "url": "https://www.inquirer.com/news/nation-world/zelensky-ukraine-russia-us-support-trump-putin-starshield-musk-20261018.html"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Zelensky holds US talks as Trump accuses him of not wanting peace",
+          "url": "https://www.france24.com/en/europe/20261018-ukraine-zelensky-war-trump-peace-russia-sanctions"
+        },
+        {
+          "outlet": "Yahoo News",
+          "title": "Kremlin officials tout Zelensky-Trump clash as 'historic'",
+          "url": "https://www.yahoo.com/news/kremlin-officials-tout-zelensky-trump-200311581.html"
+        }
+      ]
+    },
+    {
+      "title": "Markets and the Economy",
+      "icon": "📊",
+      "summary": "China beats at 4.5%; oil slips to ~$108 on Russia waiver; US futures bounce before big earnings",
+      "paragraphs": [
+        {
+          "heading": "China beats",
+          "body": "China's economy grew 4.5% year on year in the third quarter, ahead of the 4.4% consensus and up from 4.3% in the second quarter, Xinhua and FXStreet reported. Growth for the first nine months was 4.6%, within Beijing's 4.5%–5% target. Analysts credited strong exports while consumer spending and property stayed weak. [[TAG:success:above forecast]]"
+        },
+        {
+          "heading": "Oil eases",
+          "body": "Brent fell about 2% to around $107.60–$108 a barrel in Asian trading Monday after Friday's settlement near $109.86, its highest since May, as traders priced in more Russian fuel reaching markets after Trump's sanctions waiver, ADVFN and FinanceFeeds reported. Analysts said Hormuz disruption and attacks on Saudi energy sites still support prices. Reports differ slightly on the exact level. [[TAG:info:Brent ~$108]]"
+        },
+        {
+          "heading": "Futures and Asia",
+          "body": "US stock futures rose ahead of a week with more than 70 S&P 500 earnings reports, including Tesla, Meta and Netflix, Bloomberg via Yahoo Finance reported; Nasdaq 100 futures gains ranged from 0.7% to 1.4% depending on the source. In Asia, one market preview had the Nikkei down 1.2% and Taiwan down 1.4% early Monday, while another reported a 2% Nikkei drop at the open."
+        }
+      ],
+      "sources": "Xinhua, FXStreet, Seoul Economic Daily, ADVFN, FinanceFeeds, HDFC Sky, Yahoo Finance, Seeking Alpha, Coinpedia",
+      "citations": [
+        {
+          "outlet": "Xinhua",
+          "title": "China's GDP expands 4.5 pct year on year in Q3",
+          "url": "https://english.news.cn/20261019/6c02c8b4fcdb48f9b6a043076673c046/c.html"
+        },
+        {
+          "outlet": "FXStreet",
+          "title": "China’s GDP expands by 4.5% YoY in Q3, vs 4.4% expected",
+          "url": "https://www.fxstreet.com/news/breaking-chinas-gdp-expands-by-45-yoy-in-q3-vs-44-expected-202610190200"
+        },
+        {
+          "outlet": "Seoul Economic Daily",
+          "title": "China's Third-Quarter GDP Grows 4.5%, Beating Forecasts",
+          "url": "https://en.sedaily.com/international/2026/10/19/chinas-third-quarter-gdp-grows-45-percent-beating-forecasts"
+        },
+        {
+          "outlet": "ADVFN",
+          "title": "Brent Crude Falls to $107.60 as US Waives Russian Oil Sanctions",
+          "url": "https://uk.advfn.com/market-news/article/24773/brent-crude-falls-to-107-60-as-us-waives-russian-oil-sanctions"
+        },
+        {
+          "outlet": "FinanceFeeds",
+          "title": "Brent Crude Oil Price Today: Bull and Bear Case as the Russia Sanctions Waiver Pulls Oil to $108",
+          "url": "https://financefeeds.com/brent-crude-oil-price-108-trump-russia-sanctions-waiver-diesel-bull-113-bear-103/"
+        },
+        {
+          "outlet": "HDFC Sky",
+          "title": "Markets May Open Cautious as Asia Weakens",
+          "url": "https://hdfcsky.com/news/global-markets-today-october-19-2026-sensex-nifty-seen-opening-cautiously-as-asian-shares-slip-oil-prices-ease"
+        },
+        {
+          "outlet": "Yahoo Finance (Bloomberg)",
+          "title": "US Stock Futures Rise Ahead of Busy Earnings Week: Markets Wrap",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-rise-ahead-220725997.html"
+        },
+        {
+          "outlet": "Seeking Alpha",
+          "title": "Stock futures rebound as oil nears $110, AI earnings loom",
+          "url": "https://seekingalpha.com/news/4654081-stock-futures-rebound-as-oil-nears-110-ai-earnings-loom"
+        },
+        {
+          "outlet": "Coinpedia",
+          "title": "Japan Stock Market Today: US Tech Rout And Oil Spike Hit Nikkei Again",
+          "url": "https://coinpedia.org/crypto-live-news/japan-stock-market-today-us-tech-rout-and-oil-spike-hit-nikkei-again/"
         }
       ]
     },
     {
       "title": "US Politics",
       "icon": "🏛️",
-      "summary": "Trump rallies in Kentucky; early votes lean Democratic; press secretary exit reverberates",
+      "summary": "Trump approval at record-low 33%; Texas early voting opens with Senate race a dead heat",
       "paragraphs": [
         {
-          "heading": "Kentucky rally",
-          "body": "Trump rallied at Northern Kentucky University on Saturday for House candidate Ed Gallrein and Senate candidate Andy Barr, saying the Iran war would end soon and that Iran will never get a nuclear weapon, CNBC and Local 12 reported. The Kentucky Lantern reported he tied a $100 million Defense Department investment in a Kentucky drug plant to Republicans keeping Congress, and repeated a promise of $5,000 checks if the GOP wins."
+          "heading": "Record-low approval",
+          "body": "The Washington Post-ABC News-Ipsos poll, conducted October 9–13, put Trump's approval at 33% and disapproval at 66%, a record low for the series, with 52% strongly disapproving. Democrats lead the generic ballot 52% to 44% among likely voters, and only 21% approve of his handling of the cost of living. Axios reported NBC and Fox polls at 34% and 36%. [[TAG:danger:33% approval]]"
         },
         {
-          "heading": "Early vote signals",
-          "body": "CNN reported early voting data showing Democratic advantages in Iowa and North Carolina, where registered Democrats outvoted Republicans by nearly 28 points on Thursday. Nate Silver's generic-ballot average shows Democrats ahead by about 8.9 points, and a Pew survey found Democratic supporters more motivated to vote. Early votes are a small fraction of the expected total. [[TAG:info:partial data]]"
+          "heading": "Texas votes",
+          "body": "Early voting in Texas opens Monday and runs through October 30. A CBS News/YouGov poll has Democrat James Talarico at 51% and Republican Ken Paxton at 49% among likely voters, a statistical tie, and a University of Houston survey also shows Talarico up two points, CBS Texas and Houston Public Media reported. Both candidates held dueling rallies Sunday. [[TAG:info:early voting opens]]"
         },
         {
-          "heading": "Press secretary fallout",
-          "body": "Katie Zacharia, forced out after five days, praised Trump as 'kind, wonderful, gracious', Yahoo News reported. Communications director Steven Cheung said she will move to a new role. Al Jazeera called her the shortest-serving press secretary in US history; no successor has been named. [[TAG:warning:post vacant]]"
+          "heading": "Other fights",
+          "body": "Trump said renovation of a historic Washington golf course will start in November despite a judge's order requiring prior court notice, US News reported. Speaker Mike Johnson said Republicans will hold the House."
         }
       ],
-      "sources": "CNBC, Local 12, Kentucky Lantern, CNN, Nate Silver Bulletin, Pew Research, Yahoo News, Al Jazeera, The Washington Post",
+      "sources": "The Washington Post, ABC News, Axios, Political Wire, CBS Texas, Houston Public Media, CNN, US News",
       "citations": [
         {
-          "outlet": "CNBC",
-          "title": "Trump touts his power at Kentucky rally to energize voters ahead of midterm elections",
-          "url": "https://www.cnbc.com/2026/10/17/trump-touts-his-power-at-kentucky-rally-ahead-of-midterms.html"
+          "outlet": "The Washington Post",
+          "title": "Trump approval hits record low, handing Democrats a clear midterm edge",
+          "url": "https://www.washingtonpost.com/politics/2026/10/18/trump-approval-hits-record-low-handing-democrats-clear-midterm-edge/"
         },
         {
-          "outlet": "Local 12",
-          "title": "Trump touts his power in Northern Kentucky rally to energize voters ahead of midterms",
-          "url": "https://local12.com/news/local/president-donald-trump-nku-truist-arena-visits-northern-kentucky-power-rally-energize-voters-ahead-midterms-election-ed-gallrein"
+          "outlet": "The Washington Post",
+          "title": "Oct. 9-13, 2026, Washington Post-ABC News-Ipsos poll",
+          "url": "https://www.washingtonpost.com/tablet/2026/10/15/oct-9-13-2026-washington-post-abc-news-ipsos-poll/"
         },
         {
-          "outlet": "Kentucky Lantern",
-          "title": "Trump parachutes to KY to stump for Republicans in safe seats, give GOP nod in ‘tight race’",
-          "url": "https://kentuckylantern.com/2026/10/17/trump-parachutes-to-ky-to-stump-for-republicans-in-safe-seats-give-gop-nod-in-tight-race/"
+          "outlet": "ABC News",
+          "title": "Democrats lead Republicans in House vote choice as Trump's approval rating hits record low: ABC/Post/Ipsos poll",
+          "url": "https://abcnews.com/Politics/democrats-lead-republicans-house-vote-choice-trumps-approval/story?id=137322849"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Trump approval rating hits lows in Fox, NBC, Washington Post midterm polls",
+          "url": "https://www.axios.com/2026/10/18/trump-approval-polls-maga-gop-midterms-2026"
+        },
+        {
+          "outlet": "CBS Texas",
+          "title": "Sizing up the Texas Senate race between James Talarico and Ken Paxton as early voting begins",
+          "url": "https://www.cbsnews.com/texas/news/texas-senate-race-early-voting-starts/"
+        },
+        {
+          "outlet": "Houston Public Media",
+          "title": "Talarico holds slight edge over Paxton in U.S. Senate race on cusp of election, poll shows",
+          "url": "https://houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/18/564673/talarico-holds-slight-edge-over-paxton-in-u-s-senate-race-on-cusp-of-election-poll-shows"
         },
         {
           "outlet": "CNN",
-          "title": "Early voting data shows signs of Democratic advantage in two states",
-          "url": "https://www.cnn.com/2026/10/16/politics/live-news/midterm-election-congress"
+          "title": "Texas Senate candidates rally voters a day before early voting begins",
+          "url": "https://www.cnn.com/2026/10/18/politics/live-news/midterm-election-congress"
         },
         {
-          "outlet": "Nate Silver Bulletin",
-          "title": "Generic Congressional Ballot: Latest Polls",
-          "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls"
+          "outlet": "US News",
+          "title": "Trump Says Washington Golf Course Renovation to Start in November, Despite Judge's Order",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-18/trump-says-washington-golf-course-renovation-to-start-in-november-despite-judges-order"
+        }
+      ]
+    },
+    {
+      "title": "Europe",
+      "icon": "🇪🇺",
+      "summary": "Lecornu vows France won't be intimidated; Pope Leo returns to the Angelus window",
+      "paragraphs": [
+        {
+          "heading": "France after the riots",
+          "body": "Prime Minister Sébastien Lecornu said France would not be 'intimidated' by violence after Saturday's cost-of-living protests and pointed to a Senate bill that would make rioters financially liable for damage, Anadolu reported. Turnout was about 550,000 by the interior ministry's count and 800,000 by organizers' count, France 24 reported; arrest figures range from about 400 to 1,200 depending on the source and time of day. [[TAG:warning:figures disputed]]"
         },
         {
-          "outlet": "Pew Research",
-          "title": "Democratic Voters More Engaged in Midterms as Americans Are in a Sour Mood",
-          "url": "https://www.pewresearch.org/politics/2026/10/08/with-americans-in-a-sour-mood-democratic-voters-are-more-engaged-in-midterms/"
+          "heading": "Roots of the unrest",
+          "body": "The movement began with high school protests in late September over under-resourced schools and has since drawn in unions and 'yellow vest' groups, PBS reported. The government accuses the far left of stoking it; organizers say it is spontaneous."
         },
         {
-          "outlet": "Yahoo News",
-          "title": "Katie Zacharia praises Trump as ‘kind, wonderful, gracious’ after being forced out as press secretary after 5 days",
-          "url": "https://www.yahoo.com/news/politics/article/katie-zacharia-out-as-white-house-press-secretary-after-5-days-on-the-job-reports-182158704.html"
+          "heading": "Pope Leo's return",
+          "body": "Pope Leo XIV led the Angelus from the Apostolic Palace window on Sunday before about 15,000 people, his first major public appearance since lung cancer surgery, Al Jazeera and CNN reported. He said the delicate phase was behind him and he would gradually resume his duties; Cardinal Pietro Parolin said his schedule may be adjusted. His surgeon sees no clinical obstacle to the November 6–17 Latin America trip. [[TAG:success:recovering]]"
+        }
+      ],
+      "sources": "Anadolu, France 24, PBS, CNN, Al Jazeera, NPR, Vatican News, Catholic Register",
+      "citations": [
+        {
+          "outlet": "Anadolu (A News)",
+          "title": "France will not be intimidated by violence, PM Lecornu says after protests",
+          "url": "https://www.anews.com.tr/europe/2026/10/17/france-will-not-be-intimidated-by-violence-pm-lecornu-says-after-protests"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Chaotic scenes as organisers of French protests claim 800,000 have taken to streets",
+          "url": "https://www.france24.com/en/france/20261017-live-france-s-yellow-vests-throw-their-weight-behind-mounting-student-protests"
+        },
+        {
+          "outlet": "PBS",
+          "title": "Student protests grip France as Prime Minister Lecornu calls crisis meeting",
+          "url": "https://www.pbs.org/newshour/world/student-protests-grip-france-as-prime-minister-lecornu-calls-crisis-meeting"
+        },
+        {
+          "outlet": "CNN",
+          "title": "Police clash with protesters during huge demonstrations across France",
+          "url": "https://www.cnn.com/2026/10/17/world/live-news/france-protests-paris-intl"
         },
         {
           "outlet": "Al Jazeera",
-          "title": "Why Trump’s latest White House press secretary lasted just five days",
-          "url": "https://www.aljazeera.com/news/2026/10/17/why-trumps-latest-white-house-press-secretary-lasted-just-five-days"
-        }
-      ]
-    },
-    {
-      "title": "Markets and Economy: Week Ahead",
-      "icon": "📊",
-      "summary": "China GDP Monday; Tesla, Meta, Netflix earnings; record tanker rates squeeze Asian refiners",
-      "paragraphs": [
-        {
-          "heading": "China's data",
-          "body": "China releases third-quarter GDP and September activity data on Monday. A Reuters poll of economists expects growth of about 4.4%, up from 4.3% in the second quarter but below Beijing's 4.5%–5% target range, and Caixin's survey points to a similar figure. Exports remain strong while domestic demand is weak. [[TAG:info:GDP due Monday]]"
+          "title": "Pope greeted by crowds in first major appearance since lung cancer surgery",
+          "url": "https://aljazeera.com/news/2026/10/19/pope-greeted-by-crowds-in-first-major-appearance-since-lung-cancer-surgery"
         },
         {
-          "heading": "Earnings season",
-          "body": "Netflix reports Tuesday after the close, and Tesla, Meta, IBM and Texas Instruments report Wednesday, according to Earnings Whispers and Kiplinger's calendar. The Fed is in its pre-meeting blackout. Investors are watching whether tech results ease worries about AI spending after the Nasdaq's 4.5% weekly drop."
+          "outlet": "CNN",
+          "title": "Pope Leo leads Sunday prayers in first major public appearance since lung cancer surgery",
+          "url": "https://www.cnn.com/2026/10/18/europe/pope-angelus-sunday-cancer-intl"
         },
         {
-          "heading": "Freight squeeze",
-          "body": "The IEA said tanker rates for supertankers on the Gulf-to-Asia route reached about $36 a barrel in early October, more than five times prewar levels, and margins for Asian refiners processing medium sour crude turned negative in September, BOE Report and Hydrocarbon Processing reported. [[TAG:danger:freight 5x prewar]]"
-        }
-      ],
-      "sources": "Reuters via Investing.com, Caixin, Earnings Whispers, Kiplinger, Schaeffer's, IEA via BOE Report, Hydrocarbon Processing",
-      "citations": [
-        {
-          "outlet": "Reuters (Investing.com)",
-          "title": "China Q3 growth set to pick up on stimulus, keeping 2026 goal within reach: Reuters poll",
-          "url": "https://www.investing.com/news/economy-news/china-q3-growth-set-to-pick-up-on-stimulus-keeping-2026-goal-within-reach-reuters-poll-4950895"
+          "outlet": "NPR",
+          "title": "Pope Leo says he will gradually resume duties after cancer surgery",
+          "url": "https://www.npr.org/2026/10/18/g-s1-148654/pope-leo-says-he-will-gradually-resume-duties-after-cancer-surgery"
         },
         {
-          "outlet": "Caixin Global",
-          "title": "China’s Growth Seen Edging Up to 4.4% as Exports Offset Weak Demand",
-          "url": "https://www.caixinglobal.com/2026-10-14/chinas-growth-seen-edging-up-to-44-as-exports-offset-weak-demand-102493073.html"
-        },
-        {
-          "outlet": "Earnings Whispers",
-          "title": "Earnings Whispers",
-          "url": "https://www.earningswhispers.com/"
-        },
-        {
-          "outlet": "Kiplinger",
-          "title": "Earnings Calendar and Analysis for This Week (October 19-23)",
-          "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
-        },
-        {
-          "outlet": "Schaeffer's",
-          "title": "The Week Ahead: Earnings Season Heats Up on Wall Street",
-          "url": "https://www.schaeffersresearch.com/content/news/2026/10/15/the-week-ahead-earnings-season-heats-up-on-wall-street"
-        },
-        {
-          "outlet": "BOE Report",
-          "title": "Record oil tanker rates put pressure on Asian refiners, IEA says",
-          "url": "https://boereport.com/2026/10/14/record-oil-tanker-rates-put-pressure-on-asian-refiners-iea-says/"
-        },
-        {
-          "outlet": "Hydrocarbon Processing",
-          "title": "IEA: Record oil tanker rates put pressure on Asian refiners",
-          "url": "https://www.hydrocarbonprocessing.com/news/2026/10/iea-record-oil-tanker-rates-put-pressure-on-asian-refiners/"
-        }
-      ]
-    },
-    {
-      "title": "Asia-Pacific",
-      "icon": "🌏",
-      "summary": "Takaichi's Yasukuni offering draws 'regret' from Seoul and criticism from Beijing",
-      "paragraphs": [
-        {
-          "heading": "Yasukuni offering",
-          "body": "Japanese Prime Minister Sanae Takaichi sent a ritual offering to Tokyo's Yasukuni Shrine for its autumn festival on Saturday but did not visit in person, the Seoul Economic Daily reported. South Korea's government expressed 'deep disappointment and regret', according to Korea JoongAng Daily, and China also criticized the offering. [[TAG:warning:diplomatic friction]]"
-        },
-        {
-          "heading": "Balancing act",
-          "body": "Analysts quoted by The Rio Times said sending an offering rather than visiting appears designed to balance conservative expectations at home against the cost of worsening ties with China and South Korea, which have both been strained this month."
-        }
-      ],
-      "sources": "Seoul Economic Daily, Korea JoongAng Daily, Democrata, The Rio Times",
-      "citations": [
-        {
-          "outlet": "Seoul Economic Daily",
-          "title": "Japan's Takaichi Sends Offering to Yasukuni Shrine, Skips Visit",
-          "url": "https://en.sedaily.com/international/2026/10/17/japans-takaichi-sends-offering-to-yasukuni-shrine-skips"
-        },
-        {
-          "outlet": "Seoul Economic Daily",
-          "title": "Seoul Voices \"Disappointment and Regret\" Over Takaichi's Yasukuni Offering",
-          "url": "https://en.sedaily.com/international/2026/10/17/seoul-voices-disappointment-and-regret-over-takaichis"
-        },
-        {
-          "outlet": "Korea JoongAng Daily",
-          "title": "Gov't expresses regret over Takaichi's war shrine offering",
-          "url": "https://www.koreajoongangdaily.com/korea/govt-expresses-regret-over-takaichis-war-shrine-offering/12925235"
-        },
-        {
-          "outlet": "Democrata",
-          "title": "China and South Korea criticize Takaichi's offering",
-          "url": "https://www.democrata.es/en/international/china-and-south-korea-censor-takaichi-s-offering-to-the-controversial-yasukuni-shrine/"
-        },
-        {
-          "outlet": "The Rio Times",
-          "title": "Why Japan's Yasukuni Shrine Offering Angers Seoul",
-          "url": "https://www.riotimesonline.com/yasukuni-shrine-controversy-explained-2026/"
+          "outlet": "Vatican",
+          "title": "Angelus, 18 October 2026",
+          "url": "https://www.vatican.va/content/leo-xiv/en/angelus/2026/documents/20261018-angelus.html"
         }
       ]
     },
     {
       "title": "Global Roundup",
       "icon": "🌍",
-      "summary": "Ebola now second-largest outbreak on record; Sudan's war spreads as hunger deepens",
+      "summary": "Kenya confirms eighth Ebola case; Congo outbreak reaches an eighth province",
       "paragraphs": [
         {
-          "heading": "Ebola",
-          "body": "The CDC says the Bundibugyo Ebola outbreak in DR Congo is now the second-largest on record, with 9,235 confirmed cases and 4,444 deaths as of October 15, Contagion Live reported. Asharq Al-Awsat reported that Congo confirmed spread to an eighth province, North Ubangi, bordering the Central African Republic. CBC reported that one in four deaths are children. [[TAG:danger:second-largest ever]]"
+          "heading": "Ebola in Kenya",
+          "body": "Kenya confirmed its eighth Ebola case, a 49-year-old man quarantined after likely exposure to the country's first patient, just over two weeks after that first case, ABC Australia and Al Jazeera reported. Up to 128 contacts, including health workers, remained in quarantine as of Sunday, and Kenya has tightened border screening. [[TAG:danger:8 Kenya cases]]"
         },
         {
-          "heading": "Sudan",
-          "body": "The UN Security Council heard that 20 million people in Sudan face acute hunger, with famine risk rising in Darfur and Kordofan, UN News reported. Sudan Tribune reported five children killed in an army airstrike in North Kordofan, and the US extended its national emergency on Sudan for another year. Army chief Abdel Fattah al-Burhan vowed to retake 'every inch' of RSF-held territory, Al Jazeera reported."
+          "heading": "Congo's outbreak",
+          "body": "Congo's Bundibugyo-strain outbreak has spread to an eighth province and has killed at least 4,000 people since May, NBC News reported, calling it the fastest-growing Ebola outbreak on record. The WHO's Africa director said cases are falling in some pockets even as the outbreak spreads geographically. Uganda has declared itself free of the disease."
         }
       ],
-      "sources": "Contagion Live, CDC, Asharq Al-Awsat, CBC, UN News, Sudan Tribune, Al Jazeera",
+      "sources": "ABC Australia, Al Jazeera, NBC News",
       "citations": [
         {
-          "outlet": "Contagion Live",
-          "title": "Ebola Outbreak in DRC Tops 9235 Confirmed Cases, CDC Reports",
-          "url": "https://www.contagionlive.com/view/ebola-outbreak-in-drc-tops-9235-confirmed-cases-cdc-reports"
-        },
-        {
-          "outlet": "CDC",
-          "title": "Ebola Outbreak: Current Situation",
-          "url": "https://www.cdc.gov/ebola/situation-summary/index.html"
-        },
-        {
-          "outlet": "Asharq Al-Awsat",
-          "title": "Congo Confirms Ebola Outbreak Spreads to Eighth Province",
-          "url": "https://english.aawsat.com/world/5330773-congo-confirms-ebola-outbreak-spreads-eighth-province"
-        },
-        {
-          "outlet": "CBC",
-          "title": "1 in 4 Ebola deaths are children in Democratic Republic of Congo's worst outbreak",
-          "url": "https://www.cbc.ca/news/health/ebola-congo-children-deaths-9.7384641"
-        },
-        {
-          "outlet": "UN News",
-          "title": "Security Council LIVE: Sudan’s war spreads as drones and hunger take a deadly toll",
-          "url": "https://news.un.org/en/story/2026/10/1168612"
-        },
-        {
-          "outlet": "Sudan Tribune",
-          "title": "US extends national emergency on Sudan for another year",
-          "url": "https://sudantribune.com/article/320031"
+          "outlet": "ABC Australia",
+          "title": "Eighth person in Kenya tests positive for Ebola as virus continues to spread",
+          "url": "https://www.abc.net.au/news/2026-10-19/kenya-ebola-outbreak-hits-eight-continues-spread-in-congo/107282278"
         },
         {
           "outlet": "Al Jazeera",
-          "title": "Sudan",
-          "url": "https://www.aljazeera.com/where/sudan/"
+          "title": "Kenya confirms eighth Ebola case amid widening regional outbreak",
+          "url": "https://www.aljazeera.com/news/2026/10/19/kenya-confirms-eighth-ebola-case-amid-widening-regional-outbreak"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "Congo’s fast-moving Ebola outbreak spreads to eighth province",
+          "url": "https://www.nbcnews.com/world/africa/dr-congos-fast-moving-ebola-outbreak-spreads-eighth-province-rcna604234"
         }
       ]
     }
   ],
   "searches": [
     {
-      "query": "Iran war news October 18 2026",
+      "query": "Iran war news October 18 2026 Sunday",
       "results": [
         {
-          "title": "Live Updates: Reported attacks on ships in or near Strait of Hormuz reach record high, data shows",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
+          "title": "Iran War 2026 -- Day 231 Update -- 16 October 2026",
+          "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"
         },
         {
-          "title": "Oil price hikes, Saudi-Houthi strikes carry on amid Trump's midterm pause on Iran war",
-          "url": "https://www.foxnews.com/live-news/us-iran-war-donald-trump-oil-nuclear-sites-hormuz-strait-october-14"
+          "title": "Oct. 13: Trump says his administration to 'make a decision on Iran very soon’",
+          "url": "https://www.timesofisrael.com/liveblog-october-13-2026/"
         },
         {
-          "title": "Trump says Iran \"ready to fold up,\" after threatening post-midterm attacks",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-negotiations-strait-of-hormuz-oil/"
-        },
-        {
-          "title": "Ships in Strait of Hormuz still face \"indiscriminate attacks,\" maritime monitor warns",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
-        },
-        {
-          "title": "U.S. reportedly considers use of 'mother of all bombs' as Iran vows to fight on",
-          "url": "https://www.cnbc.com/2026/10/15/us-iran-war-trump-hormuz.html"
-        },
-        {
-          "title": "Trump rules out nuclear strike on Iran as Tehran warns US bombs won't force surrender",
-          "url": "https://www.foxnews.com/live-news/us-iran-war-peace-donald-trump-strait-hormuz-oil-prices-midterms-october-15"
-        },
-        {
-          "title": "Washington eyeing MOAB deployment against Iran's underground nuclear facilities",
-          "url": "https://www.foxnews.com/live-news/iran-war-trump-strait-hormuz-oil-prices-midterms-october-16"
-        },
-        {
-          "title": "Live - Israel leaves open renewed Iran strikes, US hints at longer Mideast stay",
-          "url": "https://www.iranintl.com/en/liveblog/202610105959"
-        },
-        {
-          "title": "europe today iran war intensifies as trump signals prolonged fight",
-          "url": "https://euronews.com/video/2026/03/03/europe-today-iran-war-intensifies-as-trump-signals-prolonged-fight"
-        }
-      ]
-    },
-    {
-      "query": "Strait of Hormuz tanker mine October 17 2026 identified",
-      "results": [
-        {
-          "title": "Iran’s Guards Say Two Tankers Hit Mines In Strait Of Hormuz",
-          "url": "https://gcaptain.com/irans-guards-say-two-tankers-hit-mines-in-strait-of-hormuz/"
-        },
-        {
-          "title": "Oct. 17: Lapid says he doesn’t trust Netanyahu not to launch Iran strike that could disrupt election",
-          "url": "https://timesofisrael.com/liveblog-october-17-2026"
-        },
-        {
-          "title": "Tanker with 2 million oil hit by mine in Strait of Hormuz",
-          "url": "https://en.iz.ru/en/2185863/2026-10-17/tanker-2-million-oil-hit-mine-strait-hormuz"
-        },
-        {
-          "title": "2026 Strait of Hormuz campaign",
-          "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_campaign"
-        },
-        {
-          "title": "Second tanker carrying 2 million barrels of oil hits a sea mine in the Strait of Hormuz",
-          "url": "https://zamin.uz/en/world/224824-second-tanker-carrying-2-million-barrels-of-oil-hits-a-sea-mine-in-the-strait-of-hormuz.html"
-        },
-        {
-          "title": "Iran Says Mines Hit Two Tankers in Strait of Hormuz, Escalating Maritime Security Fears - Modern Diplomacy",
-          "url": "https://moderndiplomacy.eu/2026/10/17/iran-says-mines-hit-two-tankers-in-strait-of-hormuz-escalating-maritime-security-fears/"
-        },
-        {
-          "title": "Operation Project Freedom",
-          "url": "https://en.wikipedia.org/wiki/Operation_Project_Freedom"
-        },
-        {
-          "title": "2026 Strait of Hormuz crisis",
-          "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
-        },
-        {
-          "title": "Iran says oil tanker hit naval mine in Strait of Hormuz",
-          "url": "https://www.anews.com.tr/world/2026/10/17/iran-says-oil-tanker-hit-naval-mine-in-strait-of-hormuz"
-        }
-      ]
-    },
-    {
-      "query": "Trump Iran Saturday October 17 2026",
-      "results": [
-        {
-          "title": "Iran live updates: Trump admin prepares range of options to target Iran, including 'mother of all bombs,' sources say - ABC News",
-          "url": "https://abcnews.com/International/live-updates/iran-live-updates-trump-us-attack-iran-ahead/?id=137063637"
-        },
-        {
-          "title": "Iran says 'global economy will improve' if US removes forces from the Middle East",
-          "url": "https://www.foxnews.com/live-news/iran-war-trump-strait-hormuz-oil-prices-midterms-10-17-26"
-        },
-        {
-          "title": "Oct. 17: Lapid says he doesn’t trust Netanyahu not to launch Iran strike that could disrupt election",
-          "url": "https://www.timesofisrael.com/liveblog-october-17-2026/"
-        },
-        {
-          "title": "Live Updates: Reported attacks on ships in or near Strait of Hormuz reach record high, data shows",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
-        },
-        {
-          "title": "Trump rules out using a nuclear bomb on Iran: Why that matters",
-          "url": "https://www.aljazeera.com/news/2026/10/16/trump-rules-out-using-a-nuclear-bomb-on-iran-why-that-matters"
-        },
-        {
-          "title": "Islamabad Talks",
-          "url": "https://en.wikipedia.org/wiki/Islamabad_Talks"
-        },
-        {
-          "title": "2026 United States naval blockade of Iran",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_naval_blockade_of_Iran"
+          "title": "Russia in the 2026 Iran war",
+          "url": "https://en.wikipedia.org/wiki/Russia_in_the_2026_Iran_war"
         },
         {
           "title": "Timeline of the 2026 Iran war",
           "url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war"
         },
         {
-          "title": "Trump-Carlson feud",
-          "url": "https://en.wikipedia.org/wiki/Trump-Carlson_feud"
+          "title": "Jaysh al-Ghadab",
+          "url": "https://en.wikipedia.org/wiki/Jaysh_al-Ghadab"
         },
         {
-          "title": "2026 Iran war ceasefire",
-          "url": "https://en.wikipedia.org/wiki/2026_Iran_war_ceasefire"
+          "title": "Iran reportedly fortifies nuclear sites as it prepares for possible U.S. strikes after midterms",
+          "url": "https://www.cnbc.com/2026/10/13/iran-us-war-houthis-saudi-arabia-airport.html"
+        },
+        {
+          "title": "Casualties of the 2026 Iran war",
+          "url": "https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war"
+        },
+        {
+          "title": "Washington eyeing MOAB deployment against Iran's underground nuclear facilities",
+          "url": "https://www.foxnews.com/live-news/iran-war-trump-strait-hormuz-oil-prices-midterms-october-16"
+        },
+        {
+          "title": "2026 Iran war",
+          "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
         }
       ]
     },
     {
-      "query": "Houthi Saudi Arabia attack October 17 2026",
+      "query": "Strait of Hormuz October 19 2026",
       "results": [
         {
-          "title": "Saudi conflict with Houthis escalates with new strikes",
-          "url": "https://www.pbs.org/newshour/show/saudi-conflict-with-houthis-escalates-with-new-strikes"
+          "title": "US Forces Strike Iranian Missile Launchers Near Strait of Hormuz",
+          "url": "https://www.today.com/video/us-forces-strike-iranian-missile-launchers-near-strait-of-hormuz-269089861978"
         },
         {
-          "title": "Houthi attacks on Saudi Arabia reportedly based on intelligence provided by Iran",
-          "url": "https://www.jpost.com/middle-east/article-911957"
+          "title": "Live Updates: Russian foreign minister says he's visiting Iran for talks to avert return to \"large-scale war\"",
+          "url": "https://cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz"
         },
         {
-          "title": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
-          "url": "https://www.aljazeera.com/news/2026/10/12/houthi-missile-attack-targets-saudi-capital-riyadh-for-third-day-in-a-row"
+          "title": "Strait of Hormuz",
+          "url": "https://en.wikipedia.org/wiki/Strait_of_Hormuz"
         },
         {
-          "title": "Saudis launch new strikes on Houthis; Iran-backed group threatens U.S. if it joins in",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-saudi-arabia-houthi/"
+          "title": "European Maritime Awareness in the Strait of Hormuz",
+          "url": "https://en.wikipedia.org/wiki/European_Maritime_Awareness_in_the_Strait_of_Hormuz"
         },
         {
-          "title": "Houthis strike Aramco hours after Saudi-led coalition hits Sanaa oil site",
-          "url": "https://www.aljazeera.com/news/2026/10/13/houthis-threaten-saudi-arabias-aramco-facilities-and-airports"
+          "title": "Tracking ship traffic through the Strait of Hormuz. Updated regularly.",
+          "url": "https://www.nbcnews.com/data-graphics/strait-of-hormuz-ports-traffic-trump-us-iran-war-rcna331507"
         },
         {
-          "title": "Three killed, 36 injured in Houthi attacks on Saudi airports, Riyadh says",
-          "url": "https://www.aljazeera.com/news/2026/10/7/saudi-arabia-says-three-foreign-nationals-killed-in-attacks-on-airports"
+          "title": "Trump warns Russia could join forces with Iran as Tehran dares US to strike again: 'Try your luck'",
+          "url": "https://www.foxnews.com/live-news/us-iran-war-peace-talks-oil-strait-hormuz-trump-october-18"
         },
         {
-          "title": "Fighting in Yemen intensifies: What’s the latest on the battlefield?",
-          "url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
+          "title": "US strikes Iranian targets in Strait of Hormuz for first time in weeks",
+          "url": "https://www.youtube.com/watch?v=1rbaRvQyzqc"
         },
         {
-          "title": "saudi 220210 whitehouse01",
-          "url": "https://www.globalsecurity.org/wmd/library/news/saudi/2022/saudi-220210-whitehouse01.htm"
+          "title": "US strikes Iranian rocket launchers on the Strait of Hormuz in first military action in weeks - YouTube",
+          "url": "https://www.youtube.com/watch?v=8OBnLqpkPxA"
         },
         {
-          "title": "www.malaymail.com",
-          "url": "https://www.malaymail.com/news/world/2021/04/17/yemens-houthis-say-they-have-hit-saudi-arabias-king-khalid-air-base/1967311"
+          "title": "Strait of Hormuz Closed, Day 232",
+          "url": "https://straits.live/"
         }
       ]
     },
     {
-      "query": "Ukraine Russia attack October 17 2026",
+      "query": "China third quarter GDP October 19 2026 result",
       "results": [
         {
-          "title": "Ukraine resumes strikes on energy targets, saying Russia never stopped its attacks",
-          "url": "https://www.pbs.org/newshour/show/ukraine-resumes-strikes-on-energy-targets-saying-russia-never-stopped-its-attacks"
+          "title": "China’s GDP expands by 4.5% YoY in Q3, vs 4.4% expected",
+          "url": "https://www.fxstreet.com/news/breaking-chinas-gdp-expands-by-45-yoy-in-q3-vs-44-expected-202610190200"
+        },
+        {
+          "title": "China's GDP expands 4.5% y-o-y in Q3",
+          "url": "https://www.chinadailyasia.com/hk/article/641311"
+        },
+        {
+          "title": "China records 4.5% growth in 3rd quarter",
+          "url": "https://www.anews.com.tr/economy/2026/10/19/china-records-45-growth-in-3rd-quarter"
+        },
+        {
+          "title": "China raises its GDP to 1.2% in the third quarter",
+          "url": "https://www.democrata.es/en/economy/china-s-gdp-accelerates-to-1-2-in-the-third-quarter-three-tenths-more-than-between-april-and-june/"
+        },
+        {
+          "title": "China's Third-Quarter GDP Grows 4.5%, Beating Forecasts - Seoul Economic Daily",
+          "url": "https://en.sedaily.com/international/2026/10/19/chinas-third-quarter-gdp-grows-45-percent-beating-forecasts"
+        },
+        {
+          "title": "China's GDP grew 4.5% in Q3 2026 — Anadolu Agency",
+          "url": "https://ua.news/en/world/vvp-kitaiu-zris-na-4-5-u-tretomu-kvartali-2026-roku-anadolu-agency"
+        },
+        {
+          "title": "China GDP Growth Hits 4.5% as Exports Surge",
+          "url": "https://www.finance-monthly.com/china-gdp-growth-exports-consumer-spending-2026/"
+        },
+        {
+          "title": "China Q3 GDP Growth Accelerates to 4.5% on Export Boom",
+          "url": "https://meyka.com/blog/china-gdp-growth-q3-2026-export-surge/"
+        },
+        {
+          "title": "China's GDP expands 4.5 pct year on year in Q3-Xinhua",
+          "url": "https://english.news.cn/20261019/6c02c8b4fcdb48f9b6a043076673c046/c.html"
+        },
+        {
+          "title": "china economic monitor q4 2023",
+          "url": "https://kpmg.com/cn/en/insights/2023/11/china-economic-monitor-q4-2023.html"
+        }
+      ]
+    },
+    {
+      "query": "Asian markets Monday October 19 2026 Nikkei oil prices",
+      "results": [
+        {
+          "title": "Markets May Open Cautious as Asia Weakens",
+          "url": "https://hdfcsky.com/news/global-markets-today-october-19-2026-sensex-nifty-seen-opening-cautiously-as-asian-shares-slip-oil-prices-ease"
+        },
+        {
+          "title": "Japan Stock Market Today: US Tech Rout And Oil Spike Hit Nikkei Again",
+          "url": "https://coinpedia.org/crypto-live-news/japan-stock-market-today-us-tech-rout-and-oil-spike-hit-nikkei-again/"
+        },
+        {
+          "title": "asian stock market nikkei soars on positive market mood dxy turns subdued oil eyes 8500 202210040548",
+          "url": "https://www.fxstreet.com/news/asian-stock-market-nikkei-soars-on-positive-market-mood-dxy-turns-subdued-oil-eyes-8500-202210040548"
+        },
+        {
+          "title": "Asian Stock Market: Nikkei soars on positive market mood, DXY turns subdued, oil eyes $85.00",
+          "url": "https://www.fxstreet.com/amp/news/asian-stock-market-nikkei-soars-on-positive-market-mood-dxy-turns-subdued-oil-eyes-8500-202210040548"
+        },
+        {
+          "title": "asian stock market nikkei extends rally despite volatility in sp500 futures oil rebounds from 8000 202301250450",
+          "url": "https://www.fxstreet.com/news/asian-stock-market-nikkei-extends-rally-despite-volatility-in-sp500-futures-oil-rebounds-from-8000-202301250450"
+        },
+        {
+          "title": "asian stock market nikkei extends rally despite volatility in sp500 futures oil rebounds from 8000 202301250450",
+          "url": "https://www.fxstreet.com/amp/news/asian-stock-market-nikkei-extends-rally-despite-volatility-in-sp500-futures-oil-rebounds-from-8000-202301250450"
+        },
+        {
+          "title": "asian stock market softer us inflation infuses adrenaline rush oil soars 202208110421",
+          "url": "https://www.fxstreet.com/amp/news/asian-stock-market-softer-us-inflation-infuses-adrenaline-rush-oil-soars-202208110421"
+        },
+        {
+          "title": "Asian markets tumble as Nikkei plunges over 6% amid oil price surge",
+          "url": "https://gulfnews.com/business/markets/asian-markets-tumble-as-nikkei-plunges-over-6-amid-oil-price-surge-1.500467955"
+        },
+        {
+          "title": "Thursday, January 08, 2026 | 01:27 AM ISTहिंदी में पढें",
+          "url": "https://www.business-standard.com/article/markets/drop-in-oil-prices-drag-asian-markets-taiwan-sheds-3-5-109061500141_1.html"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Russia news October 18 2026",
+      "results": [
+        {
+          "title": "ISW Russian Offensive Campaign Assessment, October 17, 2026",
+          "url": "https://www.kyivpost.com/post/87392"
+        },
+        {
+          "title": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
+          "url": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites"
+        },
+        {
+          "title": "Russia’s war on Ukraine ‘must be brought to an end’, Zelenskyy says",
+          "url": "https://www.aljazeera.com/news/2026/10/18/russias-war-on-ukraine-must-be-brought-to-an-end-zelenskyy-says"
+        },
+        {
+          "title": "Trump slams Zelensky after Ukraine defies US president with major attack on Russia",
+          "url": "https://www.cnn.com/2026/10/18/europe/ukraine-russia-drone-attack-trump-intl"
         },
         {
           "title": "Russia launches 'one of its largest attacks' on Ukraine's energy grid as US 'disregards' Graham's sanctions, Zelensky says",
           "url": "https://kyivindependent.com/russian-attacks-kill-7-injure-dozens-across-ukraine-amid-continued-strikes-on-energy-infrastructure/"
         },
         {
-          "title": "Russia targets Ukraine with 'massive' aerial attack, including hundreds of drones, Zelenskyy says - ABC News",
-          "url": "https://abcnews.com/International/russia-targets-ukraine-massive-aerial-attack-including-850/story?id=137279786"
+          "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
+          "url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war"
         },
         {
-          "title": "‘Massive’ Russian attack on Ukraine kills at least 9, damages power sites",
-          "url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv"
+          "title": "10 October 2024 - Ukraine Special Weapons News |",
+          "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2024/10/10-10_index.htm"
         },
         {
-          "title": "Russian strikes kill civilians, injure dozens across Ukraine",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/russian-strikes-kill-civilians-injure-dozens-across-ukraine"
+          "title": "24 October 2023 - Ukraine Special Weapons News |",
+          "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2023/10/10-24_index.htm"
         },
         {
-          "title": "War",
-          "url": "https://ukrinform.net/rubric-ato"
-        },
-        {
-          "title": "600,000 without power in Ukraine as Russia launches 'massive' attack amid Trump's 'energy ceasefire' - ABC News",
-          "url": "https://abcnews.com/International/600000-power-ukraine-russia-launches-missile-drone-attack/story?id=137248732"
-        },
-        {
-          "title": "Russia strikes 9 Ukrainian regions as strain grows between Zelenskyy and Trump",
-          "url": "https://www.pbs.org/newshour/world/russia-strikes-9-ukrainian-regions-as-strain-grows-between-zelenskyy-and-trump"
-        },
-        {
-          "title": "russia launches aerial attack on ukraine with missiles drones",
-          "url": "https://newsonair.gov.in/russia-launches-aerial-attack-on-ukraine-with-missiles-drones"
+          "title": "Russia-Ukraine war: List of key events, day 606",
+          "url": "https://www.aljazeera.com/news/2023/10/22/russia-ukraine-war-list-of-key-events-day-606"
         }
       ]
     },
     {
-      "query": "White House press secretary October 17 2026",
+      "query": "Trump news October 18 2026",
       "results": [
         {
-          "title": "October 16, 2026 - by Heather Cox Richardson",
-          "url": "https://heathercoxrichardson.substack.com/p/october-16-2026"
+          "title": "Trump says he's \"negotiating Peace\" as Ukraine launches 1,000 drones at Russia amid continued back-and-forth strikes - CBS News",
+          "url": "https://www.cbsnews.com/news/ukraine-russia-drone-st-petersburg-oil-facilites/"
         },
         {
-          "title": "White House Press Secretary",
-          "url": "https://en.wikipedia.org/wiki/White_House_Press_Secretary"
+          "title": "2026 Midterm Elections: Trump Rallies Republicans",
+          "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-republicans-democrats-october-18"
         },
         {
-          "title": "Sarah Huckabee Sanders",
-          "url": "https://en.wikipedia.org/wiki/Sarah_Huckabee_Sanders"
+          "title": "Trump slams Zelensky after Ukraine defies US president with major attack on Russia",
+          "url": "https://www.cnn.com/2026/10/18/europe/ukraine-russia-drone-attack-trump-intl"
         },
         {
-          "title": "Opinion",
-          "url": "https://www.washingtonpost.com/opinions/2026/10/17/white-house-press-secretary-katie-zacharias-exit-speaks-volumes/"
+          "title": "Texas Senate candidates rally voters a day before early voting begins",
+          "url": "https://www.cnn.com/2026/10/18/politics/live-news/midterm-election-congress"
         },
         {
-          "title": "Why Trump’s latest White House press secretary lasted just five days",
-          "url": "https://www.aljazeera.com/news/2026/10/17/why-trumps-latest-white-house-press-secretary-lasted-just-five-days"
+          "title": "Trump approval hits record low, handing Democrats a clear midterm edge - The Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/10/18/trump-approval-hits-record-low-handing-democrats-clear-midterm-edge/"
         },
         {
-          "title": "Andrew Bates (spokesman)",
-          "url": "https://en.wikipedia.org/wiki/Andrew_Bates_(spokesman)"
+          "title": "Donald Trump%27s conflict with the news media",
+          "url": "https://en.wikipedia.org/wiki/Donald_Trump%27s_conflict_with_the_news_media"
         },
         {
-          "title": "Karoline Leavitt",
-          "url": "https://en.wikipedia.org/wiki/Karoline_Leavitt"
+          "title": "Trump Says Washington Golf Course Renovation to Start in November, Despite Judge's Order",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-18/trump-says-washington-golf-course-renovation-to-start-in-november-despite-judges-order"
         },
         {
-          "title": "TJ Ducklo",
-          "url": "https://en.wikipedia.org/wiki/TJ_Ducklo"
+          "title": "Timeline of the second Trump presidency (2025 Q4)",
+          "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q4)"
         },
         {
-          "title": "Katie Zacharia praises Trump as ‘kind, wonderful, gracious’ after being forced out as press secretary after 5 days",
-          "url": "https://www.yahoo.com/news/politics/article/katie-zacharia-out-as-white-house-press-secretary-after-5-days-on-the-job-reports-182158704.html"
-        },
-        {
-          "title": "Olivia Dalton",
-          "url": "https://en.wikipedia.org/wiki/Olivia_Dalton"
+          "title": "List of Donald Trump rallies (2025%E2%80%93present)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Donald_Trump_rallies_(2025%E2%80%93present)"
         }
       ]
     },
     {
-      "query": "Trump Kentucky rally Highland Heights October 17",
+      "query": "US strikes Iranian missile launchers Strait of Hormuz CENTCOM",
       "results": [
         {
-          "title": "WATCH LIVE: Trump holds rally in Highland Heights, Kentucky",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4769857/watch-live-trump-kentucky-midterm-rally-highland-heights/"
+          "title": "US Forces Strike Iranian Missile Launchers Near Strait of Hormuz",
+          "url": "https://www.today.com/video/us-forces-strike-iranian-missile-launchers-near-strait-of-hormuz-269089861978"
         },
         {
-          "title": "President Trump coming to Northern Kentucky this weekend",
-          "url": "https://www.fox19.com/2026/10/13/president-trump-coming-northern-kentucky-this-weekend/"
+          "title": "U.S. strikes Iran as Tehran retaliates, raising risk of wider war",
+          "url": "https://www.cnbc.com/2026/09/01/us-strikes-iran-after-new-hormuz-strait-shipping-attacks-centcom.html"
         },
         {
-          "title": "Trump touts his power at Kentucky rally to energize voters ahead of midterm elections",
-          "url": "https://www.cnbc.com/2026/10/17/trump-touts-his-power-at-kentucky-rally-ahead-of-midterms.html"
+          "title": "Jordan and Bahrain face Iranian missiles and drones as hostilities flare",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-strikes-strait-of-hormuz-larak-island/"
         },
         {
-          "title": "Trump parachutes to KY to stump for Republicans in safe seats, give GOP nod in ‘tight race’ • Kentucky Lantern",
-          "url": "https://kentuckylantern.com/2026/10/17/trump-parachutes-to-ky-to-stump-for-republicans-in-safe-seats-give-gop-nod-in-tight-race/"
+          "title": "Strait of Hormuz",
+          "url": "https://www.crisisgroup.org/trigger-list/iran-usisrael-trigger-list/flashpoints/strait-hormuz"
         },
         {
-          "title": "Trump touts his power in Northern Kentucky rally to energize voters ahead of midterms",
-          "url": "https://local12.com/news/local/president-donald-trump-nku-truist-arena-visits-northern-kentucky-power-rally-energize-voters-ahead-midterms-election-ed-gallrein"
+          "title": "US Forces Strike Iranian Missile Launchers Near Strait of Hormuz - YouTube",
+          "url": "https://www.youtube.com/watch?v=NMwsz8KgB1g"
         },
         {
-          "title": "Trump's rally in Kentucky will be held in Truist Arena at NKU",
-          "url": "https://www.whas11.com/article/news/politics/trumps-rally-in-kentucky-will-be-held-in-truist-arena-at-nku/417-98186ce0-bc2c-4405-bc41-5f562ba922b6"
+          "title": "2026 Strait of Hormuz campaign",
+          "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_campaign"
         },
         {
-          "title": "Trump will return to northern Kentucky for rally ahead of 2026 midterms",
-          "url": "https://fox56news.com/news/kentucky/trump-will-return-to-northern-kentucky-for-rally-ahead-of-2026-midterms/"
+          "title": "7 May 2026 United States strikes on Iran",
+          "url": "https://en.wikipedia.org/wiki/7_May_2026_United_States_strikes_on_Iran"
         },
         {
-          "title": "Highland Heights, Kentucky",
-          "url": "https://en.wikipedia.org/wiki/Highland_Heights,_Kentucky"
+          "title": "US Forces Confirm Iranian Missile Shot Down Navy Drone - CENTCOM",
+          "url": "https://www.globalsecurity.org/wmd/library/news/iran/2019/iran-190620-sputnik04.htm"
         },
         {
-          "title": "List of Donald Trump rallies (December 2016%E2%80%932022)",
-          "url": "https://en.wikipedia.org/wiki/List_of_Donald_Trump_rallies_(December_2016%E2%80%932022)"
-        },
-        {
-          "title": "Watch CBS News",
-          "url": "https://www.cbsnews.com/news/trump-rally-lexington-kentucky-today-maga-2020-campaign-rupp-arena-2019-11-04"
+          "title": "After dropping 5,000-pound bombs on missile bunkers overlooking Hormuz, US CentCom chief says 'will not stop'",
+          "url": "https://gulfnews.com/amp/story/world%2Fmena%2Fafter-dropping-5000-pound-bombs-on-missile-bunkers-overlooking-hormuz-us-centcom-chief-says-will-not-stop-1.500482077"
         }
       ]
     },
     {
-      "query": "Israel election Netanyahu Lapid October 2026 polls",
+      "query": "Lavrov Tehran visit Iran talks October 19",
       "results": [
         {
-          "title": "Coalition, opposition tie at 52 seats as Netanyahu's Likud gets closer to Eisenkot's Yashar - poll",
-          "url": "https://www.jpost.com/israel-election-2026/article-911139"
+          "title": "Russia's Lavrov to visit Tehran on Monday, Iran says",
+          "url": "https://www.timesofisrael.com/liveblog_entry/russias-lavrov-to-visit-tehran-on-monday-iran-says/"
         },
         {
-          "title": "Israel election: Benjamin Netanyahu, Gadi Eisenkot blocs struggle to secure Knesset majority",
-          "url": "https://www.jpost.com/israel-election-2026/article-911622"
+          "title": "Live Updates: Russian foreign minister says he's visiting Iran for talks to avert return to \"large-scale war\"",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/"
         },
         {
-          "title": "Israeli media's polling obscures the majority opposed to Benjamin Netanyahu",
-          "url": "https://www.jpost.com/opinion/article-911550"
+          "title": "Sergey Lavrov to meet Iranian foreign minister in Tehran",
+          "url": "https://en.apa.az/cis-countries/sergey-lavrov-to-meet-iranian-foreign-minister-in-tehran-530799"
         },
         {
-          "title": "Oct. 17: Lapid says he doesn’t trust Netanyahu not to launch Iran strike that could disrupt election",
-          "url": "https://www.timesofisrael.com/liveblog-october-17-2026/"
+          "title": "Lavrov to visit Tehran for talks on bilateral, regional issues",
+          "url": "https://newsable.asianetnews.com/world/lavrov-to-visit-tehran-for-talks-on-bilateral-regional-issues-articleshow-vt1hyiy"
         },
         {
-          "title": "3 experts on how you’re reading election polls wrong — and why they can't predict the result",
-          "url": "https://www.timesofisrael.com/3-experts-on-how-youre-reading-election-polls-wrong-and-why-they-cant-predict-the-result/"
+          "title": "Russian Foreign Minister Lavrov Heads to Tehran for Iran War Talks",
+          "url": "https://www.kurdistan24.net/en/story/947072/russian-foreign-minister-lavrov-heads-to-tehran-for-iran-war-talks"
         },
         {
-          "title": "Israel Election 2026: Polls, Average and Coalition Tracker",
-          "url": "https://www.israel.com/israel-election-2026"
+          "title": "Russian foreign minister set to visit Iran for talks on bilateral ties, regional developments",
+          "url": "https://www.anews.com.tr/world/2026/10/19/russian-foreign-minister-set-to-visit-iran-for-talks-on-bilateral-ties-regional-developments"
         },
         {
-          "title": "israel election netanyahu",
-          "url": "https://www.npr.org/2022/11/01/1133083117/israel-election-netanyahu"
+          "title": "Lavrov Visits Tehran For Talks With Iranian Counterpart Abbas Araqchi: how 5 outlets framed it",
+          "url": "https://newscord.org/article/lavrov-visits-tehran-for-talks-with-iranian-counterpart-abbas-araqchi--Story_20261018_RussianFMvisitsTehraf493bcf3"
         },
         {
-          "title": "Netanyahu eyes comeback as Israelis head to the polls",
-          "url": "https://www.axios.com/2022/11/01/israel-election-netanyahu-lapid-watch-results"
+          "title": "Report: What’s Lavrov’s Mission in Tehran? - ABNA English",
+          "url": "https://en.abna24.com/news/1879947/Report-What-s-Lavrov-s-Mission-in-Tehran"
         },
         {
-          "title": "As Israel heads back to elections, Lapid stakes out vision",
-          "url": "https://gulfnews.com/amp/story/world%2Fmena%2Fas-israel-heads-back-to-elections-lapid-stakes-out-vision-1.88959764"
+          "title": "Lavrov to Visit Iran to Discuss Persian Gulf Crisis and Expand Cooperation - Wealth Adviser",
+          "url": "https://www.wealthadviser.co/lavrov-to-visit-iran-to-discuss-persian-gulf-crisis-and-expand-cooperation"
+        },
+        {
+          "title": "Russia’s Lavrov to visit Iran for nuclear talks",
+          "url": "https://gulfnews.com/amp/story/world%2Fmena%2Frussias-lavrov-to-visit-iran-for-nuclear-talks-1.1264024"
         }
       ]
     },
     {
-      "query": "oil tanker rates record Asia refiners IEA October 2026",
+      "query": "Washington Post ABC Ipsos poll Trump approval 33% October 2026",
       "results": [
         {
-          "title": "Record Oil Tanker Rates Squeeze Asian Refiners As Freight Costs Surge - BW Businessworld",
-          "url": "https://www.businessworld.in/article/record-oil-tanker-rates-squeeze-asian-refiners-as-freight-costs-surge-628638"
+          "title": "Trump Approval Slides to 33%",
+          "url": "https://politicalwire.com/2026/10/18/trump-approval-slides-to-33/"
         },
         {
-          "title": "Tanker costs pressure Asian refiners - Oil & Gas 360",
-          "url": "https://www.oilandgas360.com/tanker-costs-pressure-asian-refiners/"
+          "title": "Oct. 9-13, 2026, Washington Post-ABC News-Ipsos poll - The Washington Post",
+          "url": "https://www.washingtonpost.com/tablet/2026/10/15/oct-9-13-2026-washington-post-abc-news-ipsos-poll/"
         },
         {
-          "title": "IEA: Record oil tanker rates put pressure on Asian refiners",
-          "url": "https://www.hydrocarbonprocessing.com/news/2026/10/iea-record-oil-tanker-rates-put-pressure-on-asian-refiners/"
+          "title": "Trump approval hits record low as midterms near: poll",
+          "url": "https://www.fox4news.com/news/trump-approval-hits-record-low-midterms-near-poll"
         },
         {
-          "title": "Record oil tanker rates put pressure on Asian refiners, IEA says",
-          "url": "https://boereport.com/2026/10/14/record-oil-tanker-rates-put-pressure-on-asian-refiners-iea-says/"
+          "title": "Trump approval hits record low, handing Democrats a clear midterm edge - The Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/10/18/trump-approval-hits-record-low-handing-democrats-clear-midterm-edge/"
         },
         {
-          "title": "Record oil tanker rates put pressure on Asian refiners, IEA says - XLE News",
-          "url": "https://rallies.ai/news/record-oil-tanker-rates-put-pressure-on-asian-refiners-iea-says-32fba88f147b4152"
+          "title": "Opinion polling on the second Trump presidency",
+          "url": "https://en.wikipedia.org/wiki/Opinion_polling_on_the_second_Trump_presidency"
         },
         {
-          "title": "Record Oil Tanker Rates Put Pressure on Asian Refiners, IEA Says - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com",
-          "url": "https://energynow.com/2026/10/record-oil-tanker-rates-put-pressure-on-asian-refiners-iea-says/"
+          "title": "Trump approval rating hits lows in Fox, NBC, Washington Post midterm polls",
+          "url": "https://www.axios.com/2026/10/18/trump-approval-polls-maga-gop-midterms-2026"
         },
         {
-          "title": "IEA: Record Tanker Freight Costs Push Asian Refiners’ Margins Into Negative",
-          "url": "https://egyptoil-gas.com/news/iea-record-tanker-freight-costs-push-asian-refiners-margins-into-negative/"
+          "title": "Democrats lead Republicans in House vote choice as Trump's approval rating hits record low: ABC/Post/Ipsos poll - ABC News",
+          "url": "https://abcnews.com/Politics/democrats-lead-republicans-house-vote-choice-trumps-approval/story?id=137322849"
         },
         {
-          "title": "IEA Reports Record Supertanker Freight Costs Pressuring Asian Refiners - News and Statistics - IndexBox",
-          "url": "https://www.indexbox.io/blog/iea-supertanker-freight-rates-hit-record-highs-squeezing-asian-refiners/"
+          "title": "2019 opinion polling on the Trump administration",
+          "url": "https://en.wikipedia.org/wiki/2019_opinion_polling_on_the_Trump_administration"
         },
         {
-          "title": "Record Oil Tanker Rates Put Pressure on Asian Refiners, IEA Says - Today in Oil and Gas",
-          "url": "https://www.todayinoilandgas.com/2026/10/14/record-oil-tanker-rates-put-pressure-on-asian-refiners-iea-says/"
-        },
-        {
-          "title": "U.S. Energy Information Administration logo",
-          "url": "https://www.eia.gov/todayinEnergy/detail.php?id=67064"
+          "title": "2018 opinion polling on the Trump administration",
+          "url": "https://en.wikipedia.org/wiki/2018_opinion_polling_on_the_Trump_administration"
         }
       ]
     },
     {
-      "query": "Wall Street week ahead earnings October 19 2026",
+      "query": "Houthi Saudi Yemen October 18 2026",
       "results": [
         {
-          "title": "Wall Street Headed for Weekly Gains as Earnings Season Nears - GV Wire",
-          "url": "https://gvwire.com/2026/10/09/wall-street-headed-for-weekly-gains-as-earnings-season-nears/"
+          "title": "Yemen Conflict",
+          "url": "https://www.aljazeera.com/tag/houthis/"
         },
         {
-          "title": "The Week Ahead: Earnings Season Heats Up on Wall Street - Schaeffer's Investment Research",
-          "url": "https://www.schaeffersresearch.com/content/news/2026/10/15/the-week-ahead-earnings-season-heats-up-on-wall-street"
+          "title": "GCC condemns Houthi attacks on Saudi Arabia as Yemen fighting intensifies",
+          "url": "https://www.aljazeera.com/news/2026/10/18/gcc-condemns-houthi-attacks-on-saudi-arabia-as-yemen-fighting-intensifies"
         },
         {
-          "title": "Earnings Calendar and Analysis for This Week (October 19-23)",
-          "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+          "title": "Arab News",
+          "url": "https://www.arabnews.com/saudi-arabia/coalition-destroy-incoming-houthi-missiles-drones-amid-renewed-attacks-3006940"
         },
         {
-          "title": "Earnings Whispers",
-          "url": "https://www.earningswhispers.com/"
+          "title": "Saudi-led coalition intercepts drones as Egypt weighs sending help",
+          "url": "https://www.aljazeera.com/news/2026/10/17/saudi-led-coalition-intercepts-drones-as-egypt-weighs-sending-help"
         },
         {
-          "title": "Earnings Report Calendar",
-          "url": "https://marketchameleon.com/Calendar/Earnings"
+          "title": "Middle East Tensions Escalate: Saudi Arabia Intercepts Houthi Missiles, Trump Predicts Quick End to Iran War",
+          "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-drones-missiles-trump-says-iran-war-will-end-soon-1.500714637"
         },
         {
-          "title": "US earnings season - Q3 2026 - ii",
-          "url": "https://www.ii.co.uk/investing-with-ii/international-investing/us-earnings-season"
+          "title": "What’s happening in Yemen today",
+          "url": "https://alaskahub.substack.com/p/what-s-happening-in-yemen-today-92820b21be14"
         },
         {
-          "title": "The Week Ahead: Tesla, Meta and WDC Earnings in Focus as US Stock Q3 Earnings Season Enters Key Trading Window",
-          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262222431-weekly-preview-tesla-meta-wdc-q3-earnings-us-stocks-trading-window-tradingkey"
+          "title": "Saudi-led coalition strikes Houthi targets in Yemen's Hodeidah -state news",
+          "url": "https://news.yahoo.com/saudi-led-coalition-strikes-houthi-214424186.html"
         },
         {
-          "title": "Wall Street Week Ahead",
-          "url": "https://seekingalpha.com/article/4846938-wall-street-week-ahead"
+          "title": "www.malaymail.com",
+          "url": "https://www.malaymail.com/news/world/2021/04/17/yemens-houthis-say-they-have-hit-saudi-arabias-king-khalid-air-base/1967311"
         },
         {
-          "title": "Wall Street Breakfast: The Week Ahead",
-          "url": "https://seekingalpha.com/article/4642386-wall-street-breakfast-week-ahead"
+          "title": "www.malaymail.com",
+          "url": "https://www.malaymail.com/amp/news/world/2021/04/17/yemens-houthis-say-they-have-hit-saudi-arabias-king-khalid-air-base/1967311"
         }
       ]
     },
     {
-      "query": "China news October 17 2026 Xi economy GDP third quarter",
+      "query": "Europe news October 18 2026 France protests aftermath Lecornu",
       "results": [
-        {
-          "title": "China’s Growth Seen Edging Up to 4.4% as Exports Offset Weak Demand - Caixin Global",
-          "url": "https://www.caixinglobal.com/2026-10-14/chinas-growth-seen-edging-up-to-44-as-exports-offset-weak-demand-102493073.html"
-        },
-        {
-          "title": "China Q3 growth set to pick up on stimulus, keeping 2026 goal within reach: Reuters poll By Reuters",
-          "url": "https://www.investing.com/news/economy-news/china-q3-growth-set-to-pick-up-on-stimulus-keeping-2026-goal-within-reach-reuters-poll-4950895"
-        },
-        {
-          "title": "China GDP Annual Growth Rate",
-          "url": "https://tradingeconomics.com/china/gdp-growth-annual"
-        },
-        {
-          "title": "China GDP Growth (Y/Y) in Q3 2026? Prediction Market Odds",
-          "url": "https://www.lines.com/prediction-markets/economy/china-gdp-growth-yy-in-q3-2026-20260716161116873"
-        },
-        {
-          "title": "China Q3 growth set to pick up on stimulus, keeping 2026 goal within reach: Reuters poll",
-          "url": "https://kfgo.com/2026/10/15/china-q3-growth-set-to-pick-up-on-stimulus-keeping-2026-goal-within-reach-reuters-poll/"
-        },
-        {
-          "title": "China Q3 2026 Economy: Consumption, Trade, Investment Data - News and Statistics - IndexBox",
-          "url": "https://www.indexbox.io/blog/china-q3-2026-economic-data-consumption-trade-investment-growth/"
-        },
-        {
-          "title": "China Q3 GDP Growth Forecast at 4.4% as Policy Easing Falls Short of Target - News and Statistics - IndexBox",
-          "url": "https://www.indexbox.io/blog/china-q3-gdp-growth-seen-at-44-below-full-year-target-lower-bound/"
-        },
-        {
-          "title": "China Q3 growth set to pick up on stimulus, keeping 2026 goal within reach: Reuters poll",
-          "url": "https://www.933thedrive.com/2026/10/15/china-q3-growth-set-to-pick-up-on-stimulus-keeping-2026-goal-within-reach-reuters-poll/"
-        },
-        {
-          "title": "China Q3 Growth to Pick Up on Stimulus, 2026 Goal in Reach",
-          "url": "https://www.gurutrade.com/news/china-q3-growth-to-pick-up-on-stimulus-2026-goal-in-reach-1792097229.html"
-        },
-        {
-          "title": "china third quarter gdp rcna53650",
-          "url": "https://www.nbcnews.com/news/world/china-third-quarter-gdp-rcna53650"
-        }
-      ]
-    },
-    {
-      "query": "Europe news October 17 2026",
-      "results": [
-        {
-          "title": "Latest News: Today's Top Headlines & Live Updates",
-          "url": "https://www.euronews.com/just-in"
-        },
-        {
-          "title": "Video. Latest news bulletin",
-          "url": "https://www.euronews.com/video/2026/10/17/latest-news-bulletin-october-17th-2026-morning"
-        },
-        {
-          "title": "Europe News",
-          "url": "https://www.aljazeera.com/europe/"
-        },
-        {
-          "title": "News: U.S. and World News Headlines : NPR",
-          "url": "https://www.npr.org/sections/news/"
-        },
         {
           "title": "Police clash with protesters during huge demonstrations across France",
           "url": "https://www.cnn.com/2026/10/17/world/live-news/france-protests-paris-intl"
         },
         {
-          "title": "Europe Intelligence Brief for Saturday, October 17, 2026",
-          "url": "https://www.riotimesonline.com/europe-intelligence-brief-saturday-october-17-2026/"
+          "title": "2026 French student protests",
+          "url": "https://en.wikipedia.org/wiki/2026_French_lyc%C3%A9e_protests"
         },
         {
-          "title": "top news stories today",
-          "url": "https://www.euronews.com/top-news-stories-today"
+          "title": "Student protests grip France as Prime Minister Lecornu calls crisis meeting",
+          "url": "https://www.pbs.org/newshour/world/student-protests-grip-france-as-prime-minister-lecornu-calls-crisis-meeting"
         },
         {
-          "title": "www.euronews.com",
-          "url": "https://www.euronews.com/tag/news?p=4"
+          "title": "2022 French protests",
+          "url": "https://en.wikipedia.org/wiki/2022_French_protests"
         },
         {
-          "title": "world news",
-          "url": "https://www.euronews.com/tag/world-news?p=7"
+          "title": "2024%E2%80%932025 French political crisis",
+          "url": "https://en.wikipedia.org/wiki/2024%E2%80%932025_French_political_crisis"
+        },
+        {
+          "title": "Chaotic scenes as organisers of French protests claim 800,000 have taken to streets - France 24",
+          "url": "https://www.france24.com/en/france/20261017-live-france-s-yellow-vests-throw-their-weight-behind-mounting-student-protests"
+        },
+        {
+          "title": "France will not be intimidated by violence, PM Lecornu says after protests",
+          "url": "https://www.anews.com.tr/europe/2026/10/17/france-will-not-be-intimidated-by-violence-pm-lecornu-says-after-protests"
+        },
+        {
+          "title": "French unions call more protests to put pressure on new prime minister",
+          "url": "https://catherwood.library.cornell.edu/?p=57903"
+        },
+        {
+          "title": "Add Tribune As Your Trusted Source",
+          "url": "https://www.tribuneindia.com/news/world/lecornu-is-frances-new-prime-minister-takes-office-amid-anti-government-protests/amp"
         }
       ]
     },
     {
-      "query": "France protests cost of living October 17 2026 detained",
+      "query": "stock futures Monday October 19 2026 earnings week",
       "results": [
         {
-          "title": "France faces day of cost-of-living protests",
-          "url": "https://www.yahoo.com/news/politics/articles/france-faces-day-cost-living-102717757.html"
+          "title": "US Stock Futures Rise Ahead of Busy Earnings Week: Markets Wrap",
+          "url": "https://uk.finance.yahoo.com/news/us-stock-futures-rise-ahead-220725997.html"
         },
         {
-          "title": "Dozens arrested as protesters clash with security forces in Paris",
-          "url": "https://www.euronews.com/2026/10/17/france-braces-for-tense-protests-as-security-concerns-take-centre-stage"
+          "title": "US Stock Futures Rise Ahead of Busy Earnings Week: Markets Wrap",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-rise-ahead-220725997.html"
         },
         {
-          "title": "166 detained in France for the protests over the cost of living",
-          "url": "https://www.democrata.es/en/international/at-least-166-arrests-by-noon-in-the-protests-over-the-cost-of-living-in-france/"
+          "title": "Tech earnings ahead this week amid AI jitters; oil slips - what’s moving markets By Investing.com",
+          "url": "https://uk.investing.com/news/economy-news/tech-earnings-ahead-this-week-amid-ai-jitters-oil-slips--whats-moving-markets-4916695"
         },
         {
-          "title": "France Cost Of Living Protests Turn Violent As Police Fire Tear Gas And Detain 400: how 19 outlets framed it",
-          "url": "https://newscord.org/article/france-cost-of-living-protests-turn-violent-as-police-fire-tear-gas-and-detain-4--Story_20261017_Costoflivingprotestsd3e35752"
+          "title": "US Stock Futures Rise as Tech Stocks Rebound Amid Earnings Reports",
+          "url": "https://www.gurufocus.com/news/9129170/us-stock-futures-rise-as-tech-stocks-rebound-amid-earnings-reports"
         },
         {
-          "title": "France Sees 1,200 Arrests in Cost-of-Living Protests - Archynewsy",
-          "url": "https://www.archynewsy.com/france-sees-1200-arrests-in-cost-of-living-protests/"
+          "title": "Stock futures rebound as oil nears $110, AI earnings loom",
+          "url": "https://seekingalpha.com/news/4654081-stock-futures-rebound-as-oil-nears-110-ai-earnings-loom"
         },
         {
-          "title": "French police fire tear gas at protesters in central Paris",
-          "url": "https://www.aljazeera.com/news/2018/12/france-braces-massive-yellow-vest-protests-181208055629215.html"
+          "title": "Nasdaq Futures Rebound 0.7% as Earnings Week Looms",
+          "url": "https://tech-insider.org/stocks-rebound-nasdaq-futures-earnings-week-2026/"
         },
         {
-          "title": "protests in france",
-          "url": "https://www.euronews.com/tag/protests-in-france?p=4"
+          "title": "U.S. stock futures rebounded, with Nasdaq futures rising 1.4% as capital returned to AI trades; CoreWeave plunged 25% last week.",
+          "url": "https://news.futunn.com/en/post/1001509310/us-stock-futures-rebounded-with-nasdaq-futures-rising-1-4"
         },
         {
-          "title": "French police fire tear gas at protesters in central Paris",
-          "url": "https://www.aljazeera.com/amp/news/2018/12/8/french-police-fire-tear-gas-at-protesters-in-central-paris"
+          "title": "US Stock Futures Rebound, Oil Retreats From $110 as 70-Plus Earnings Reports and Nvidia GTC Become the Battleground — BigGo Finance",
+          "url": "https://finance.biggo.com/news/0a0fa485-3bfb-4de5-bef0-b702b6a01f40"
         },
         {
-          "title": "Cops clash with Paris protesters",
-          "url": "https://www.pressreader.com/uae/khaleej-times/20181209/281638191286266"
-        },
-        {
-          "title": "Fewer protesters at latest rally in Paris",
-          "url": "https://www.pressreader.com/uk/derby-telegraph/20181217/282982516066652"
+          "title": "stock market news today 4 29 25 futures inch higher as earnings season heats up",
+          "url": "https://www.tipranks.com/news/stock-market-news-today-4-29-25-futures-inch-higher-as-earnings-season-heats-up"
         }
       ]
     },
     {
-      "query": "Trump executive order waives Russia sanctions package Graham",
+      "query": "Zelensky Meet the Press NBC historic mistake Trump Truth Social October 18",
       "results": [
         {
-          "title": "Trump executive order blocks U.S. sanctions on Russia - UPI.com",
-          "url": "https://www.upi.com/Top_News/US/2026/10/17/trump-waives-sanctions-against-russia/5771792263731/"
+          "title": "Unhinged Trump Makes Shock Confession Over Sweetheart Deal With Vladimir Putin",
+          "url": "https://www.thedailybeast.com/unhinged-trump-makes-shock-confession-over-sweetheart-deal-with-vladimir-putin"
         },
         {
-          "title": "Trump signs order waiving Graham Act sanctions on Russia, drawing backlash from some lawmakers and Zelenskyy - ABC News",
-          "url": "https://abcnews.com/Politics/trump-signs-order-waiving-graham-act-sanctions-russia/story?id=137341529"
+          "title": "Trump EXCORIATES Zelensky after Ukraine DEFIES US president with major attack on Russia.",
+          "url": "https://kdsherpa.substack.com/p/trump-excoriates-zelensky-after-ukraine"
         },
         {
-          "title": "Trump’s waiver of sanctions on Russia stirs bipartisan outrage - The Washington Post",
-          "url": "https://www.washingtonpost.com/politics/2026/10/17/trump-signs-executive-order-waiving-sanctions-against-russia/"
+          "title": "Zelensky says Trump risks ‘historic mistake’ if he backs Russia",
+          "url": "https://www.inquirer.com/news/nation-world/zelensky-ukraine-russia-us-support-trump-putin-starshield-musk-20261018.html"
         },
         {
-          "title": "Trump waives broad new Russia sanctions, Zelenskyy condemns it as 'wrong'",
-          "url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html"
+          "title": "Trump slams Zelensky after Ukraine defies US president with major attack on Russia",
+          "url": "https://www.cnn.com/2026/10/18/europe/ukraine-russia-drone-attack-trump-intl"
         },
         {
-          "title": "Trump faces bipartisan backlash over Russia sanctions waiver, causing top Republicans to break ranks",
-          "url": "https://www.foxbusiness.com/politics/trump-faces-bipartisan-backlash-over-russia-sanctions-waiver-causing-top-republicans-break-ranks"
+          "title": "Volodymyr Zelensky warns US that supporting Vladimir Putin would be a historic mistake",
+          "url": "https://thehill.com/policy/defense/6156521-zelensky-warns-trump-russia/"
         },
         {
-          "title": "Trump signs order to lift Russia sanctions",
-          "url": "https://thehill.com/homenews/administration/6155621-trump-waives-russian-sanctions-act-tariffs/"
+          "title": "Zelenskyy says Ukraine 'will not prevail’ if U.S. takes Russia's side: Full interview",
+          "url": "https://www.nbcnews.com/meet-the-press/video/zelenskyy-says-ukraine-will-not-prevail-if-u-s-takes-russia-s-side-full-interview-271776837876"
         },
         {
-          "title": "Trump Hands Putin Major Win With Late-Night Order Undoing Lindsey Graham-Backed Sanctions",
-          "url": "https://www.thedailybeast.com/trump-hands-putin-major-win-with-late-night-order-undoing-lindsey-graham-backed-sanctions"
+          "title": "Trump accuses Zelenskiy of 'prolonging war'",
+          "url": "https://www.tbsnews.net/worldbiz/europe/trump-accuses-zelenskiy-prolonging-war-1577136"
         },
         {
-          "title": "Republican lawmakers bash Donald Trump over decision to waive Russia sanction",
-          "url": "https://thehill.com/homenews/administration/6155725-trump-waives-russia-sanctions/"
+          "title": "Zelensky holds US talks as Trump accuses him of not wanting peace - France 24",
+          "url": "https://www.france24.com/en/europe/20261018-ukraine-zelensky-war-trump-peace-russia-sanctions"
         },
         {
-          "title": "Did Trump Lift Russia Sanctions? What the October 16 Waiver Changes",
-          "url": "https://www.diplomacyandlaw.com/post/trump-russia-sanctions"
+          "title": "‘Historic mistake’: Zelensky warns US against siding with Putin, says he still wants to trust Trump",
+          "url": "https://news.meaww.com/historic-mistake-zelensky-warns-us-against-siding-with-putin-says-he-still-wants-to-trust-trump"
+        },
+        {
+          "title": "Kremlin officials tout Zelensky-Trump clash as 'historic'",
+          "url": "https://www.yahoo.com/news/kremlin-officials-tout-zelensky-trump-200311581.html"
         }
       ]
     },
     {
-      "query": "Pope Leo XIV discharged Gemelli hospital surgery",
+      "query": "Texas early voting begins Senate Paxton Talarico October 19",
       "results": [
         {
-          "title": "Pope Leo XIV will be discharged from Gemelli Hospital after lung surgery",
-          "url": "https://www.foxnews.com/world/pope-leo-xiv-discharged-hospital-return-vatican-surgery-remove-lung-cancer"
+          "title": "Sizing up the Texas Senate race between James Talarico and Ken Paxton as early voting begins - CBS Texas",
+          "url": "https://www.cbsnews.com/texas/news/texas-senate-race-early-voting-starts/"
         },
         {
-          "title": "Pope Leo XIV discharged from hospital early - Catholic Courier",
-          "url": "https://catholiccourier.com/articles/pope-leo-discharged-from-hospital-early/"
+          "title": "Texas Senate candidates rally voters a day before early voting begins",
+          "url": "https://www.cnn.com/2026/10/18/politics/live-news/midterm-election-congress"
         },
         {
-          "title": "Pope Leo XIV discharged from hospital, returns to Vatican - ABC News",
-          "url": "https://abcnews.com/International/pope-leo-xiv-discharged-hospital-return-vatican/story?id=137343868"
+          "title": "Talarico holds slight edge over Paxton in U.S. Senate race on cusp of election, poll shows",
+          "url": "https://houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/18/564673/talarico-holds-slight-edge-over-paxton-in-u-s-senate-race-on-cusp-of-election-poll-shows"
         },
         {
-          "title": "Pope Leo discharged from hospital after lung cancer surgery",
-          "url": "https://www.nbcnews.com/world/pope-leo-xiv/pope-leo-discharged-hospital-lung-cancer-surgery-rcna604005"
+          "title": "Paxton, Talarico hit the road with competing messages in Texas Senate race",
+          "url": "https://www.dallasnews.com/news/politics/article/paxton-talarico-hit-road-competing-messages-22480105.php"
         },
         {
-          "title": "Pope Leo XIV Cleared to Leave Hospital After Successful Surgery",
-          "url": "https://www.ncregister.com/news/pope-leo-xiv-cleared-to-leave-hospital-after-successful-surgery"
+          "title": "New CBS poll shows James Talarico narrowly leading Ken Paxton in Texas Senate race",
+          "url": "https://www.khou.com/article/news/politics/elections/cbs-poll-james-talarico-ken-paxton-texas-senate-race/285-3bfab4eb-f6d8-495b-b988-1a2de671c0f2"
         },
         {
-          "title": "Pope Leo XIV Discharged From Hospital After Surgery, Lung Cancer Diagnosis",
-          "url": "https://dailycaller.com/2026/10/17/pope-leo-xiv-discharged-rome-agostino-gemelli-university-hospital-surgery-lung-cancer-diagnosis/"
+          "title": "Texans to decide between Ken Paxton James Talarico for U.S. Senate in midterm election",
+          "url": "https://www.nbcdfw.com/news/politics/lone-star-politics/texans-to-decide-between-a-g-ken-paxton-and-state-rep-james-talarico-for-u-s-senate-in-midterm-election/4092032/"
         },
         {
-          "title": "globalnews.ca",
-          "url": "https://globalnews.ca/video/9774289/pope-francis-discharged-from-hospital-after-abdominal-surgery/amp"
+          "title": "Paxton, Talarico campaign across Texas as early voting begins Monday",
+          "url": "https://www.cbs19.tv/video/news/local/paxton-talarico-campaign-across-texas-as-early-voting-begins-monday/501-94bf8466-ff30-4675-b440-b0a264b83a2b"
         },
         {
-          "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
-          "url": "https://www.euronews.com/2023/06/16/pope-francis-leaves-rome-hospital-nine-days-after-abdominal-surgery"
+          "title": "Texas Opens 10-Day Early Voting in Senate Race as 80% of Ballots Are Cast Early",
+          "url": "https://www.zetik.com/news/article/story_id-p008-225003"
         },
         {
-          "title": "pope francis leaves rome hospital 9 days surgery rcna89664",
-          "url": "https://www.nbcnews.com/news/world/pope-francis-leaves-rome-hospital-9-days-surgery-rcna89664"
+          "title": "Texas Senate poll: Talarico 51, Paxton 49 as early voting opens",
+          "url": "https://easternherald.com/2026/10/18/texas-senate-poll-talarico-paxton-turnout/"
         }
       ]
     },
     {
-      "query": "Ebola outbreak latest October 17 2026",
+      "query": "Israel Lebanon Gaza news October 18 2026",
       "results": [
         {
-          "title": "Ebola Outbreak: Current Situation",
-          "url": "https://www.cdc.gov/ebola/situation-summary/index.html"
+          "title": "Israeli-Palestinian conflict live updates: Israel marks 3 years since Oct. 7 attack",
+          "url": "https://www.nbcnews.com/world/middle-east/live-blog/live-updates-israel-marks-three-year-anniversary-oct-7-attack-rcna601912"
         },
         {
-          "title": "Ebola outbreak update through October 14",
-          "url": "https://outbreaknewstoday.substack.com/p/ebola-outbreak-update-through-october"
+          "title": "Israel attacks Lebanon",
+          "url": "https://www.aljazeera.com/tag/israel-lebanon/"
         },
         {
-          "title": "Ebola",
-          "url": "https://www.aljazeera.com/tag/ebola/"
+          "title": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/"
         },
         {
-          "title": "Current information about Ebola",
-          "url": "https://www.rivm.nl/en/ebola/current-information"
+          "title": "Lebanon",
+          "url": "https://www.timesofisrael.com/topic/lebanon/"
         },
         {
-          "title": "Ebola News Today: Latest 2026 Outbreak Headlines",
-          "url": "https://www.liveebolamap.com/news"
+          "title": "Palestine and Israel news today on map - Jerusalem today - Israel News today - Palestine News today - israelpalestine.liveuamap.com",
+          "url": "https://israelpalestine.liveuamap.com/"
         },
         {
-          "title": "Ebola Outbreak in DRC Tops 9235 Confirmed Cases, CDC Reports",
-          "url": "https://www.contagionlive.com/view/ebola-outbreak-in-drc-tops-9235-confirmed-cases-cdc-reports"
+          "title": "UK warns firms that bidding on E1 settlement tenders exposes them to sanctions",
+          "url": "https://timesofisrael.com/liveblog-october-19-2026"
         },
         {
-          "title": "1 in 4 Ebola deaths are children in Democratic Republic of Congo's worst outbreak",
-          "url": "https://www.cbc.ca/news/health/ebola-congo-children-deaths-9.7384641"
+          "title": "Israel’s Expanding ‘Yellow Lines’ Reshape Gaza and Southern Lebanon - Politics Today",
+          "url": "https://politicstoday.org/israels-expanding-yellow-lines-reshape-gaza-and-southern-lebanon/"
         },
         {
-          "title": "Congo Confirms Ebola Outbreak Spreads to Eighth Province",
-          "url": "https://english.aawsat.com/world/5330773-congo-confirms-ebola-outbreak-spreads-eighth-province"
+          "title": "Israel/Lebanon News Today",
+          "url": "https://www.newsnow.com/us/World/Middle+East/Israel~Lebanon"
         },
         {
-          "title": "ebola virus",
-          "url": "https://www.euronews.com/tag/ebola-virus?p=3"
+          "title": "Israeli Strikes Kill Gazans, Shelling Hits Lebanon, Forces Advance in Quneitra",
+          "url": "https://kayhan.ir/en/news/154807/israeli-strikes-kill-gazans-shelling-hits-lebanon-forces-advance-in-quneitra"
         }
       ]
     },
     {
-      "query": "Japan Takaichi South Korea Taiwan news October 17 2026",
+      "query": "Japan South Korea India news October 18 2026",
       "results": [
         {
-          "title": "Japanese Lawmaker Says Takaichi Lauded His Sanction by China - Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-09/japanese-lawmaker-says-takaichi-lauded-his-sanction-by-china"
+          "title": "Japan: News & Insights - Nikkei Asia",
+          "url": "https://asia.nikkei.com/location/east-asia/japan"
         },
         {
-          "title": "Gov't expresses regret over Takaichi's war shrine offering",
-          "url": "https://www.koreajoongangdaily.com/korea/govt-expresses-regret-over-takaichis-war-shrine-offering/12925235"
+          "title": "Latest News - The Japan Times",
+          "url": "https://www.japantimes.co.jp/latest-news/"
         },
         {
-          "title": "Seoul Voices \"Disappointment and Regret\" Over Takaichi's Yasukuni Offering - Seoul Economic Daily",
-          "url": "https://en.sedaily.com/international/2026/10/17/seoul-voices-disappointment-and-regret-over-takaichis"
+          "title": "Japan, South Korea flag regulatory hurdles for their steel firms in India",
+          "url": "https://www.business-standard.com/industry/news/japan-south-korea-flag-regulatory-hurdles-for-steel-companies-in-india-126030201180_1.html"
         },
         {
-          "title": "Why Japan's Yasukuni Shrine Offering Angers Seoul",
-          "url": "https://www.riotimesonline.com/yasukuni-shrine-controversy-explained-2026/"
+          "title": "Asia News Network",
+          "url": "https://asianews.network/"
         },
         {
-          "title": "Takaichi Calls Korea \"Important Neighbor,\" Reaffirms Expansionary Fiscal Push - Seoul Economic Daily",
-          "url": "https://en.sedaily.com/international/2026/10/05/takaichi-calls-korea-important-neighbor-reaffirms"
+          "title": "India Courts Japan and South Korea for Shipbuilding Investment",
+          "url": "https://www.whalesbook.com/news/English/industrial-goodsservices/India-Courts-Japan-and-South-Korea-for-Shipbuilding-Investment/6acb97f879a16deaeaed67de"
         },
         {
-          "title": "China and South Korea criticize Takaichi's offering",
-          "url": "https://www.democrata.es/en/international/china-and-south-korea-censor-takaichi-s-offering-to-the-controversial-yasukuni-shrine/"
+          "title": "Asia Breaking News & Headlines",
+          "url": "https://www.scmp.com/news/asia"
         },
         {
-          "title": "Japan's Takaichi Sends Offering to Yasukuni Shrine, Skips Visit - Seoul Economic Daily",
-          "url": "https://en.sedaily.com/international/2026/10/17/japans-takaichi-sends-offering-to-yasukuni-shrine-skips"
+          "title": "Add Tribune As Your Trusted Source",
+          "url": "https://www.tribuneindia.com/news/india/external-affairs-minister-jaishankar-calls-on-south-korean-prime-minister-discusses-bilateral-ties-597480/amp"
         },
         {
-          "title": "malaymail.com",
-          "url": "https://malaymail.com/news/world/2026/01/13/leaders-of-japan-and-south-korea-meet-as-china-flexes-muscles/205235"
+          "title": "Add Tribune As Your Trusted Source",
+          "url": "https://www.tribuneindia.com/news/world/all-party-delegation-led-by-jdu-mp-sanjay-jha-reaches-south-korea-after-japan-visit/amp"
         },
         {
-          "title": "japan pm takaichi chinas xi to hold first ever talks in south korea",
-          "url": "https://www.tribuneindia.com/news/world/japan-pm-takaichi-chinas-xi-to-hold-first-ever-talks-in-south-korea"
+          "title": "Press Conferences",
+          "url": "https://www.mofa.go.jp/press/kaiken/kaiken4e_000725.html"
+        },
+        {
+          "title": "EAM Jaishankar calls on South Korean Prime Minister, discusses bilateral ties",
+          "url": "https://www.deccanherald.com/india/eam-jaishankar-calls-on-south-korean-prime-minister-discusses-bilateral-ties-2922586"
         }
       ]
     },
     {
-      "query": "Africa news October 17 2026 Sudan",
+      "query": "Africa news October 18 2026 Ebola Congo Kenya",
       "results": [
         {
-          "title": "Sudan - UN News - the United Nations",
-          "url": "https://news.un.org/en/tags/sudan"
+          "title": "Eighth person in Kenya tests positive for Ebola as virus continues to spread - ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-19/kenya-ebola-outbreak-hits-eight-continues-spread-in-congo/107282278"
         },
         {
-          "title": "News Archives - Sudan Tribune",
-          "url": "https://sudantribune.com/article/category/news"
+          "title": "Kenya confirms eighth Ebola case amid widening regional outbreak",
+          "url": "https://www.aljazeera.com/news/2026/10/19/kenya-confirms-eighth-ebola-case-amid-widening-regional-outbreak"
         },
         {
-          "title": "US extends national emergency on Sudan for another year",
-          "url": "https://sudantribune.com/article/320031"
+          "title": "Congo’s fast-moving Ebola outbreak spreads to eighth province",
+          "url": "https://www.nbcnews.com/world/africa/dr-congos-fast-moving-ebola-outbreak-spreads-eighth-province-rcna604234"
         },
         {
-          "title": "Sudan",
-          "url": "https://www.aljazeera.com/where/sudan/"
+          "title": "Kenya patient free of Ebola, as Congo, Uganda fight outbreak",
+          "url": "https://news.yahoo.com/kenya-investigates-patient-ebola-symptoms-090151804.html"
         },
         {
-          "title": "Civil War in Sudan",
-          "url": "https://www.cfr.org/global-conflict-tracker/conflict/power-struggle-sudan"
+          "title": "new outbreak of deadly ebola virus disease spreads in democratic republic of congo 1401889347685",
+          "url": "https://www.nbcnews.com/video/new-outbreak-of-deadly-ebola-virus-disease-spreads-in-democratic-republic-of-congo-1401889347685"
         },
         {
-          "title": "Security Council LIVE: Sudan’s war spreads as drones and hunger take a deadly toll",
-          "url": "https://news.un.org/en/story/2026/10/1168612"
+          "title": "two americans diagnosed with ebola in liberia 313120323548",
+          "url": "https://www.nbcnews.com/watch/nightly-news/two-americans-diagnosed-with-ebola-in-liberia-313120323548"
         },
         {
-          "title": "World News in Brief: ‘Horrific’ attack in Sudan, Israeli incursions in Syria intensify, most women and girls homeless in Gaza",
-          "url": "https://news.un.org/en/story/2026/10/1168567"
+          "title": "UN / EBOLA DRC SOUTH KIVU",
+          "url": "https://media.un.org/unifeed/en/asset/d243/d2434739"
         },
         {
-          "title": "Sudan Tribune - Plural news and views on Sudan",
-          "url": "https://sudantribune.com/?lang=en"
+          "title": "disinfection measures taken after suspected ebola death in congo 123930693897",
+          "url": "https://www.nbcnews.com/video/disinfection-measures-taken-after-suspected-ebola-death-in-congo-123930693897"
         },
         {
-          "title": "October 2024 Sudan airstrikes",
-          "url": "https://en.wikipedia.org/wiki/October_2024_Sudan_airstrikes"
+          "title": "deadly ebola virus is out of control 298708547647",
+          "url": "https://www.nbcnews.com/video/deadly-ebola-virus-is-out-of-control-298708547647"
         }
       ]
     },
     {
-      "query": "midterms early voting poll October 17 2026 House Democrats",
+      "query": "Pope Leo Angelus Sunday October 18 2026",
       "results": [
         {
-          "title": "Early voting data shows emerging signs of a Democratic advantage in the midterms",
-          "url": "https://www.cnn.com/2026/10/01/politics/cnn-early-voting-takeaways-democratic-advantage"
+          "title": "Full text: Pope Leo XIV's Angelus address given October 18, 2026 - Catholic Standard",
+          "url": "https://www.cathstan.org/voices/full-text-pope-leo-xivs-angelus-address-given-october-18-2026"
         },
         {
-          "title": "Midterms 2026 Turn Real: Early Ballots Flow as Forecasters Give Dems 83% House Odds",
-          "url": "https://www.latintimes.com/midterms-2026-turn-real-early-ballots-flow-forecasters-give-dems-83-house-odds-600161"
+          "title": "Angelus, 18 October 2026",
+          "url": "https://www.vatican.va/content/leo-xiv/en/angelus/2026/documents/20261018-angelus.html"
         },
         {
-          "title": "2026 Midterm Early Voting Shows Democratic Enthusiasm",
-          "url": "https://thinkbigpicture.substack.com/p/2026-early-vote-trends"
+          "title": "Pope greeted by crowds in first major appearance since lung cancer surgery",
+          "url": "https://aljazeera.com/news/2026/10/19/pope-greeted-by-crowds-in-first-major-appearance-since-lung-cancer-surgery"
         },
         {
-          "title": "Generic Congressional Ballot: Latest Polls",
-          "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls"
+          "title": "Pope Leo returns to Vatican window for Angelus saying prayers sustained him after cancer surgery",
+          "url": "https://www.catholicregister.org/item/4574-pope-leo-returns-to-vatican-window-for-angelus-saying-prayers-sustained-him-after-cancer-surgery"
         },
         {
-          "title": "Democratic Voters More Engaged in Midterms as Americans Are in a Sour Mood",
-          "url": "https://www.pewresearch.org/politics/2026/10/08/with-americans-in-a-sour-mood-democratic-voters-are-more-engaged-in-midterms/"
+          "title": "Pope Leo leads prayer at Vatican on Sunday following discharge from hospital - ABC News",
+          "url": "https://abcnews.com/International/pope-leo-leads-prayer-vatican-sunday-discharge-hospital/story?id=137358488"
         },
         {
-          "title": "Early voting data shows signs of Democratic advantage in two states",
-          "url": "https://www.cnn.com/2026/10/16/politics/live-news/midterm-election-congress"
+          "title": "Pope Leo leads Sunday prayers in first major public appearance since lung cancer surgery",
+          "url": "https://www.cnn.com/2026/10/18/europe/pope-angelus-sunday-cancer-intl"
         },
         {
-          "title": "2026 Midterm Forecast: House and Senate Predictions",
-          "url": "https://www.poliwave.com/us/fed/projection"
+          "title": "Pope at Angelus: ‘I have truly felt your support’ - LiCAS.news",
+          "url": "https://www.licas.news/2026/10/19/pope-at-angelus-i-have-truly-felt-your-support/"
         },
         {
-          "title": "Midterms 2026: Congress Polls and More",
-          "url": "https://www.nbcnews.com/politics/2026-elections/midterms"
+          "title": "Pope Leo says he will gradually resume duties after cancer surgery : NPR",
+          "url": "https://www.npr.org/2026/10/18/g-s1-148654/pope-leo-says-he-will-gradually-resume-duties-after-cancer-surgery"
         },
         {
-          "title": "Fox News Poll: An early look at the 2026 midterms",
-          "url": "https://www.foxnews.com/politics/fox-news-poll-early-look-2026-midterms.amp"
+          "title": "2025 visit by Pope Leo XIV to Turkey and Lebanon",
+          "url": "https://en.wikipedia.org/wiki/2025_visit_by_Pope_Leo_XIV_to_Turkey_and_Lebanon"
+        },
+        {
+          "title": "Frank Leo",
+          "url": "https://en.wikipedia.org/wiki/Frank_Leo"
         }
       ]
     },
     {
-      "query": "Latin America news October 17 2026",
+      "query": "Iran \"try your luck\" Trump Russia join forces Iran October 18",
       "results": [
         {
-          "title": "Latin America news - Today’s latest updates - CBS News",
-          "url": "https://www.cbsnews.com/tag/latin-america/"
+          "title": "'Last time you wanted to finish the job...': Iranian foreign minister challenges Donald Trump - BusinessToday",
+          "url": "https://www.businesstoday.in/world/story/last-time-you-wanted-to-finish-the-job-iranian-foreign-minister-challenges-donald-trump-562325-2026-10-19"
         },
         {
-          "title": "Latin American Union of News Agencies",
-          "url": "https://en.wikipedia.org/wiki/Latin_American_Union_of_News_Agencies"
+          "title": "Last time you wanted to finish the job': Iranian foreign minister challenges Donald Trump",
+          "url": "https://arynews.tv/last-time-you-wanted-to-finish-the-job-iranian-foreign-minister-challenges-donald-trump"
         },
         {
-          "title": "LatinNews",
-          "url": "https://en.wikipedia.org/wiki/LatinNews"
+          "title": "Iran warns US against renewed attack, says it has ‘unfinished jobs’ too",
+          "url": "https://thehill.com/policy/international/6157194-iran-minister-warns-us-attacks/"
         },
         {
-          "title": "Latin America: news, videos, reports and analysis - France 24",
-          "url": "https://www.france24.com/en/tag/latin-america/"
+          "title": "Trump, Netanyahu threaten new strikes on Iran as Tehran vows retaliation",
+          "url": "https://en.bd-pratidin.com/international/2026/10/19/72109"
         },
         {
-          "title": "LatinAmerican Post - What is happening in Latin America?",
-          "url": "https://latinamericanpost.com/"
+          "title": "After Trump threat, Araghchi warns Iran has unfinished business - Israel & Jewish News - JNS",
+          "url": "https://jns.org/news/world/after-trump-threat-araghchi-warns-iran-has-unfinished-business"
         },
         {
-          "title": "LatinNews",
-          "url": "https://www.latinnews.com/"
+          "title": "'Want To Try Your Luck Again' Iran's Fierce Response To Trump’s New War Threat",
+          "url": "https://www.thedailyjagran.com/world/news/iran-fierce-response-to-donald-trump-new-war-threat-finish-the-job-want-to-try-your-luck-again-hormuz-open-offer-10333196"
         },
         {
-          "title": "Latin America News",
-          "url": "https://www.newsnow.com/us/World/Latin+America"
+          "title": "Iran warns Trump against renewed war after ‘finish the job’ threat",
+          "url": "https://freepresskashmir.news/2026/10/19/iran-warns-trump-against-renewed-war-after-finish-the-job-threat/"
         },
         {
-          "title": "Latin American Insider",
-          "url": "https://paolomanzo.substack.com/"
+          "title": "Opinion - Russia and Iran are on a collision course with Trump",
+          "url": "https://www.yahoo.com/news/articles/opinion-russia-iran-collision-course-110000085.html"
         },
         {
-          "title": "Latin America Daily Briefing",
-          "url": "https://latinamericadailybriefing.substack.com/"
+          "title": "Kremlin says it disagrees with Trump’s assessment of Iran as ‘No. 1 terrorist state’",
+          "url": "https://www.pressreader.com/israel/jerusalem-post/20170207/281590945302871"
+        }
+      ]
+    },
+    {
+      "query": "Brent crude Monday October 19 2026 Russia sanctions oil falls",
+      "results": [
+        {
+          "title": "Brent Crude Oil Price Today: Bull and Bear Case as the Russia Sanctions Waiver Pulls Oil to $108",
+          "url": "https://financefeeds.com/brent-crude-oil-price-108-trump-russia-sanctions-waiver-diesel-bull-113-bear-103/"
+        },
+        {
+          "title": "Crude Falls to $107 After US Waives Russia Sanctions",
+          "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-october-19-2026-brent-falls-1-9percent-to-107-8-wti-drops-1percent-to-100-4-as-trump-eases-russia-sanctions"
+        },
+        {
+          "title": "Oil Prices Fall as Trump Waives Russia Sanctions and Tariffs",
+          "url": "https://en.shafaqna.com/485990/oil-prices-fall-trump-russia-sanctions-waiver/"
+        },
+        {
+          "title": "Brent Crude Falls to $107.60 as US Waives Russian Oil Sanctions",
+          "url": "https://uk.advfn.com/market-news/article/24773/brent-crude-falls-to-107-60-as-us-waives-russian-oil-sanctions"
+        },
+        {
+          "title": "Brent Crude Oil Price Forecast: Trump Eases Sanctions on Russia, Oil Prices Under Pressure Below $110, Can They Still Rise?",
+          "url": "https://www.tradingkey.com/analysis/commodities/oil/262223228-brent-crude-trump-russia-sanctions-oil-price-forecast-tradingkey"
+        },
+        {
+          "title": "Brent Crude Drops Nearly 2% as Trump Waives Some Russia Sanctions",
+          "url": "https://www.tradingkey.com/analysis/commodities/oil/262222947-brent-crude-oil-drops-trump-waives-sanctions-russia-tradingkey"
+        },
+        {
+          "title": "Oil Prices Fall 2% After Trump Waives Russia Sanctions",
+          "url": "https://grafa.com/en/news/united-states/oil-prices-fall-trump-russia-sanctions-waiver-october-2026"
+        },
+        {
+          "title": "Brent Jumps on US Sanctions",
+          "url": "https://tradingeconomics.com/commodity/brent-crude-oil/news/495274"
+        },
+        {
+          "title": "January 17, 2025 6:50 PM",
+          "url": "https://www.newsonair.gov.in/oil-prices-rise-amid-supply-disruptions-following-us-sanctions-on-russian-energy"
         }
       ]
     }
   ],
   "fetched": [],
   "meta": {
-    "id": "2026-10-18",
-    "generated_at": "2026-10-18T10:25:13.070Z",
+    "id": "2026-10-19",
+    "generated_at": "2026-10-19T10:24:34.008Z",
     "model": "claude-opus-5-5",
     "via": "claude-code-routine",
     "searches": 20,
-    "results_count": 183,
-    "cited_count": 61
+    "results_count": 179,
+    "cited_count": 52
   }
 }
