@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-10-20",
+      "date": "Tuesday, October 20, 2026",
+      "edition": "WARTIME EDITION",
+      "searches": 20,
+      "cited_count": 56,
+      "results_count": 181
+    },
+    {
       "id": "2026-10-19",
       "date": "Monday, October 19, 2026",
       "edition": "WARTIME EDITION",
