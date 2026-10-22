@@ -1,383 +1,404 @@
 {
-  "date": "Wednesday, October 21, 2026",
+  "date": "Thursday, October 22, 2026",
   "edition": "WARTIME EDITION",
-  "tldr_label": "TL;DR — Witkoff meets Putin and frees an American as Iran talks stall and Brent holds $110",
+  "tldr_label": "TL;DR — Iran claims strikes on seven ships, Houthis hit Aramco, and Moscow offers November talks",
   "tldr_bullets": [
     {
-      "label": "Russia talks",
-      "body": "Russia released American Stephen Hubbard as US envoy Steve Witkoff met Putin in St. Petersburg, a day after Oslo talks with Zelensky that a US official called 'constructive'. [[TAG:success:American freed]]"
+      "label": "Gulf shipping",
+      "body": "Iran's Revolutionary Guard says it hit four tankers doing ship-to-ship oil transfers and that three more struck mines, and threatened US bases; the claims are unverified. [[TAG:danger:7 ships claimed]]"
     },
     {
-      "label": "Iran",
-      "body": "Rubio called a peace deal 'extremely difficult' while Hormuz attacks continue; Pezeshkian told Pakistan's army chief the US must lift pressure and sanctions before talks resume."
+      "label": "Saudi Arabia",
+      "body": "Debris from a drone intercepted near Aramco's Shaybah field killed two workers; the US ordered non-essential diplomats out of Saudi Arabia."
     },
     {
-      "label": "Hormuz",
-      "body": "A tanker caught fire after being hit by an unknown projectile off Oman on Wednesday, UKMTO said; all crew are safe. [[TAG:danger:tanker hit]]"
+      "label": "Ukraine talks",
+      "body": "The Kremlin says Putin told Witkoff Russia is ready to resume trilateral talks around November 10, likely in Abu Dhabi. [[TAG:info:talks in November]]"
     },
     {
       "label": "Markets",
-      "body": "The Dow jumped 530 points Tuesday; Netflix fell about 6% after hours on weaker guidance and job cuts. Brent trades near $110. Meta and Tesla report tonight."
+      "body": "Stocks rose Wednesday on SpaceX and Capital One results; Meta beat on revenue but burned cash, Tesla slipped after hours, and Asian markets fell Thursday as Brent topped $110."
     },
     {
-      "label": "Europe",
-      "body": "Italy approved 500 troops for Milan and tougher riot laws after cost-of-living unrest; EU foreign policy chief Kaja Kallas accused the US of pushing Ukraine to 'surrender on Putin's terms'."
+      "label": "Polls",
+      "body": "A CNN poll put Trump's approval at a new low, with Democrats up 10 on the generic ballot, 12 days before the midterms."
     },
     {
-      "label": "Lebanon",
-      "body": "US-brokered Lebanon-Israel military talks in Tampa ended day one with no breakthrough and resume Wednesday."
+      "label": "Ebola",
+      "body": "Nigeria confirmed its first Ebola case in a decade, in Abuja, and is tracing 44 contacts; Africa CDC called an emergency ministers' meeting."
     }
   ],
   "sections": [
     {
-      "title": "Iran War and the Strait of Hormuz",
+      "title": "Iran War and the Gulf",
       "icon": "🔥",
-      "summary": "Rubio sees deal as 'extremely difficult'; Tehran wants sanctions lifted first; tanker hit off Oman",
+      "summary": "IRGC claims seven ships hit and threatens US bases; Tehran says indirect talks continue",
       "paragraphs": [
         {
-          "heading": "Talks stalled",
-          "body": "Secretary of State Marco Rubio said a peace deal with Tehran is extremely difficult while attacks in the Strait of Hormuz continue, Al Jazeera reported. Iran's Supreme National Security Council said the strait will not reopen until the US 'corrects its behavior'. [[TAG:warning:no deal in sight]]"
+          "heading": "Seven ships claimed",
+          "body": "Iran's Revolutionary Guard navy said it simultaneously struck four vessels doing ship-to-ship oil transfers in the northern Persian Gulf and that three more caught fire after hitting mines west of the Strait of Hormuz, Tasnim, TASS and bne IntelliNews reported. The IRGC did not name the ships or give casualty figures, and the claims have not been independently verified. [[TAG:danger:unverified]]"
         },
         {
-          "heading": "Pakistan's mediation",
-          "body": "Pakistan's army chief Asim Munir met President Masoud Pezeshkian in Tehran, Dawn reported. Pezeshkian said the US must 'end the pressure and threats and lift sanctions' before any negotiations. The New Arab reported Munir carried a new proposal backed by Pakistan and Qatar, which reportedly would release about $6 billion in frozen Iranian funds held in Qatar; Anadolu's sources said they did not know of any new proposal and that the visit focused on the Saudi-Houthi conflict. Security official Mohsen Rezaei said no enriched uranium would leave Iran, TRT World reported."
+          "heading": "Threat to US bases",
+          "body": "The IRGC warned it would 'extend confrontation to US bases' in the region if Washington keeps urging ships through what it calls mined waterways, Al Jazeera reported. CBS News reported the US military has quietly reduced its footprint at some Middle East posts because of threats from Iran and the Houthis. [[TAG:warning:base threat]]"
         },
         {
-          "heading": "Warning to the UN",
-          "body": "Iran's UN envoy wrote to Secretary-General Antonio Guterres about the possible US use of the Massive Ordnance Air Blast bomb if fighting resumes after the midterms, Al Jazeera reported."
-        },
-        {
-          "heading": "Shipping attacks",
-          "body": "A tanker was hit by an unknown projectile about 11 nautical miles off Bukha, Oman, on Wednesday and caught fire; all crew are safe, UKMTO said, according to Asharq Al-Awsat and Arab News. UKMTO's weekly assessment counted 12 attacks, 10 near Hormuz, with transits about 70% below prewar levels. The IRGC claimed three tankers hit mines on Tuesday, which Saudi Gazette reported but which has not been independently confirmed. [[TAG:danger:23 attacks in Oct]]"
+          "heading": "Talks or no talks",
+          "body": "Foreign Minister Abbas Araghchi said indirect negotiations continue over Iran's seven-day ceasefire proposal, with the US seeking new clauses, CBS News reported. Trump denied that negotiations are happening and said the situation would resolve 'fairly soon', according to Al Jazeera. Netanyahu denied that Trump had stopped a planned Israeli attack on Iran, Iran International reported."
         }
       ],
-      "sources": "Al Jazeera, Dawn, The New Arab, Anadolu, TRT World, CBS News, Asharq Al-Awsat, Arab News, Saudi Gazette",
+      "sources": "Tasnim, TASS, bne IntelliNews, ABC News, Al Jazeera, CBS News, Fox News, Iran International",
       "citations": [
         {
-          "outlet": "Al Jazeera",
-          "title": "Iran war live: US warns peace deal with Tehran is extremely difficult",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/21/iran-war-live-us-warns-peace-deal-with-tehran-is-extremely-difficult"
+          "outlet": "Tasnim",
+          "title": "IRGC Navy Says 4 Tankers Hit in Persian Gulf",
+          "url": "https://www.tasnimnews.ir/en/news/2026/10/22/3729298/irgc-navy-says-4-tankers-hit-in-persian-gulf"
         },
         {
-          "outlet": "Dawn",
-          "title": "CDF Munir-Pezeshkian meeting raises peace hopes",
-          "url": "https://www.dawn.com/news/2038686/cdf-munir-pezeshkian-meeting-raises-peace-hopes"
+          "outlet": "TASS",
+          "title": "Iran’s IRGC says it attacked four vessels in Persian Gulf",
+          "url": "https://tass.com/world/2205961"
         },
         {
-          "outlet": "The New Arab",
-          "title": "Diplomatic visits attempt to hold off all-out US-Iran war",
-          "url": "https://www.newarab.com/news/diplomatic-visits-attempt-hold-all-out-us-iran-war"
+          "outlet": "bne IntelliNews",
+          "title": "Iran's IRGC says it hit four ships in the Gulf as three more strike mines",
+          "url": "https://www.intellinews.com/iran-s-irgc-says-it-hit-four-ships-in-the-gulf-as-three-more-strike-mines-478015"
         },
         {
-          "outlet": "Anadolu (A News)",
-          "title": "Pakistan army chief’s latest Iran visit ‘more focused’ on Saudi Arabia-Houthi conflict: Sources",
-          "url": "https://www.anews.com.tr/world/2026/10/21/pakistan-army-chiefs-latest-iran-visit-more-focused-on-saudi-arabia-houthi-conflict-sources"
-        },
-        {
-          "outlet": "TRT World",
-          "title": "'Not even a tiny bit of enriched Uranium will leave Iran', Tehran tells mediator Pakistan",
-          "url": "https://www.trtworld.com/article/d8692cabe4ce"
-        },
-        {
-          "outlet": "CBS News",
-          "title": "Live Updates: Iran lauds ties with Russia, contradicting Trump's claim of little Russian support for Tehran",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/"
-        },
-        {
-          "outlet": "Asharq Al-Awsat",
-          "title": "UKMTO: Ship Attacked Near Strait of Hormuz",
-          "url": "https://english.aawsat.com/world/5331918-ukmto-ship-attacked-near-strait-hormuz"
-        },
-        {
-          "outlet": "Arab News",
-          "title": "Ship attacked near Strait of Hormuz: maritime agency",
-          "url": "https://www.arabnews.pk/middle-east/ship-attacked-near-strait-of-hormuz-maritime-agency-3004816"
-        },
-        {
-          "outlet": "Saudi Gazette",
-          "title": "IRGC mines set tankers ablaze as Tehran threatens expanded attacks",
-          "url": "https://saudigazette.com.sa/article/665603/world/irgc-mines-set-tankers-ablaze-as-tehran-threatens-expanded-attacks"
-        }
-      ]
-    },
-    {
-      "title": "Ukraine Diplomacy",
-      "icon": "🇺🇦",
-      "summary": "Oslo talks called 'constructive'; Witkoff meets Putin as Russia frees Stephen Hubbard",
-      "paragraphs": [
-        {
-          "heading": "Oslo meeting",
-          "body": "A US official told Reuters that Tuesday's Oslo talks between Zelensky, envoy Steve Witkoff and Norwegian, Finnish, European and NATO representatives were 'constructive' and made 'meaningful progress' toward a coordinated approach to Russia, The Week reported. Agenda items included 'Article 5-like' security guarantees, energy ceasefire proposals and postwar recovery. Foreign Policy described ties as strained, with Trump saying Zelensky 'is not helping matters much'."
-        },
-        {
-          "heading": "Witkoff in St. Petersburg",
-          "body": "Russia released Stephen Hubbard, a 74-year-old Michigan native convicted of fighting as a mercenary for Ukraine, as Witkoff met Putin on Wednesday, ABC News, CBS News and CNN reported. Hubbard was the last American in Russia the State Department had designated as wrongfully detained; his family called the charges false. Witkoff brought new settlement proposals, UNN reported. As many as 10 other Americans remain in Russian custody. [[TAG:success:Hubbard released]]"
-        },
-        {
-          "heading": "Starlink and intelligence",
-          "body": "Rubio denied the White House ordered a Starlink slowdown for Ukraine and rejected as 'scandalous' claims that intelligence sharing was cut, NBC News and Yahoo News reported. Kyiv says the service still cuts out at speeds above about 161 km/h, too slow for interceptor drones to catch Russia's jet-powered Shaheds, Euromaidan Press reported. Ukraine has no access to the military-grade Starshield system, Rubio said. [[TAG:warning:disputed]]"
-        }
-      ],
-      "sources": "The Week, Reuters, Foreign Policy, ABC News, CBS News, CNN, UNN, NBC News, Euromaidan Press, Al Jazeera, Yahoo News",
-      "citations": [
-        {
-          "outlet": "The Week",
-          "title": "Trump envoy Steve Witkoff to meet Vladimir Putin following Oslo talks with Zelensky",
-          "url": "https://www.theweek.in/news/world/2026/10/21/trump-envoy-steve-witkoff-to-meet-vladimir-putin-following-oslo-talks-with-zelensky.html"
-        },
-        {
-          "outlet": "Foreign Policy",
-          "title": "Ukraine's Zelensky Meets Witkoff in Oslo Amid Strained Ties",
-          "url": "https://foreignpolicy.com/2026/10/20/zelensky-ukraine-witkoff-kushner-talks-oslo-russia-trump-starlink/"
+          "outlet": "MarineLink",
+          "title": "Seven Ships Hit Near Hormuz as Iran Warns US of Escalation",
+          "url": "https://www.marinelink.com/news/seven-ships-hit-near-hormuz-iran-warns-us-543834"
         },
         {
           "outlet": "ABC News",
-          "title": "Detained American Stephen Hubbard released by Russia as Witkoff meets Putin",
-          "url": "https://abcnews.com/International/witkoff-arrives-st-petersburg-putin-talks-kremlin-aide/story?id=137438106"
-        },
-        {
-          "outlet": "CBS News",
-          "title": "U.S. citizen Stephen Hubbard released by Russia after years in jail, Witkoff confirms in meeting with Putin",
-          "url": "https://www.cbsnews.com/news/russia-stephen-hubbard-freed-american-ukraine-war-witkoff-putin/"
-        },
-        {
-          "outlet": "CNN",
-          "title": "Stephen Hubbard: Russia frees 74-year-old American captured in Ukraine after visit from Trump envoy",
-          "url": "https://cnn.com/2026/10/21/europe/stephen-hubbard-prisoner-release-russia-trump-intl"
-        },
-        {
-          "outlet": "UNN",
-          "title": "Witkoff met with Putin in St. Petersburg — initial statements include proposals to end the war",
-          "url": "https://unn.ua/en/news/witkoff-met-with-putin-in-st-petersburg-initial-statements-include-proposals-to-end-the-war"
-        },
-        {
-          "outlet": "NBC News",
-          "title": "Zelenskyy meets with Trump envoys as U.S. blasts ‘scandalous’ accusations about withdrawn support",
-          "url": "https://www.nbcnews.com/world/ukraine/ukraine-us-support-rubio-scandalous-zelenskyy-meeting-trump-oslo-rcna604530"
-        },
-        {
-          "outlet": "Euromaidan Press",
-          "title": "Rubio thinks Starlink is fixed. Kyiv says it still cuts out above 161 km/h",
-          "url": "https://euromaidanpress.com/2026/10/20/rubio-thinks-starlink-is-fixed-kyiv-says-it-still-cuts-out-above-161-km-h/"
+          "title": "Iran live updates: IRGC Navy claims attacks on 4 vessels in Persian Gulf",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates/?id=137370653"
         },
         {
           "outlet": "Al Jazeera",
-          "title": "Rubio says Ukraine without access to Starshield, future ‘under discussion’",
-          "url": "https://www.aljazeera.com/news/2026/10/18/rubio-says-ukraine-without-access-to-starshield-future-under-discussion"
+          "title": "Iran war live: IRGC threatens US bases if tankers continue ‘illegal’ routes",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive"
         },
         {
-          "outlet": "Yahoo News",
-          "title": "Rubio rejects claims US slowed Starlink for Ukraine",
-          "url": "https://www.yahoo.com/news/us/articles/rubio-rejects-claims-us-slowed-110328676.html"
+          "outlet": "CBS News",
+          "title": "Iran War Updates: U.S. reduces troop footprint in Mideast as indirect talks with Iran continue",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Trump declares US has ‘decimated’ Iran as Tehran warns it's ‘fully prepared’ for war",
+          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-russia-houthi-october-21"
+        },
+        {
+          "outlet": "Iran International",
+          "title": "Live - Netanyahu denies Trump prevented planned attack on Iran",
+          "url": "https://www.iranintl.com/en/liveblog/202610187555"
         }
       ]
     },
     {
-      "title": "Markets and Earnings",
-      "icon": "📊",
-      "summary": "Dow +530 on Tuesday; Netflix slides after hours; Kospi rebounds; Meta and Tesla report tonight",
+      "title": "Saudi Arabia Under Fire",
+      "icon": "🚀",
+      "summary": "Drone debris kills two at Aramco's Shaybah field; US orders diplomats out of Saudi Arabia",
       "paragraphs": [
         {
-          "heading": "Tuesday's close",
-          "body": "The Dow rose 529.85 points, or 1.02%, to 52,495.88, led by 3M, while the S&P 500 gained 0.28% to 7,712.57 and the Nasdaq slipped 0.02% to 26,424.82, according to Capp Notes and Yahoo Finance. The VIX fell about 6% to 17.31. [[TAG:success:Dow +1%]]"
+          "heading": "Shaybah strike",
+          "body": "Saudi air defenses intercepted a drone aimed at Aramco's Shaybah field on Wednesday; debris set a contractor's vehicle ablaze outside the perimeter and killed two foreign workers, the Saudi Energy Ministry said, adding that operations were unaffected, Business Recorder and The National reported. The Houthis claimed a wave of attacks including Shaybah, Yanbu and the Riyadh and Abha airports. The Jerusalem Post reported a deadly Houthi attack on Dammam's King Fahd airport. [[TAG:danger:2 killed]]"
         },
         {
-          "heading": "Netflix and GM",
-          "body": "Netflix earned $0.87 a share, above the $0.82 consensus, on revenue of about $12.87 billion, but cut its 2026 advertising forecast to $2.7 billion from $3 billion, guided fourth-quarter earnings below estimates and announced 1,000 job cuts, Deadline and The Hollywood Reporter reported. Shares fell about 6% after hours. GM beat with adjusted earnings of $3.70 a share and approved a $20 billion buyback, but shares fell as much as 7% on cost and pricing worries, CNBC reported. [[TAG:danger:Netflix -6% AH]]"
+          "heading": "US drawdown",
+          "body": "The State Department ordered non-essential staff and families to leave the US Embassy in Riyadh and its consulates, citing Houthi attacks on airports and infrastructure, the AP and Al Jazeera reported. It is the second such order this year; other Gulf missions face temporary staffing changes, Reuters reported via US News. [[TAG:warning:ordered departure]]"
+        }
+      ],
+      "sources": "Business Recorder, The National, The Jerusalem Post, Türkiye Today, AP, Al Jazeera, US News, ABC Australia",
+      "citations": [
+        {
+          "outlet": "Business Recorder",
+          "title": "Two killed after drone intercepted near Saudi Aramco's Shaybah oilfield; injured includes one Pakistani",
+          "url": "https://www.brecorder.com/news/40445385/two-killed-after-drone-intercepted-near-saudi-aramcos-shaybah-oilfield-injured-includes-one-pakistani"
+        },
+        {
+          "outlet": "The National",
+          "title": "Oil tops $110 as Houthi drone strike near Saudi Shaybah field rattles markets",
+          "url": "https://www.thenationalnews.com/business/energy/2026/10/22/oil-tops-110-as-houthi-drone-strike-near-saudi-shaybah-field-rattles-markets/"
+        },
+        {
+          "outlet": "The Jerusalem Post",
+          "title": "Houthis launch lethal attack on Saudi Arabia's King Fahd Airport",
+          "url": "https://jpost.com/middle-east/article-912472"
+        },
+        {
+          "outlet": "Türkiye Today",
+          "title": "Oil prices jump 3% after deadly Houthi attack on Saudi Shaybah oil field",
+          "url": "https://www.turkiyetoday.com/business/oil-prices-jump-3-after-deadly-houthi-attack-on-saudi-shaybah-oil-field-3230819"
+        },
+        {
+          "outlet": "AP (US News)",
+          "title": "US Orders Some Diplomats to Leave Saudi Arabia as Fears of Escalating Houthi Attacks Rise",
+          "url": "https://www.usnews.com/news/politics/articles/2026-10-21/us-orders-some-diplomats-to-leave-saudi-arabia-as-fears-of-escalating-houthi-attacks-rise"
+        },
+        {
+          "outlet": "Reuters (US News)",
+          "title": "US Orders Diplomats to Depart Saudi Arabia Amid Houthi Strikes",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-21/exclusive-us-preparing-to-issue-ordered-departure-of-some-personnel-from-gulf-embassies-us-officials"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "US orders departure of personnel from Saudi Arabia, citing Houthi threat",
+          "url": "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat"
+        },
+        {
+          "outlet": "ABC Australia",
+          "title": "US orders embassy staff, families to leave Saudi Arabia amid Houthi strikes",
+          "url": "https://www.abc.net.au/news/2026-10-22/us-diplomats-to-leave-saudi-arabia-amid-houthi-strikes/107295684"
+        }
+      ]
+    },
+    {
+      "title": "Ukraine and Russia",
+      "icon": "🇺🇦",
+      "summary": "Putin agrees in principle to trilateral talks near Nov 10; WSJ says Musk ordered Starlink slowdown",
+      "paragraphs": [
+        {
+          "heading": "November talks",
+          "body": "Kremlin aide Yuri Ushakov said Putin told envoy Steve Witkoff that Russia is ready in principle to resume trilateral negotiations around November 10, likely in Abu Dhabi, CNN and Liga.net reported. A US official told Axios the proposal for technical-level talks was accepted by Ukraine in Oslo and Russia in St. Petersburg. Ushakov said Ukraine must make 'necessary decisions' and that the Oslo talks offered little of use, CBS News reported. Putin also raised Russia mediating between the US and Iran. [[TAG:info:talks Nov 10]]"
+        },
+        {
+          "heading": "Starlink slowdown",
+          "body": "Elon Musk ordered last week's slowdown of the military-grade Starlink service Ukraine relies on, leaving some Ukrainian drones virtually inoperable, the Wall Street Journal reported, according to CNBC, Bloomberg and the Washington Times. The Journal said Musk and Trump discussed it; Rubio said the administration had no foreknowledge and did not request it. [[TAG:warning:contested account]]"
+        },
+        {
+          "heading": "Overnight strikes",
+          "body": "Moscow's mayor said 630 Ukrainian drones were tracked over the Moscow region overnight, and Russia's Defense Ministry said it intercepted 808 across Russia and Crimea, The Moscow Times reported. Russian strikes killed at least seven people across Ukraine and wounded 15 in Kyiv, The Moscow Times and Cyprus Mail reported. [[TAG:danger:7 killed]]"
+        }
+      ],
+      "sources": "CNN, Liga.net, Axios, CBS News, CBC, CNBC, Bloomberg, Washington Times, The Moscow Times, Cyprus Mail",
+      "citations": [
+        {
+          "outlet": "CNN",
+          "title": "Russia willing to resume trilateral peace talks in November, Kremlin says after Witkoff meeting",
+          "url": "https://www.cnn.com/2026/10/21/europe/us-envoy-witkoff-putin-talks-russia-ukraine-intl"
+        },
+        {
+          "outlet": "Liga.net",
+          "title": "Putin–Witkoff meeting on October 21, 2026",
+          "url": "https://news.liga.net/en/politics/news/kremlin-names-timeframe-for-resuming-ukraine-russia-us-talks"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Putin tells Witkoff he is ready to resume direct peace talks, Russia releases U.S. detainee",
+          "url": "https://www.axios.com/2026/10/21/russia-ukraine-putin-witkoff-peace"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Russia says Ukraine must make \"necessary decisions\" to end war as Witkoff meets Putin",
+          "url": "https://www.cbsnews.com/news/russia-ukraine-war-witkoff-putin-trump-zelenskyy/"
+        },
+        {
+          "outlet": "CBC",
+          "title": "U.S. envoy Witkoff meets with Putin in Russia amid report Musk throttled Starlink",
+          "url": "https://www.cbc.ca/news/world/russia-ukraine-witkoff-putin-starlink-musk-9.7389616"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Elon Musk ordered Starlink slowdown for Ukraine: Report",
+          "url": "https://www.cnbc.com/2026/10/20/trump-musk-starlink-ukraine-zelenskyy.html"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Musk Gave the Order to Slow Down Ukraine’s Starlink, WSJ Reports",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-20/musk-gave-the-order-to-slow-down-ukraine-s-starlink-wsj-reports"
+        },
+        {
+          "outlet": "Washington Times",
+          "title": "Elon Musk ordered Starlink slowdown in Ukraine during Russian attacks: Report",
+          "url": "https://www.washingtontimes.com/news/2026/oct/21/elon-musk-ordered-starlink-slowdown-ukraine-russian-attacks-report/"
+        },
+        {
+          "outlet": "The Moscow Times",
+          "title": "Ukraine and Russia Trade Deadly Strikes After U.S. Tries to Reboot Peace Talks",
+          "url": "https://www.themoscowtimes.com/2026/10/22/ukraine-and-russia-trade-deadly-strikes-after-us-tries-to-reboot-peace-talks-a94044"
+        },
+        {
+          "outlet": "Cyprus Mail",
+          "title": "Russia strikes Kyiv as Ukraine launches hundreds of drones at Moscow",
+          "url": "https://cyprus-mail.com/2026/10/22/russia-strikes-kyiv-as-ukraine-launches-hundreds-of-drones-at-moscow"
+        }
+      ]
+    },
+    {
+      "title": "Markets and Big Tech Earnings",
+      "icon": "📊",
+      "summary": "SpaceX soars, Meta burns cash on AI, Tesla slips; Asia sells off Thursday as Brent tops $110",
+      "paragraphs": [
+        {
+          "heading": "Wednesday's close",
+          "body": "The Dow rose 0.69% to 52,856.09, the S&P 500 gained 0.58% to 7,757.17 and the Nasdaq added 1.05% to 26,702.86, CNBC and Yahoo Finance reported, lifted by strong results from SpaceX and Capital One. One market update reported a flat Nasdaq, conflicting with those figures. [[TAG:success:S&P +0.6%]]"
+        },
+        {
+          "heading": "SpaceX and Meta",
+          "body": "SpaceX shares jumped about 10% intraday after revenue rose 161% to $14.6 billion and Musk said SpaceX and Tesla had formed special committees to discuss a possible merger, CNBC and ABC News reported. Meta's revenue rose 26% to $64.6 billion, but a $9.89 billion legal charge cut earnings per share to $3.83 and capex of $34.9 billion pushed free cash flow negative, Fortune reported; shares rose after hours, with reported gains ranging from 2.5% to 5%."
+        },
+        {
+          "heading": "Tesla",
+          "body": "Tesla earned an adjusted $0.48 a share versus about $0.45 expected on revenue of roughly $28 billion, but operating income fell 56% as AI and robotics spending rose, Investing.com and Chartmill reported. Shares slipped after hours as management cut capex guidance to about $20 billion and slowed its Optimus robot timeline; sources disagree on the size of the move."
         },
         {
           "heading": "Asia and oil",
-          "body": "South Korea's Kospi rebounded about 3% on Wednesday after Tuesday's 3.7% drop, and Japan's Nikkei rose 0.9% as September exports jumped 16.7%, the AP reported via WSLS. Brent rose about 1.5% to near $110.38 in Asian trading after touching $111.99 on Tuesday, its highest since May, Oilprice.com and FinanceFeeds reported; API data showed US crude stocks fell 4.9 million barrels. [[TAG:warning:Brent ~$110]]"
-        },
-        {
-          "heading": "Tonight",
-          "body": "Meta and Tesla report after the close. Analysts expect Meta earnings of roughly $6.76–$6.80 a share and Tesla about $0.45, with options implying moves of about 7% for each, CNBC and Admiral Markets reported."
+          "body": "Asian markets fell Thursday: one wrap had the Nikkei down about 2.2%, the Kospi about 3.8% and the Hang Seng about 3%, NordFX reported, with earlier readings smaller, according to India TV. Brent rose to about $110.5–$111, HDFC Sky reported, after the Shaybah attack. Saxo said Tesla's capex guidance overshadowed Meta's AI plans. [[TAG:danger:Kospi -3.8%]]"
         }
       ],
-      "sources": "Capp Notes, Yahoo Finance, Deadline, The Hollywood Reporter, Investing.com, CNBC, AP via WSLS, Oilprice.com, FinanceFeeds, Admiral Markets",
+      "sources": "CNBC, Yahoo Finance, ABC News, Fortune, Stocktitan, Investing.com, Chartmill, NordFX, India TV, Saxo, HDFC Sky",
       "citations": [
         {
-          "outlet": "Capp Notes",
-          "title": "Closing Look — Tuesday, October 20, 2026",
-          "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026"
+          "outlet": "CNBC",
+          "title": "Stock market today: Live updates",
+          "url": "https://www.cnbc.com/2026/10/21/stock-market-today-live-updates.html"
         },
         {
           "outlet": "Yahoo Finance",
-          "title": "S&P 500 (^GSPC) Historical Data",
-          "url": "https://finance.yahoo.com/quote/%5EGSPC/history/"
+          "title": "Stock market today: Dow, S&P 500, Nasdaq rise as tech rallies, SpaceX stock surges nearly 8%",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-21-dow-sp-500-nasdaq-100000105.html"
         },
         {
-          "outlet": "Deadline",
-          "title": "Netflix Q3 2026 Earnings: Stock Drops Again On Lowered Guidance",
-          "url": "https://deadline.com/2026/10/netflix-q3-2026-earnings-layoffs-streaming-1237168825/"
+          "outlet": "CNBC",
+          "title": "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up",
+          "url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html"
         },
         {
-          "outlet": "The Hollywood Reporter",
-          "title": "Netflix Beats Q3 Earnings Estimates But Braces Wall Street for 2026 Ad Sales Whiff",
-          "url": "https://www.hollywoodreporter.com/business/business-news/netflix-q3-2026-earnings-ad-sales-stock-decline-continues-1236735383/"
+          "outlet": "ABC News",
+          "title": "SpaceX revenue soars 161% as AI business grows",
+          "url": "https://abcnews.com/Business/spacex-revenue-soars-161-ai-business-grows/story?id=137408509"
+        },
+        {
+          "outlet": "Fortune",
+          "title": "Meta’s revenue surges 26% to $64.6 billion, but billions in settlements and skyrocketing AI spending turn screws on profit, free cash flow",
+          "url": "https://fortune.com/2026/10/21/meta-q3-earnings-mark-zuckerberg-capex-muse/"
+        },
+        {
+          "outlet": "Stocktitan",
+          "title": "Meta Q3 2026 earnings: revenue up 26% to $64.6B",
+          "url": "https://www.stocktitan.net/news/META/meta-reports-third-quarter-2026-13ysmyjaxliq.html"
         },
         {
           "outlet": "Investing.com",
-          "title": "Earnings call transcript: Netflix beats Q3 2026 estimates, but shares fall after hours",
-          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-netflix-beats-q3-2026-estimates-but-shares-fall-after-hours-93CH-4961240"
+          "title": "Tesla shares reverse course as robotics, chipmaking caution overshadows upbeat Q3",
+          "url": "https://www.investing.com/news/earnings/tesla-stock-up-after-hours-on-results-beat-improved-automotive-gross-margin-4963976"
         },
         {
-          "outlet": "CNBC",
-          "title": "General Motors (GM) earnings Q3 2026",
-          "url": "https://www.cnbc.com/2026/10/20/general-motors-gm-earnings-q3-2026.html"
+          "outlet": "Chartmill",
+          "title": "Tesla (NASDAQ:TSLA) Q3 2026 Earnings: EPS Beat, Flat Revenue, and Rising AI Spending",
+          "url": "https://www.chartmill.com/news/TSLA/Chartmill-56561-Tesla-NASDAQTSLA-Q3-2026-Earnings-EPS-Beat-Flat-Revenue-and-Rising-AI-Spending"
         },
         {
-          "outlet": "PR Newswire",
-          "title": "GM releases 2026 third-quarter results and updates full-year 2026 guidance; Board approves new $20 billion share repurchase authorization",
-          "url": "http://www.prnewswire.com/news-releases/gm-releases-2026-third-quarter-results-and-updates-full-year-2026-guidance-board-approves-new-20-billion-share-repurchase-authorization-declares-quarterly-dividend-302913358.html"
+          "outlet": "NordFX",
+          "title": "Market Pulse",
+          "url": "https://nordfx.com/market-news/market-pulse-october-22-2026"
         },
         {
-          "outlet": "AP (WSLS)",
-          "title": "Asian shares are mixed, with Kospi up 3% after US stocks rally on strong earnings",
-          "url": "https://www.wsls.com/business/2026/10/21/asian-shares-are-mixed-with-kospi-up-3-after-us-stocks-rally-on-strong-earnings/"
+          "outlet": "India TV",
+          "title": "22 October, 2026 Stock Market Updates: Sensex down 366 points, Nifty below 22,700, Power Grid drops 2%",
+          "url": "https://www.indiatvnews.com/business/markets/sensex-nifty-opening-october-22-stock-market-updates-gift-nifty-brent-crude-oil-price-geopolitical-tension-asian-markets-2026-10-22-1057584"
         },
         {
-          "outlet": "Oilprice.com",
-          "title": "Brent Tops $110 as Tanker Attacks Threaten Persian Gulf Supply",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tops-110-as-Tanker-Attacks-Threaten-Persian-Gulf-Supply.html"
+          "outlet": "Saxo",
+          "title": "Asia Market Quick Take",
+          "url": "https://home.saxo/en-sg/content/articles/macro/asia-market-quick-take-october-22-2026-22102026"
         },
         {
-          "outlet": "FinanceFeeds",
-          "title": "Brent Oil Price Today: $110, Bull $113 vs Bear $105",
-          "url": "https://financefeeds.com/brent-crude-oil-price-110-iran-talks-rumours-five-month-high-bull-113-bear-105/"
-        },
-        {
-          "outlet": "CNBC",
-          "title": "Meta, Tesla earnings preview: Week of Oct. 19",
-          "url": "https://www.cnbc.com/2026/10/18/meta-tesla-netflix-earnings-preview.html"
-        },
-        {
-          "outlet": "Admiral Markets",
-          "title": "Tesla and Meta Earnings Preview: Q3 2026 and Nasdaq 100",
-          "url": "https://admiralmarkets.com/analytics/traders-blog/tesla-meta-earnings-q3-2026-preview"
+          "outlet": "HDFC Sky",
+          "title": "Crude Oil Prices Rise on Middle East Tensions; Brent at $110",
+          "url": "https://hdfcsky.com/news/oil-prices-today-brent-tops-110-over-escalating-tensions-in-middle-east"
         }
       ]
     },
     {
       "title": "US Politics",
       "icon": "🏛️",
-      "summary": "Trump rallies in North Carolina for trailing Whatley; Cook shifts two races toward Democrats",
+      "summary": "CNN poll: Trump approval hits new low, Democrats +10; GOP Senate nominees edge away from Trump",
       "paragraphs": [
         {
-          "heading": "North Carolina rally",
-          "body": "Trump rallied in Greenville, North Carolina, for Senate nominee Michael Whatley, who trails Democrat Roy Cooper in recent polls, NBC News reported. Fox News said Trump invoked the 1988 Willie Horton case to attack Cooper's criminal justice record and announced a $1.5 billion federal investment in semiconductor production in the state. [[TAG:info:Senate battleground]]"
+          "heading": "New low",
+          "body": "A CNN/SSRS poll found Trump's approval at a new low and Democrats with a 10-point generic-ballot edge as the midterms enter the final stretch, CNN reported. CNN also reported 19% of registered voters name corruption as their top issue amid a stream of allegations around the administration. [[TAG:danger:record low]]"
         },
         {
-          "heading": "Map shifts",
-          "body": "The Cook Political Report shifted two races toward Democrats and one toward Republicans, CNN reported. Trump said he plans to spend more than $400 million to help Republicans, and midterm ad spending is projected to exceed $11 billion. In New Hampshire, Republican John Sununu distanced himself from Trump in a new ad despite the president's endorsement."
+          "heading": "On the trail",
+          "body": "Trump rallied in Clemson, South Carolina, where he said Democratic Senate candidate Annie Andrews should lose her medical license, Fox News reported. In Senate debates in Michigan and Kansas, Republican nominees Mike Rogers and Roger Marshall made careful breaks with Trump, CNN reported."
+        },
+        {
+          "heading": "Voter-roll lawsuit",
+          "body": "Senate Democratic leader Chuck Schumer and House Democratic leader Hakeem Jeffries sued the administration over voter rolls ahead of the election, Fox News reported."
         }
       ],
-      "sources": "NBC News, Fox News, Yahoo News, CNN",
+      "sources": "CNN, Fox News, NBC News",
       "citations": [
         {
-          "outlet": "NBC News",
-          "title": "Trump holds rally in North Carolina for midterm GOP candidates",
-          "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-midterm-rally-north-carolina-2026-election-congress-live-updates-rcna604465"
-        },
-        {
-          "outlet": "Fox News",
-          "title": "Trump campaigns in key battleground of North Carolina for 2026 midterms",
-          "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
-        },
-        {
-          "outlet": "Yahoo News",
-          "title": "Trump campaigns in NC as battleground district shifts toward Democrats",
-          "url": "https://www.yahoo.com/news/politics/articles/live-updates-trump-arrives-nc-211021576.html"
+          "outlet": "CNN",
+          "title": "Trump’s approval rating hits a new low as midterms enter final stretch: CNN poll",
+          "url": "https://www.cnn.com/2026/10/21/politics/cnn-poll-trump-democrats-republicans-midterms"
         },
         {
           "outlet": "CNN",
-          "title": "Midterm election updates: Cook Political Report shifts two races toward Democrats and one toward Republicans",
-          "url": "https://www.cnn.com/2026/10/20/politics/live-news/midterm-election-congress"
-        }
-      ]
-    },
-    {
-      "title": "Europe",
-      "icon": "🇪🇺",
-      "summary": "Italy sends 500 troops to Milan; Kallas says US pushing Kyiv to 'surrender on Putin's terms'",
-      "paragraphs": [
-        {
-          "heading": "Italy cracks down",
-          "body": "Italy's cabinet approved deploying 500 troops to Milan and new laws on violent protest, including up to five years in prison for joining a threatening group of five or more, after weekend cost-of-living riots, Al Jazeera reported. Sources disagree on whether soldiers get police powers: Foreign Minister Antonio Tajani said they would, but Italian media reported the cabinet dropped that after objections from President Sergio Mattarella. [[TAG:warning:troops deployed]]"
+          "title": "Corruption allegations swarm Trump’s orbit ahead of midterms",
+          "url": "https://www.cnn.com/2026/10/21/politics/trump-corruption-midterms"
         },
         {
-          "heading": "Wider unrest",
-          "body": "The Rio Times' European roundup reported a curfew in parts of France, flooding in Marseille, Lisbon police arresting 55 housing protesters, and petrol bombs thrown at police in Tirana. Macron is touring the Gulf seeking energy deals to ease French fuel prices, Euronews reported."
+          "outlet": "CNN",
+          "title": "Midterm election updates: In Michigan and Kansas Senate debates, Republicans make careful breaks with Trump",
+          "url": "https://www.cnn.com/2026/10/21/politics/live-news/midterm-election-congress"
         },
         {
-          "heading": "Kallas on Washington",
-          "body": "EU foreign policy chief Kaja Kallas told the European Parliament that US negotiators have spent about 18 months pushing Ukraine to 'surrender on Putin's terms' and that Europe needs a seat at the table, Euronews reported. Euronews said Trump's embrace of Putin has roiled Europe but not enough to break with the US. [[TAG:danger:transatlantic rift]]"
-        }
-      ],
-      "sources": "Al Jazeera, Euronews, ABC News, The Rio Times, The New Voice of Ukraine",
-      "citations": [
-        {
-          "outlet": "Al Jazeera",
-          "title": "Italy approves sweeping security measures in response to protests",
-          "url": "https://www.aljazeera.com/news/2026/10/21/italy-approves-sweeping-security-measures-in-response-to-protests"
+          "outlet": "Fox News",
+          "title": "2026 Midterm Elections: Trump, Democrats Campaign",
+          "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-south-carolina-democrats-october-21"
         },
         {
-          "outlet": "Euronews",
-          "title": "Italy to respond to Milan clashes and looting ‘with great firmness’, foreign minister says",
-          "url": "https://www.euronews.com/2026/10/20/italy-to-respond-to-milan-clashes-and-looting-with-great-firmness-foreign-minister-says"
-        },
-        {
-          "outlet": "ABC News",
-          "title": "Rioters loot stores, set fires in central Milan during cost-of-living protest",
-          "url": "https://abcnews.com/International/wireStory/rioters-loot-stores-set-fires-central-milan-cost-137352156"
-        },
-        {
-          "outlet": "The Rio Times",
-          "title": "Europe Intelligence Brief for Tuesday, October 20, 2026",
-          "url": "https://www.riotimesonline.com/europe-intelligence-brief-tuesday-october-20-2026/"
-        },
-        {
-          "outlet": "Euronews",
-          "title": "News 20 October 2026 - Archive Euronews",
-          "url": "https://www.euronews.com/2026/10/20"
-        },
-        {
-          "outlet": "Euronews",
-          "title": "Kaja Kallas accuses the US of pushing Ukraine to 'surrender on Putin's terms'",
-          "url": "https://www.euronews.com/2026/10/20/kaja-kallas-accuses-the-us-of-pushing-ukraine-to-surrender-on-putins-terms"
-        },
-        {
-          "outlet": "Euronews",
-          "title": "Trump’s embrace of Putin roils Europe, but not enough to break with the US",
-          "url": "https://euronews.com/2026/10/21/trumps-embrace-of-putin-roils-europe-but-not-enough-to-break-with-the-us"
-        },
-        {
-          "outlet": "The New Voice of Ukraine",
-          "title": "Kallas: U.S. negotiators pushed Ukraine toward surrender for 18 months",
-          "url": "https://english.nv.ua/nation/kallas-u-s-negotiators-pushed-ukraine-toward-surrender-for-18-months-50651807.html"
+          "outlet": "NBC News",
+          "title": "Trump campaigns in South Carolina",
+          "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-south-carolina-rally-senate-debate-2026-midterm-live-updates-rcna604651"
         }
       ]
     },
     {
       "title": "Israel and Lebanon",
       "icon": "🕊️",
-      "summary": "Tampa military talks end day one with low expectations; Lebanon rejects direct coordination",
+      "summary": "Eisenkot leads most polls after Gantz quits race; Tampa military talks end without breakthrough",
       "paragraphs": [
         {
-          "heading": "Tampa talks",
-          "body": "US-mediated military-technical talks between Lebanon and Israel at Central Command in Tampa ended their first day Tuesday and resume Wednesday, according to diplomatic sources cited by News Beep. Discussions focused on the June framework and 'pilot areas' in southern Lebanon from which Israeli forces are due to withdraw. Lebanon proposed halting Israeli demolitions, firing and military operations. [[TAG:info:day two today]]"
+          "heading": "Polls after Gantz",
+          "body": "After Benny Gantz's Blue and White withdrew, a Walla poll had Gadi Eisenkot's Yashar at 23 seats and Likud at 19, The Jerusalem Post reported, and Haaretz said new polls show Eisenkot's bloc ahead but short of a 61-seat majority. One rolling average still put Likud first, so pollsters disagree. Two parties hover near the 3.25% threshold. Israel votes October 27. [[TAG:info:no majority]]"
         },
         {
-          "heading": "Low expectations",
-          "body": "Lebanon plans to reject US-backed proposals for its army to coordinate directly with Israel's military, The National reported, and Lebanese officials told local media they saw no signs of optimism. Israel has sought to portray Lebanon's army as failing to disarm Hezbollah, The New Arab reported."
+          "heading": "Tampa stalemate",
+          "body": "US-mediated military talks between Israel and Lebanon in Tampa made no breakthrough, MTV Lebanon reported. Israel pressed for a joint operations room with Lebanon's army to verify two pilot withdrawal zones; Beirut rejected giving Israel any role over its army's movements. No withdrawal timetable or cessation of hostilities was announced."
         }
       ],
-      "sources": "News Beep, Ynet, The National, The New Arab",
+      "sources": "The Jerusalem Post, Haaretz, Times of Israel, The New Arab, MTV Lebanon, Ynet, Daily Beirut",
       "citations": [
         {
-          "outlet": "News Beep",
-          "title": "Lebanon-Israel military-technical talks in Florida conclude first day, to resume Wednesday",
-          "url": "https://www.newsbeep.com/778578/"
+          "outlet": "The Jerusalem Post",
+          "title": "Israel Election 2026: Gadi Eisenkot leading Benjamin Netanyahu, but neither has majority",
+          "url": "https://www.jpost.com/israel-election-2026/article-912371"
+        },
+        {
+          "outlet": "Haaretz",
+          "title": "New Polls Show Eisenkot Ahead, Two Parties at Edge of Electoral Threshold",
+          "url": "https://www.haaretz.com/israel-news/elections/2026-10-22/ty-article/new-polls-show-eisenkot-bloc-leading-netanyahus-but-short-of-majority/000001a1-61de-d3a9-a9bb-69ff31b00000"
+        },
+        {
+          "outlet": "The Times of Israel",
+          "title": "New election poll has pro-Netanyahu camp at 48 seats",
+          "url": "https://www.timesofisrael.com/liveblog_entry/new-election-poll-has-pro-netanyahu-camp-at-48-seats/"
+        },
+        {
+          "outlet": "The New Arab",
+          "title": "Israel election: Polls forecast stalemate, far-right gains in next week's vote",
+          "url": "https://www.newarab.com/news/israel-election-polls-forecast-stalemate-far-right-gains"
+        },
+        {
+          "outlet": "MTV Lebanon",
+          "title": "Tampa talks make no breakthrough",
+          "url": "https://www.mtv.com.lb/en/news/1750674"
         },
         {
           "outlet": "Ynet",
@@ -385,37 +406,124 @@
           "url": "https://www.ynetnews.com/article/hjqbypb2fl"
         },
         {
-          "outlet": "The National",
-          "title": "Lebanon to reject direct military co-ordination with Israel at Florida talks",
-          "url": "https://www.thenationalnews.com/news/mena/2026/10/19/lebanon-to-reject-direct-military-co-ordination-with-israel-at-florida-talks/"
+          "outlet": "Daily Beirut",
+          "title": "Lebanon-Israel Talks Fail in Tampa After Six Hours",
+          "url": "https://dailybeirut.com/en/lebanon-news/six-hours-talks-no-result-blocked-lebanon-israel-agreement/"
+        }
+      ]
+    },
+    {
+      "title": "Europe",
+      "icon": "🇪🇺",
+      "summary": "French unions call Nov 5 mobilisation; Storm Adam kills five in Spain; Romania gets new cabinet",
+      "paragraphs": [
+        {
+          "heading": "France",
+          "body": "French unions left talks with the government disappointed and called a large mobilisation for November 5, and France plans a major police surge ahead of more weekend protests, The Rio Times and Euronews reported. [[TAG:warning:more protests]]"
         },
         {
-          "outlet": "The New Arab",
-          "title": "Israel seeks to cast Lebanon army as 'failing' ahead of US talks",
-          "url": "https://www.newarab.com/news/israel-seeks-cast-lebanon-army-failing-ahead-us-talks"
+          "heading": "Around the continent",
+          "body": "Ursula von der Leyen said EU sanctions on Russia stay until the war ends, and the Commission ruled out resuming Russian gas purchases. Storm Adam killed at least five people in eastern Spain, Euronews reported. Romania's new government under Prime Minister Luca Niculescu took office, Poland's Sejm voted to ease some abortion restrictions, and thousands marched in Athens for education funding. Doctors said Pope Leo needs no further treatment after his cancer surgery."
+        }
+      ],
+      "sources": "The Rio Times, Euronews, Democracy Now",
+      "citations": [
+        {
+          "outlet": "The Rio Times",
+          "title": "Europe Intelligence Brief for Wednesday, October 21, 2026",
+          "url": "https://www.riotimesonline.com/europe-intelligence-brief-wednesday-october-21-2026/"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "News 21 October 2026 - Archive Euronews",
+          "url": "https://www.euronews.com/2026/10/21"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Video. Latest news bulletin",
+          "url": "https://www.euronews.com/video/2026/10/21/latest-news-bulletin-october-21st-2026-midday"
+        },
+        {
+          "outlet": "Democracy Now",
+          "title": "Headlines for October 21, 2026",
+          "url": "https://www.democracynow.org/2026/10/21/headlines"
+        }
+      ]
+    },
+    {
+      "title": "Global Roundup",
+      "icon": "🌍",
+      "summary": "Nigeria confirms first Ebola case in a decade; drone strike on Abyei market; China warns on AI",
+      "paragraphs": [
+        {
+          "heading": "Ebola reaches Nigeria",
+          "body": "Nigeria confirmed a Bundibugyo Ebola case in Abuja in a woman who traveled from eastern Congo via Uganda, and is tracing 44 contacts, mostly health workers, AP and CNBC Africa reported. Uganda says transit does not mean she was infected there. Africa CDC called an emergency meeting of health ministers, OkayAfrica reported. [[TAG:danger:new country]]"
+        },
+        {
+          "heading": "Abyei and the Sahel",
+          "body": "A drone strike on a market in Abyei, near the Sudan-South Sudan border, killed 150 people, Al Jazeera reported; The Rio Times cited a lower toll of 73. Burkina Faso's parliament voted unanimously to restore the death penalty, and Morocco appointed Fatima Zahra El Mansouri its first female prime minister, OkayAfrica reported."
+        },
+        {
+          "heading": "China",
+          "body": "Former central bank governor Zhou Xiaochuan warned that failed AI investments could cause financial turbulence in China, and China said it allowed a Philippine resupply mission to a warship on a disputed South China Sea shoal, The Wire China and the South China Morning Post reported."
+        }
+      ],
+      "sources": "AP, CNBC Africa, OkayAfrica, allAfrica, Al Jazeera, The Rio Times, The Wire China, South China Morning Post",
+      "citations": [
+        {
+          "outlet": "AP (abc27)",
+          "title": "Nigeria confirms Ebola case in Abuja as woman who arrived from Uganda tests positive",
+          "url": "https://www.abc27.com/news/health/ap-health/ap-nigeria-records-first-ebola-case-health-authorities-say/amp/"
+        },
+        {
+          "outlet": "CNBC Africa",
+          "title": "Nigeria reports first Ebola case in a decade in woman who arrived from Uganda",
+          "url": "https://www.cnbcafrica.com/2026/nigeria-confirms-ebola-case-in-patient-who-arrived-from-uganda"
+        },
+        {
+          "outlet": "OkayAfrica",
+          "title": "Today in Africa — October 21, 2026: Africa CDC Calls Emergency Ebola Meeting, Burkina Faso Restores the Death Penalty",
+          "url": "https://www.okayafrica.com/today-in-africa-october-21-2026-africa-cdc-calls-emergency-ebola-meeting-burkina-faso-restores-the-death-penalty/1440917"
+        },
+        {
+          "outlet": "allAfrica",
+          "title": "Africa: All of Africa Today - October 21, 2026",
+          "url": "https://allafrica.com/stories/202610210099.html"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Africa News",
+          "url": "https://www.aljazeera.com/africa/"
+        },
+        {
+          "outlet": "The Rio Times",
+          "title": "Africa Intelligence Brief for Wednesday, October 21, 2026",
+          "url": "https://www.riotimesonline.com/africa-intelligence-brief-wednesday-october-21-2026/"
+        },
+        {
+          "outlet": "The Wire China",
+          "title": "The Daily Roundup - October 21, 2026",
+          "url": "https://www.thewirechina.com/2026/10/21/the-daily-roundup-october-21-2026/"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "title": "China Breaking News & Headlines",
+          "url": "https://www.scmp.com/news/china"
         }
       ]
     }
   ],
   "searches": [
     {
-      "query": "Iran war news October 21 2026",
+      "query": "Iran war news October 22 2026",
       "results": [
         {
-          "title": "Live Updates: Iran lauds ties with Russia, contradicting Trump's claim of little Russian support for Tehran",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/"
+          "title": "Iran War Updates: U.S. reduces troop footprint in Mideast as indirect talks with Iran continue",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/"
         },
         {
-          "title": "Iran War: Latest News, Live Coverage and Video",
-          "url": "https://www.nbcnews.com/world/iran-war"
-        },
-        {
-          "title": "Diplomatic visits attempt to hold off all-out US-Iran war",
-          "url": "https://www.newarab.com/news/diplomatic-visits-attempt-hold-all-out-us-iran-war"
-        },
-        {
-          "title": "Iran war live: US warns peace deal with Tehran is extremely difficult",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/21/iran-war-live-us-warns-peace-deal-with-tehran-is-extremely-difficult"
+          "title": "Trump declares US has ‘decimated’ Iran as Tehran warns it's ‘fully prepared’ for war",
+          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-russia-houthi-october-21"
         },
         {
           "title": "‘The world will be amazed:’ Iran’s commanders prepare for further war",
@@ -426,12 +534,20 @@
           "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
         },
         {
+          "title": "Iran war live: IRGC threatens US bases if tankers continue ‘illegal’ routes",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive"
+        },
+        {
           "title": "Live Updates: War returns to Iran with Israel, US strikes - DAWN.COM",
           "url": "https://www.dawn.com/live/iran-israel-war"
         },
         {
-          "title": "Iran issues warning to US as Qatar prepares to announce regional defense agreement",
-          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-israel-pentagon-october-19"
+          "title": "Iran live updates: IRGC Navy claims attacks on 4 vessels in Persian Gulf - ABC News",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates/?id=137370653"
+        },
+        {
+          "title": "Live - Netanyahu denies Trump prevented planned attack on Iran",
+          "url": "https://www.iranintl.com/en/liveblog/202610187555"
         },
         {
           "title": "europe today iran war intensifies as trump signals prolonged fight",
@@ -440,84 +556,170 @@
       ]
     },
     {
-      "query": "Zelensky Witkoff Oslo talks outcome October 20",
+      "query": "Witkoff Putin meeting outcome St. Petersburg Kremlin Ushakov October 21",
       "results": [
         {
-          "title": "Trump envoy Steve Witkoff to meet Vladimir Putin following Oslo talks with Zelensky - The Week",
-          "url": "https://www.theweek.in/news/world/2026/10/21/trump-envoy-steve-witkoff-to-meet-vladimir-putin-following-oslo-talks-with-zelensky.html"
+          "title": "Putin–Witkoff meeting on October 21, 2026",
+          "url": "https://news.liga.net/en/politics/news/kremlin-names-timeframe-for-resuming-ukraine-russia-us-talks"
         },
         {
-          "title": "Ukraine's Zelensky Meets Witkoff in Oslo Amid Strained Ties",
-          "url": "https://foreignpolicy.com/2026/10/20/zelensky-ukraine-witkoff-kushner-talks-oslo-russia-trump-starlink/"
+          "title": "Russia willing to resume trilateral peace talks in November, Kremlin says after Witkoff meeting",
+          "url": "https://www.cnn.com/2026/10/21/europe/us-envoy-witkoff-putin-talks-russia-ukraine-intl"
         },
         {
-          "title": "Putin Releases American Jailed in Russia After U.S. Envoy Arrives for Ukraine Talks - The Moscow Times",
-          "url": "https://themoscowtimes.com/2026/10/21/witkoff-arrives-in-st-petersburg-for-meeting-with-putin-a94037"
+          "title": "Russia says Ukraine must make \"necessary decisions\" to end war as Witkoff meets Putin - CBS News",
+          "url": "https://www.cbsnews.com/news/russia-ukraine-war-witkoff-putin-trump-zelenskyy/"
         },
         {
-          "title": "Zelenskyy meets with Trump envoys as U.S. blasts ‘scandalous’ accusations about withdrawn support",
-          "url": "https://www.nbcnews.com/world/ukraine/ukraine-us-support-rubio-scandalous-zelenskyy-meeting-trump-oslo-rcna604530"
+          "title": "Putin tells Witkoff he is ready to resume direct peace talks, Russia releases U.S. detainee",
+          "url": "https://www.axios.com/2026/10/21/russia-ukraine-putin-witkoff-peace"
         },
         {
-          "title": "A New Path to Peace — What Zelenskyy Will Bring to Ukraine from the Talks in Oslo",
-          "url": "https://unn.ua/en/news/a-new-path-to-peace-what-zelenskyy-will-bring-to-ukraine-from-the-talks-in-oslo"
+          "title": "U.S. envoy Witkoff meets with Putin in Russia amid report Musk throttled Starlink",
+          "url": "https://www.cbc.ca/news/world/russia-ukraine-witkoff-putin-starlink-musk-9.7389616"
         },
         {
-          "title": "Witkoff Meets Putin",
-          "url": "https://mediabias.news/conflict/us-envoy-witkoff-meets-putin-after-zelensky-talks"
+          "title": "Russia willing to resume trilateral peace talks in November, Kremlin says after Witkoff meeting - KESQ",
+          "url": "https://kesq.com/news/national-world/cnn-world/2026/10/22/us-envoy-witkoff-lands-in-russia-for-talks-with-putin/"
         },
         {
-          "title": "Zelensky arrives in Norway for talks with Norwegian PM",
-          "url": "https://www.yahoo.com/news/zelensky-arrives-norway-talks-norwegian-100358473.html"
+          "title": "Oct 24, 2025 - World",
+          "url": "https://www.axios.com/2025/10/24/trump-russia-sanctions-putin-witkoff-miami"
         },
         {
-          "title": "Zelenskyy In Paris, Witkoff To Moscow, In 'Pivotal Week' For Ukraine Talks",
-          "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2025/12/ukraine-251201-rferl01.htm"
+          "title": "Putin meets US envoy Witkoff to discuss Ukraine, Kremlin says",
+          "url": "https://www.yahoo.com/news/putin-meet-us-envoy-witkoff-124938742.html"
         },
         {
-          "title": "Trump restarts peace dialogue with Zelensky, sends Witkoff to Moscow",
-          "url": "https://www.yahoo.com/news/articles/trump-restarts-peace-dialogue-zelensky-125148728.html"
+          "title": "Witkoff meets Putin ahead of Trump’s Ukraine ceasefire deadline",
+          "url": "https://www.yahoo.com/news/articles/witkoff-meets-putin-ahead-trump-142310643.html"
+        },
+        {
+          "title": "US envoy Witkoff meets Putin for three hours, Kremlin says",
+          "url": "https://www.yahoo.com/news/articles/us-envoy-witkoff-meets-putin-125618710.html"
         }
       ]
     },
     {
-      "query": "stock market close Tuesday October 20 2026 Dow S&P Nasdaq",
+      "query": "Meta earnings Q3 2026 results shares capex",
       "results": [
         {
-          "title": "Stock market news for Oct. 20, 2026",
-          "url": "https://www.cnbc.com/2026/10/19/stock-market-today-live-updates.html"
+          "title": "Earnings call transcript: Meta beats Q3 2026 estimates as AI push lifts shares By Investing.com",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-meta-beats-q3-2026-estimates-as-ai-push-lifts-shares-93CH-4964260"
         },
         {
-          "title": "S&P 500 (^GSPC) Historical Data - Yahoo Finance",
-          "url": "https://finance.yahoo.com/quote/%5EGSPC/history/"
+          "title": "Meta (META) Q3 2026 earnings report: Live updates",
+          "url": "https://www.cnbc.com/2026/10/21/meta-earnings-q3-2026-live-updates.html"
         },
         {
-          "title": "Closing Look — Tuesday, October 20, 2026",
-          "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026"
+          "title": "Meta Stock Q3 2026 Earnings Analysis: Ads, Muse, AI Costs",
+          "url": "https://www.indmoney.com/blog/us-stocks/meta-stock-q3-earnings-analysis"
         },
         {
-          "title": "Premarket Stock Trading Data: Dow, S&P, NASDAQ Futures",
-          "url": "https://www.cnbc.com/markets/pre-markets/"
+          "title": "Meta’s revenue surges 26% to $64.6 billion, but billions in settlements and skyrocketing AI spending turn screws on profit, free cash flow",
+          "url": "https://fortune.com/2026/10/21/meta-q3-earnings-mark-zuckerberg-capex-muse/"
         },
         {
-          "title": "Closing milestones of the Nasdaq Composite",
-          "url": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite"
+          "title": "Meta (META) Q3 2026 Earnings Call Transcript",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/10/21/meta-meta-q3-2026-earnings-call-transcript/"
+        },
+        {
+          "title": "Meta Q3 2026 Earnings: Record Revenue, Negative Cash Flow",
+          "url": "https://cellcog.ai/blog/meta-q3-2026-earnings/"
+        },
+        {
+          "title": "Meta Q3 2026 earnings: revenue up 26% to $64.6B",
+          "url": "https://www.stocktitan.net/news/META/meta-reports-third-quarter-2026-13ysmyjaxliq.html"
+        },
+        {
+          "title": "Meta Stock Surges 5% After Stronger-Than-Expected Q3 2026 Earnings - Lapaas Voice",
+          "url": "https://lapaasvoice.com/meta-stock-surges-5-after-stronger-than-expected-q3-2026-earnings"
+        },
+        {
+          "title": "Meta Q3 Earnings: $41.68B AI Capex, Muse Hits 5M [2026]",
+          "url": "https://shattered.io/meta-q3-2026-earnings-ai-capex-muse-5-million/"
+        }
+      ]
+    },
+    {
+      "query": "Tesla earnings Q3 2026 results shares after hours",
+      "results": [
+        {
+          "title": "Earnings call transcript: Tesla beats Q3 2026 estimates as stock slips after hours By Investing.com",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-tesla-beats-q3-2026-estimates-as-stock-slips-after-hours-93CH-4964365"
+        },
+        {
+          "title": "Tesla (TSLA) Q3 2026 earnings results beat revenue and EPS expectations",
+          "url": "https://www.shacknews.com/article/151103/tesla-tsla-q3-2026-earnings-results"
+        },
+        {
+          "title": "Tesla (TSLA) Reports Q3 Earnings; Shares Edge Higher Amid Mixed Results",
+          "url": "https://www.gurufocus.com/news/9134960/tesla-tsla-reports-q3-earnings-shares-edge-higher-amid-mixed-results"
+        },
+        {
+          "title": "Tesla Q3 2026 Earnings Analysis: Why TSLA Stock Fell After Results",
+          "url": "https://www.indmoney.com/blog/us-stocks/tesla-stock-q3-earnings-analysis-tsla"
+        },
+        {
+          "title": "Tesla shares reverse course as robotics, chipmaking caution overshadows upbeat Q3 By Investing.com",
+          "url": "https://www.investing.com/news/earnings/tesla-stock-up-after-hours-on-results-beat-improved-automotive-gross-margin-4963976"
+        },
+        {
+          "title": "Tesla Stock After Q3: $374 on $0.48 Beat, $400 or $347",
+          "url": "https://financefeeds.com/tesla-tsla-stock-374-after-q3-eps-0-48-beat-cybercab-dallas-capex-20-billion-bull-400-bear-347/"
+        },
+        {
+          "title": "Tesla (NASDAQ:TSLA) Q3 2026 Earnings: EPS Beat, Flat Revenue, and Rising AI Spending",
+          "url": "https://www.chartmill.com/news/TSLA/Chartmill-56561-Tesla-NASDAQTSLA-Q3-2026-Earnings-EPS-Beat-Flat-Revenue-and-Rising-AI-Spending"
+        },
+        {
+          "title": "Earnings live updates: All eyes on Musk and Meta as Q3 earnings rev up",
+          "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-all-eyes-on-musk-and-meta-as-q3-earnings-roll-on-134152191.html"
+        },
+        {
+          "title": "Tesla Q3 2026: Free Cash Flow Swings to +$1.53 Billion, Beating the Forecast $4.5 Billion Burn",
+          "url": "https://www.techi.com/tesla-q3-2026-earnings-free-cash-flow-reversal/"
+        }
+      ]
+    },
+    {
+      "query": "stock market close Wednesday October 21 2026 Dow S&P Nasdaq",
+      "results": [
+        {
+          "title": "Stock Market News for Oct 21, 2026",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-oct-21-065700416.html"
+        },
+        {
+          "title": "Wednesday Market Update - October 21, 2026 - moomoo Community",
+          "url": "https://www.moomoo.com/community/feed/wednesday-market-update-october-21-2026-117477748834310"
+        },
+        {
+          "title": "Stock market news for Oct. 21, 2026",
+          "url": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html"
+        },
+        {
+          "title": "Stock market today: Dow, S&P 500, Nasdaq rise as tech rallies, SpaceX stock surges nearly 8%",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-21-dow-sp-500-nasdaq-100000105.html"
         },
         {
           "title": "United States Stock Market Index - Quote - Chart - Historical Data - News",
           "url": "https://tradingeconomics.com/united-states/stock-market"
         },
         {
-          "title": "October 27, 1997, mini-crash",
-          "url": "https://en.wikipedia.org/wiki/October_27,_1997,_mini-crash"
+          "title": "Stock market today: Live updates",
+          "url": "https://www.cnbc.com/2026/10/21/stock-market-today-live-updates.html"
+        },
+        {
+          "title": "Closing milestones of the Nasdaq Composite",
+          "url": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite"
+        },
+        {
+          "title": "How major US stock indexes fared Wednesday 10/21/2026 - The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/10/21/wall-street-stocks-dow-nasdaq/f78fcba0-cd8c-11f1-ac04-9f58578a68b4_story.html"
         },
         {
           "title": "Nasdaq",
           "url": "https://en.wikipedia.org/wiki/Nasdaq"
-        },
-        {
-          "title": "Dow Jones Industrial Average (^DJI) Historical Data - Yahoo Finance",
-          "url": "https://finance.yahoo.com/quote/%5EDJI/history/"
         },
         {
           "title": "S&P 500 (^GSPC) Charts, Data & News - Yahoo Finance",
@@ -526,457 +728,314 @@
       ]
     },
     {
-      "query": "Netflix earnings Q3 2026 results shares",
+      "query": "oil Brent October 22 2026",
       "results": [
-        {
-          "title": "Netflix (NFLX) Q3 2026 Earnings Results & Call Transcript",
-          "url": "https://www.marketbeat.com/earnings/reports/2026-10-20-netflix-inc-stock/"
-        },
-        {
-          "title": "NETFLIX INC - Form 8-K - FY2026",
-          "url": "https://www.sec.gov/Archives/edgar/data/0001065280/000106528026000290/ex991_q326.htm"
-        },
-        {
-          "title": "Earnings call transcript: Netflix beats Q3 2026 estimates, but shares fall after hours By Investing.com",
-          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-netflix-beats-q3-2026-estimates-but-shares-fall-after-hours-93CH-4961240"
-        },
-        {
-          "title": "Netflix (NFLX) Q3 2026 earnings results beat EPS expectations, revenue in-line with estimates",
-          "url": "https://www.shacknews.com/article/151073/netflix-nflx-q3-2026-earnings-results"
-        },
-        {
-          "title": "Netflix Q3 2026 Earnings Analysis: Why NFLX Stock Fell",
-          "url": "https://www.indmoney.com/blog/us-stocks/netflix-stock-q3-earnings-analysis-nflx"
-        },
-        {
-          "title": "NETFLIX INC - Form 10-Q - FY2026",
-          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000138/nflx-20260331.htm"
-        },
-        {
-          "title": "Netflix Q3 2026 Earnings: Stock Drops Again On Lowered Guidance",
-          "url": "https://deadline.com/2026/10/netflix-q3-2026-earnings-layoffs-streaming-1237168825/"
-        },
-        {
-          "title": "Netflix Q3 2026 Earnings: Live Updates of $NFLX Earnings Call, Stock Forecast",
-          "url": "https://www.thestreet.com/investing/earnings/netflix-nflx-q3-2026-earnings-call-stock-forecast-updates"
-        },
-        {
-          "title": "Netflix Beats Q3 Earnings Estimates But Braces Wall Street for 2026 Ad Sales Whiff",
-          "url": "https://www.hollywoodreporter.com/business/business-news/netflix-q3-2026-earnings-ad-sales-stock-decline-continues-1236735383/"
-        }
-      ]
-    },
-    {
-      "query": "Lebanon Israel Tampa talks result October 20 2026",
-      "results": [
-        {
-          "title": "🚨 LEBANON ALERTS — Aoun Confirms Lebanon Will Press for Halt to Israeli Attacks and Withdrawal at October 20 Tampa Talks",
-          "url": "https://vppnews.substack.com/p/lebanon-alerts-aoun-confirms-lebanon"
-        },
-        {
-          "title": "Israel, Lebanon hold US-mediated military talks as tensions mount over Hezbollah disarmament",
-          "url": "https://www.ynetnews.com/article/hjqbypb2fl"
-        },
-        {
-          "title": "Lebanon to reject direct military co-ordination with Israel at Florida talks",
-          "url": "https://www.thenationalnews.com/news/mena/2026/10/19/lebanon-to-reject-direct-military-co-ordination-with-israel-at-florida-talks/"
-        },
-        {
-          "title": "Israel seeks to cast Lebanon army as 'failing' ahead of US talks",
-          "url": "https://www.newarab.com/news/israel-seeks-cast-lebanon-army-failing-ahead-us-talks"
-        },
-        {
-          "title": "Are Israel’s Lebanon talks a path to peace, or a pretext for continued occupation?",
-          "url": "https://www.thenationalnews.com/opinion/comment/2026/10/20/lebanon-israel-us-hezbollah-donald-trump/"
-        },
-        {
-          "title": "Israel And Lebanon Hold US-Mediated Technical Talks At CENTCOM In Tampa, Florida: 7 outlets compared",
-          "url": "https://newscord.org/article/israel-and-lebanon-hold-us-mediated-technical-talks-at-centcom-in-tampa-florida--Story_20261020_ce924adb"
-        },
-        {
-          "title": "Lebanon Proposes Halting Escalation and Israeli Withdrawal in Tampa CENTCOM Talks: how 12 outlets framed it",
-          "url": "https://newscord.org/article/lebanon-pushes-demands-in-tampa-talks-with-united-states-and-israel-to-halt-esca--Story_20261020_f75c6513"
-        },
-        {
-          "title": "Lebanon Israel Talks in Tampa: Can Strikes End?",
-          "url": "https://www.profilenews.com/en/lebanon-israel-talks/"
-        },
-        {
-          "title": "Lebanon-Israel military-technical talks in Florida conclude first day, to resume Wednesday - News Beep",
-          "url": "https://www.newsbeep.com/778578/"
-        }
-      ]
-    },
-    {
-      "query": "oil prices Brent October 21 2026",
-      "results": [
-        {
-          "title": "Brent Crude Oil Futures Price Today - Investing.com",
-          "url": "https://www.investing.com/commodities/brent-oil"
-        },
         {
           "title": "Brent Oil Price Today: $110, Bull $113 vs Bear $105",
           "url": "https://financefeeds.com/brent-crude-oil-price-110-iran-talks-rumours-five-month-high-bull-113-bear-105/"
         },
         {
-          "title": "Brent Crude Oil Price Today - Live Chart & Historical Prices (USD/BBL)",
-          "url": "https://goldsilver.ai/metal-prices/brent-crude"
+          "title": "Brent Crude Oil Futures Price Today - Investing.com",
+          "url": "https://www.investing.com/commodities/brent-oil"
         },
         {
-          "title": "Brent Tops $110 as Tanker Attacks Threaten Persian Gulf Supply",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tops-110-as-Tanker-Attacks-Threaten-Persian-Gulf-Supply.html"
+          "title": "Crude Oil Prices Rise on Middle East Tensions; Brent at $110",
+          "url": "https://hdfcsky.com/news/oil-prices-today-brent-tops-110-over-escalating-tensions-in-middle-east"
         },
         {
-          "title": "Brent Crude Oil Price Live",
-          "url": "https://www.oilpriceapi.com/live/brent-crude-oil-price"
+          "title": "Oil price today: WTI, Brent rise on Middle East worries",
+          "url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html"
         },
         {
-          "title": "Oil Prices Today: Brent Crude Tops $110 as Red Sea Shipping Risks and Saudi Oil Threats Raise Supply Fears",
-          "url": "https://sundayguardianlive.com/world/oil-prices-today-brent-crude-tops-110-as-red-sea-shipping-risks-and-saudi-oil-threats-raise-supply-fears-check-wti-prices-market-trends-and-latest-updates-us-israel-iran-war-latest-live-news-309336/"
+          "title": "Crude Oil Prices Today",
+          "url": "https://oilprice.com/"
         },
         {
-          "title": "Oil Prices Today: WTI $97.65 · Brent $108.78 · Gas $2.98",
-          "url": "https://www.onevalor.com/oil-gas-prices/"
+          "title": "Saudi Crude Exports Hit Five-Month High as Production Falls to Record Low",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Crude-Exports-Hit-Five-Month-High-as-Production-Falls-to-Record-Low.html"
+        },
+        {
+          "title": "oil prices rise as brent hits 75 wti nears 72",
+          "url": "https://newsonair.gov.in/oil-prices-rise-as-brent-hits-75-wti-nears-72"
         },
         {
           "title": "crude oil prices rise brent at 67 73 wti at 63 68 per barrel",
           "url": "https://www.newsonair.gov.in/crude-oil-prices-rise-brent-at-67-73-wti-at-63-68-per-barrel"
         },
         {
-          "title": "oil prices rise as brent hits 75 wti nears 72",
-          "url": "https://newsonair.gov.in/oil-prices-rise-as-brent-hits-75-wti-nears-72"
+          "title": "crude oil prices fall brent at 67 93 wti at 65 43",
+          "url": "https://www.newsonair.gov.in/crude-oil-prices-fall-brent-at-67-93-wti-at-65-43"
         }
       ]
     },
     {
-      "query": "Witkoff Putin St. Petersburg meeting American released October 21",
+      "query": "IRGC navy attacks four vessels ship-to-ship transfers Persian Gulf October 21",
       "results": [
         {
-          "title": "Detained American Stephen Hubbard released by Russia as Witkoff meets Putin - ABC News",
-          "url": "https://abcnews.com/International/witkoff-arrives-st-petersburg-putin-talks-kremlin-aide/story?id=137438106"
+          "title": "Iran live updates: IRGC Navy claims attacks on 4 vessels in Persian Gulf - ABC News",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates/?id=137370653"
         },
         {
-          "title": "Detained American Stephen Hubbard released by Russia after Witkoff meets Putin",
-          "url": "https://www.yahoo.com/news/politics/articles/witkoff-arrives-st-petersburg-putin-082659236.html"
+          "title": "bne IntelliNews - Iran's IRGC says it hit four ships in the Gulf as three more strike mines",
+          "url": "https://www.intellinews.com/iran-s-irgc-says-it-hit-four-ships-in-the-gulf-as-three-more-strike-mines-478015"
         },
         {
-          "title": "Russia releases imprisoned American man, US envoy Witkoff says on visit to St. Petersburg",
-          "url": "https://www.ksat.com/news/world/2026/10/21/russia-releases-imprisoned-american-man-us-envoy-witkoff-says-on-visit-to-st-petersburg/"
+          "title": "Iran says seven vessels hit in Gulf, warns US over regional bases - World - Aaj English TV",
+          "url": "https://english.aaj.tv/news/330477483/iran-says-seven-vessels-hit-in-gulf-warns-us-over-regional-bases"
         },
         {
-          "title": "U.S. citizen Stephen Hubbard released by Russia after years in jail, Witkoff confirms in meeting with Putin - CBS News",
-          "url": "https://www.cbsnews.com/news/russia-stephen-hubbard-freed-american-ukraine-war-witkoff-putin/"
+          "title": "Iran’s IRGC says it attacked four vessels in Persian Gulf - World - TASS",
+          "url": "https://tass.com/world/2205961"
         },
         {
-          "title": "Russia releases imprisoned American man, US envoy Witkoff says on visit to St. Petersburg",
-          "url": "https://thehill.com/homenews/ap/ap-international/ap-russia-has-released-an-american-man-imprisoned-on-charges-of-fighting-as-mercenary-in-ukraine-us-envoy-witkoff-says/"
+          "title": "Seven Ships Hit Near Hormuz as Iran Warns US of Escalation",
+          "url": "https://www.marinelink.com/news/seven-ships-hit-near-hormuz-iran-warns-us-543834"
         },
         {
-          "title": "NYT: Trump’s envoys plan to meet Putin in St. Petersburg on Wednesday and seek the release of an American held in Russia — Meduza",
-          "url": "https://meduza.io/amp/en/news/2026/10/20/nyt-trump-s-envoys-plan-to-meet-putin-in-st-petersburg-on-wednesday-and-seek-the-release-of-an-american-held-in-russia"
+          "title": "Iran’s IRGC Navy says seven vessels hit, warns US of wider response",
+          "url": "https://whbl.com/2026/10/21/irans-irgc-navy-says-seven-vessels-hit-warns-us-of-wider-response/"
         },
         {
-          "title": "Stephen Hubbard: Russia frees 74-year-old American captured in Ukraine after visit from Trump envoy",
-          "url": "https://cnn.com/2026/10/21/europe/stephen-hubbard-prisoner-release-russia-trump-intl"
+          "title": "Islamic Revolutionary Guard Corps Navy",
+          "url": "https://en.wikipedia.org/wiki/Islamic_Revolutionary_Guard_Corps_Navy"
         },
         {
-          "title": "Witkoff met with Putin in St. Petersburg — initial statements include proposals to end the war",
-          "url": "https://unn.ua/en/news/witkoff-met-with-putin-in-st-petersburg-initial-statements-include-proposals-to-end-the-war"
+          "title": "2021 United States%E2%80%93Iran naval incident",
+          "url": "https://en.wikipedia.org/wiki/2021_United_States%E2%80%93Iran_naval_incident"
         },
         {
-          "title": "Witkoff to meet Putin in Moscow, media reports",
-          "url": "https://www.yahoo.com/news/witkoff-meet-putin-moscow-media-054039070.html"
+          "title": "Iran’s IRGC Navy says seven vessels hit, warns US of wider response - Taylorville Daily News",
+          "url": "https://www.taylorvilledailynews.com/irans-irgc-navy-says-seven-vessels-hit-warns-us-of-wider-response/"
+        },
+        {
+          "title": "IRGC Navy Says 4 Tankers Hit in Persian Gulf - Politics news - Tasnim News Agency",
+          "url": "https://www.tasnimnews.ir/en/news/2026/10/22/3729298/irgc-navy-says-4-tankers-hit-in-persian-gulf"
         }
       ]
     },
     {
-      "query": "Pakistan army chief Munir Tehran proposal Pezeshkian October 20 2026",
+      "query": "US orders diplomats leave Saudi Arabia Houthi attacks October 2026",
       "results": [
         {
-          "title": "CDF Munir-Pezeshkian meeting raises peace hopes - World - DAWN.COM",
-          "url": "https://www.dawn.com/news/2038686/cdf-munir-pezeshkian-meeting-raises-peace-hopes"
+          "title": "US orders some diplomats to leave Saudi Arabia as fears of escalating Houthi attacks rise",
+          "url": "https://www.clickondetroit.com/news/politics/2026/10/21/us-orders-some-diplomats-to-leave-saudi-arabia-as-fears-of-escalating-houthi-attacks-rise/"
         },
         {
-          "title": "Diplomatic visits attempt to hold off all-out US-Iran war",
-          "url": "https://www.newarab.com/news/diplomatic-visits-attempt-hold-all-out-us-iran-war"
+          "title": "US Orders Diplomats to Depart Saudi Arabia Amid Houthi Strikes",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-21/exclusive-us-preparing-to-issue-ordered-departure-of-some-personnel-from-gulf-embassies-us-officials"
         },
         {
-          "title": "Live Updates: Iran lauds ties with Russia, contradicting Trump's claim of little Russian support for Tehran",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/"
+          "title": "US orders embassy staff, families to leave Saudi Arabia amid Houthi strikes - ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-22/us-diplomats-to-leave-saudi-arabia-amid-houthi-strikes/107295684"
         },
         {
-          "title": "Marzieh Vahid-Dastjerdi",
-          "url": "https://en.wikipedia.org/wiki/Marzieh_Vahid-Dastjerdi"
+          "title": "US Orders Some Diplomats to Leave Saudi Arabia as Fears of Escalating Houthi Attacks Rise",
+          "url": "https://www.usnews.com/news/politics/articles/2026-10-21/us-orders-some-diplomats-to-leave-saudi-arabia-as-fears-of-escalating-houthi-attacks-rise"
         },
         {
-          "title": "TRT World - 'Not even a tiny bit of enriched Uranium will leave Iran', Tehran tells mediator Pakistan",
-          "url": "https://www.trtworld.com/article/d8692cabe4ce"
+          "title": "U.S. orders diplomats to depart Saudi Arabia amid Houthi strikes - The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/10/22/world/us-diplomats-saudi-arabia-houthi/"
         },
         {
-          "title": "Aghapour Alishahi",
-          "url": "https://en.wikipedia.org/wiki/Aghapour_Alishahi"
+          "title": "US orders departure of personnel from Saudi Arabia, citing Houthi threat",
+          "url": "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat"
         },
         {
-          "title": "Iran’s Pezeshkian Tells Pakistan’s Asim Munir US Must Lift Sanctions Before Talks: how 6 outlets framed it",
-          "url": "https://newscord.org/article/irans-pezeshkian-tells-pakistans-asim-munir-us-must-lift-sanctions-before-talks--Story_20261020_PezeshkianUSmustliftdf98e014"
+          "title": "Embassy of the United States, Riyadh",
+          "url": "https://en.wikipedia.org/wiki/Embassy_of_the_United_States,_Riyadh"
         },
         {
-          "title": "Pakistan army chief’s latest Iran visit ‘more focused’ on Saudi Arabia-Houthi conflict: Sources",
-          "url": "https://www.anews.com.tr/world/2026/10/21/pakistan-army-chiefs-latest-iran-visit-more-focused-on-saudi-arabia-houthi-conflict-sources"
+          "title": "US Orders Non-Emergency Diplomats Out of Saudi Arabia Amid Houthi Attacks",
+          "url": "https://houseofsaud.com/us-saudi-diplomat-departure/"
         },
         {
-          "title": "Iran Says Hormuz Stays Shut, Won't Transfer Uranium",
-          "url": "https://houseofsaud.com/iran-hormuz-uranium-deal-refusal/"
-        },
-        {
-          "title": "Pezeshkian discusses mediation with Pakistan army commander — Jerusalem Post",
-          "url": "https://ua.news/en/dovkolo-svitu/pezeshkian-obgovoriv-poserednitstvo-z-komanduvachem-armiyi-pakistanu-jerusalem-post"
+          "title": "US to evacuate diplomats from Saudi",
+          "url": "https://www.aljazeera.com/news/2004/4/15/us-to-evacuate-diplomats-from-saudi"
         }
       ]
     },
     {
-      "query": "GM earnings Q3 2026 results guidance stock",
+      "query": "Lebanon Israel Tampa talks conclude second day October 21 outcome",
       "results": [
         {
-          "title": "General Motors (GM) earnings Q3 2026",
-          "url": "https://www.cnbc.com/2026/10/20/general-motors-gm-earnings-q3-2026.html"
+          "title": "Watch: Military Talks Continue For A Second Day In Tampa - MTV Lebanon",
+          "url": "https://www.mtv.com.lb/en/news/1750577"
         },
         {
-          "title": "Earnings call transcript: GM beats Q3 2026 estimates but shares fall 5% By Investing.com",
-          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-gm-beats-q3-2026-estimates-but-shares-fall-5-93CH-4960352"
+          "title": "Israel, Lebanon hold US-mediated military talks as tensions mount over Hezbollah disarmament",
+          "url": "https://www.ynetnews.com/article/hjqbypb2fl"
         },
         {
-          "title": "GM Q3 2026 Earnings: Results, Guidance & Stock Reaction",
-          "url": "https://www.indmoney.com/blog/us-stocks/general-motors-q3-earnings-analysis"
+          "title": "Tampa talks make no breakthrough - MTV Lebanon",
+          "url": "https://www.mtv.com.lb/en/news/1750674"
         },
         {
-          "title": "General Motors Co - Form 8-K - FY2026",
-          "url": "https://www.sec.gov/Archives/edgar/data/0001467858/000146785826000056/gmq32026pressreleaseandfin.htm"
+          "title": "Lebanon to reject direct military co-ordination with Israel at Florida talks",
+          "url": "https://www.thenationalnews.com/news/mena/2026/10/19/lebanon-to-reject-direct-military-co-ordination-with-israel-at-florida-talks/"
         },
         {
-          "title": "General Motors Company (GM) Q3 2026 Earnings Call Transcript & Audio",
-          "url": "https://stockanalysis.com/stocks/gm/transcripts/654007-q3-2026/"
+          "title": "Israel Presses For Direct Operations Room With Lebanon In Tampa Military Talks: 11 outlets compared",
+          "url": "https://newscord.org/article/israel-lebanon-hold-us-mediated-military-talks-as-tensions-mount-over-hezbollah--Story_20261021_IsraelLebanonholdUSm76fd34bf"
         },
         {
-          "title": "GM Q3 2026 slides: strong execution, raised guidance, new truck launch By Investing.com",
-          "url": "https://uk.investing.com/news/stock-market-news/gm-q3-2026-slides-strong-execution-raised-guidance-new-truck-launch-93CH-4920311"
+          "title": "Lebanon-Israel Talks Fail in Tampa After Six Hours · Daily Beirut",
+          "url": "https://dailybeirut.com/en/lebanon-news/six-hours-talks-no-result-blocked-lebanon-israel-agreement/"
         },
         {
-          "title": "General Motors Co - Form 8-K - FY2026",
-          "url": "https://www.sec.gov/Archives/edgar/data/0001467858/000146785826000049/gmq22026pressreleaseandfin.htm"
+          "title": "Lebanon-Israel Tampa Talks: Withdrawal Dispute Remains",
+          "url": "https://www.profilenews.com/en/lebanon-israel-tampa-talks/"
         },
         {
-          "title": "What to Expect From General Motors’ Q3 2026 Earnings Report",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/expect-general-motors-q3-2026-020631024.html"
+          "title": "Lebanon Israel Talks in Tampa: Can Strikes End?",
+          "url": "https://www.profilenews.com/en/lebanon-israel-talks/"
         },
         {
-          "title": "GM releases 2026 third-quarter results and updates full-year 2026 guidance; Board approves new $20 billion share repurchase authorization, declares quarterly dividend",
-          "url": "http://www.prnewswire.com/news-releases/gm-releases-2026-third-quarter-results-and-updates-full-year-2026-guidance-board-approves-new-20-billion-share-repurchase-authorization-declares-quarterly-dividend-302913358.html"
-        },
-        {
-          "title": "General Motors (GM) Q3 2026 Earnings Call Transcript and Summary",
-          "url": "https://gloom.sh/stocks/gm/transcripts/q3-2026"
+          "title": "Israel-Lebanon talks: Everything you need to know",
+          "url": "https://www.aljazeera.com/news/2025/12/18/israel-lebanon-talks-everything-you-need-to-know"
         }
       ]
     },
     {
-      "query": "Rubio scandalous accusations Ukraine intelligence Starlink October 20",
+      "query": "Musk throttled Starlink Ukraine report October 2026",
       "results": [
         {
-          "title": "Rubio thinks Starlink is fixed. Kyiv says it still cuts out above 161 km/h - Euromaidan Press",
-          "url": "https://euromaidanpress.com/2026/10/20/rubio-thinks-starlink-is-fixed-kyiv-says-it-still-cuts-out-above-161-km-h/"
+          "title": "Musk ordered Ukraine's Starlink slowdown, Trump administration denies prior knowledge",
+          "url": "https://san.com/cc/musk-ordered-ukraines-starlink-slowdown-trump-administration-denies-prior-knowledge/"
         },
         {
-          "title": "Major Ukrainian Arms Maker Rethinking Future Reliance On Starlink",
-          "url": "https://www.twz.com/news-features/major-ukrainian-arms-maker-rethinking-future-reliance-on-starlink"
+          "title": "Elon Musk ordered Starlink slowdown in Ukraine during Russian attacks: Report",
+          "url": "https://www.washingtontimes.com/news/2026/oct/21/elon-musk-ordered-starlink-slowdown-ukraine-russian-attacks-report/"
         },
         {
-          "title": "Rubio says Ukraine without access to Starshield, future ‘under discussion’",
-          "url": "https://www.aljazeera.com/news/2026/10/18/rubio-says-ukraine-without-access-to-starshield-future-under-discussion"
+          "title": "Elon Musk ordered Starlink slowdown for Ukraine: Report",
+          "url": "https://www.cnbc.com/2026/10/20/trump-musk-starlink-ukraine-zelenskyy.html"
         },
         {
-          "title": "Zelensky Tells Rubio Ukraine’s Starlink, Starshield Access Must Be Restored - Newsweek",
-          "url": "https://www.newsweek.com/zelensky-rubio-ukraine-starlink-starshield-access-12592322"
+          "title": "Musk Ordered Slowdown of Starlink Service Used by Ukraine's Military, WSJ Reports",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-20/musk-ordered-starlink-slowdown-that-blindsided-ukraine-wsj-reports"
         },
         {
-          "title": "Rubio rejects claims US slowed Starlink for Ukraine",
-          "url": "https://www.yahoo.com/news/us/articles/rubio-rejects-claims-us-slowed-110328676.html"
+          "title": "Musk Gave the Order to Slow Down Ukraine’s Starlink, WSJ Reports - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-20/musk-gave-the-order-to-slow-down-ukraine-s-starlink-wsj-reports"
         },
         {
-          "title": "Marco Rubio Denies White House Ordered Ukraine Starlink Slowdown - Newsweek",
-          "url": "https://www.newsweek.com/marco-rubio-denies-white-house-ordered-ukraine-starlink-slowdown-12584771"
+          "title": "Musk says US military controls Starlink’s limits after Ukraine outcry",
+          "url": "https://www.aljazeera.com/news/2026/10/14/ukraine-accuses-elon-musks-spacex-of-throttling-starlink-terminals"
         },
         {
-          "title": "Rubio, Musk clash with Polish FM over Starlink in Ukraine, accuse him of 'just making things up'",
-          "url": "https://www.yahoo.com/news/rubio-musk-clash-polish-fm-175509919.html"
+          "title": "Elon Musk Ordered Slowdown On Military Starlink Assets In Ukraine, Report Says",
+          "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/10/20/elon-musk-ordered-slowdown-on-military-starlink-assets-in-ukraine-report-says/"
         },
         {
-          "title": "ukraine 250310 pdo01",
-          "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2025/03/ukraine-250310-pdo01.htm"
+          "title": "starlink 3",
+          "url": "https://www.globalsecurity.org/space/world/ukraine/starlink-3.htm"
         },
         {
-          "title": "Elon Musk claims Ukraine front line will ‘collapse’ if Starlink is turned off",
-          "url": "https://www.yahoo.com/news/elon-musk-claims-ukraine-front-160000089.html"
+          "title": "Musk ordered Starlink shutdown during Ukraine's 2022 Kherson counteroffensive, Reuters reports",
+          "url": "https://www.yahoo.com/news/articles/musk-ordered-starlink-shutdown-during-142037065.html"
         }
       ]
     },
     {
-      "query": "midterm elections news October 20 2026",
+      "query": "SpaceX earnings stock surges October 21 2026 first report",
       "results": [
         {
-          "title": "Midterm election updates: Cook Political Report shifts two races toward Democrats and one toward Republicans",
-          "url": "https://www.cnn.com/2026/10/20/politics/live-news/midterm-election-congress"
+          "title": "SpaceX earnings takeaways: Soaring AI costs outweigh revenue beat in first report since IPO",
+          "url": "https://www.cnbc.com/2026/08/04/spacex-spcx-earnings-live-updates-q2-2026.html"
         },
         {
-          "title": "2026 midterm elections live updates: Latest news, results, and analysis",
-          "url": "https://www.washingtonexaminer.com/live-blog/2026-midterm-elections-live-updates/"
+          "title": "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up",
+          "url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html"
         },
         {
-          "title": "Trump holds rally in North Carolina for midterm GOP candidates",
-          "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-midterm-rally-north-carolina-2026-election-congress-live-updates-rcna604465"
+          "title": "SpaceX stock surges after Musk says a merger with Tesla would be ‘a good idea’",
+          "url": "https://www.cnn.com/2026/10/20/business/spacex-tesla-merger-musk"
         },
         {
-          "title": "Elections 2026: The latest from the NPR Network : NPR",
-          "url": "https://www.npr.org/sections/elections/"
+          "title": "SpaceX Stock Surges 10% On Blowout Earnings—As Musk Confirms Potential Tesla Merger",
+          "url": "https://uk.finance.yahoo.com/news/spacex-stock-surges-10-blowout-143500534.html"
         },
         {
-          "title": "Midterm Elections News Today",
-          "url": "https://www.newsnow.com/us/US/Politics/Midterms"
+          "title": "SpaceX revenue soars 161% as AI business grows - ABC News",
+          "url": "https://abcnews.com/Business/spacex-revenue-soars-161-ai-business-grows/story?id=137408509"
         },
         {
-          "title": "US midterm elections today: All you need to know",
-          "url": "https://election.lab.ufl.edu/?p=1877"
+          "title": "Stock market today: Dow, S&P 500, Nasdaq rise as tech rallies, SpaceX stock surges nearly 8%",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-21-dow-sp-500-nasdaq-100000105.html"
         },
         {
-          "title": "Full Episode",
-          "url": "https://www.pbs.org/newshour/author/terence-burlij/page/9"
+          "title": "SpaceX beats on earnings, capex comes in less than expected",
+          "url": "https://finance.yahoo.com/markets/stocks/live/spacex-earnings-live-updates-133218212.html"
         },
         {
-          "title": "Daily News Lesson",
-          "url": "https://www.pbs.org/newshour/classroom/daily-news-lessons/2018/08/monitoring-the-midterms-political-parties-continuing-role-in-u-s-elections"
+          "title": "SpaceX Stock Surges 10% On Blowout Earnings—As Musk Confirms Potential Tesla Merger",
+          "url": "https://www.forbes.com/sites/fionariley/2026/10/21/spacex-stock-surges-10-on-blowout-earnings-as-musk-confirms-potential-tesla-merger/"
         },
         {
-          "title": "radio.foxnews.com",
-          "url": "https://radio.foxnews.com/search/FOX/page/1601"
+          "title": "www.mexc.com",
+          "url": "https://www.mexc.com/news/274214"
         }
       ]
     },
     {
-      "query": "Houthi Riyadh airport terminal strike October 2026 latest",
+      "query": "midterms news October 21 2026 Trump",
       "results": [
         {
-          "title": "Fresh Houthi strike hits Riyadh airport a day after deadly attack - France 24",
-          "url": "https://www.france24.com/en/middle-east/20261012-houthi-strike-riyadh-airport-yemen"
+          "title": "The News on October 21, 2026: Will Trump Accept Defeat?",
+          "url": "https://themorenotebook.substack.com/p/seven-in-ten-americans-doubt-trump"
         },
         {
-          "title": "‘These attacks must cease immediately’: Guterres condemns deadly Houthi strike on Riyadh airport",
-          "url": "https://news.un.org/en/story/2026/10/1168572"
+          "title": "2026 Midterm Elections: Trump, Democrats Campaign",
+          "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-south-carolina-democrats-october-21"
         },
         {
-          "title": "Saudi Arabia says 12 killed, 300 wounded in Houthi attack on Riyadh airport",
-          "url": "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+          "title": "Midterm election updates: In Michigan and Kansas Senate debates, Republicans make careful breaks with Trump",
+          "url": "https://www.cnn.com/2026/10/21/politics/live-news/midterm-election-congress"
         },
         {
-          "title": "World condemns deadly Houthi attack on Saudi Arabia’s Riyadh airport",
-          "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+          "title": "Trump campaigns for Sen. Darline Graham in South Carolina",
+          "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-south-carolina-rally-senate-debate-2026-midterm-live-updates-rcna604651"
         },
         {
-          "title": "Abha International Airport",
-          "url": "https://en.wikipedia.org/wiki/Abha_International_Airport"
+          "title": "Donald Trump%27s conflict with the news media",
+          "url": "https://en.wikipedia.org/wiki/Donald_Trump%27s_conflict_with_the_news_media"
         },
         {
-          "title": "2025 Houthi attack on Tel Aviv airport",
-          "url": "https://en.wikipedia.org/wiki/2025_Houthi_attack_on_Tel_Aviv_airport"
+          "title": "Trump’s approval rating hits a new low as midterms enter final stretch: CNN poll",
+          "url": "https://www.cnn.com/2026/10/21/politics/cnn-poll-trump-democrats-republicans-midterms"
         },
         {
-          "title": "2026 Houthi strikes on Israel",
-          "url": "https://en.wikipedia.org/wiki/2026_Houthi_strikes_on_Israel"
+          "title": "Corruption allegations swarm Trump’s orbit ahead of midterms",
+          "url": "https://www.cnn.com/2026/10/21/politics/trump-corruption-midterms"
         },
         {
-          "title": "2026 in Saudi Arabia",
-          "url": "https://en.wikipedia.org/wiki/2026_in_Saudi_Arabia"
-        },
-        {
-          "title": "26 December 2024 Israeli attack on Yemen",
-          "url": "https://en.wikipedia.org/wiki/26_December_2024_Israeli_attack_on_Yemen"
-        }
-      ]
-    },
-    {
-      "query": "Trump North Carolina rally October 20 2026 Whatley",
-      "results": [
-        {
-          "title": "Trump campaigns in NC as battleground district shifts toward Democrats",
-          "url": "https://www.yahoo.com/news/politics/articles/live-updates-trump-arrives-nc-211021576.html"
-        },
-        {
-          "title": "Trump campaigns in key battleground of North Carolina for 2026 midterms",
-          "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
-        },
-        {
-          "title": "Trump holds rally in North Carolina for midterm GOP candidates",
-          "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-midterm-rally-north-carolina-2026-election-congress-live-updates-rcna604465"
-        },
-        {
-          "title": "Trump, in North Carolina, says Republicans will defy midterm odds - Yahoo News Singapore",
-          "url": "https://sg.news.yahoo.com/trump-north-carolina-says-republicans-033448394.html"
-        },
-        {
-          "title": "Michael Whatley",
-          "url": "https://en.wikipedia.org/wiki/Michael_Whatley"
+          "title": "2026 United States House of Representatives elections",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections"
         },
         {
           "title": "List of Donald Trump rallies (2025%E2%80%93present)",
           "url": "https://en.wikipedia.org/wiki/List_of_Donald_Trump_rallies_(2025%E2%80%93present)"
-        },
-        {
-          "title": "POTUS NC Rally",
-          "url": "https://www.wfmd.com/2026/10/20/potus-nc-rally-4/"
-        },
-        {
-          "title": "Trump returns to North Carolina as Republicans face tough Senate race",
-          "url": "https://www.yahoo.com/news/politics/articles/trump-returns-north-carolina-republicans-105254958.html"
-        },
-        {
-          "title": "List of rallies for the 2024 Donald Trump presidential campaign",
-          "url": "https://en.wikipedia.org/wiki/List_of_rallies_for_the_2024_Donald_Trump_presidential_campaign"
         }
       ]
     },
     {
-      "query": "Asian markets Wednesday October 21 2026",
+      "query": "Asian markets Thursday October 22 2026",
       "results": [
         {
-          "title": "Sensex, Nifty Set for Firm Open as Asian Markets Rally",
-          "url": "https://hdfcsky.com/news/global-markets-today-october-21-2026-asian-markets-rise-wall-street-mixed-crude-oil-above-110"
-        },
-        {
-          "title": "Daily Market Outlook, October 21, 2026",
-          "url": "https://www.tickmill.com/blog/daily-market-outlook-october-21-2026"
-        },
-        {
-          "title": "investingLive Asia-Pacific market news: RBA’s Hauser puts November hike in play",
-          "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-rba-s-hauser-puts-november-hike-in-play/"
-        },
-        {
           "title": "Asia Market Quick Take",
-          "url": "https://www.home.saxo/en-mena/content/articles/macro/asia-market-quick-take-october-21-2026-21102026"
+          "url": "https://home.saxo/en-sg/content/articles/macro/asia-market-quick-take-october-22-2026-22102026"
         },
         {
-          "title": "Asian shares are mixed, with Kospi up 3% after US stocks rally on strong earnings",
-          "url": "https://www.wsls.com/business/2026/10/21/asian-shares-are-mixed-with-kospi-up-3-after-us-stocks-rally-on-strong-earnings/"
+          "title": "22 October, 2026 Stock Market Updates: Sensex down 366 points, Nifty below 22,700, Power Grid drops 2% - India TV News",
+          "url": "https://www.indiatvnews.com/business/markets/sensex-nifty-opening-october-22-stock-market-updates-gift-nifty-brent-crude-oil-price-geopolitical-tension-asian-markets-2026-10-22-1057584"
         },
         {
-          "title": "IC",
-          "url": "https://www.ic.com/blog/ic-europe-fundamental-forecast-21-october-2026/"
+          "title": "Morning Wrap 22 October 2026: FTSE 100 Eyes Softer Start as Asian Tech Shares Retreat",
+          "url": "https://kalkinemedia.com/uk/news/morning-wrap/morning-wrap-22-october-2026-ftse-100-eyes-softer-start-as-asian-tech-shares-retreat"
         },
         {
           "title": "Market Pulse",
-          "url": "https://nordfx.com/market-news/market-pulse-october-21-2026"
-        },
-        {
-          "title": "October 20, 2025 6:26 PM",
-          "url": "https://www.newsonair.gov.in/asian-markets-rally-european-indices-mixed"
+          "url": "https://nordfx.com/market-news/market-pulse-october-22-2026"
         },
         {
           "title": "October 6, 2023 4:51 PM",
@@ -985,15 +1044,31 @@
         {
           "title": "October 5, 2023 6:19 PM",
           "url": "https://www.newsonair.gov.in/tag/asian-markets-ended-gained-except-south-koreas-kospi-that-declined-0-1"
+        },
+        {
+          "title": "August 22, 2025 7:12 PM",
+          "url": "https://www.newsonair.gov.in/eam-dr-s-jaishankar-calls-for-deeper-trade-and-investment-at-india-russia-business-forum-in-moscow"
+        },
+        {
+          "title": "March 23, 2026 9:10 PM",
+          "url": "https://www.newsonair.gov.in/most-asian-markets-tumbled-european-indices-trading-high"
+        },
+        {
+          "title": "hong kongs hang seng index",
+          "url": "https://www.newsonair.gov.in/tag/hong-kongs-hang-seng-index"
+        },
+        {
+          "title": "Wednesday, December 17, 2025 | 02:57 PM ISTहिंदी में पढें",
+          "url": "https://www.business-standard.com/article/markets/asian-markets-end-in-green-109073000144_1.html"
         }
       ]
     },
     {
-      "query": "Europe news October 20 2026",
+      "query": "Europe news October 21 2026",
       "results": [
         {
-          "title": "News 20 October 2026 - Archive Euronews",
-          "url": "https://www.euronews.com/2026/10/20"
+          "title": "News 21 October 2026 - Archive Euronews",
+          "url": "https://www.euronews.com/2026/10/21"
         },
         {
           "title": "Latest News: Today's Top Headlines & Live Updates",
@@ -1001,252 +1076,293 @@
         },
         {
           "title": "Video. Latest news bulletin",
-          "url": "https://www.euronews.com/video/2026/10/20/latest-news-bulletin-october-20th-2026-evening"
+          "url": "https://www.euronews.com/video/2026/10/21/latest-news-bulletin-october-21st-2026-morning"
         },
         {
-          "title": "News and Events",
-          "url": "https://european-union.europa.eu/news-and-events_en"
+          "title": "Europe News",
+          "url": "https://www.aljazeera.com/europe/"
         },
         {
-          "title": "Latest news bulletin",
-          "url": "https://www.inkl.com/news/latest-news-bulletin-october-20th-2026-midday"
+          "title": "Video. Latest news bulletin",
+          "url": "https://www.euronews.com/video/2026/10/21/latest-news-bulletin-october-21st-2026-midday"
         },
         {
-          "title": "Europe Intelligence Brief for Tuesday, October 20, 2026",
-          "url": "https://www.riotimesonline.com/europe-intelligence-brief-tuesday-october-20-2026/"
+          "title": "Headlines for October 21, 2026",
+          "url": "https://www.democracynow.org/2026/10/21/headlines"
         },
         {
-          "title": "top stories",
-          "url": "https://www.euronews.com/tag/top-stories?p=24"
-        },
-        {
-          "title": "world news",
-          "url": "https://www.euronews.com/tag/world-news?p=7"
+          "title": "Europe Intelligence Brief for Wednesday, October 21, 2026",
+          "url": "https://www.riotimesonline.com/europe-intelligence-brief-wednesday-october-21-2026/"
         },
         {
           "title": "top stories",
           "url": "https://www.euronews.com/tag/top-stories?p=6"
+        },
+        {
+          "title": "world news",
+          "url": "https://www.euronews.com/tag/world-news?p=7"
         }
       ]
     },
     {
-      "query": "Tesla Meta earnings preview October 21 2026",
+      "query": "Ukraine Russia strikes October 21 2026",
       "results": [
         {
-          "title": "Meta, Tesla earnings preview: Week of Oct. 19",
-          "url": "https://www.cnbc.com/2026/10/18/meta-tesla-netflix-earnings-preview.html"
+          "title": "Russia strikes Kyiv as Ukraine launches hundreds of drones at Moscow",
+          "url": "https://cyprus-mail.com/2026/10/22/russia-strikes-kyiv-as-ukraine-launches-hundreds-of-drones-at-moscow"
         },
         {
-          "title": "Magnificent 7 Earnings Preview: Meta & Tesla Take Center Stage This Week — TradingView News",
-          "url": "https://www.tradingview.com/news/zacks:0694fe1e3094b:0-magnificent-7-earnings-preview-meta-tesla-take-center-stage-this-week/"
+          "title": "Ukraine targets Russia with more than 1,000 drones, striking oil terminal in St. Petersburg - ABC News",
+          "url": "https://abcnews.com/International/ukraine-targets-russia-1000-drones-striking-oil-terminal/story?id=137358203"
         },
         {
-          "title": "Earnings live updates: All eyes on Musk and Meta as Q3 earnings rev up",
-          "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-all-eyes-on-musk-and-meta-as-q3-earnings-roll-on-134152191.html"
+          "title": "Russia strikes 9 Ukrainian regions as strain grows between Zelenskyy and Trump",
+          "url": "https://www.pbs.org/newshour/world/russia-strikes-9-ukrainian-regions-as-strain-grows-between-zelenskyy-and-trump"
         },
         {
-          "title": "Tesla and Meta Earnings Preview: Q3 2026 and Nasdaq 100",
-          "url": "https://admiralmarkets.com/analytics/traders-blog/tesla-meta-earnings-q3-2026-preview"
+          "title": "Ukraine and Russia Trade Deadly Strikes After U.S. Tries to Reboot Peace Talks - The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/10/22/ukraine-and-russia-trade-deadly-strikes-after-us-tries-to-reboot-peace-talks-a94044"
         },
         {
-          "title": "Tesla (TSLA) Q3 2026 earnings preview: flat revenue, falling profits",
-          "url": "https://electrek.co/2026/10/20/tesla-tsla-q3-2026-earnings-preview/"
-        },
-        {
-          "title": "A big 'yikes' still hangs over the AI trade as Meta and Tesla report: What to watch this week",
-          "url": "https://finance.yahoo.com/markets/article/a-big-yikes-still-hangs-over-the-ai-trade-as-meta-and-tesla-report-what-to-watch-this-week-100000328.html"
-        },
-        {
-          "title": "Netflix, Meta, Tesla earnings: will 3 reports reset the market?",
-          "url": "https://rollingout.com/2026/10/20/netflix-meta-tesla-earnings-week/"
-        },
-        {
-          "title": "Meta, Tesla, Netflix Lead a 70-Company Earnings Week [2026]",
-          "url": "https://tech-insider.org/meta-tesla-netflix-earnings-week-70-companies-2026/"
-        },
-        {
-          "title": "meta q1 earnings preview will meta platforms go the way of tesla or netflix",
-          "url": "https://www.barchart.com/story/news/25701332/meta-q1-earnings-preview-will-meta-platforms-go-the-way-of-tesla-or-netflix"
-        }
-      ]
-    },
-    {
-      "query": "Hormuz shipping attack October 20 2026 UKMTO",
-      "results": [
-        {
-          "title": "UKMTO: Ship Attacked Near Strait of Hormuz",
-          "url": "https://english.aawsat.com/world/5331918-ukmto-ship-attacked-near-strait-hormuz"
-        },
-        {
-          "title": "Another vessel attacked in Strait of Hormuz amid Iran tensions",
-          "url": "https://thehill.com/policy/defense/6034669-strait-of-hormuz-ship-attacked-iran-conflict/"
-        },
-        {
-          "title": "The Hormuz shipping attacks nobody is counting: inside the US Navy’s go-dark guidance",
-          "url": "https://investinglive.com/commodities/the-hormuz-shipping-attacks-nobody-is-counting-inside-the-us-navy-s-go-dark-guidance/"
-        },
-        {
-          "title": "Vessel hit by ‘unknown projectile’ in Strait of Hormuz, UKMTO says",
-          "url": "https://www.aljazeera.com/news/2026/8/18/vessel-hit-by-unknown-projectile-in-strait-of-hormuz-ukmto-says"
-        },
-        {
-          "title": "Ship attacked near Strait of Hormuz: maritime agency",
-          "url": "https://www.arabnews.pk/middle-east/ship-attacked-near-strait-of-hormuz-maritime-agency-3004816"
-        },
-        {
-          "title": "IRGC mines set tankers ablaze as Tehran threatens expanded attacks - Latest News from Saudi Arabia and the World",
-          "url": "https://saudigazette.com.sa/article/665603/world/irgc-mines-set-tankers-ablaze-as-tehran-threatens-expanded-attacks"
-        },
-        {
-          "title": "Is the Strait of Hormuz Open? Day 234 — Critical",
-          "url": "https://global-energy-flow.com/hormuz/"
-        },
-        {
-          "title": "10 vessels attacked in Hormuz Strait: analysts",
-          "url": "https://www.yahoo.com/news/articles/10-vessels-attacked-hormuz-strait-213304812.html"
+          "title": "russia launches aerial attack on ukraine with missiles drones",
+          "url": "https://newsonair.gov.in/russia-launches-aerial-attack-on-ukraine-with-missiles-drones"
         },
         {
           "title": "www.malaymail.com",
-          "url": "https://www.malaymail.com/news/world/2024/01/11/uk-shipping-authority-receives-report-of-vessel-boarded-by-armed-persons-off-oman-coast/111892"
-        }
-      ]
-    },
-    {
-      "query": "Africa Asia news October 20 2026 Ebola Sudan India",
-      "results": [
-        {
-          "title": "Ebola outbreak: What travel restrictions have countries imposed?",
-          "url": "https://www.aljazeera.com/news/2026/5/28/ebola-outbreak-what-travel-restrictions-have-countries-imposed"
+          "url": "https://www.malaymail.com/amp/news/world/2023/10/21/russian-strike-kill-three-wound-four-in-ukraine/97634"
         },
         {
-          "title": "Ebola outbreak in Sudan grows to 25 cases",
-          "url": "https://www.cidrap.umn.edu/ebola/ebola-outbreak-sudan-grows-25-cases"
+          "title": "April 4, 2026 10:12 PM",
+          "url": "https://www.newsonair.gov.in/10-dead-as-russia-and-ukraine-exchange-strikes-during-zelenskyys-istanbul-visit"
         },
         {
-          "title": "19 cases of Ebola fever reported in Sudan",
-          "url": "https://www.cidrap.umn.edu/ebola/19-cases-ebola-fever-reported-sudan"
+          "title": "March 8, 2025 6:00 PM",
+          "url": "https://www.newsonair.gov.in/russian-strikes-kill-14-in-ukraine-zelenskyy-calls-for-air-sea-truce"
         },
         {
-          "title": "india to screen track passengers from ebola affected region 408581",
-          "url": "https://www.deccanherald.com/india/india-to-screen-track-passengers-from-ebola-affected-region-408581.html"
-        },
-        {
-          "title": "sudan ebola virus disease case confirmed",
-          "url": "https://outbreaknewstoday.substack.com/p/sudan-ebola-virus-disease-case-confirmed"
-        },
-        {
-          "title": "Uganda: Nurse Dies From Ebola As Govt Confirms Virus Outbreak in Kampala",
-          "url": "https://allafrica.com/stories/202501310043.html"
-        },
-        {
-          "title": "19 cases of Ebola confirmed in Sudan",
-          "url": "https://www.nbcnews.com/id/wbna5058271"
-        },
-        {
-          "title": "Dear Editor,",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9949860"
+          "title": "December 7, 2025 6:14 PM",
+          "url": "https://www.newsonair.gov.in/tag/russia-continues-overnight-air-strikes"
         },
         {
           "title": "www.malaymail.com",
-          "url": "https://www.malaymail.com/news/world/2022/09/26/uganda-says-ebola-caseload-rises-to-16-as-outbreak-grows/30114"
+          "url": "https://www.malaymail.com/amp/news/world/2022/10/11/death-toll-rises-to-19-in-russian-strikes-on-ukraine-say-emergency-services/32968"
         }
       ]
     },
     {
-      "query": "Italy troops Milan protests looting October 2026",
+      "query": "Israel election news October 21 2026 polls",
       "results": [
         {
-          "title": "Italy approves sweeping security measures in response to protests",
-          "url": "https://www.aljazeera.com/news/2026/10/21/italy-approves-sweeping-security-measures-in-response-to-protests"
+          "title": "Israel election poll: Gadi Eisenkot leads Benjamin Netanyahu, but no clear path to majority",
+          "url": "https://www.jpost.com/israel-election-2026/article-911262"
         },
         {
-          "title": "Italy to respond to Milan clashes and looting ‘with great firmness’, foreign minister says",
-          "url": "https://www.euronews.com/2026/10/20/italy-to-respond-to-milan-clashes-and-looting-with-great-firmness-foreign-minister-says"
+          "title": "Opinion polling for the 2015 Israeli legislative election",
+          "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2015_Israeli_legislative_election"
         },
         {
-          "title": "Rioters loot stores, set fires in central Milan during cost-of-living protest - ABC News",
-          "url": "https://abcnews.com/International/wireStory/rioters-loot-stores-set-fires-central-milan-cost-137352156"
+          "title": "Israel election: Polls forecast stalemate, far-right gains in next week's vote",
+          "url": "https://www.newarab.com/news/israel-election-polls-forecast-stalemate-far-right-gains"
         },
         {
-          "title": "Italy deploys troops to 'defend Milan' from looting",
-          "url": "https://www.allsides.com/news/2026-10-20-0700/world-italy-deploys-troops-defend-milan-looting"
+          "title": "Israel Election 2026: Gadi Eisenkot leading Benjamin Netanyahu, but neither has majority",
+          "url": "https://www.jpost.com/israel-election-2026/article-912371"
         },
         {
-          "title": "List of pro-Palestinian protests in Italy",
-          "url": "https://en.wikipedia.org/wiki/List_of_pro-Palestinian_protests_in_Italy"
+          "title": "New Polls Show Eisenkot Ahead, Two Parties at Edge of Electoral Threshold - Israel Elections 2026",
+          "url": "https://www.haaretz.com/israel-news/elections/2026-10-22/ty-article/new-polls-show-eisenkot-bloc-leading-netanyahus-but-short-of-majority/000001a1-61de-d3a9-a9bb-69ff31b00000"
         },
         {
-          "title": "2025 Italian general strikes and protests for Gaza",
-          "url": "https://en.wikipedia.org/wiki/2025_Italian_general_strikes_and_protests_for_Gaza"
+          "title": "Israel election 2026: Gadi Eisenkot, Naftali Bennett gain as Benjamin Netanyahu slips",
+          "url": "https://www.jpost.com/israel-election-2026/article-912291"
         },
         {
-          "title": "Italy to deploy 500 troops to Milan after protests — Al Jazeera",
-          "url": "https://ua.news/en/world/italiia-napravit-500-viiskovikh-do-milana-pislia-protestiv-al-jazeera"
+          "title": "New election poll has pro-Netanyahu camp at 48 seats",
+          "url": "https://www.timesofisrael.com/liveblog_entry/new-election-poll-has-pro-netanyahu-camp-at-48-seats/"
         },
         {
-          "title": "Italy deploys troops to ‘defend Milan’ from looting — RT World News",
-          "url": "https://rt-english.com/news/647412-italy-troops-milan-protests/"
+          "title": "Israel Polls 2026: Latest Israeli Election Polls and Seat Tracker",
+          "url": "https://thestateofisrael.com/polls"
         },
         {
-          "title": "February 8, 2026 10:15 AM",
-          "url": "https://www.newsonair.gov.in/italy-anti-olympics-protest-in-milan-descended-into-violence-after-clashes-between-demonstrators-police"
-        },
-        {
-          "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
-          "url": "https://euronews.com/video/2026/02/07/italian-police-fire-tear-gas-as-protesters-clash-near-winter-olympics-venue"
+          "title": "Israel Election 2026: Polls, Average and Coalition Tracker",
+          "url": "https://www.israel.com/israel-election-2026"
         }
       ]
     },
     {
-      "query": "Kallas US pushing Ukraine surrender Putin's terms",
+      "query": "China news October 21 2026",
       "results": [
         {
-          "title": "Kaja Kallas accuses the US of pushing Ukraine to 'surrender on Putin's terms'",
-          "url": "https://www.euronews.com/2026/10/20/kaja-kallas-accuses-the-us-of-pushing-ukraine-to-surrender-on-putins-terms"
+          "title": "The Daily Roundup - The Wire China",
+          "url": "https://www.thewirechina.com/2026/10/21/the-daily-roundup-october-21-2026/"
         },
         {
-          "title": "Kallas: U.S. negotiators pushed Ukraine toward surrender for 18 months / The New Voice of Ukraine",
-          "url": "https://english.nv.ua/nation/kallas-u-s-negotiators-pushed-ukraine-toward-surrender-for-18-months-50651807.html"
+          "title": "Night Recap - October 21, 2026",
+          "url": "https://thestandard.com.hk/news/article/346117/Night-Recap-October-21-2026"
         },
         {
-          "title": "Kaja Kallas: American negotiators have been trying to persuade Ukraine to surrender for almost two years",
-          "url": "https://nashaniva.com/en/407345"
+          "title": "China Breaking News & Headlines",
+          "url": "https://www.scmp.com/news/china"
         },
         {
-          "title": "EU's chief diplomat: US negotiators have been pushing Ukraine towards surrender for almost two years",
-          "url": "https://www.yahoo.com/news/world/articles/eus-chief-diplomat-us-negotiators-113700183.html"
+          "title": "China Economy: Latest News and Updates",
+          "url": "https://www.scmp.com/economy/china-economy"
         },
         {
-          "title": "Kallas accuses US negotiators of pushing Ukraine towards surrender",
-          "url": "https://www.azernews.az/region/265915.html"
+          "title": "Everything You Should Know About China's Economy on Wednesday (Oct. 21)",
+          "url": "https://crosspacificwatchers.substack.com/p/everything-you-should-know-about-e52"
         },
         {
-          "title": "Trump’s embrace of Putin roils Europe, but not enough to break with the US",
-          "url": "https://euronews.com/2026/10/21/trumps-embrace-of-putin-roils-europe-but-not-enough-to-break-with-the-us"
+          "title": "Russia-China, Premier Li to Putin: Ready to strengthen trust and comprehensive cooperation - Nova Agency",
+          "url": "https://www.agenzianova.com/en/news/russia-cina-il-premier-li-a-putin-pronti-a-rafforzare-fiducia-e-cooperazione-a-tutto-campo/"
         },
         {
-          "title": "Kallas accuses the US of pressuring Ukraine before Putin",
-          "url": "https://www.democrata.es/en/international/kallas-denounces-that-the-us-has-been-pressuring-ukraine-for-a-year-and-a-half-to-accept-putin-s-conditions/"
+          "title": "APEC China 2026",
+          "url": "https://en.wikipedia.org/wiki/APEC_China_2026"
         },
         {
-          "title": "\"The U.S. has been trying for a year and a half to persuade Ukraine to surrender on Putin's terms,\" — Callas",
-          "url": "https://ua.news/en/world/ssha-pivtora-roku-namagaiutsia-skhiliti-ukrayinu-do-kapituliatsiyi-na-umovakh-putina-kallas"
+          "title": "20th National Congress of the Chinese Communist Party",
+          "url": "https://en.wikipedia.org/wiki/20th_National_Congress_of_the_Chinese_Communist_Party"
         },
         {
-          "title": "EU Accuse Trump Of Pushing Ukraine Into 'Surrender' As Witkoff Meets Zelensky In Oslo<!-- -->",
-          "url": "https://zerohedge.com/geopolitical/eu-accuse-trump-pushing-ukraine-surrender-witkoff-meets-zelensky-oslo"
+          "title": "World News in Brief: October 21",
+          "url": "https://en.nhandan.vn/world-news-in-brief-october-21-post168052.html"
+        }
+      ]
+    },
+    {
+      "query": "Africa news October 21 2026",
+      "results": [
+        {
+          "title": "Africa: All of Africa Today - October 21, 2026 - allAfrica.com",
+          "url": "https://allafrica.com/stories/202610210099.html"
+        },
+        {
+          "title": "Today in Africa — October 21, 2026: Africa CDC Calls Emergency Ebola Meeting, Burkina Faso Restores the Death Penalty",
+          "url": "https://www.okayafrica.com/today-in-africa-october-21-2026-africa-cdc-calls-emergency-ebola-meeting-burkina-faso-restores-the-death-penalty/1440917"
+        },
+        {
+          "title": "Africa News",
+          "url": "https://www.aljazeera.com/africa/"
+        },
+        {
+          "title": "2026 in Guinea",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Guinea"
+        },
+        {
+          "title": "2026 in Zambia",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Zambia"
+        },
+        {
+          "title": "Top Stories",
+          "url": "https://www.enca.com/"
+        },
+        {
+          "title": "Africa Intelligence Brief for Wednesday, October 21, 2026",
+          "url": "https://www.riotimesonline.com/africa-intelligence-brief-wednesday-october-21-2026/"
+        },
+        {
+          "title": "2026 in Zimbabwe",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Zimbabwe"
+        },
+        {
+          "title": "Africa: All of Africa Today",
+          "url": "https://pressnewsagency.org/africa-all-of-africa-today-october-21-2026/"
+        }
+      ]
+    },
+    {
+      "query": "Nigeria first Ebola case confirmed Uganda traveller contacts",
+      "results": [
+        {
+          "title": "\"Doing Everything Possible\": Nigeria Confirms First Ebola Case as Authorities Trace 44 Contacts - Briefly.co.za",
+          "url": "https://briefly.co.za/world/africa/256760-nigeria-confirms-ebola-case-outbreak-spreads-western-africa/"
+        },
+        {
+          "title": "Nigeria reports first Ebola case in a decade in woman who arrived from Uganda",
+          "url": "https://www.cnbcafrica.com/2026/nigeria-confirms-ebola-case-in-patient-who-arrived-from-uganda"
+        },
+        {
+          "title": "Nigeria confirms Ebola case in Abuja as woman who arrived from Uganda tests positive",
+          "url": "https://www.abc27.com/news/health/ap-health/ap-nigeria-records-first-ebola-case-health-authorities-say/amp/"
+        },
+        {
+          "title": "Nigeria Confirms First Ebola Case In Abuja, Tracks 44 Contacts: 18 outlets compared",
+          "url": "https://newscord.org/article/nigeria-confirms-first-ebola-case-in-abuja-after-woman-travels-from-uganda-trace--Story_20261020_Nigeriaconfirmscaseo65ee529c_713b60efd913"
+        },
+        {
+          "title": "Nigeria Enters the Picture With Kenya and Uganda as Ebola Outbreak Sparks Urgent Questions Over Cross-Border Travel Safety",
+          "url": "https://travelandtourworld.com/news/article/7n60wtqn3vj4"
+        },
+        {
+          "title": "Nigeria Confirms First Ebola Case in Abuja as Health Authorities Trace 44 Contacts",
+          "url": "https://streamlinefeed.co.ke/news/nigeria-confirms-first-ebola-case-in-abuja-as-health-authorities-trace-44-contacts"
+        },
+        {
+          "title": "Two New Ebola Cases in Nigeria Traced to Traveler",
+          "url": "https://www.nbcnews.com/news/amp/ncna186821"
+        },
+        {
+          "title": "Confirmation of case of ebola virus disease in Uganda",
+          "url": "https://www.afro.who.int/fr/node/11353"
+        },
+        {
+          "title": "Uganda confirms first Ebola case linked to DRC outbreak",
+          "url": "https://www.cidrap.umn.edu/ebola/uganda-confirms-first-ebola-case-linked-drc-outbreak"
+        }
+      ]
+    },
+    {
+      "query": "Shaybah oil field drone attack Aramco Houthi October 2026",
+      "results": [
+        {
+          "title": "Two killed after drone intercepted near Saudi Aramco's Shaybah oilfield; injured includes one Pakistani - World - Business Recorder",
+          "url": "https://www.brecorder.com/news/40445385/two-killed-after-drone-intercepted-near-saudi-aramcos-shaybah-oilfield-injured-includes-one-pakistani"
+        },
+        {
+          "title": "Oil tops $110 as Houthi drone strike near Saudi Shaybah field rattles markets",
+          "url": "https://www.thenationalnews.com/business/energy/2026/10/22/oil-tops-110-as-houthi-drone-strike-near-saudi-shaybah-field-rattles-markets/"
+        },
+        {
+          "title": "Houthis launch lethal attack on Saudi Arabia's King Fahd Airport",
+          "url": "https://jpost.com/middle-east/article-912472"
+        },
+        {
+          "title": "Saudi Arabia Confirms 2 Aramco Workers Killed at Shaybah",
+          "url": "https://houseofsaud.com/aramco-shaybah-drone-strike-expatriates/"
+        },
+        {
+          "title": "Oil prices jump 3% after deadly Houthi attack on Saudi Shaybah oil field - Türkiye Today",
+          "url": "https://www.turkiyetoday.com/business/oil-prices-jump-3-after-deadly-houthi-attack-on-saudi-shaybah-oil-field-3230819"
+        },
+        {
+          "title": "Houthi drone debris kills two workers at Saudi Aramco oilfield",
+          "url": "https://streamlinefeed.co.ke/news/houthi-drone-debris-kills-two-workers-at-saudi-aramco-oilfield"
+        },
+        {
+          "title": "Brent crude tops $110 as Houthi strikes target Saudi Aramco infrastructure",
+          "url": "https://streamlinefeed.co.ke/news/brent-crude-tops-110-as-houthi-strikes-target-saudi-aramco-infrastructure"
+        },
+        {
+          "title": "Houthis claim attack on Saudi Arabia’s Shaybah oil field",
+          "url": "https://www.pressreader.com/egypt/the-daily-news-egypt/20190818/281530817668802"
+        },
+        {
+          "title": "Damage to Saudi oilfield ‘limited’ after Houthi drone attack",
+          "url": "https://www.pressreader.com/uae/the-national-news/20190818/281621011980843"
         }
       ]
     }
   ],
   "fetched": [],
   "meta": {
-    "id": "2026-10-21",
-    "generated_at": "2026-10-21T10:25:01.953Z",
+    "id": "2026-10-22",
+    "generated_at": "2026-10-22T10:24:47.336Z",
     "model": "claude-opus-5-5",
     "via": "claude-code-routine",
     "searches": 20,
-    "results_count": 182,
-    "cited_count": 47
+    "results_count": 183,
+    "cited_count": 63
   }
 }
