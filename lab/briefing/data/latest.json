@@ -1,487 +1,477 @@
 {
-  "date": "Friday, October 23, 2026",
+  "date": "Saturday, October 24, 2026",
   "edition": "WARTIME EDITION",
-  "tldr_label": "TL;DR — Post-midterm Iran strike plans, an AI sell-off and Brent above $113 rattle markets",
+  "tldr_label": "TL;DR — Strike talk on Iran sends Brent to $116 as Israel and Brazil head to the polls",
   "tldr_bullets": [
     {
       "label": "Iran",
-      "body": "ABC and the New York Times report the US and Israel have drawn up plans to resume strikes on Iran after the November 3 midterms; the White House says there will be no attack before then. [[TAG:danger:strike plans]]"
+      "body": "Trump said the US 'may do another little Epic Fury' unless Iran agrees to a deal, after envoy Tom Barrack said a strike could come 'absolutely' this weekend; Trump said he knew nothing of such a plan. [[TAG:danger:strike threat]]"
     },
     {
-      "label": "Hormuz",
-      "body": "CENTCOM rejected Iran's claim that seven ships were hit, saying 95% of vessels get through; Trump said Iran is 'making up fake hits'. Trackers show traffic near zero."
+      "label": "Oil",
+      "body": "Brent settled at $116.72 on Friday, up 6.2% for the week and its highest settlement since April, CNBC reported."
     },
     {
       "label": "Markets",
-      "body": "The Nasdaq fell 2.6%, its worst day since June, as Meta dropped about 7% and chip stocks sank; Brent topped $113. [[TAG:danger:Nasdaq -2.6%]]"
+      "body": "The Dow fell 1.23% on Friday and the S&P 500 and Nasdaq posted weekly losses as AI-spending worries and oil weighed."
     },
     {
-      "label": "Saudi Arabia",
-      "body": "Aramco evacuated its Dhahran headquarters for the first time in the war, a day after an attack on Dammam's airport killed two."
+      "label": "Ukraine",
+      "body": "Russia and Ukraine agreed a local ceasefire in occupied Oleshky that the White House credits to Melania Trump, and swapped 270 prisoners each. [[TAG:success:local truce]]"
     },
     {
-      "label": "France",
-      "body": "French 10-year yields rose above 5% and above US Treasuries for the first time since 2013 amid budget and protest turmoil."
+      "label": "House",
+      "body": "The Cook Political Report shifted 19 House races toward Democrats and said the GOP path to holding the House has all but evaporated."
     },
     {
       "label": "Elections",
-      "body": "Israel votes Tuesday with polls deadlocked; Brazil's Sunday runoff between Flávio Bolsonaro and Lula is a statistical tie."
+      "body": "Israel votes Tuesday with final polls putting Eisenkot's party ahead but neither bloc at a majority; Brazil's runoff on Sunday is a statistical tie."
     }
   ],
   "sections": [
     {
-      "title": "Iran War and the Strait of Hormuz",
+      "title": "Iran War: Strike Talk Intensifies",
       "icon": "🔥",
-      "summary": "US and Israel reportedly plan post-midterm strikes; CENTCOM disputes Iran's seven-ship claim",
+      "summary": "Trump floats 'another little Epic Fury'; Iran threatens Gulf undersea cables if war resumes",
       "paragraphs": [
         {
-          "heading": "Strike plans",
-          "body": "Two Israeli sources told ABC News that the US and Israeli militaries have drawn up plans for joint strikes on Iran, almost certainly after the November 3 midterms, with targets including petrochemical facilities and the Pickaxe Mountain nuclear site; the New York Times first reported the planning. Some officials told the Times that Trump would steer strikes away from oil infrastructure. The White House said the US 'will not be attacking Iran' before the election. [[TAG:danger:post-midterm strikes]]"
+          "heading": "Mixed signals",
+          "body": "US envoy Tom Barrack, asked whether the US could strike Iran this weekend, said 'Absolutely', while stressing Trump remains open to a deal. Trump said 'If that's the case, I don't know anything about it', then told a Florida rally 'we may do another little Epic Fury, or they'll agree', according to The National, NTD and Türkiye Today. The White House has said there will be no attack before the November 3 midterms. [[TAG:danger:mixed signals]]"
         },
         {
-          "heading": "Disputed attacks",
-          "body": "Iran's Revolutionary Guard said seven tankers were hit, which would be the largest single-day toll of the war, Al Jazeera reported. A CENTCOM spokesperson called the mine claims incorrect and said 95% of vessels get through, and Trump said Iran is 'making up fake hits' to raise oil prices before the midterms, the Times of Israel reported. Independent trackers such as straits.live show commercial traffic at a small fraction of prewar levels. [[TAG:warning:conflicting claims]]"
+          "heading": "Netanyahu's directive",
+          "body": "Netanyahu said he had directed the IDF and Mossad to overthrow Iran's regime, citing Supreme Leader Mojtaba Khamenei's pursuit of weapons, The Jerusalem Post and Foreign Policy reported. He claimed Trump had said the US was ready to 'finish the job'. Defense Minister Israel Katz warned 'Iran will burn' if it attacks Israel."
         },
         {
-          "heading": "Offensive doctrine",
-          "body": "The IRGC said renewed US attacks could prompt Iran to invade neighboring countries and hit bases used in US operations, Al Jazeera reported, as it threatened US bases if Washington keeps escorting ships through Hormuz. Foreign Minister Abbas Araghchi said Tehran still wants a deal but is ready for war."
+          "heading": "Cable threat",
+          "body": "Two senior Iranian security officials told Reuters that Tehran has contingency plans to attack undersea communications cables in the Persian Gulf if the US and Israel strike again, and to obstruct repairs, the Times of Israel and Baird Maritime reported. Analysts said less than 1% of international bandwidth passes through Hormuz, so effects would be mainly regional. [[TAG:warning:cable risk]]"
+        },
+        {
+          "heading": "Blockade at 100 days",
+          "body": "CENTCOM marked 100 days of its naval blockade of Iranian ports, which it says has cut off billions of dollars in crude shipments, NBC News reported. Iran says the strait would reopen within six days if the US lifts the blockade, and it warned that the US military is not allowed in the Gulf 'under any circumstance', CBS News reported. US UN Ambassador Mike Waltz said the war could last another year."
         }
       ],
-      "sources": "ABC News, Times of Israel, Al Jazeera, Fox News, NBC News, straits.live",
+      "sources": "The National, NTD, Türkiye Today, The Jerusalem Post, Foreign Policy, Times of Israel, Baird Maritime, Iran International, NBC News, CBS News",
       "citations": [
         {
-          "outlet": "ABC News",
-          "title": "U.S., Israel draw up plans to renew Iran strikes, sources say",
-          "url": "https://abcnews.com/video/137480327/"
+          "outlet": "The National",
+          "title": "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict",
+          "url": "https://www.thenationalnews.com/news/mena/2026/10/23/iran-war-live-saudi-arabia-houthis/"
         },
         {
-          "outlet": "ABC News",
-          "title": "Iran live updates: IRGC Navy claims attacks on 4 vessels in Persian Gulf",
-          "url": "https://abcnews.com/International/live-updates/iran-live-updates/?id=137370653"
+          "outlet": "NTD",
+          "title": "Trump Says US May Do ‘Another Little Epic Fury’ Targeting Iran",
+          "url": "https://www.ntd.com/trump-says-us-may-do-another-little-epic-fury-targeting-iran_1181029.html"
+        },
+        {
+          "outlet": "Türkiye Today",
+          "title": "Trump threatens 'another Epic Fury' against Iran if Tehran refuses deal",
+          "url": "https://www.turkiyetoday.com/region/trump-threatens-another-epic-fury-against-iran-if-tehran-refuses-deal-3230901"
+        },
+        {
+          "outlet": "The Jerusalem Post",
+          "title": "Benjamin Netanyahu says IDF, Mossad ordered to overthrow Iranian regime over nukes",
+          "url": "https://www.jpost.com/israel-news/defense-news/article-912445"
+        },
+        {
+          "outlet": "Foreign Policy",
+          "title": "Netanyahu Orders Israel to Overthrow Iran's Regime Ahead of Election",
+          "url": "https://foreignpolicy.com/2026/10/22/netanyahu-israel-election-overthrow-iran-regime-us-strikes-war/"
         },
         {
           "outlet": "The Times of Israel",
-          "title": "US, Israel said to draft plans for resumed strikes on Iran after midterm elections",
-          "url": "https://www.timesofisrael.com/us-israel-said-to-draft-plans-for-resumed-strikes-on-iran-after-midterm-elections/"
+          "title": "Iranian officials: Tehran has detailed plans to hit Gulf undersea cables if war resumes",
+          "url": "https://www.timesofisrael.com/liveblog_entry/iranian-officials-tehran-has-detailed-plans-to-hit-gulf-undersea-cables-if-war-resumes/"
         },
         {
-          "outlet": "Al Jazeera",
-          "title": "Iran says seven ships hit in Hormuz Strait, warns US of wider response",
-          "url": "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response"
+          "outlet": "Baird Maritime",
+          "title": "Iran warns Persian Gulf subsea cables are targets if war resumes",
+          "url": "https://www.bairdmaritime.com/security/incidents/acts-of-war/iran-warns-persian-gulf-subsea-cables-are-targets-if-war-resumes"
         },
         {
-          "outlet": "The Times of Israel",
-          "title": "Oct. 22: Trump claims Iran ‘making up fake hits’ to drive up oil prices ahead of midterms",
-          "url": "https://www.timesofisrael.com/liveblog-october-22-2026/"
+          "outlet": "Iran International",
+          "title": "Iran officials say they will target undersea cables if US strikes",
+          "url": "https://www.iranintl.com/en/202610237494"
         },
         {
-          "outlet": "Al Jazeera",
-          "title": "Iran reveals ‘offensive’ doctrine, US issues alert: Is war imminent?",
-          "url": "https://www.aljazeera.com/news/2026/10/22/iran-reveals-offensive-doctrine-us-issues-alert-is-war-imminent"
+          "outlet": "NBC News",
+          "title": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears of a return to war grow",
+          "url": "https://www.nbcnews.com/world/iran/iran-says-7-oil-tankers-attacked-strait-hormuz-fears-grow-return-war-rcna605108"
         },
         {
-          "outlet": "Fox News",
-          "title": "Iran issues 'serious warning' to US military forces in Middle East",
-          "url": "https://www.foxnews.com/live-news/us-iran-war-strait-hormuz-oil-prices-10-22-26"
-        },
-        {
-          "outlet": "straits.live",
-          "title": "Strait of Hormuz Closed, Day 236",
-          "url": "https://straits.live/"
+          "outlet": "CBS News",
+          "title": "Live Updates: Iran warns that U.S. military not allowed in Gulf \"under any circumstance\"",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/"
         }
       ]
     },
     {
-      "title": "Saudi Arabia Under Fire",
+      "title": "Saudi Arabia and Yemen",
       "icon": "🚀",
-      "summary": "Aramco clears its Dhahran HQ; Houthi attack on Dammam airport kills two; Saudi stocks slide",
+      "summary": "Guterres voices concern as Houthis claim strikes on Saudi airports, defense ministry and Aramco",
       "paragraphs": [
         {
-          "heading": "Aramco evacuation",
-          "body": "Saudi Aramco ordered staff out of its Dhahran headquarters to work remotely, the first such order since the Iran war began, Reuters reported citing six sources, via TimesLIVE and Gulf News. Reports differ on the trigger; one said an alarm prompted it. Saudi Arabia's benchmark index fell 2.5% on the news, according to LSEG data. [[TAG:warning:HQ evacuated]]"
+          "heading": "Attack wave",
+          "body": "The Houthis claimed attacks over 48 hours on Abha airport, the Saudi defense ministry in Riyadh and Aramco facilities in Yanbu, Asharq Al-Awsat reported. The Saudi-led coalition said it destroyed a ballistic missile heading toward Najran and nine drones aimed at the Eastern Province, Riyadh and Medina. The attack on Dammam's King Fahd airport killed two people, Al Jazeera reported. [[TAG:danger:attacks continue]]"
         },
         {
-          "heading": "Dammam airport",
-          "body": "A Houthi attack on King Fahd International Airport in Dammam killed two people, a Saudi and an Indian national, and wounded eight, before operations resumed, Al Jazeera reported. The Saudi-led coalition said it destroyed four drones over Riyadh and Medina, and Saudi Arabia has struck Houthi missile launcher sites, The Jerusalem Post reported. [[TAG:danger:2 killed]]"
+          "heading": "UN concern",
+          "body": "UN Secretary-General Antonio Guterres expressed concern over continued Houthi attacks on civilian targets in Saudi Arabia and escalating fighting around Taiz in Yemen, Asharq Al-Awsat reported."
         }
       ],
-      "sources": "TimesLIVE, Gulf News, The New Arab, Briefs, Al Jazeera, The Jerusalem Post",
+      "sources": "Asharq Al-Awsat, Al Jazeera",
       "citations": [
         {
-          "outlet": "TimesLIVE (Reuters)",
-          "title": "Saudi Aramco evacuates Dhahran HQ after Houthi attack, sources say",
-          "url": "https://www.timeslive.co.za/news/world/2026-10-22-saudi-aramco-evacuates-dhahran-hq-after-houthi-attack-sources-say/"
-        },
-        {
-          "outlet": "Gulf News",
-          "title": "Saudi Aramco evacuates Dhahran headquarters, orders staff to work from home",
-          "url": "https://gulfnews.com/world/gulf/saudi/saudi-aramco-orders-full-evacuation-of-dhahran-headquarters-amid-houthi-attacks-1.500719958"
-        },
-        {
-          "outlet": "The New Arab",
-          "title": "Saudi Aramco evacuates HQ for first time since Yemen war resumed",
-          "url": "https://www.newarab.com/news/saudi-aramco-evacuates-hq-first-time-yemen-war-resumed"
-        },
-        {
-          "outlet": "Briefs",
-          "title": "Aramco Evacuates Dhahran HQ After Alarm as Houthi Strikes Intensify",
-          "url": "https://www.briefs.co/news/aramco-evacuates-dhahran-hq-after-alarm-as-houthi-strikes-in/"
+          "outlet": "Asharq Al-Awsat",
+          "title": "UN Chief Expresses Concern over Houthi Attacks on Saudi Arabia, Escalating Violence in Yemen",
+          "url": "https://english.aawsat.com/gulf/5332565-un-chief-expresses-concern-over-houthi-attacks-saudi-arabia-escalating-violence-yemen"
         },
         {
           "outlet": "Al Jazeera",
           "title": "Attack on Saudi Arabia’s King Fahd airport kills two people",
           "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2"
-        },
-        {
-          "outlet": "The Jerusalem Post",
-          "title": "Saudi Aramco evacuates headquarters amid escalating Houthi attacks",
-          "url": "https://www.jpost.com/middle-east/iran-news/article-912577"
         }
       ]
     },
     {
-      "title": "Markets: AI Sell-off Meets Oil Spike",
+      "title": "Markets: Oil Up, Stocks Down",
       "icon": "📉",
-      "summary": "Nasdaq posts worst day since June as Meta and chips sink; Brent tops $113; Asia extends losses",
+      "summary": "Brent settles at $116.72, up 6.2% on the week; Dow drops 653 points; Nasdaq's second weekly loss",
       "paragraphs": [
         {
-          "heading": "Thursday's close",
-          "body": "The Nasdaq fell about 2.6% to roughly 26,009, its worst session since June, and the S&P 500 lost 1.21% to 7,663.43, while the Dow edged up 0.02% to 52,867.98, CNBC and Yahoo Finance reported. The Philadelphia Semiconductor Index fell about 7%, Investrade reported, and chip and AI stocks made up 93% of the Nasdaq-100's lost value, according to Stocktitan. [[TAG:danger:SOX about -7%]]"
+          "heading": "Friday's close",
+          "body": "The Dow fell 652.82 points, or 1.23%, to 52,215.16, the S&P 500 lost 0.52% to 7,623.68 and the Nasdaq slipped 0.21% to 25,955.34, according to Capp Notes and Yahoo Finance. The S&P 500 fell about 0.5% for the week and the Nasdaq posted a second straight weekly loss; sources differ on the Dow's weekly result. Energy was the only clear winning sector. [[TAG:danger:Dow -1.2%]]"
         },
         {
-          "heading": "Meta",
-          "body": "Meta shares fell about 7% as investors focused on $34.9 billion of quarterly capex and negative free cash flow rather than its revenue beat, Yahoo Finance reported. NBC News said reports of post-midterm Iran strike plans added to the sell-off."
+          "heading": "Oil",
+          "body": "Brent settled at $116.72 a barrel, up 3.1% on the day and 6.2% for the week, its third straight weekly gain and highest settlement since April 29, CNBC reported. WTI settled at $103.27. Traders are betting on renewed US strikes on Iran within weeks, and Oilprice.com said $120 oil is close. [[TAG:danger:Brent $116.72]]"
         },
         {
-          "heading": "Oil and gold",
-          "body": "Brent reached $113.21 by 8 a.m. Eastern on Thursday, about $2.47 above the prior morning, Fortune reported; Oilprice.com showed it near $114. In Asia on Friday, the Kospi fell about 2.2%, the Kosdaq 3.5% and China's CSI300 hit its lowest since July 2025, investingLive reported, while gold slipped below $4,000 an ounce for the first time since July. [[TAG:warning:Brent ~$113]]"
+          "heading": "Abroad",
+          "body": "Europe's Stoxx 600 posted its steepest weekly loss since early September, and India's Sensex fell for a fourth day, Business Standard reported."
         }
       ],
-      "sources": "CNBC, Yahoo Finance, Investrade, Stocktitan, NBC News, Fortune, Oilprice.com, investingLive, HDFC Sky",
+      "sources": "Capp Notes, Yahoo Finance, TheStreet, CNBC, Oilprice.com, Business Standard",
       "citations": [
         {
+          "outlet": "Capp Notes",
+          "title": "Closing Look — Friday, October 23, 2026",
+          "url": "https://cappnotes.substack.com/p/closing-look-friday-october-23-2026"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html"
+        },
+        {
+          "outlet": "TheStreet",
+          "title": "Stock Market Today (Oct. 23, 2026): Dow tumbles following tech sell-off",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-23-2026"
+        },
+        {
           "outlet": "CNBC",
-          "title": "Stock market news for Oct. 22, 2026",
-          "url": "https://www.cnbc.com/2026/10/21/stock-market-today-live-updates.html"
-        },
-        {
-          "outlet": "Yahoo Finance",
-          "title": "Stock market today: S&P 500, Nasdaq tanks as tech stocks sink amid AI trade worries, Meta shares plummet",
-          "url": "https://finance.yahoo.com/markets/article/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html"
-        },
-        {
-          "outlet": "Investrade",
-          "title": "Market Review: October 22, 2026",
-          "url": "https://investrade.com/market-review-october-22-2026/"
-        },
-        {
-          "outlet": "Stocktitan",
-          "title": "Stock Market Today: AI and Chip Stocks Made Up 93% of the Value the Nasdaq-100 Lost",
-          "url": "https://www.stocktitan.net/articles/why-is-nasdaq-down-today-october-22-2026-ai-chip-stocks"
-        },
-        {
-          "outlet": "Yahoo Finance",
-          "title": "Meta and chip stocks decline as AI trade comes under pressure: AlphaCheck",
-          "url": "https://finance.yahoo.com/markets/article/meta-and-chip-stocks-decline-as-ai-trade-comes-under-pressure-alphacheck-140107733.html"
-        },
-        {
-          "outlet": "NBC News",
-          "title": "Markets tumble as concerns about Iran war and high AI spending collide",
-          "url": "https://www.nbcnews.com/business/markets/iran-war-ai-spending-oil-prices-selloff-rcna604994"
-        },
-        {
-          "outlet": "Fortune",
-          "title": "Current price of oil as of Oct. 22, 2026",
-          "url": "https://fortune.com/article/price-of-oil-10-22-2026/"
+          "title": "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
+          "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
         },
         {
           "outlet": "Oilprice.com",
-          "title": "Crude Oil Prices Today",
-          "url": "https://oilprice.com/"
+          "title": "$120 Oil Is Almost Here, and Trump Has Few Good Options",
+          "url": "https://oilprice.com/Energy/Energy-General/120-Oil-Is-Almost-Here-and-Trump-Has-Few-Good-Options.html"
         },
         {
-          "outlet": "investingLive",
-          "title": "investingLive Asia-Pacific market news: Asian stocks slide as chip rout spreads",
-          "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-asian-stocks-slide-as-chip-rout-spreads/"
-        },
-        {
-          "outlet": "HDFC Sky",
-          "title": "Asian Markets Weak; Oil Above $112 May Weigh on Nifty, Sensex",
-          "url": "https://hdfcsky.com/news/global-markets-today-asia-declines-as-ai-worries-hit-wall-street-oil-prices-stay-elevated"
+          "outlet": "Business Standard",
+          "title": "Stock Market Close: Sensex falls for 4th day, ends 126 pts lower; Nifty at 22,600; VIX rises 6%",
+          "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
         }
       ]
     },
     {
       "title": "Ukraine and Russia",
       "icon": "🇺🇦",
-      "summary": "Russia fires 21 ballistic missiles at Kyiv hours after agreeing to resume talks",
+      "summary": "Oleshky truce credited to Melania Trump; 270-for-270 swap; Kyiv disputes Starlink fix",
       "paragraphs": [
         {
-          "heading": "Kyiv barrage",
-          "body": "Russia fired 21 ballistic missiles at Kyiv in three waves, hours after Putin agreed in principle to resume trilateral talks, Zelenskyy said, according to ABC News and NBC News. Ukraine's air force said none of the missiles were intercepted. Tolls vary: the AP reported at least four killed across Ukraine, including two in a strike on a Kharkiv-region market, while Kyiv's toll was put at one or two dead. [[TAG:danger:none intercepted]]"
+          "heading": "Oleshky ceasefire",
+          "body": "Russia and Ukraine agreed a localized ceasefire in Russian-occupied Oleshky to allow aid deliveries, demining and civilian evacuations, which the White House said Melania Trump brokered by working directly with both governments, NBC News and The Globe and Mail reported. The White House said it begins October 29; Ukraine's ombudsman told Reuters October 27. [[TAG:success:local truce]]"
         },
         {
-          "heading": "Drones on Moscow",
-          "body": "Moscow said it downed more than 800 Ukrainian drones, including about 630 aimed at the capital, PBS and The Globe and Mail reported. Witkoff said trilateral talks would continue at a technical level, The Japan Times reported."
+          "heading": "Prisoner swap",
+          "body": "The two sides exchanged 270 servicemen each, the first swap since August, and Russia's Defense Ministry said 120 civilians were also included, The Moscow Times reported. Putin said future talks should focus on security guarantees for both countries and a European security framework."
+        },
+        {
+          "heading": "Starlink dispute",
+          "body": "Trump said Elon Musk had restored Ukraine's Starlink access, but Ukrainian officials said restrictions remain, including a 161 km/h speed cap, The Washington Post and the Kyiv Independent reported. The Wall Street Journal reported Trump called Musk on October 21 asking him to lift the limits. [[TAG:warning:still restricted]]"
         }
       ],
-      "sources": "ABC News, NBC News, AP via PBS, The Globe and Mail, The Japan Times",
+      "sources": "NBC News, The Globe and Mail, White House, The Moscow Times, Kyiv Independent, The Washington Post, CNN",
       "citations": [
         {
-          "outlet": "ABC News",
-          "title": "Russia fires 3 waves of ballistic missiles at Kyiv after peace talks, Zelenskyy says",
-          "url": "https://abcnews.com/amp/International/russia-fires-3-waves-ballistic-missiles-kyiv-after/story?id=137469151"
-        },
-        {
           "outlet": "NBC News",
-          "title": "Russia pounds Kyiv with missiles and drones, hours after agreeing to peace talks",
-          "url": "https://www.nbcnews.com/world/ukraine/russia-pounds-kyiv-missiles-drones-hours-agreeing-peace-talks-rcna604949"
-        },
-        {
-          "outlet": "PBS (AP)",
-          "title": "Russian missiles pound Kyiv as Moscow says over 800 Ukrainian drones downed",
-          "url": "https://www.pbs.org/newshour/world/russian-missiles-pound-kyiv-as-moscow-says-over-800-ukrainian-drones-downed"
+          "title": "Russia, Ukraine agree to ceasefire for one city brokered by Melania Trump, White House says",
+          "url": "https://www.nbcnews.com/world/ukraine/russia-ukraine-agree-ceasefire-city-brokered-melania-trump-rcna605217"
         },
         {
           "outlet": "The Globe and Mail",
-          "title": "Russia hits Kyiv with missiles as Ukraine fires drones at Moscow, despite push to resume talks",
-          "url": "https://www.theglobeandmail.com/world/article-russia-launches-missiles-ukraine-drones/"
+          "title": "Ukraine, Russia agree to Oleshky ceasefire brokered by Melania Trump",
+          "url": "https://www.theglobeandmail.com/world/article-melania-trump-oleshky-ceasefire-russia-ukraine/"
         },
         {
-          "outlet": "The Japan Times",
-          "title": "Russia-Ukraine conflict continues despite prospects of renewed talks",
-          "url": "https://www.japantimes.co.jp/news/2026/10/23/world/russia-ukraine-conflict-talks/"
+          "outlet": "White House",
+          "title": "First Lady Melania Trump Secures Ceasefire Between Russia and Ukraine, Localized to Oleshky",
+          "url": "https://www.whitehouse.gov/briefings-statements/2026/10/first-lady-melania-trump-secures-ceasefire-between-russia-and-ukraine-localized-to-oleshky/"
+        },
+        {
+          "outlet": "The Moscow Times",
+          "title": "Russia, Ukraine Agree on Ceasefire in Embattled Oleshky, Plan New Peace Talks Next Month",
+          "url": "https://www.themoscowtimes.com/2026/10/24/russia-ukraine-agree-on-ceasefire-in-embattled-oleshky-plan-new-peace-talks-next-month-a94069"
+        },
+        {
+          "outlet": "Kyiv Independent",
+          "title": "Kyiv denies reports that Trump, Musk have restored Starlink speeds in Ukraine",
+          "url": "https://kyivindependent.com/kyiv-denies-reports-that-trump-musk-have-restored-starlink-speeds-in-ukraine/"
+        },
+        {
+          "outlet": "The Washington Post",
+          "title": "Trump says Starlink access restored, but Ukraine reports more interruptions",
+          "url": "https://www.washingtonpost.com/world/2026/10/23/trump-says-starlink-access-restored-ukraine-reports-more-interruptions/"
+        },
+        {
+          "outlet": "CNN",
+          "title": "Ukrainian officials say Starshield restrictions still in place, despite Trump’s claims",
+          "url": "https://edition.cnn.com/2026/10/23/world/trump-musk-restored-ukraines-starshield-intl"
         }
       ]
     },
     {
       "title": "US Politics",
       "icon": "🏛️",
-      "summary": "Trump rallies in Iowa for Senate hopeful Ashley Hinson; judge orders BBC suit deposition",
+      "summary": "Cook: GOP House path 'all but evaporated' after 19 ratings shift; Trump stumps in Florida",
       "paragraphs": [
         {
-          "heading": "Iowa rally",
-          "body": "Trump rallied in Sioux City with Senate nominee Ashley Hinson and gubernatorial nominee Zach Lahn, Fox News and CBS Iowa reported. NBC News rates Hinson's race against Democrat Josh Turek a toss-up. Trump touted emergency diesel tax relief and a new $8 billion agricultural aid program, Fox News reported. [[TAG:info:toss-up race]]"
+          "heading": "House outlook",
+          "body": "The Cook Political Report shifted 19 House races toward Democrats and now favors Democrats in 220 districts, Republicans in 198, with 17 toss-ups, Yahoo News and Newsweek reported. Cook said the Republican path to holding the House 'has all but evaporated', CNN reported; Cook has moved 63 ratings toward Democrats in a month. [[TAG:danger:220 seats lean D]]"
         },
         {
-          "heading": "Other threads",
-          "body": "A judge ordered Trump to sit for a deposition by December 11 in his defamation suit against the BBC, and administration lawyers said construction of a large arch could begin as soon as November 5, according to the Washington Post's Trump coverage. CNN reported Trump defended an Ohio ad by Vivek Ramaswamy featuring rival Amy Acton's estranged mother."
+          "heading": "Florida rally",
+          "body": "Trump rallied in Fort Myers, announcing $275 million in federal funding to hire nurses for senior care, and said he has spent $300 million on midterm ads with $100 million more planned, Fox News reported. Speaker Mike Johnson is asking Trump for more money, CNN reported. CNN is threatening legal action after its journalists were denied Air Force One access, NPR reported."
         }
       ],
-      "sources": "Fox News, CBS Iowa, NBC News, The Washington Post, CNN",
+      "sources": "Yahoo News, Newsweek, CNN, The Washington Post, Fox News, The Hill, NPR",
       "citations": [
         {
-          "outlet": "Fox News",
-          "title": "2026 Midterm Elections: Trump Campaigns in Iowa",
-          "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-iowa-election-lawsuit-october-22"
+          "outlet": "Yahoo News",
+          "title": "Cook Report: 12 to 22 House Seats Will Flip to Dems",
+          "url": "https://www.yahoo.com/news/politics/articles/cook-report-12-22-house-181225986.html"
         },
         {
-          "outlet": "CBS Iowa",
-          "title": "President Trump returns to Iowa to rally GOP voters ahead of November midterms",
-          "url": "https://cbs2iowa.com/news/election/president-trump-returns-to-iowa-to-rally-gop-voters-ahead-of-november-midterms"
-        },
-        {
-          "outlet": "NBC News",
-          "title": "Trump rallies in Iowa for Ashley Hinson, other GOP midterm candidates",
-          "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-rally-hinson-iowa-vance-nebraska-congress-2026-live-updates-rcna604927"
-        },
-        {
-          "outlet": "The Washington Post",
-          "title": "Donald Trump - The Washington Post",
-          "url": "https://www.washingtonpost.com/donald-trump/"
+          "outlet": "Newsweek",
+          "title": "Map Shows Closest House Races as Cook Shifts 19 Seats Toward Democrats",
+          "url": "https://www.newsweek.com/map-shows-closest-house-races-as-cook-shifts-19-seats-toward-democrats-12611217"
         },
         {
           "outlet": "CNN",
-          "title": "Midterm election updates: Trump told Ramaswamy to thank God for ad featuring Acton’s estranged mother",
-          "url": "https://www.cnn.com/2026/10/22/politics/live-news/midterm-election-congress"
+          "title": "Top election forecaster: GOP path to holding the House ‘has all but evaporated’",
+          "url": "https://www.cnn.com/2026/10/23/politics/video/ebof-david-wasserman-cook-political-report-gop-house-races-midterms-2026"
+        },
+        {
+          "outlet": "CNN",
+          "title": "Elections forecaster has bad news for GOP as Trump campaigns in Florida",
+          "url": "https://www.cnn.com/2026/10/23/politics/live-news/midterm-election-congress"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Trump rallies Florida base amid ongoing campaigning blitz 11 days before midterms",
+          "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-campaigning-blitz-october-23"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Live updates: Trump stumps in Florida, boosting Donalds and criticizing Omar",
+          "url": "https://thehill.com/homenews/administration/6167503-live-updates-donald-trump-midterm-elections/amp/"
+        },
+        {
+          "outlet": "NPR",
+          "title": "The News Roundup For October 23, 2026",
+          "url": "https://www.npr.org/2026/10/23/nx-s1-6014574/the-news-roundup-for-october-23-2026"
         }
       ]
     },
     {
       "title": "Europe",
       "icon": "🇪🇺",
-      "summary": "French 10-year yield tops 5% and US Treasuries; Italy truckers strike; Sakharov Prize to ICC",
+      "summary": "Macron curbs 'illegitimate' protests as 70,000 police deploy; heat waves killed 50,000, study says",
       "paragraphs": [
         {
-          "heading": "French bonds",
-          "body": "France's 10-year yield rose above 5% for the first time since 2002, reaching about 5.06%–5.09%, and above the US 10-year Treasury yield for the first time since 2013, Axios and Trading Economics reported. The spread over German Bunds widened to the most since 2011, Disruption Banking reported. AFP tied the sell-off to a budget standoff and violent protests; ECB President Christine Lagarde has been cool on intervening, France 24 reported. [[TAG:danger:yield above 5%]]"
+          "heading": "France tightens curbs",
+          "body": "Macron said local authorities would ban gatherings by groups deemed to lack legitimacy while allowing union-organized marches on possibly diverted routes, blaming 'ultra-left' groups for recent riots, NBC News and Reuters via US News reported. Protests were banned in Paris, Lyon, Lille and Grenoble, and Fox News reported 70,000 police deployed for the weekend. A union said Macron was 'trampling' the right to protest. Accounts differ on how sweeping the measures are. [[TAG:warning:protest bans]]"
         },
         {
-          "heading": "Unrest spreads",
-          "body": "Truck drivers protesting fuel prices disrupted supermarket deliveries across southern Italy, and Spanish unions have called a general strike for November 11, The Rio Times reported. France rejected Trump's attempt to blame its unrest on migration, Al Jazeera reported."
-        },
-        {
-          "heading": "Parliament",
-          "body": "The European Parliament awarded the Sakharov Prize to the International Criminal Court and backed a non-binding call to add the Houthis to the EU terrorist list, The Rio Times reported."
+          "heading": "Elsewhere",
+          "body": "A study estimated this summer's European heat waves killed about 50,000 people, attributing two-thirds of deaths to climate change, Democracy Now reported. The European Commission is weighing tougher measures on Chinese imports, Euronews reported, and Serbia heads toward a snap election."
         }
       ],
-      "sources": "Axios, Trading Economics, Disruption Banking, France 24, The Rio Times, Al Jazeera, Newsquawk",
+      "sources": "NBC News, US News, The Japan Times, Fox News, Democracy Now, Euronews, The Rio Times",
       "citations": [
         {
-          "outlet": "Axios",
-          "title": "How the French bond drama affects U.S. markets",
-          "url": "https://www.axios.com/2026/10/22/french-bond-market-spillover"
+          "outlet": "NBC News",
+          "title": "France’s Emmanuel Macron says ‘illegitimate’ protests will be banned as cities block demonstrations",
+          "url": "https://www.nbcnews.com/world/france/france-emmanuel-macron-illegitimate-protests-banned-cities-rcna604952"
         },
         {
-          "outlet": "Trading Economics",
-          "title": "France 10-Year Government Bond Yield",
-          "url": "https://tradingeconomics.com/france/government-bond-yield"
+          "outlet": "US News (Reuters)",
+          "title": "French Businesses, Events to Close With More Weekend Protests Expected",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-23/french-businesses-events-to-close-with-more-weekend-protests-expected"
         },
         {
-          "outlet": "Disruption Banking",
-          "title": "French yields cross 5%, spread widest since 2011",
-          "url": "https://www.disruptionbanking.com/2026/10/22/french-yields-cross-5-spread-widest-since-2011/"
+          "outlet": "The Japan Times",
+          "title": "French authorities seek to ban or curb fresh protests",
+          "url": "https://www.japantimes.co.jp/news/2026/10/23/world/crime-legal/france-protest-curbs/"
         },
         {
-          "outlet": "France 24",
-          "title": "Five things to know as French bond yield tops 5%",
-          "url": "https://www.france24.com/en/live-news/20261021-five-things-to-know-as-french-bond-yield-tops-5"
+          "outlet": "Fox News",
+          "title": "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris",
+          "url": "https://www.foxnews.com/world/france-edge-70000-police-deployed-unrest-authorities-probe-suspected-terror-attack-near-paris"
+        },
+        {
+          "outlet": "Democracy Now",
+          "title": "Headlines for October 23, 2026",
+          "url": "https://www.democracynow.org/2026/10/23/headlines"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "News 23 October 2026 - Archive Euronews",
+          "url": "https://www.euronews.com/2026/10/23"
         },
         {
           "outlet": "The Rio Times",
-          "title": "Europe Intelligence Brief for Thursday, October 22, 2026",
-          "url": "https://www.riotimesonline.com/europe-intelligence-brief-thursday-october-22-2026"
-        },
-        {
-          "outlet": "Al Jazeera",
-          "title": "Europe News",
-          "url": "https://www.aljazeera.com/europe/"
-        },
-        {
-          "outlet": "Newsquawk",
-          "title": "Newsquawk European Market Wrap - 22nd October 2026",
-          "url": "https://www.newsquawk.com/headlines/newsquawk-european-market-wrap---22nd-october-2026"
+          "title": "Europe Intelligence Brief for Friday, October 23, 2026",
+          "url": "https://www.riotimesonline.com/europe-intelligence-brief-friday-october-23-2026/"
         }
       ]
     },
     {
       "title": "Elections Abroad",
       "icon": "🗳️",
-      "summary": "Israel's final polls show deadlock before Tuesday; Brazil's Sunday runoff is a dead heat",
+      "summary": "Israel's final polls: Eisenkot ahead, no majority; Brazil runoff Sunday is a statistical tie",
       "paragraphs": [
         {
           "heading": "Israel",
-          "body": "Final polls before Tuesday's vote show neither Netanyahu's bloc nor Gadi Eisenkot's reaching 61 seats; one average has Netanyahu's bloc at 54 and the opposition at 50, Jewish Insider reported, while a Jewish Chronicle analysis said Eisenkot's bloc has widened its lead. Polling is barred from Friday. Israel's High Court barred party poll-watchers from reporting turnout digitally in real time, and Haaretz reported party activists attacked on the trail. [[TAG:warning:deadlock]]"
+          "body": "Final TV polls from Kan, Channel 12 and Channel 13 put Gadi Eisenkot's Yashar ahead of Likud, with Netanyahu's bloc at about 50 seats and the opposition at 52 to 56, short of 61, Ynet reported. Jewish Insider's average instead puts Netanyahu's bloc ahead at 54. Arab parties are projected at 14 to 16 seats. Netanyahu cancelled Friday campaign events after a West Bank shooting attack, Haaretz reported. Israel votes Tuesday. [[TAG:warning:deadlock]]"
         },
         {
           "heading": "Brazil",
-          "body": "Sunday's runoff between Flávio Bolsonaro and President Lula is a statistical tie: Quaest had Bolsonaro 45% to 44%, Reuters reported via US News, and Datafolha had them at 50% each of valid votes, The Rio Times reported. The Rio Times' average puts Bolsonaro at about 51%. [[TAG:info:Oct 25 runoff]]"
+          "body": "Datafolha has Flávio Bolsonaro and President Lula tied at 50% of valid votes ahead of Sunday's runoff, Bloomberg reported, and The Rio Times' average gives Bolsonaro about 51%. Prediction markets give Bolsonaro about 80% odds. Flávio finished first in the October 4 first round, against most polls' predictions. [[TAG:info:Sunday runoff]]"
         }
       ],
-      "sources": "Jewish Insider, The Jewish Chronicle, ABC Australia, Haaretz, US News, The Rio Times",
+      "sources": "Ynet, Haaretz, Jewish Insider, The Media Line, Bloomberg, The Rio Times",
       "citations": [
+        {
+          "outlet": "Ynet",
+          "title": "Final Israel election polls put Eisenkot's Yashar ahead of Likud, but neither bloc wins a majority",
+          "url": "https://www.ynetnews.com/article/s1wppltnme"
+        },
+        {
+          "outlet": "Haaretz",
+          "title": "Last polls before election day put Eisenkot ahead, both sides short of majority",
+          "url": "https://www.haaretz.com/israel-news/elections/2026-10-23/ty-article/last-polls-before-election-day-put-eisenkot-ahead-both-sides-short-of-majority/000001a1-69fe-d34e-a1b9-ffff12940000"
+        },
+        {
+          "outlet": "Haaretz",
+          "title": "Netanyahu cancels all Friday campaign events due to West Bank shooting attack",
+          "url": "https://www.haaretz.com/israel-news/elections/2026-10-23/ty-article-live/.free/netanyahu-cancels-all-friday-campaign-events-due-to-west-bank-shooting-attack/000001a1-65f1-d6e1-abb7-77ffe02e0002"
+        },
         {
           "outlet": "Jewish Insider",
           "title": "Final Israeli polls point to stalemate ahead of Tuesday’s election",
           "url": "https://jewishinsider.com/2026/10/final-israeli-polls-stalemate-tuesdays-election/"
         },
         {
-          "outlet": "The Jewish Chronicle",
-          "title": "Opposition bloc widens lead over Netanyahu coalition days out from Israeli elections, JC polling analysis shows",
-          "url": "https://www.thejc.com/news/israel/eisenkot-widens-lead-over-netanyahu-days-out-from-knesset-election-jc-polling-analysis-shows-ohhrod7e"
+          "outlet": "The Media Line",
+          "title": "Israel’s Election: The Polls Are Split, and So Is the Press",
+          "url": "https://themedialine.org/top-stories/israels-election-the-polls-are-split-and-so-is-the-press/"
         },
         {
-          "outlet": "ABC Australia",
-          "title": "Israelis are heading to the polls in their most seismic election in decades",
-          "url": "https://www.abc.net.au/news/2026-10-23/israel-election-2026-explained/107287156"
-        },
-        {
-          "outlet": "Haaretz",
-          "title": "'Beaten by Fellow Citizens'",
-          "url": "https://www.haaretz.com/israel-news/elections/2026-10-22/ty-article-live/democrats-party-activists-attacked-may-your-entire-family-burn/000001a1-6192-da49-abe9-6ffa72520000"
-        },
-        {
-          "outlet": "US News (Reuters)",
-          "title": "Bolsonaro's Lead Over Lula Narrows Ahead Brazil Runoff, Quaest Poll Shows",
-          "url": "https://www.usnews.com/news/world/articles/2026-10-21/bolsonaros-lead-over-lula-narrows-ahead-brazil-runoff-quaest-poll-shows"
+          "outlet": "Bloomberg",
+          "title": "Bolsonaro and Lula Tied Ahead of Brazil Runoff, Poll Shows",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/bolsonaro-and-lula-tied-ahead-of-brazil-runoff-vote-poll-shows"
         },
         {
           "outlet": "The Rio Times",
-          "title": "Brazil Election Polls Today: Flávio 51%, Lula 49% Average",
-          "url": "https://www.riotimesonline.com/brazil-runoff-polls-2026/"
+          "title": "Brazil Election 2026: Presidential Runoff, Lula vs Flávio",
+          "url": "https://www.riotimesonline.com/brazil-runoff-october-25-2026-flavio-bolsonaro-lula/"
         }
       ]
     },
     {
       "title": "Global Roundup",
       "icon": "🌍",
-      "summary": "WHO warns of 'more complex' Ebola spread; AU condemns Abyei drone strike; Geneva Sudan talks",
+      "summary": "Kim Jong Un crosses new bridge into China; US tightens Ebola entry screening",
       "paragraphs": [
         {
-          "heading": "Ebola",
-          "body": "The WHO's Africa director warned the Bundibugyo Ebola outbreak is growing 'more complex' now that cases are in Congo, Kenya and Nigeria, Al Jazeera reported. Kenya has nine cases in one cluster; Congo has reported about 9,552 cases and 4,602 deaths, though counts vary by source. Officials are investigating whether Nigeria's patient crossed paths with Kenya's first patient at a Ugandan airport. [[TAG:danger:3 countries]]"
+          "heading": "Kim in China",
+          "body": "North Korean leader Kim Jong Un traveled to China across the newly opened bridge at Dandong and met Premier Li Qiang, a South Korean official told Reuters, according to The Standard and Al Jazeera. The visit comes just before the anniversary of China's entry into the Korean War. [[TAG:info:Kim visits China]]"
         },
         {
-          "heading": "Sudan",
-          "body": "The African Union condemned drone strikes in Sudan and Abyei after a strike that Al Jazeera said killed at least 153 people, Radio Dabanga reported. Ceasefire talks resumed in Geneva on October 21 with nearly two dozen countries, UN News reported. The Sudanese pound has fallen to 10,300 per dollar, Dabanga said."
+          "heading": "Ebola screening",
+          "body": "The US will require air travelers to declare they have not been in Congo in the previous 21 days, NBC News reported, while keeping entry bans for foreign nationals recently in Uganda or South Sudan. Congo and South Sudan are strengthening cross-border surveillance with WHO support, and the UN named a senior Ebola coordinator based in Bunia, OCHA said."
         }
       ],
-      "sources": "Al Jazeera, Free Malaysia Today, NPR, Radio Dabanga, UN News",
+      "sources": "The Standard, Al Jazeera, NBC News, WHO Africa, UN OCHA",
       "citations": [
         {
-          "outlet": "Al Jazeera",
-          "title": "WHO warns ‘more complex’ Ebola outbreak now present in 3 African countries",
-          "url": "https://www.aljazeera.com/news/2026/10/22/who-warns-more-complex-ebola-outbreak-now-present-in-3-african-countries"
-        },
-        {
-          "outlet": "Free Malaysia Today",
-          "title": "Africa faces ‘complex’ Ebola outbreak after spread to Nigeria",
-          "url": "https://www.freemalaysiatoday.com/category/world/2026/10/22/africa-faces-complex-ebola-outbreak-after-spread-to-nigeria"
-        },
-        {
-          "outlet": "NPR",
-          "title": "Nigeria confirms an Ebola case in Abuja as a woman arriving from Uganda tests positive",
-          "url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case"
-        },
-        {
-          "outlet": "Radio Dabanga",
-          "title": "Dabanga Radio TV Online - Latest Sudan News",
-          "url": "https://www.dabangasudan.org/en"
-        },
-        {
-          "outlet": "UN News",
-          "title": "Sudan",
-          "url": "https://news.un.org/en/tags/sudan"
+          "outlet": "The Standard",
+          "title": "North Korea's Kim Jong Un visits China via Dandong bridge, South Korean official says",
+          "url": "https://thestandard.com.hk/china/article/346392/North-Koreas-Kim-Jong-Un-visits-China-via-Dandong-bridge-South-Korean-official-says"
         },
         {
           "outlet": "Al Jazeera",
-          "title": "Sudan",
-          "url": "https://www.aljazeera.com/where/sudan/"
+          "title": "North Korea’s Kim Jong Un visits China via newly opened bridge",
+          "url": "https://aljazeera.com/news/2026/10/24/north-koreas-kim-jong-un-arrives-in-china-south-korean-media-says"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "U.S. to tighten Ebola screening with new air passenger declarations",
+          "url": "https://www.nbcnews.com/health/health-news/us-tighten-ebola-screening-new-air-passenger-declarations-rcna605177"
+        },
+        {
+          "outlet": "WHO Africa",
+          "title": "At the border, the Democratic Republic of the Congo and South Sudan strengthen Ebola surveillance",
+          "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/border-democratic-republic-congo-and-south-sudan-strengthen-ebola-surveillance"
+        },
+        {
+          "outlet": "UN OCHA",
+          "title": "Today's top news: Ebola coordinator, Lebanon, Occupied Palestinian Territory, Sudan",
+          "url": "https://www.unocha.org/news/todays-top-news-ebola-coordinator-lebanon-occupied-palestinian-territory-sudan"
         }
       ]
     }
   ],
   "searches": [
     {
-      "query": "Iran war news October 23 2026",
+      "query": "Iran war news October 24 2026",
       "results": [
         {
           "title": "Iran War: Latest News, Live Coverage and Video",
           "url": "https://www.nbcnews.com/world/iran-war"
         },
         {
+          "title": "Live Updates: Iran warns that U.S. military not allowed in Gulf \"under any circumstance\"",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/"
+        },
+        {
           "title": "Trump declares US has ‘decimated’ Iran as Tehran warns it's ‘fully prepared’ for war",
           "url": "https://www.foxnews.com/live-news/iran-war-news-trump-russia-houthi-october-21"
         },
         {
-          "title": "Iran issues warning to US as Qatar prepares to announce regional defense agreement",
-          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-israel-pentagon-october-19"
-        },
-        {
-          "title": "Iran issues 'serious warning' to US military forces in Middle East",
-          "url": "https://www.foxnews.com/live-news/us-iran-war-strait-hormuz-oil-prices-10-22-26"
-        },
-        {
-          "title": "Iran reveals ‘offensive’ doctrine, US issues alert: Is war imminent?",
-          "url": "https://www.aljazeera.com/news/2026/10/22/iran-reveals-offensive-doctrine-us-issues-alert-is-war-imminent"
+          "title": "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict",
+          "url": "https://www.thenationalnews.com/news/mena/2026/10/23/iran-war-live-saudi-arabia-houthis/"
         },
         {
           "title": "Iran live updates: IRGC Navy claims attacks on 4 vessels in Persian Gulf - ABC News",
           "url": "https://abcnews.com/International/live-updates/iran-live-updates/?id=137370653"
         },
         {
-          "title": "Markets tumble as concerns about Iran war and high AI spending collide",
-          "url": "https://www.nbcnews.com/business/markets/iran-war-ai-spending-oil-prices-selloff-rcna604994"
+          "title": "US moves diplomats, Trump floats new Iran military operation",
+          "url": "https://www.iranintl.com/en/liveblog/202610187555"
         },
         {
           "title": "europe today iran war intensifies as trump signals prolonged fight",
@@ -490,817 +480,821 @@
         {
           "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
           "url": "https://euronews.com/2026/03/03/europe-today-iran-war-intensifies-as-trump-signals-prolonged-fight"
+        },
+        {
+          "title": "europe today iran war death toll nears 1000 as trump threatens spain over stance",
+          "url": "https://www.euronews.com/video/2026/03/04/europe-today-iran-war-death-toll-nears-1000-as-trump-threatens-spain-over-stance"
         }
       ]
     },
     {
-      "query": "Strait of Hormuz Persian Gulf shipping October 22 2026",
+      "query": "Iran Hormuz news October 23 2026",
       "results": [
         {
-          "title": "Oct. 22: Trump claims Iran ‘making up fake hits’ to drive up oil prices ahead of midterms",
-          "url": "https://timesofisrael.com/liveblog-october-22-2026"
+          "title": "Iran issues 'serious warning' to US military forces in Middle East",
+          "url": "https://www.foxnews.com/live-news/us-iran-war-strait-hormuz-oil-prices-10-22-26"
         },
         {
-          "title": "Tracking ship traffic through the Strait of Hormuz. Updated regularly.",
-          "url": "https://www.nbcnews.com/data-graphics/strait-of-hormuz-ports-traffic-trump-us-iran-war-rcna331507"
+          "title": "Iran says 7 ships have been struck in Strait of Hormuz, Saudis intercept drones in airspace",
+          "url": "https://www.cbc.ca/news/world/mideast-hormuz-saudi-arabia-attacks-9.7391297"
         },
         {
-          "title": "Iran says seven ships hit in Hormuz Strait, warns US of wider response",
-          "url": "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response"
+          "title": "Iran says Strait of Hormuz reopening, seven-day ceasefire conditions still on the table",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
         },
         {
-          "title": "Strait of Hormuz Live: Real-Time Vessel Tracking Map",
-          "url": "https://straitupmaritime.com/strait-of-hormuz/live/"
+          "title": "Iran lauds ties with Russia, contradicting Trump's claim of little Russian support for Tehran",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/"
         },
         {
-          "title": "Is the Strait of Hormuz Open? Live Status: Restricted",
-          "url": "https://hormuz.now/"
+          "title": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears of a return to war grow",
+          "url": "https://www.nbcnews.com/world/iran/iran-says-7-oil-tankers-attacked-strait-hormuz-fears-grow-return-war-rcna605108"
         },
         {
-          "title": "Strait of Hormuz Live Map: Free Ship Tracker, Updated Every 20s",
-          "url": "https://hormuz.now/live"
+          "title": "Hormuz News Today",
+          "url": "https://www.newsnow.com/us/World/Middle+East/Iran/Strait+of+Hormuz"
         },
         {
-          "title": "Strait of Hormuz - Tanker Traffic - Daily Transits & Tonnage",
-          "url": "https://tankermap.com/analytics/straits/hormuz"
+          "title": "Morning news brief",
+          "url": "https://www.npr.org/2026/04/06/nx-s1-5771649/morning-news-brief"
         },
         {
-          "title": "Strait of Hormuz Closed, Day 236",
-          "url": "https://straits.live/"
+          "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
+          "url": "https://euronews.com/video/2026/04/08/europe-today-trump-backs-down-on-iran-again-as-hormuz-set-to-reopen-after-temporary-deal"
         },
         {
-          "title": "nx s1 5744857",
-          "url": "https://www.npr.org/transcripts/nx-s1-5744857"
+          "title": "US‑Israel war on Iran, Day 18: Iran confirms security chief Ali Larijani killed",
+          "url": "https://gulfnews.com/uae/usisrael-war-with-iran-day-18-trump-pressures-allies-to-help-open-strait-of-hormuz-uae-briefly-closes-airspace-1.500476912"
         }
       ]
     },
     {
-      "query": "stock market close Thursday October 22 2026",
+      "query": "stock market close Friday October 23 2026 week",
       "results": [
         {
-          "title": "Stock Market News for Oct 22, 2026",
-          "url": "https://nz.finance.yahoo.com/news/stock-market-news-oct-22-094300214.html"
+          "title": "Closing Look — Friday, October 23, 2026",
+          "url": "https://cappnotes.substack.com/p/closing-look-friday-october-23-2026"
         },
         {
-          "title": "Stock market news for Oct. 22, 2026",
-          "url": "https://www.cnbc.com/2026/10/21/stock-market-today-live-updates.html"
+          "title": "Stock Market Today (Oct. 23, 2026): Dow tumbles following tech sell-off - TheStreet",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-23-2026"
         },
         {
-          "title": "United States Stock Market Index - Quote - Chart - Historical Data - News",
-          "url": "https://tradingeconomics.com/united-states/stock-market"
+          "title": "Stock market news for Oct. 23, 2026",
+          "url": "https://www.cnbc.com/2026/10/22/stock-market-today-live-update.html"
         },
         {
-          "title": "NYSE Market Hours & Holidays 2026 - 2028 - TradingHours.com",
-          "url": "https://www.tradinghours.com/markets/nyse"
+          "title": "Stock Market Close: Sensex falls for 4th day, ends 126 pts lower; Nifty at 22,600; VIX rises 6%",
+          "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
         },
         {
-          "title": "Stock market today: S&P 500, Nasdaq tanks as tech stocks sink amid AI trade worries, Meta shares plummet",
-          "url": "https://finance.yahoo.com/markets/article/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html"
+          "title": "Stock Market Today (Oct. 23, 2026): Nasdaq falls following tech sell-off",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-23-134445147.html"
         },
         {
-          "title": "Closing milestones of the Nasdaq Composite",
-          "url": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite"
+          "title": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html"
         },
         {
-          "title": "Stock market today: Dow, S&P 500 rise, Nasdaq slips as investors await SpaceX, Netflix earnings",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-rises-sp-500-nasdaq-climb-as-dip-buying-resumes-165236471.html"
+          "title": "Daily Stock Market Report (Fri 23 Oct 2026) - Agenda",
+          "url": "https://www.stockopedia.com/content/daily-stock-market-report-fri-23-oct-2026-agenda-1059519/"
         },
         {
-          "title": "2022 stock market decline",
-          "url": "https://en.wikipedia.org/wiki/2022_stock_market_decline"
+          "title": "Market Review: October 23, 2026 - Investrade",
+          "url": "https://investrade.com/market-review-october-23-2026/"
         },
         {
-          "title": "Market Review: October 22, 2026 - Investrade",
-          "url": "https://investrade.com/market-review-october-22-2026/"
-        },
-        {
-          "title": "2026%E2%80%932028 world oil market chronology",
-          "url": "https://en.wikipedia.org/wiki/2026%E2%80%932028_world_oil_market_chronology"
+          "title": "is the stock market open on presidents day what to know about the holiday trading schedule in 2026 210239969",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/is-the-stock-market-open-on-presidents-day-what-to-know-about-the-holiday-trading-schedule-in-2026-210239969.html"
         }
       ]
     },
     {
-      "query": "Ukraine Russia news October 22 2026",
+      "query": "Ukraine Russia news October 23 2026",
       "results": [
         {
-          "title": "Ukraine News Today",
-          "url": "https://en.wikipedia.org/wiki/Ukraine_News_Today"
+          "title": "The Kyiv Independent — News from Ukraine, Eastern Europe",
+          "url": "https://kyivindependent.com/"
         },
         {
-          "title": "Russia-Ukraine conflict continues despite prospects of renewed talks - The Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/10/23/world/russia-ukraine-conflict-talks/"
+          "title": "Early Edition: October 23, 2026",
+          "url": "https://www.justsecurity.org/161891/early-edition-october-23-2026/"
         },
         {
-          "title": "Ukraine Online",
-          "url": "https://en.wikipedia.org/wiki/Ukraine_Online"
+          "title": "ISW Russian Offensive Campaign Assessment, October 23, 2026",
+          "url": "https://www.kyivpost.com/post/88028"
         },
         {
-          "title": "Ukrainian National News",
-          "url": "https://en.wikipedia.org/wiki/Ukrainian_National_News"
+          "title": "War in Ukraine today: latest news, 23 October 2026 (photo) - Ukrainian Women's Guard",
+          "url": "https://uavarta.org/en/war-in-ukraine-today-latest-news-23-october-2026-photo/"
         },
         {
-          "title": "Ukraine News Today Live",
-          "url": "https://www.newsnow.co.uk/h/World+News/Europe/Eastern+Europe/Ukraine"
+          "title": "Hroza missile attack",
+          "url": "https://en.wikipedia.org/wiki/Hroza_missile_attack"
         },
         {
-          "title": "Russia pounds Kyiv with missiles and drones, hours after agreeing to peace talks",
-          "url": "https://www.nbcnews.com/world/ukraine/russia-pounds-kyiv-missiles-drones-hours-agreeing-peace-talks-rcna604949"
+          "title": "Russia-Ukraine war: List of key events, day 606",
+          "url": "https://www.aljazeera.com/news/2023/10/22/russia-ukraine-war-list-of-key-events-day-606"
         },
         {
-          "title": "Ukraine News Today Live",
-          "url": "https://www.newsnow.com/us/World/Europe/Eastern+Europe/Ukraine"
+          "title": "Russia-Ukraine war: List of key events, day 976",
+          "url": "https://www.aljazeera.com/news/2024/10/28/russia-ukraine-war-list-of-key-events-day-976"
         },
         {
-          "title": "Full Episode",
-          "url": "https://www.pbs.org/newshour/tag/ukraine/page/52"
+          "title": "Russia-Ukraine war: List of key events, day 1,326",
+          "url": "https://www.aljazeera.com/news/2025/10/12/russia-ukraine-war-list-of-key-events-day-1326"
         },
         {
-          "title": "www.pbs.org",
-          "url": "https://www.pbs.org/newshour/classroom/tag/russia?page=4"
+          "title": "Russia-Ukraine war: List of key events, day 1,339",
+          "url": "https://www.aljazeera.com/news/2025/10/25/russia-ukraine-war-list-of-key-events-day-1339"
         }
       ]
     },
     {
-      "query": "Trump news October 22 2026",
+      "query": "Trump news October 23 2026",
       "results": [
         {
-          "title": "Oct. 22: Trump claims Iran ‘making up fake hits’ to drive up oil prices ahead of midterms",
-          "url": "https://www.timesofisrael.com/liveblog-october-22-2026/"
+          "title": "The News Roundup For October 23, 2026 : 1A : NPR",
+          "url": "https://www.npr.org/2026/10/23/nx-s1-6014574/the-news-roundup-for-october-23-2026"
         },
         {
-          "title": "October 22, 2026 - PBS News Hour full episode",
-          "url": "https://www.pbs.org/newshour/show/october-22-2026-pbs-news-hour-full-episode"
+          "title": "News",
+          "url": "https://www.whitehouse.gov/news/"
         },
         {
-          "title": "Donald Trump - The Washington Post - The Washington Post",
-          "url": "https://www.washingtonpost.com/donald-trump/"
+          "title": "Trump rallies Florida base amid ongoing campaigning blitz 11 days before midterms",
+          "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-campaigning-blitz-october-23"
         },
         {
-          "title": "Midterm election updates: Trump told Ramaswamy to thank God for ad featuring Acton’s estranged mother",
-          "url": "https://www.cnn.com/2026/10/22/politics/live-news/midterm-election-congress"
+          "title": "Elections forecaster has bad news for GOP as Trump campaigns in Florida",
+          "url": "https://www.cnn.com/2026/10/23/politics/live-news/midterm-election-congress"
         },
         {
-          "title": "Trump rallies in Iowa for Ashley Hinson, other GOP midterm candidates",
-          "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-rally-hinson-iowa-vance-nebraska-congress-2026-live-updates-rcna604927"
+          "title": "Early Edition: October 23, 2026",
+          "url": "https://www.justsecurity.org/161891/early-edition-october-23-2026/"
+        },
+        {
+          "title": "Live updates: Trump stumps in Florida, boosting Donalds and criticizing Omar",
+          "url": "https://thehill.com/homenews/administration/6167503-live-updates-donald-trump-midterm-elections/amp/"
+        },
+        {
+          "title": "Donald Trump%27s conflict with the news media",
+          "url": "https://en.wikipedia.org/wiki/Donald_Trump%27s_conflict_with_the_news_media"
+        },
+        {
+          "title": "Trump says Starlink access restored, but Ukraine reports more interruptions - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/10/23/trump-says-starlink-access-restored-ukraine-reports-more-interruptions/"
         },
         {
           "title": "List of Donald Trump rallies (2025%E2%80%93present)",
           "url": "https://en.wikipedia.org/wiki/List_of_Donald_Trump_rallies_(2025%E2%80%93present)"
         },
         {
-          "title": "Opinion polling on the second Trump presidency",
-          "url": "https://en.wikipedia.org/wiki/Opinion_polling_on_the_second_Trump_presidency"
-        },
-        {
-          "title": "Timeline of the first Trump presidency (2020 Q4%E2%80%93January 2021)",
-          "url": "https://en.wikipedia.org/wiki/Timeline_of_the_first_Trump_presidency_(2020_Q4%E2%80%93January_2021)"
-        },
-        {
-          "title": "Timeline of the second Trump presidency (2025 Q4)",
-          "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q4)"
+          "title": "2025 Donald Trump speech at the United Nations",
+          "url": "https://en.wikipedia.org/wiki/2025_Donald_Trump_speech_at_the_United_Nations"
         }
       ]
     },
     {
-      "query": "Houthi Saudi Arabia October 22 2026",
+      "query": "oil prices Friday October 23 2026 Brent weekly",
       "results": [
         {
-          "title": "Saudi conflict with Houthis escalates with new strikes",
-          "url": "https://www.pbs.org/newshour/show/saudi-conflict-with-houthis-escalates-with-new-strikes"
+          "title": "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
+          "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
         },
         {
-          "title": "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
-          "url": "https://www.pbs.org/newshour/world/houthi-strikes-on-saudi-arabia-show-the-yemeni-rebels-growing-strength"
+          "title": "Brent oil - Price - Chart - Historical Data - News",
+          "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
         },
         {
-          "title": "Saudi Aramco evacuates headquarters amid escalating Houthi attacks",
-          "url": "https://www.jpost.com/middle-east/iran-news/article-912577"
+          "title": "$120 Oil Is Almost Here, and Trump Has Few Good Options",
+          "url": "https://oilprice.com/Energy/Energy-General/120-Oil-Is-Almost-Here-and-Trump-Has-Few-Good-Options.html"
         },
         {
-          "title": "Attack on Saudi Arabia’s King Fahd airport kills two people",
-          "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2"
+          "title": "Netanyahu calls for US and Israel to overthrow Iran as Brent crude hits five-month high",
+          "url": "https://foxnews.com/live-news/us-iran-war-israel-netanyahu-oil-prices-10-23-26"
         },
         {
-          "title": "Houthi criticises Saudis, UAE in anniversary speech",
-          "url": "https://www.aljazeera.com/news/2017/9/21/houthi-criticises-saudis-uae-in-anniversary-speech"
+          "title": "Crude Oil Prices: Brent - Europe (DCOILBRENTEU)",
+          "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         },
         {
-          "title": "www.malaymail.com",
-          "url": "https://www.malaymail.com/amp/news/world/2021/04/17/yemens-houthis-say-they-have-hit-saudi-arabias-king-khalid-air-base/1967311"
+          "title": "Oil Prices Surge 3% as Brent Crude Tops $117",
+          "url": "https://see.news/oil-prices-surge-3-as-brent-crude-tops-117"
         },
         {
-          "title": "Saudi air defences down missile fired by Al Houthis",
-          "url": "https://www.pressreader.com/uae/gulf-news/20180428/281771334804048"
+          "title": "October 18, 2025 6:09 PM",
+          "url": "https://www.newsonair.gov.in/oil-prices-edge-up-on-friday-but-record-weekly-losses"
         },
         {
-          "title": "Houthi leader vows to defy Saudi-led air war",
-          "url": "https://www.aljazeera.com/news/2015/4/19/houthi-leader-vows-to-defy-saudi-led-air-war"
+          "title": "Oil prices fall with stock market; Brent marks weekly gain",
+          "url": "https://www.business-standard.com/amp/article/reuters/oil-prices-fall-with-stock-market-brent-marks-weekly-gain-118072800031_1.html"
         },
         {
-          "title": "Yemen’s Houthi rebels claim missile attack in Saudi Arabia",
-          "url": "https://www.pressreader.com/india/hindustan-times-bathinda/20210301/282136409140097"
+          "title": "oil prices rise on friday",
+          "url": "https://www.newsonair.gov.in/oil-prices-rise-on-friday/"
+        },
+        {
+          "title": "Oil prices fall; Brent still set for weekly gain",
+          "url": "https://www.business-standard.com/amp/article/reuters/oil-prices-fall-brent-still-set-for-weekly-gain-118072701413_1.html"
         }
       ]
     },
     {
-      "query": "US Israel plans renew Iran strikes after midterms petrochemical ABC News report",
+      "query": "Barrack Iran strike this weekend Trump Epic Fury October 23",
       "results": [
         {
-          "title": "Iran live updates: IRGC Navy claims attacks on 4 vessels in Persian Gulf - ABC News",
-          "url": "https://abcnews.com/International/live-updates/iran-live-updates/?id=137370653"
+          "title": "Trump Says US May Do ‘Another Little Epic Fury’ Targeting Iran",
+          "url": "https://www.ntd.com/trump-says-us-may-do-another-little-epic-fury-targeting-iran_1181029.html"
         },
         {
-          "title": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections: NYT",
-          "url": "https://ground.news/article/us-and-israel-draw-up-plans-for-renewed-strikes-on-iran-after-elections-nyt_2066ee"
+          "title": "Trump Threatens Iran Strike — ‘We May Do Another Little Epic Fury’",
+          "url": "https://www.breitbart.com/politics/2026/10/23/trump-threatens-iran-strike-another-little-epic-fury/"
         },
         {
-          "title": "U.S., Israel draw up plans to renew Iran strikes, sources say - ABC News",
-          "url": "https://abcnews.com/video/137480327/"
+          "title": "‘Another little Epic Fury’: Trump’s chilling warning to Iran as fresh US strikes loom",
+          "url": "https://www.indiablooms.com/world/another-little-epic-fury-trumps-chilling-warning-to-iran-as-fresh-us-strikes-loom/details"
         },
         {
-          "title": "US, Israel said to draft plans for resumed strikes on Iran after midterm elections",
-          "url": "https://www.timesofisrael.com/us-israel-said-to-draft-plans-for-resumed-strikes-on-iran-after-midterm-elections/"
+          "title": "Trump Warns Iran Of Another 'Epic Fury', Revives Fears Of February-Style Attack That Killed Top Leadership",
+          "url": "https://www.thedailyjagran.com/world/news/donald-trump-warns-iran-of-another-epic-fury-revives-fears-of-february-style-attack-killed-top-leadership-tehran-response-10333822"
         },
         {
-          "title": "US and Israel drawing up plans to resume attacks on Iran post-election, sources say",
-          "url": "https://www.connectradio.fm/abc-politics/us-and-israel-drawing-up-plans-to-resume-attacks-on-iran-post-election-sources-say/"
+          "title": "Trump threatens 'another Epic Fury' against Iran if Tehran refuses deal - Türkiye Today",
+          "url": "https://www.turkiyetoday.com/region/trump-threatens-another-epic-fury-against-iran-if-tehran-refuses-deal-3230901"
         },
         {
-          "title": "April 2024 Israeli strikes on Iran",
-          "url": "https://en.wikipedia.org/wiki/April_2024_Israeli_strikes_on_Iran"
+          "title": "Trump hints at new military action against Iran amid diplomatic uncertainty",
+          "url": "https://www.pgurus.com/trump-warns-iran-of-another-little-epic-fury-as-us-envoy-says-strikes-could-happen-this-weekend"
         },
         {
-          "title": "2026 South Pars field attack",
-          "url": "https://en.wikipedia.org/wiki/2026_South_Pars_field_attack"
+          "title": "On The Brink Of Epic Fury Round Two? - Occasional Digest",
+          "url": "https://occasionaldigest.com/on-the-brink-of-epic-fury-round-two/"
         },
         {
-          "title": "US and Israel Drawing Up Plans to Resume Major Strikes on Iran After Midterms, Sources Say - World Today Journal",
-          "url": "https://world-today-journal.com/us-and-israel-drawing-up-plans-to-resume-major-strikes-on-iran-after-midterms-sources-say/"
+          "title": "what operation epic fury means for the us iran and beyond",
+          "url": "https://www.npr.org/2026/03/02/nx-s1-5732860/what-operation-epic-fury-means-for-the-us-iran-and-beyond"
         },
         {
-          "title": "Trump tells ABC Israel strikes on Iran 'excellent' and warns 'more to come'",
-          "url": "https://www.yahoo.com/news/trump-tells-abc-israel-strikes-125200409.html"
+          "title": "A day of strike and counterstrike as Trump unleashes ‘Epic Fury’ on Iran",
+          "url": "https://www.yahoo.com/news/articles/us-launches-massive-ongoing-strikes-111840887.html"
         }
       ]
     },
     {
-      "query": "Meta shares fall Thursday October 22 2026 chip stocks semiconductor index",
+      "query": "Netanyahu calls overthrow Iran regime October 23 2026",
       "results": [
         {
-          "title": "Meta stock falls despite Wall Street analysts raising price targets",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/meta-stock-falls-despite-wall-195053217.html"
+          "title": "Netanyahu calls for US and Israel to overthrow Iran as Brent crude hits five-month high",
+          "url": "https://news.google.com/read/CBMiigFBVV95cUxOTlk4OFFybXduNmdhc1dVNUQ3aVlWbTM5alJ0UUsyRndDSE9UZFFyOE14MWdLZlVPbEgyS2J4bUx6OEsxWEgxMENYMmtJcUtZQk53TjliVlFmMklmU3Y0MlYtc054NzRDVUlud3NFM1ZKMm5BZVlRdHhEWktCNUpnQVdSa2RGTTNrYVE?hl=en-US&gl=US&ceid=US%3Aen"
         },
         {
-          "title": "Meta and chip stocks decline as AI trade comes under pressure: AlphaCheck",
-          "url": "https://finance.yahoo.com/markets/article/meta-and-chip-stocks-decline-as-ai-trade-comes-under-pressure-alphacheck-140107733.html"
+          "title": "Netanyahu calls for US and Israel to overthrow Iran as Brent crude hits five-month high",
+          "url": "https://www.foxnews.com/live-news/us-iran-war-israel-netanyahu-oil-prices-10-23-26"
         },
         {
-          "title": "Meta's AI Spending and Geopolitical Tensions Trigger Tech Sell-Off",
-          "url": "https://www.kucoin.com/news/flash/meta-s-ai-spending-and-geopolitical-tensions-trigger-tech-sell-off"
+          "title": "Netanyahu Says U.S. and Israel Must Overthrow Iran",
+          "url": "https://politicalwire.com/2026/10/22/netanyahu-says-u-s-and-israel-must-overthrow-iran/"
         },
         {
-          "title": "Stock market today: S&P 500, Nasdaq tanks as tech stocks sink amid AI trade worries, Meta shares plummet",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html"
+          "title": "Netanyahu Orders Israel to Overthrow Iran's Regime Ahead of Election",
+          "url": "https://foreignpolicy.com/2026/10/22/netanyahu-israel-election-overthrow-iran-regime-us-strikes-war/"
         },
         {
-          "title": "Stocks fall as Meta dents AI optimism; French bonds under fire",
-          "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-markets-dip-investors-weigh-021515158.html"
+          "title": "Benjamin Netanyahu says IDF, Mossad ordered to overthrow Iranian regime over nukes",
+          "url": "https://www.jpost.com/israel-news/defense-news/article-912445"
         },
         {
-          "title": "Tech Falters, Yields Slump on Oil, Meta's Spending",
-          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+          "title": "Netanyahu Calls For Overthrow Of Iran’s Regime, Links It To Eliminating Hezbollah",
+          "url": "https://thisisbeirut.com.lb/news/politics/netanyahu-calls-for-overthrow-of-irans-regime-links-it-to-eliminating-hezbollah"
         },
         {
-          "title": "Meta, Tesla, and chip stocks decline as AI trade comes under pressure: AlphaCheck - AOL",
-          "url": "https://www.aol.com/articles/meta-tesla-chip-stocks-decline-134737000.html"
+          "title": "Ilhan Omar birth name questions could have far-reaching legal implications and more top headlines",
+          "url": "https://wfmd.com/2026/10/23/ilhan-omar-birth-name-questions-could-have-far-reaching-legal-implications-and-more-top-headlines"
         },
         {
-          "title": "Stock Market Today: AI and Chip Stocks Made Up 93% of the Value the Nasdaq-100 Lost",
-          "url": "https://www.stocktitan.net/articles/why-is-nasdaq-down-today-october-22-2026-ai-chip-stocks"
+          "title": "The situation around Iran is heating up after threats from Trump and Netanyahu. What the media is writing",
+          "url": "https://en.iz.ru/en/2189178/2026-10-23/situation-around-iran-heating-after-threats-trump-and-netanyahu-what-media-writing"
         },
         {
-          "title": "Nasdaq Meta: stock falls 7% as AI capex drains cash",
-          "url": "https://pomegra.io/news/nasdaq-meta-stock-falls-7-as-ai-capex-drains-cash"
-        },
-        {
-          "title": "Meta Platforms Inc Stock (META) Opened Down by 6.85% on Oct 22: A Full Analysis",
-          "url": "https://www.tradingkey.com/news/market-movers/262232550-market-movers-meta-20261022"
+          "title": "Netanyahu Calls on US and Israel to Bring Down Iran’s Regime",
+          "url": "https://qncnews.com/2026/10/22/netanyahu-calls-on-us-and-israel-to-bring-down-irans-regime/"
         }
       ]
     },
     {
-      "query": "oil prices Brent October 23 2026",
+      "query": "Houthis Bab el-Mandeb Saudi tankers blockade October 2026",
       "results": [
         {
-          "title": "Brent Crude Oil Futures Price Today - Investing.com",
-          "url": "https://www.investing.com/commodities/brent-oil"
+          "title": "Red Sea crisis",
+          "url": "https://en.wikipedia.org/wiki/Red_Sea_crisis"
         },
         {
-          "title": "Crude Oil Prices Today",
-          "url": "https://oilprice.com/"
+          "title": "As oil soars, experts watch Red Sea tankers for clarity on Houthi blockade",
+          "url": "https://www.aljazeera.com/economy/2026/7/24/as-oil-soars-experts-watch-red-sea-tankers-for-clarity-on-houthi-blockade"
         },
         {
-          "title": "Current price of oil as of Oct. 22, 2026",
-          "url": "https://fortune.com/article/price-of-oil-10-22-2026/"
+          "title": "2026 Houthi strikes on Israel",
+          "url": "https://en.wikipedia.org/wiki/2026_Houthi_strikes_on_Israel"
         },
         {
-          "title": "Oil Price Charts",
-          "url": "https://oilprice.com/oil-price-charts/"
+          "title": "Houthis claim strike on Saudi tanker in latest Red Sea escalation",
+          "url": "https://www.euronews.com/2026/08/24/houthis-claim-strike-on-saudi-tanker-in-latest-red-sea-escalation"
         },
         {
-          "title": "Citi’s $60 Oil Call Meets $112 Brent",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Citis-60-Oil-Call-Meets-112-Brent.html"
+          "title": "The Houthis Strike a Saudi Tanker Far Off the Blockade Zone",
+          "url": "https://windward.ai/blog/the-houthis-strike-a-saudi-tanker-off-yanbu/"
         },
         {
-          "title": "Crude Oil (Brent) Today",
-          "url": "https://www.dealplexus.com/markets/crude-oil-price-today"
+          "title": "Can the Suez save Asian oil consumers after Houthis shut Bab al-Mandeb?",
+          "url": "https://www.aljazeera.com/news/2026/7/22/can-the-suez-save-asian-oil-consumers-after-houthis-shut-bab-al-mandeb"
         },
         {
-          "title": "oil prices rise as brent hits 75 wti nears 72",
-          "url": "https://newsonair.gov.in/oil-prices-rise-as-brent-hits-75-wti-nears-72"
+          "title": "The Double Chokehold: Houthis Choke the Bab el-Mandeb to Saudi Oil - YouTube",
+          "url": "https://www.youtube.com/watch?v=mT7Dzt60Rj4"
         },
         {
-          "title": "crude oil prices rise brent at 67 73 wti at 63 68 per barrel",
-          "url": "https://www.newsonair.gov.in/crude-oil-prices-rise-brent-at-67-73-wti-at-63-68-per-barrel"
+          "title": "Trade Under Pressure: The Houthi Threat to the Bab el-Mandeb Strait",
+          "url": "https://atlasinstitute.org/trade-under-pressure-the-houthi-threat-to-the-bab-el-mandeb-strait/"
         },
         {
-          "title": "crude oil prices fall brent at 67 93 wti at 65 43",
-          "url": "https://www.newsonair.gov.in/crude-oil-prices-fall-brent-at-67-93-wti-at-65-43"
-        },
-        {
-          "title": "brent crude rises 0 8 to 72 46 wti crude gains nearly 1 to 68 68",
-          "url": "https://www.newsonair.gov.in/brent-crude-rises-0-8-to-72-46-wti-crude-gains-nearly-1-to-68-68"
+          "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
+          "url": "https://www.euronews.com/2018/07/26/saudi-arabia-suspends-oil-shipments-through-red-sea-strait-after-n894731"
         }
       ]
     },
     {
-      "query": "Asian markets Friday October 23 2026",
+      "query": "Oleshky ceasefire Melania Trump prisoner swap 270",
       "results": [
         {
-          "title": "Asian Markets Weak; Oil Above $112 May Weigh on Nifty, Sensex",
-          "url": "https://hdfcsky.com/news/global-markets-today-asia-declines-as-ai-worries-hit-wall-street-oil-prices-stay-elevated"
+          "title": "Melania Trump claims ceasefire in Russian-held Oleshky",
+          "url": "https://www.rte.ie/news/world/2026/1023/1596633-russia-ukraine/"
         },
         {
-          "title": "23 October, 2026 Stock Market Updates: Sensex jumps 416 points, Nifty near 22,750, IT stocks rally - India TV News",
-          "url": "https://www.indiatvnews.com/business/news/23-october-2026-stock-market-updates-sensex-nifty-today-amid-weak-global-cues-brent-crude-oil-surge-gold-silver-fall-infosys-tcs-gains-2026-10-23-1057697"
+          "title": "Ukraine, Russia agree to Oleshky ceasefire brokered by Melania Trump - The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/world/article-melania-trump-oleshky-ceasefire-russia-ukraine/"
         },
         {
-          "title": "investingLive Asia-Pacific market news: Asian stocks slide as chip rout spreads",
-          "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-asian-stocks-slide-as-chip-rout-spreads/"
+          "title": "Ukraine war latest: Ukraine, Russia agree to local ceasefire for Russian-occupied Oleshky, mediated by Melania Trump",
+          "url": "https://kyivindependent.com/ukraine-war-latest-ukraine-russia-agree-to-local-ceasefire-for-russian-occupied-oleshky-mediated-by-melania-trump/"
         },
         {
-          "title": "ASX edges up at close, ABC's The Business will be discontinued at the end of 2026 — as it happened - ABC News",
-          "url": "https://www.abc.net.au/news/2026-10-23/asx-markets-business-news-live-updates-oct-23/107291840"
+          "title": "Russia, Ukraine Agree on Ceasefire in Embattled Oleshky, Plan New Peace Talks Next Month - The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/10/24/russia-ukraine-agree-on-ceasefire-in-embattled-oleshky-plan-new-peace-talks-next-month-a94069"
         },
         {
-          "title": "China Shanghai Composite Stock Market Index - Quote - Chart - Historical Data - News",
-          "url": "https://tradingeconomics.com/china/stock-market"
+          "title": "Russia, Ukraine agree on ceasefire in embattled town, to hold peace talks next month - Yahoo News UK",
+          "url": "https://uk.news.yahoo.com/russia-ukraine-agree-ceasefire-embattled-211626535.html"
         },
         {
-          "title": "Market Pulse",
-          "url": "https://nordfx.com/market-news/market-pulse-october-23-2026"
+          "title": "Melania Trump 'brokers ceasefire' in Russian-occupied Oleshky as Starshield row continues - ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-24/ukraine-latest/107304160"
         },
         {
-          "title": "October 20, 2025 6:26 PM",
-          "url": "https://www.newsonair.gov.in/asian-markets-rally-european-indices-mixed"
+          "title": "Russia, Ukraine agree to ceasefire for one city brokered by Melania Trump, White House says",
+          "url": "https://www.nbcnews.com/world/ukraine/russia-ukraine-agree-ceasefire-city-brokered-melania-trump-rcna605217"
         },
         {
-          "title": "October 6, 2023 4:51 PM",
-          "url": "https://www.newsonair.gov.in/tag/asian-markets"
+          "title": "First Lady Melania Trump Secures Ceasefire Between Russia and Ukraine, Localized to Oleshky",
+          "url": "https://www.whitehouse.gov/briefings-statements/2026/10/first-lady-melania-trump-secures-ceasefire-between-russia-and-ukraine-localized-to-oleshky/"
         },
         {
-          "title": "October 15, 2025 5:59 PM",
-          "url": "https://www.newsonair.gov.in/most-asian-markets-end-higher-european-indices-trade-mixed"
-        },
-        {
-          "title": "March 23, 2026 9:10 PM",
-          "url": "https://www.newsonair.gov.in/most-asian-markets-tumbled-european-indices-trading-high"
+          "title": "Trump says large Russia-Ukraine prisoner swap \"could lead to something big\"",
+          "url": "https://www.cbsnews.com/amp/news/trump-russia-ukraine-war-prisoner-swap-ceasefire-talks"
         }
       ]
     },
     {
-      "query": "Russia ballistic missiles Kyiv October 22 2026 killed",
+      "query": "Cook Political Report forecaster GOP House October 23 2026",
       "results": [
         {
-          "title": "Russian missiles and drones hit Kyiv overnight, killing 1 and injuring 8 - ABC News",
-          "url": "https://abcnews.com/International/wireStory/russian-missiles-drones-hit-kyiv-overnight-killing-1-137371029"
+          "title": "Cook Report: 12 to 22 House Seats Will Flip to Dems",
+          "url": "https://www.yahoo.com/news/politics/articles/cook-report-12-22-house-181225986.html"
         },
         {
-          "title": "Russian Missiles and Drones Hit Kyiv Overnight, Killing 1 and Injuring 8",
-          "url": "https://www.usnews.com/news/world/articles/2026-10-19/russian-missiles-and-drones-hit-kyiv-overnight-killing-1-and-injuring-8"
+          "title": "Elections forecaster has bad news for GOP as Trump campaigns in Florida",
+          "url": "https://www.cnn.com/2026/10/23/politics/live-news/midterm-election-congress"
         },
         {
-          "title": "Russia fires 3 waves of ballistic missiles at Kyiv after peace talks, Zelenskyy says - ABC News",
-          "url": "https://abcnews.com/amp/International/russia-fires-3-waves-ballistic-missiles-kyiv-after/story?id=137469151"
+          "title": "Top election forecaster: GOP path to holding the House ‘has all but evaporated’",
+          "url": "https://www.cnn.com/2026/10/23/politics/video/ebof-david-wasserman-cook-political-report-gop-house-races-midterms-2026"
         },
         {
-          "title": "Russian missiles pound Kyiv as Moscow says over 800 Ukrainian drones downed",
-          "url": "https://www.pbs.org/newshour/world/russian-missiles-pound-kyiv-as-moscow-says-over-800-ukrainian-drones-downed"
+          "title": "Cook Political Report moves 11 House races move toward Democrats - The Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/10/16/cook-political-report-moves-11-house-races-move-toward-democrats/"
         },
         {
-          "title": "Russia hits Kyiv with missiles as Ukraine fires drones at Moscow, despite push to resume talks - The Globe and Mail",
-          "url": "https://www.theglobeandmail.com/world/article-russia-launches-missiles-ukraine-drones/"
+          "title": "Republicans’ Chances Of Maintaining House Majority Have ‘All But Evaporated’ Cook Political Report Says",
+          "url": "https://www.yahoo.com/news/politics/articles/republicans-chances-maintaining-house-majority-164524452.html"
         },
         {
-          "title": "Russian missiles pound Kyiv as Moscow says over 800 Ukrainian drones downed",
-          "url": "https://www.ksl.com/article/51639518/russian-missiles-pound-kyiv-as-moscow-says-over-800-ukrainian-drones-downed"
+          "title": "2026 House Election Forecast Maps - 270toWin",
+          "url": "https://www.270towin.com/2026-house-election-predictions/"
         },
         {
-          "title": "Kyiv hit by missiles",
-          "url": "https://mediabias.news/conflict/kyiv-hit-by-russian-ballistic-missiles-one-dead-22-injured"
+          "title": "2010 United States House of Representatives election ratings",
+          "url": "https://en.wikipedia.org/wiki/2010_United_States_House_of_Representatives_election_ratings"
         },
         {
-          "title": "Russian ballistic missile salvo kills civilian in Kyiv, Ukraine says",
-          "url": "https://www.yahoo.com/news/russias-missile-attack-kyiv-kills-034117504.html"
+          "title": "2026 United States House of Representatives elections in New Mexico",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Mexico"
         },
         {
-          "title": "Russian ballistic missile attack on Kyiv kills 1, injures 4",
-          "url": "https://www.yahoo.com/news/fires-damage-reported-kyiv-following-025639697.html"
+          "title": "Map Shows Closest House Races as Cook Shifts 19 Seats Toward Democrats - Newsweek",
+          "url": "https://www.newsweek.com/map-shows-closest-house-races-as-cook-shifts-19-seats-toward-democrats-12611217"
+        },
+        {
+          "title": "Midterms 2026: Will Republicans or Democrats win control of the House? These are the key races to watch.",
+          "url": "https://www.yahoo.com/news/politics/article/midterms-2026-will-republicans-or-democrats-win-control-of-the-house-these-are-the-key-races-to-watch-170805806.html"
         }
       ]
     },
     {
-      "query": "Trump Iowa rally Sioux City Hinson October 22",
+      "query": "Brazil runoff Sunday Lula Flavio Bolsonaro final polls October 24",
       "results": [
         {
-          "title": "President Trump to campaign in Iowa for Hinson and Lahn, ahead of midterm elections",
-          "url": "https://www.iowapublicradio.org/political-news/2026-10-16/trump-campaign-iowa-hinson-lahn-2026-midterms-election-day-republican"
+          "title": "Trump Ally Bolsonaro Tops Lula in Brazil Vote, Forcing Runoff - Newsweek",
+          "url": "https://www.newsweek.com/trump-ally-bolsonaro-vs-lula-final-polls-as-brazil-votes-for-president-12519169"
         },
         {
-          "title": "2026 Midterm Elections: Trump Campaigns in Iowa",
-          "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-iowa-election-lawsuit-october-22"
+          "title": "Bolsonaro and Lula Tied Ahead of Brazil Runoff, Poll Shows - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/bolsonaro-and-lula-tied-ahead-of-brazil-runoff-vote-poll-shows"
         },
         {
-          "title": "Trump rallies in Iowa for Ashley Hinson, other GOP midterm candidates",
-          "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-rally-hinson-iowa-vance-nebraska-congress-2026-live-updates-rcna604927"
+          "title": "Brazil Election Results 2026: Runoff Live Count, October 25",
+          "url": "https://www.riotimesonline.com/brazil-election-results-2026/"
         },
         {
-          "title": "President Donald Trump plans two rallies in Iowa before the midterm election",
-          "url": "https://www.thegazette.com/news/elections/candidates/president-trump-to-rally-in-sioux-city-thursday/article_498aa17f-4a56-482b-86e2-c4ff73f5bc44.html"
+          "title": "Brazil Runoff Date and Results Time: 25 October, 4 p.m. ET",
+          "url": "https://www.riotimesonline.com/brazil-runoff-results-start-time-where-to-follow-october-25-2026/"
         },
         {
-          "title": "President Trump Midterm Election Rally in Sioux City, IA - The Republican Party of Iowa",
-          "url": "https://iowagop.org/event/president-trump-midterm-election-rally-in-sioux-city-ia/"
-        },
-        {
-          "title": "President Trump returns to Iowa to rally GOP voters ahead of November midterms",
-          "url": "https://cbs2iowa.com/news/election/president-trump-returns-to-iowa-to-rally-gop-voters-ahead-of-november-midterms"
-        },
-        {
-          "title": "List of Donald Trump rallies (2025%E2%80%93present)",
-          "url": "https://en.wikipedia.org/wiki/List_of_Donald_Trump_rallies_(2025%E2%80%93present)"
-        },
-        {
-          "title": "Hinson Joins Trump at Sioux City Rally as Iowa Senate Race…",
-          "url": "https://iowa-news.com/article/hinson-joins-trump-at-sioux-city-rally-as-iowa-senate-race-tightens"
-        },
-        {
-          "title": "Donald Trump to Iowans: 'Will You Get Your Numbers Up, Please?'",
-          "url": "https://www.nbcnews.com/news/amp/ncna452636"
-        }
-      ]
-    },
-    {
-      "query": "French bonds sell-off October 22 2026 France yields",
-      "results": [
-        {
-          "title": "France 10-Year Government Bond Yield - Quote - Chart - Historical Data - News",
-          "url": "https://tradingeconomics.com/france/government-bond-yield"
-        },
-        {
-          "title": "France 10-Year Bond Yield Surpasses U.S. Treasury Yield, Impacting EWQ ETF on October 22, 2026",
-          "url": "https://www.gurufocus.com/news/9136852/france-10year-bond-yield-surpasses-us-treasury-yield-impacting-ewq-etf-on-october-22-2026"
-        },
-        {
-          "title": "How the French bond drama affects U.S. markets",
-          "url": "https://www.axios.com/2026/10/22/french-bond-market-spillover"
-        },
-        {
-          "title": "Five things to know as French bond yield tops 5%",
-          "url": "https://finance.yahoo.com/economy/policy/articles/five-things-know-french-bond-124335224.html"
-        },
-        {
-          "title": "France 30 Year bond-Yield - Quote - Chart - Historical Data - News",
-          "url": "https://tradingeconomics.com/france/30-year-bond-yield"
-        },
-        {
-          "title": "Five things to know as French bond yield tops 5%",
-          "url": "https://www.france24.com/en/live-news/20261021-five-things-to-know-as-french-bond-yield-tops-5"
-        },
-        {
-          "title": "French yields cross 5%, spread widest since 2011",
-          "url": "https://www.disruptionbanking.com/2026/10/22/french-yields-cross-5-spread-widest-since-2011/"
-        },
-        {
-          "title": "France’s Bond Yields Climb After Fitch Downgrade",
-          "url": "https://tradingeconomics.com/france/government-bond-yield/news/485191"
-        },
-        {
-          "title": "6 month bill yield",
-          "url": "https://tradingeconomics.com/france/6-month-bill-yield"
-        },
-        {
-          "title": "52 week bill yield",
-          "url": "https://tradingeconomics.com/france/52-week-bill-yield"
-        }
-      ]
-    },
-    {
-      "query": "Europe news October 22 2026",
-      "results": [
-        {
-          "title": "News 22 October 2026 - Archive Euronews",
-          "url": "https://www.euronews.com/2026/10/22"
-        },
-        {
-          "title": "Latest News: Today's Top Headlines & Live Updates",
-          "url": "https://www.euronews.com/just-in"
-        },
-        {
-          "title": "Video. Latest news bulletin",
-          "url": "https://www.euronews.com/video/2026/10/22/latest-news-bulletin-october-22nd-2026-morning"
-        },
-        {
-          "title": "Europe News",
-          "url": "https://www.aljazeera.com/europe/"
-        },
-        {
-          "title": "Newsquawk European Market Wrap - 22nd October 2026",
-          "url": "https://www.newsquawk.com/headlines/newsquawk-european-market-wrap---22nd-october-2026"
-        },
-        {
-          "title": "Europe Intelligence Brief for Thursday, October 22, 2026",
-          "url": "https://www.riotimesonline.com/europe-intelligence-brief-thursday-october-22-2026"
-        },
-        {
-          "title": "top news stories today",
-          "url": "https://euronews.com/programs/top-news-stories-today"
-        },
-        {
-          "title": "weather europe today 20260322",
-          "url": "https://www.euronews.com/video/2026/03/22/weather-europe-today-20260322"
-        },
-        {
-          "title": "www.euronews.com",
-          "url": "https://www.euronews.com/profiles/3564"
-        }
-      ]
-    },
-    {
-      "query": "Israel election news October 22 2026",
-      "results": [
-        {
-          "title": "Israelis are heading to the polls in their most seismic election in decades - ABC News",
-          "url": "https://www.abc.net.au/news/2026-10-23/israel-election-2026-explained/107287156"
-        },
-        {
-          "title": "'Beaten by Fellow Citizens",
-          "url": "https://www.haaretz.com/israel-news/elections/2026-10-22/ty-article-live/democrats-party-activists-attacked-may-your-entire-family-burn/000001a1-6192-da49-abe9-6ffa72520000"
-        },
-        {
-          "title": "Netanyahu, Opposition Parties Still Fall Short of Majority, New Polls Show - Israel Elections 2026",
-          "url": "https://www.haaretz.com/israel-news/elections/2026-10-20/ty-article-live/report-hegseth-meets-netanyahu-in-unannounced-visit-to-israel/000001a1-56da-d7ce-a9a1-d7ff8bfb0000"
-        },
-        {
-          "title": "Final Israeli polls point to stalemate ahead of Tuesday’s election",
-          "url": "https://jewishinsider.com/2026/10/final-israeli-polls-stalemate-tuesdays-election/"
-        },
-        {
-          "title": "Oct. 22: Trump claims Iran ‘making up fake hits’ to drive up oil prices ahead of midterms",
-          "url": "https://www.timesofisrael.com/liveblog-october-22-2026/"
-        },
-        {
-          "title": "Opposition bloc widens lead over Netanyahu coalition days out from Israeli elections, JC polling analysis shows - The Jewish Chronicle",
-          "url": "https://www.thejc.com/news/israel/eisenkot-widens-lead-over-netanyahu-days-out-from-knesset-election-jc-polling-analysis-shows-ohhrod7e"
-        },
-        {
-          "title": "Israeli Election News",
-          "url": "https://www.israel.com/news/section/election"
-        },
-        {
-          "title": "israel election",
-          "url": "https://www.npr.org/2001/02/06/1118145/israel-election"
-        },
-        {
-          "title": "israel election",
-          "url": "https://www.npr.org/2001/02/05/1118123/israel-election"
-        }
-      ]
-    },
-    {
-      "query": "Ebola Nigeria Kenya Congo update October 22 2026",
-      "results": [
-        {
-          "title": "Nigeria confirms first Ebola case amid concerns about continental spread",
-          "url": "https://www.aljazeera.com/news/2026/10/20/kenya-confirms-ninth-ebola-case"
-        },
-        {
-          "title": "Africa faces ‘complex’ Ebola outbreak after spread to Nigeria",
-          "url": "https://www.freemalaysiatoday.com/category/world/2026/10/22/africa-faces-complex-ebola-outbreak-after-spread-to-nigeria"
-        },
-        {
-          "title": "Nigeria confirms an Ebola case in Abuja as a woman arriving from Uganda tests positive",
-          "url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case"
-        },
-        {
-          "title": "Ebola spreads to Nigeria and Kenya as epidemic expands beyond Congo (DRC) - World Socialist Web Site",
-          "url": "https://www.wsws.org/en/articles/2026/10/22/cbih-o22.html"
-        },
-        {
-          "title": "WHO warns ‘more complex’ Ebola outbreak now present in 3 African countries",
-          "url": "https://www.aljazeera.com/news/2026/10/22/who-warns-more-complex-ebola-outbreak-now-present-in-3-african-countries"
-        },
-        {
-          "title": "ebola virus",
-          "url": "https://www.euronews.com/tag/ebola-virus?p=3"
-        },
-        {
-          "title": "new outbreak of deadly ebola virus disease spreads in democratic republic of congo 1401889347685",
-          "url": "https://www.nbcnews.com/video/new-outbreak-of-deadly-ebola-virus-disease-spreads-in-democratic-republic-of-congo-1401889347685"
-        },
-        {
-          "title": "Kenya patient free of Ebola, as Congo, Uganda fight outbreak",
-          "url": "https://news.yahoo.com/kenya-investigates-patient-ebola-symptoms-090151804.html"
-        },
-        {
-          "title": "two americans diagnosed with ebola in liberia 313120323548",
-          "url": "https://www.nbcnews.com/video/two-americans-diagnosed-with-ebola-in-liberia-313120323548"
-        }
-      ]
-    },
-    {
-      "query": "Aramco evacuates Dhahran headquarters Houthi",
-      "results": [
-        {
-          "title": "Saudi Aramco evacuates Dhahran HQ after Houthi attack, sources say",
-          "url": "https://www.timeslive.co.za/news/world/2026-10-22-saudi-aramco-evacuates-dhahran-hq-after-houthi-attack-sources-say/"
-        },
-        {
-          "title": "Saudi Aramco evacuates Dhahran headquarters, orders staff to work from home",
-          "url": "https://gulfnews.com/world/gulf/saudi/saudi-aramco-orders-full-evacuation-of-dhahran-headquarters-amid-houthi-attacks-1.500719958"
-        },
-        {
-          "title": "Saudi Aramco evacuates HQ for first time since Yemen war resumed",
-          "url": "https://www.newarab.com/news/saudi-aramco-evacuates-hq-first-time-yemen-war-resumed"
-        },
-        {
-          "title": "Saudi-Houthi Conflict Intensifies: Key Developments and Regional Implications",
-          "url": "https://gulfnews.com/world/gulf/yemen/saudi-houthi-conflict-escalates-7-major-developments-and-what-comes-next-1.500720156"
-        },
-        {
-          "title": "Aramco evacuates Dhahran HQ amid Houthi tensions",
-          "url": "https://news.az/news/aramco-evacuates-dhahran-hq-amid-houthi-tensions"
-        },
-        {
-          "title": "Aramco Evacuates Dhahran HQ After Alarm as Houthi Strikes Intensify - Briefs Finance",
-          "url": "https://www.briefs.co/news/aramco-evacuates-dhahran-hq-after-alarm-as-houthi-strikes-in/"
-        },
-        {
-          "title": "Saudi Aramco",
-          "url": "https://en.wikipedia.org/wiki/Saudi_Aramco"
-        },
-        {
-          "title": "Saudi Aramco Orders Staff To Evacuate Dhahran Headquarters And Work Remotely: 12 outlets compared",
-          "url": "https://newscord.org/article/saudi-aramco-orders-dhahran-headquarters-evacuation-as-houthis-continue-attacks--Story_20261022_efefb27a"
-        },
-        {
-          "title": "Saudi Aramco evacuates Dhahran headquarters staff — Jerusalem Post",
-          "url": "https://ua.news/en/energetika/saudi-aramco-evakuiuie-personal-shtab-kvartiri-v-dakhrani-jerusalem-post"
-        }
-      ]
-    },
-    {
-      "query": "China Asia news October 22 2026 Japan Korea",
-      "results": [
-        {
-          "title": "China-Japan relations: Latest News and Updates",
-          "url": "https://www.scmp.com/topics/china-japan-relations"
-        },
-        {
-          "title": "China-South Korea relations: Latest News and Updates",
-          "url": "https://www.scmp.com/topics/china-south-korea-relations"
-        },
-        {
-          "title": "The Korea Daily News",
-          "url": "https://en.wikipedia.org/wiki/The_Korea_Daily_News"
-        },
-        {
-          "title": "Korean News",
-          "url": "https://en.wikipedia.org/wiki/Korean_News"
-        },
-        {
-          "title": "China Today (TV program)",
-          "url": "https://en.wikipedia.org/wiki/China_Today_(TV_program)"
-        },
-        {
-          "title": "Stock market today: Live updates",
-          "url": "https://cnbc.com/2026/10/22/stock-market-today-live-update.html"
-        },
-        {
-          "title": "In combating China, McCormick wants help from South Korea and Japan",
-          "url": "https://northpennnow.com/state-news/in-combating-china-mccormick-wants-help-from-south-korea-and-japan/"
-        },
-        {
-          "title": "China",
-          "url": "https://www.aljazeera.com/where/china/"
-        },
-        {
-          "title": "us japan and south korea condemn chinas dangerous and aggressive actions in south china sea",
-          "url": "https://newsonair.gov.in/us-japan-and-south-korea-condemn-chinas-dangerous-and-aggressive-actions-in-south-china-sea"
-        }
-      ]
-    },
-    {
-      "query": "Sudan news October 22 2026",
-      "results": [
-        {
-          "title": "Sudan news - Today’s latest updates - CBS News",
-          "url": "https://www.cbsnews.com/tag/sudan/"
-        },
-        {
-          "title": "Sudan",
-          "url": "https://news.un.org/en/tags/sudan"
-        },
-        {
-          "title": "Sudan News Agency",
-          "url": "https://en.wikipedia.org/wiki/Sudan_News_Agency"
-        },
-        {
-          "title": "Dabanga Radio TV Online - Latest Sudan News",
-          "url": "https://www.dabangasudan.org/en"
-        },
-        {
-          "title": "Sudans Post",
-          "url": "https://en.wikipedia.org/wiki/Sudans_Post"
-        },
-        {
-          "title": "Sudan Tribune - Plural news and views on Sudan",
-          "url": "https://sudantribune.com/"
-        },
-        {
-          "title": "Sudan",
-          "url": "https://www.aljazeera.com/where/sudan/"
-        },
-        {
-          "title": "TRT Afrika - Sudanese army recaptures strategic military base from RSF",
-          "url": "https://trtafrika.com/english/article/22e72ece74d5"
-        },
-        {
-          "title": "January 19",
-          "url": "https://allafrica.com/sudan/?page=4"
-        }
-      ]
-    },
-    {
-      "query": "Brazil presidential runoff October 25 2026 polls",
-      "results": [
-        {
-          "title": "Bolsonaro's Lead Over Lula Narrows Ahead Brazil Runoff, Quaest Poll Shows",
-          "url": "https://www.usnews.com/news/world/articles/2026-10-21/bolsonaros-lead-over-lula-narrows-ahead-brazil-runoff-quaest-poll-shows"
-        },
-        {
-          "title": "Brazil Runoff Poll Puts Flávio 1 Point Up",
-          "url": "https://www.riotimesonline.com/quaest-poll-flavio-45-lula-44-runoff-2026/"
-        },
-        {
-          "title": "Brazil Election 2026: Presidential Runoff, Lula vs Flávio",
-          "url": "https://www.riotimesonline.com/brazil-runoff-october-25-2026-flavio-bolsonaro-lula/"
-        },
-        {
-          "title": "Brazil Election Polls Today: Flávio 51%, Lula 49% Average",
-          "url": "https://www.riotimesonline.com/brazil-runoff-polls-2026/"
-        },
-        {
-          "title": "The Big Read: Brazil, Friday 23 October",
-          "url": "https://www.riotimesonline.com/the-big-read-brazil-23-october-2026/"
-        },
-        {
-          "title": "Lula Leads 51% to 49% in Vox Brasil Poll",
-          "url": "https://www.riotimesonline.com/vox-brasil-poll-lula-51-flavio-49-runoff-2026/"
+          "title": "Brazil: Flávio Bolsonaro Ahead of Socialist Lula in Most Polls Hours Before Runoff",
+          "url": "https://www.breitbart.com/latin-america/2026/10/23/brazil-flavio-bolsonaro-ahead-socialist-lula-most-polls-hours-before-runoff/"
         },
         {
           "title": "Brazil Poll Gives Flávio 52% and Lula 48%",
           "url": "https://www.riotimesonline.com/real-time-big-data-poll-flavio-52-lula-48-runoff-2026/"
         },
         {
-          "title": "Poll shows Bolsonaro with slight lead over Lula ahead of Brazilian run-off",
-          "url": "https://www.aljazeera.com/news/2026/10/15/poll-shows-bolsonaro-with-slight-lead-over-lula-ahead-of-brazilian-run-off"
+          "title": "Brazil Election 2026: Presidential Runoff, Lula vs Flávio",
+          "url": "https://www.riotimesonline.com/brazil-runoff-october-25-2026-flavio-bolsonaro-lula/"
         },
         {
-          "title": "Brazil presidential race heads to runoff as Lula tops 1st round, Bolsonaro outperforms polling",
-          "url": "https://amp.cbc.ca/lite/story/1.6603351"
+          "title": "Latest poll shows Bolsonaro maintaining edge over Lula in Brazil run-off",
+          "url": "https://www.aljazeera.com/news/2026/10/16/latest-poll-shows-bolsonaro-maintaining-edge-over-lula-in-brazil-run-off"
+        },
+        {
+          "title": "Lula may clinch Brazil election on Sunday, final polls show",
+          "url": "https://www.pressreader.com/guyana/stabroek-news-sunday/20221002/281539409841264"
+        }
+      ]
+    },
+    {
+      "query": "Starlink Ukraine Trump Musk restored interruptions October 23",
+      "results": [
+        {
+          "title": "Trump says Starlink access restored, but Ukraine reports more interruptions - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/10/23/trump-says-starlink-access-restored-ukraine-reports-more-interruptions/"
+        },
+        {
+          "title": "Kyiv denies reports that Trump, Musk have restored Starlink speeds in Ukraine",
+          "url": "https://kyivindependent.com/kyiv-denies-reports-that-trump-musk-have-restored-starlink-speeds-in-ukraine/"
+        },
+        {
+          "title": "Trump says Musk restored Ukraine’s Starlink access amid Russia war",
+          "url": "https://www.aljazeera.com/news/2026/10/23/trump-says-musk-restored-ukraines-starlink-access-amid-russia-war"
+        },
+        {
+          "title": "Trump says Musk restored Ukraine's Starlink service",
+          "url": "https://www.rte.ie/news/world/2026/1023/1596527-ukraine-starlink-trump/"
+        },
+        {
+          "title": "Trump says Elon Musk restored Ukraine’s Starlink access but Kyiv says service still limited",
+          "url": "https://www.nbcnews.com/world/europe/trump-says-musk-restored-ukraine-starlink-access-rcna605165"
+        },
+        {
+          "title": "Ukrainian officials say Starshield restrictions still in place, despite Trump’s claims",
+          "url": "https://edition.cnn.com/2026/10/23/world/trump-musk-restored-ukraines-starshield-intl"
+        },
+        {
+          "title": "Ukrainska Pravda: Elon Musk shutting off Starlink communications disrupted Ukrainian attack on Russian navy",
+          "url": "https://news.yahoo.com/ukrainska-pravda-elon-musk-shutting-215732057.html"
+        },
+        {
+          "title": "starlink 3",
+          "url": "https://www.globalsecurity.org/space/world/ukraine/starlink-3.htm"
+        },
+        {
+          "title": "Oct 14th, 2022",
+          "url": "https://www.bloomberg.com/news/videos/2022-10-14/musk-s-ukraine-starlink-warning-video"
+        }
+      ]
+    },
+    {
+      "query": "Europe news October 23 2026",
+      "results": [
+        {
+          "title": "News 23 October 2026 - Archive Euronews",
+          "url": "https://www.euronews.com/2026/10/23"
+        },
+        {
+          "title": "Europe News",
+          "url": "https://www.aljazeera.com/europe/"
+        },
+        {
+          "title": "Headlines for October 23, 2026",
+          "url": "https://www.democracynow.org/2026/10/23/headlines"
+        },
+        {
+          "title": "Early Edition: October 23, 2026",
+          "url": "https://www.justsecurity.org/161891/early-edition-october-23-2026/"
+        },
+        {
+          "title": "Europe Intelligence Brief for Friday, October 23, 2026",
+          "url": "https://www.riotimesonline.com/europe-intelligence-brief-friday-october-23-2026/"
+        },
+        {
+          "title": "top news stories today",
+          "url": "https://euronews.com/programs/top-news-stories-today"
+        },
+        {
+          "title": "world news",
+          "url": "https://www.euronews.com/tag/world-news?p=7"
+        },
+        {
+          "title": "www.euronews.com",
+          "url": "https://www.euronews.com/profiles/3564"
+        },
+        {
+          "title": "top stories",
+          "url": "https://euronews.com/tag/top-stories?p=3"
+        }
+      ]
+    },
+    {
+      "query": "Saudi Arabia Houthi attacks October 23 2026",
+      "results": [
+        {
+          "title": "UN Chief Expresses Concern over Houthi Attacks on Saudi Arabia, Escalating Violence in Yemen",
+          "url": "https://english.aawsat.com/gulf/5332565-un-chief-expresses-concern-over-houthi-attacks-saudi-arabia-escalating-violence-yemen"
+        },
+        {
+          "title": "Pakistan confirms it has troops in Saudi as conflict with Yemen’s Houthi rebels escalates",
+          "url": "https://www.cnn.com/2026/10/07/middleeast/houthis-attack-saudi-airports-latam-intl"
+        },
+        {
+          "title": "Houthis strike Aramco hours after Saudi-led coalition hits Sanaa oil site",
+          "url": "https://www.aljazeera.com/news/2026/10/13/houthis-threaten-saudi-arabias-aramco-facilities-and-airports"
+        },
+        {
+          "title": "Three killed, 36 injured in Houthi attacks on Saudi airports, Riyadh says",
+          "url": "https://www.aljazeera.com/news/2026/10/7/saudi-arabia-says-three-foreign-nationals-killed-in-attacks-on-airports"
+        },
+        {
+          "title": "Attack on Saudi Arabia’s King Fahd airport kills two people",
+          "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2"
+        },
+        {
+          "title": "saudi 220210 whitehouse01",
+          "url": "https://www.globalsecurity.org/wmd/library/news/saudi/2022/saudi-220210-whitehouse01.htm"
+        },
+        {
+          "title": "mil 190702 state01",
+          "url": "https://www.globalsecurity.org/military/library/news/2019/07/mil-190702-state01.htm"
+        },
+        {
+          "title": "mil 190612 sputnik05",
+          "url": "https://www.globalsecurity.org/military/library/news/2019/06/mil-190612-sputnik05.htm"
+        },
+        {
+          "title": "mil 220325 state01",
+          "url": "https://www.globalsecurity.org/military/library/news/2022/03/mil-220325-state01.htm"
+        },
+        {
+          "title": "www.malaymail.com",
+          "url": "https://www.malaymail.com/news/world/2021/04/17/yemens-houthis-say-they-have-hit-saudi-arabias-king-khalid-air-base/1967311"
+        }
+      ]
+    },
+    {
+      "query": "Iran undersea cables Persian Gulf contingency Reuters",
+      "results": [
+        {
+          "title": "Iran warns Persian Gulf subsea cables are targets if war resumes",
+          "url": "https://www.bairdmaritime.com/security/incidents/acts-of-war/iran-warns-persian-gulf-subsea-cables-are-targets-if-war-resumes"
+        },
+        {
+          "title": "Iran officials say they will target undersea cables if US strikes",
+          "url": "https://www.iranintl.com/en/202610237494"
+        },
+        {
+          "title": "Iranian officials: Tehran has detailed plans to hit Gulf undersea cables if war resumes",
+          "url": "https://www.timesofisrael.com/liveblog_entry/iranian-officials-tehran-has-detailed-plans-to-hit-gulf-undersea-cables-if-war-resumes/"
+        },
+        {
+          "title": "Iran Has Detailed Plans to Hit Gulf Undersea Cables if War Resumes, Officials Say - GV Wire",
+          "url": "https://gvwire.com/2026/10/23/iran-has-detailed-plans-to-hit-gulf-undersea-cables-if-war-resumes-officials-say/"
+        },
+        {
+          "title": "Iran threatens Gulf internet cables if war with US and Israel resumes",
+          "url": "https://dailypioneer.com/amp/story/world/iran-threatens-gulf-internet-cables-if-war-with-us-and-israel-resumes"
+        },
+        {
+          "title": "Netanyahu calls for US and Israel to overthrow Iran as Brent crude hits five-month high",
+          "url": "https://foxnews.com/live-news/us-iran-war-israel-netanyahu-oil-prices-10-23-26"
+        },
+        {
+          "title": "Iran Threatens to Target Undersea Internet Cables if US, Israel Resume Strikes",
+          "url": "https://www.arabtimesonline.com/news/iran-threatens-to-target-undersea-internet-cables-if-us-israel-resume-strikes/"
+        },
+        {
+          "title": "Trump Threatens Iran Strike — ‘We May Do Another Little Epic Fury’",
+          "url": "https://breitbart.com/politics/2026/10/23/trump-threatens-iran-strike-another-little-epic-fury"
+        },
+        {
+          "title": "Iran war: Will your internet slow soon? Hormuz tensions raise undersea cable risks",
+          "url": "https://gulfnews.com/business/markets/iran-war-will-your-internet-slow-soon-hormuz-tensions-raise-undersea-cable-risks-1.500479198"
+        }
+      ]
+    },
+    {
+      "query": "Asia news October 23 2026 China Japan Korea",
+      "results": [
+        {
+          "title": "Nikkei Asia - Business, Politics, Economy and Tech News & Analysis",
+          "url": "https://asia.nikkei.com/"
+        },
+        {
+          "title": "List of programmes broadcast by CNA",
+          "url": "https://en.wikipedia.org/wiki/List_of_programmes_broadcast_by_CNA"
+        },
+        {
+          "title": "Asia Times",
+          "url": "https://asiatimes.com/"
+        },
+        {
+          "title": "Asia Pacific Daily",
+          "url": "https://en.wikipedia.org/wiki/Asia_Pacific_Daily"
+        },
+        {
+          "title": "Asiavision (news exchange)",
+          "url": "https://en.wikipedia.org/wiki/Asiavision_(news_exchange)"
+        },
+        {
+          "title": "10/23/26 National Security and Korean News and Commentary",
+          "url": "https://smallwarsjournal.com/2026/10/23/10-23-26-national-security-and-korean-news-and-commentary"
+        },
+        {
+          "title": "North Korea's Kim Jong Un visits China via Dandong bridge, South Korean official says",
+          "url": "https://thestandard.com.hk/china/article/346392/North-Koreas-Kim-Jong-Un-visits-China-via-Dandong-bridge-South-Korean-official-says"
+        },
+        {
+          "title": "North Korea’s Kim Jong Un visits China via newly opened bridge",
+          "url": "https://aljazeera.com/news/2026/10/24/north-koreas-kim-jong-un-arrives-in-china-south-korean-media-says"
+        },
+        {
+          "title": "asian stocks ends mixed today chinas shanghai composite index added 1 18",
+          "url": "https://newsonair.gov.in/asian-stocks-ends-mixed-today-chinas-shanghai-composite-index-added-1-18"
+        },
+        {
+          "title": "asiadailynews.gumroad.com",
+          "url": "https://asiadailynews.gumroad.com/"
+        }
+      ]
+    },
+    {
+      "query": "Africa news October 23 2026 Ebola Sudan",
+      "results": [
+        {
+          "title": "South Sudan news - Today’s latest updates - CBS News",
+          "url": "https://www.cbsnews.com/tag/south-sudan/"
+        },
+        {
+          "title": "Uganda confirms deadly outbreak of Sudan Ebola virus",
+          "url": "https://www.cidrap.umn.edu/ebola/uganda-confirms-deadly-outbreak-sudan-ebola-virus"
+        },
+        {
+          "title": "Ebola Outbreak Caused by Sudan virus in Uganda",
+          "url": "https://www.cdc.gov/han/php/notices/han00521.html"
+        },
+        {
+          "title": "Ebola Disease",
+          "url": "https://www.afro.who.int/health-topics/ebola-disease"
+        },
+        {
+          "title": "At the border, the Democratic Republic of the Congo and South Sudan strengthen Ebola surveillance",
+          "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/border-democratic-republic-congo-and-south-sudan-strengthen-ebola-surveillance"
+        },
+        {
+          "title": "Today's top news: Ebola coordinator, Lebanon, Occupied Palestinian Territory, Sudan",
+          "url": "https://www.unocha.org/news/todays-top-news-ebola-coordinator-lebanon-occupied-palestinian-territory-sudan"
+        },
+        {
+          "title": "U.S. to tighten Ebola screening with new air passenger declarations",
+          "url": "https://www.nbcnews.com/health/health-news/us-tighten-ebola-screening-new-air-passenger-declarations-rcna605177"
+        },
+        {
+          "title": "US Ebola travel rules",
+          "url": "https://mediabias.news/health/us-to-require-air-passengers-to-declare-no-recent-travel-to-drc"
+        },
+        {
+          "title": "Uganda reports Ebola Sudan virus outbreak",
+          "url": "https://www.cidrap.umn.edu/uganda-reports-ebola-sudan-virus-outbreak"
+        }
+      ]
+    },
+    {
+      "query": "Israel election final weekend October 24 2026 Netanyahu Eisenkot",
+      "results": [
+        {
+          "title": "Final Israeli election polls: Eisenkot leads, neither bloc secures majority",
+          "url": "https://www.israelnationalnews.com/flashes/695950"
+        },
+        {
+          "title": "Final Israel election polls put Eisenkot's Yashar ahead of Likud, but neither bloc wins a majority",
+          "url": "https://www.ynetnews.com/article/s1wppltnme"
+        },
+        {
+          "title": "Final Israeli polls point to stalemate ahead of Tuesday’s election",
+          "url": "https://jewishinsider.com/2026/10/final-israeli-polls-stalemate-tuesdays-election/"
+        },
+        {
+          "title": "Israel Elections 2026",
+          "url": "https://www.haaretz.com/israel-news/elections/2026-10-23/ty-article/last-polls-before-election-day-put-eisenkot-ahead-both-sides-short-of-majority/000001a1-69fe-d34e-a1b9-ffff12940000"
+        },
+        {
+          "title": "Final ToI election poll shows blocs in dead heat, neither has majority if campaign promises kept",
+          "url": "https://www.timesofisrael.com/liveblog_entry/final-toi-election-poll-shows-blocs-in-dead-heat-neither-has-majority-if-campaign-promises-kept/"
+        },
+        {
+          "title": "Israel Election 2026",
+          "url": "https://www.haaretz.com/israel-news/elections/2026-10-23/ty-article-live/.free/netanyahu-cancels-all-friday-campaign-events-due-to-west-bank-shooting-attack/000001a1-65f1-d6e1-abb7-77ffe02e0002"
+        },
+        {
+          "title": "Israel’s Election: The Polls Are Split, and So Is the Press - The Media Line",
+          "url": "https://themedialine.org/top-stories/israels-election-the-polls-are-split-and-so-is-the-press/"
+        },
+        {
+          "title": "A look at the major candidates in Israel's election Tuesday - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/10/21/israel-elections-candidates-netanyahu-eisenkot/e23a1b86-cd3f-11f1-ac04-9f58578a68b4_story.html"
+        },
+        {
+          "title": "What the October 27 Israeli Election Means for Netanyahu's Future — and Who Could Replace Him",
+          "url": "https://www.latintimes.com/what-october-27-israeli-election-means-netanyahus-future-who-could-replace-him-600511"
+        }
+      ]
+    },
+    {
+      "query": "Macron bans demonstrations illegitimate protests France October 23",
+      "results": [
+        {
+          "title": "French Businesses, Events to Close With More Weekend Protests Expected",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-23/french-businesses-events-to-close-with-more-weekend-protests-expected"
+        },
+        {
+          "title": "French authorities seek to ban or curb fresh protests - The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/10/23/world/crime-legal/france-protest-curbs/"
+        },
+        {
+          "title": "France’s Emmanuel Macron says ‘illegitimate’ protests will be banned as cities block demonstrations",
+          "url": "https://www.nbcnews.com/world/france/france-emmanuel-macron-illegitimate-protests-banned-cities-rcna604952"
+        },
+        {
+          "title": "France's Macron tightens curbs on protests - RTHK",
+          "url": "https://news.rthk.hk/rthk/en/component/k2/1874991-20261023.htm"
+        },
+        {
+          "title": "France's Macron Tightens Curbs On Protests, Blaming Hard Left For Unrest",
+          "url": "https://www.deccanchronicle.com/amp/world/europe/frances-macron-tightens-curbs-on-protests-blaming-hard-left-for-unrest-1998111"
+        },
+        {
+          "title": "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris",
+          "url": "https://www.foxnews.com/world/france-edge-70000-police-deployed-unrest-authorities-probe-suspected-terror-attack-near-paris"
+        },
+        {
+          "title": "Macron bans protests — RT World News",
+          "url": "https://rt-english.com/news/647548-macron-bans-illegitimate-protests/"
+        },
+        {
+          "title": "French President Macron considers banning protests on Champs Elysees: official",
+          "url": "https://news.yahoo.com/french-president-macron-considers-banning-protests-champs-elysees-093313840--business.html"
+        },
+        {
+          "title": "french president macron considering banning demonstrations on champs elysees amid renewed violent protests",
+          "url": "https://www.foxnews.com/world/french-president-macron-considering-banning-demonstrations-on-champs-elysees-amid-renewed-violent-protests"
         }
       ]
     }
   ],
   "fetched": [],
   "meta": {
-    "id": "2026-10-23",
-    "generated_at": "2026-10-23T10:24:36.685Z",
+    "id": "2026-10-24",
+    "generated_at": "2026-10-24T10:25:32.424Z",
     "model": "claude-opus-5-5",
     "via": "claude-code-routine",
     "searches": 20,
-    "results_count": 180,
-    "cited_count": 53
+    "results_count": 178,
+    "cited_count": 51
   }
 }
