@@ -1,245 +1,313 @@
 {
-  "date": "Sunday, October 25, 2026",
+  "date": "Monday, October 26, 2026",
   "edition": "WARTIME EDITION",
-  "tldr_label": "TL;DR — Trump says an Iran strike could come 'tomorrow' as Brazil votes and Europe marches",
+  "tldr_label": "TL;DR — Lula wins a fourth term as Bolsonaro refuses to concede; Trump holds off on Iran",
   "tldr_bullets": [
     {
-      "label": "Iran",
-      "body": "Trump said the US could strike Iran 'maybe tomorrow' or reach a 'big, beautiful' deal; Iran says it will not let US warships near the Gulf. No strike had been reported as of Sunday morning. [[TAG:danger:strike watch]]"
-    },
-    {
-      "label": "Diplomacy",
-      "body": "Turkey, Egypt, Pakistan, Saudi Arabia, the UK, France, Germany and Italy said in Istanbul that a new attack on Iran would widen the war."
-    },
-    {
       "label": "Brazil",
-      "body": "Brazilians vote today in a runoff between Flávio Bolsonaro and President Lula that final polls call a statistical tie."
+      "body": "Lula beat Flávio Bolsonaro 51.8% to 48.2% to win a record fourth term; Bolsonaro says he will seek to annul the result. A Brazil ETF fell nearly 15% in Tokyo. [[TAG:warning:result contested]]"
     },
     {
-      "label": "Europe",
-      "body": "More than 400,000 marched in France with nearly 1,000 detained, while clashes in Tirana injured more than 300, authorities said. [[TAG:warning:unrest spreads]]"
+      "label": "Iran",
+      "body": "Trump said there would be 'no strike today' while weighing a deal against action to 'finish them off'; Saudi, Pakistani and Turkish security chiefs head to Tehran for talks."
     },
     {
       "label": "Israel",
-      "body": "Israel locked down the West Bank after a shooting near Hebron killed two soldiers, days before Tuesday's election."
+      "body": "Israelis vote Tuesday with polls deadlocked, as an Israeli operation in Hebron has displaced about 2,670 people, the Palestinian Authority says."
     },
     {
-      "label": "Ebola",
-      "body": "WHO and Congo began a vaccine trial in Bunia testing whether Ervebo protects against the Bundibugyo strain, as deaths passed 4,600."
+      "label": "Saudi Arabia",
+      "body": "Riyadh's airport partly reopened after 15 days; the Houthis claimed a missile strike on it within hours."
+    },
+    {
+      "label": "Ukraine",
+      "body": "Zelensky urged partners to unblock approved Patriot deliveries, saying Kyiv received just 24 interceptors in three months. [[TAG:danger:air defense gap]]"
+    },
+    {
+      "label": "Week ahead",
+      "body": "The Fed decides Wednesday, with Microsoft, Alphabet and Amazon reporting; Brent eased about 2% to near $114.50 in Asia."
     }
   ],
   "sections": [
     {
-      "title": "Iran: Strike or Deal",
-      "icon": "🔥",
-      "summary": "Trump says strike could come 'tomorrow'; Iran bars US warships; IRGC claims two more mine hits",
+      "title": "Brazil: Lula Wins a Fourth Term",
+      "icon": "🇧🇷",
+      "summary": "Lula takes 51.8% in a polling upset; Flávio Bolsonaro seeks annulment; Brazilian assets slide",
       "paragraphs": [
         {
-          "heading": "Trump keeps options open",
-          "body": "Asked about another attack, Trump said 'We're thinking about doing it, and maybe tomorrow', while saying Iran could still avert strikes with a 'big, beautiful' deal he doubted Tehran would honor, Arab Times and The Tribune reported. He declined to say whether a decision had been made. Envoy Tom Barrack said a strike could come this weekend but that the goal 'won't be regime change', Arab News and Middle East Eye reported. No strike had been reported as of Sunday morning. [[TAG:danger:decision pending]]"
+          "heading": "Upset victory",
+          "body": "President Luiz Inácio Lula da Silva won Sunday's runoff with about 51.8% of valid votes to Flávio Bolsonaro's 48.2%, a margin of roughly 4.4 million votes, NPR and The Rio Times reported. CNN said he is the first Latin American president to win a fourth term. Most polls had shown Bolsonaro narrowly ahead. Lula takes office for the new term on January 5, 2027. [[TAG:success:fourth term]]"
         },
         {
-          "heading": "Iran's warnings",
-          "body": "IRGC chief of staff Ali Abdollahi said Iran will not allow US warships into the Persian Gulf, Al Jazeera reported. The IRGC claimed two supertankers carrying more than 4.5 million barrels hit mines on an 'unauthorized route' in the southern strait, which Anadolu and Mehr reported but no independent source confirmed. Iran's ambassador to Pakistan said Tehran remains open to the Pakistan-brokered framework, CBS News reported. [[TAG:warning:unverified claims]]"
+          "heading": "Bolsonaro rejects result",
+          "body": "Bolsonaro told supporters in Brasília it is 'impossible to recognize the election result' and said he will ask courts to annul it, objecting to a Supreme Court order that kept polling stations open two extra hours, ABC Australia and CNN reported. Both campaigns had sought extensions for different regions. Analysts said the margin makes an annulment unlikely but warned his refusal could spark protests. [[TAG:warning:no concession]]"
         },
         {
-          "heading": "Allies say no",
-          "body": "Foreign ministers of Turkey, Egypt, Pakistan and Saudi Arabia met their British, French, German and Italian counterparts in Istanbul; Turkey's Hakan Fidan said 'a new attack on Iran would expand the war' and 'nobody approves this at the moment', Reuters reported via US News and The Jerusalem Post. The group called for full resumption of secure passage through Hormuz."
-        },
-        {
-          "heading": "Hardship at home",
-          "body": "President Masoud Pezeshkian said many Iranians are struggling to afford food because of wartime conditions, describing a state of 'neither war nor peace', AFP reported via Arab News and Gulf News."
+          "heading": "Market reaction",
+          "body": "A Tokyo-listed Brazil equity ETF fell nearly 15% and the real was set to weaken sharply, XTB reported; CNBC said investors had positioned for a Bolsonaro win, and XTB attributed much of the drop to traders unwinding those bets. Reports of the US-listed EWZ's overnight move ranged up to about 20%. [[TAG:danger:Brazil ETF -15%]]"
         }
       ],
-      "sources": "Arab Times, The Tribune, Arab News, Middle East Eye, Al Jazeera, Anadolu, Mehr, CBS News, US News, The Jerusalem Post, Gulf News",
+      "sources": "NPR, The Rio Times, CNN, ABC Australia, The Jerusalem Post, Asharq Al-Awsat, CNBC, XTB",
       "citations": [
         {
-          "outlet": "Arab Times",
-          "title": "Trump Says US Could Strike Iran as Early as ‘Tomorrow’ or Reach Deal",
-          "url": "https://www.arabtimesonline.com/news/trump-says-us-could-strike-iran-as-early-as-tomorrow-or-reach-deal/"
+          "outlet": "NPR",
+          "title": "In Stunning victory, Brazil’s Lula wins fourth Presidential term",
+          "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election"
         },
         {
-          "outlet": "The Tribune",
-          "title": "‘We may attack them, we may have an agreement’: Trump weighs in on Iran issue",
-          "url": "https://www.tribuneindia.com/news/usa-news/we-my-attack-them-we-may-have-an-agreement-trump-weighs-in-on-iran-issue/"
+          "outlet": "CNN",
+          "title": "How Lula beat Bolsonaro, broke records and halted the right-wing wave aligning Latin America with Trump in 20 days",
+          "url": "https://www.cnn.com/2026/10/26/americas/brazil-election-results-takeaways-latam-hk-intl"
         },
         {
-          "outlet": "Arab News",
-          "title": "US could strike Iran this weekend, envoy says",
-          "url": "https://www.arabnews.com/middle-east/us-could-strike-iran-this-weekend-envoy-says-3007955"
+          "outlet": "The Rio Times",
+          "title": "Brazil Election 2026: Lula vs Flávio Runoff on 25 October",
+          "url": "https://www.riotimesonline.com/brazil-runoff-october-25-2026-flavio-bolsonaro-lula/"
         },
         {
-          "outlet": "Middle East Eye",
-          "title": "US could strike Iran this weekend, envoy says",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-could-strike-iran-weekend-envoy-says"
+          "outlet": "ABC Australia",
+          "title": "Lula wins Brazilian election but Bolsonaro refuses to accept defeat",
+          "url": "https://www.abc.net.au/news/2026-10-26/lula-brazil-election-win-bolsonaro-rejects-results/107308542"
         },
         {
-          "outlet": "Al Jazeera",
-          "title": "Iran says won’t allow US warships to get close as Trump ponders new attacks",
-          "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks"
-        },
-        {
-          "outlet": "Anadolu (A News)",
-          "title": "Iran’s Revolutionary Guards say 2 supertankers hit naval mines in Strait of Hormuz",
-          "url": "https://www.anews.com.tr/middle-east/2026/10/24/irans-revolutionary-guards-say-2-supertankers-hit-naval-mines-in-strait-of-hormuz"
-        },
-        {
-          "outlet": "Mehr",
-          "title": "Yet two other supertankers hit mines in Hormuz: IRGC",
-          "url": "https://en.mehrnews.com/news/248839/Yet-two-other-supertankers-hit-mines-in-Hormuz-IRGC"
-        },
-        {
-          "outlet": "CBS News",
-          "title": "Live Updates: Iran warns that U.S. military not allowed in Gulf \"under any circumstance\"",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/"
-        },
-        {
-          "outlet": "US News (Reuters)",
-          "title": "Turkey Says Renewed Attack on Iran Would Expand Conflict, Diplomacy Only Way",
-          "url": "https://www.usnews.com/news/world/articles/2026-10-23/turkey-says-renewed-attack-on-iran-would-expand-conflict-diplomacy-only-way"
+          "outlet": "CNN",
+          "title": "Brazil’s Lula wins reelection with victory over Trump ally Bolsonaro, who rejects result",
+          "url": "https://www.cnn.com/2026/10/25/americas/brazil-election-lula-bolsonaro-intl-latam"
         },
         {
           "outlet": "The Jerusalem Post",
-          "title": "Turkey says renewed attack on Iran would expand conflict, diplomacy only way",
-          "url": "http://www.jpost.com/middle-east/iran-news/article-912670"
+          "title": "Bolsonaro refuses to concede, seeks to annul Brazil election",
+          "url": "https://www.jpost.com/international/article-912852"
         },
         {
-          "outlet": "Arab News",
-          "title": "Iran president says many struggling for food as war bites",
-          "url": "https://www.arabnews.com/middle-east/iran-president-says-many-struggling-for-food-as-war-bites-3008077"
+          "outlet": "Asharq Al-Awsat",
+          "title": "Brazil’s Lula Wins Historic Fourth Term, Flavio Bolsonaro Refuses to Concede",
+          "url": "https://english.aawsat.com/world/5333719-brazil%E2%80%99s-lula-wins-historic-fourth-term-flavio-bolsonaro-refuses-concede"
         },
         {
-          "outlet": "Gulf News",
-          "title": "'Struggling to put food on the table': Iran president flags war's economic toll",
-          "url": "https://gulfnews.com/world/mena/irans-president-says-war-is-leaving-many-struggling-to-put-food-on-the-table-1.500722430"
+          "outlet": "CNBC",
+          "title": "Brazil's Lula wins historic presidential election; Bolsonaro reportedly refuses to concede",
+          "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html"
+        },
+        {
+          "outlet": "XTB",
+          "title": "Elections in Brazil: Lula returns to power, markets react with panic. Brazilian ETF loses nearly 15% in Tokyo",
+          "url": "https://www.xtb.com/int/market-analysis/news-and-research/elections-in-brazil-lula-returns-to-power-markets-react-with-panic-brazilian-etf-loses-nearly-15-in-tokyo-what-about-usdbrl-soybeans-sugar-bracomp-and-etfs"
+        }
+      ]
+    },
+    {
+      "title": "Iran: Waiting on Trump",
+      "icon": "🔥",
+      "summary": "Trump rules out a Sunday strike but keeps 'finish them off' option; regional envoys head to Tehran",
+      "paragraphs": [
+        {
+          "heading": "No strike, yet",
+          "body": "Trump told reporters 'There will not be a strike today' as he left for Michigan, while saying he is weighing a deal against action to 'finish them off', The National and CBS News reported. Al Jazeera reported CENTCOM has strike plans ready. Officials view the period after the midterms as especially risky. [[TAG:warning:decision pending]]"
+        },
+        {
+          "heading": "Tehran's line",
+          "body": "Foreign Ministry spokesman Esmail Baghaei said no Iranian accepts the 'complete surrender' Washington demands, but that the diplomatic window is open and messages are passing through intermediaries, the AP reported via ABC News and the Times of Israel. An IRGC-affiliated outlet said no new US proposal had been made."
+        },
+        {
+          "heading": "Regional mediators",
+          "body": "Saudi Defense Minister Khalid bin Salman, Pakistani army chief Asim Munir and Turkish intelligence chief Ibrahim Kalin are traveling to Tehran for regional security talks with Iranian officials, Anadolu and Al Jazeera reported; NBC News said delegations were meeting in Iran. A Saudi official said they would also meet President Masoud Pezeshkian. [[TAG:info:Tehran talks]]"
+        },
+        {
+          "heading": "Hormuz",
+          "body": "CENTCOM commander Adm. Brad Cooper flew over the strait and said its primary transit routes 'remain free and clear of Iranian sea mines', The Hill and the Times of Israel reported. The International Maritime Organization says mine and attack risks persist. A US intelligence memo reported by Axios said Iran has stepped up plots against US officials."
+        }
+      ],
+      "sources": "The National, CBS News, Al Jazeera, AP, ABC News, Times of Israel, Anadolu, NBC News, The Hill, India TV",
+      "citations": [
+        {
+          "outlet": "The National",
+          "title": "Trump has 'a decision to make' on Iran as concerns over renewed strikes deepen",
+          "url": "https://www.thenationalnews.com/news/us/2026/10/25/trump-iran-strike/"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Live Updates: Trump says he's weighing deal with Iran against action to \"finish them off\"",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "CENTCOM reportedly has plans for Iran strikes: Will Trump approve them?",
+          "url": "https://www.aljazeera.com/news/2026/10/25/centcom-reportedly-has-plans-for-iran-strikes-will-trump-approve-them"
+        },
+        {
+          "outlet": "India TV",
+          "title": "'No US strike on Iran today': Trump now rules out fresh attack on Tehran in another U-turn as conflict drags",
+          "url": "https://www.indiatvnews.com/news/world/no-us-strike-on-iran-today-trump-now-rules-out-fresh-attack-on-tehran-in-another-u-turn-as-conflict-drags-2026-10-26-1057907"
+        },
+        {
+          "outlet": "ABC News (AP)",
+          "title": "Iran says messages are still being passed to the US amid war concerns, and other Mideast news",
+          "url": "https://abcnews.com/Politics/wireStory/iran-messages-passed-us-amid-war-concerns-mideast-137558362"
+        },
+        {
+          "outlet": "The Times of Israel",
+          "title": "Iran says messages are still being passed to the US amid war concerns",
+          "url": "https://www.timesofisrael.com/liveblog_entry/iran-says-messages-are-still-being-passed-to-the-us-amid-war-concerns/"
+        },
+        {
+          "outlet": "Anadolu",
+          "title": "Senior Turkish, Saudi, Pakistani officials to visit Iran for security talks",
+          "url": "https://www.aa.com.tr/en/world/senior-turkish-saudi-pakistani-officials-to-visit-iran-for-security-talks/4100729"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Officials from Mecca pact states to hold talks in Iran amid regional tensions",
+          "url": "https://www.aljazeera.com/news/2026/10/26/officials-from-mecca-pact-states-to-hold-talks-in-iran-amid-regional-tensions"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "Delegations meet in Iran with Middle East on edge over potential for renewed fighting",
+          "url": "https://www.nbcnews.com/world/middle-east/delegations-meet-iran-middle-east-edge-potential-renewed-fighting-rcna605662"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Centcom says Iranian sea mines cleared from Strait of Hormuz transit routes",
+          "url": "https://thehill.com/policy/defense/6056395-centcom-us-clears-iranian-sea-mines/"
+        },
+        {
+          "outlet": "The Times of Israel",
+          "title": "US CENTCOM chief flies over Strait of Hormuz, says it's free of mines",
+          "url": "https://www.timesofisrael.com/liveblog_entry/us-centcom-chief-flies-over-strait-of-hormuz-says-its-free-of-mines/"
         }
       ]
     },
     {
       "title": "Saudi Arabia and Yemen",
       "icon": "🚀",
-      "summary": "Houthis claim strikes on Riyadh airport, Yanbu, Rabigh and the East-West Pipeline",
+      "summary": "Riyadh airport partly reopens after 15 days; Houthis claim a strike on it within hours",
       "paragraphs": [
         {
-          "heading": "New claims",
-          "body": "Houthi spokesman Yahya Saree said the group hit Riyadh's King Khalid airport, an Aramco facility in Yanbu, Rabigh refinery pumping stations and the East-West Pipeline, among other targets, France 24 and The Spokesman-Review reported. There was no immediate Saudi confirmation; the Saudi-led coalition said it destroyed two ballistic missiles aimed at Yanbu and Taif. [[TAG:warning:unconfirmed hits]]"
+          "heading": "Airport reopens",
+          "body": "Riyadh's King Khalid International Airport partly reopened on Sunday after being shut since an October 10 attack that killed 13, CGTN and The Hans India reported. The Houthis claimed a missile strike on it hours later and warned airlines and travelers it is 'unsafe'; Flightradar24 data showed little traffic, Business Recorder reported. [[TAG:warning:airport targeted]]"
         },
         {
-          "heading": "Aden",
-          "body": "Yemen's Saudi-backed government said the Houthis fired three ballistic missiles at coast guard sites in Aden, France 24 reported. The fighting has shattered the UN-brokered truce of 2022."
+          "heading": "Interceptions",
+          "body": "The Saudi-led coalition said it destroyed 12 missiles and two drones fired at the kingdom, with debris injuring two people, Anadolu reported. The US has ordered non-emergency staff out of Saudi Arabia."
         }
       ],
-      "sources": "France 24, The Spokesman-Review, Alhurra",
+      "sources": "CGTN, The Hans India, Business Recorder, Anadolu, L'Orient Today",
       "citations": [
         {
-          "outlet": "France 24",
-          "title": "Yemen's Houthi rebels claim new attacks on oil facilities and airports across Saudi Arabia",
-          "url": "https://www.france24.com/en/middle-east/20261024-yemen-s-houthi-rebels-claim-new-attacks-on-oil-facilities-and-airports-across-saudi-arabia"
+          "outlet": "CGTN",
+          "title": "Riyadh airport partially reopens as Houthis, Saudi-led coalition exchange attacks",
+          "url": "https://news.cgtn.com/news/2026-10-26/Riyadh-airport-reopens-as-Houthis-coalition-exchange-attacks-1RxZEfXGDUk/p.html"
         },
         {
-          "outlet": "The Spokesman-Review",
-          "title": "Houthis claim string of new attacks on Saudi Arabia",
-          "url": "https://www.spokesman.com/stories/2026/oct/24/houthis-claim-string-of-new-attacks-on-saudi-arabi/"
+          "outlet": "The Hans India",
+          "title": "Riyadh airport partially reopens as Houthis, Saudi-led coalition continue exchanging attacks",
+          "url": "https://www.thehansindia.com/news/international/riyadh-airport-partially-reopens-as-houthis-saudi-led-coalition-continue-exchanging-attacks-1135859"
         },
         {
-          "outlet": "Alhurra",
-          "title": "Houthi Attacks on Saudi Arabia: What the Group Wants",
-          "url": "https://alhurra.com/en/46926"
+          "outlet": "Business Recorder",
+          "title": "Riyadh airport attacked hours after flights resume",
+          "url": "https://brecorder.com/news/40445933/riyadh-airport-attacked-hours-after-flights-resume"
+        },
+        {
+          "outlet": "Anadolu",
+          "title": "US warns of escalating security threats in Saudi Arabia as Riyadh airport partly reopens",
+          "url": "https://www.aa.com.tr/en/americas/us-warns-of-escalating-security-threats-in-saudi-arabia-as-riyadh-airport-partly-reopens/4100467"
+        },
+        {
+          "outlet": "L'Orient Today",
+          "title": "Evening recap: Trump will not strike Iran... today; Riyadh airport reopens",
+          "url": "https://today.lorientlejour.com/article/1552039/evening-recap-trump-will-not-strike-iran-today-riyadh-airport-reopens.html"
         }
       ]
     },
     {
-      "title": "Israel Before the Vote",
+      "title": "Israel Votes Tuesday",
       "icon": "🗳️",
-      "summary": "Hebron checkpoint attack kills two soldiers; West Bank locked down ahead of Tuesday's election",
+      "summary": "Deadlocked polls before Tuesday's election; Hebron operation displaces about 2,670, PA says",
       "paragraphs": [
         {
-          "heading": "Hebron attack",
-          "body": "Two Palestinian gunmen killed two Israeli soldiers at a checkpoint near Hebron before being killed, the army said, according to The Washington Post. Israel ordered a full West Bank lockdown and cordoned off Hebron and Halhul, and Netanyahu vowed soldiers would go 'house to house', NBC News and CBS News reported. Netanyahu called the gunmen Hamas members; Hamas did not claim responsibility. [[TAG:danger:2 soldiers killed]]"
+          "heading": "The election",
+          "body": "Israel holds its first national vote since the October 7, 2023 attack on Tuesday, Al Jazeera and NPR reported. A polling average puts Netanyahu's coalition at about 50 seats, short of 61, with Gadi Eisenkot's Yashar leading in eight of nine final polls. Thirty-seven lists are running against a 3.25% threshold, and CNN said the outcome may take weeks to resolve. [[TAG:info:vote Tuesday]]"
         },
         {
-          "heading": "Election impact",
-          "body": "Netanyahu cancelled Friday campaign events and said the attack was an attempt to influence the election, NPR reported. Final polls put Gadi Eisenkot's Yashar ahead of Likud but show neither bloc reaching 61 seats. Israel votes Tuesday. [[TAG:info:vote Tuesday]]"
+          "heading": "Hebron operation",
+          "body": "After Friday's attack that killed two soldiers, Israeli forces demolished homes and detained dozens in Hebron; the Palestinian Authority said about 2,670 people have been displaced, the Times of Israel and The New Arab reported. Netanyahu said forces will apply the 'offensive model' used in refugee camps. The figures could not be independently verified. [[TAG:danger:thousands displaced]]"
         }
       ],
-      "sources": "The Washington Post, NBC News, CBS News, Al Jazeera, NPR, Haaretz",
+      "sources": "Al Jazeera, NPR, CNN, CBS News, Times of Israel, The New Arab, Asharq Al-Awsat, WAFA",
       "citations": [
         {
-          "outlet": "The Washington Post",
-          "title": "Israeli military says 2 soldiers were killed in West Bank attack that also left 2 gunmen dead",
-          "url": "https://www.washingtonpost.com/world/2026/10/23/israel-shooting-west-bank-election/47adc22e-cead-11f1-ac04-9f58578a68b4_story.html"
-        },
-        {
-          "outlet": "NBC News",
-          "title": "Israel orders West Bank lockdown after Hebron shooting attack",
-          "url": "https://www.nbcnews.com/world/middle-east/israel-orders-west-bank-lockdown-hebron-shooting-attack-rcna605176"
-        },
-        {
-          "outlet": "CBS News",
-          "title": "Israel's Netanyahu vows major military operation, cordons off West Bank city after deadly attack on troops",
-          "url": "https://www.cbsnews.com/news/israel-west-bank-netanyahu-palestinians-military-operation-hebron/"
-        },
-        {
           "outlet": "Al Jazeera",
-          "title": "Israel preparing full lockdown of occupied West Bank after Hebron gunfight",
-          "url": "https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up"
+          "title": "Israel’s election: Five key things to know",
+          "url": "https://www.aljazeera.com/news/2026/10/26/israels-election-five-key-things-to-know"
         },
         {
           "outlet": "NPR",
-          "title": "Israeli PM pledges massive military operation after West Bank checkpoint attack",
-          "url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack"
+          "title": "Israel holds consequential election after years of war",
+          "url": "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu"
         },
         {
-          "outlet": "Haaretz",
-          "title": "Netanyahu cancels all Friday campaign events due to West Bank shooting attack",
-          "url": "https://www.haaretz.com/israel-news/elections/2026-10-23/ty-article-live/.free/netanyahu-cancels-all-friday-campaign-events-due-to-west-bank-shooting-attack/000001a1-65f1-d6e1-abb7-77ffe02e0002"
+          "outlet": "CNN",
+          "title": "Israel is holding its most important election in years. Here’s what’s at stake",
+          "url": "https://www.cnn.com/2026/10/25/middleeast/israel-election-2026-whats-at-stake-intl"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Israeli election to test Benjamin Netanyahu's ability to hold power",
+          "url": "https://www.cbsnews.com/news/israeli-election-to-test-benjamin-netanyahus-ability-to-hold-power/"
+        },
+        {
+          "outlet": "The Times of Israel",
+          "title": "Oct. 25: Palestinian Authority says 2,670 displaced in Israel’s Hebron operation",
+          "url": "https://www.timesofisrael.com/liveblog-october-25-2026/"
+        },
+        {
+          "outlet": "The New Arab",
+          "title": "Israeli forces demolish Hebron homes, displace thousands",
+          "url": "https://www.newarab.com/news/israeli-forces-demolish-hebron-homes-displace-thousands"
+        },
+        {
+          "outlet": "Asharq Al-Awsat",
+          "title": "Palestinian Authority Says 2,670 Displaced in Israel’s Hebron Operation",
+          "url": "https://english.aawsat.com/arab-world/5333690-palestinian-authority-says-2670-displaced-israel%E2%80%99s-hebron-operation"
+        },
+        {
+          "outlet": "WAFA",
+          "title": "Israeli forces detain 20 Palestinians as assault on Hebron enters third day",
+          "url": "https://english.wafa.ps/Pages/Details/176240"
         }
       ]
     },
     {
       "title": "Ukraine and Russia",
       "icon": "🇺🇦",
-      "summary": "Kyiv reports Starlink restored; overnight drone strikes kill three in Russia's border regions",
+      "summary": "Zelensky says Kyiv got 24 Patriot interceptors in three months; strikes kill four in Dnipropetrovsk",
       "paragraphs": [
         {
-          "heading": "Starlink",
-          "body": "Kyiv said Starlink service had been restored, Al Jazeera reported, a day after Ukrainian officials disputed Trump's claim that Elon Musk had lifted the restrictions. [[TAG:success:service restored]]"
+          "heading": "Patriot appeal",
+          "body": "Zelensky urged partners to unblock Patriot deliveries European countries had already approved, saying Ukraine needs about 350 interceptors a month but received only 24 in three months, ABC News and The New Voice of Ukraine reported. He said Russia fired about 1,600 guided bombs, 48 missiles and nearly 2,300 drones in a week. [[TAG:danger:24 interceptors]]"
         },
         {
-          "heading": "Overnight strikes",
-          "body": "Ukrainian drone attacks killed one person in Belgorod and two in a strike on a minibus in Bryansk, and damaged an industrial site in Perm, Russian officials said, according to The Moscow Times and Anadolu. Russia said it downed 532 Ukrainian drones over 25 regions. Russian strikes injured 10 people in Kharkiv and Vinnytsia, Ukraine's emergency service said. [[TAG:danger:strikes continue]]"
-        },
-        {
-          "heading": "Talks ahead",
-          "body": "Russia and Ukraine say peace talks are planned for November in the UAE, Al Jazeera reported, but Global News noted Moscow still demands territory it does not fully control while Kyiv insists on guarantees against another invasion."
+          "heading": "Strikes",
+          "body": "Russian strikes on Dnipropetrovsk region killed four people and injured 22, and in Kharkiv Russia struck a hypermarket and then hit emergency crews responding, ABC News reported. The Kremlin said it would be ready to resume trilateral talks after November 4, the Kyiv Independent reported."
         }
       ],
-      "sources": "Al Jazeera, The Moscow Times, Anadolu, TRT World, Global News",
+      "sources": "ABC News, The New Voice of Ukraine, Kyiv Independent, Al Jazeera",
       "citations": [
         {
-          "outlet": "Al Jazeera",
-          "title": "Kyiv says Starlink restored as attacks in Ukraine and Russia continue",
-          "url": "https://www.aljazeera.com/news/2026/10/24/ukraine-says-starlink-restored-as-attacks-continue-in-russia-and-ukraine"
+          "outlet": "ABC News",
+          "title": "Ukraine must 'unblock' Patriot missile delivery, Zelenskyy says after deadly strikes",
+          "url": "https://abcnews.com/International/ukraine-unblock-patriot-missile-delivery-zelenskyy-after-deadly/story?id=137550094"
         },
         {
-          "outlet": "The Moscow Times",
-          "title": "Ukrainian Attacks Kill 3 in Belgorod, Hit Perm Industrial Plant",
-          "url": "https://www.themoscowtimes.com/2026/10/25/ukrainian-attacks-kill-3-in-belgorod-hit-perm-industrial-plant-a94077"
+          "outlet": "The New Voice of Ukraine",
+          "title": "Zelenskyy issues statement regarding blocking of previously approved deliveries of interceptor",
+          "url": "https://english.nv.ua/nation/zelenskyy-issues-statement-regarding-blocking-of-previously-approved-deliveries-of-interceptor-50653217.html"
         },
         {
-          "outlet": "Anadolu (A News)",
-          "title": "Russia, Ukraine report casualties in overnight strikes",
-          "url": "https://www.anews.com.tr/world/2026/10/25/russia-ukraine-report-casualties-in-overnight-strikes"
-        },
-        {
-          "outlet": "TRT World",
-          "title": "Russia, Ukraine report deaths and injuries in overnight strikes",
-          "url": "https://www.trtworld.com/article/8f4ee117c316"
-        },
-        {
-          "outlet": "Global News",
-          "title": "Ukraine and Russia eye new peace talks but steep obstacles remain",
-          "url": "https://globalnews.ca/news/12119807/ukraine-russia-peace-talks-2/"
+          "outlet": "Kyiv Independent",
+          "title": "The Kyiv Independent — News from Ukraine, Eastern Europe",
+          "url": "https://kyivindependent.com/"
         },
         {
           "outlet": "Al Jazeera",
@@ -249,201 +317,188 @@
       ]
     },
     {
-      "title": "US Politics",
-      "icon": "🏛️",
-      "summary": "Trump rallies in Georgia and touts Audi plant; early votes top 24 million, up 13% on 2022",
+      "title": "Markets: Week Ahead",
+      "icon": "📊",
+      "summary": "Fed decides Wednesday; Microsoft, Alphabet, Amazon report; Brent eases toward $114.50",
       "paragraphs": [
         {
-          "heading": "Georgia rally",
-          "body": "Trump rallied in Perry, Georgia, and announced that Audi will invest $4.2 billion in a manufacturing plant in Macon, Fox News and Atlanta News First reported. He was due in Port Huron, Michigan, on Sunday."
+          "heading": "Fed and Big Tech",
+          "body": "The Fed announces its rate decision Wednesday and is widely expected to hold, with CME FedWatch showing about a 90.6% chance of no change, CMC Markets reported. Microsoft and Alphabet report October 28 and Amazon later in the week, in the busiest week of earnings season, with 179 S&P 500 companies reporting, Forbes said. Third-quarter GDP and September PCE inflation are also due. [[TAG:info:Fed Wednesday]]"
         },
         {
-          "heading": "Early vote surge",
-          "body": "More than 24.3 million ballots had been cast across 45 reporting states as of Saturday, 13% above the same point in 2022, according to a tracker cited by Your News. Harris County, Texas, set midterm records for in-person early voting, ABC13 reported, and Dallas County reported a record first day, Fox 4 reported. Figures vary between trackers. [[TAG:info:24M early votes]]"
+          "heading": "Oil and Asia",
+          "body": "Brent fell about 2.2% to $114.52 and WTI to about $101 in early Asian trading on hopes of US-Iran de-escalation, while the UAE's Murban grade rose above $118, Gulf News reported. Asian stocks were mixed, with reported moves varying by source."
         }
       ],
-      "sources": "Fox News, Atlanta News First, Your News, ABC13, Fox 4, Houston Chronicle",
+      "sources": "CMC Markets, Forbes, Yahoo Finance, Gulf News, The Hawk, Sweden Herald",
       "citations": [
         {
-          "outlet": "Fox News",
-          "title": "Trump in Georgia, Michigan this weekend ahead of 2026 midterm elections",
-          "url": "https://www.foxnews.com/live-news/trump-weekend-rallies-georgia-michigan-2026-midterm-elections"
+          "outlet": "CMC Markets",
+          "title": "The Week Ahead: US rate decision, PCE inflation, Microsoft earnings",
+          "url": "https://cmcmarkets.com/en-au/market-news/the-week-ahead-us-rate-decision-pce-inflation-microsoft-earnings"
         },
         {
-          "outlet": "Atlanta News First",
-          "title": "STREAM LIVE: Trump rally in central Georgia underway, president to give remarks soon",
-          "url": "https://www.atlantanewsfirst.com/2026/10/24/trump-hold-rally-central-georgia-everything-know/"
+          "outlet": "Forbes",
+          "title": "Alphabet, Microsoft And Amazon Lead The Busiest Week Of Earnings Season",
+          "url": "https://forbes.com/sites/bill_stone/2026/10/25/alphabet-microsoft-and-amazon-lead-busiest-week-of-earnings-season"
         },
         {
-          "outlet": "Your News",
-          "title": "Early Voting Tops 24 Million as Democrats Lead Ballot Returns in Several Key Midterm States",
-          "url": "https://yournews.com/2026/10/25/7237721/early-voting-tops-24-million-as-democrats-lead-ballot-returns/"
+          "outlet": "Yahoo Finance",
+          "title": "What To Expect In Markets This Week: GOOGL, MSFT, AMZN, INTC, HOOD, LLY Earnings, Fed Meeting And More",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/expect-markets-week-googl-msft-152700674.html"
         },
         {
-          "outlet": "ABC13 Houston",
-          "title": "Early voting turnout across Houston-area counties surges",
-          "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/entry/19966813/"
+          "outlet": "Gulf News",
+          "title": "Crude oil's weird Monday: Brent, WTI slip as attacks rattle markets, Murban jumps 3% to $118",
+          "url": "https://gulfnews.com/business/energy/crude-oils-weird-monday-brent-wti-slip-as-attacks-rattle-markets-murban-jumps-3-to-118-1.500723522"
         },
         {
-          "outlet": "Fox 4",
-          "title": "Dallas County sees record turnout for first day of 2026 early voting",
-          "url": "https://www.fox4news.com/news/dallas-county-early-voting-2026-day-one-total"
+          "outlet": "The Hawk",
+          "title": "Crude oil prices decline up to 2 pc as hopes of US-Iran de-escalation weigh",
+          "url": "https://www.thehawk.in/news/economy-and-business/crude-oil-prices-decline-up-to-2-pc-as-hopes-of-us-iran-de-escalation-weigh"
         },
         {
-          "outlet": "Houston Chronicle",
-          "title": "Texas midterms early voting tracker: See where turnout is highest",
-          "url": "https://www.houstonchronicle.com/projects/2026/texas-midterms-early-voting-turnout/"
+          "outlet": "Sweden Herald",
+          "title": "Asian Markets Diverge as Oil Prices Fall at Start of the Week",
+          "url": "https://swedenherald.com/article/asian-markets-diverge-as-oil-prices-fall-at-start-of-the-week"
         }
       ]
     },
     {
-      "title": "Europe in the Streets",
-      "icon": "🇪🇺",
-      "summary": "400,000 march in France, nearly 1,000 detained; Tirana clashes injure 300-plus; Italy detains 371",
+      "title": "US Politics",
+      "icon": "🏛️",
+      "summary": "Trump and Obama trade rallies in Michigan's Senate battleground; Trump attacks El-Sayed",
       "paragraphs": [
         {
-          "heading": "France",
-          "body": "More than 400,000 people protested across France on Saturday, over 100,000 of them in Paris, and nearly 1,000 were detained, the Interior Ministry said, according to CNN and Al Jazeera. Marches were mostly peaceful, with clashes in Paris, Marseille and Bordeaux, and several cities banned protests outright. [[TAG:warning:~1,000 detained]]"
+          "heading": "Port Huron",
+          "body": "Trump rallied about 3,000 people in Port Huron for Senate nominee Mike Rogers and gubernatorial candidate John James, defending the Iran war and gas prices, The Detroit News reported. Michigan Advance reported he called Democratic Senate nominee Abdul El-Sayed a 'jihadist', claims it described as unsubstantiated. [[TAG:warning:anti-Muslim rhetoric]]"
         },
         {
-          "heading": "Albania and Italy",
-          "body": "In Tirana, authorities said more than 300 protesters and police were injured as police used tear gas and water cannon and government buildings were attacked, Al Jazeera and Euronews reported; Prime Minister Edi Rama has refused to resign. Italian police said they arrested nine people and briefly detained 371 in protests across eight cities, NPR reported. Peaceful pension and housing marches were held in Madrid and Lisbon. [[TAG:danger:300+ injured]]"
-        },
-        {
-          "heading": "A movement",
-          "body": "Fortune described the protests as part of a newly formed 'Oct. 17 Movement' driven by living costs, pensions, housing and education."
+          "heading": "Obama in Detroit",
+          "body": "A day earlier, Barack Obama rallied more than 4,300 people in Detroit with El-Sayed and gubernatorial nominee Jocelyn Benson, calling the midterms the 'last best chance' to check the administration, Bridge Michigan and CBS Detroit reported. Bridge Michigan described the Senate race as a toss-up. [[TAG:info:toss-up]]"
         }
       ],
-      "sources": "CNN, Al Jazeera, Euronews, NPR, Fortune, Bloomberg",
+      "sources": "The Detroit News, Michigan Advance, Yahoo News, CNN, Bridge Michigan, CBS Detroit",
       "citations": [
         {
+          "outlet": "The Detroit News",
+          "title": "Trump defends Iran war, gas prices in speech to Michigan Republicans",
+          "url": "https://www.detroitnews.com/story/news/politics/2026/10/25/trump-rally-michigan-port-huron-live-updates--live/92430040007/"
+        },
+        {
+          "outlet": "Michigan Advance",
+          "title": "Trump invokes anti-Muslim rhetoric to attack El-Sayed at Michigan rally supporting Rogers, James",
+          "url": "https://michiganadvance.com/2026/10/25/trump-invokes-anti-muslim-rhetoric-to-attack-el-sayed-at-michigan-rally-supporting-rogers-james/"
+        },
+        {
+          "outlet": "Yahoo News",
+          "title": "Trump fires up Republicans in Port Huron rally amid midterm push",
+          "url": "https://www.yahoo.com/news/politics/articles/trump-fires-republicans-port-huron-235805285.html"
+        },
+        {
           "outlet": "CNN",
-          "title": "France sees another weekend of mass protests with nearly 1,000 detained",
-          "url": "https://www.cnn.com/2026/10/24/europe/france-weekend-protests-detained-latam-intl"
+          "title": "Midterm election: Trump in Michigan; hearing on California voter rolls",
+          "url": "https://www.cnn.com/2026/10/25/politics/live-news/midterm-election-congress"
         },
         {
-          "outlet": "Al Jazeera",
-          "title": "Hundreds of thousands protest in France amid heightened police security",
-          "url": "https://www.aljazeera.com/news/2026/10/24/france-braces-for-another-day-of-mass-protests-as-security-on-high-alert"
+          "outlet": "Bridge Michigan",
+          "title": "Fact checks, takeaways: Barack Obama blasts Trump, touts El-Sayed, in Detroit",
+          "url": "https://bridgemi.com/michigan-government/fact-checks-takeaways-barack-obama-blasts-trump-touts-el-sayed-in-detroit/"
         },
         {
+          "outlet": "CBS Detroit",
+          "title": "Former President Barack Obama campaigns for Michigan Democrats at Detroit rally",
+          "url": "https://www.cbsnews.com/detroit/news/barack-obama-campaign-rally-detroit-democrats/"
+        }
+      ]
+    },
+    {
+      "title": "Europe",
+      "icon": "🇪🇺",
+      "summary": "Portugal clears housing protest camps; storms cut power to 150,000 homes in northern Europe",
+      "paragraphs": [
+        {
+          "heading": "Portugal",
+          "body": "Police cleared housing protest camps in Lisbon's Rossio Square and in Porto before dawn Sunday, arresting 31, Reuters reported via Al Jazeera and Portugal Resident. Police counted 11 injured; activists said about 60. It was the second clearance in a week. [[TAG:warning:protest camps cleared]]"
+        },
+        {
+          "heading": "Storms",
+          "body": "Storms Austen and Boelo cut power to about 150,000 homes and disrupted flights and ferries from Scotland to Denmark, Euronews reported."
+        }
+      ],
+      "sources": "Al Jazeera, Reuters via US News, Portugal Resident, Euronews",
+      "citations": [
+        {
           "outlet": "Al Jazeera",
-          "title": "Thousands gather at new Albanian antigovernment rally",
-          "url": "https://www.aljazeera.com/news/2026/10/24/thousands-gather-at-new-albanian-antigovernment-rally"
+          "title": "Portuguese police clear Lisbon housing protest camp, arrest 25",
+          "url": "https://www.aljazeera.com/economy/2026/10/25/portuguese-police-clear-lisbon-housing-protest-camp-arrest-25"
+        },
+        {
+          "outlet": "US News (Reuters)",
+          "title": "Portuguese Police Clear Lisbon Housing Protest Camp, Make Arrests",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-24/portuguese-police-clear-lisbon-housing-protest-camp-make-arrests"
+        },
+        {
+          "outlet": "Portugal Resident",
+          "title": "Dozens injured as police clear protest camps in Lisbon and Porto",
+          "url": "https://www.portugalresident.com/dozens-injured-as-police-clear-protest-camps-in-lisbon-and-porto/"
         },
         {
           "outlet": "Euronews",
-          "title": "Protests sweep across Europe from France to Albania, Italy, Spain and Portugal.",
-          "url": "https://www.euronews.com/2026/10/24/protests-sweep-across-europe-from-france-to-albania-italy-spain-and-portugal"
-        },
-        {
-          "outlet": "NPR",
-          "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
-          "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe"
-        },
-        {
-          "outlet": "Fortune",
-          "title": "It's not just France — Protesters are marching across Europe as part of the newly formed 'Oct. 17 Movement'",
-          "url": "https://fortune.com/2026/10/24/europe-protests-oct-17-movement-france-spain-italy-albania-portugal/"
-        },
-        {
-          "outlet": "Bloomberg",
-          "title": "French Protests Begin as Police Seek to Avoid Repeat of Violence",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-24/french-protests-begin-as-police-seek-to-avoid-repeat-of-violence"
-        }
-      ]
-    },
-    {
-      "title": "Brazil Votes",
-      "icon": "🇧🇷",
-      "summary": "Runoff between Flávio Bolsonaro and Lula today; polls show a statistical tie",
-      "paragraphs": [
-        {
-          "heading": "Runoff day",
-          "body": "Brazilians vote today in a runoff between Flávio Bolsonaro of the Liberal Party, who led the first round with 47.03%, and President Lula, who took 45.16%, CFR and Americas Quarterly reported. Final polls show a technical tie, and prediction markets give Bolsonaro about 80% odds, The Rio Times reported. Results begin after polls close at 5 p.m. Brasília time. [[TAG:info:results tonight]]"
-        }
-      ],
-      "sources": "CFR, Americas Quarterly, AS/COA, The Rio Times, Al Jazeera",
-      "citations": [
-        {
-          "outlet": "CFR",
-          "title": "Brazil’s 2026 Election: What to Know About the Lula-Bolsonaro Runoff",
-          "url": "https://www.cfr.org/articles/brazils-2026-election-what-to-know-and-whats-at-stake"
-        },
-        {
-          "outlet": "Americas Quarterly",
-          "title": "REACTION: Flávio Bolsonaro and Lula Advance to Brazil's Presidential Runoff",
-          "url": "https://www.americasquarterly.org/article/reaction-flavio-bolsonaro-and-lula-advance-to-brazils-presidential-runoff/"
-        },
-        {
-          "outlet": "AS/COA",
-          "title": "Poll Tracker: Brazil's 2026 Presidential Election",
-          "url": "https://www.as-coa.org/articles/poll-tracker-brazils-2026-presidential-election"
-        },
-        {
-          "outlet": "The Rio Times",
-          "title": "Brazil Election 2026: Lula vs Flávio Runoff on 25 October",
-          "url": "https://www.riotimesonline.com/brazil-runoff-october-25-2026-flavio-bolsonaro-lula/"
-        },
-        {
-          "outlet": "Al Jazeera",
-          "title": "Latest poll shows Bolsonaro maintaining edge over Lula in Brazil run-off",
-          "url": "https://www.aljazeera.com/news/2026/10/16/latest-poll-shows-bolsonaro-maintaining-edge-over-lula-in-brazil-run-off"
-        }
-      ]
-    },
-    {
-      "title": "Global Roundup",
-      "icon": "🌍",
-      "summary": "Ebola vaccine trial starts in Congo; Kim Jong Un makes day trip to China's Dandong",
-      "paragraphs": [
-        {
-          "heading": "Ebola vaccine trial",
-          "body": "WHO and Congolese health officials began the Tumaini trial in Bunia, giving the Ervebo vaccine to high-risk contacts to test whether it protects against the Bundibugyo strain, for which no vaccine is approved, Al Jazeera reported. Congo's outbreak has passed 9,700 cases and 4,600 deaths, Sahara Reporters reported. [[TAG:success:trial begins]]"
-        },
-        {
-          "heading": "Kim in Dandong",
-          "body": "Kim Jong Un made a one-day trip to Dandong across a new bridge over the Yalu River, accompanied by China's fourth-ranking leader Wang Huning, who conveyed Xi Jinping's greetings, Xinhua reported via The Japan Times and PBS. Earlier reports, citing a South Korean official, said Premier Li Qiang met him."
-        }
-      ],
-      "sources": "Al Jazeera, Sahara Reporters, Medical Xpress, The Japan Times, PBS, Korea Times",
-      "citations": [
-        {
-          "outlet": "Al Jazeera",
-          "title": "WHO announces start of Ebola vaccine clinical trial in DR Congo",
-          "url": "https://www.aljazeera.com/news/2026/10/24/who-announces-start-of-ebola-vaccine-clinical-trial-in-dr-congo"
-        },
-        {
-          "outlet": "Sahara Reporters",
-          "title": "WHO Begins Ebola Vaccine Trial In DR Congo As Death Toll Exceeds 4600",
-          "url": "https://saharareporters.com/2026/10/24/who-begins-ebola-vaccine-trial-dr-congo-death-toll-exceeds-4600"
-        },
-        {
-          "outlet": "Medical Xpress",
-          "title": "Ebola vaccine trial begins in DR Congo",
-          "url": "https://medicalxpress.com/news/2026-10-ebola-vaccine-trial-dr-congo.html"
-        },
-        {
-          "outlet": "The Japan Times",
-          "title": "North Korea’s Kim visits China as allies’ look to boost economic ties",
-          "url": "https://www.japantimes.co.jp/news/2026/10/25/asia-pacific/politics/north-korea-kim-jong-un-china-dandong/"
-        },
-        {
-          "outlet": "PBS",
-          "title": "North Korean leader Kim Jong Un visits China to inaugurate a new cross-border bridge",
-          "url": "https://www.pbs.org/newshour/world/north-korean-leader-kim-jong-un-visits-china-to-inaugurate-a-new-cross-border-bridge"
-        },
-        {
-          "outlet": "Korea Times",
-          "title": "N. Korean leader Kim Jong-un visits China to inaugurate a new cross-border bridge",
-          "url": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261025/n-korean-leader-kim-jong-un-visits-china-to-inaugurate-a-new-cross-border-bridge"
+          "title": "Latest News: Today's Top Headlines & Live Updates",
+          "url": "https://www.euronews.com/just-in"
         }
       ]
     }
   ],
   "searches": [
     {
-      "query": "Iran news October 25 2026",
+      "query": "Brazil runoff result October 25 2026 winner",
+      "results": [
+        {
+          "title": "In Stunning victory, Brazil’s Lula wins fourth Presidential term : NPR",
+          "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election"
+        },
+        {
+          "title": "2026 Alagoas general election",
+          "url": "https://en.wikipedia.org/wiki/2026_Alagoas_general_election"
+        },
+        {
+          "title": "How Lula beat Bolsonaro, broke records and halted the right-wing wave aligning Latin America with Trump in 20 days",
+          "url": "https://www.cnn.com/2026/10/26/americas/brazil-election-results-takeaways-latam-hk-intl"
+        },
+        {
+          "title": "2026 Bahia gubernatorial election",
+          "url": "https://en.wikipedia.org/wiki/2026_Bahia_gubernatorial_election"
+        },
+        {
+          "title": "2026 Pernambuco gubernatorial election",
+          "url": "https://en.wikipedia.org/wiki/2026_Pernambuco_gubernatorial_election"
+        },
+        {
+          "title": "2026 S%C3%A3o Paulo general election",
+          "url": "https://en.wikipedia.org/wiki/2026_S%C3%A3o_Paulo_general_election"
+        },
+        {
+          "title": "Who Won Brazil’s Election 2026? Flávio Bolsonaro vs. Lula da Silva Live Results and Runoff Updates",
+          "url": "https://depor.com/en/us-live/who-won-brazils-election-2026-flavio-bolsonaro-vs-lula-da-silva-live-results-and-runoff-updates-nnda-nnrt-noticia/"
+        },
+        {
+          "title": "2026 Brazilian general election",
+          "url": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        {
+          "title": "Brazil Election 2026: Lula vs Flávio Runoff on 25 October",
+          "url": "https://www.riotimesonline.com/brazil-runoff-october-25-2026-flavio-bolsonaro-lula/"
+        },
+        {
+          "title": "2026 Bahia general election",
+          "url": "https://en.wikipedia.org/wiki/2026_Bahia_general_election"
+        }
+      ]
+    },
+    {
+      "query": "Iran news October 26 2026",
       "results": [
         {
           "title": "Iranian Economic News Agency",
@@ -454,24 +509,28 @@
           "url": "http://www.jpost.com/middle-east/iran-news"
         },
         {
-          "title": "Live Updates: Iran warns that U.S. military not allowed in Gulf \"under any circumstance\"",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/"
-        },
-        {
           "title": "Home",
           "url": "https://www.iranintl.com/en"
         },
         {
-          "title": "Trump declares US has ‘decimated’ Iran as Tehran warns it's ‘fully prepared’ for war",
-          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-russia-houthi-october-21"
+          "title": "Live Updates: Trump says he's weighing deal with Iran against action to \"finish them off\"",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/"
+        },
+        {
+          "title": "Iran says won’t allow US warships to get close as Trump ponders new attacks",
+          "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks"
+        },
+        {
+          "title": "US moves diplomats, Trump floats new Iran military operation",
+          "url": "https://www.iranintl.com/en/liveblog/202610187555"
         },
         {
           "title": "Iranintl",
           "url": "https://www.iranintl.com/en/liveblog/202610244311"
         },
         {
-          "title": "Iran says won’t allow US warships to get close as Trump ponders new attacks",
-          "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks"
+          "title": "CENTCOM reportedly has plans for Iran strikes: Will Trump approve them?",
+          "url": "https://www.aljazeera.com/news/2026/10/25/centcom-reportedly-has-plans-for-iran-strikes-will-trump-approve-them"
         },
         {
           "title": "Iran News Today in English",
@@ -484,89 +543,52 @@
       ]
     },
     {
-      "query": "Iran US strike weekend October 24 2026",
+      "query": "Iran US strike October 25 2026 Sunday",
       "results": [
         {
-          "title": "US could strike Iran this weekend, envoy says: Reuters",
-          "url": "https://www.khaleejtimes.com/world/gulf/us-israel-iran-lebanon-war-live-updates-october-23-2026"
-        },
-        {
-          "title": "Arab News",
-          "url": "https://www.arabnews.com/middle-east/us-could-strike-iran-this-weekend-envoy-says-3007955"
-        },
-        {
-          "title": "Iran War 2026 -- Day 231 Update -- 16 October 2026",
-          "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"
-        },
-        {
-          "title": "Washington Talks Up a Weekend Strike as Allies Say No to a New War",
-          "url": "https://williamusher.substack.com/p/washington-talks-up-a-weekend-strike"
-        },
-        {
-          "title": "US warns of imminent air strikes on Iran as Middle East tensions reach boiling point - The Week",
-          "url": "https://www.theweek.in/news/middle-east/2026/10/25/us-warns-of-imminent-air-strikes-on-iran-as-middle-east-tensions-reach-boiling-point.html"
+          "title": "Trump has 'a decision to make' on Iran as concerns over renewed strikes deepen",
+          "url": "https://www.thenationalnews.com/news/us/2026/10/25/trump-iran-strike/"
         },
         {
           "title": "October 2024 Israeli strikes on Iran",
           "url": "https://en.wikipedia.org/wiki/October_2024_Israeli_strikes_on_Iran"
         },
         {
+          "title": "'No US strike on Iran today': Trump now rules out fresh attack on Tehran in another U-turn as conflict drags - India TV News",
+          "url": "https://www.indiatvnews.com/news/world/no-us-strike-on-iran-today-trump-now-rules-out-fresh-attack-on-tehran-in-another-u-turn-as-conflict-drags-2026-10-26-1057907"
+        },
+        {
+          "title": "Evening recap: Trump will not strike Iran... today; Riyadh airport reopens - L'Orient Today",
+          "url": "https://today.lorientlejour.com/article/1552039/evening-recap-trump-will-not-strike-iran-today-riyadh-airport-reopens.html"
+        },
+        {
           "title": "Israeli strikes on Iran",
           "url": "https://en.wikipedia.org/wiki/Israeli_strikes_on_Iran"
         },
         {
-          "title": "US could strike Iran this weekend, envoy says",
-          "url": "https://india.shafaqna.com/EN/us-could-strike-iran-this-weekend-envoy-says/"
+          "title": "2026 Iranian strikes on Kuwait",
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Kuwait"
         },
         {
-          "title": "US could strike Iran this weekend, envoy says",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-could-strike-iran-weekend-envoy-says"
+          "title": "2026 United States%E2%80%93Israeli strikes on Iraq",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States%E2%80%93Israeli_strikes_on_Iraq"
+        },
+        {
+          "title": "Prelude to the 2026 Iran war",
+          "url": "https://en.wikipedia.org/wiki/Prelude_to_the_2026_Iran_war"
+        },
+        {
+          "title": "2026 Iranian strikes on the United Arab Emirates",
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates"
+        },
+        {
+          "title": "No plans for striking Iran on October 25 — Trump",
+          "url": "https://en.apa.az/america/no-plans-for-striking-iran-on-october-25-trump-532073"
         }
       ]
     },
     {
-      "query": "Brazil runoff October 25 2026 voting Lula Flavio Bolsonaro",
-      "results": [
-        {
-          "title": "REACTION: Flávio Bolsonaro and Lula Advance to Brazil's Presidential Runoff",
-          "url": "https://www.americasquarterly.org/article/reaction-flavio-bolsonaro-and-lula-advance-to-brazils-presidential-runoff/"
-        },
-        {
-          "title": "Poll Tracker: Brazil's 2026 Presidential Election",
-          "url": "https://www.as-coa.org/articles/poll-tracker-brazils-2026-presidential-election"
-        },
-        {
-          "title": "Brazil’s 2026 Election: What to Know About the Lula-Bolsonaro Runoff",
-          "url": "https://www.cfr.org/articles/brazils-2026-election-what-to-know-and-whats-at-stake"
-        },
-        {
-          "title": "Latest poll shows Bolsonaro maintaining edge over Lula in Brazil run-off",
-          "url": "https://www.aljazeera.com/news/2026/10/16/latest-poll-shows-bolsonaro-maintaining-edge-over-lula-in-brazil-run-off"
-        },
-        {
-          "title": "Bolsonaro and Lula head to runoff: 5 takeaways from Brazil’s election - The Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/10/04/bolsonaro-lula-head-runoff-5-takeaways-brazils-election/"
-        },
-        {
-          "title": "2026 Rio de Janeiro general election",
-          "url": "https://en.wikipedia.org/wiki/2026_Rio_de_Janeiro_general_election"
-        },
-        {
-          "title": "2026 Rio de Janeiro gubernatorial election",
-          "url": "https://en.wikipedia.org/wiki/2026_Rio_de_Janeiro_gubernatorial_election"
-        },
-        {
-          "title": "2026 Brazilian general election",
-          "url": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
-        },
-        {
-          "title": "Brazil Election 2026: Lula vs Flávio Runoff on 25 October",
-          "url": "https://www.riotimesonline.com/brazil-runoff-october-25-2026-flavio-bolsonaro-lula/"
-        }
-      ]
-    },
-    {
-      "query": "Ukraine Russia news October 24 2026",
+      "query": "Ukraine Russia news October 25 2026",
       "results": [
         {
           "title": "Ukraine News Today",
@@ -581,724 +603,708 @@
           "url": "https://en.wikipedia.org/wiki/Ukrainian_National_News"
         },
         {
-          "title": "Ukraine News Today Live",
-          "url": "https://www.newsnow.co.uk/h/World+News/Europe/Eastern+Europe/Ukraine"
-        },
-        {
           "title": "Ukraine-Russia: Latest news about the invasion and conflict - CBS News",
           "url": "https://www.cbsnews.com/ukraine-crisis/"
+        },
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.co.uk/h/World+News/Europe/Eastern+Europe/Ukraine"
         },
         {
           "title": "The Kyiv Independent — News from Ukraine, Eastern Europe",
           "url": "https://kyivindependent.com/"
         },
         {
-          "title": "Ukraine and Russia eye new peace talks but steep obstacles remain - National",
-          "url": "https://globalnews.ca/news/12119807/ukraine-russia-peace-talks-2/"
-        },
-        {
           "title": "Ukraine",
           "url": "https://www.aljazeera.com/where/ukraine/"
         },
         {
-          "title": "Full Episode",
-          "url": "https://www.pbs.org/newshour/tag/ukraine/page/52"
+          "title": "Ukraine must 'unblock' Patriot missile delivery, Zelenskyy says after deadly strikes - ABC News",
+          "url": "https://abcnews.com/International/ukraine-unblock-patriot-missile-delivery-zelenskyy-after-deadly/story?id=137550094"
+        },
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.com/us/World/Europe/Eastern+Europe/Ukraine"
         }
       ]
     },
     {
-      "query": "Trump Georgia rally October 24 2026",
+      "query": "Trump Michigan rally Port Huron October 25",
       "results": [
         {
-          "title": "Trump in Georgia, Michigan this weekend ahead of 2026 midterm elections",
-          "url": "https://www.foxnews.com/live-news/trump-weekend-rallies-georgia-michigan-2026-midterm-elections"
+          "title": "Trump fires up Republicans in Port Huron rally amid midterm push",
+          "url": "https://www.yahoo.com/news/politics/articles/trump-fires-republicans-port-huron-235805285.html"
         },
         {
-          "title": "UPDATED: Crowds build early ahead of President Trump's voter rally in Perry",
-          "url": "https://wgxa.tv/news/local/updated-crowds-build-early-ahead-of-president-trumps-voter-rally-in-perry"
+          "title": "Midterm election: Trump in Michigan; hearing on California voter rolls",
+          "url": "https://www.cnn.com/2026/10/25/politics/live-news/midterm-election-congress"
         },
         {
-          "title": "Trump returning to Georgia for Macon rally on Saturday - CBS Atlanta",
-          "url": "https://www.cbsnews.com/atlanta/news/trump-returning-to-georgia-for-macon-rally-on-saturday/"
+          "title": "Midterm Rally in Port Huron, Michigan featuring President Donald J. Trump",
+          "url": "https://events.gop.com/events/midterm-rally-in-st-clair-mi-president-donald-j-trump-djt47"
         },
         {
-          "title": "Trump to hold rally in central Georgia",
-          "url": "https://www.wrdw.com/2026/10/24/trump-hold-rally-central-georgia/"
+          "title": "President Donald Trump rallies Michigan Republicans in Port Huron",
+          "url": "https://www.detroitnews.com/picture-gallery/news/politics/2026/10/25/donald-trump-president-port-huron-rally-mike-rogers/92430729007/"
         },
         {
-          "title": "Trump moves Georgia midterm rally from Macon to Perry",
-          "url": "https://www.walb.com/2026/10/21/trump-moves-georgia-midterm-rally-macon-perry/"
+          "title": "Trump defends Iran war, gas prices in speech to Michigan Republicans",
+          "url": "https://www.detroitnews.com/story/news/politics/2026/10/25/trump-rally-michigan-port-huron-live-updates--live/92430040007/"
         },
         {
-          "title": "STREAM LIVE: Trump rally in central Georgia underway, president to give remarks soon",
-          "url": "https://www.wtoc.com/2026/10/24/stream-live-trump-rally-central-georgia-underway-president-give-remarks-soon/"
+          "title": "Trump in Michigan: President comes to Port Huron Sunday for midterm rally",
+          "url": "https://www.fox2detroit.com/news/trump-michigan-president-port-huron"
         },
         {
-          "title": "STREAM LIVE: Trump rally in central Georgia underway, president to give remarks soon",
-          "url": "https://www.atlantanewsfirst.com/2026/10/24/trump-hold-rally-central-georgia-everything-know/"
+          "title": "Pres. Trump rallies in Michigan, supports Republican nominees",
+          "url": "https://www.clickondetroit.com/news/local/2026/10/26/pres-trump-rallies-in-michigan-supports-republican-nominees/"
         },
         {
-          "title": "Trump to hold rally in central Georgia",
-          "url": "https://www.wctv.tv/2026/10/24/trump-hold-rally-central-georgia-everything-know/"
+          "title": "Trump invokes anti-Muslim rhetoric to attack El-Sayed at Michigan rally supporting Rogers, James • Michigan Advance",
+          "url": "https://michiganadvance.com/2026/10/25/trump-invokes-anti-muslim-rhetoric-to-attack-el-sayed-at-michigan-rally-supporting-rogers-james/"
         },
         {
-          "title": "List of Donald Trump rallies (2025%E2%80%93present)",
-          "url": "https://en.wikipedia.org/wiki/List_of_Donald_Trump_rallies_(2025%E2%80%93present)"
-        },
-        {
-          "title": "Live updates: President Donald Trump holds rally in Perry ahead of Election Day - 41NBC News",
-          "url": "https://www.41nbc.com/live-updates-president-donald-trump-holds-rally-in-perry-ahead-of-election-day/"
+          "title": "WATCH: Trump holds rally in Lansing, Michigan",
+          "url": "https://www.pbs.org/newshour/amp/politics/watch-live-trump-holds-rally-in-lansing-michigan"
         }
       ]
     },
     {
-      "query": "France protests Saturday October 24 2026",
+      "query": "Israel election eve October 26 2026",
       "results": [
         {
-          "title": "France protests October 24, 2026: 600 demonstrations planned",
-          "url": "https://www.connexionfrance.com/news/more-than-600-protests-planned-across-france-on-october-24/823592"
+          "title": "Israel Election 2026: What Shops, Supermarkets, and Malls Will Be Open or Closed Today? Check Opening & Closing Timings",
+          "url": "https://sundayguardianlive.com/world/israel-election-2026-what-shops-supermarkets-and-malls-will-be-open-or-closed-today-check-opening-closing-timings-heres-full-list-312225/"
         },
         {
-          "title": "October 24, 2026 — Clashes in France after day of mostly peaceful protests",
-          "url": "https://www.cnn.com/2026/10/24/world/live-news/france-protests-paris-europe-intl"
+          "title": "Israel’s election: Five key things to know",
+          "url": "https://www.aljazeera.com/news/2026/10/26/israels-election-five-key-things-to-know"
         },
         {
-          "title": "2026 French fuel protests",
-          "url": "https://en.wikipedia.org/wiki/2026_French_fuel_protests"
+          "title": "Israel holds consequential election after years of war : NPR",
+          "url": "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu"
         },
         {
-          "title": "French Protests Begin as Police Seek to Avoid Repeat of Violence - Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-24/french-protests-begin-as-police-seek-to-avoid-repeat-of-violence"
+          "title": "Israeli election to test Benjamin Netanyahu's ability to hold power - CBS News",
+          "url": "https://www.cbsnews.com/news/israeli-election-to-test-benjamin-netanyahus-ability-to-hold-power/"
         },
         {
-          "title": "Hundreds of thousands protest in France amid heightened police security",
-          "url": "https://www.aljazeera.com/news/2026/10/24/france-braces-for-another-day-of-mass-protests-as-security-on-high-alert"
+          "title": "Israel is holding its most important election in years. Here’s what’s at stake",
+          "url": "https://www.cnn.com/2026/10/25/middleeast/israel-election-2026-whats-at-stake-intl"
         },
         {
-          "title": "France sees another weekend of mass protests with nearly 1,000 detained",
-          "url": "https://www.cnn.com/2026/10/24/europe/france-weekend-protests-detained-latam-intl"
+          "title": "Israel Election 2026: 27 October Vote, Polls and Live Results",
+          "url": "https://thestateofisrael.com/election-2026"
         },
         {
-          "title": "2022 French protests",
-          "url": "https://en.wikipedia.org/wiki/2022_French_protests"
+          "title": "Israeli legislative election Winner? 2026 Race Odds: Yashar vs. Likud",
+          "url": "https://kalshi.com/markets/kxisraelknesset/israeli-knesset-election/kxisraelknesset-26"
         },
         {
-          "title": "Bloquons tout",
-          "url": "https://en.wikipedia.org/wiki/Bloquons_tout"
+          "title": "Israel Election 2026: Polls, Average and Coalition Tracker",
+          "url": "https://www.israel.com/israel-election-2026"
         },
         {
-          "title": "2024 French protests against the National Rally",
-          "url": "https://en.wikipedia.org/wiki/2024_French_protests_against_the_National_Rally"
+          "title": "israel election",
+          "url": "https://www.npr.org/1999/05/15/1050084/israel-election"
         }
       ]
     },
     {
-      "query": "Saudi Egypt Pakistan Turkey European powers oppose new attack on Iran statement",
+      "query": "Flavio Bolsonaro refuses accept result annul Brazil election",
       "results": [
         {
-          "title": "Turkey cautions against renewed attack on Iran, seeks dialogue",
-          "url": "https://gazettengr.com/turkey-cautions-against-renewed-attack-on-iran-seeks-dialogue/"
+          "title": "Bolsonaro Refuses to Accept Brazil Election Results, Vows to Request Annulment",
+          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008815113"
         },
         {
-          "title": "Turkey says renewed attack on Iran would expand conflict, diplomacy only way",
-          "url": "http://www.jpost.com/middle-east/iran-news/article-912670"
+          "title": "Lula wins Brazilian election but Bolsonaro refuses to accept defeat - ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-26/lula-brazil-election-win-bolsonaro-rejects-results/107308542"
         },
         {
-          "title": "Turkey Says Renewed Attack on Iran Would Expand Conflict, Diplomacy Only Way",
-          "url": "https://www.usnews.com/news/world/articles/2026-10-23/turkey-says-renewed-attack-on-iran-would-expand-conflict-diplomacy-only-way"
+          "title": "Bolsonaro refuses to concede, seeks to annul Brazil election",
+          "url": "https://www.jpost.com/international/article-912852"
         },
         {
-          "title": "Eight countries unite in Istanbul against another strike on Iran as the Strait of Hormuz crisis threatens global energy markets",
-          "url": "https://www.latintimes.com/foreign-ministers-reject-new-strike-iran-hormuz-600541"
+          "title": "Brazil heads back to the future as Flavio Bolsonaro refuses to recognize Lula win",
+          "url": "https://theprint.in/world/brazil-heads-back-to-the-future-as-flavio-bolsonaro-refuses-to-recognize-lula-win/3081579/"
         },
         {
-          "title": "Eight Nations Met in Istanbul. Their Message to Washington: Don't Strike Iran",
-          "url": "https://www.inkl.com/news/eight-nations-met-in-istanbul-their-message-to-washington-dont-strike-iran"
+          "title": "Brazil’s Lula wins reelection with victory over Trump ally Bolsonaro, who rejects result",
+          "url": "https://www.cnn.com/2026/10/25/americas/brazil-election-lula-bolsonaro-intl-latam"
         },
         {
-          "title": "Eight Nations Warn US and Israel Against Renewed Strikes on Iran",
-          "url": "https://www.archyde.com/eight-nations-warn-us-and-israel-against-renewed-strikes-on-iran/"
+          "title": "Brazil’s Jair Bolsonaro Remains Silent, Refusing To Accept His Defeat",
+          "url": "https://news.yahoo.com/brazil-jair-bolsonaro-remains-silent-184417649.html?fr=sycsrp_catchall"
         },
         {
-          "title": "European, Middle East ministers urge US-Iran diplomacy, not new attacks",
-          "url": "https://www.newsbeep.com/782260/"
+          "title": "Bolsonaro refuses to concede Brazilian presidential election",
+          "url": "https://news.yahoo.com/bolsonaro-refuses-concede-brazilian-presidential-155725256.html"
         },
         {
-          "title": "US and Israel Warned Against Fresh Strikes on Iran at Istanbul Summit - Brit Brief",
-          "url": "https://britbrief.co.uk/politics/diplomacy/us-israel-warned-against-fresh-strikes-on-iran-at-summit.html"
+          "title": "Brazil's Bolsonaro Refrains From Either Recognizing Lula's Election Victory or Rejecting Results",
+          "url": "https://www.globalsecurity.org/wmd/library/news/brazil/brazil-221101-sputnik01.htm"
         },
         {
-          "title": "12 Arab and Islamic countries unite to condemn 'heinous' Iranian attacks",
-          "url": "https://www.foxnews.com/world/12-arab-islamic-countries-unite-condemn-heinous-iranian-attacks.amp"
+          "title": "brazils lula says he hopes bolsonaro will accept election result",
+          "url": "https://www.aljazeera.com/amp/news/2022/10/24/brazils-lula-says-he-hopes-bolsonaro-will-accept-election-result"
+        },
+        {
+          "title": "brazil candidate says he will only accept results if he wins",
+          "url": "https://www.foxnews.com/world/brazil-candidate-says-he-will-only-accept-results-if-he-wins"
         }
       ]
     },
     {
-      "query": "Iran supertankers mines Hormuz Saturday October 24 IRGC claim",
+      "query": "CENTCOM cleared Hormuz shipping lanes mines October 25",
       "results": [
         {
-          "title": "Iran warns US against entering Persian Gulf as IRGC claims 2 supertankers hit naval mines near Strait of Hormuz - The Tribune",
-          "url": "https://www.tribuneindia.com/news/crude-oil/iran-warns-us-against-entering-persian-gulf-as-irgc-claims-2-supertankers-hit-naval-mines-near-strait-of-hormuz"
+          "title": "CENTCOM commander visits Strait of Hormuz, says transit routes ‘free and clear’ of Iranian mines",
+          "url": "https://ianslive.in/centcom-commander-visits-strait-of-hormuz-says-transit-routes-free-and-clear-of-iranian-mines--20261025234204"
         },
         {
-          "title": "Iran says won’t allow US warships to get close as Trump ponders new attacks",
-          "url": "https://aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks"
+          "title": "US CENTCOM chief flies over Strait of Hormuz, says it's free of mines",
+          "url": "https://www.timesofisrael.com/liveblog_entry/us-centcom-chief-flies-over-strait-of-hormuz-says-its-free-of-mines/"
         },
         {
-          "title": "IRGC Navy Claims 2 Supertankers Struck a Mine In the Strait of Hormuz",
-          "url": "https://thisisbeirut.com.lb/news/politics/irgc-navy-claims-2-supertankers-struck-mines-in-the-strait-of-hormuz"
+          "title": "Centcom says Iranian sea mines cleared from Strait of Hormuz transit routes",
+          "url": "https://thehill.com/policy/defense/6056395-centcom-us-clears-iranian-sea-mines/"
         },
         {
-          "title": "Two supertankers using unauthorised Hormuz route hit naval mines, IRGC says",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-supertankers-using-unauthorised-hormuz-route-hit-naval-mines-irgc"
+          "title": "Hormuz routes ‘free and clear’ of Iranian mines: CENTCOM chief",
+          "url": "https://www.siasat.com/hormuz-routes-free-and-clear-of-iranian-mines-centcom-chief-3564500/"
         },
         {
-          "title": "Bridgeton incident",
-          "url": "https://en.wikipedia.org/wiki/Bridgeton_incident"
+          "title": "U.S. Central Command says Strait of Hormuz shipping routes remain clear of Iranian mines",
+          "url": "https://defence-industry.eu/u-s-central-command-says-strait-of-hormuz-shipping-routes-remain-clear-of-iranian-mines/"
         },
         {
-          "title": "Iranian seizure of the tanker Talara",
-          "url": "https://en.wikipedia.org/wiki/Iranian_seizure_of_the_tanker_Talara"
+          "title": "Trump has 'a decision to make' on Iran as concerns over renewed strikes deepen",
+          "url": "https://thenationalnews.com/news/us/2026/10/25/trump-iran-strike"
         },
         {
           "title": "2026 Strait of Hormuz crisis",
           "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
         },
         {
-          "title": "2026 Strait of Hormuz campaign",
-          "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_campaign"
+          "title": "U.S. Central Command declares key Strait of Hormuz shipping lanes \"safe\", says no Iranian mines found : Global : JKN",
+          "url": "https://news.jkn.co.kr/editions/english/post/1050417"
         },
         {
-          "title": "Iran’s Revolutionary Guards say 2 supertankers hit naval mines in Strait of Hormuz",
-          "url": "https://www.anews.com.tr/middle-east/2026/10/24/irans-revolutionary-guards-say-2-supertankers-hit-naval-mines-in-strait-of-hormuz"
-        },
-        {
-          "title": "Yet two other supertankers hit mines in Hormuz: IRGC - Mehr News Agency",
-          "url": "https://en.mehrnews.com/news/248839/Yet-two-other-supertankers-hit-mines-in-Hormuz-IRGC"
+          "title": "Strait of Hormuz Update: US Commander Says Key Routes Are Clear of Iranian Mines",
+          "url": "https://english.newstrack.com/world-news/strait-of-hormuz-update-us-commander-says-key-routes-are-clear-of-iranian-mines-643322"
         }
       ]
     },
     {
-      "query": "Houthi Saudi Arabia attacks October 24 2026",
+      "query": "Asian markets Monday October 26 2026 oil",
       "results": [
         {
-          "title": "October 2026 Houthi attacks on Saudi Arabian airports",
-          "url": "https://en.wikipedia.org/wiki/October_2026_Houthi_attacks_on_Saudi_Arabian_airports"
+          "title": "Stock market today: Live updates",
+          "url": "https://www.cnbc.com/2026/10/25/stock-market-today-live-updates.html"
         },
         {
-          "title": "Houthis claim string of new attacks on Saudi Arabia",
-          "url": "https://www.spokesman.com/stories/2026/oct/24/houthis-claim-string-of-new-attacks-on-saudi-arabi/"
+          "title": "Crude oil's weird Monday: Brent, WTI slip as attacks rattle markets, Murban jumps 3% to $118",
+          "url": "https://gulfnews.com/business/energy/crude-oils-weird-monday-brent-wti-slip-as-attacks-rattle-markets-murban-jumps-3-to-118-1.500723522"
         },
         {
-          "title": "Houthi Attacks on Saudi Arabia: What the Group Wants",
-          "url": "https://alhurra.com/en/46926"
+          "title": "Oil Prices Asia: Live Asian Benchmarks, Dubai & Regional Analysis",
+          "url": "https://www.oilpriceapi.com/prices/regional/oil-prices-asia"
         },
         {
-          "title": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
-          "url": "https://www.aljazeera.com/news/2026/10/12/houthi-missile-attack-targets-saudi-capital-riyadh-for-third-day-in-a-row"
+          "title": "Equity Markets Open Lower as High Crude Oil Prices Dampen Sentiment",
+          "url": "https://newsable.asianetnews.com/business/equity-markets-open-lower-as-high-crude-oil-prices-dampen-sentiment-articleshow-sz5g45v"
         },
         {
-          "title": "2026 Houthi strikes on Israel",
-          "url": "https://en.wikipedia.org/wiki/2026_Houthi_strikes_on_Israel"
+          "title": "MARKETS LIVE: Financials and industrials lift London as mid-caps and AIM outperform",
+          "url": "https://www.proactiveinvestors.com/companies/news/1100654/markets-live-ftse-100-set-for-firmer-start-as-oil-retreats-1100654.html"
         },
         {
-          "title": "Yemen's Houthi rebels claim new attacks on oil facilities and airports across Saudi Arabia - France 24",
-          "url": "https://www.france24.com/en/middle-east/20261024-yemen-s-houthi-rebels-claim-new-attacks-on-oil-facilities-and-airports-across-saudi-arabia"
+          "title": "Asian Markets Open Cautiously",
+          "url": "https://mediabias.news/business/asian-markets-open-cautiously-as-oil-prices-ease"
         },
         {
-          "title": "Saudi Arabia will have to respond to Houthi airport attack",
-          "url": "https://www.cnn.com/2026/10/11/world/saudi-arabia-airport-attack-analysis-intl"
+          "title": "Asian Markets Diverge as Oil Prices Fall at Start of the Week",
+          "url": "https://swedenherald.com/article/asian-markets-diverge-as-oil-prices-fall-at-start-of-the-week"
         },
         {
-          "title": "2022 Jeddah missile attack",
-          "url": "https://en.wikipedia.org/wiki/2022_Jeddah_missile_attack"
+          "title": "Crude oil prices decline up to 2 pc as hopes of US-Iran de-escalation weigh",
+          "url": "https://www.thehawk.in/news/economy-and-business/crude-oil-prices-decline-up-to-2-pc-as-hopes-of-us-iran-de-escalation-weigh"
         },
         {
-          "title": "2022 Abu Dhabi attack",
-          "url": "https://en.wikipedia.org/wiki/2022_Abu_Dhabi_attack"
+          "title": "Oil prices up in Asian trade",
+          "url": "https://www.business-standard.com/amp/article/markets/oil-prices-up-in-asian-trade-109050400113_1.html"
+        },
+        {
+          "title": "Thursday, December 18, 2025 | 07:33 AM ISTहिंदी में पढें",
+          "url": "https://www.business-standard.com/article/markets/oil-prices-up-in-asian-trade-109050400113_1.html"
         }
       ]
     },
     {
-      "query": "Israel election campaign October 24 2026 West Bank shooting",
+      "query": "Riyadh airport reopens Houthi October 25 2026",
       "results": [
         {
-          "title": "Israel Election 2026",
-          "url": "https://www.haaretz.com/israel-news/elections/2026-10-23/ty-article-live/.free/netanyahu-cancels-all-friday-campaign-events-due-to-west-bank-shooting-attack/000001a1-65f1-d6e1-abb7-77ffe02e0002"
+          "title": "Aa",
+          "url": "https://www.aa.com.tr/en/americas/us-warns-of-escalating-security-threats-in-saudi-arabia-as-riyadh-airport-partly-reopens/4100467"
         },
         {
-          "title": "Israel orders West Bank lockdown after Hebron shooting attack",
-          "url": "https://www.nbcnews.com/world/middle-east/israel-orders-west-bank-lockdown-hebron-shooting-attack-rcna605176"
+          "title": "Riyadh airport partially reopens as Houthis, Saudi-led coalition exchange attacks",
+          "url": "https://news.cgtn.com/news/2026-10-26/Riyadh-airport-reopens-as-Houthis-coalition-exchange-attacks-1RxZEfXGDUk/p.html"
         },
         {
-          "title": "Israel's Netanyahu vows major military operation, cordons off West Bank city after deadly attack on troops - CBS News",
-          "url": "https://www.cbsnews.com/news/israel-west-bank-netanyahu-palestinians-military-operation-hebron/"
+          "title": "Riyadh airport partially reopens as Houthis, Saudi-led coalition continue exchanging attacks",
+          "url": "https://www.thehansindia.com/news/international/riyadh-airport-partially-reopens-as-houthis-saudi-led-coalition-continue-exchanging-attacks-1135859"
         },
         {
-          "title": "Israeli military says 2 soldiers were killed in West Bank attack that also left 2 gunmen dead - The Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/10/23/israel-shooting-west-bank-election/47adc22e-cead-11f1-ac04-9f58578a68b4_story.html"
+          "title": "Riyadh airport partially reopens amid renewed Houthi-Saudi coalition attacks",
+          "url": "https://madhyamamonline.com/middle-east/riyadh-airport-partially-reopens-amid-renewed-houthi-saudi-coalition-attacks-1566376"
         },
         {
-          "title": "Israel preparing full lockdown of occupied West Bank after Hebron gunfight",
-          "url": "https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up"
+          "title": "Riyadh airport attacked hours after flights resume - World - Business Recorder",
+          "url": "https://brecorder.com/news/40445933/riyadh-airport-attacked-hours-after-flights-resume"
         },
         {
-          "title": "Israeli PM pledges massive military operation after West Bank checkpoint attack : NPR",
-          "url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack"
+          "title": "Riyadh airport partially reopens as Houthis, Saudi-led coalition continue exchanging attacks",
+          "url": "https://www.thehawk.in/news/world/riyadh-airport-partially-reopens-as-houthis-saudi-led-coalition-continue-exchanging-attacks"
         },
         {
-          "title": "Watch CBS News",
-          "url": "https://www.cbsnews.com/news/deadly-gunfire-mars-israeli-election"
+          "title": "Saudi Arabia Reopens Riyadh Airport Despite Houthi Threats",
+          "url": "https://qncnews.com/2026/10/26/saudi-arabia-reopens-riyadh-airport-despite-houthi-threats/"
         },
         {
-          "title": "Palestinian attacker shot dead after killing Israeli in West Bank",
-          "url": "https://www.pressreader.com/oman/muscat-daily/20221031/281844352577340"
+          "title": "Hodeida port, Sana’a airport to reopen for aid",
+          "url": "https://www.pressreader.com/uae/gulf-news/20171123/283403422068694"
         },
         {
-          "title": "Watch CBS News",
-          "url": "https://www.cbsnews.com/news/three-israelis-killed-on-west-bank"
+          "title": "yemen saudi arabia 1.4399855",
+          "url": "https://amp.cbc.ca/news/world/yemen-saudi-arabia-1.4399855"
         }
       ]
     },
     {
-      "query": "Europe protests Italy Albania Spain October 24 2026",
+      "query": "Saudi Turkish Pakistani officials Tehran visit October 2026 regional talks",
       "results": [
         {
-          "title": "Protests sweep across Europe from France to Albania, Italy, Spain and Portugal.",
-          "url": "https://www.yahoo.com/news/world/articles/protests-sweep-across-europe-france-204657477.html"
+          "title": "Iran says Saudi, Pakistani, Turkish officials to visit Tehran for regional security talks",
+          "url": "https://aninews.in/news/world/middle-east/iran-says-saudi-pakistani-turkish-officials-to-visit-tehran-for-regional-security-talks20261026111708/"
         },
         {
-          "title": "Protests sweep across Europe from France to Albania, Italy, Spain and Portugal.",
-          "url": "https://www.euronews.com/2026/10/24/protests-sweep-across-europe-from-france-to-albania-italy-spain-and-portugal"
+          "title": "Senior Turkish, Saudi, Pakistani officials to visit Iran for security talks",
+          "url": "https://www.aa.com.tr/en/world/senior-turkish-saudi-pakistani-officials-to-visit-iran-for-security-talks/4100729"
         },
         {
-          "title": "October 24, 2026 — Clashes in France after day of mostly peaceful protests",
-          "url": "https://www.cnn.com/2026/10/24/world/live-news/france-protests-paris-europe-intl"
+          "title": "Iran says officials from Saudi, Turkey, Pakistan to visit Tehran for security talks",
+          "url": "https://www.tbsnews.net/world/iran-says-officials-saudi-turkey-pakistan-visit-tehran-security-talks-1583166"
         },
         {
-          "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe : NPR",
-          "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe"
+          "title": "Officials from Mecca pact states to hold talks in Iran amid regional tensions",
+          "url": "https://www.aljazeera.com/news/2026/10/26/officials-from-mecca-pact-states-to-hold-talks-in-iran-amid-regional-tensions"
         },
         {
-          "title": "It's not just France — Protesters are marching across Europe as part of the newly formed 'Oct. 17 Movement'",
-          "url": "https://fortune.com/2026/10/24/europe-protests-oct-17-movement-france-spain-italy-albania-portugal/"
+          "title": "Iran war live: Saudi, Pakistani and Turkish officials in Tehran for talks",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/26/iran-war-live-trump-rules-out-strikes-today-israeli-forces-raid-hebron"
         },
         {
-          "title": "Protests Sweep Europe as France Reports Nearly 1,000 Arrests - GreekReporter.com",
-          "url": "https://greekreporter.com/2026/10/25/protests-europe-france-rising-cost-albania/"
+          "title": "Iran to Host Saudi, Pakistani and Turkish Officials for Regional Security Talks",
+          "url": "https://kalingatv.com/world/iran-to-host-saudi-pakistani-and-turkish-officials-for-regional-security-talks/"
         },
         {
-          "title": "400,000 protest in France in fresh wave of demonstrations and clashes across Europe",
-          "url": "https://thefederal.com/category/international/france-italy-albania-europe-protests-clashes-260639"
+          "title": "Saudi, Pakistan, Turkey Chiefs to Visit Tehran for Security Talks",
+          "url": "https://newsable.asianetnews.com/world/saudi-pakistan-turkey-chiefs-to-visit-tehran-for-security-talks-articleshow-gwey6ny"
         },
         {
-          "title": "2026 in Albania",
-          "url": "https://en.wikipedia.org/wiki/2026_in_Albania"
+          "title": "Senior Saudi, Turkish, Pakistani officials to visit Tehran for regional security talks",
+          "url": "https://borna.news/en/news/6827/senior-saudi-turkish-pakistani-officials-to-visit-tehran-for-regional-security-talks"
         },
         {
-          "title": "euronews.com",
-          "url": "https://euronews.com/tag/protestas"
+          "title": "Saudi, Turkish and Pakistani Officials Travel to Tehran for De-escalation Talks",
+          "url": "https://streamlinefeed.co.ke/news/saudi-turkish-pakistani-officials-tehran-de-escalation-talks"
         }
       ]
     },
     {
-      "query": "Kim Jong Un Xi Jinping Beijing visit October 24 2026",
+      "query": "week ahead markets October 26 2026 Fed meeting earnings Microsoft Apple",
       "results": [
         {
-          "title": "NKorean leader Kim Jong Un visits China",
-          "url": "https://www.manilatimes.net/2026/10/25/world/asia-oceania/nkorean-leader-kim-jong-un-visits-china/2453259"
+          "title": "Wall Street Week Ahead",
+          "url": "https://seekingalpha.com/article/4957317-wall-street-week-ahead"
         },
         {
-          "title": "North Korean Leader Kim Jong Un Visits China to Inaugurate a New Cross-Border Bridge",
-          "url": "https://www.usnews.com/news/world/articles/2026-10-24/north-korean-leader-kim-jong-un-visits-china-south-korean-news-agency-reports"
+          "title": "Wall St week ahead earnings flood, Fed meeting will test rickety AI market rally",
+          "url": "https://tribune.com.pk/story/2636875/wall-st-week-ahead-earnings-flood-fed-meeting-will-test-rickety-ai-market-rally"
         },
         {
-          "title": "2026 visit by Vladimir Putin to China",
-          "url": "https://en.wikipedia.org/wiki/2026_visit_by_Vladimir_Putin_to_China"
+          "title": "The Week Ahead: US rate decision, PCE inflation, Microsoft earnings",
+          "url": "https://cmcmarkets.com/en-au/market-news/the-week-ahead-us-rate-decision-pce-inflation-microsoft-earnings"
         },
         {
-          "title": "N. Korean leader Kim Jong-un visits China to inaugurate a new cross-border bridge - The Korea Times",
-          "url": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261025/n-korean-leader-kim-jong-un-visits-china-to-inaugurate-a-new-cross-border-bridge"
+          "title": "The Week Ahead: Fed, AI Earnings and PCE Data Test Stock Market Strength",
+          "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-fed-ai-earnings-and-pce-data-test-stock-market-strength-1640174"
         },
         {
-          "title": "North Korea’s Kim Jong Un visits China via newly opened bridge",
-          "url": "https://www.aljazeera.com/news/2026/10/24/north-koreas-kim-jong-un-arrives-in-china-south-korean-media-says"
+          "title": "The Week Ahead: FOMC, PCE, Earnings from Amazon, Microsoft, Alphabet.",
+          "url": "https://riskreversal.substack.com/p/the-week-ahead-fomc-pce-earnings"
         },
         {
-          "title": "Kim%E2%80%93Xi meetings",
-          "url": "https://en.wikipedia.org/wiki/Kim%E2%80%93Xi_meetings"
+          "title": "What To Expect In Markets This Week: GOOGL, MSFT, AMZN, INTC, HOOD, LLY Earnings, Fed Meeting And More",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/expect-markets-week-googl-msft-152700674.html"
         },
         {
-          "title": "North Korea’s Kim visits China as allies’ look to boost economic ties - The Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/10/25/asia-pacific/politics/north-korea-kim-jong-un-china-dandong/"
+          "title": "The Week Ahead: Fed Rate Decision Looming as Microsoft, Alphabet, and Amazon Report Earnings",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262237761-weekly-fed-microsoft-alphabet-amazon-earnings-tradingkey"
         },
         {
-          "title": "North Korean leader Kim Jong Un visits China to inaugurate a new cross-border bridge",
-          "url": "https://www.pbs.org/newshour/world/north-korean-leader-kim-jong-un-visits-china-to-inaugurate-a-new-cross-border-bridge"
+          "title": "Alphabet, Microsoft And Amazon Lead The Busiest Week Of Earnings Season",
+          "url": "https://forbes.com/sites/bill_stone/2026/10/25/alphabet-microsoft-and-amazon-lead-busiest-week-of-earnings-season"
         },
         {
-          "title": "List of international trips made by Kim Jong Un",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Kim_Jong_Un"
+          "title": "brace for action big week ahead includes fed meeting heavy earnings and data calendar",
+          "url": "https://benzinga.com/markets/23/07/33349594/brace-for-action-big-week-ahead-includes-fed-meeting-heavy-earnings-and-data-calendar"
         }
       ]
     },
     {
-      "query": "Trump Iran remarks Saturday October 24 2026 deal tomorrow",
+      "query": "Lula victory speech fourth term reaction October 26 2026 markets real",
       "results": [
         {
-          "title": "Trump says he doesn't want Iran deal as U.S. reportedly prepares for 'massive bombing'",
-          "url": "https://www.cnbc.com/2026/10/08/us-iran-war-trump-hormuz.html"
+          "title": "Elections in Brazil: Lula returns to power, markets react with panic. Brazilian ETF loses nearly 15% in Tokyo. What about USDBRL, soybeans, sugar, BRAComp, and ETFs?",
+          "url": "https://www.xtb.com/int/market-analysis/news-and-research/elections-in-brazil-lula-returns-to-power-markets-react-with-panic-brazilian-etf-loses-nearly-15-in-tokyo-what-about-usdbrl-soybeans-sugar-bracomp-and-etfs"
         },
         {
-          "title": "‘We may attack them, we may have an agreement’: Trump weighs in on Iran issue - The Tribune",
-          "url": "https://www.tribuneindia.com/news/usa-news/we-my-attack-them-we-may-have-an-agreement-trump-weighs-in-on-iran-issue/"
+          "title": "Lula's Unexpected Win Shakes Brazilian Markets, Ticker: BRL",
+          "url": "https://www.gurufocus.com/news/9141552/lulas-unexpected-win-shakes-brazilian-markets-ticker-brl"
         },
         {
-          "title": "Trump Says US Could Strike Iran as Early as ‘Tomorrow’ or Reach Deal",
-          "url": "https://www.arabtimesonline.com/news/trump-says-us-could-strike-iran-as-early-as-tomorrow-or-reach-deal/"
+          "title": "Brazil election: Left-wing President Lula scores surprise victory over Flávio Bolsonaro",
+          "url": "https://www.thejournal.ie/brazil-election-result-7205214-Oct2026/"
         },
         {
-          "title": "iran president trump wont be able to harm the nuclear deal",
-          "url": "https://www.foxnews.com/world/iran-president-trump-wont-be-able-to-harm-the-nuclear-deal"
+          "title": "Brazil’s Lula Wins Historic Fourth Term, Flavio Bolsonaro Refuses to Concede",
+          "url": "https://english.aawsat.com/world/5333719-brazil%E2%80%99s-lula-wins-historic-fourth-term-flavio-bolsonaro-refuses-concede"
         },
         {
-          "title": "donald trump weighs iran deal n391926",
-          "url": "https://www.nbcnews.com/politics/2016-election/donald-trump-weighs-iran-deal-n391926"
+          "title": "Brazil's Lula wins historic presidential election; Bolsonaro reportedly refuses to concede",
+          "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html"
         },
         {
-          "title": "transcript president trump speaks to reporters on board air force one 2626",
-          "url": "https://www.democrats.senate.gov/newsroom/trump-transcripts/transcript-president-trump-speaks-to-reporters-on-board-air-force-one-2626"
+          "title": "Brazilian markets brace for rout as Lula's election win sparks ETF plunge",
+          "url": "https://streamlinefeed.co.ke/news/brazilian-markets-brace-for-rout-as-lulas-election-win-sparks-etf-plunge"
         },
         {
-          "title": "The Latest: Trump says Iran not living up to nuclear deal",
-          "url": "https://www.foxnews.com/us/the-latest-trump-says-iran-not-living-up-to-nuclear-deal.amp"
+          "title": "Lula Secures Historic Fourth Term in Brazil as Bolsonaro Camp Rejects Result",
+          "url": "https://streamlinefeed.co.ke/news/lula-secures-historic-fourth-term-in-brazil-as-bolsonaro-camp-rejects-result"
         },
         {
-          "title": "Donald Trump: Iran deal will be \"totally renegotiated -- or worse\"",
-          "url": "https://www.cbsnews.com/amp/news/donald-trump-iran-deal-totally-renegotiated-or-worse"
+          "title": "📈 Will you get serious about investing in 2025? Take the first step with 50% off InvestingProClaim Offer",
+          "url": "https://investing.com/news/economy/brazils-lula-says-some-public-spending-should-be-considered-investment-2940218"
         },
         {
-          "title": "Don now sets eyes on Iran; wants ‘real deal’ TRUDEAU REMARKS WILL COST CANADA ‘A LOT’: TRUMP",
-          "url": "https://www.pressreader.com/india/deccan-chronicle/20180613/281865824177319"
-        },
-        {
-          "title": "Trump: \"I have decided\" on Iran deal",
-          "url": "https://cbsnews.com/amp/news/trump-i-have-decided-on-iran-deal"
+          "title": "World reacts as Lula wins Brazil presidential election",
+          "url": "https://www.aljazeera.com/amp/news/2022/10/31/world-reacts-as-lula-wins-brazil-presidential-election"
         }
       ]
     },
     {
-      "query": "Russia Ukraine attacks October 25 2026 overnight",
+      "query": "Israeli forces raid Hebron October 25 2026",
       "results": [
         {
-          "title": "Russia hits Ukrainian apartment buildings in deadly overnight strike, Zelenskyy says - ABC News",
-          "url": "https://abcnews.com/International/russia-hits-ukrainian-apartment-buildings-deadly-overnight-strike/story?id=137058213"
+          "title": "Oct. 25: Palestinian Authority says 2,670 displaced in Israel’s Hebron operation",
+          "url": "https://www.timesofisrael.com/liveblog-october-25-2026/"
         },
         {
-          "title": "Russian strikes kill 7 in Ukraine after US envoy meets Putin",
-          "url": "https://www.euronews.com/2026/10/22/overnight-attacks-resume-between-russia-and-ukraine-following-us-envoy-visit"
+          "title": "Palestinian Authority Says 2,670 Displaced in Israel’s Hebron Operation",
+          "url": "https://english.aawsat.com/arab-world/5333690-palestinian-authority-says-2670-displaced-israel%E2%80%99s-hebron-operation"
         },
         {
-          "title": "Russian strikes on Ukrainian cities kill at least 21 in a major attack that Kyiv saw coming",
-          "url": "https://www.nbcnews.com/world/ukraine/russian-strikes-ukrainian-cities-kill-21-major-attack-kyiv-rcna602068"
+          "title": "Israeli forces demolish Hebron homes, displace thousands",
+          "url": "https://www.newarab.com/news/israeli-forces-demolish-hebron-homes-displace-thousands"
         },
         {
-          "title": "Russia pounds Ukraine's capital Kyiv with missiles and drones, hours after agreeing to peace talks",
-          "url": "https://www.cbc.ca/news/world/ukraine-russia-missile-attack-9.7391250"
+          "title": "Why Israel’s latest assault on Hebron is so significant for the West Bank",
+          "url": "https://www.aljazeera.com/economy/2026/10/25/why-israels-latest-assault-on-hebron-is-so-significant-for-the-west-bank"
         },
         {
-          "title": "Ukrainian Attacks Kill 3 in Belgorod, Hit Perm Industrial Plant - The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/10/25/ukrainian-attacks-kill-3-in-belgorod-hit-perm-industrial-plant-a94077"
+          "title": "Israeli forces raid homes and assault civilians, including children and elderly people, in Hebron",
+          "url": "https://english.wafa.ps/Pages/Details/176254"
         },
         {
-          "title": "Kyiv says Starlink restored as attacks in Ukraine and Russia continue",
-          "url": "https://www.aljazeera.com/news/2026/10/24/ukraine-says-starlink-restored-as-attacks-continue-in-russia-and-ukraine"
+          "title": "Israeli forces detain 20 Palestinians as assault on Hebron enters third day",
+          "url": "https://english.wafa.ps/Pages/Details/176240"
         },
         {
-          "title": "TRT World - Russia, Ukraine report deaths and injuries in overnight strikes",
-          "url": "https://www.trtworld.com/article/8f4ee117c316"
+          "title": "Israel Escalates Its Assault on Hebron: What Is Happening?",
+          "url": "https://countercurrents.org/2026/10/israel-escalates-its-assault-on-hebron-what-is-happening/"
         },
         {
-          "title": "Russia, Ukraine report casualties in overnight strikes",
-          "url": "https://www.anews.com.tr/world/2026/10/25/russia-ukraine-report-casualties-in-overnight-strikes"
+          "title": "2022 Kiryat Arba attack",
+          "url": "https://en.wikipedia.org/wiki/2022_Kiryat_Arba_attack"
         },
         {
-          "title": "July 9, 2025 5:35 PM",
-          "url": "https://www.newsonair.gov.in/russia-launches-drone-missile-attacks-on-ukraine"
+          "title": "Israel locks down West Bank and launches operations after Hebron checkpoint…",
+          "url": "https://www.onenewspage.com/global-briefing/archive/2026/10/25/morning/"
+        }
+      ]
+    },
+    {
+      "query": "Zelensky Patriot missile delivery unblock October 25 Russian strikes killed",
+      "results": [
+        {
+          "title": "Ukraine must 'unblock' Patriot missile delivery, Zelenskyy says after deadly strikes - ABC News",
+          "url": "https://abcnews.com/International/ukraine-unblock-patriot-missile-delivery-zelenskyy-after-deadly/story?id=137550094"
+        },
+        {
+          "title": "Zelenskyy issues statement regarding blocking of previously approved deliveries of interceptor / The New Voice of Ukraine",
+          "url": "https://english.nv.ua/nation/zelenskyy-issues-statement-regarding-blocking-of-previously-approved-deliveries-of-interceptor-50653217.html"
+        },
+        {
+          "title": "Ukraine must ‘unblock’ Patriot missile delivery, Zelenskyy says after deadly strikes - Deltaplex News",
+          "url": "https://www.deltaplexnews.com/world-news/ukraine-must-unblock-patriot-missile-delivery-zelenskyy-says-after-deadly-strikes/"
+        },
+        {
+          "title": "Ukraine must 'unblock' Patriot missile delivery, Zelenskyy says after deadly strikes - Everett Post",
+          "url": "https://www.everettpost.com/world/ukraine-must-unblock-patriot-missile-delivery-zelenskyy-says-after-deadly-strikes/"
+        },
+        {
+          "title": "Zelenskyy Demands Unblocked Patriot Missiles After Deadly Strikes",
+          "url": "https://azat.tv/en/zelenskyy-demands-unblocked-patriot-missiles/"
+        },
+        {
+          "title": "Ukraine must 'unblock' Patriot missile delivery, Zelenskyy says after deadly strikes - Akamai Daily News",
+          "url": "https://www.akamaidailynews.com/world/ukraine-must-unblock-patriot-missile-delivery-zelenskyy-says-after-deadly-strikes/"
+        },
+        {
+          "title": "zelenskyy urges west to send patriots as russian strikes on kharkiv kill11 623015",
+          "url": "https://www.tribuneindia.com/news/world/zelenskyy-urges-west-to-send-patriots-as-russian-strikes-on-kharkiv-kill11-623015"
+        },
+        {
+          "title": "Zelenskyy on Russian attack on Kharkiv: You have to be an outright scumbag to deliver such strikes – photos",
+          "url": "https://www.yahoo.com/news/zelenskyy-russian-attack-kharkiv-outright-153901303.html"
         },
         {
           "title": "www.malaymail.com",
-          "url": "https://www.malaymail.com/news/world/2023/06/02/russia-says-ukraine-hit-western-regions-in-overnight-attacks/72163"
+          "url": "https://www.malaymail.com/news/world/2024/03/28/kyiv-calls-for-air-defences-after-four-killed-in-attacks/125935"
         }
       ]
     },
     {
-      "query": "midterms early voting record turnout October 24 2026",
+      "query": "Europe news October 25 2026",
       "results": [
         {
-          "title": "2026 midterm election: Early voting underway until Oct. 30 in Texas as Harris County sets record numbers - ABC13 Houston",
-          "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+          "title": "Latest News: Today's Top Headlines & Live Updates",
+          "url": "https://www.euronews.com/just-in"
         },
         {
-          "title": "Early voting turnout across Houston-area counties surges - ABC13 Houston",
-          "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/entry/19966813/"
+          "title": "Europe news published in October 2026 - Archives - France 24",
+          "url": "https://www.france24.com/en/archives/europe/2026/10/"
         },
         {
-          "title": "Dallas County sees record turnout for first day of 2026 early voting",
-          "url": "https://www.fox4news.com/news/dallas-county-early-voting-2026-day-one-total"
+          "title": "Europe News",
+          "url": "https://www.aljazeera.com/europe/"
         },
         {
-          "title": "Texas midterms early voting tracker: See where turnout is highest",
-          "url": "https://www.houstonchronicle.com/projects/2026/texas-midterms-early-voting-turnout/"
+          "title": "top news stories today",
+          "url": "https://www.euronews.com/top-news-stories-today"
         },
         {
-          "title": "22 Million+ Early Votes: Record Turnout Ahead of Midterms",
-          "url": "https://www.youtube.com/watch?v=vvShbx3ydwE"
+          "title": "www.euronews.com",
+          "url": "https://www.euronews.com/tag/news?p=4"
         },
         {
-          "title": "Vote Early Day",
-          "url": "https://en.wikipedia.org/wiki/Vote_Early_Day"
+          "title": "world news",
+          "url": "https://www.euronews.com/tag/world-news?p=7"
         },
         {
-          "title": "Early vote tracker: who has voted so far in 2026 · Call the Map",
-          "url": "https://www.callthemap.com/early-vote"
+          "title": "top stories",
+          "url": "https://www.euronews.com/tag/top-stories?p=6"
         },
         {
-          "title": "Early Voting Tops 24 Million as Democrats Lead Ballot Returns in Several Key Midterm States",
-          "url": "https://yournews.com/2026/10/25/7237721/early-voting-tops-24-million-as-democrats-lead-ballot-returns/"
+          "title": "world news",
+          "url": "https://www.euronews.com/tag/world-news?p=10"
         },
         {
-          "title": "Print Print    Close Close",
-          "url": "https://www.foxnews.com/politics/more-than-6-million-ballots-cast-midterm-early-voting-continues-surge.print"
+          "title": "top stories",
+          "url": "https://www.euronews.com/tag/top-stories?p=9"
         }
       ]
     },
     {
-      "query": "Lebanon Israel Hezbollah news October 24 2026",
+      "query": "Obama Detroit rally October 24 2026 midterms",
       "results": [
         {
-          "title": "Hezbollah",
-          "url": "https://www.timesofisrael.com/topic/hezbollah/"
+          "title": "Midterm election: Obama slams Trump for years of ‘chaos and cruelty’",
+          "url": "https://www.cnn.com/2026/10/24/politics/live-news/midterm-election-congress"
         },
         {
-          "title": "Lebanon",
-          "url": "https://www.timesofisrael.com/topic/lebanon/"
+          "title": "Obama joins El-Sayed in Michigan rally cry before key midterms",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/obama-joins-el-sayed-in-michigan-rally-cry-before-key-midterms"
         },
         {
-          "title": "Lebanon News Today",
-          "url": "https://www.newsnow.co.uk/h/World+News/Middle+East/Lebanon"
+          "title": "Obama to campaign with El-Sayed in Detroit as ex-president gets more involved in midterms",
+          "url": "https://www.pbs.org/newshour/politics/obama-to-campaign-with-el-sayed-in-detroit-as-ex-president-gets-more-involved-in-midterms"
         },
         {
-          "title": "Lebanon News Today",
-          "url": "https://www.newsnow.com/us/World/Middle+East/Lebanon"
+          "title": "Fact checks, takeaways: Barack Obama blasts Trump, touts El-Sayed, in Detroit - Bridge Michigan",
+          "url": "https://bridgemi.com/michigan-government/fact-checks-takeaways-barack-obama-blasts-trump-touts-el-sayed-in-detroit/"
         },
         {
-          "title": "Israel/Lebanon News Today",
-          "url": "https://www.newsnow.com/us/World/Middle+East/Israel~Lebanon"
+          "title": "Former President Barack Obama campaigns for Michigan Democrats at Detroit rally - CBS Detroit",
+          "url": "https://www.cbsnews.com/detroit/news/barack-obama-campaign-rally-detroit-democrats/"
         },
         {
-          "title": "Hezbollah News",
-          "url": "https://www.newsnow.com/us/World/Middle+East/Lebanon/Hezbollah"
+          "title": "Barack Obama rallies with Abdul El-Sayed, Jocelyn Benson in Detroit",
+          "url": "https://www.detroitnews.com/story/news/politics/2026/10/24/obama-rally-detroit-michigan-senate-abdul-el-sayed-jocelyn-benson--live/92416061007/"
         },
         {
-          "title": "Full Episode",
-          "url": "https://www.pbs.org/newshour/tag/hezbollah/page/37"
+          "title": "Watch CBS News",
+          "url": "https://www.cbsnews.com/detroit/news/obama-rallies-wayne-state-crowd-to-vote-for-schauer-peters-on-tuesday"
         },
         {
-          "title": "www.malaymail.com",
-          "url": "https://www.malaymail.com/news/world/2026/03/02/israel-hits-beirut-and-southern-lebanon-in-response-to-hezbollah-attack-expanding-iran-war/210960"
+          "title": "Barack Obama to campaign in Michigan, Georgia in final weeks of midterm elections",
+          "url": "https://cbsnews.com/detroit/detroit-50/local-news/734"
         },
         {
-          "title": "Al Jazeera",
-          "url": "https://www.aljazeera.com/amp/news/liveblog/2024/10/1/israels-war-on-gaza-israel-says-it-will-respond-to-iran-missile-attacks"
-        },
-        {
-          "title": "Full Episode",
-          "url": "https://www.pbs.org/newshour/tag/lebanon/page/25"
+          "title": "Barack Obama to campaign in Michigan, Georgia in final weeks of midterm elections",
+          "url": "https://www.cbsnews.com/amp/detroit/news/barack-obama-to-campaign-in-michigan-georgia-in-final-weeks-of-midterm-elections"
         }
       ]
     },
     {
-      "query": "Africa news October 24 2026 Ebola Sudan",
+      "query": "Asia Africa news October 25 2026",
       "results": [
         {
-          "title": "Uganda's Ebola Sudan outbreak appears stable",
-          "url": "https://www.cidrap.umn.edu/ebola/ugandas-ebola-sudan-outbreak-appears-stable"
+          "title": "The Asian Today",
+          "url": "https://en.wikipedia.org/wiki/The_Asian_Today"
         },
         {
-          "title": "Ebola Disease",
-          "url": "https://www.afro.who.int/health-topics/ebola-disease"
+          "title": "Africa News: Breaking News and Analysis on Africa Politics, Business & More",
+          "url": "https://www.nbcnews.com/news/africa"
         },
         {
-          "title": "New Ebola vaccine trial offers hope as cases continue to rise in Africa",
-          "url": "https://briefly.co.za/world/africa/257015-who-launches-ebola-vaccine-trial-drc-outbreak-worsens"
+          "title": "Asia Business Report",
+          "url": "https://en.wikipedia.org/wiki/Asia_Business_Report"
         },
         {
-          "title": "At the border, the Democratic Republic of the Congo and South Sudan strengthen Ebola surveillance",
-          "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/border-democratic-republic-congo-and-south-sudan-strengthen-ebola-surveillance"
+          "title": "Newsday (BBC News programme)",
+          "url": "https://en.wikipedia.org/wiki/Newsday_(BBC_News_programme)"
         },
         {
-          "title": "At the Border, DRC and South Sudan Strengthen Ebola Surveillance",
-          "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/border-drc-and-south-sudan-strengthen-ebola-surveillance"
+          "title": "Newsday (radio programme)",
+          "url": "https://en.wikipedia.org/wiki/Newsday_(radio_programme)"
         },
         {
-          "title": "South Africa Readies 36 Hospitals for Ebola",
-          "url": "https://www.riotimesonline.com/south-africa-ebola-preparedness-36-hospitals"
+          "title": "Africa: All of Africa Today - October 26, 2026 - allAfrica.com",
+          "url": "https://allafrica.com/stories/202610260104.html"
         },
         {
-          "title": "Uganda reports Ebola Sudan virus outbreak",
-          "url": "https://www.cidrap.umn.edu/uganda-reports-ebola-sudan-virus-outbreak"
+          "title": "Africa News",
+          "url": "https://www.aljazeera.com/africa/"
         },
         {
-          "title": "WHO reports 30 Ebola cases in Sudan",
-          "url": "https://www.cidrap.umn.edu/ebola/who-reports-30-ebola-cases-sudan"
+          "title": "IT News Africa",
+          "url": "https://en.wikipedia.org/wiki/IT_News_Africa"
         },
         {
-          "title": "19 cases of Ebola fever reported in Sudan",
-          "url": "https://www.cidrap.umn.edu/ebola/19-cases-ebola-fever-reported-sudan"
+          "title": "Asia news - breaking news, videos, headlines and opinion",
+          "url": "https://www.cnn.com/world/asia"
         }
       ]
     },
     {
-      "query": "Iran Pezeshkian food shortages sanctions economy October 2026",
+      "query": "Iran rejects US demands complete surrender October 25 2026",
       "results": [
         {
-          "title": "Iran president says many struggling for food as war bites",
-          "url": "https://www.arabnews.pk/middle-east/iran-president-says-many-struggling-for-food-as-war-bites-3005161"
+          "title": "Iran says messages are still being passed to the US amid war concerns, and other Mideast news",
+          "url": "https://www.manilatimes.net/2026/10/26/world/americas-emea/iran-says-messages-are-still-being-passed-to-the-us-amid-war-concerns-and-other-mideast-news/2453584"
         },
         {
-          "title": "Arab News",
-          "url": "https://www.arabnews.com/middle-east/iran-president-says-many-struggling-for-food-as-war-bites-3008077"
+          "title": "Iran says it rejected US proposal as 'surrender,' insisted on reparations, full control of Hormuz",
+          "url": "https://www.timesofisrael.com/liveblog_entry/iran-says-it-rejected-us-proposal-as-surrender-insisted-on-reparations-full-control-of-hormuz/"
         },
         {
-          "title": "Iran president says many struggling for food as war bites - Business Recorder",
-          "url": "https://www.brecorder.com/news/40445829/iran-president-says-many-struggling-for-food-as-war-bites"
+          "title": "Iran says messages are still being passed to the U.S. amid war concerns, and other Mideast news",
+          "url": "https://www.cp24.com/news/world/2026/10/25/iran-says-messages-are-still-being-passed-to-the-us-amid-war-concerns-and-other-mideast-news/"
         },
         {
-          "title": "Iranian energy crisis",
-          "url": "https://en.wikipedia.org/wiki/Iranian_energy_crisis"
+          "title": "Iran says messages are still being passed to the US amid war concerns, and other Mideast news - ABC News",
+          "url": "https://abcnews.com/Politics/wireStory/iran-messages-passed-us-amid-war-concerns-mideast-137558362"
         },
         {
-          "title": "'Struggling to put food on the table': Iran president flags war's economic toll",
-          "url": "https://gulfnews.com/world/mena/irans-president-says-war-is-leaving-many-struggling-to-put-food-on-the-table-1.500722430"
+          "title": "Iran says messages are still being passed to the US amid war concerns",
+          "url": "https://www.timesofisrael.com/liveblog_entry/iran-says-messages-are-still-being-passed-to-the-us-amid-war-concerns/"
         },
         {
-          "title": "Unilateral sanctions directly impacting global food security and people’s welfare: Iran’s Pezeshkian",
-          "url": "https://thekashmirimages.com/2026/09/13/unilateral-sanctions-directly-impacting-global-food-security-and-peoples-welfare-irans-pezeshkian/"
+          "title": "Iran Confirms Indirect Communications with U.S. Amid Regional Tensions",
+          "url": "https://www.wmal.com/2026/10/26/iran-confirms-indirect-communications-with-u-s-amid-regional-tensions/"
         },
         {
-          "title": "Food inflation in Iran",
-          "url": "https://en.wikipedia.org/wiki/Food_inflation_in_Iran"
+          "title": "Delegations meet in Iran with Middle East on edge over potential for renewed fighting",
+          "url": "https://www.nbcnews.com/world/middle-east/delegations-meet-iran-middle-east-edge-potential-renewed-fighting-rcna605662"
         },
         {
-          "title": "Live Updates: Iran warns that U.S. military not allowed in Gulf \"under any circumstance\"",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/"
+          "title": "Iran Foreign Ministry Spokesperson Rejects US Claims, Asserts Tehran Never Sought Nuclear Weapons",
+          "url": "https://borna.news/en/news/6828/iran-foreign-ministry-spokesperson-rejects-us-claims-asserts-tehran-never-sought-nuclear-weapons"
         },
         {
-          "title": "Pezeshkian Points to Household Strain as Inflation Pressures Iran",
-          "url": "https://www.tokenpost.com/news/regulation/40224"
+          "title": "Add Tribune As Your Trusted Source",
+          "url": "https://www.tribuneindia.com/news/world/no-surrender-iran-warns-us-of-irreparable-damage-if-it-joins-war/amp"
         },
         {
-          "title": "Iranian economic crisis",
-          "url": "https://en.wikipedia.org/wiki/Iranian_economic_crisis"
+          "title": "Iran’s Khamenei rejects Trump’s surrender call, warns of ‘irreparable damage’ if U.S. joins fight",
+          "url": "https://seekingalpha.com/news/4459317-irans-khamenei-rejects-trumps-surrender-call-warns-of-irreparable-damage-if-us-joins-fight"
         }
       ]
     },
     {
-      "query": "WHO Ebola vaccine trial Bundibugyo Congo October 2026",
+      "query": "Portugal police clear housing protest camps Lisbon Porto October 25",
       "results": [
         {
-          "title": "DR Congo Launches Trial of New Ebola Vaccine - World En.tempo.co",
-          "url": "https://en.tempo.co/read/2122276/dr-congo-launches-trial-of-new-ebola-vaccine"
+          "title": "Portuguese police clear housing protest camps, arresting 55",
+          "url": "https://www.yahoo.com/news/world/articles/portuguese-police-clear-housing-protest-110744802.html"
         },
         {
-          "title": "WHO announces start of Ebola vaccine clinical trial in DR Congo",
-          "url": "https://www.aljazeera.com/news/2026/10/24/who-announces-start-of-ebola-vaccine-clinical-trial-in-dr-congo"
+          "title": "Portuguese police clear Lisbon housing protest camp, arresting 25 - Internazionale",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/25/portuguese-police-clear-lisbon-housing-protest-camp-make-arrests"
         },
         {
-          "title": "Ebola vaccine trial begins in DR Congo - Jamaica Observer",
-          "url": "https://www.jamaicaobserver.com/2026/10/23/ebola-vaccine-trial-begins-dr-congo/"
+          "title": "Portuguese police clear Lisbon housing protest camp, arrest 25",
+          "url": "https://www.aljazeera.com/economy/2026/10/25/portuguese-police-clear-lisbon-housing-protest-camp-arrest-25"
         },
         {
-          "title": "Ebola vaccine trial begins in DR Congo",
-          "url": "https://medicalxpress.com/news/2026-10-ebola-vaccine-trial-dr-congo.html"
+          "title": "Portuguese police clear housing protest camps, arresting 55 - Internazionale",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/20/portuguese-police-clear-housing-protest-camps-arresting-55"
         },
         {
-          "title": "New Ebola vaccine trial launched in DR Congo",
-          "url": "https://www.nation.com.pk/24-Oct-2026/new-ebola-vaccine-trial-launched-dr-congo"
+          "title": "Portuguese Police Clear Lisbon Housing Protest Camp, Make Arrests",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-24/portuguese-police-clear-lisbon-housing-protest-camp-make-arrests"
         },
         {
-          "title": "2026 Central Africa Ebola epidemic",
-          "url": "https://en.wikipedia.org/wiki/2026_Central_Africa_Ebola_epidemic"
+          "title": "Dozens injured as police clear protest camps in Lisbon and Porto",
+          "url": "https://www.portugalresident.com/dozens-injured-as-police-clear-protest-camps-in-lisbon-and-porto/"
         },
         {
-          "title": "WHO Begins Ebola Vaccine Trial In DR Congo As Death Toll Exceeds 4600",
-          "url": "https://saharareporters.com/2026/10/24/who-begins-ebola-vaccine-trial-dr-congo-death-toll-exceeds-4600"
+          "title": "Clashes in Lisbon and Porto due to the eviction of camps",
+          "url": "https://democrata.es/en/international/the-police-dismantles-the-illegal-camps-for-housing-in-lisbon-and-porto-after-clashes-with-the-protesters"
         },
         {
-          "title": "DR Congo Ebola vaccine trial to begin within weeks: WHO",
-          "url": "https://medicalxpress.com/news/2026-10-dr-congo-ebola-vaccine-trial.html"
+          "title": "Portugal dismantles protest camps and detains 31 people — The Guardian",
+          "url": "https://ua.news/en/world/u-portugaliyi-znesli-protestni-tabori-ta-zatrimali-31-liudinu-the-guardian"
         },
         {
-          "title": "Healthcare Providers’ and Frontline Workers’ Experiences of an Ebola Vaccine Trial in the Boende Health District of the Democratic Republic of the Congo",
-          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11376161/"
-        }
-      ]
-    },
-    {
-      "query": "Albania protests Tirana injured October 24 2026",
-      "results": [
-        {
-          "title": "Albanian anti-government protesters clash with police in Tirana",
-          "url": "https://www.nbcnews.com/world/europe/albanian-anti-government-protesters-clash-police-tirana-rcna604009"
-        },
-        {
-          "title": "Video. Albanian police clash with protesters in Tirana as unrest enters sixth day",
-          "url": "https://www.euronews.com/video/2026/10/19/albanian-police-clash-with-protesters-in-tirana-as-unrest-enters-sixth-day"
-        },
-        {
-          "title": "Thousands gather at new Albanian antigovernment rally",
-          "url": "https://www.aljazeera.com/news/2026/10/24/thousands-gather-at-new-albanian-antigovernment-rally"
-        },
-        {
-          "title": "Protests sweep across Europe from France to Albania, Italy, Spain and Portugal.",
-          "url": "https://www.euronews.com/2026/10/24/protests-sweep-across-europe-from-france-to-albania-italy-spain-and-portugal"
-        },
-        {
-          "title": "Anti-Government Protests Escalate in Tirana: More Than 300 Injured",
-          "url": "https://kantan.news/news/anti-government-protests-escalate-in-tirana-more-than-300-injured"
-        },
-        {
-          "title": "Tirana Police and Protesters Clash as Demonstrations Intensify - Newsy Today",
-          "url": "https://www.newsy-today.com/tirana-police-and-protesters-clash-as-demonstrations-intensify/"
-        },
-        {
-          "title": "ALBANIAN POLICE BATTLE ROCK-THROWING STUDENTS AS TIRANA PROTESTS TURN VIOLENT AND RAMA STANDS FIRM - The Zambian Observer",
-          "url": "https://zambianobserver.com/albanian-police-battle-rock-throwing-students-as-tirana-protests-turn-violent-and-rama-stands-firm/"
-        },
-        {
-          "title": "Violent Protests Erupt in Albania as Demonstrators Set Ministry on Fire in Tirana - News Directory 3",
-          "url": "https://www.newsdirectory3.com/violent-protests-erupt-in-albania-as-demonstrators-set-ministry-on-fire-in-tirana/"
-        },
-        {
-          "title": "Albanian leader focus of protest that leaves 3 dead",
-          "url": "https://www.nbcnews.com/id/wbna41194531"
-        },
-        {
-          "title": "Albanian Anti-Gov't Protest Kills 3, Injures 55",
-          "url": "https://www.cbsnews.com/news/albanian-anti-govt-protest-kills-3-injures-55/"
+          "title": "Sitemap - 2024 - Portugal Weekly",
+          "url": "https://jorgebranco.substack.com/sitemap/2024"
         }
       ]
     }
   ],
   "fetched": [],
   "meta": {
-    "id": "2026-10-25",
-    "generated_at": "2026-10-25T10:25:25.389Z",
+    "id": "2026-10-26",
+    "generated_at": "2026-10-26T10:25:43.610Z",
     "model": "claude-opus-5-5",
     "via": "claude-code-routine",
     "searches": 20,
-    "results_count": 183,
-    "cited_count": 51
+    "results_count": 184,
+    "cited_count": 53
   }
 }
