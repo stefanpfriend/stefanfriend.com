@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-10-28",
+      "date": "Wednesday, October 28, 2026",
+      "edition": "HUNG KNESSET",
+      "searches": 23,
+      "cited_count": 39,
+      "results_count": 208
+    },
+    {
       "id": "2026-10-27",
       "date": "Tuesday, October 27, 2026",
       "edition": "ELECTION DAY",
