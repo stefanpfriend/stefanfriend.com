@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-10-29",
+      "date": "Thursday, October 29, 2026",
+      "edition": "SPLIT VERDICTS",
+      "searches": 23,
+      "cited_count": 37,
+      "results_count": 209
+    },
+    {
       "id": "2026-10-28",
       "date": "Wednesday, October 28, 2026",
       "edition": "HUNG KNESSET",
