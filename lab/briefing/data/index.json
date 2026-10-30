@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-10-30",
+      "date": "Friday, October 30, 2026",
+      "edition": "AI RECKONING",
+      "searches": 19,
+      "cited_count": 47,
+      "results_count": 174
+    },
+    {
       "id": "2026-10-29",
       "date": "Thursday, October 29, 2026",
       "edition": "SPLIT VERDICTS",

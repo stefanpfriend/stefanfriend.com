@@ -1,1262 +1,457 @@
 {
-  "date": "Thursday, October 29, 2026",
-  "edition": "SPLIT VERDICTS",
-  "tldr_label": "TL;DR — The Fed holds in a split vote; Microsoft rises while Alphabet falls; Spain mourns 68 dead in a rail crash",
+  "date": "Friday, October 30, 2026",
+  "edition": "AI RECKONING",
+  "tldr_label": "TL;DR — Alphabet suffers its worst day on record, Lagarde announces an early exit, and Iran weighs its reply to Vance",
   "tldr_bullets": [
     {
-      "label": "Fed",
-      "body": "The Fed held rates at 3.75% to 4.00% in a 10-2 vote, with two members dissenting in favor of a hike. Chair Warsh said politics played 'no role' in the decision. [[TAG:info:10-2 hold]]"
+      "label": "Markets",
+      "body": "Alphabet fell 12.6%, which outlets called its worst day on record, and the Nasdaq lost 1.4%. Amazon dropped after hours, and Tokyo and Seoul slid on Friday. [[TAG:danger:Alphabet -12.6%]]"
     },
     {
-      "label": "Big Tech",
-      "body": "After hours, Microsoft rose on a beat while Alphabet fell about 9%, CNBC reported. In Seoul, Samsung slid despite record profit and the Kospi fell back below 6,000."
-    },
-    {
-      "label": "Israel",
-      "body": "With about 93% of ballots counted, Netanyahu's bloc had 53 seats, Eisenkot's 48 and Arab parties 19. Herzog will begin coalition consultations after certification. [[TAG:warning:no majority]]"
+      "label": "Central banks",
+      "body": "The ECB held at 2.5% as Christine Lagarde announced she will leave in February 2027. The Bank of Japan held at 1.25% and signaled a possible December hike."
     },
     {
       "label": "Iran",
-      "body": "The WSJ reported that Vance wrote to Iran's security chief Mohsen Rezaei to revive peace talks. Accounts differ on what Trump authorized."
+      "body": "Iran says it is drafting a reply to Vance's letter. It also claims tankers struck mines in Hormuz, which has not been verified, while officials say US military options are being prepared. [[TAG:warning:unverified claims]]"
     },
     {
-      "label": "Ukraine",
-      "body": "Officials said a Russian jet-powered drone hit a train at Dnipro station and killed 13. The Kremlin said Europe will not be at the next talks in Abu Dhabi. [[TAG:danger:13 killed]]"
+      "label": "Israel",
+      "body": "The full count leaves Netanyahu's bloc at 53 seats, Eisenkot's at 48 and Arab parties at 19. Herzog is expected to begin consultations on November 4."
     },
     {
       "label": "Spain",
-      "body": "At least 68 people died when a high-speed train hit a stopped train near Toledo. Sánchez declared three days of national mourning. [[TAG:danger:68 dead]]"
+      "body": "The toll from the Urda crash stands at 69. The transport minister says investigators are examining an 'inexplicable' order from a control center."
+    },
+    {
+      "label": "US",
+      "body": "Third-quarter GDP grew at a 3.4% annual rate. With four days left before the midterms, Democrats lead the final polls and Trump has canceled two rallies."
     }
   ],
   "sections": [
     {
-      "title": "Fed Holds, Split Vote",
-      "icon": "🏦",
-      "summary": "Rates stay at 3.75% to 4.00% as two officials dissent in favor of a hike; the ECB decides today",
+      "title": "AI Sell-off",
+      "icon": "📉",
+      "summary": "Alphabet's record drop drags down the Nasdaq; Amazon slides after hours and Asia follows",
       "paragraphs": [
         {
-          "heading": "The decision",
-          "body": "CNBC reported that the Fed held its target range at 3.75% to 4.00% in a 10-2 vote. Governor Lisa Cook and Cleveland Fed President Beth Hammack wanted a quarter-point increase. Bloomberg said the statement cited the need for more data and gave no clear signal on a December hike. Yahoo Finance reported that Chair Kevin Warsh said politics played 'no role' in the decision days before the midterms. [[TAG:info:2 hawkish dissents]]"
+          "heading": "Alphabet's worst day",
+          "body": "The Detroit News reported that Alphabet was on track for a record loss as its results revived fears about AI spending. KRMG reported that the S&P 500 fell 0.3% to 7,720.39. Yahoo Finance said the Nasdaq led the indexes lower, and StockTitan put the Nasdaq's loss at 1.38% to 26,184.72. Most S&P 500 stocks rose, so the decline was concentrated in a few large names. [[TAG:danger:Nasdaq -1.4%]]"
         },
         {
-          "heading": "Market close",
-          "body": "The Motley Fool reported that the S&P 500 rose 0.28% to 7,743.98, and StockTitan reported that the Dow added 0.19% to 52,475.10. The Nasdaq rose about 0.27%. After the bell, Fortinet dropped sharply."
+          "heading": "Amazon",
+          "body": "CNBC reported that Amazon's third-quarter results came in below expectations, and the Motley Fool said the shares fell on concerns about capital spending. Reports put the after-hours drop at about 6%. AWS growth was strong, but free cash flow was negative. 24/7 Wall St. said Meta rose about 3% during the day while its rivals fell."
         },
         {
-          "heading": "ECB today",
-          "body": "FXStreet and TioMarkets expect the ECB to hold its deposit rate at 2.50% today, with the focus on whether President Lagarde signals a December hike. The decision is due at 14:15 CET."
+          "heading": "Asia Friday",
+          "body": "The Market Reporter said Asian markets slid in an AI sell-off on Friday, with Japan's Nikkei and Korea's Kospi among the hardest hit. Reported figures vary by timestamp, but the Kospi fell between 4% and 5% and Hong Kong rose. [[TAG:warning:figures vary]]"
         }
       ],
-      "sources": "CNBC, Bloomberg, Yahoo Finance, Motley Fool, StockTitan, FXStreet, TioMarkets",
+      "sources": "Detroit News, KRMG, Yahoo Finance, StockTitan, CNBC, Motley Fool, 24/7 Wall St., The Market Reporter",
       "citations": [
         {
-          "outlet": "CNBC",
-          "title": "Fed interest rate decision October 2026: Fed holds rates steady",
-          "url": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html"
+          "outlet": "Detroit News",
+          "title": "Nasdaq falls as Alphabet set for record loss amid AI spending woes",
+          "url": "https://www.detroitnews.com/story/business/2026/10/29/nasdaq-slides-over-1-as-alphabet-results-revive-ai-spending-fears/92495558007/"
         },
         {
-          "outlet": "Bloomberg",
-          "title": "Fed Holds Rates Steady, Cites Need for More Data on Inflation Outlook - Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-28/fed-holds-rates-says-more-data-will-help-next-decision"
+          "outlet": "KRMG",
+          "title": "How major US stock indexes fared Thursday 10/29/2026 - 96.5 KRMG",
+          "url": "https://krmg.com/2026/10/29/how-major-us-stock-indexes-fared-thursday-10-29-2026/"
         },
         {
           "outlet": "Yahoo Finance",
-          "title": "Rate decision live: Interest rates held steady in split vote, Warsh says politics played 'no role' ahead of midterm elections",
-          "url": "https://ca.finance.yahoo.com/news/live/fed-meeting-live-updates-interest-rates-held-steady-in-split-vote-warsh-says-politics-played-no-role-ahead-of-midterm-elections-191946928.html"
-        },
-        {
-          "outlet": "Motley Fool",
-          "title": "Stock Market Today, Oct. 28: Markets Edge Higher as Fed Holds Rates Steady",
-          "url": "https://www.fool.com/coverage/stock-market-today/2026/10/28/stock-market-today-oct-28-markets-edge-higher-as-fed-holds-rates-steady/"
+          "title": "Markets News, Oct. 29, 2026: Nasdaq Leads Indexes Lower as Alphabet Stock Drops; Caterpillar Weighs on Dow",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-futures-104943461.html"
         },
         {
           "outlet": "StockTitan",
-          "title": "Stock Market Today Live October 28, 2026: Fed Holds Rates; Fortinet and Alphabet Fall After Hours",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-28-2026"
+          "title": "Stock Market Today October 29, 2026: Nasdaq Falls as Alphabet Drops; Amazon and Intel Slide After Hours",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-29-2026"
         },
         {
-          "outlet": "FXStreet",
-          "title": "ECB is set to keep interest rates unchanged and hint at further monetary tightening ahead",
-          "url": "https://www.fxstreet.com/news/european-central-bank-is-expected-to-hold-interest-rates-despite-high-inflation-pressures-202610290800"
+          "outlet": "CNBC",
+          "title": "Amazon (AMZN) Q3 earnings report 2026",
+          "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html"
         },
         {
-          "outlet": "TioMarkets",
-          "title": "ECB Rate Decision Preview: Pause Now, Hike in December?",
-          "url": "https://tiomarkets.com/article/ecb-rate-decision-october-2026-preview"
+          "outlet": "Motley Fool",
+          "title": "Stock Market Today, Oct. 29: Amazon Falls on Q3 Earnings Report and Capex Concerns",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/10/29/stock-market-today-oct-29-amazon-falls-on-q3-earnings-report-and-capex-concerns/"
+        },
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "Amazon Slides 3% as Alphabet's 12% Plunge Raises Stakes for AWS Report; Meta Rises 3%, Microsoft Pulls Back - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/10/29/amazon-slides-3-as-alphabets-12-plunge-raises-stakes-for-aws-report-meta-rises-3-microsoft-pulls-back/"
+        },
+        {
+          "outlet": "The Market Reporter",
+          "title": "FTSE 100 LIVE: Asian markets slide as AI sell-off hits",
+          "url": "https://www.themarketreporter.co.uk/a/015dca7e/ftse-100-live-asian-markets-slide-as-ai-sell-off-hits"
         }
       ]
     },
     {
-      "title": "Earnings Split",
-      "icon": "💻",
-      "summary": "Investors reward Microsoft and punish Alphabet; Samsung slides despite record profit",
+      "title": "Central Banks and Growth",
+      "icon": "🏦",
+      "summary": "ECB holds at 2.5% as Lagarde announces an early exit; BoJ eyes December; US GDP grows 3.4%",
       "paragraphs": [
         {
-          "heading": "Microsoft and Alphabet",
-          "body": "CNBC reported adjusted EPS of $4.89 for Microsoft against roughly $4.73 expected, and revenue of $92.28 billion against $90.69 billion expected, driven by Azure. Estimates of the after-hours gain vary: CNBC said about 2% and StockTitan 4.9%. CNBC said Alphabet fell about 9% in extended trading. Yahoo Finance framed the night as a test of whether the AI boom is paying off. [[TAG:warning:Alphabet -9%]]"
+          "heading": "ECB and Lagarde",
+          "body": "Euronews reported that the ECB held its deposit rate at 2.5%, with inflation at 3.8%, close to double its target. President Christine Lagarde announced that she will leave early, in February 2027. Bloomberg said her departure adds to alarm over oil prices and stress in the French bond market. The Irish Times reported that the bank paused its rate hikes. [[TAG:warning:Lagarde exit]]"
         },
         {
-          "heading": "Samsung and Seoul",
-          "body": "SBS reported that Samsung's third-quarter operating profit hit a record of about 107 trillion won. CNBC said the shares closed 4.13% lower because the result fell just short of estimates and investors had hoped for larger shareholder returns. The Korea Times reported that the Kospi was down about 3% in late morning trading, and IBTimes said it slipped back below 6,000 after the previous day's rally."
+          "heading": "Bank of Japan",
+          "body": "Bloomberg reported that the BoJ held its benchmark rate after a hike in September. GuruFocus said the bank signaled a possible hike in December. KuCoin reported an 8-1 vote, with one board member pushing for 1.5%."
+        },
+        {
+          "heading": "US economy",
+          "body": "The Bureau of Economic Analysis said real GDP grew at a 3.4% annual rate in the third quarter, led by investment and consumer spending. The Lane Report put the figure at 3.4% as well. Some outlets reported different inflation readings within the report, so this briefing does not cite one. [[TAG:success:GDP +3.4%]]"
         }
       ],
-      "sources": "CNBC, StockTitan, Yahoo Finance, SBS, Korea Times, IBTimes",
+      "sources": "Euronews, Bloomberg, Irish Times, GuruFocus, KuCoin, BEA, Lane Report",
       "citations": [
         {
-          "outlet": "CNBC",
-          "title": "Stocks making the biggest moves after hours: Alphabet, Microsoft, Chipotle, ServiceNow, Fortinet & more",
-          "url": "https://www.cnbc.com/2026/10/28/stocks-making-the-biggest-moves-after-hours-googl-msft-cmg-now.html"
-        },
-        {
-          "outlet": "Yahoo Finance",
-          "title": "Microsoft and Alphabet Just Reported Earnings, Putting the AI Boom to the Test",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-alphabet-just-reported-earnings-001901247.html"
-        },
-        {
-          "outlet": "SBS",
-          "title": "Samsung Electronics Posts Record Q3 Operating Profit of 107 Trillion Won, but Shares Fall",
-          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008820944"
-        },
-        {
-          "outlet": "CNBC",
-          "title": "Samsung Electronics shares slid despite record profit in the third-quarter",
-          "url": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html"
-        },
-        {
-          "outlet": "Korea Times",
-          "title": "Seoul stocks down 3% late Thursday morning after weaker-than-expected Samsung earnings - The Korea Times",
-          "url": "https://www.koreatimes.co.kr/economy/20261029/seoul-stocks-down-3-late-thursday-morning-after-weaker-than-expected-samsung-earnings"
-        },
-        {
-          "outlet": "IBTimes",
-          "title": "KOSPI Slips Below 6,000 as Samsung Shares Tumble Despite Record Profit, Ending SK Hynix-Fueled Euphoria Rally",
-          "url": "https://www.ibtimes.com.au/kospi-falls-samsung-chip-earnings-disappoint-1877574"
-        }
-      ]
-    },
-    {
-      "title": "Israel After the Vote",
-      "icon": "🗳️",
-      "summary": "Netanyahu's bloc edges ahead at 53 seats as Herzog prepares consultations after certification",
-      "paragraphs": [
-        {
-          "heading": "Near-final count",
-          "body": "Ynet and the Jerusalem Post reported that, with nearly all votes counted, Netanyahu's bloc had 53 seats, Eisenkot's 48 and the Arab parties 19, with Likud at 26 and Yashar at 21. Bloomberg said Netanyahu overtook Eisenkot after early counts had shown the opposition ahead. Double-envelope ballots could still shift the totals. [[TAG:warning:not certified]]"
-        },
-        {
-          "heading": "Next steps",
-          "body": "ABC News (Australia) reported that President Herzog urged party leaders to come to consultations with an 'open mind'. Those talks will begin once the final results are presented. Eisenkot's path to a majority runs through the Arab parties, but allies Avigdor Liberman and Naftali Bennett have ruled out relying on them. The nominee will have up to six weeks to form a government."
-        }
-      ],
-      "sources": "Ynet, Jerusalem Post, Bloomberg, ABC News (Australia)",
-      "citations": [
-        {
-          "outlet": "Ynet",
-          "title": "Israel election results: Netanyahu bloc at 53 seats, Eisenkot bloc at 48 as nearly all votes counted",
-          "url": "https://www.ynetnews.com/article/hjnatbkaml"
-        },
-        {
-          "outlet": "Jerusalem Post",
-          "title": "Israel election results: Benjamin Netanyahu bloc wins 53 seats, opposition holds 48",
-          "url": "https://www.jpost.com/israel-election-2026/article-913122"
+          "outlet": "Euronews",
+          "title": "ECB holds rates at 2.5% as Lagarde announces early exit with inflation near double the target",
+          "url": "https://www.euronews.com/2026/10/29/ecb-holds-rates-at-25-as-lagarde-announces-early-exit-with-inflation-near-double-the-targe"
         },
         {
           "outlet": "Bloomberg",
-          "title": "Israel Election Results: Netanyahu Overtakes Eisenkot in Tight Vote - Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-28/israeli-vote-too-close-to-call-between-netanyahu-and-eisenkot"
+          "title": "ECB Holds Rates as Lagarde Exit Compounds Alarm Over Oil, France - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-29/ecb-holds-rates-as-lagarde-exit-compounds-alarm-over-oil-france"
         },
         {
-          "outlet": "ABC News (Australia)",
-          "title": "Israel's President Isaac Herzog urges 'open mind' as Netanyahu and opponents struggle for majority - ABC News",
-          "url": "https://www.abc.net.au/news/2026-10-29/herzog-netanyahu-israel-election/107321418"
+          "outlet": "Irish Times",
+          "title": "ECB pauses rate hikes as Lagarde announces early exit",
+          "url": "https://www.irishtimes.com/business/2026/10/29/ecb-holds-rates-steady-as-lagardes-departure-overshadows-decision/"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "JPY/USD: BOJ Holds Benchmark Rate Steady as Expected After September Hike - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-30/boj-holds-benchmark-rate-steady-as-expected-after-september-hike"
+        },
+        {
+          "outlet": "GuruFocus",
+          "title": "Bank of Japan Holds Rates Steady, Signals Possible December Rate Hike",
+          "url": "https://www.gurufocus.com/news/9158257/bank-of-japan-holds-rates-steady-signals-possible-december-rate-hike"
+        },
+        {
+          "outlet": "KuCoin",
+          "title": "Bank of Japan Maintains 1.25% Rate Amid Dissent, Eyes December Move",
+          "url": "https://www.kucoin.com/news/flash/bank-of-japan-maintains-1-25-rate-amid-dissent-eyes-december-move"
+        },
+        {
+          "outlet": "BEA",
+          "title": "GDP (Advance Estimate), 3rd Quarter 2026",
+          "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+        },
+        {
+          "outlet": "Lane Report",
+          "title": "U.S. GDP grows 3.4% in third quarter of 2026",
+          "url": "https://www.lanereport.com/190312/2026/10/us-gdp-growth-third-quarter-2026/"
         }
       ]
     },
     {
-      "title": "Iran and the Gulf",
+      "title": "Iran on the Brink",
       "icon": "⚔️",
-      "summary": "Vance reaches out to Tehran as Houthi missiles keep targeting Saudi Arabia; Brent tops $114",
+      "summary": "Tehran drafts a reply to Vance, claims tankers hit mines, and the US readies military options",
       "paragraphs": [
         {
-          "heading": "Vance letter",
-          "body": "The Times of Israel and Iran International, citing the Wall Street Journal, reported that Vice President JD Vance wrote to Mohsen Rezaei, secretary of Iran's Supreme National Security Council, to try to restart peace talks. Accounts of Trump's role differ: The Week reported that he denied ordering negotiations and said the letter concerned medical supplies, while MEAWW reported that he approved the contact. No resumed talks have been confirmed. [[TAG:warning:accounts differ]]"
+          "heading": "The Vance letter",
+          "body": "Al Jazeera, citing the New York Times, reported that Vance's letter to Mohsen Rezaei proposed early talks led by Vance and required Iran's nuclear program to be on the table. The Washington Times reported that Iran says it is drafting a response. Trump has said the outreach concerned humanitarian supplies, and Al Jazeera said he warned Gulf states to 'prepare'. Fox News, citing officials, reported that military options are being readied for the president before the midterms. [[TAG:danger:strikes possible]]"
         },
         {
-          "heading": "Oil and the Houthis",
-          "body": "CNBC reported that Brent rose 1.3% on Wednesday to settle at $115.32, while HDFC Sky said prices eased on Thursday on hopes of talks after the Vance reports. TBS News reported that the Saudi-led coalition intercepted a Houthi ballistic missile fired toward the Eastern Province, the latest in a month of attacks on the kingdom."
+          "heading": "Hormuz",
+          "body": "CNBC reported that Iran says four tankers struck mines in Hormuz. WISH-TV reported three. The claims have not been independently verified, and the US says the main routes have been cleared. Gulf News said the UK maritime agency UKMTO confirmed a separate attack on a tanker off Oman. Oilprice.com reported that prices had fallen earlier on the Vance outreach, and FinanceFeeds put Brent near $114 on Thursday."
         }
       ],
-      "sources": "Times of Israel, Iran International, The Week, MEAWW, CNBC, HDFC Sky, TBS News",
+      "sources": "Al Jazeera, Washington Times, Fox News, CNBC, WISH-TV, Gulf News, Oilprice.com, FinanceFeeds",
       "citations": [
         {
-          "outlet": "Times of Israel",
-          "title": "Vance reportedly contacted top Iran security official in bid to restart peace talks",
-          "url": "https://www.timesofisrael.com/vance-reportedly-contacted-top-iran-security-official-in-bid-to-restart-peace-talks/"
+          "outlet": "Al Jazeera",
+          "title": "What we know of Vance’s letter to Rezaei, as Trump warns Gulf to ‘prepare’",
+          "url": "https://aljazeera.com/news/2026/10/29/what-we-know-of-vances-letter-to-rezaei-as-trump-warns-gulf-to-prepare"
         },
         {
-          "outlet": "Iran International",
-          "title": "Vance sent letter to Iran's security chief to revive peace talks - WSJ",
-          "url": "https://www.iranintl.com/en/202610287801"
+          "outlet": "Washington Times",
+          "title": "Iran says it’s drafting response to Vance letter as war looms",
+          "url": "https://washingtontimes.com/news/2026/oct/29/iran-says-received-vance-letter-crafting-response"
         },
         {
-          "outlet": "The Week",
-          "title": "Vance’s letter to Iran leader amid Trump’s strike threats: Is Washington sending mixed signals to Tehran? - The Week",
-          "url": "https://www.theweek.in/news/middle-east/2026/10/29/us-seeks-peace-talks-with-iran-vance-letter.html"
-        },
-        {
-          "outlet": "MEAWW",
-          "title": "Trump confirms Vance sent letter to Iranian hardliner to revive peace talks ahead of midterms",
-          "url": "https://news.meaww.com/trump-confirms-vance-sent-letter-to-iranian-hardliner-to-revive-peace-talks-ahead-of-midterms"
+          "outlet": "Fox News",
+          "title": "Military choices for Iran are being readied for president as midterm elections loom: officials",
+          "url": "https://www.foxnews.com/live-news/us-iran-war-trump-military-options-strait-hormuz-10-29-26"
         },
         {
           "outlet": "CNBC",
-          "title": "Oil price today: WTI, Brent rise",
-          "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
+          "title": "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms",
+          "url": "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html"
         },
         {
-          "outlet": "HDFC Sky",
-          "title": "Oil Slips on US–Iran Talks but Middle East Tensions Limit Fall",
-          "url": "https://hdfcsky.com/news/oil-prices-today-october-29-2026-brent-falls-to-114-2-wti-at-101-4-as-us-iran-peace-hopes-counter-supply-risks"
+          "outlet": "WISH-TV",
+          "title": "Iran says 3 tankers hit mines in Strait of Hormuz as US denies captured drone - WISH-TV",
+          "url": "https://www.wishtv.com/news/politics/iran-says-3-tankers-hit-mines-in-strait-of-hormuz-as-us-denies-captured-drone/"
         },
         {
-          "outlet": "TBS News",
-          "title": "Saudi coalition says intercepted Houthi missile fired toward Eastern Province",
-          "url": "https://www.tbsnews.net/world/saudi-coalition-says-intercepted-houthi-missile-fired-toward-eastern-province-1586426"
+          "outlet": "Gulf News",
+          "title": "Middle East war: Iran claims tankers hit mines in Strait of Hormuz, UKMTO confirms strike off Oman; fired US general reportedly admitted Iran leaks",
+          "url": "https://gulfnews.com/world/mena/middle-east-war-iran-claims-tankers-hit-mines-in-strait-of-hormuz-ukmto-confirms-strike-off-oman-fired-us-general-reportedly-admitted-iran-leaks-1.500729137"
+        },
+        {
+          "outlet": "Oilprice.com",
+          "title": "Oil Prices Fall as Vance Moves to Restart Iran Peace Talks",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Vance-Moves-to-Restart-Iran-Peace-Talks.html"
+        },
+        {
+          "outlet": "FinanceFeeds",
+          "title": "Brent Crude $114.20: Vance Letter Meets GDP and PCE Day",
+          "url": "https://financefeeds.com/brent-crude-oil-price-114-20-thursday-vance-iran-letter-gdp-pce-day-bull-120-bear-108/"
         }
       ]
     },
     {
-      "title": "Ukraine and Russia",
-      "icon": "🇺🇦",
-      "summary": "Drone strike on a Dnipro train kills 13; Kremlin shuts Europe out of Abu Dhabi talks",
+      "title": "Israel's Stalemate",
+      "icon": "🗳️",
+      "summary": "The final count confirms no majority; Herzog is expected to start consultations on November 4",
       "paragraphs": [
         {
-          "heading": "Dnipro strike",
-          "body": "The Kyiv Independent and Kyiv Post reported that a Russian jet-powered drone hit a train at Dnipro station that was preparing to leave for Zaporizhzhia. Governor Oleksandr Hanzha said 13 people were killed and at least five injured. Ukrainian Railways said people stayed on the platform despite an air raid alert. [[TAG:danger:13 killed]]"
+          "heading": "Final count",
+          "body": "NBC News reported that the final results show neither Netanyahu nor Eisenkot can immediately form a government: 53 seats for Netanyahu's bloc, 48 for Eisenkot's and 19 for the Arab-led parties. NPR described the result as a stalemate. The results still need to be certified and presented to President Herzog. [[TAG:warning:no majority]]"
         },
         {
-          "heading": "Talks without Europe",
-          "body": "Kyiv Post reported that Kremlin aide Yuri Ushakov said European countries will not be invited to the next Russia-US-Ukraine talks in Abu Dhabi, which could take place after November 4. Finnish President Stubb had said Europe would be involved. The Kyiv Independent reported that Moscow says the 'battlefield situation' will decide the timing."
-        },
-        {
-          "heading": "Moscow courts Africa",
-          "body": "AP, via the Washington Times, reported that Putin opened the third Russia-Africa summit in Moscow and pitched Russia as a better partner than the West. CNBC Africa said he described the West as 'colonial'."
+          "heading": "What comes next",
+          "body": "Ynet explained that the president consults every faction and then assigns the task of forming a government. Consultations are expected to begin on November 4. TRT World reported that Herzog urged parties to avoid another election. He may push for a unity government, but Eisenkot has rejected serving under Netanyahu."
         }
       ],
-      "sources": "Kyiv Independent, Kyiv Post, Washington Times/AP, CNBC Africa",
+      "sources": "NBC News, NPR, Ynet, TRT World",
       "citations": [
         {
-          "outlet": "Kyiv Independent",
-          "title": "Breaking: Russia strikes train at Dnipro station with jet-powered drone, at least 13 dead",
-          "url": "https://kyivindependent.com/breaking-russia-strikes-train-at-dnipro-station-with-jet-powered-drone-at-least-13-dead/"
+          "outlet": "NBC News",
+          "title": "Israel’s final election results show neither Netanyahu nor rival can immediately form government",
+          "url": "https://www.nbcnews.com/world/israel/israels-final-election-results-show-neither-netanyahu-rival-can-immedi-rcna606290"
         },
         {
-          "outlet": "Kyiv Post",
-          "title": "Russian Drone Strike on Dnipro Train Platform Kills 13, Injures 5 as Passenger Train Is Hit",
-          "url": "https://www.kyivpost.com/post/88526"
+          "outlet": "NPR",
+          "title": "Israel election reaches stalemate with most votes counted : NPR",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6019423/israel-election-results"
         },
         {
-          "outlet": "Kyiv Post",
-          "title": "‘We Haven’t Sent Any Signals Yet’: Kremlin Says Ukraine Peace Talks Depend on Battlefield, Rules Out European Role",
-          "url": "https://www.kyivpost.com/post/88515"
+          "outlet": "Ynet",
+          "title": "Israel's election results are in: How a government is formed or new elections are triggered",
+          "url": "https://www.ynetnews.com/article/byqsqwzpmg"
         },
         {
-          "outlet": "Kyiv Independent",
-          "title": "Russia says 'battlefield situation' will determine when Ukraine peace talks begin",
-          "url": "https://kyivindependent.com/russia-says-battlefield-situation-will-determine-when-ukraine-peace-talks-begin"
+          "outlet": "TRT World",
+          "title": "TRT World - Herzog urges Israeli parties to avert fresh election as neither bloc secures majority",
+          "url": "https://www.trtworld.com/article/6e8deb87fbe1"
+        }
+      ]
+    },
+    {
+      "title": "Russia's Two Fronts",
+      "icon": "🇺🇦",
+      "summary": "Dnipro station toll rises to 14 as the Moscow summit closes with pledges to Africa",
+      "paragraphs": [
+        {
+          "heading": "Dnipro",
+          "body": "Al Jazeera reported that at least 14 people were killed in the Russian attack on Dnipro's main train station and that Russian strikes killed at least 19 people across Ukraine that day. Russia said it shot down most of the more than 600 drones launched toward Moscow overnight. [[TAG:danger:14 killed]]"
         },
         {
-          "outlet": "Washington Times/AP",
-          "title": "Putin seeks to expand ties with African countries at Russia-Africa summit",
-          "url": "https://www.washingtontimes.com/news/2026/oct/28/vladimir-putin-seeks-expand-ties-african-countries-russia-africa/"
+          "heading": "Russia-Africa summit",
+          "body": "The Kremlin said the third Russia-Africa summit ended with a final declaration, a declaration on cooperation in artificial intelligence, and an action plan for 2027 to 2029. Fortune reported that Putin called Africa a 'natural ally'. Accounts differ on attendance, giving 21 or 22 African leaders, and on how many deals were finally signed."
+        }
+      ],
+      "sources": "Al Jazeera, Kremlin, Fortune",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "At least 14 people killed in Russian attack on Dnipro train station",
+          "url": "https://www.aljazeera.com/news/2026/10/29/russia-says-more-than-600-drones-launched-towards-moscow-overnight"
         },
         {
-          "outlet": "CNBC Africa",
-          "title": "Putin woos African leaders at showcase summit, says Russia is better partner than ‘colonial’ West",
-          "url": "https://www.cnbcafrica.com/2026/putin-woos-african-leaders-at-showcase-summit-says-russia-is-better-partner-than-colonial-west"
+          "outlet": "Kremlin",
+          "title": "Third Russia",
+          "url": "http://en.kremlin.ru/events/president/news/81113"
+        },
+        {
+          "outlet": "Fortune",
+          "title": "Putin calls Africa a 'natural ally' as Moscow courts leaders from nearly 50 nations",
+          "url": "https://fortune.com/2026/10/29/putin-russia-africa-summit-trade-military-un/"
         }
       ]
     },
     {
       "title": "Europe",
       "icon": "🇪🇺",
-      "summary": "High-speed crash near Toledo kills 68; EU and Canada open talks on an alliance",
+      "summary": "Spain probes an 'inexplicable' rail order as the toll hits 69; EU and Canada balk at a label",
       "paragraphs": [
         {
-          "heading": "Toledo crash",
-          "body": "CBS News and CNN reported that at least 68 people were killed when a RENFE high-speed train hit the back of a stopped Iryo train near Urda, south of Madrid. Officials said 58 people were in hospital. Prime Minister Pedro Sánchez declared three days of national mourning and promised firm action if negligence is found. The cause is unknown. It is Spain's second deadly high-speed collision this year. [[TAG:danger:68 dead]]"
+          "heading": "Urda crash",
+          "body": "Euronews and Time reported that the death toll from Wednesday's high-speed crash was revised to 69 after the Transport Ministry briefly reported 74. ABC News said Transport Minister Óscar Puente pointed to an 'inexplicable' order from a central control center that let one train proceed toward a stopped train. The Boston Globe noted that the crash comes ahead of Spain's national election. [[TAG:danger:69 dead]]"
         },
         {
           "heading": "EU-Canada summit",
-          "body": "Carney hosts António Costa and Ursula von der Leyen in Montreal on October 29 and 30 to launch formal talks on a deeper partnership, BNN Bloomberg reported. The Boston Globe said an 'associate member' label proposed for Canada faces resistance from France and Germany."
+          "body": "BNN Bloomberg reported that Carney and Ursula von der Leyen floated 'associate member' status for Canada in Montreal. CBC reported on the debate over the label. Reports say Germany, France and others resisted it, and the draft joint statement dropped it. The final joint statement had not been published at the time of these reports."
         }
       ],
-      "sources": "CBS News, CNN, BNN Bloomberg, Boston Globe",
+      "sources": "Euronews, Time, ABC News, Boston Globe, BNN Bloomberg, CBC",
       "citations": [
         {
-          "outlet": "CBS News",
-          "title": "High-speed train crash in Spain leaves at least 68 dead, dozens injured, officials say - CBS News",
-          "url": "https://www.cbsnews.com/news/spain-train-crash-toledo-urda/"
+          "outlet": "Euronews",
+          "title": "Death toll from Spain train crash revised to 69 as royals visit victims",
+          "url": "https://www.euronews.com/2026/10/29/death-toll-from-spain-train-crash-rises-to-74-as-royals-visit-victims"
         },
         {
-          "outlet": "CNN",
-          "title": "Spain train crash kills at least 68 as witnesses describe devastating scenes",
-          "url": "https://www.cnn.com/2026/10/28/world/live-news/spain-train-crash-collision-intl"
+          "outlet": "Time",
+          "title": "Spain Train Crash Death Toll Rises to 69 as Rescuers Work to Identify Victims",
+          "url": "https://time.com/article/2026/10/29/spain-high-speed-train-crash-cause-inexplicable-human-error-transport/"
         },
         {
-          "outlet": "BNN Bloomberg",
-          "title": "Canada-EU summit to kick off formal talks with Europe on closer ties: Carney",
-          "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/27/canada-eu-summit-to-kick-off-formal-talks-with-europe-on-closer-ties-carney/"
+          "outlet": "ABC News",
+          "title": "'Inexplicable' order probed as cause of train crash that killed at least 69: Official - ABC News",
+          "url": "https://abcnews.com/International/10-killed-train-collision-high-speed-line-spain/story?id=137633323"
         },
         {
           "outlet": "Boston Globe",
-          "title": "Carney hosts EU leaders as Trump pushes Canada toward Europe, but membership label faces resistance - The Boston Globe",
-          "url": "https://www.bostonglobe.com/2026/10/29/world/canada-eu-summit/"
+          "title": "Spain reckons with second deadly train crash of the year ahead of national election - The Boston Globe",
+          "url": "https://www.bostonglobe.com/2026/10/29/world/spain-train-crash/"
+        },
+        {
+          "outlet": "BNN Bloomberg",
+          "title": "Canada-EU summit: Mark Carney floats 'associate member' status",
+          "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/29/pm-carney-von-der-leyen-float-associate-member-status-at-canada-eu-summit-live-updates-here/"
+        },
+        {
+          "outlet": "CBC",
+          "title": "Carney points to EU's strong belief in democracy as political winds shift for 2 largest members",
+          "url": "https://www.cbc.ca/news/politics/european-union-canada-associate-member-von-der-leyen-9.7401989"
+        }
+      ]
+    },
+    {
+      "title": "Africa",
+      "icon": "🌍",
+      "summary": "US sanctions Rwanda's defense ministry over M23; Darfur market strike toll disputed",
+      "paragraphs": [
+        {
+          "heading": "Rwanda sanctions",
+          "body": "The Washington Post and ABC News reported that the US sanctioned Rwanda's defense ministry over its support for M23 rebels in eastern Congo. US News said the Treasury also targeted a financial institution that serves the security services. Rwanda denies backing the rebels."
+        },
+        {
+          "heading": "Darfur",
+          "body": "NBC News reported that a Sudanese rights group says more than 100 people were killed in an army drone strike on a market in Nyala earlier this week. Doctors Without Borders gave a lower count of at least 36, according to Daily Sabah, and Al Jazeera had earlier reported 21. [[TAG:warning:toll disputed]]"
+        },
+        {
+          "heading": "Ugandans in Russia's army",
+          "body": "OkayAfrica reported that a letter from Uganda's embassy in Moscow lists 27 Ugandans recruited into Russia's army as dead or presumed dead."
+        }
+      ],
+      "sources": "Washington Post, ABC News, US News, NBC News, Daily Sabah, Al Jazeera, OkayAfrica",
+      "citations": [
+        {
+          "outlet": "Washington Post",
+          "title": "US imposes sanctions on Rwandan defense ministry over involvement in eastern Congo conflict - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/10/28/congo-rwanda-m23-us/af4564ca-d2f7-11f1-9931-2a41b76fc976_story.html"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "US imposes sanctions on Rwandan defense ministry over involvement in eastern Congo conflict - ABC News",
+          "url": "https://abcnews.com/International/wireStory/us-imposes-sanctions-rwandan-defense-ministry-involvement-eastern-137648751"
+        },
+        {
+          "outlet": "US News",
+          "title": "US Imposes Sanctions on Rwanda's Defense Ministry Over Congo Conflict",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-28/us-imposes-sanctions-on-rwandas-ministry-of-defense"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "More than 100 people killed in Sudanese army drone attack on market, says Sudanese rights group",
+          "url": "https://www.nbcnews.com/world/africa/100-people-killed-sudanese-army-drone-attack-market-says-sudanese-righ-rcna606044"
+        },
+        {
+          "outlet": "Daily Sabah",
+          "title": "Sudan market drone strike kills at least 36 as Darfur crisis deepens",
+          "url": "https://www.dailysabah.com/world/africa/sudan-market-drone-strike-kills-at-least-36-as-darfur-crisis-deepens/amp"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Drone strike in Sudan’s Nyala kills at least 21, injures 40",
+          "url": "https://www.aljazeera.com/news/2026/10/27/drone-strike-kills-at-least-21-and-injures-40-in-sudans-nyala"
+        },
+        {
+          "outlet": "OkayAfrica",
+          "title": "Today in Africa — October 29, 2026: 27 Ugandans Recruited by Russia’s Army Presumed Dead, South African Police Ask Court to Halt Durban Marches",
+          "url": "https://www.okayafrica.com/today-in-africa-october-29-2026-27-ugandans-recruited-by-russias-army-presumed-dead-south-african-police-ask-court-to-halt-durban-marches/1441289"
         }
       ]
     },
     {
       "title": "US Midterms",
       "icon": "🇺🇸",
-      "summary": "Early voting surges five days before the vote as Senate battleground races tighten",
+      "summary": "Four days out, Democrats lead final polls as Trump swaps two rallies for phone calls",
       "paragraphs": [
         {
-          "heading": "Turnout and polls",
-          "body": "ABC13 reported record early-vote turnout in Harris County as Texas enters its final week of early voting. NBC News' battleground tracker shows Democrats narrowly ahead in Senate races in Ohio and New Hampshire. CBS News reported that Obama and Trump held rival rallies in the campaign's final stretch. Polls are not results, and margins in several races are within the error range. [[TAG:info:vote Nov 3]]"
+          "heading": "Final stretch",
+          "body": "Al Jazeera reported that Trump canceled weekend rallies in Kansas and Iowa and replaced them with telephone rallies, as Democrats lead the generic ballot by nearly 9 points on average. Newsweek linked the canceled Kansas rally to a poll showing Republican Senator Roger Marshall trailing his Democratic challenger. The final PBS News, NPR and Marist poll found Democrats ahead among likely voters. These are polls, not results. [[TAG:info:vote Nov 3]]"
         }
       ],
-      "sources": "ABC13, NBC News, CBS News",
+      "sources": "Al Jazeera, Newsweek, PBS NewsHour",
       "citations": [
         {
-          "outlet": "ABC13",
-          "title": "Early voting Texas 2026: Final week of early voting underway in Texas as Harris County sets record numbers - ABC13 Houston",
-          "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+          "outlet": "Al Jazeera",
+          "title": "US midterms: 4 days to go",
+          "url": "https://www.aljazeera.com/news/2026/10/30/us-midterms-4-days-to-go-what-the-polls-say-as-trump-cancels-two-rallies"
         },
         {
-          "outlet": "NBC News",
-          "title": "2026 Senate Battleground Polls: Midterm Primary Trends",
-          "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls"
+          "outlet": "Newsweek",
+          "title": "Trump Cancels Kansas Rally as New Poll Shows Roger Marshall Trailing Adam Hamilton - Newsweek",
+          "url": "https://www.newsweek.com/trump-cancels-kansas-rally-as-new-poll-shows-republican-trailing-democrat-12637635"
         },
         {
-          "outlet": "CBS News",
-          "title": "Live Updates: Obama and Trump hold dueling rallies as 2026 midterm campaigns make final pre-Election Day pitch",
-          "url": "https://www.cbsnews.com/live-updates/2026-elections-midtems-house-senate-trump/"
+          "outlet": "PBS NewsHour",
+          "title": "What our final poll before Election Day says about midterms and Trump",
+          "url": "https://www.pbs.org/newshour/politics/poll-likely-voters-favor-democrats-as-trump-disapproval-drives-early-turnout"
         }
       ]
     }
   ],
   "searches": [
     {
-      "query": "Fed decision October 28 2026 Warsh holds rates statement",
+      "query": "ECB decision October 29 2026 Lagarde rates held",
       "results": [
         {
-          "title": "Fed’s Interest Rate Decision: October 28, 2026 - dshort - Advisor Perspectives",
-          "url": "https://www.advisorperspectives.com/dshort/updates/2026/10/28/feds-interest-rate-decision-october-28-2026"
+          "title": "ECB Holds Rates as Lagarde Exit Compounds Alarm Over Oil, France - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-29/ecb-holds-rates-as-lagarde-exit-compounds-alarm-over-oil-france"
         },
         {
-          "title": "Live Fed Statement Breakdown: Interest Rates Held at 3.75%–4.00%",
-          "url": "https://www.raisin.com/en-us/news/live-breakdown-fed-policy-statement-october-2026/"
+          "title": "ECB holds rates at 2.5% as Lagarde announces early exit with inflation near double the target",
+          "url": "https://www.euronews.com/2026/10/29/ecb-holds-rates-at-25-as-lagarde-announces-early-exit-with-inflation-near-double-the-targe"
         },
         {
-          "title": "Fed interest rate decision October 2026: Fed holds rates steady",
-          "url": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html"
+          "title": "ECB pauses rate hikes as Lagarde announces early exit",
+          "url": "https://www.irishtimes.com/business/2026/10/29/ecb-holds-rates-steady-as-lagardes-departure-overshadows-decision/"
         },
         {
-          "title": "Fed Holds Rates Steady, Cites Need for More Data on Inflation Outlook - Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-28/fed-holds-rates-says-more-data-will-help-next-decision"
+          "title": "ECB holds key rate steady at 2.5% amid Lagarde's early exit",
+          "url": "https://www.dailysabah.com/business/economy/ecb-holds-key-rate-steady-at-25-amid-lagardes-early-exit/amp"
         },
         {
-          "title": "Rate decision live: Interest rates held steady in split vote, Warsh says politics played 'no role' ahead of midterm elections",
-          "url": "https://ca.finance.yahoo.com/news/live/fed-meeting-live-updates-interest-rates-held-steady-in-split-vote-warsh-says-politics-played-no-role-ahead-of-midterm-elections-191946928.html"
+          "title": "ECB Live Updates: Christine Lagarde to Step Down Early, Rate Decision Ahead - Bloomberg",
+          "url": "https://www.bloomberg.com/news/live-blog/2026-10-29/lagarde-steps-down-ecb-rate-decision-euro-live-updates"
         },
         {
-          "title": "The Federal Reserve Just Announced Its Latest Decision",
-          "url": "https://townhall.com/news/cameron-arcand/2026/10/28/the-federal-reserve-just-announced-its-latest-decision-n2685472"
+          "title": "ECB rate decision: 2.50 percent, Lagarde leaves",
+          "url": "https://cryptoticker.io/en/ecb-rate-decision-october-2026-lagarde-exit/"
         },
         {
-          "title": "boyle statement october 2025 fed interest rate decision",
-          "url": "https://democrats-budget.house.gov/news/press-releases/boyle-statement-october-2025-fed-interest-rate-decision"
+          "title": "ECB Holds Rates at 2.50% as Lagarde Announces Departure",
+          "url": "https://www.ebc.com/forex/ecb-interest-rate-decision-october-2026"
         },
         {
-          "title": "forexlive%3A861fbd9cf094b%3A0 the full statement from the fomc rate decision for october 2025",
-          "url": "https://ru.tradingview.com/news/forexlive%3A861fbd9cf094b%3A0-the-full-statement-from-the-fomc-rate-decision-for-october-2025"
-        },
-        {
-          "title": "October 29, 2025",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm"
-        }
-      ]
-    },
-    {
-      "query": "Microsoft Alphabet earnings results October 28 2026 shares after hours",
-      "results": [
-        {
-          "title": "Stock Market Today: October 28, 2026",
-          "url": "https://pro.thestreet.com/stock-market-today/2026-10-28"
-        },
-        {
-          "title": "Microsoft and Alphabet Just Reported Earnings, Putting the AI Boom to the Test",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-alphabet-just-reported-earnings-001901247.html"
-        },
-        {
-          "title": "Stocks making the biggest moves after hours: Alphabet, Microsoft, Chipotle, ServiceNow, Fortinet & more",
-          "url": "https://www.cnbc.com/2026/10/28/stocks-making-the-biggest-moves-after-hours-googl-msft-cmg-now.html"
-        },
-        {
-          "title": "Stock Market Today Live October 28, 2026: Fed Holds Rates; Fortinet and Alphabet Fall After Hours",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-28-2026"
-        },
-        {
-          "title": "Same Night, Opposite Verdicts: Why Investors Rewarded Microsoft And Punished Alphabet - 1023 Jack",
-          "url": "https://1023jack.com/market/same-night-opposite-verdicts-why-investors-rewarded-microsoft-and-punished-alpha/"
-        },
-        {
-          "title": "Alphabet, Microsoft, Amazon Earnings Oct. 28-29 [2026]",
-          "url": "https://shattered.io/alphabet-microsoft-amazon-earnings-oct-28-29-2026/"
-        },
-        {
-          "title": "The AI Divide Behind Microsoft’s Reward And Alphabet’s Punishment - Best CAD papers",
-          "url": "https://bestcadpapers.com/art-and-society/the-ai-divide-behind-microsoft-s-reward-and-alphabet-s-punishment/"
-        },
-        {
-          "title": "Microsoft Stock Price Forecast: Stock Nears $550 After Earnings Beat, Next Target Expected to Reach $600",
-          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262250578-msft-forecast-q1-earnings-beat-550-target-600-tradingkey"
-        },
-        {
-          "title": "What Microsoft Got Right With Investors As Alphabet Faced Pressure - StrongMocha News Group",
-          "url": "https://strongmocha.com/ai-infrastructure/what-microsoft-got-right-with-investors-as-alphabet-faced-pressure/"
-        }
-      ]
-    },
-    {
-      "query": "Israel election final results October 29 2026 Netanyahu Eisenkot",
-      "results": [
-        {
-          "title": "Israel election results: Netanyahu bloc at 53 seats, Eisenkot bloc at 48 as nearly all votes counted",
-          "url": "https://www.ynetnews.com/article/hjnatbkaml"
-        },
-        {
-          "title": "Israel Election Results: Netanyahu Overtakes Eisenkot in Tight Vote - Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-28/israeli-vote-too-close-to-call-between-netanyahu-and-eisenkot"
-        },
-        {
-          "title": "Israel election results: Benjamin Netanyahu bloc wins 53 seats, opposition holds 48",
-          "url": "https://www.jpost.com/israel-election-2026/article-913122"
-        },
-        {
-          "title": "2026 Israeli legislative election",
-          "url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election"
-        },
-        {
-          "title": "Israeli bonds, shekel fall as election leaves Netanyahu and others short of majorities",
-          "url": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html"
-        },
-        {
-          "title": "israeli election results show clear win for netanyahu after hard fought race",
-          "url": "https://www.foxnews.com/world/israeli-election-results-show-clear-win-for-netanyahu-after-hard-fought-race"
-        },
-        {
-          "title": "Final results of Israeli election show resounding victory for Prime Minister Netanyahu's Likud",
-          "url": "https://www.foxnews.com/world/final-results-of-israeli-election-show-resounding-victory-for-prime-minister-netanyahus-likud.amp"
-        },
-        {
-          "title": "Netanyahu's party wins big in Israeli elections",
-          "url": "https://www.cbsnews.com/amp/news/netanyahus-party-wins-big-in-israeli-elections"
-        },
-        {
-          "title": "Netanyahu's Likud wins Israeli election | Inquirer News",
-          "url": "https://newsinfo.inquirer.net/679722/netanyahus-likud-wins-israeli-election"
-        }
-      ]
-    },
-    {
-      "query": "stock market close Wednesday October 28 2026 Dow S&P Nasdaq",
-      "results": [
-        {
-          "title": "Stock market news for Oct. 28, 2026",
-          "url": "https://www.cnbc.com/2026/10/27/stock-market-today-live-updates.html"
-        },
-        {
-          "title": "United States Stock Market Index - Quote - Chart - Historical Data - News",
-          "url": "https://tradingeconomics.com/united-states/stock-market"
-        },
-        {
-          "title": "Stock Market News for Oct 28, 2026",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-oct-28-081900420.html"
-        },
-        {
-          "title": "Stock Market Today, Oct. 28: Markets Edge Higher as Fed Holds Rates Steady",
-          "url": "https://www.fool.com/coverage/stock-market-today/2026/10/28/stock-market-today-oct-28-markets-edge-higher-as-fed-holds-rates-steady/"
-        },
-        {
-          "title": "Closing milestones of the Nasdaq Composite",
-          "url": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite"
-        },
-        {
-          "title": "October 27, 1997, mini-crash",
-          "url": "https://en.wikipedia.org/wiki/October_27,_1997,_mini-crash"
-        },
-        {
-          "title": "S&P 500 (^GSPC) Charts, Data & News - Yahoo Finance",
-          "url": "https://finance.yahoo.com/quote/%5EGSPC/"
-        },
-        {
-          "title": "Dow Jones Industrial Average (^DJI) Charts, Data & News - Yahoo Finance",
-          "url": "https://finance.yahoo.com/quote/%5EDJI/"
-        },
-        {
-          "title": "Stock Market Today Live October 28, 2026: Fed Holds Rates; Fortinet and Alphabet Fall After Hours",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-28-2026"
-        }
-      ]
-    },
-    {
-      "query": "Iran US news October 29 2026 Hormuz talks strikes",
-      "results": [
-        {
-          "title": "Trump says he's weighing deal with Iran against action to \"finish them off\"",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/"
-        },
-        {
-          "title": "Rubio says progress made in Strait of Hormuz talks after Trump threatens \"decapitation\"",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-us-denies-negotiations-begin-strikes-called-off/"
-        },
-        {
-          "title": "Iranintl",
-          "url": "https://iranintl.com/en/liveblog/202610244311"
-        },
-        {
-          "title": "Iran calls U.S. response \"insufficient\" amid stalled talks to end the war",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
-        },
-        {
-          "title": "US strikes oil tankers, Tehran claims attacks on US-linked vessels - ABC News",
-          "url": "https://abcnews.com/International/live-updates/iran-live-updates-centcom-targeted-iranian-forces-posed/?id=136080582"
-        },
-        {
-          "title": "Iran says Strait of Hormuz reopening, seven-day ceasefire conditions still on the table",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
-        },
-        {
-          "title": "nx s1 5757380",
-          "url": "https://www.npr.org/transcripts/nx-s1-5757380"
-        },
-        {
-          "title": "April 5, 2026 8:15 PM",
-          "url": "https://www.newsonair.gov.in/us-president-trump-warns-of-strikes-on-irans-power-plants-on-april-7-if-strait-of-hormuz-remains-closed"
-        },
-        {
-          "title": "gulfnews.com",
-          "url": "https://gulfnews.com/world/1.500499565"
-        }
-      ]
-    },
-    {
-      "query": "Ukraine Russia news October 28 2026",
-      "results": [
-        {
-          "title": "Ukraine News Today",
-          "url": "https://en.wikipedia.org/wiki/Ukraine_News_Today"
-        },
-        {
-          "title": "Ukraine Online",
-          "url": "https://en.wikipedia.org/wiki/Ukraine_Online"
-        },
-        {
-          "title": "Ukrainian National News",
-          "url": "https://en.wikipedia.org/wiki/Ukrainian_National_News"
-        },
-        {
-          "title": "Ukraine News Today Live",
-          "url": "https://www.newsnow.co.uk/h/World+News/Europe/Eastern+Europe/Ukraine"
-        },
-        {
-          "title": "Latest news",
-          "url": "https://www.ukrinform.net/block-lastnews"
-        },
-        {
-          "title": "The Kyiv Independent — News from Ukraine, Eastern Europe",
-          "url": "https://kyivindependent.com/"
-        },
-        {
-          "title": "Ukraine",
-          "url": "https://www.aljazeera.com/where/ukraine/"
-        },
-        {
-          "title": "Russia-Ukraine war",
-          "url": "https://www.aljazeera.com/tag/ukraine-russia-crisis/"
-        },
-        {
-          "title": "Ukraine News Today Live",
-          "url": "https://www.newsnow.com/us/World/Europe/Eastern+Europe/Ukraine"
-        }
-      ]
-    },
-    {
-      "query": "oil prices October 29 2026 Brent WTI",
-      "results": [
-        {
-          "title": "Oil price today: WTI, Brent rise",
-          "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
-        },
-        {
-          "title": "Oil Prices Today: WTI & Brent Crude Benchmarks",
-          "url": "https://www.oilpriceapi.com/oil-prices-today"
-        },
-        {
-          "title": "Oil Slips on US–Iran Talks but Middle East Tensions Limit Fall",
-          "url": "https://hdfcsky.com/news/oil-prices-today-october-29-2026-brent-falls-to-114-2-wti-at-101-4-as-us-iran-peace-hopes-counter-supply-risks"
-        },
-        {
-          "title": "Brent Crude Oil Price Live",
-          "url": "https://www.oilpriceapi.com/live/brent-crude-oil-price"
-        },
-        {
-          "title": "Oil prices decline: WTI falls to $101.91 per barrel, Brent trades at $115.32",
-          "url": "https://unn.ua/en/news/oil-prices-decline-wti-falls-to-dollar10191-per-barrel-brent-trades-at-dollar11532"
-        },
-        {
-          "title": "Brent Crude Oil Price Today — Live Chart & Forecast",
-          "url": "https://worldoilmonitor.com/brent"
-        },
-        {
-          "title": "Oil Prices Today: WTI $102.33 · Brent $111.78 · Gas $2.79",
-          "url": "https://www.onevalor.com/oil-gas-prices/"
-        },
-        {
-          "title": "global crude oil prices rise brent at 64 38 wti at 60 73 per barrel",
-          "url": "https://www.newsonair.gov.in/global-crude-oil-prices-rise-brent-at-64-38-wti-at-60-73-per-barrel"
-        },
-        {
-          "title": "crude oil prices rise brent at 67 73 wti at 63 68 per barrel",
-          "url": "https://www.newsonair.gov.in/crude-oil-prices-rise-brent-at-67-73-wti-at-63-68-per-barrel"
-        }
-      ]
-    },
-    {
-      "query": "Asian markets October 29 2026 Nikkei Kospi Bank of Japan",
-      "results": [
-        {
-          "title": "Stock market today: Live updates",
-          "url": "https://www.cnbc.com/2026/10/28/stock-market-today-live-updates.html"
-        },
-        {
-          "title": "Shares mixed after Google parent Alphabet's earnings disappoint",
-          "url": "https://ca.finance.yahoo.com/news/shares-mixed-google-parent-alphabets-070216994.html"
-        },
-        {
-          "title": "Markets End Flat; Mid & Smallcaps Shine as Fed Holds Rates",
-          "url": "https://hdfcsky.com/news/the-prime-daily-29-october-2026"
-        },
-        {
-          "title": "Asia Stock Markets Today: Nikkei, Hang Seng, Shanghai & KOSPI",
-          "url": "https://liveworldmarket.com/asia-stock-market-dashboard"
-        },
-        {
-          "title": "Asian markets: Japan's Nikkei-225 falls 0.1%, Singapore's Straits Times index rises 0.3%",
-          "url": "https://www.newsonair.gov.in/asian-markets-japans-nikkei-225-falls-0-1-singapores-straits-times-index-rises-0-3"
-        },
-        {
-          "title": "October 6, 2023 4:51 PM",
-          "url": "https://www.newsonair.gov.in/tag/asian-markets"
-        },
-        {
-          "title": "September 29, 2023 4:59 PM September 29, 2023 4:59 PM",
-          "url": "https://www.newsonair.gov.in/tag/asian-markets-japans-nikkei-225-falls-0-1"
-        },
-        {
-          "title": "asian stocks mixed south koreas kospi up 2 11 japans nikkei 225 down 1 66",
-          "url": "https://newsonair.gov.in/asian-stocks-mixed-south-koreas-kospi-up-2-11-japans-nikkei-225-down-1-66"
-        },
-        {
-          "title": "asian markets ended with gains except for japans nikkei 225 which declined 0 3 percent",
-          "url": "https://www.newsonair.gov.in/asian-markets-ended-with-gains-except-for-japans-nikkei-225-which-declined-0-3-percent"
-        },
-        {
-          "title": "asian markets trading in positive territory",
-          "url": "https://newsonair.gov.in/asian-markets-trading-in-positive-territory"
-        }
-      ]
-    },
-    {
-      "query": "Dnipro train station drone strike killed October 2026",
-      "results": [
-        {
-          "title": "Ruscists attacked train station in Dnipro: 13 people died and others were injured (updated)",
-          "url": "https://censor.net/en/news/4030975/strike-on-a-commuter-train-in-dnipro-13-dead-several-injured"
-        },
-        {
-          "title": "Breaking: Russia strikes train at Dnipro station with jet-powered drone, at least 13 dead",
-          "url": "https://kyivindependent.com/breaking-russia-strikes-train-at-dnipro-station-with-jet-powered-drone-at-least-13-dead/"
-        },
-        {
-          "title": "The Kyiv Independent — News from Ukraine, Eastern Europe",
-          "url": "https://kyivindependent.com/"
-        },
-        {
-          "title": "Russian Drone Strike on Dnipro Train Platform Kills 13, Injures 5 as Passenger Train Is Hit",
-          "url": "https://www.kyivpost.com/post/88526"
-        },
-        {
-          "title": "Dnipro strikes (2022%E2%80%93present)",
-          "url": "https://en.wikipedia.org/wiki/Dnipro_strikes_(2022%E2%80%93present)"
-        },
-        {
-          "title": "Russian Drone Strike on Dnipro Train Kills 13, Wounds at Least Five",
-          "url": "https://mezha.net/eng/news/bda532da_russian_drone_strike_on"
-        },
-        {
-          "title": "Russian jet-powered drone attacked the railway station in Dnipro - details from Ukrzaliznytsia",
-          "url": "https://unn.ua/en/news/a-russian-jet-drone-struck-a-railway-station-ukrzaliznytsia-on-the-deadly-enemy-attack-in-dnipro"
-        },
-        {
-          "title": "In Dnipro, Russia struck an electric train; a large number of people were killed",
-          "url": "https://unn.ua/en/news/in-dnipro-russia-struck-an-electric-train-a-large-number-of-people-were-killed"
-        },
-        {
-          "title": "Russian army strikes commuter train in Dnipro, 13 people killed",
-          "url": "https://1news.az/en/news/20261029135509780-Russian-army-strikes-commuter-train-in-Dnipro-13-people-killed"
-        }
-      ]
-    },
-    {
-      "query": "Vance letter Rezaei Iran peace negotiations",
-      "results": [
-        {
-          "title": "Vance sent letter to Iran's security chief to revive peace talks - WSJ",
-          "url": "https://www.iranintl.com/en/202610287801"
-        },
-        {
-          "title": "JD Vance sends letter to Iran hard-liner in bid to revive peace talks as Trump threatens strikes: Report - The Tribune",
-          "url": "https://www.tribuneindia.com/news/donald-trump-iran-threats/jd-vance-sends-letter-to-iran-hard-liner-in-bid-to-revive-peace-talks-as-trump-threatens-strikes-report"
-        },
-        {
-          "title": "Vance’s letter to Iran leader amid Trump’s strike threats: Is Washington sending mixed signals to Tehran? - The Week",
-          "url": "https://www.theweek.in/news/middle-east/2026/10/29/us-seeks-peace-talks-with-iran-vance-letter.html"
-        },
-        {
-          "title": "Vance reaches out to Iran security chief in bid to restart peace talks, WSJ reports",
-          "url": "https://www.timesofisrael.com/liveblog_entry/vance-reaches-out-to-iran-security-chief-in-bid-to-restart-peace-talks-wsj-reports/"
-        },
-        {
-          "title": "Vance reportedly contacted top Iran security official in bid to restart peace talks",
-          "url": "https://www.timesofisrael.com/vance-reportedly-contacted-top-iran-security-official-in-bid-to-restart-peace-talks/"
-        },
-        {
-          "title": "Trump confirms Vance sent letter to Iranian hardliner to revive peace talks ahead of midterms",
-          "url": "https://news.meaww.com/trump-confirms-vance-sent-letter-to-iranian-hardliner-to-revive-peace-talks-ahead-of-midterms"
-        },
-        {
-          "title": "Vance Letter to Iran",
-          "url": "https://mediabias.news/conflict/vance-sent-letter-to-iran-amid-us-bombing-threats"
-        },
-        {
-          "title": "Vance's greatest challenge: Making peace with Iran",
-          "url": "https://www.axios.com/2026/03/27/vance-iran-peace-talks?stream=top"
-        },
-        {
-          "title": "Vance heads to high-stakes Iran talks: \"JD is going to the Super Bowl\"",
-          "url": "https://www.axios.com/2026/04/10/vance-iran-talks-pakistan"
-        }
-      ]
-    },
-    {
-      "query": "Kremlin Europe excluded Ukraine talks Abu Dhabi November",
-      "results": [
-        {
-          "title": "‘We Haven’t Sent Any Signals Yet’: Kremlin Says Ukraine Peace Talks Depend on Battlefield, Rules Out European Role",
-          "url": "https://www.kyivpost.com/post/88515"
-        },
-        {
-          "title": "Russia says 'battlefield situation' will determine when Ukraine peace talks begin",
-          "url": "https://kyivindependent.com/russia-says-battlefield-situation-will-determine-when-ukraine-peace-talks-begin"
-        },
-        {
-          "title": "Kremlinul exclude o prezență europeană în negocierile cu Ucraina și SUA de la Abu Dhabi ⋆ Universul.net",
-          "url": "https://universul.net/kremlinul-exclude-o-prezenta-europeana-in-negocierile-cu-ucraina-si-sua-de-la-abu-dhabi/"
-        },
-        {
-          "title": "Kremlin Aide Yuri Ushakov Says Europe Won’t Join Abu Dhabi Ukraine Talks: 8 outlets compared",
-          "url": "https://newscord.org/article/kremlin-aide-yuri-ushakov-says-europe-wont-join-abu-dhabi-ukraine-talks--Story_20261028_KremlinsaysEuropeanccafa0a7e"
-        },
-        {
-          "title": "The Kremlin rejected the participation of Europeans in the talks between Russia, the U.S., and Ukraine",
-          "url": "https://ua.news/en/war-vs-rf/u-kremli-vidkinuli-uchast-ievropeitsiv-u-peregovorakh-rosiyi-ssha-ta-ukrayini"
-        },
-        {
-          "title": "No seat for Europe at Ukraine peace talks",
-          "url": "https://rt-english.com/russia/647970-europe-sidelined-russia-us-ukraine-talks/"
-        },
-        {
-          "title": "No seat for Europe at Ukraine peace talks",
-          "url": "https://eng.pressbee.net/show4946629.html"
-        },
-        {
-          "title": "Russia: Talks with US and Ukraine in UAE were constructive",
-          "url": "https://gulfnews.com/world/europe/russia-ukraine-talks-in-uae-held-in-constructive-spirit-1.500421070"
-        },
-        {
-          "title": "February 4, 2026 9:15 PM",
-          "url": "https://www.newsonair.gov.in/ukraine-and-russia-hold-second-round-of-us-brokered-talks-in-abu-dhabi"
-        },
-        {
-          "title": "Germany slams Russia's 'stubborn insistence' on Ukraine territorial claims",
-          "url": "https://www.yahoo.com/news/articles/germany-slams-russias-stubborn-insistence-133325898.html"
-        }
-      ]
-    },
-    {
-      "query": "Houthi Saudi Arabia attacks October 28 2026",
-      "results": [
-        {
-          "title": "Saudi coalition says intercepted Houthi missile fired toward Eastern Province",
-          "url": "https://www.tbsnews.net/world/saudi-coalition-says-intercepted-houthi-missile-fired-toward-eastern-province-1586426"
-        },
-        {
-          "title": "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
-          "url": "https://www.aljazeera.com/news/2026/10/24/houthis-launch-attacks-on-saudi-arabia-and-yemens-aden"
-        },
-        {
-          "title": "Saudi air defences intercept Houthi barrage near Mecca",
-          "url": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca"
-        },
-        {
-          "title": "Attack on Saudi Arabia’s King Fahd airport kills two people",
-          "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2"
-        },
-        {
-          "title": "Residents in Saudi Arabia's capital say they have heard new explosions in Riyadh",
-          "url": "https://www.wfmj.com/news/international/residents-in-saudi-arabias-capital-say-they-have-heard-new-explosions-in-riyadh/article_ba37e96c-0daa-5f0c-b1f9-de9df935f31b.html"
-        },
-        {
-          "title": "mil 220325 state01",
-          "url": "https://www.globalsecurity.org/military/library/news/2022/03/mil-220325-state01.htm"
-        },
-        {
-          "title": "www.malaymail.com",
-          "url": "https://www.malaymail.com/news/world/2021/04/17/yemens-houthis-say-they-have-hit-saudi-arabias-king-khalid-air-base/1967311"
-        },
-        {
-          "title": "Houthi insurgents claim Saudi strikes",
-          "url": "https://www.pressreader.com/thailand/bangkok-post/20210301/281715502344856"
-        },
-        {
-          "title": "Houthis claim missile attack in Saudi Arabia",
-          "url": "https://www.pressreader.com/india/hindustan-times-ranchi/20210301/281792811756237"
-        }
-      ]
-    },
-    {
-      "query": "Russia-Africa summit Moscow Putin October 2026",
-      "results": [
-        {
-          "title": "Putin seeks to expand ties with African countries at Russia-Africa summit",
-          "url": "https://www.washingtontimes.com/news/2026/oct/28/vladimir-putin-seeks-expand-ties-african-countries-russia-africa/"
-        },
-        {
-          "title": "Putin seeks to expand ties with African countries at Russia-Africa summit",
-          "url": "https://www.wsls.com/business/2026/10/28/putin-seeks-to-expand-ties-with-african-countries-at-russia-africa-summit/"
-        },
-        {
-          "title": "Moscow prepares to host African leaders for Russia-Africa Summit",
-          "url": "https://www.africanews.com/2026/10/26/moscow-hosts-african-leaders-for-russia-africa-summit-and-energy-forum/"
-        },
-        {
-          "title": "Putin woos African leaders at showcase summit, says Russia is better partner than ‘colonial’ West",
-          "url": "https://www.cnbcafrica.com/2026/putin-woos-african-leaders-at-showcase-summit-says-russia-is-better-partner-than-colonial-west"
-        },
-        {
-          "title": "On October 28–29, the third Russia",
-          "url": "http://en.kremlin.ru/events/president/news/81090"
-        },
-        {
-          "title": "Putin Seeks to Expand Ties With African Countries at Russia-Africa Summit",
-          "url": "https://www.usnews.com/news/business/articles/2026-10-28/putin-seeks-to-expand-ties-with-african-countries-at-russia-africa-summit"
-        },
-        {
-          "title": "2019 Russia%E2%80%93Africa Summit",
-          "url": "https://en.wikipedia.org/wiki/2019_Russia%E2%80%93Africa_Summit"
-        },
-        {
-          "title": "2023 Russia%E2%80%93Africa Summit",
-          "url": "https://en.wikipedia.org/wiki/2023_Russia%E2%80%93Africa_Summit"
-        },
-        {
-          "title": "Vladimir Putin Speaks at 3rd Russia-Africa Forum Plenary Session - 28.10.2026, Sputnik Africa",
-          "url": "https://en.sputniknews.africa/20261028/vladimir-putin-speaks-at-3rd-russia-africa-summit-plenary-session-1090369101.html"
-        },
-        {
-          "title": "Russia-Africa Summit 2026: What you need to know about building a multipolar world without the West — RT Africa",
-          "url": "https://rt-english.com/africa/647734-third-russia-africa-summit-explained/"
-        }
-      ]
-    },
-    {
-      "query": "Samsung Electronics third quarter 2026 results shares fall",
-      "results": [
-        {
-          "title": "Samsung Electronics Posts Record Q3 Operating Profit of 107 Trillion Won, but Shares Fall",
-          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008820944"
-        },
-        {
-          "title": "South Korean shares fall sharply after Samsung Electronics earnings — TradingView News",
-          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46F01K:0-south-korean-shares-fall-sharply-after-samsung-electronics-earnings/"
-        },
-        {
-          "title": "Samsung Electronics shares slid despite record profit in the third-quarter",
-          "url": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html"
-        },
-        {
-          "title": "Samsung Q3 profit hits record high, so why did the stock fall?",
-          "url": "https://www.fxstreet.com/news/samsung-q3-profit-hits-record-high-so-why-did-the-stock-fall-202610290624"
-        },
-        {
-          "title": "Seoul stocks down 3% late Thursday morning after weaker-than-expected Samsung earnings - The Korea Times",
-          "url": "https://www.koreatimes.co.kr/economy/20261029/seoul-stocks-down-3-late-thursday-morning-after-weaker-than-expected-samsung-earnings"
-        },
-        {
-          "title": "Samsung Stock Falls 6% as Record Profit Misses Estimates - SAMSUNG ELECT LTD by Samsung Electronics Co., - Benzinga",
-          "url": "https://www.benzinga.com/markets/earnings/26/10/62682254/samsung-profit-jumps-nearly-ninefold-misses-estimates-stock-falls"
-        },
-        {
-          "title": "South Korean shares fall sharply after Samsung Electronics earnings - Markets - Business Recorder",
-          "url": "https://www.brecorder.com/news/40446481/south-korean-shares-fall-sharply-after-samsung-electronics-earnings"
-        },
-        {
-          "title": "Q3 Operating Profit Hits 107 Trillion Won... Shareholder Return Plan to Be Finalized Next January",
-          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008821782"
-        },
-        {
-          "title": "Samsung Shares Slide 5% Despite Record 107 Trillion Won Profit - Seoul Economic Daily",
-          "url": "https://en.sedaily.com/finance/2026/10/29/samsung-shares-slide-5-percent-despite-record-107-trillion"
-        },
-        {
-          "title": "KOSPI Slips Below 6,000 as Samsung Shares Tumble Despite Record Profit, Ending SK Hynix-Fueled Euphoria Rally",
-          "url": "https://www.ibtimes.com.au/kospi-falls-samsung-chip-earnings-disappoint-1877574"
-        }
-      ]
-    },
-    {
-      "query": "midterm elections news October 28 2026 early voting Senate races",
-      "results": [
-        {
-          "title": "Map shows when early voting starts in each state for midterm elections",
-          "url": "https://www.newsweek.com/early-voting-map-locations-midterms-elections-2026-texas-12568473"
-        },
-        {
-          "title": "Michigan Midterm Elections 2026: Key Races, Candidates and Past Results",
-          "url": "https://www.nbcnews.com/politics/2026-elections/michigan-results"
-        },
-        {
-          "title": "Early voting Texas 2026: Final week of early voting underway in Texas as Harris County sets record numbers - ABC13 Houston",
-          "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
-        },
-        {
-          "title": "2026 Senate Battleground Polls: Midterm Primary Trends",
-          "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls"
-        },
-        {
-          "title": "Live Updates: Obama and Trump hold dueling rallies as 2026 midterm campaigns make final pre-Election Day pitch",
-          "url": "https://www.cbsnews.com/live-updates/2026-elections-midtems-house-senate-trump/"
-        },
-        {
-          "title": "2026 Early Vote Tracker: Ballots Cast by State",
-          "url": "https://onpointpolitics.us/maps/early-vote"
-        },
-        {
-          "title": "Early voting for North Carolina’s 2026 primary elections begins this week; See the races and candidates",
-          "url": "https://www.yahoo.com/news/articles/early-voting-north-carolina-2026-225517894.html"
-        },
-        {
-          "title": "Factbox-Eight US Senate races to watch in the 2026 midterm elections",
-          "url": "https://www.yahoo.com/news/articles/factbox-eight-us-senate-races-110402989.html"
-        },
-        {
-          "title": "2026 midterm preview: Key races in U.S. House, Senate",
-          "url": "https://www.yahoo.com/news/articles/2026-midterm-preview-key-races-153650715.html"
-        }
-      ]
-    },
-    {
-      "query": "Israel coalition talks Herzog consultations Eisenkot Arab parties October 29",
-      "results": [
-        {
-          "title": "\"Arrive with an open mind\": Israeli President Herzog urges party leaders ahead of coalition talks - The Tribune",
-          "url": "https://www.tribuneindia.com/news/world/arrive-with-an-open-mind-israeli-president-herzog-urges-party-leaders-ahead-of-coalition-talks"
-        },
-        {
-          "title": "Israel's President Isaac Herzog urges 'open mind' as Netanyahu and opponents struggle for majority - ABC News",
-          "url": "https://www.abc.net.au/news/2026-10-29/herzog-netanyahu-israel-election/107321418"
-        },
-        {
-          "title": "Israel Election Deadlock: President Herzog Calls for Unity Amid Coalition Struggles",
-          "url": "https://openthemagazine.com/world/israel-election-deadlock-president-herzog-urges-open-mind-as-netanyahu-and-opposition-struggle-for-majority"
-        },
-        {
-          "title": "Herzog to Begin Israel Coalition Talks",
-          "url": "https://www.riotimesonline.com/herzog-israel-coalition-talks-next-week"
-        },
-        {
-          "title": "Israel’s election outcome will take time to become clear",
-          "url": "https://www.cnn.com/2026/10/27/middleeast/israel-elections-outcome-analysis-hnk-intl"
-        },
-        {
-          "title": "Israel has voted",
-          "url": "https://theconversation.com/israel-has-voted-but-the-results-will-be-messy-heres-how-its-next-government-will-be-formed-295164"
-        },
-        {
-          "title": "TRT World - Live updates: 2026 Israel election",
-          "url": "https://www.trtworld.com/live/6ae0328c3a9318f4d0df7f55"
-        },
-        {
-          "title": "Netanyahu lacks majority as Arab parties become potential kingmakers - World Today Journal",
-          "url": "https://world-today-journal.com/netanyahu-lacks-majority-as-arab-parties-become-potential-kingmakers/"
-        },
-        {
-          "title": "download text",
-          "url": "https://digital.bentley.umich.edu/djnews/djn.1984.08.03.001/18/download_text"
-        }
-      ]
-    },
-    {
-      "query": "Gaza news October 29 2026",
-      "results": [
-        {
-          "title": "Gaza Strip news - Today’s latest updates - CBS News",
-          "url": "https://www.cbsnews.com/tag/gaza-strip/"
-        },
-        {
-          "title": "Gaza Daily",
-          "url": "https://en.wikipedia.org/wiki/Gaza_Daily"
-        },
-        {
-          "title": "situation in Gaza - UN News",
-          "url": "https://news.un.org/en/tags/gaza"
-        },
-        {
-          "title": "Gaza Now",
-          "url": "https://en.wikipedia.org/wiki/Gaza_Now"
-        },
-        {
-          "title": "Mustafa Moien Ayyash",
-          "url": "https://en.wikipedia.org/wiki/Mustafa_Moien_Ayyash"
-        },
-        {
-          "title": "Gaza",
-          "url": "https://www.aljazeera.com/tag/gaza/"
-        },
-        {
-          "title": "Gaza Weekly Newspaper",
-          "url": "https://en.wikipedia.org/wiki/Gaza_Weekly_Newspaper"
-        },
-        {
-          "title": "Palestine and Israel news today on map - Jerusalem today - Israel News today - Palestine News today - israelpalestine.liveuamap.com",
-          "url": "https://israelpalestine.liveuamap.com/"
-        },
-        {
-          "title": "Israeli forces kill at least five people in Gaza, including 7-year-old girl",
-          "url": "https://www.aljazeera.com/news/2026/10/26/israeli-forces-kill-at-least-five-people-in-gaza-including-7-year-old-girl"
-        }
-      ]
-    },
-    {
-      "query": "Europe news October 29 2026 EU",
-      "results": [
-        {
-          "title": "News 29 October 2026 - Archive Euronews",
-          "url": "https://www.euronews.com/2026/10/29"
-        },
-        {
-          "title": "Latest News: Today's Top Headlines & Live Updates",
-          "url": "https://www.euronews.com/just-in"
-        },
-        {
-          "title": "Video. Latest news bulletin",
-          "url": "https://www.euronews.com/video/2026/10/29/latest-news-bulletin-october-29th-2026-morning"
-        },
-        {
-          "title": "EU Agenda: Week Ahead - 25-30 October 2026 - EUbusiness.com",
-          "url": "https://www.eubusiness.com/politics/eucalendar/"
-        },
-        {
-          "title": "Europe Intelligence Brief — Wednesday, October 28, 2026",
-          "url": "https://riotimesonline.com/europe-intelligence-brief-wednesday-october-28-2026"
-        },
-        {
-          "title": "10 Things Global News - 29th October 2026",
-          "url": "https://www.10things.news/p/10-things-global-news-29th-october-e6a"
-        },
-        {
-          "title": "press releases el",
-          "url": "https://european-union.europa.eu/news-and-events/press-releases_el?page=87"
-        },
-        {
-          "title": "press releases pt",
-          "url": "https://european-union.europa.eu/news-and-events/press-releases_pt?page=63"
-        },
-        {
-          "title": "press releases fr",
-          "url": "https://european-union.europa.eu/news-and-events/press-releases_fr?page=37"
-        }
-      ]
-    },
-    {
-      "query": "China news October 29 2026",
-      "results": [
-        {
-          "title": "China Today (TV program)",
-          "url": "https://en.wikipedia.org/wiki/China_Today_(TV_program)"
-        },
-        {
-          "title": "Today Daily News (Toronto)",
-          "url": "https://en.wikipedia.org/wiki/Today_Daily_News_(Toronto)"
-        },
-        {
-          "title": "China News: Latest on President Xi Jinping, China's Tech Advances and More",
-          "url": "https://www.nbcnews.com/news/china"
-        },
-        {
-          "title": "China news - breaking news, video, headlines and opinion",
-          "url": "https://www.cnn.com/world/china"
-        },
-        {
-          "title": "China Breaking News & Headlines",
-          "url": "https://www.scmp.com/news/china"
-        },
-        {
-          "title": "China Daily Website - Connecting China Connecting the World",
-          "url": "https://www.chinadaily.com.cn/"
-        },
-        {
-          "title": "China News",
-          "url": "https://www.newsnow.com/us/World/Asia/China"
-        },
-        {
-          "title": "China News Service Website - Headlines, stories, photos and videos",
-          "url": "https://www.ecns.cn/"
-        },
-        {
-          "title": "China News",
-          "url": "https://jinpeili.substack.com/p/cctv-follies-312-back-to-business"
-        }
-      ]
-    },
-    {
-      "query": "Latin America news October 28 2026 Brazil Lula markets",
-      "results": [
-        {
-          "title": "Brazil stocks, real tumble as Lula win shifts investor focus",
-          "url": "https://finance.yahoo.com/news/investors-expect-markets-unwind-brazils-040903760.html"
-        },
-        {
-          "title": "Brazil Markets Plunge After Lula Win as Investors Reassess Risks - Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-28/investors-jolted-by-lula-win-search-for-bottom-after-brazil-rout"
-        },
-        {
-          "title": "Lula wins Brazil runoff after prediction markets favored Bolsonaro",
-          "url": "https://www.cnbc.com/2026/10/26/lula-brazil-election-prediction-markets.html"
-        },
-        {
-          "title": "Brazilian Stocks Tumble as Lula Wins Surprise Fourth Term: Nu Holdings Sinks 25%, Petrobras Tumbles 21%, MercadoLibre Drops 15%",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/brazilian-stocks-tumble-lula-wins-132206701.html"
-        },
-        {
-          "title": "Brazil election 2026: Lula wins historic fourth term",
-          "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html"
-        },
-        {
-          "title": "Brazilian stocks plunge after Lula's surprising election victory",
-          "url": "https://finance.yahoo.com/markets/article/brazilian-stocks-plunge-after-lulas-surprising-election-victory-114325508.html"
-        },
-        {
-          "title": "www.malaymail.com",
-          "url": "https://www.malaymail.com/amp/news/money/2023/01/03/brazil-markets-tumble-on-lulas-first-full-day-in-office/48135"
-        },
-        {
-          "title": "www.malaymail.com",
-          "url": "https://www.malaymail.com/news/money/2022/11/12/lulas-market-lure-fades-after-brazils-liz-truss-moment/39084"
-        },
-        {
-          "title": "Brazil - Lula vs market expectations",
-          "url": "https://boz.substack.com/p/brazil-lula-vs-market-expectations"
-        }
-      ]
-    },
-    {
-      "query": "Spain high-speed train collision Toledo dead Sánchez",
-      "results": [
-        {
-          "title": "Spain train crash kills at least 68 as witnesses describe devastating scenes",
-          "url": "https://www.cnn.com/2026/10/28/world/live-news/spain-train-crash-collision-intl"
-        },
-        {
-          "title": "High-speed train crash in Spain leaves at least 68 dead, dozens injured, officials say - CBS News",
-          "url": "https://www.cbsnews.com/news/spain-train-crash-toledo-urda/"
-        },
-        {
-          "title": "At Least 64 Dead As Two High-Speed Rail Trains Collide in Spain - Newsweek",
-          "url": "https://www.newsweek.com/spain-high-speed-rail-accident-toledo-12627833"
-        },
-        {
-          "title": "At least 68 people dead in high-speed Spain train crash",
-          "url": "https://www.cnbc.com/2026/10/28/spain-high-speed-train-crash.html"
-        },
-        {
-          "title": "Video. Spain: First footage reveals wreckage of deadly high-speed train crash",
-          "url": "https://www.euronews.com/video/2026/10/28/spain-first-footage-reveals-wreckage-of-deadly-high-speed-train-crash"
-        },
-        {
-          "title": "Dozens dead in Spain after high-speed train slams into another stopped on tracks",
-          "url": "https://www.pbs.org/newshour/world/dozens-dead-in-spain-after-high-speed-train-slams-into-another-stopped-on-tracks"
-        },
-        {
-          "title": "At least 40 die in high-speed train crash in Spain",
-          "url": "https://www.yahoo.com/news/articles/least-39-die-high-speed-165842913.html"
-        },
-        {
-          "title": "Al Jazeera",
-          "url": "https://www.aljazeera.com/amp/news/liveblog/2026/1/19/spain-train-crash-live-at-least-39-killed-in-high-speed-collision"
-        },
-        {
-          "title": "Death toll rises to 39 after high-speed train crash in Spain",
-          "url": "https://www.yahoo.com/news/articles/death-toll-rises-39-high-085832034.html"
-        }
-      ]
-    },
-    {
-      "query": "ECB rate decision October 29 2026 Lagarde",
-      "results": [
-        {
-          "title": "ECB Preview: October pause",
-          "url": "https://www.fxstreet.com/analysis/ecb-october-pause-mrr-in-focus-202610201244"
-        },
-        {
-          "title": "ECB is set to keep interest rates unchanged and hint at further monetary tightening ahead",
-          "url": "https://www.fxstreet.com/news/european-central-bank-is-expected-to-hold-interest-rates-despite-high-inflation-pressures-202610290800"
-        },
-        {
-          "title": "ECB Meeting October 2026: Dates and Hike Probability",
-          "url": "https://admiralmarkets.com/analytics/traders-blog/ecb-meeting-october-2026"
-        },
-        {
-          "title": "ECB Seen Holding Rates Amid French Bond Market Stress, With Another Hike Possible in December",
-          "url": "https://en.bloomingbit.io/feed/news/123173"
-        },
-        {
-          "title": "Next ECB Rate Decision: October 29, 2026 (2:15pm CET)",
-          "url": "https://www.financecalendar.com/ecb-rate-decisions/"
-        },
-        {
-          "title": "ECB Rate Decision Preview: Pause Now, Hike in December?",
-          "url": "https://tiomarkets.com/article/ecb-rate-decision-october-2026-preview"
-        },
-        {
-          "title": "ECB Rate Decision October 2026: Date, Time & What to Expect",
-          "url": "https://www.financecalendar.com/event/ecb-rate-decision-october-2026/"
-        },
-        {
-          "title": "ECB Interest Rate Decision October 2026: Date, Time",
-          "url": "https://fxnx.com/en/blog/when-next-ecb-decision-29-october-why-euro-fell"
+          "title": "www.euronews.com",
+          "url": "https://www.euronews.com/tag/ecb"
         },
         {
           "title": "christine lagarde",
@@ -1265,55 +460,772 @@
       ]
     },
     {
-      "query": "EU Canada summit Montreal Carney October 2026",
+      "query": "stock market close Thursday October 29 2026 Dow S&P Nasdaq Alphabet",
       "results": [
         {
-          "title": "Canada-EU summit to kick off formal talks with Europe on closer ties: Carney",
-          "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/27/canada-eu-summit-to-kick-off-formal-talks-with-europe-on-closer-ties-carney/"
+          "title": "Closing Look — Thursday, October 29, 2026",
+          "url": "https://cappnotes.substack.com/p/closing-look-thursday-october-29"
         },
         {
-          "title": "President Costa travels to Montreal for the EU-Canada Summit - Consilium",
-          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/27/president-costa-travels-to-montreal-for-the-eu-canada-summit/"
+          "title": "Markets News, Oct. 29, 2026: Nasdaq Leads Indexes Lower as Alphabet Stock Drops; Caterpillar Weighs on Dow",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-futures-104943461.html"
         },
         {
-          "title": "Canada-EU summit seeks deepened alliance as US ties fray",
-          "url": "https://uk.finance.yahoo.com/news/canada-eu-summit-seeks-deepened-070207071.html"
+          "title": "Stock Market Today (Oct. 29, 2026): S&P 500 falls after Alphabet and Microsoft issue divergent earnings",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-29-134623155.html"
         },
         {
-          "title": "Carney hosts EU leaders as Trump pushes Canada toward Europe, but membership label faces resistance - The Boston Globe",
-          "url": "https://www.bostonglobe.com/2026/10/29/world/canada-eu-summit/"
+          "title": "United States Stock Market Index - Quote - Chart - Historical Data - News",
+          "url": "https://tradingeconomics.com/united-states/stock-market"
         },
         {
-          "title": "Canada and European Union prepare to launch ambitious new strategic alliance at Montreal summit",
-          "url": "https://horizonweekly.ca/en/canada-and-european-union-prepare-to-launch-ambitious-new-strategic-alliance-at-montreal-summit/"
+          "title": "Stock Market News for Oct 29, 2026",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-oct-29-082000374.html"
         },
         {
-          "title": "Prime Minister Carney to host Canada-European Union Summit in Montréal to advance an ambitious new Canada-EU partnership",
-          "url": "https://www.newswire.ca/news-releases/prime-minister-carney-to-host-canada-european-union-summit-in-montreal-to-advance-an-ambitious-new-canada-eu-partnership-891155928.html"
+          "title": "Closing milestones of the Nasdaq Composite",
+          "url": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite"
         },
         {
-          "title": "List of international prime ministerial trips made by Mark Carney",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Mark_Carney"
+          "title": "How major US stock indexes fared Thursday 10/29/2026 - 96.5 KRMG",
+          "url": "https://krmg.com/2026/10/29/how-major-us-stock-indexes-fared-thursday-10-29-2026/"
         },
         {
-          "title": "European Political Community",
-          "url": "https://en.wikipedia.org/wiki/European_Political_Community"
+          "title": "Nasdaq falls as Alphabet set for record loss amid AI spending woes",
+          "url": "https://www.detroitnews.com/story/business/2026/10/29/nasdaq-slides-over-1-as-alphabet-results-revive-ai-spending-fears/92495558007/"
         },
         {
-          "title": "Carney to Host EU Leaders in Montreal on October 29–30",
-          "url": "https://www.thenortherncurrent.com/canada-eu-summit-montreal-october-29-30-2026"
+          "title": "Stock Market Today October 29, 2026: Nasdaq Falls as Alphabet Drops; Amazon and Intel Slide After Hours",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-29-2026"
+        }
+      ]
+    },
+    {
+      "query": "Amazon Apple Meta earnings October 29 2026 results shares",
+      "results": [
+        {
+          "title": "Amazon.com (AMZN) Q3 2026 Earnings Results & Report",
+          "url": "https://www.marketbeat.com/earnings/reports/2026-10-29-amazoncom-inc-stock/"
+        },
+        {
+          "title": "Stock Market Today: October 29, 2026",
+          "url": "https://pro.thestreet.com/stock-market-today/2026-10-29"
+        },
+        {
+          "title": "Dear Amazon Stock Fans, Mark Your Calendars for October 29",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/dear-amazon-stock-fans-mark-142710624.html"
+        },
+        {
+          "title": "Amazon (AMZN) Q3 earnings report 2026",
+          "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html"
+        },
+        {
+          "title": "Stock Market Today, Oct. 29: Amazon Falls on Q3 Earnings Report and Capex Concerns",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/10/29/stock-market-today-oct-29-amazon-falls-on-q3-earnings-report-and-capex-concerns/"
+        },
+        {
+          "title": "Amazon (AMZN) Earnings: Latest Report, Earnings Call & Financials",
+          "url": "https://public.com/stocks/amzn/earnings"
+        },
+        {
+          "title": "Amazon Slides 3% as Alphabet's 12% Plunge Raises Stakes for AWS Report; Meta Rises 3%, Microsoft Pulls Back - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/10/29/amazon-slides-3-as-alphabets-12-plunge-raises-stakes-for-aws-report-meta-rises-3-microsoft-pulls-back/"
+        },
+        {
+          "title": "Live: Will Amazon Crush Q3 Earnings Tonight After the Bell? - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/10/29/live-will-amazon-crush-q3-earnings-tonight-after-the-bell/"
+        },
+        {
+          "title": "FinancialContent - Amazon (NASDAQ:AMZN) posts Q3 2026 sales in line with estimates but stock drops",
+          "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-29-amazon-nasdaqamzn-posts-q3-2026-sales-in-line-with-estimates-but-stock-drops"
+        }
+      ]
+    },
+    {
+      "query": "Bank of Japan decision October 30 2026",
+      "results": [
+        {
+          "title": "1 October 30, 2026 Bank of Japan",
+          "url": "https://www.boj.or.jp/en/mopo/outlook/gor2610a.pdf"
+        },
+        {
+          "title": "Bank of Japan Holds Rates Steady, Signals Possible December Rate Hike",
+          "url": "https://www.gurufocus.com/news/9158257/bank-of-japan-holds-rates-steady-signals-possible-december-rate-hike"
+        },
+        {
+          "title": "Japan Interest Rate Decision",
+          "url": "https://www.investing.com/economic-calendar/boj-interest-rate-decision-165"
+        },
+        {
+          "title": "What to Watch at the Bank of Japan's 30 October Meeting",
+          "url": "https://www.riotimesonline.com/bank-of-japan-rate-decision-october-2026"
+        },
+        {
+          "title": "Bank of Japan Maintains 1.25% Rate Amid Dissent, Eyes December Move",
+          "url": "https://www.kucoin.com/news/flash/bank-of-japan-maintains-1-25-rate-amid-dissent-eyes-december-move"
+        },
+        {
+          "title": "JPY/USD: BOJ Holds Benchmark Rate Steady as Expected After September Hike - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-30/boj-holds-benchmark-rate-steady-as-expected-after-september-hike"
+        },
+        {
+          "title": "Bank of Japan",
+          "url": "https://en.wikipedia.org/wiki/Bank_of_Japan"
+        },
+        {
+          "title": "BOJ Inflation Target Signal Supports Yen Gains, Strategists Say - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-30/boj-inflation-target-signal-supports-yen-gains-strategists-say"
+        },
+        {
+          "title": "Japan Interest Rate",
+          "url": "https://tradingeconomics.com/japan/interest-rate"
+        }
+      ]
+    },
+    {
+      "query": "Iran news October 29 2026 Trump Vance talks Hormuz",
+      "results": [
+        {
+          "title": "Vance details ongoing Iran talks, says US in ‘middle of the game’",
+          "url": "https://www.foxnews.com/live-news/iran-war-us-trump-strait-of-hormuz-08-08-2026"
+        },
+        {
+          "title": "Military choices for Iran are being readied for president as midterm elections loom: officials",
+          "url": "https://www.foxnews.com/live-news/us-iran-war-trump-military-options-strait-hormuz-10-29-26.amp"
+        },
+        {
+          "title": "Live Updates: Tankers strike mines in Strait of Hormuz, Iran says, as Hegseth fires top general",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-qatar-mediators-new-proposal-end-war/"
+        },
+        {
+          "title": "Vance contacted top Iran security official - US outlet",
+          "url": "https://www.rte.ie/news/middle-east/2026/1028/1597144-israel-iran/"
+        },
+        {
+          "title": "Military choices for Iran are being readied for president as midterm elections loom: officials",
+          "url": "https://www.foxnews.com/live-news/us-iran-war-trump-military-options-strait-hormuz-10-29-26"
+        },
+        {
+          "title": "Iran says it’s drafting response to Vance letter as war looms",
+          "url": "https://washingtontimes.com/news/2026/oct/29/iran-says-received-vance-letter-crafting-response"
+        },
+        {
+          "title": "What we know of Vance’s letter to Rezaei, as Trump warns Gulf to ‘prepare’",
+          "url": "https://aljazeera.com/news/2026/10/29/what-we-know-of-vances-letter-to-rezaei-as-trump-warns-gulf-to-prepare"
+        },
+        {
+          "title": "Trump touts ‘significant’ Iran ‘present’ linked to Strait of Hormuz as deal talks heat up",
+          "url": "https://www.foxnews.com/politics/trump-touts-significant-iran-present-linked-strait-hormuz-deal-talks-heat-up.amp"
+        },
+        {
+          "title": "Print Print    Close Close",
+          "url": "https://www.foxnews.com/politics/trump-touts-massive-iran-present-linked-strait-hormuz-deal-talks-heat-up.print"
+        },
+        {
+          "title": "U.S. and Iran discussing ceasefire for reopening strait, officials say",
+          "url": "https://www.axios.com/2026/04/01/trump-iran-ceasefire-president?stream=top"
+        }
+      ]
+    },
+    {
+      "query": "Israel election certified results Herzog consultations October 30 2026",
+      "results": [
+        {
+          "title": "Israel's election results are in: How a government is formed or new elections are triggered",
+          "url": "https://www.ynetnews.com/article/byqsqwzpmg"
+        },
+        {
+          "title": "Israel’s election outcome will take time to become clear",
+          "url": "https://www.cnn.com/2026/10/27/middleeast/israel-elections-outcome-analysis-hnk-intl"
+        },
+        {
+          "title": "Israel Election Deadlock: President Herzog Calls for Unity Amid Coalition Struggles",
+          "url": "https://openthemagazine.com/world/israel-election-deadlock-president-herzog-urges-open-mind-as-netanyahu-and-opposition-struggle-for-majority"
+        },
+        {
+          "title": "Israel’s final election results show neither Netanyahu nor rival can immediately form government",
+          "url": "https://www.nbcnews.com/world/israel/israels-final-election-results-show-neither-netanyahu-rival-can-immedi-rcna606290"
+        },
+        {
+          "title": "TRT World - Herzog urges Israeli parties to avert fresh election as neither bloc secures majority",
+          "url": "https://www.trtworld.com/article/6e8deb87fbe1"
+        },
+        {
+          "title": "Israel election reaches stalemate with most votes counted : NPR",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6019423/israel-election-results"
+        },
+        {
+          "title": "2015 Israeli legislative election",
+          "url": "https://en.wikipedia.org/wiki/2015_Israeli_legislative_election"
+        },
+        {
+          "title": "Articles from page 1: Previous page Next page",
+          "url": "https://trove.nla.gov.au/newspaper/issue/2676398"
+        },
+        {
+          "title": "Watch CBS News",
+          "url": "https://www.cbsnews.com/newyork/news/israeli-prime-minister-benjamin-netanyahu-declares-victory-in-tight-election"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Russia war news October 29 2026",
+      "results": [
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.co.uk/h/World+News/Europe/Eastern+Europe/Ukraine"
+        },
+        {
+          "title": "Russia-Ukraine war",
+          "url": "https://www.aljazeera.com/tag/ukraine-russia-crisis/"
+        },
+        {
+          "title": "The Kyiv Independent — News from Ukraine, Eastern Europe",
+          "url": "https://kyivindependent.com/"
+        },
+        {
+          "title": "War",
+          "url": "https://www.ukrinform.net/rubric-ato"
+        },
+        {
+          "title": "At least 14 people killed in Russian attack on Dnipro train station",
+          "url": "https://www.aljazeera.com/news/2026/10/29/russia-says-more-than-600-drones-launched-towards-moscow-overnight"
+        },
+        {
+          "title": "Russia-Ukraine war: List of key events, day 1,287",
+          "url": "https://www.aljazeera.com/news/2025/9/3/russia-ukraine-war-list-of-key-events-day-1287"
+        },
+        {
+          "title": "Russia-Ukraine war: List of key events, day 1,142",
+          "url": "https://www.aljazeera.com/news/2025/4/11/russia-ukraine-war-list-of-key-events-day-1142"
+        },
+        {
+          "title": "Russia-Ukraine war: List of key events – day 1,082",
+          "url": "https://www.aljazeera.com/news/2025/2/10/russia-ukraine-war-list-of-key-events-day-one-thousand-eighty-two"
+        },
+        {
+          "title": "Russia-Ukraine war: List of key events, day 1,323",
+          "url": "https://www.aljazeera.com/news/2025/10/9/russia-ukraine-war-list-of-key-events-day-1323"
+        }
+      ]
+    },
+    {
+      "query": "oil prices October 30 2026 Brent",
+      "results": [
+        {
+          "title": "Brent Crude Oil Futures Price Today - Investing.com",
+          "url": "https://www.investing.com/commodities/brent-oil"
+        },
+        {
+          "title": "Brent Crude $114.20: Vance Letter Meets GDP and PCE Day",
+          "url": "https://financefeeds.com/brent-crude-oil-price-114-20-thursday-vance-iran-letter-gdp-pce-day-bull-120-bear-108/"
+        },
+        {
+          "title": "Brent Crude Oil Price Chart and Latest News",
+          "url": "https://www.hl.co.uk/shares/trading-commodities/brent-crude-oil"
+        },
+        {
+          "title": "Crude Oil Prices Today",
+          "url": "https://oilprice.com/"
+        },
+        {
+          "title": "Oil Price Charts",
+          "url": "https://oilprice.com/oil-price-charts/"
+        },
+        {
+          "title": "Peace Talks Won’t Save Oil Buyers From $100-Plus Oil",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Peace-Talks-Wont-Save-Oil-Buyers-From-100-Plus-Oil.html"
+        },
+        {
+          "title": "Oil Prices Fall as Vance Moves to Restart Iran Peace Talks",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Vance-Moves-to-Restart-Iran-Peace-Talks.html"
+        },
+        {
+          "title": "oil prices rise as brent hits 75 wti nears 72",
+          "url": "https://newsonair.gov.in/oil-prices-rise-as-brent-hits-75-wti-nears-72"
+        },
+        {
+          "title": "crude oil prices rise brent at 67 73 wti at 63 68 per barrel",
+          "url": "https://www.newsonair.gov.in/crude-oil-prices-rise-brent-at-67-73-wti-at-63-68-per-barrel"
+        }
+      ]
+    },
+    {
+      "query": "US GDP third quarter 2026 advance estimate PCE inflation October 29",
+      "results": [
+        {
+          "title": "GDP (Advance Estimate), 3rd Quarter 2026",
+          "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+        },
+        {
+          "title": "EMBARGOED UNTIL RELEASE AT 8:30 a.m. EDT, Thursday, October 29, 2026 BEA 26–45",
+          "url": "https://www.bea.gov/sites/default/files/2026-10/gdp3q26-adv.pdf"
+        },
+        {
+          "title": "Gross Domestic Product",
+          "url": "https://www.bea.gov/data/gdp/gross-domestic-product"
+        },
+        {
+          "title": "Release Schedule",
+          "url": "https://www.bea.gov/news/schedule"
+        },
+        {
+          "title": "U.S. GDP grows 3.4% in third quarter of 2026",
+          "url": "https://www.lanereport.com/190312/2026/10/us-gdp-growth-third-quarter-2026/"
+        },
+        {
+          "title": "U.S. Q3 GDP and Core PCE Put a December Fed Rate Hike in Focus - Babypips.com",
+          "url": "https://www.babypips.com/news/headline-us-q3-gdp-core-pce-december-fed-rate-hike-focus-2026-10-30"
+        },
+        {
+          "title": "U.S. GDP Grows at 3.4% Annual Pace in Third Quarter 2026, Accelerating on Consumer Spending and Investment",
+          "url": "https://tradersagency.com/blog/us-gdp-grows-at-34percent-annual-pace-in-third-quarter-2026-accelerating-on-consumer-spending-and-investment"
+        },
+        {
+          "title": "GDP Report: US GDP Grew 3.4% in the Third Quarter as Price Increases Slowed",
+          "url": "https://www.stocktitan.net/articles/q3-2026-gdp-growth-advance-estimate"
+        },
+        {
+          "title": "gdp3q22 adv",
+          "url": "https://www.bea.gov/sites/default/files/2022-10/gdp3q22_adv.pdf"
+        }
+      ]
+    },
+    {
+      "query": "Iran Hormuz mines tankers claim October 30 2026",
+      "results": [
+        {
+          "title": "Iran claims 4 tankers hit mines in Strait of Hormuz",
+          "url": "https://www.yahoo.com/news/world/articles/qatari-mediators-hand-iran-proposal-102053733.html"
+        },
+        {
+          "title": "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms",
+          "url": "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html"
+        },
+        {
+          "title": "Iran claims tankers in Straight of Hormuz hit mines, US drone captured - WRTV",
+          "url": "https://www.wrtv.com/news/politics/iran-claims-tankers-in-straight-of-hormuz-hit-mines-us-drone-captured/"
+        },
+        {
+          "title": "Live Updates: Tankers strike mines in Strait of Hormuz, Iran says, as Hegseth fires top general",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-qatar-mediators-new-proposal-end-war/"
+        },
+        {
+          "title": "Middle East war: Iran claims tankers hit mines in Strait of Hormuz, UKMTO confirms strike off Oman; fired US general reportedly admitted Iran leaks",
+          "url": "https://gulfnews.com/world/mena/middle-east-war-iran-claims-tankers-hit-mines-in-strait-of-hormuz-ukmto-confirms-strike-off-oman-fired-us-general-reportedly-admitted-iran-leaks-1.500729137"
+        },
+        {
+          "title": "Iran says 3 tankers hit mines in Strait of Hormuz as US denies captured drone - WISH-TV",
+          "url": "https://www.wishtv.com/news/politics/iran-says-3-tankers-hit-mines-in-strait-of-hormuz-as-us-denies-captured-drone/"
+        },
+        {
+          "title": "Iran Says Four Tankers Struck Mines in Strait of Hormuz on Route U.S. Calls Mine-Free",
+          "url": "https://www.sofx.com/iran-says-four-tankers-struck-mines-in-strait-of-hormuz-on-route-u-s-calls-mine-free/"
+        },
+        {
+          "title": "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms - Jingletree",
+          "url": "https://jingletree.com/iran-claims-four-tankers-struck-mines-in-hormuz-as-strike-fears-grow-after-u-s-midterms-298102.html"
+        },
+        {
+          "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
+          "url": "https://www.euronews.com/2019/06/13/oil-tanker-catches-fire-after-leaving-uae-port"
+        }
+      ]
+    },
+    {
+      "query": "Spain train crash Urda death toll investigation October 29",
+      "results": [
+        {
+          "title": "Spain Train Crash Death Toll Rises to 69 as Rescuers Work to Identify Victims",
+          "url": "https://time.com/article/2026/10/29/spain-high-speed-train-crash-cause-inexplicable-human-error-transport/"
+        },
+        {
+          "title": "Death toll from Spain train crash revised to 69 as royals visit victims",
+          "url": "https://www.euronews.com/2026/10/29/death-toll-from-spain-train-crash-rises-to-74-as-royals-visit-victims"
+        },
+        {
+          "title": "'Inexplicable' order probed as cause of train crash that killed at least 69: Official - ABC News",
+          "url": "https://abcnews.com/International/10-killed-train-collision-high-speed-line-spain/story?id=137633323"
+        },
+        {
+          "title": "Death toll climbs to at least 69 as Spanish officials probe high-speed train crash - ABC News",
+          "url": "https://abcnews.com/International/death-toll-climbs-74-spanish-officials-probe-high/story?id=137671994"
+        },
+        {
+          "title": "Spain reckons with second deadly train crash of the year ahead of national election - The Boston Globe",
+          "url": "https://www.bostonglobe.com/2026/10/29/world/spain-train-crash/"
+        },
+        {
+          "title": "Spain high-speed train crash leaves dozens dead south of Madrid : NPR",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster"
+        },
+        {
+          "title": "Spain train crash: What happened in the 17 minutes before the collision?",
+          "url": "https://www.euronews.com/2026/10/29/spain-train-crash-what-happened-in-the-17-minutes-before-the-collision"
+        },
+        {
+          "title": "At least 68 people dead in high-speed Spain train crash",
+          "url": "https://www.cnbc.com/2026/10/28/spain-high-speed-train-crash.html"
+        },
+        {
+          "title": "Spain's train derailment death toll climbs to 40 as investigators search for answers",
+          "url": "https://www.yahoo.com/news/articles/spains-train-derailment-death-toll-031606010.html"
+        },
+        {
+          "title": "spain train accident death toll rises to 79 as witness says driver wanted to die",
+          "url": "https://www.foxnews.com/world/spain-train-accident-death-toll-rises-to-79-as-witness-says-driver-wanted-to-die"
+        }
+      ]
+    },
+    {
+      "query": "EU Canada summit outcome Alliance for the Future October 30 2026",
+      "results": [
+        {
+          "title": "EU to lay foundations for an “Alliance for the Future” with Ottawa at Montreal Summit",
+          "url": "https://agenceurope.eu/en/bulletin/article/13969/11/eu-to-lay-foundations-for-an-alliance-for-the-future-with-ottawa-at-montreal-summit"
+        },
+        {
+          "title": "EU-Canada summit - Consilium (europa.eu) - European Union",
+          "url": "https://www.consilium.europa.eu/en/meetings/international-summit/2026/10/29-30/"
+        },
+        {
+          "title": "Canada-EU summit: Mark Carney floats 'associate member' status",
+          "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/29/pm-carney-von-der-leyen-float-associate-member-status-at-canada-eu-summit-live-updates-here/"
+        },
+        {
+          "title": "Carney points to EU's strong belief in democracy as political winds shift for 2 largest members",
+          "url": "https://www.cbc.ca/news/politics/european-union-canada-associate-member-von-der-leyen-9.7401989"
+        },
+        {
+          "title": "Don’t stand so close to me: EU-Canada ties drow on U.S. friction, stall on European turf wars",
+          "url": "https://www.yerepouni-news.com/dont-stand-so-close-to-me-eu-canada-ties-drow-on-u-s-friction-stall-on-european-turf-wars/"
+        },
+        {
+          "title": "EU-Canada Summit, 23 June 2025",
+          "url": "https://www.eeas.europa.eu/delegations/canada/eu-canada-summit-23-june-2025-0_en"
+        },
+        {
+          "title": "data.consilium.europa.eu",
+          "url": "https://data.consilium.europa.eu/doc/document/ST-15918-2023-INIT/en/pdf"
+        },
+        {
+          "title": "eu canada summit press statement",
+          "url": "https://www.canada.ca/en/news/archive/2010/05/eu-canada-summit-press-statement.html"
+        },
+        {
+          "title": "EU-Canada Summit to make significant steps forward in key areas",
+          "url": "https://www.eeas.europa.eu/eeas/eu-canada-summit-make-significant-steps-forward-key-areas_en"
+        }
+      ]
+    },
+    {
+      "query": "Asian markets October 30 2026 Nikkei Kospi Hang Seng",
+      "results": [
+        {
+          "title": "Asia Stock Indices: Japan 225 (Nikkei), NIFTY 50 — TradingView",
+          "url": "https://www.tradingview.com/markets/indices/quotes-asia/"
+        },
+        {
+          "title": "Indices of the Asian markets",
+          "url": "https://in.tradingview.com/markets/indices/quotes-asia/"
+        },
+        {
+          "title": "Asian Financial Markets - Investing.com",
+          "url": "https://www.investing.com/markets/asia-pacific"
+        },
+        {
+          "title": "Asian Stock Markets Today: BSE SENSEX, Hang Seng and SSE Composite Rise While Nikkei 225 Falls to a Three-Month Low",
+          "url": "https://www.bbntimes.com/companies/asian-stock-markets-today-bse-sensex-hang-seng-and-sse-composite-rise-while-nikkei-225-falls-to-a-three-month-low"
+        },
+        {
+          "title": "FTSE 100 LIVE: Asian markets slide as AI sell-off hits",
+          "url": "https://www.themarketreporter.co.uk/a/015dca7e/ftse-100-live-asian-markets-slide-as-ai-sell-off-hits"
+        },
+        {
+          "title": "Asia Stock Markets Today: Nikkei, Hang Seng, Shanghai & KOSPI",
+          "url": "https://liveworldmarket.com/asia-stock-market-dashboard"
+        },
+        {
+          "title": "Asian Markets Mixed as AI Concerns Weigh on Stocks",
+          "url": "https://dailynewsen.com/news/asian-markets-ai-concerns"
+        },
+        {
+          "title": "asian stocks drop european markets mixed kospi 1 70 hang seng 1 20 nikkei 1",
+          "url": "https://newsonair.gov.in/asian-stocks-drop-european-markets-mixed-kospi-1-70-hang-seng-1-20-nikkei-1"
+        },
+        {
+          "title": "August 26, 2024 5:47 PM",
+          "url": "https://www.newsonair.gov.in/asian-markets-hang-seng-straits-times-rise-nikkei-kospi-fall"
+        }
+      ]
+    },
+    {
+      "query": "Africa news October 29 2026",
+      "results": [
+        {
+          "title": "Africa: All of Africa Today - October 29, 2026 - allAfrica.com",
+          "url": "https://allafrica.com/stories/202610290173.html"
+        },
+        {
+          "title": "Today in Africa — October 29, 2026: 27 Ugandans Recruited by Russia’s Army Presumed Dead, South African Police Ask Court to Halt Durban Marches",
+          "url": "https://www.okayafrica.com/today-in-africa-october-29-2026-27-ugandans-recruited-by-russias-army-presumed-dead-south-african-police-ask-court-to-halt-durban-marches/1441289"
+        },
+        {
+          "title": "Top Stories",
+          "url": "https://www.enca.com/"
+        },
+        {
+          "title": "2026 in Guinea",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Guinea"
+        },
+        {
+          "title": "World News in Brief: 5 children killed in Sudan, Haiti hunger emergency, Yemen war update",
+          "url": "https://news.un.org/en/story/2026/10/1168703"
+        },
+        {
+          "title": "Africa Intelligence Brief for Thursday, October 29, 2026",
+          "url": "https://www.riotimesonline.com/africa-intelligence-brief-thursday-october-29-2026"
+        },
+        {
+          "title": "World roundup: October 29 2026 - by Derek Davison",
+          "url": "https://foreignexchanges.news/p/world-roundup-october-29-2026"
+        },
+        {
+          "title": "2026 in the Central African Republic",
+          "url": "https://en.wikipedia.org/wiki/2026_in_the_Central_African_Republic"
+        },
+        {
+          "title": "2026 in Zambia",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Zambia"
+        }
+      ]
+    },
+    {
+      "query": "China news October 30 2026 Xi",
+      "results": [
+        {
+          "title": "Xi Jinping: Latest News and Updates",
+          "url": "https://www.scmp.com/topics/xi-jinping"
+        },
+        {
+          "title": "Xi Jinping News",
+          "url": "https://www.newsnow.co.uk/h/World+News/Asia/China/Xi+Jinping"
+        },
+        {
+          "title": "China Breaking News & Headlines",
+          "url": "https://www.scmp.com/news/china"
+        },
+        {
+          "title": "Xi Jinping",
+          "url": "https://www.aljazeera.com/tag/xi-jinping/"
+        },
+        {
+          "title": "China News",
+          "url": "https://jinpeili.substack.com/p/cctv-follies-424-as-far-as-the-eye"
+        },
+        {
+          "title": "m.imdb.com",
+          "url": "https://m.imdb.com/name/nm7010941"
+        },
+        {
+          "title": "China News",
+          "url": "https://jinpeili.substack.com/p/cctv-follies-413-china-spring-comes"
+        },
+        {
+          "title": "China Story",
+          "url": "https://jinpeili.substack.com/p/cctv-follies-717-xi-is-omnipotent"
+        },
+        {
+          "title": "China News",
+          "url": "https://jinpeili.substack.com/p/cctv-follies-1030-another-no-news"
+        },
+        {
+          "title": "China News",
+          "url": "https://jinpeili.substack.com/p/cctv-follies-925-china-without-the"
+        }
+      ]
+    },
+    {
+      "query": "midterms October 29 2026 Trump rally polls final week",
+      "results": [
+        {
+          "title": "What our final poll before Election Day says about midterms and Trump",
+          "url": "https://www.pbs.org/newshour/politics/poll-likely-voters-favor-democrats-as-trump-disapproval-drives-early-turnout"
+        },
+        {
+          "title": "Trump making final midterm sprint in red states where Republicans are in danger of losing seats",
+          "url": "https://www.cnn.com/2026/10/25/politics/live-news/midterm-election-congress"
+        },
+        {
+          "title": "Trump Cancels Kansas Rally as New Poll Shows Roger Marshall Trailing Adam Hamilton - Newsweek",
+          "url": "https://www.newsweek.com/trump-cancels-kansas-rally-as-new-poll-shows-republican-trailing-democrat-12637635"
+        },
+        {
+          "title": "US midterms: 4 days to go",
+          "url": "https://www.aljazeera.com/news/2026/10/30/us-midterms-4-days-to-go-what-the-polls-say-as-trump-cancels-two-rallies"
+        },
+        {
+          "title": "The 2026 midterms are just 5 days away. Which party has a better chance of winning? Here's what the latest polls say.",
+          "url": "https://www.yahoo.com/news/politics/article/the-2026-midterms-are-next-week-which-party-has-a-better-chance-of-winning-heres-what-the-latest-polls-say-155319308.html"
+        },
+        {
+          "title": "US midterms: Six days left",
+          "url": "https://www.aljazeera.com/news/2026/10/28/us-midterms-six-days-left-who-leads-in-the-polls-as-trump-obama-rally"
+        },
+        {
+          "title": "Democrats lead final polls as Trump cancels key midterm rallies - Newsy Today",
+          "url": "https://www.newsy-today.com/democrats-lead-final-polls-as-trump-cancels-key-midterm-rallies/"
+        },
+        {
+          "title": "Democrats Lead in Final Midterm Polls as Trump Swaps Two Rallies for Phone Calls",
+          "url": "https://qncnews.com/2026/10/30/democrats-lead-in-final-midterm-polls-as-trump-swaps-two-rallies-for-phone-calls/"
+        },
+        {
+          "title": "President Trump holds final midterm rally in Missouri",
+          "url": "https://www.cbsnews.com/amp/news/trump-cape-giradeau-missouri-josh-hawley-senate-race-rally-live-stream-today-2018-11-05"
+        }
+      ]
+    },
+    {
+      "query": "Sudan drone strike Darfur killed October 29 2026",
+      "results": [
+        {
+          "title": "Drone strike in Sudan’s Nyala kills at least 21, injures 40",
+          "url": "https://www.aljazeera.com/news/2026/10/27/drone-strike-kills-at-least-21-and-injures-40-in-sudans-nyala"
+        },
+        {
+          "title": "List of massacres in Sudan",
+          "url": "https://en.wikipedia.org/wiki/List_of_massacres_in_Sudan"
+        },
+        {
+          "title": "More than 100 people killed in Sudanese army drone attack on market says Sudanese rights group - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/10/27/sudan-power-outage-capital-drone/1d4f0d34-d237-11f1-9931-2a41b76fc976_story.html"
+        },
+        {
+          "title": "Drone strikes ‘kill 100+’ in South Darfur market as Sudan power stations targeted - Dabanga Radio TV Online",
+          "url": "https://www.dabangasudan.org/en/all-news/article/drone-strikes-kill-100-in-south-darfur-market-as-sudan-power-stations-targeted"
+        },
+        {
+          "title": "More than 100 people killed in Sudanese army drone attack on market, says Sudanese rights group",
+          "url": "https://www.nbcnews.com/world/africa/100-people-killed-sudanese-army-drone-attack-market-says-sudanese-righ-rcna606044"
+        },
+        {
+          "title": "Sudan: Drone strike in Darfur kills 102 people",
+          "url": "https://www.albawaba.net/news/sudan-drone-strike-darfur-kills-102-1640130"
+        },
+        {
+          "title": "Sudan market drone strike kills at least 36 as Darfur crisis deepens",
+          "url": "https://www.dailysabah.com/world/africa/sudan-market-drone-strike-kills-at-least-36-as-darfur-crisis-deepens/amp"
+        },
+        {
+          "title": "Africa Intelligence Brief — Thursday, October 29, 2026",
+          "url": "https://riotimesonline.com/africa-intelligence-brief-thursday-october-29-2026"
+        },
+        {
+          "title": "Sudan Market Drone Strike Kills at Least 36 People",
+          "url": "https://axadletimes.com/ax-eye-on-africa/ax-north-africa/sudan-market-drone-strike-kills-least-36-people.html5"
+        },
+        {
+          "title": "At least 102 killed in drone strike in Darfur — RMF24",
+          "url": "https://ua.news/en/dovkolo-svitu/u-darfuri-vnaslidok-udaru-drona-zaginuli-shchonaimenshe-102-liudini-rmf24"
+        }
+      ]
+    },
+    {
+      "query": "US sanctions Rwanda defence ministry M23 October 2026",
+      "results": [
+        {
+          "title": "US imposes sanctions on Rwandan defense ministry over involvement in eastern Congo conflict - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/10/28/congo-rwanda-m23-us/af4564ca-d2f7-11f1-9931-2a41b76fc976_story.html"
+        },
+        {
+          "title": "US sanctions Rwandan defence ministry over M23 ties",
+          "url": "https://www.freemalaysiatoday.com/category/world/2026/10/29/us-sanctions-rwandan-defence-ministry-over-m23-ties"
+        },
+        {
+          "title": "US imposes sanctions on Rwandan defense ministry over involvement in eastern Congo conflict - ABC News",
+          "url": "https://abcnews.com/International/wireStory/us-imposes-sanctions-rwandan-defense-ministry-involvement-eastern-137648751"
+        },
+        {
+          "title": "US Imposes Sanctions on Rwanda's Defense Ministry Over Congo Conflict",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-28/us-imposes-sanctions-on-rwandas-ministry-of-defense"
+        },
+        {
+          "title": "2026 in Rwanda",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Rwanda"
+        },
+        {
+          "title": "US Government Sanctions Rwanda's Defence Ministry, Gives Reason - Legit.ng",
+          "url": "https://www.legit.ng/world/1738389-us-government-sanctions-rwandas-defence-ministry-reason/"
+        },
+        {
+          "title": "US sanctions Rwanda’s defence ministry over alleged M23 links",
+          "url": "https://test.citizen.digital/article/us-sanctions-rwandas-defence-ministry-over-alleged-m23-links-n392941"
+        },
+        {
+          "title": "US sanctions on the Rwandan Ministry of Defense over the Congo war and the M23 movement",
+          "url": "https://www.voiceofemirates.com/en/politics/2026/10/29/us-sanctions-on-the-rwandan-ministry-of-defense-over-the-congo-war-and-the-m23-movement/"
+        },
+        {
+          "title": "Rwanda Regrets 'One-Sided' Us Sanctions",
+          "url": "https://allafrica.com/stories/202603030069.html"
+        }
+      ]
+    },
+    {
+      "query": "Russia-Africa summit declaration October 29 2026 Putin agreements",
+      "results": [
+        {
+          "title": "The Third Russia-Africa Summit Closed in Moscow With 22 African Leaders and 33 Agreements Scheduled.",
+          "url": "https://africacaribbeaninsights.substack.com/p/the-third-russia-africa-summit-closed"
+        },
+        {
+          "title": "Third Russia",
+          "url": "http://en.kremlin.ru/events/president/news/81113"
+        },
+        {
+          "title": "2023 Russia%E2%80%93Africa Summit",
+          "url": "https://en.wikipedia.org/wiki/2023_Russia%E2%80%93Africa_Summit"
+        },
+        {
+          "title": "Russia-Africa Summit: Putin Denounces Western 'Colonialism', Pledges Grain Export Push • 360 Mozambique",
+          "url": "https://360mozambique.com/world/africa/russia-africa-summit-putin-denounces-western-colonialism-pledges-grain-export-push/"
+        },
+        {
+          "title": "Putin calls Africa a 'natural ally' as Moscow courts leaders from nearly 50 nations",
+          "url": "https://fortune.com/2026/10/29/putin-russia-africa-summit-trade-military-un/"
+        },
+        {
+          "title": "Initiatives to deploy Russian digital services underway in Africa — Putin - Business & Economy - TASS",
+          "url": "https://tass.com/economy/2210103"
+        },
+        {
+          "title": "Putin spoke at a press conference following the Russia—Africa summit. The main thing",
+          "url": "https://en.iz.ru/en/2193186/2026-10-29/putin-spoke-press-conference-following-russia-africa-summit-main-thing"
+        },
+        {
+          "title": "Russia and Africa seal a major nuclear and agricultural pact",
+          "url": "https://www.democrata.es/en/international/russia-and-the-african-countries-agree-to-promote-civil-nuclear-energy-and-the-trade-of-fertilizers/"
+        },
+        {
+          "title": "russia 230723 sputnik01",
+          "url": "https://www.globalsecurity.org/wmd/library/news/russia/2023/07/russia-230723-sputnik01.htm"
+        },
+        {
+          "title": "russia 230728 kremlin04",
+          "url": "https://www.globalsecurity.org/wmd/library/news/russia/2023/07/russia-230728-kremlin04.htm"
         }
       ]
     }
   ],
   "fetched": [],
   "meta": {
-    "id": "2026-10-29",
-    "generated_at": "2026-10-29T10:25:23.114Z",
+    "id": "2026-10-30",
+    "generated_at": "2026-10-30T10:24:46.329Z",
     "model": "claude-opus-5-5",
     "via": "claude-code-routine",
-    "searches": 23,
-    "results_count": 209,
-    "cited_count": 37
+    "searches": 19,
+    "results_count": 174,
+    "cited_count": 47
   }
 }
