@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-10-31",
+      "date": "Saturday, October 31, 2026",
+      "edition": "OCTOBER ROUT",
+      "searches": 18,
+      "cited_count": 42,
+      "results_count": 164
+    },
+    {
       "id": "2026-10-30",
       "date": "Friday, October 30, 2026",
       "edition": "AI RECKONING",
