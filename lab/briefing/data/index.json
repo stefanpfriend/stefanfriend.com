@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-01",
+      "date": "Sunday, November 1, 2026",
+      "edition": "WAR OR TALKS",
+      "searches": 16,
+      "cited_count": 37,
+      "results_count": 145
+    },
+    {
       "id": "2026-10-31",
       "date": "Saturday, October 31, 2026",
       "edition": "OCTOBER ROUT",
