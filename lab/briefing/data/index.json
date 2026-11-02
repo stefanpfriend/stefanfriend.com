@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-02",
+      "date": "Monday, November 2, 2026",
+      "edition": "ELECTION EVE",
+      "searches": 16,
+      "cited_count": 42,
+      "results_count": 156
+    },
+    {
       "id": "2026-11-01",
       "date": "Sunday, November 1, 2026",
       "edition": "WAR OR TALKS",

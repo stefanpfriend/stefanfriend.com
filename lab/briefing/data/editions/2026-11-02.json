@@ -1,0 +1,1101 @@
+{
+  "date": "Monday, November 2, 2026",
+  "edition": "ELECTION EVE",
+  "tldr_label": "TL;DR — Americans vote tomorrow as Trump weighs Iran strikes after the midterms; Israel's president opens coalition talks this week",
+  "tldr_bullets": [
+    {
+      "label": "US",
+      "body": "Trump made his final rally stops in Iowa and Kansas, where Senate seats are close. A New York Times/Siena poll found Democrats ahead in all seven battleground states. [[TAG:info:vote Tuesday]]"
+    },
+    {
+      "label": "Iran",
+      "body": "Iranian negotiators left talks in Doha with a draft proposal circulating. Trump says the war will end 'one way or the other', and strikes after the midterms remain possible. [[TAG:danger:strikes possible]]"
+    },
+    {
+      "label": "Israel",
+      "body": "The election commission says the results stand despite Netanyahu's claim of a 'stolen' vote. Reports say the Arab parties will back Eisenkot when Herzog's consultations begin on Wednesday."
+    },
+    {
+      "label": "Ukraine",
+      "body": "The Oleshky truce has expired after evacuations, and Russian strikes left hundreds of thousands of homes without power."
+    },
+    {
+      "label": "Europe",
+      "body": "Poland's court standoff between Tusk and Nawrocki escalated. In Bulgaria, Iliana Iotova won the presidential runoff on a platform of talks with Russia."
+    },
+    {
+      "label": "Markets",
+      "body": "US futures rebounded after last week's tech sell-off. Apple and Palantir report after today's close, and Brent eased toward $111."
+    }
+  ],
+  "sections": [
+    {
+      "title": "America Votes",
+      "icon": "🇺🇸",
+      "summary": "Trump makes his final push in Iowa and Kansas as polls show Democrats ahead",
+      "paragraphs": [
+        {
+          "heading": "Final rallies",
+          "body": "Al Jazeera reported that Trump held rallies in Dubuque, Iowa, and Salina, Kansas, on Sunday to defend the Republican Senate majority. One poll it cited had Democrat Adam Hamilton leading Senator Roger Marshall 49% to 44% in Kansas. In Iowa, Democrat Josh Turek led Ashley Hinson 48% to 47%. Yahoo News said Trump pitched voters on the economy. [[TAG:warning:toss-ups]]"
+        },
+        {
+          "heading": "Final polls",
+          "body": "Newsweek reported that Democrats gained in the polls before Election Day. Al Jazeera, citing a New York Times/Siena poll, said Democrats lead in all seven battleground states. Senate control depends on close races in Michigan, Texas, Kansas, Iowa, North Carolina and Alaska. These are polls, not results. [[TAG:info:polls only]]"
+        }
+      ],
+      "sources": "Al Jazeera, Yahoo News, Newsweek",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump rallies in Iowa, Kansas to maintain Republican control of US Senate",
+          "url": "https://www.aljazeera.com/news/2026/11/1/trump-rallies-in-iowa-kansas-to-maintain-republican-control-of-us-senate"
+        },
+        {
+          "outlet": "Yahoo News",
+          "title": "Trump takes to Iowa to pitch midterms, economy",
+          "url": "https://www.yahoo.com/news/articles/trump-takes-iowa-pitch-midterms-002557543.html"
+        },
+        {
+          "outlet": "Newsweek",
+          "title": "Trump Makes Final Midterm Rally Push as Democrats Rise in Polls - Newsweek",
+          "url": "https://www.newsweek.com/trump-makes-final-midterm-rally-push-as-democrats-rise-in-polls-12647916"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "US midterms: 2 days to go",
+          "url": "https://www.aljazeera.com/news/2026/11/1/us-midterms-2-days-to-go-what-polls-say-as-trump-el-sayed-hit-the-trail"
+        }
+      ]
+    },
+    {
+      "title": "Iran After Doha",
+      "icon": "⚔️",
+      "summary": "Iranian negotiators leave Doha with a draft in circulation; Trump weighs strikes after Tuesday",
+      "paragraphs": [
+        {
+          "heading": "Talks",
+          "body": "The Jerusalem Post reported that Iran and Qatar held a third day of talks as fears of renewed US strikes grew. Arab News said Iranian negotiators then left Doha, but an official said the talks were not derailed and that a draft proposal is circulating. Tehran says a seven-step plan to reopen Hormuz and end the US naval blockade could be carried out faster under a deal. Reports differ on whether contacts are continuing. [[TAG:warning:status unclear]]"
+        },
+        {
+          "heading": "Strike threat",
+          "body": "CBS News reported that Trump said the war will be 'put away very soon, one way or the other'. The Media Line reported that Trump is weighing renewed strikes after the midterms. He has said he will not attack before Tuesday's vote but has not ruled out action afterward."
+        }
+      ],
+      "sources": "Jerusalem Post, Arab News, CBS News, The Media Line",
+      "citations": [
+        {
+          "outlet": "Jerusalem Post",
+          "title": "Iran, Qatar hold third day of talks as fears of renewed US strikes grow",
+          "url": "https://www.jpost.com/middle-east/iran-news/article-913466"
+        },
+        {
+          "outlet": "Arab News",
+          "title": "Iranian negotiators depart Doha, but talks with Qatar not derailed, says official",
+          "url": "https://www.arabnews.pk/middle-east/iranian-negotiators-depart-doha-but-talks-with-qatar-not-derailed-says-official-3005861"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Trump says war in Iran will be put away very soon \"one way or the other\"",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/"
+        },
+        {
+          "outlet": "The Media Line",
+          "title": "President Trump Weighs Renewed Iran Strikes After Midterms as Doha Talks Resume  - The Media Line",
+          "url": "https://themedialine.org/headlines/president-trump-weighs-renewed-iran-strikes-after-midterms-as-doha-talks-resume/"
+        }
+      ]
+    },
+    {
+      "title": "Israel's Mandate Race",
+      "icon": "🗳️",
+      "summary": "Officials say results stand; Arab parties reportedly back Eisenkot as Herzog's talks near",
+      "paragraphs": [
+        {
+          "heading": "Results stand",
+          "body": "Al Jazeera and PBS reported that Israeli officials say the results will stand despite Netanyahu's claim that the election was 'stolen'. PBS said the suspects in the related bribery case were released. NBC News reported that President Herzog urged parties to engage with an 'open heart' to avoid another election. His consultations are set to begin on Wednesday."
+        },
+        {
+          "heading": "Eisenkot's numbers",
+          "body": "News Beep reported that the Joint List and Ra'am are expected to recommend Eisenkot for prime minister. Combined with his own bloc, that would give him 67 recommendations. Eisenkot has previously ruled out a coalition that includes the Arab parties, so whether he could govern with their backing is unresolved. [[TAG:warning:unconfirmed]]"
+        },
+        {
+          "heading": "Somaliland",
+          "body": "Ynet and i24NEWS reported that Israel's first ambassador to Somaliland, Michael Lotem, presented his credentials in Hargeisa and laid a cornerstone for an embassy. allAfrica covered the move from the Somali side. Somalia has disputed Israel's recognition of Somaliland."
+        },
+        {
+          "heading": "Gaza",
+          "body": "Al Jazeera, citing hospital sources, reported that Israeli attacks killed at least eight Palestinians across Gaza on Sunday, including five police officers in al-Mawasi. The Israeli army said it targeted 'a terrorist'. Al Jazeera said more than 1,500 people have been killed since last October's ceasefire. [[TAG:danger:8 killed]]"
+        }
+      ],
+      "sources": "Al Jazeera, PBS NewsHour, NBC News, News Beep, Ynet, i24NEWS, allAfrica, Al Jazeera",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Israeli officials say results stand as Netanyahu claims election ‘stolen’",
+          "url": "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen"
+        },
+        {
+          "outlet": "PBS NewsHour",
+          "title": "Israeli officials say elections will stand after Netanyahu claimed Arabs stole vote",
+          "url": "https://www.pbs.org/newshour/world/israeli-officials-say-elections-wont-be-undermined-and-suspects-in-bribery-case-are-freed"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "Israel’s president says parties need to engage with ‘open heart’ to avoid fresh election",
+          "url": "https://www.nbcnews.com/world/israel/israel-president-open-heart-fresh-election-rcna606785"
+        },
+        {
+          "outlet": "News Beep",
+          "title": "Joint List, Ra'am to back Gadi Eisenkot for premiership as Isaac Herzog opens negotiations - News Beep",
+          "url": "https://www.newsbeep.com/793715/"
+        },
+        {
+          "outlet": "Ynet",
+          "title": "Israel's ambassador to Somaliland presents credentials: 'Another step in strengthening relations'",
+          "url": "https://www.ynetnews.com/article/havu8t19s"
+        },
+        {
+          "outlet": "i24NEWS",
+          "title": "Israeli ambassador presents credentials in Somaliland as embassy plans advance - i24NEWS",
+          "url": "https://www.i24news.tv/en/news/israel/diplomacy/artc-israeli-ambassador-presents-credentials-in-somaliland-as-embassy-plans-advance"
+        },
+        {
+          "outlet": "allAfrica",
+          "title": "Somalia: Israeli Ambassador Presents Credentials to Somaliland President As Ties Deepen - allAfrica.com",
+          "url": "https://allafrica.com/stories/202611020044.html"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "At least eight Palestinians killed in Israeli attacks across Gaza",
+          "url": "https://www.aljazeera.com/news/2026/11/1/at-least-eight-palestinians-killed-in-israeli-attacks-across-gaza"
+        }
+      ]
+    },
+    {
+      "title": "Ukraine",
+      "icon": "🇺🇦",
+      "summary": "Oleshky truce expires after evacuations as strikes hit power grids on both sides",
+      "paragraphs": [
+        {
+          "heading": "Truce ends",
+          "body": "NBC News and CBC reported that civilians evacuated from Oleshky during the local ceasefire reached Ukrainian territory by way of Russia and Belarus. Vatican News said Pope Leo welcomed the truce, which expired on November 1. Evacuation counts differ: some reports say hundreds left, and US statements cited nearly 800. Ukrainian officials said about 1,700 people remain. [[TAG:warning:counts differ]]"
+        },
+        {
+          "heading": "Strikes",
+          "body": "NBC News reported that Russian strikes cut power to hundreds of thousands of Ukrainian households despite Trump's push for an energy ceasefire. ABC News (Australia) reported that Russia opened a terrorism case over a Ukrainian strike on an industrial site in Nizhny Novgorod region."
+        }
+      ],
+      "sources": "NBC News, CBC, Vatican News, ABC News (Australia)",
+      "citations": [
+        {
+          "outlet": "NBC News",
+          "title": "Ukraine war: Oleshky civilians evacuate to Belarus under historic ceasefire",
+          "url": "https://www.nbcnews.com/world/ukraine/ukraine-war-oleshky-civilians-evacuate-belarus-historic-ceasefire-rcna606675"
+        },
+        {
+          "outlet": "CBC",
+          "title": "Civilians evacuated from Russian-occupied Oleshky arrive in Ukraine-held territory",
+          "url": "https://www.cbc.ca/news/world/evacuees-oleshky-belarus-ukraine-9.7404117"
+        },
+        {
+          "outlet": "Vatican News",
+          "title": "Ukrainian families reunited as Pope welcomes Oleshky humanitarian ceasefire - Vatican News",
+          "url": "https://www.vaticannews.va/en/world/news/2026-11/ukraine-russia-war-humanitarian-ceasefire-oleshky-evacuations.html"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "Russian strikes cut power to thousands in Ukraine, despite Trump’s energy ceasefire push",
+          "url": "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784"
+        },
+        {
+          "outlet": "ABC News (Australia)",
+          "title": "Russia opens terrorism case over Ukraine attack on industrial facility - ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-01/russia-opens-terrorism-case-over-ukraine-oil-refinery-attack/107334242"
+        }
+      ]
+    },
+    {
+      "title": "Europe",
+      "icon": "🇪🇺",
+      "summary": "Poland's court fight between Tusk and Nawrocki escalates; Bulgaria elects Iotova",
+      "paragraphs": [
+        {
+          "heading": "Poland",
+          "body": "CNN reported that a long-running dispute between pro-European Prime Minister Donald Tusk and pro-Trump President Karol Nawrocki over the Constitutional Tribunal escalated after the court's president was suspended and police blocked its entrance. Al Jazeera said Nawrocki held crisis talks, which Tusk's party boycotted. US News reported that Tusk vowed to support the tribunal's independence. [[TAG:warning:constitutional crisis]]"
+        },
+        {
+          "heading": "Bulgaria",
+          "body": "Reuters, via Internazionale, reported that near-final results show acting president Iliana Iotova won the presidential runoff. She becomes Bulgaria's first elected female president. Balkan Insight said she has pledged a reset with Russia. Euronews reported that her rival conceded. Official results are due in the coming days."
+        }
+      ],
+      "sources": "CNN, Al Jazeera, US News, Internazionale/Reuters, Balkan Insight, Euronews",
+      "citations": [
+        {
+          "outlet": "CNN",
+          "title": "Poland’s top court: Long-running spat between pro-Europe PM and pro-Trump president erupts",
+          "url": "https://www.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Polish president holds crisis talks in court standoff",
+          "url": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff"
+        },
+        {
+          "outlet": "US News",
+          "title": "Polish PM Tusk Vows Support for Tribunal Amid Court Crisis",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-31/polands-president-accuses-tusk-of-forced-takeover-of-countrys-top-court"
+        },
+        {
+          "outlet": "Internazionale/Reuters",
+          "title": "Bulgaria’s Iotova wins presidential runoff, near-final results show - Internazionale",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/02/bulgaria-s-iotova-wins-presidential-runoff-near-final-results-show"
+        },
+        {
+          "outlet": "Balkan Insight",
+          "title": "Bulgaria’s Presidential Election Winner Pledges Reset with Russia",
+          "url": "https://balkaninsight.com/2026/11/02/bulgarias-presidential-election-winner-pledges-reset-with-russia/bi/"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Initial results show Bulgaria's acting president Yotova wins runoff election",
+          "url": "https://www.euronews.com/2026/11/01/bulgarias-acting-president-yotova-leads-in-exit-polls-of-runoff-election"
+        }
+      ]
+    },
+    {
+      "title": "Africa and Asia",
+      "icon": "🌍",
+      "summary": "South Africa's local vote tests the ANC; Nigeria's suspected Ebola cases test negative",
+      "paragraphs": [
+        {
+          "heading": "South Africa",
+          "body": "The Washington Post reported that South Africans vote in local elections on Wednesday in what is seen as a tough test for the ruling ANC. Daily Maverick said polls differ, with some putting the ANC and the opposition DA both near 30% and Johannesburg as the key battleground. The electoral commission says polls open at 7 a.m. [[TAG:info:vote Wednesday]]"
+        },
+        {
+          "heading": "Ebola in Nigeria",
+          "body": "Voice of Nigeria reported that Nigeria's disease control agency said two suspected Ebola cases in Adamawa State tested negative after two rounds of tests. A case in the capital territory remains Nigeria's only confirmed infection. Tribune Online had earlier reported the two suspected cases in the north-east."
+        },
+        {
+          "heading": "China",
+          "body": "Digg, citing reports, said China's central bank planned a Monday meeting with regulators and major banks on supporting the stock market. Investinglive said a private manufacturing PMI was due after weak official data released on Saturday."
+        }
+      ],
+      "sources": "Washington Post, Daily Maverick, IEC, Voice of Nigeria, Tribune Online, Digg, Investinglive",
+      "citations": [
+        {
+          "outlet": "Washington Post",
+          "title": "South Africans to vote in key local elections seen as a tough test for ruling ANC - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/11/01/south-africa-local-elections-campaigns/5daceb0a-d659-11f1-930a-e08f8086f5ac_story.html"
+        },
+        {
+          "outlet": "Daily Maverick",
+          "title": "Ten critical questions as South Africa heads into high-stakes poll",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-01-ten-critical-questions-as-south-africa-heads-into-high-stakes-poll/"
+        },
+        {
+          "outlet": "IEC",
+          "title": "Local Government Elections 2026",
+          "url": "https://www.elections.org.za/content/About-Us/IEC-Events/Local-Government-Elections-2026/"
+        },
+        {
+          "outlet": "Voice of Nigeria",
+          "title": "Two Suspected Ebola Cases in Adamawa Negative - NCDC - Voice of Nigeria",
+          "url": "https://von.gov.ng/two-suspected-ebola-cases-in-adamawa-negative-ncdc/"
+        },
+        {
+          "outlet": "Tribune Online",
+          "title": "NCDC detects two additional suspected Ebola cases in North-East Nigeria - Tribune Online",
+          "url": "https://tribuneonlineng.com/ncdc-detects-two-additional-suspected-ebola-cases-in-north-east-nigeria/"
+        },
+        {
+          "outlet": "Digg",
+          "title": "China's central bank reportedly plans November 2 talks on stock-market support · Digg",
+          "url": "https://digg.com/world-business/ebe1swdd"
+        },
+        {
+          "outlet": "Investinglive",
+          "title": "Economic and event calendar in Asia Monday, November 2, 2026 - another China PMI",
+          "url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-monday-november-2-2026-another-china-pmi/"
+        }
+      ]
+    },
+    {
+      "title": "Markets Week Ahead",
+      "icon": "📈",
+      "summary": "Futures bounce after the tech rout; Apple and Palantir report as oil eases",
+      "paragraphs": [
+        {
+          "heading": "Futures and Asia",
+          "body": "CNBC reported that US stock futures rebounded ahead of a busy week of earnings, economic data and the midterms. Saxo and Kaohoon reported mixed trading in Asia, with figures varying by source. Brent fell more than 2% toward $111 a barrel, as reported by World Today News. [[TAG:success:futures up]]"
+        },
+        {
+          "heading": "Earnings",
+          "body": "TipRanks and EBC reported that Apple is expected to post revenue of about $113 billion, with gross margin the key figure to watch. It will be CEO John Ternus's first earnings call. TipRanks said expectations for Palantir are high after a strong run in its shares. Both report after Monday's close, Benzinga noted."
+        }
+      ],
+      "sources": "CNBC, Saxo, Kaohoon International, World Today News, TipRanks, EBC, Benzinga",
+      "citations": [
+        {
+          "outlet": "CNBC",
+          "title": "Stock futures rebound ahead of busy week of earnings, jobs data and the midterm elections: Live updates",
+          "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
+        },
+        {
+          "outlet": "Saxo",
+          "title": "Asia Market Quick Take",
+          "url": "https://www.home.saxo/en-gb/content/articles/macro/asia-market-quick-take-02-november-2026-02112026"
+        },
+        {
+          "outlet": "Kaohoon International",
+          "title": "Asia-Pacific Markets Trade Mixed as Investors Brace for Key Economic Data and US Midterm Elections",
+          "url": "https://www.kaohooninternational.com/markets/593658"
+        },
+        {
+          "outlet": "World Today News",
+          "title": "Apple Expectations Boost Asian Markets as Oil Prices Drop - World Today News",
+          "url": "https://world-today-news.com/apple-expectations-boost-asian-markets-as-oil-prices-drop"
+        },
+        {
+          "outlet": "TipRanks",
+          "title": "Apple Q4 Earnings Today: 4 Key Metrics That Could Drive the Stock - TipRanks.com",
+          "url": "https://www.tipranks.com/news/apple-q4-earnings-today-4-key-metrics-that-could-drive-the-stock"
+        },
+        {
+          "outlet": "EBC",
+          "title": "Apple Earnings Preview: Can $113B Revenue Offset a Margin Squeeze?",
+          "url": "https://www.ebc.com/forex/apple-q4-2026-earnings-preview-revenue-margins"
+        },
+        {
+          "outlet": "TipRanks",
+          "title": "Palantir Reports Q3 Earnings Today: Wall Street’s Last-Minute Verdict on PLTR Stock - TipRanks.com",
+          "url": "https://www.tipranks.com/news/palantir-reports-q3-earnings-today-wall-streets-last-minute-verdict-on-pltr-stock"
+        },
+        {
+          "outlet": "Benzinga",
+          "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise Ahead of Apple, Palantir Earnings: RYAAY, USLM, INO i - Benzinga",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62770209/stock-market-today-dow-jones-sp-500-futures-rise-ahead-of-apple-palantir-earnings-ryaay-uslm-ino-in-focus"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "query": "Iran news November 1 2026 Doha talks strikes",
+      "results": [
+        {
+          "title": "Iranian negotiators in Doha to continue truce talks",
+          "url": "https://www.newarab.com/news/iranian-negotiators-doha-continue-truce-talks?blockId=block_91947"
+        },
+        {
+          "title": "Iran, Qatar hold third day of talks as fears of renewed US strikes grow",
+          "url": "https://www.jpost.com/middle-east/iran-news/article-913466"
+        },
+        {
+          "title": "Trump says war in Iran will be put away very soon \"one way or the other\"",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/"
+        },
+        {
+          "title": "President Trump Weighs Renewed Iran Strikes After Midterms as Doha Talks Resume  - The Media Line",
+          "url": "https://themedialine.org/headlines/president-trump-weighs-renewed-iran-strikes-after-midterms-as-doha-talks-resume/"
+        },
+        {
+          "title": "Iranian negotiators depart Doha, but talks with Qatar not derailed, says official",
+          "url": "https://www.arabnews.pk/middle-east/iranian-negotiators-depart-doha-but-talks-with-qatar-not-derailed-says-official-3005861"
+        },
+        {
+          "title": "Live Updates: War returns to Iran with Israel, US strikes - DAWN.COM",
+          "url": "https://dawn.com/live/iran-israel-war"
+        },
+        {
+          "title": "Iran says Qatar-mediated talks are making progress; European bourses set for a firmer open - Newsquawk EU Market Open<!-- -->",
+          "url": "http://www.zerohedge.com/markets/iran-says-qatar-mediated-talks-are-making-progress-european-bourses-set-firmer-open"
+        },
+        {
+          "title": "Iranians have left Doha talks, draft proposal for US deal being circulated, official says - Iran War",
+          "url": "https://ph.headtopics.com/news/iranians-have-left-doha-talks-draft-proposal-for-us-deal-89452881"
+        },
+        {
+          "title": "Full Episode",
+          "url": "https://www.pbs.org/newshour/tag/doha"
+        }
+      ]
+    },
+    {
+      "query": "midterms eve November 2 2026 final polls Trump rallies Kansas Iowa",
+      "results": [
+        {
+          "title": "Trump Makes Final Midterm Rally Push as Democrats Rise in Polls - Newsweek",
+          "url": "https://www.newsweek.com/trump-makes-final-midterm-rally-push-as-democrats-rise-in-polls-12647916"
+        },
+        {
+          "title": "Trump rallies in Iowa, Kansas to maintain Republican control of US Senate",
+          "url": "https://www.aljazeera.com/news/2026/11/1/trump-rallies-in-iowa-kansas-to-maintain-republican-control-of-us-senate"
+        },
+        {
+          "title": "Trump Humiliated in Final Brutal Polls Before Election Day",
+          "url": "https://www.thedailybeast.com/trump-humiliated-in-final-brutal-polls-before-election-day"
+        },
+        {
+          "title": "US midterms: 2 days to go",
+          "url": "https://www.aljazeera.com/news/2026/11/1/us-midterms-2-days-to-go-what-polls-say-as-trump-el-sayed-hit-the-trail"
+        },
+        {
+          "title": "US midterms: 4 days to go",
+          "url": "https://www.aljazeera.com/news/2026/10/30/us-midterms-4-days-to-go-what-the-polls-say-as-trump-cancels-two-rallies"
+        },
+        {
+          "title": "Trump rallies in Iowa and Kansas in final push to save Republican midterm hopes",
+          "url": "https://streamlinefeed.co.ke/news/trump-rallies-in-iowa-and-kansas-in-final-push-to-save-republican-midterm-hopes"
+        },
+        {
+          "title": "trump rallies in kansas",
+          "url": "https://www.npr.org/2018/10/07/655345672/trump-rallies-in-kansas"
+        },
+        {
+          "title": "trump iowa 2026 midterm elections",
+          "url": "https://www.npr.org/2026/01/27/nx-s1-5688705/trump-iowa-2026-midterm-elections"
+        },
+        {
+          "title": "Trump takes to Iowa to pitch midterms, economy",
+          "url": "https://www.yahoo.com/news/articles/trump-takes-iowa-pitch-midterms-002557543.html"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Russia news November 1 2026",
+      "results": [
+        {
+          "title": "Ukraine News Today",
+          "url": "https://en.wikipedia.org/wiki/Ukraine_News_Today"
+        },
+        {
+          "title": "Get the Latest Ukraine News Today - Kyiv Post",
+          "url": "https://www.kyivpost.com/"
+        },
+        {
+          "title": "Ukraine Online",
+          "url": "https://en.wikipedia.org/wiki/Ukraine_Online"
+        },
+        {
+          "title": "Russia opens terrorism case over Ukraine attack on industrial facility - ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-01/russia-opens-terrorism-case-over-ukraine-oil-refinery-attack/107334242"
+        },
+        {
+          "title": "Russian strikes cut power to thousands in Ukraine, despite Trump’s energy ceasefire push",
+          "url": "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784"
+        },
+        {
+          "title": "Full Episode",
+          "url": "https://www.pbs.org/newshour/tag/ukraine/page/52"
+        },
+        {
+          "title": "www.pbs.org",
+          "url": "https://www.pbs.org/newshour/classroom/tag/russia?page=4"
+        },
+        {
+          "title": "Ukraine-Russia updates: Zelenskyy says ban on Russian oil could lead to peace",
+          "url": "https://www.foxnews.com/live-news/ukraine-russia-updates-zelenskyy-says-ban-on-russian-oil-could-lead-to-peace"
+        },
+        {
+          "title": "www.euronews.com",
+          "url": "https://www.euronews.com/index.php/tag/russia?p=102"
+        }
+      ]
+    },
+    {
+      "query": "stock futures week ahead November 2 2026 Asia markets Monday",
+      "results": [
+        {
+          "title": "Stock futures rebound ahead of busy week of earnings, jobs data and the midterm elections: Live updates",
+          "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
+        },
+        {
+          "title": "Asia Market Quick Take",
+          "url": "https://www.home.saxo/en-gb/content/articles/macro/asia-market-quick-take-02-november-2026-02112026"
+        },
+        {
+          "title": "Monday 2nd October 2026: U.S. Stock Futures Rise Ahead of Earnings, Jobs Data and Midterm Elections",
+          "url": "https://www.icmarkets.com.au/blog/monday-2nd-october-2026-u-s-stock-futures-rise-ahead-of-earnings-jobs-data-and-midterm-elections/"
+        },
+        {
+          "title": "Asia-Pacific Markets Trade Mixed as Investors Brace for Key Economic Data and US Midterm Elections",
+          "url": "https://www.kaohooninternational.com/markets/593658"
+        },
+        {
+          "title": "FTSE 100 faces lower open after Wall Street tech sell-off - Share Talk",
+          "url": "https://share-talk.com/ftse-100-faces-lower-open-after-wall-street-tech-sell-off"
+        },
+        {
+          "title": "Stock market outlook today, 2 Nov: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues — TradingView News",
+          "url": "https://www.tradingview.com/news/moodys:612eecaf79703:0-stock-market-outlook-today-2-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-cues/"
+        },
+        {
+          "title": "US Stock Futures Edge Higher Ahead of Earnings, Jobs and Midterm Elections",
+          "url": "https://www.archyde.com/us-stock-futures-edge-higher-ahead-of-earnings-jobs-and-midterm-elections/"
+        },
+        {
+          "title": "Stock futures rise early Monday after tech sell-off - Newsy Today",
+          "url": "https://www.newsy-today.com/stock-futures-rise-early-monday-after-tech-sell-off/"
+        },
+        {
+          "title": "Apple Expectations Boost Asian Markets as Oil Prices Drop - World Today News",
+          "url": "https://world-today-news.com/apple-expectations-boost-asian-markets-as-oil-prices-drop"
+        }
+      ]
+    },
+    {
+      "query": "Israel news November 1 2026 Herzog Eisenkot Netanyahu",
+      "results": [
+        {
+          "title": "Israel’s president says parties need to engage with ‘open heart’ to avoid fresh election",
+          "url": "https://www.nbcnews.com/world/israel/israel-president-open-heart-fresh-election-rcna606785"
+        },
+        {
+          "title": "Israeli officials say elections will stand after Netanyahu claimed Arabs stole vote",
+          "url": "https://www.pbs.org/newshour/world/israeli-officials-say-elections-wont-be-undermined-and-suspects-in-bribery-case-are-freed"
+        },
+        {
+          "title": "Thirty-seventh government of Israel",
+          "url": "https://en.wikipedia.org/wiki/Thirty-seventh_government_of_Israel"
+        },
+        {
+          "title": "Israeli officials say results stand as Netanyahu claims election ‘stolen’",
+          "url": "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen"
+        },
+        {
+          "title": "Israel Election 2026 live updates: Eisenkot, Netanyahu race to 61 Knesset seats - News Beep",
+          "url": "https://www.newsbeep.com/793771/"
+        },
+        {
+          "title": "Protester tells Eisenkot 'you murdered your son' outside his Herzliya home",
+          "url": "https://www.israel.com/news/protester-tells-eisenkot-you-murdered-your-son-outside-his-herzliya-home"
+        },
+        {
+          "title": "Joint List, Ra'am to back Gadi Eisenkot for premiership as Isaac Herzog opens negotiations - News Beep",
+          "url": "https://www.newsbeep.com/793715/"
+        },
+        {
+          "title": "the good the bad and the ugly",
+          "url": "https://larrystevenprice.substack.com/p/the-good-the-bad-and-the-ugly"
+        },
+        {
+          "title": "The Daily Telegraph - Saturday",
+          "url": "https://www.pressreader.com/uk/the-daily-telegraph-saturday/20240120/281943137745494"
+        },
+        {
+          "title": "israel elections meet isaac herzog who could defeat netanyahu n324191",
+          "url": "https://www.nbcnews.com/news/world/israel-elections-meet-isaac-herzog-who-could-defeat-netanyahu-n324191"
+        }
+      ]
+    },
+    {
+      "query": "Oleshky ceasefire ends November 1 2026 evacuations",
+      "results": [
+        {
+          "title": "Hundreds evacuate Ukrainian city of Oleshky under Melania Trump-brokered ceasefire",
+          "url": "https://www.cnn.com/2026/10/30/world/evacuations-oleshky-melania-trump-ceasefire-intl"
+        },
+        {
+          "title": "Residents evacuated from Russian-occupied Oleshky during U.S.-brokered ceasefire - CBS News",
+          "url": "https://www.cbsnews.com/news/residents-evacuated-oleshky-us-brokered-ceasefire/"
+        },
+        {
+          "title": "Residents evacuated from Russia-occupied Oleshky arrive back in Ukraine amid temporary U.S.-brokered ceasefire - CBS News",
+          "url": "https://www.cbsnews.com/news/residents-evacuated-oleshky-arrive-ukraine-temporary-us-brokered-ceasefire/"
+        },
+        {
+          "title": "Ukrainian families reunited as Pope welcomes Oleshky humanitarian ceasefire - Vatican News",
+          "url": "https://www.vaticannews.va/en/world/news/2026-11/ukraine-russia-war-humanitarian-ceasefire-oleshky-evacuations.html"
+        },
+        {
+          "title": "Ukraine war: Oleshky civilians evacuate to Belarus under historic ceasefire",
+          "url": "https://www.nbcnews.com/world/ukraine/ukraine-war-oleshky-civilians-evacuate-belarus-historic-ceasefire-rcna606675"
+        },
+        {
+          "title": "Civilians evacuated from Russian-occupied Oleshky arrive in Ukraine-held territory",
+          "url": "https://www.cbc.ca/news/world/evacuees-oleshky-belarus-ukraine-9.7404117"
+        },
+        {
+          "title": "Evacuees fleeing Oleshky reunite with family at the Ukrainian-Belarusian border",
+          "url": "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire"
+        },
+        {
+          "title": "Ukraine Evacuates Civilians as Kherson Ceasefire Concludes",
+          "url": "https://www.indianewsnetwork.com/en/ukraine-evacuates-civilians-kherson-ceasefire-concludes-20261102"
+        },
+        {
+          "title": "Localised Ceasefire Expires in Ukraine's Oleshky Following Successful Evacuation of 167 Civilians",
+          "url": "https://streamlinefeed.co.ke/news/oleshky-ceasefire-expires-ukraine-evacuates-civilians-kherson"
+        }
+      ]
+    },
+    {
+      "query": "Europe news November 1 2026",
+      "results": [
+        {
+          "title": "Latest News: Today's Top Headlines & Live Updates",
+          "url": "https://www.euronews.com/just-in"
+        },
+        {
+          "title": "Video. Latest news bulletin",
+          "url": "https://www.euronews.com/video/2026/11/02/latest-news-bulletin-november-2nd-2026-midday"
+        },
+        {
+          "title": "Video. Latest news bulletin",
+          "url": "https://www.euronews.com/video/2026/11/02/latest-news-bulletin-november-2nd-2026-morning"
+        },
+        {
+          "title": "Video. Latest news bulletin",
+          "url": "https://www.euronews.com/video/2026/11/01/latest-news-bulletin-november-1st-2026-evening"
+        },
+        {
+          "title": "Newsquawk Daily European Opening News - 2nd November 2026",
+          "url": "https://newsquawk.com/headlines/newsquawk-daily-european-opening-news---2nd-november-2026"
+        },
+        {
+          "title": "Europe News",
+          "url": "https://www.aljazeera.com/europe/"
+        },
+        {
+          "title": "Antitrust Press Round-Up Europe",
+          "url": "https://www.mlex.com/mlex/mergers-acquisitions/articles/2544927"
+        },
+        {
+          "title": "Monday Briefing from the Balkans: November 2, 2026",
+          "url": "https://balkaninsight.com/2026/11/02/monday-briefing-from-the-balkans-november-2-2026/bi"
+        },
+        {
+          "title": "euronews live",
+          "url": "https://www.euronews.com/tag/euronews-live?p=8"
+        },
+        {
+          "title": "www.euronews.com",
+          "url": "https://www.euronews.com/tag/news?p=16"
+        }
+      ]
+    },
+    {
+      "query": "Africa news November 1 2026",
+      "results": [
+        {
+          "title": "Africa News",
+          "url": "https://www.aljazeera.com/africa/"
+        },
+        {
+          "title": "Africanews",
+          "url": "https://www.africanews.com/"
+        },
+        {
+          "title": "Top Stories",
+          "url": "https://www.enca.com/"
+        },
+        {
+          "title": "News Africa",
+          "url": "https://www.enca.com/news"
+        },
+        {
+          "title": "2026 in the Central African Republic",
+          "url": "https://en.wikipedia.org/wiki/2026_in_the_Central_African_Republic"
+        },
+        {
+          "title": "2026 in Gabon",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Gabon"
+        },
+        {
+          "title": "2026 in Chad",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Chad"
+        },
+        {
+          "title": "Top Nigerian Newspaper Headlines For Today, Sunday, 1st November, 2026",
+          "url": "https://www.naijanews.com/2026/11/01/top-nigerian-newspaper-headlines-for-today-1st-november-2026/"
+        },
+        {
+          "title": "au.int",
+          "url": "https://au.int/sw/speeches/747"
+        }
+      ]
+    },
+    {
+      "query": "Poland Constitutional Tribunal crisis Tusk Nawrocki November 2026",
+      "results": [
+        {
+          "title": "Poland’s top court: Long-running spat between pro-Europe PM and pro-Trump president erupts",
+          "url": "https://www.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl"
+        },
+        {
+          "title": "Tensions over Poland’s top court ignite as the country’s prime minister and president square off",
+          "url": "https://www.cnn.com/2026/10/31/europe/poland-protests-president-nawrocki-latam-intl"
+        },
+        {
+          "title": "Polish PM Tusk Vows Support for Tribunal Amid Court Crisis",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-31/polands-president-accuses-tusk-of-forced-takeover-of-countrys-top-court"
+        },
+        {
+          "title": "Polish president holds crisis talks in court standoff",
+          "url": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff"
+        },
+        {
+          "title": "Poland protests intensify amid political dispute",
+          "url": "https://www.foxnews.com/world/polish-president-turns-plane-around-after-coup-at-nations-top-court"
+        },
+        {
+          "title": "Polish constitutional crisis",
+          "url": "https://en.wikipedia.org/wiki/Polish_constitutional_crisis"
+        },
+        {
+          "title": "Polish Constitutional Tribunal crisis (2015 %E2%80%93 ongoing)",
+          "url": "https://en.wikipedia.org/wiki/Polish_Constitutional_Tribunal_crisis_(2015_%E2%80%93_ongoing)"
+        },
+        {
+          "title": "Poland’s Constitutional Tribunal Blocks Judicial Reform Bill",
+          "url": "https://ladd.law.wisc.edu/2025/11/20/polands-constitutional-tribunal-blocks-judicial-reform-bill/"
+        },
+        {
+          "title": "eus tusk urges poland to solve its constitutional crisis",
+          "url": "https://www.foxnews.com/world/eus-tusk-urges-poland-to-solve-its-constitutional-crisis"
+        },
+        {
+          "title": "The Rule of Law Strikes Back: Tusk and Bodnar Called to Testify in Coup Case",
+          "url": "https://rockrachon.substack.com/p/the-rule-of-law-strikes-back-tusk"
+        }
+      ]
+    },
+    {
+      "query": "Bulgaria presidential election runoff results Iotova November 2026",
+      "results": [
+        {
+          "title": "Bulgaria’s Iotova wins presidential runoff, near-final results show - Internazionale",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/02/bulgaria-s-iotova-wins-presidential-runoff-near-final-results-show"
+        },
+        {
+          "title": "Bulgaria’s Presidential Election Winner Pledges Reset with Russia",
+          "url": "https://balkaninsight.com/2026/11/02/bulgarias-presidential-election-winner-pledges-reset-with-russia/bi/"
+        },
+        {
+          "title": "Initial results indicate victory for Iotova in Bulgarian presidential vote",
+          "url": "https://www.aljazeera.com/news/2026/11/1/bulgarian-president-yotova-leads-runoff-exit-polls-show"
+        },
+        {
+          "title": "Initial results show Bulgaria's acting president Yotova wins runoff election",
+          "url": "https://www.euronews.com/2026/11/01/bulgarias-acting-president-yotova-leads-in-exit-polls-of-runoff-election"
+        },
+        {
+          "title": "2026 Bulgarian presidential election",
+          "url": "https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election"
+        },
+        {
+          "title": "President of Bulgaria",
+          "url": "https://en.wikipedia.org/wiki/President_of_Bulgaria"
+        },
+        {
+          "title": "2016 Bulgarian presidential election",
+          "url": "https://en.wikipedia.org/wiki/2016_Bulgarian_presidential_election"
+        },
+        {
+          "title": "2021 Bulgarian general election",
+          "url": "https://en.wikipedia.org/wiki/2021_Bulgarian_general_election"
+        },
+        {
+          "title": "Iotova wins Bulgaria's presidential runoff, parallel counts show - The Insight International",
+          "url": "https://theinsightinternational.com/bulgaria-iotova-wins-presidential-runoff-parallel-counts-november-1/"
+        }
+      ]
+    },
+    {
+      "query": "Israel ambassador Somaliland credentials Hargeisa Somalia",
+      "results": [
+        {
+          "title": "Somalia: Israeli Ambassador Presents Credentials to Somaliland President As Ties Deepen - allAfrica.com",
+          "url": "https://allafrica.com/stories/202611020044.html"
+        },
+        {
+          "title": "Israel's ambassador to Somaliland presents credentials: 'Another step in strengthening relations'",
+          "url": "https://www.ynetnews.com/article/havu8t19s"
+        },
+        {
+          "title": "Historic first: Israeli ambassador presents credentials in Somaliland",
+          "url": "https://www.israelnationalnews.com/news/435506"
+        },
+        {
+          "title": "Israel Lays Cornerstone for Somaliland Embassy as Ambassador Presents Credentials  - The Media Line",
+          "url": "https://themedialine.org/headlines/israel-lays-cornerstone-for-somaliland-embassy-as-ambassador-presents-credentials/"
+        },
+        {
+          "title": "Israeli ambassador presents credentials in Somaliland as embassy plans advance - i24NEWS",
+          "url": "https://www.i24news.tv/en/news/israel/diplomacy/artc-israeli-ambassador-presents-credentials-in-somaliland-as-embassy-plans-advance"
+        },
+        {
+          "title": "Mohamed Omar Hagi Mohamoud",
+          "url": "https://en.wikipedia.org/wiki/Mohamed_Omar_Hagi_Mohamoud"
+        },
+        {
+          "title": "Somaliland President Receives Credentials of Israeli Ambassador Michael Lotem",
+          "url": "https://www.dawan.africa/news/somaliland-president-receives-credentials-of-israeli-ambassador-michael-lotem"
+        },
+        {
+          "title": "Israel%E2%80%93Somaliland relations",
+          "url": "https://en.wikipedia.org/wiki/Israel%E2%80%93Somaliland_relations"
+        },
+        {
+          "title": "Somaliland:Israel Presents Credentials to Somaliland and Begins Building Its New Embassy in Hargeisa",
+          "url": "https://somalilandsun.com/somalilandisrael-presents-credentials-to-somaliland-and-begins-building-its-new-embassy-in-hargeisa/"
+        }
+      ]
+    },
+    {
+      "query": "Apple earnings November 2 2026 preview Palantir",
+      "results": [
+        {
+          "title": "Apple's Q4 Earnings Preview: AAPL Faces Mixed Analyst Sentiment",
+          "url": "https://www.gurufocus.com/news/9161499/apples-q4-earnings-preview-aapl-faces-mixed-analyst-sentiment"
+        },
+        {
+          "title": "Apple Q4 Earnings Today: 4 Key Metrics That Could Drive the Stock - TipRanks.com",
+          "url": "https://www.tipranks.com/news/apple-q4-earnings-today-4-key-metrics-that-could-drive-the-stock"
+        },
+        {
+          "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise Ahead of Apple, Palantir Earnings: RYAAY, USLM, INO i - Benzinga",
+          "url": "https://benzinga.com/markets/equities/26/11/62770209/stock-market-today-dow-jones-sp-500-futures-rise-ahead-of-apple-palantir-earnings-ryaay-uslm-ino-in-focus"
+        },
+        {
+          "title": "Markets hope for relief in Apple margins - AAPL News",
+          "url": "https://rallies.ai/news/markets-hope-for-relief-in-apple-margins-a674ff5850dfc836"
+        },
+        {
+          "title": "The Week Ahead: Apple Earnings, US Jobs Report, ISM PMI Reports",
+          "url": "https://www.cmcmarkets.com/en-au/market-news/the-week-ahead-apple-earnings-us-jobs-report-ism-pmi-reports"
+        },
+        {
+          "title": "Apple Earnings Preview: Can $113B Revenue Offset a Margin Squeeze?",
+          "url": "https://www.ebc.com/forex/apple-q4-2026-earnings-preview-revenue-margins"
+        },
+        {
+          "title": "Apple Earnings Preview: Can iPhone Offset Memory Cost Pressures? Wall Street's Highest Target Hits $400",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262263496-apple-earnings-preview-iphone-memory-costs-aapl-tradingkey"
+        },
+        {
+          "title": "Apple (AAPL) Stock: What Wall Street Expects from Earnings Today - CoinCentral",
+          "url": "https://coincentral.com/apple-aapl-stock-what-wall-street-expects-from-earnings-today"
+        },
+        {
+          "title": "Apple Q4 Earnings Preview: iPhone 18 Sales and Strong Tech Outperformance",
+          "url": "https://ca.headtopics.com/news/apple-q4-earnings-preview-iphone-18-sales-and-strong-tech-89436507"
+        },
+        {
+          "title": "Palantir Earnings Preview: The Once-in-a-Generation Software Name Is Projected to Double Net Profit",
+          "url": "https://www.moomoo.com/community/feed/palantir-earnings-preview-the-once-in-a-generation-software-name-117544835153926"
+        },
+        {
+          "title": "Palantir Reports Q3 Earnings Today: Wall Street’s Last-Minute Verdict on PLTR Stock - TipRanks.com",
+          "url": "https://www.tipranks.com/news/palantir-reports-q3-earnings-today-wall-streets-last-minute-verdict-on-pltr-stock"
+        },
+        {
+          "title": "Palantir (PLTR) Q3 Earnings Preview: Can AI Growth Match Last Quarter’s 93% Surge? - TipRanks.com",
+          "url": "https://www.tipranks.com/news/palantir-pltr-q3-earnings-preview-can-ai-growth-match-last-quarters-93-surge"
+        },
+        {
+          "title": "Palantir Technologies Inc. - Form 8-K - FY2021",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312521323727/d51038dex991.htm"
+        },
+        {
+          "title": "Palantir Technologies Inc. - Form 8-K - FY2022",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312522044821/d317188dex991.htm"
+        },
+        {
+          "title": "Palantir Technologies Inc. - Form 8-K - FY2021",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312521156956/d77775dex991.htm"
+        },
+        {
+          "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise Ahead of Apple, Palantir Earnings: RYAAY, USLM, INO i - Benzinga",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62770209/stock-market-today-dow-jones-sp-500-futures-rise-ahead-of-apple-palantir-earnings-ryaay-uslm-ino-in-focus"
+        },
+        {
+          "title": "Top Wall Street Forecasters Revamp Palantir Expectations Ahead Of Q3 Earnings - Palantir Technologies (NA - Benzinga",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62770075/top-wall-street-forecasters-revamp-palantir-expectations-ahead-of-q3-earnings"
+        },
+        {
+          "title": "Stocktwits Tech Watch: Apple And Palantir To Kick Off Tech Earnings In Another Crucial Week, AMD To Settle Chip Debate After Intel’s Warning",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-palantir-kick-off-tech-084008274.html"
+        }
+      ]
+    },
+    {
+      "query": "China news November 2 2026",
+      "results": [
+        {
+          "title": "Morning Recap - November 2, 2026",
+          "url": "https://www.thestandard.com.hk/news/article/347185/Morning-Recap-November-2-2026"
+        },
+        {
+          "title": "AI News Today, November 2: Top Stories",
+          "url": "https://aiweekly.co/ai-news-today"
+        },
+        {
+          "title": "Economic and event calendar in Asia Monday, November 2, 2026 - another China PMI",
+          "url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-monday-november-2-2026-another-china-pmi/"
+        },
+        {
+          "title": "Foreign Ministry Spokesperson Mao Ning’s Regular Press Conference on November 2, 2026",
+          "url": "https://sl.china-embassy.gov.cn/eng/fyrth/202611/t20261102_12051648.htm"
+        },
+        {
+          "title": "APEC China 2026",
+          "url": "https://en.wikipedia.org/wiki/APEC_China_2026"
+        },
+        {
+          "title": "China Shanghai Composite Stock Market Index - Quote - Chart - Historical Data - News",
+          "url": "https://tradingeconomics.com/china/stock-market"
+        },
+        {
+          "title": "Daily Buzz: 2 November 2026 - City News Service",
+          "url": "https://www.citynewsservice.cn/articles/china-biz-buzz/daily-buzz/daily-buzz-2-november-2026-4m3xzw3m"
+        },
+        {
+          "title": "China's central bank reportedly plans November 2 talks on stock-market support · Digg",
+          "url": "https://digg.com/world-business/ebe1swdd"
+        },
+        {
+          "title": "2026 state visit by Donald Trump to China",
+          "url": "https://en.wikipedia.org/wiki/2026_state_visit_by_Donald_Trump_to_China"
+        }
+      ]
+    },
+    {
+      "query": "South Africa local elections November 4 2026 ANC",
+      "results": [
+        {
+          "title": "Coalitions: The South African 2026 Local Government Election",
+          "url": "https://www.freiheit.org/liberal-workshop-south-africa/south-african-2026-local-government-election"
+        },
+        {
+          "title": "2026 South African municipal elections",
+          "url": "https://en.wikipedia.org/wiki/2026_South_African_municipal_elections"
+        },
+        {
+          "title": "THE ANC STATEMENT ON LOCAL GOVERNMENT 2026 VOTER REGISTRATIONS OUTCOMES",
+          "url": "https://www.anc1912.org.za/the-anc-statement-on-local-government-2026-voter-registrations-outcomes/"
+        },
+        {
+          "title": "Local Government Elections 2026",
+          "url": "https://www.elections.org.za/content/About-Us/IEC-Events/Local-Government-Elections-2026/"
+        },
+        {
+          "title": "South Africans to vote in key local elections seen as a tough test for ruling ANC - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/11/01/south-africa-local-elections-campaigns/5daceb0a-d659-11f1-930a-e08f8086f5ac_story.html"
+        },
+        {
+          "title": "Ten critical questions as South Africa heads into high-stakes poll",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-01-ten-critical-questions-as-south-africa-heads-into-high-stakes-poll/"
+        },
+        {
+          "title": "2021 South African municipal elections",
+          "url": "https://en.wikipedia.org/wiki/2021_South_African_municipal_elections"
+        },
+        {
+          "title": "The ANC could win half of South Africa’s wards with under a third of the vote",
+          "url": "https://gavacharles.substack.com/p/the-anc-could-win-half-of-south-africas"
+        },
+        {
+          "title": "IEC CONFIRMS INCLUSION OF ANC CANDIDATES IN THE SIX AFFECTED MUNICIPALITIES",
+          "url": "https://www.anc1912.org.za/iec-confirms-inclusion-of-anc-candidates-in-the-six-affected-municipalities-2/"
+        }
+      ]
+    },
+    {
+      "query": "Gaza news November 1 2026",
+      "results": [
+        {
+          "title": "situation in Gaza - UN News",
+          "url": "https://news.un.org/en/tags/gaza"
+        },
+        {
+          "title": "Gaza Daily",
+          "url": "https://en.wikipedia.org/wiki/Gaza_Daily"
+        },
+        {
+          "title": "Gaza Now",
+          "url": "https://en.wikipedia.org/wiki/Gaza_Now"
+        },
+        {
+          "title": "Anas Al-Sharif",
+          "url": "https://en.wikipedia.org/wiki/Anas_Al-Sharif"
+        },
+        {
+          "title": "Mustafa Moien Ayyash",
+          "url": "https://en.wikipedia.org/wiki/Mustafa_Moien_Ayyash"
+        },
+        {
+          "title": "Gaza Weekly Newspaper",
+          "url": "https://en.wikipedia.org/wiki/Gaza_Weekly_Newspaper"
+        },
+        {
+          "title": "Palestine and Israel news today on map - Jerusalem today - Israel News today - Palestine News today - israelpalestine.liveuamap.com",
+          "url": "https://israelpalestine.liveuamap.com/"
+        },
+        {
+          "title": "Gaza, Palestine News",
+          "url": "https://www.newsnow.com/us/World/Middle+East/Palestine/Gaza"
+        },
+        {
+          "title": "At least eight Palestinians killed in Israeli attacks across Gaza",
+          "url": "https://www.aljazeera.com/news/2026/11/1/at-least-eight-palestinians-killed-in-israeli-attacks-across-gaza"
+        }
+      ]
+    },
+    {
+      "query": "Nigeria suspected Ebola cases NCDC November 2026",
+      "results": [
+        {
+          "title": "Two Suspected Ebola Cases in Adamawa Negative - NCDC - Voice of Nigeria",
+          "url": "https://von.gov.ng/two-suspected-ebola-cases-in-adamawa-negative-ncdc/"
+        },
+        {
+          "title": "NCDC identifies two suspected case of Ebola in Nigeria - Ripples Nigeria",
+          "url": "https://www.ripplesnigeria.com/ncdc-identifies-two-suspected-case-of-ebola-in-nigeria/"
+        },
+        {
+          "title": "Nigeria's two suspected Ebola cases test negative",
+          "url": "https://3news.com/health/nigeria-two-suspected-ebola-cases-test-negative"
+        },
+        {
+          "title": "Nigeria: Exclusive - Ebola: 34-Year-Old Pilot, Wife Identified As Suspected Cases Who Tested Negative in North-East Nigeria - allAfrica.com",
+          "url": "https://allafrica.com/stories/202611020071.html"
+        },
+        {
+          "title": "NCDC detects two additional suspected Ebola cases in North-East Nigeria - Tribune Online",
+          "url": "https://tribuneonlineng.com/ncdc-detects-two-additional-suspected-ebola-cases-in-north-east-nigeria/"
+        },
+        {
+          "title": "Nigeria’s Two Suspected Ebola Cases Test Negative",
+          "url": "https://thewhistler.ng/nigerias-two-suspected-ebola-cases-test-negative/"
+        },
+        {
+          "title": "Nigeria: NCDC announces 2 new Ebola cases - Blueprint Newspapers Limited",
+          "url": "https://blueprint.ng/nigeria-ncdc-announces-2-new-ebola-cases/"
+        },
+        {
+          "title": "NCDC Identifies Two Suspected Ebola Cases in North-East  -",
+          "url": "https://www.westafricanpilotnews.com/2026/11/01/ncdc-identifies-two-suspected-ebola-cases-in-north-east/"
+        },
+        {
+          "title": "NCDC identifies two suspected Ebola cases in north-east Nigeria",
+          "url": "https://ng.headtopics.com/news/two-suspected-ebola-cases-identified-in-north-east-says-89406190"
+        },
+        {
+          "title": "cholera outbreak in nigeria",
+          "url": "https://outbreaknewstoday.substack.com/p/cholera-outbreak-in-nigeria"
+        }
+      ]
+    }
+  ],
+  "fetched": [],
+  "meta": {
+    "id": "2026-11-02",
+    "generated_at": "2026-11-02T11:27:29.814Z",
+    "model": "claude-opus-5-5",
+    "via": "claude-code-routine",
+    "searches": 16,
+    "results_count": 156,
+    "cited_count": 42
+  }
+}
