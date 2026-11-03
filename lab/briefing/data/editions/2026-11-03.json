@@ -1,0 +1,1025 @@
+{
+  "date": "Tuesday, November 3, 2026",
+  "edition": "ELECTION DAY",
+  "tldr_label": "TL;DR — Americans vote as US strikes hit an Iranian island and oil swings on hopes of peace",
+  "tldr_bullets": [
+    {
+      "label": "US vote",
+      "body": "Control of Congress and 36 governorships is on the ballot. The first polls close at 6 p.m. ET, and Fox News rates the Senate a toss-up. [[TAG:info:polls close 6pm ET]]"
+    },
+    {
+      "label": "Iran",
+      "body": "US officials say they carried out 'defensive' strikes on Iran's Qeshm Island on the eve of the vote. Vance says talks have made progress, while officials say Netanyahu is pressing for a wider attack after the midterms. [[TAG:danger:US strikes]]"
+    },
+    {
+      "label": "Oil",
+      "body": "Brent fell about 7.6% to $104.77 on Monday on hopes of a deal, then edged up in Asia after reports of the strikes."
+    },
+    {
+      "label": "Markets",
+      "body": "The S&P 500 fell for a third straight day. Apple and Palantir beat estimates but slid after hours on their outlooks."
+    },
+    {
+      "label": "Ukraine",
+      "body": "Ukrainian officials say Russian bombs on an aid center in Zaporizhzhia region killed at least 24 people, with some reports saying 26. [[TAG:danger:24+ killed]]"
+    },
+    {
+      "label": "Europe",
+      "body": "Belgian Prime Minister Bart De Wever offered to resign over the budget, and Poland's fight over its top court deepened."
+    }
+  ],
+  "sections": [
+    {
+      "title": "America Votes",
+      "icon": "🇺🇸",
+      "summary": "Congress and 36 governorships are on the line; the first polls close at 6 p.m. ET",
+      "paragraphs": [
+        {
+          "heading": "What's at stake",
+          "body": "Fox News said voters decide control of the House and Senate, where Republicans hold 53 seats, as well as governor's races in 36 states, and it rated the Senate a toss-up. ABC News (Australia) said polls point to close races. Georgia and Mississippi hold runoffs if no candidate wins a majority. [[TAG:warning:close races]]"
+        },
+        {
+          "heading": "When results come",
+          "body": "Fox News' guide says the first polls close at 6 p.m. ET in parts of Kentucky and Indiana and the last at 1 a.m. ET. Decision Desk HQ's hour-by-hour guide lists bellwether counties to watch, and PBS listed closing times for the battleground states."
+        }
+      ],
+      "sources": "Fox News, ABC News (Australia), Decision Desk HQ, PBS NewsHour",
+      "citations": [
+        {
+          "outlet": "Fox News",
+          "title": "Everything to know about House and Senate control, ballot measures and 2026 Election Day poll closing",
+          "url": "https://www.foxnews.com/politics/everything-know-house-senate-control-ballot-measures-2026-election-day-poll-closing"
+        },
+        {
+          "outlet": "ABC News (Australia)",
+          "title": "US midterm elections 2026 live updates: US votes as polls predict close midterm races - ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-03/us-midterm-elections-2026-live-updates/107335552"
+        },
+        {
+          "outlet": "Decision Desk HQ",
+          "title": "🗳️ Hour-by-hour guide to the 2026 midterms",
+          "url": "https://decisiondeskhq.substack.com/p/hour-by-hour-guide-to-the-2026-midterms-senate-house-governor-forecast-poll-closing"
+        },
+        {
+          "outlet": "PBS NewsHour",
+          "title": "when polls close on election day in these 7 battleground states",
+          "url": "https://www.pbs.org/newshour/politics/when-polls-close-on-election-day-in-these-7-battleground-states"
+        }
+      ]
+    },
+    {
+      "title": "Strikes and Signals on Iran",
+      "icon": "⚔️",
+      "summary": "US strikes Qeshm Island as Vance cites progress and Netanyahu presses for a wider attack",
+      "paragraphs": [
+        {
+          "heading": "Qeshm strikes",
+          "body": "ABC News and CNN reported that US officials described strikes on Iran's Qeshm Island as defensive, carried out after Iranian fire at a US aircraft, and not a return to major combat. The National said Iranian state media reported explosions on the island. The reports rely on anonymous officials, and the damage has not been independently confirmed. [[TAG:danger:US strikes]]"
+        },
+        {
+          "heading": "Talks and pressure",
+          "body": "CBS News reported that Trump says a peace deal is still possible. PBS said Iran's delegation left the talks in Qatar after a tense weekend. Al Jazeera reported that Tehran is pushing a faster plan to reopen Hormuz in return for an end to the blockade and sanctions. AP, via Spectrum News, reported that officials say Netanyahu is pressing Trump to attack Iran after the midterms. Axios described their phone call as frank. [[TAG:warning:mixed signals]]"
+        }
+      ],
+      "sources": "ABC News, CNN, The National, CBS News, PBS NewsHour, Al Jazeera, Spectrum News/AP, Axios",
+      "citations": [
+        {
+          "outlet": "ABC News",
+          "title": "US carries out defensive airstrikes on Iran's Qeshm Island: Officials - ABC News",
+          "url": "https://abcnews.com/International/us-carries-defensive-airstrikes-irans-qeshm-island-officials/story?id=137792518"
+        },
+        {
+          "outlet": "CNN",
+          "title": "US military conducts strikes on Iran’s Qeshm Island in defensive operation, officials say",
+          "url": "https://www.cnn.com/2026/11/02/politics/us-strikes-iran-qeshm-island"
+        },
+        {
+          "outlet": "The National",
+          "title": "US carries out attack on Iran's Qeshm Island",
+          "url": "https://www.thenationalnews.com/news/us/2026/11/03/us-strike-qeshm-iran-hormuz/"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Iran War Updates: Trump says peace deal still possible as U.S. launches limited strikes on eve of elections",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/"
+        },
+        {
+          "outlet": "PBS NewsHour",
+          "title": "Iran's delegation has left negotiations in Qatar after a tense weekend. Here's where things stand",
+          "url": "https://pbs.org/newshour/world/irans-delegation-has-left-negotiations-in-qatar-after-a-tense-weekend-heres-where-things-stand"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump signals progress on Iran deal as Tehran pushes faster ceasefire",
+          "url": "https://www.aljazeera.com/news/2026/11/2/iran-pushing-accelerated-plan-for-ceasefire-talks-with-us"
+        },
+        {
+          "outlet": "Spectrum News/AP",
+          "title": "Netanyahu pressing Trump to attack Iran after midterms, officials tell AP",
+          "url": "https://spectrumlocalnews.com/us/snplus/international/2026/11/02/netanyahu-pressing-trump-to-attack-iran-after-midterms-officials-say"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Trump has frank call with Netanyahu about next move in Iran war",
+          "url": "https://www.axios.com/2026/11/01/trump-netanyahu-iran-negotiations-war"
+        }
+      ]
+    },
+    {
+      "title": "Markets",
+      "icon": "📉",
+      "summary": "Oil plunges on hopes of peace; Apple and Palantir beat estimates but fall after hours",
+      "paragraphs": [
+        {
+          "heading": "Oil",
+          "body": "CNBC reported that crude sold off more than 7% on hopes of peace talks with Iran, with Brent settling at $104.77. Oilprice.com tied the drop to a circulating draft proposal to end the war. CNBC later reported that oil rose in early Asian trade after reports of the US strike on Qeshm. [[TAG:warning:oil volatile]]"
+        },
+        {
+          "heading": "Stocks",
+          "body": "Yahoo Finance's index tally showed the S&P 500 down 0.51% to 7,541.40, its third loss in a row, and the Nasdaq down about 1.1%, while the Dow rose 0.41%. StockTitan said tech pulled the Nasdaq lower as oil tumbled."
+        },
+        {
+          "heading": "Apple and Palantir",
+          "body": "CNBC reported that Apple and Palantir both fell after hours. Investinglive said both beat estimates, with Apple dragged down by its margin guidance and Palantir by slowing contract growth. Reported after-hours moves range from about 2% to 3%."
+        }
+      ],
+      "sources": "CNBC, Oilprice.com, Yahoo Finance, StockTitan, Investinglive",
+      "citations": [
+        {
+          "outlet": "CNBC",
+          "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+          "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+        },
+        {
+          "outlet": "Oilprice.com",
+          "title": "Oil Prices Plunge as Draft Proposal to End U.S.-Iran War is Circulated",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-as-Draft-Proposal-to-End-US-Iran-War-is-Circulated.html"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Oil rises after report of US strike on Iran's Qeshm Island",
+          "url": "https://www.cnbc.com/2026/11/03/oil-rises-after-report-of-us-strike-on-irans-qeshm-island.html"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "How major US stock indexes fared Monday 11/2/2026",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-212103580.html"
+        },
+        {
+          "outlet": "StockTitan",
+          "title": "Tech Stocks Pulled the Nasdaq Lower in the Stock Market Today, November 2, 2026, as Oil Tumbled",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-2-2026"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Stocks making the biggest moves after hours: Fabrinet, Clorox, Apple, Palantir & more",
+          "url": "https://www.cnbc.com/2026/11/02/stocks-making-the-biggest-moves-after-hours-fn-clx-aapl-pltr.html"
+        },
+        {
+          "outlet": "Investinglive",
+          "title": "Apple and Palantir beat earnings. Why did both stocks fall?",
+          "url": "https://investinglive.com/stocks/apple-and-palantir-beat-earnings-why-did-both-stocks-fall/"
+        }
+      ]
+    },
+    {
+      "title": "Israel's Opposition Lines Up",
+      "icon": "🗳️",
+      "summary": "All four opposition leaders back Eisenkot as Herzog starts with the smallest parties",
+      "paragraphs": [
+        {
+          "heading": "Backing Eisenkot",
+          "body": "Ynet reported that support for Eisenkot is growing, putting pressure on undecided parties. Saudi Gazette said Israeli opposition parties are backing him to form a government, after Avigdor Liberman and Yair Golan joined Naftali Bennett. The Jerusalem Post reported earlier that the Joint List and Ra'am are expected to recommend him."
+        },
+        {
+          "heading": "Process",
+          "body": "The Jerusalem Post reported that Herzog will open consultations on Wednesday with the smallest parties first, an unusual order. In a separate analysis it said the haredi parties hold the key to any government. The Knesset is due to be sworn in on November 10. [[TAG:info:talks Wednesday]]"
+        }
+      ],
+      "sources": "Ynet, Saudi Gazette, Jerusalem Post",
+      "citations": [
+        {
+          "outlet": "Ynet",
+          "title": "Israel's coalition consultations: The move pressuring undecided parties as support for Eisenkot grows",
+          "url": "https://www.ynetnews.com/article/hy3hwbiagx"
+        },
+        {
+          "outlet": "Saudi Gazette",
+          "title": "Israeli opposition parties back Eisenkot to form government - Latest News from Saudi Arabia and the World",
+          "url": "https://saudigazette.com.sa/article/665955/world/israeli-opposition-parties-back-eisenkot-to-form-government"
+        },
+        {
+          "outlet": "Jerusalem Post",
+          "title": "Joint List, Ra'am to back Gadi Eisenkot for premiership as Isaac Herzog opens negotiations",
+          "url": "https://www.jpost.com/israel-election-2026/article-913448"
+        },
+        {
+          "outlet": "Jerusalem Post",
+          "title": "Israel election: Isaac Herzog to begin coalition consultations with smallest parties",
+          "url": "https://www.jpost.com/israel-election-2026/article-913577"
+        },
+        {
+          "outlet": "Jerusalem Post",
+          "title": "Israel Election: Gadi Eisenkot may get the mandate, but haredi parties hold the key",
+          "url": "http://www.jpost.com/israel-election-2026/article-913674"
+        }
+      ]
+    },
+    {
+      "title": "Ukraine",
+      "icon": "🇺🇦",
+      "summary": "Russian bombs on a school used as an aid center kill at least 24 in Zaporizhzhia region",
+      "paragraphs": [
+        {
+          "heading": "Komyshuvakha",
+          "body": "The Kyiv Independent, citing Ukraine's emergency service, reported that Russian bombs hit a school used as a humanitarian aid center in Komyshuvakha and killed 24 people, including rescuers and police. Russia then struck a shelter where people had taken refuge. The Korea Times and Al Jazeera put the toll at 26. Zelensky called it an 'exceptionally horrific strike'. [[TAG:danger:24 to 26 killed]]"
+        },
+        {
+          "heading": "Talks",
+          "body": "Al Jazeera reported that Ukrainian and US officials are arranging working-level talks with Russia in Abu Dhabi, with the US mediating. Zelensky warned that Ukrainian intelligence expects a large Russian attack on energy networks timed to the US vote."
+        }
+      ],
+      "sources": "Kyiv Independent, Korea Times, Al Jazeera",
+      "citations": [
+        {
+          "outlet": "Kyiv Independent",
+          "title": "'Exceptionally horrific strike' — Russian bombs strike school used as humanitarian aid center in Zaporizhzhia Oblast, killing 24",
+          "url": "https://kyivindependent.com/exceptionally-horrific-strike-russian-bombs-strike-school-used-as-humanitarian-aid-center-in-zaporizhzhia-oblast-killing-24/"
+        },
+        {
+          "outlet": "Korea Times",
+          "title": "Russia bombs aid center and shelter in southern Ukraine, killing 26, officials say - The Korea Times",
+          "url": "https://www.koreatimes.co.kr/world/20261103/russia-bombs-aid-center-and-shelter-in-southern-ukraine-killing-26-officials-say"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Russian attack on Ukraine aid hub kills 26 as US announces new peace talks",
+          "url": "https://www.aljazeera.com/news/2026/11/2/russian-bombing-of-ukrainian-aid-centre-kills-24-people-zelenskyy"
+        }
+      ]
+    },
+    {
+      "title": "Europe",
+      "icon": "🇪🇺",
+      "summary": "Belgium's prime minister offers to quit over the budget; Poland's court fight deepens",
+      "paragraphs": [
+        {
+          "heading": "Belgium",
+          "body": "France 24 and ABC News reported that Prime Minister Bart De Wever offered his resignation after his five-party coalition failed to agree a 2027 budget, and that King Philippe is weighing whether to accept it. The government is trying to cut a deficit above 5% of GDP. [[TAG:warning:government crisis]]"
+        },
+        {
+          "heading": "Poland",
+          "body": "Euronews reported that the Constitutional Tribunal crisis between Prime Minister Donald Tusk and President Karol Nawrocki has 'exploded'. Tusk urged Nawrocki to recognize judges elected by parliament. Plataforma Media explained the dispute over who runs the court after a judge whose authority Nawrocki disputes suspended the court's president. Accounts of the late-night standoff at the court differ by outlet."
+        }
+      ],
+      "sources": "France 24, ABC News, Euronews, Plataforma Media",
+      "citations": [
+        {
+          "outlet": "France 24",
+          "title": "Belgian PM offers to quit over budget impasse",
+          "url": "https://www.france24.com/en/live-news/20261102-belgian-pm-offers-to-quit-over-budget-impasse-1"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Belgian PM quits after budget talks fail as king mulls whether to accept resignation - ABC News",
+          "url": "https://abcnews.com/International/wireStory/belgian-prime-minister-quits-after-budget-talks-fail-137764313"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Europe Today: Tusk v Nawrocki: Poland's Constitutional Tribunal crisis explodes",
+          "url": "https://www.euronews.com/2026/11/02/europe-today-tusk-v-nawrocki-polands-constitutional-court-crisis-explodes"
+        },
+        {
+          "outlet": "Plataforma Media",
+          "title": "Who runs Poland’s top court? A judge whose authority Nawrocki disputes suspended the president, and police deployed",
+          "url": "https://www.plataformamedia.com/en/2026/11/02/who-runs-polands-top-court-a-judge-whose-authority-nawrocki-disputes-suspended-the-president-and-police-deployed/"
+        }
+      ]
+    },
+    {
+      "title": "Africa",
+      "icon": "🌍",
+      "summary": "South Africa and Rwanda lose duty-free US trade access; Ebola deaths keep climbing",
+      "paragraphs": [
+        {
+          "heading": "Trade",
+          "body": "Moneyweb reported that South Africa and Rwanda lost duty-free access to the US under the African Growth and Opportunity Act after Washington found they failed its eligibility criteria. [[TAG:warning:AGOA suspended]]"
+        },
+        {
+          "heading": "Ebola",
+          "body": "Africanews put the DR Congo Ebola death toll at 5,372, with a fatality rate above 50%. NBC News reported more than 10,000 cases. Figures vary by source and reporting date. [[TAG:danger:5,300+ deaths]]"
+        }
+      ],
+      "sources": "Moneyweb, Africanews, NBC News",
+      "citations": [
+        {
+          "outlet": "Moneyweb",
+          "title": "South Africa, Rwanda lose access to Agoa - Moneyweb",
+          "url": "https://www.moneyweb.co.za/news/south-africa/south-africa-rwanda-lose-access-to-agoa/"
+        },
+        {
+          "outlet": "Africanews",
+          "title": "Africanews",
+          "url": "https://www.africanews.com/"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "Africa News: Breaking News and Analysis on Africa Politics, Business & More",
+          "url": "https://www.nbcnews.com/news/africa"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "query": "Election Day November 3 2026 midterms what to watch polls close",
+      "results": [
+        {
+          "title": "Election Day 2026: Top midterm election races to watch, coverage, analysis and more",
+          "url": "https://www.foxnews.com/live-news/2026-midterm-elections-news-analysis-races-11-3-2026"
+        },
+        {
+          "title": "Watch 2026 Midterm Election Results & Coverage Live",
+          "url": "https://www.fox.com/news/elections"
+        },
+        {
+          "title": "US midterm elections 2026 live updates: US votes as polls predict close midterm races - ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-03/us-midterm-elections-2026-live-updates/107335552"
+        },
+        {
+          "title": "Everything to know about House and Senate control, ballot measures and 2026 Election Day poll closing",
+          "url": "https://www.foxnews.com/politics/everything-know-house-senate-control-ballot-measures-2026-election-day-poll-closing"
+        },
+        {
+          "title": "🗳️ Hour-by-hour guide to the 2026 midterms",
+          "url": "https://decisiondeskhq.substack.com/p/hour-by-hour-guide-to-the-2026-midterms-senate-house-governor-forecast-poll-closing"
+        },
+        {
+          "title": "Election Day 2026: Date, Poll Closing Times by State, and When Results Arrive",
+          "url": "https://www.universaltimedate.com/articles/election-day-2026"
+        },
+        {
+          "title": "2026 Midterm Election Countdown — Days Until November 3, 2026",
+          "url": "https://www.congresscountdown.com/info/election-countdown"
+        },
+        {
+          "title": "when polls close on election day in these 7 battleground states",
+          "url": "https://www.pbs.org/newshour/politics/when-polls-close-on-election-day-in-these-7-battleground-states"
+        },
+        {
+          "title": "Nov 5, 2024 6:45 PM EDT",
+          "url": "https://www.pbs.org/newshour/live-update/election-news-2024/first-polls-will-close-at-7-p-m-est"
+        }
+      ]
+    },
+    {
+      "query": "Iran news November 2 2026",
+      "results": [
+        {
+          "title": "Iran War 2026 -- Day 247 Update -- 1 November 2026",
+          "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"
+        },
+        {
+          "title": "Iran",
+          "url": "https://www.aljazeera.com/where/iran/"
+        },
+        {
+          "title": "Trump says US not in 'a hurry' to agree deal with Iran - ABC News",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-houthis-claim-new-attack-riyadh/?id=137563447"
+        },
+        {
+          "title": "Trump signals progress on Iran deal as Tehran pushes faster ceasefire",
+          "url": "https://www.aljazeera.com/news/2026/11/2/iran-pushing-accelerated-plan-for-ceasefire-talks-with-us"
+        },
+        {
+          "title": "2026 in Oman",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Oman"
+        },
+        {
+          "title": "Iran's chief negotiator says the US must act to prevent renewed war, and other Mideast news",
+          "url": "https://www.wftv.com/news/world/irans-chief/R4FRW2QJUA24TJYHDHMXDHRXHQ/"
+        },
+        {
+          "title": "Live - Qatar remains hopeful of US-Iran deal despite Tehran saying deal is far off",
+          "url": "https://www.iranintl.com/en/liveblog/202610312594"
+        },
+        {
+          "title": "2026 Iranian leadership crisis",
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_leadership_crisis"
+        },
+        {
+          "title": "2026 Iran explosions",
+          "url": "https://en.wikipedia.org/wiki/2026_Iran_explosions"
+        }
+      ]
+    },
+    {
+      "query": "Apple earnings results November 2 2026 shares after hours Palantir",
+      "results": [
+        {
+          "title": "Apple and Palantir Stocks Slide After Earnings. What This Top Analyst Sees Next - TipRanks.com",
+          "url": "https://www.tipranks.com/news/article/apple-and-palantir-stocks-slide-after-earnings-what-this-top-analyst-sees-next"
+        },
+        {
+          "title": "Stocks making the biggest moves after hours: Fabrinet, Clorox, Apple, Palantir & more",
+          "url": "https://www.cnbc.com/2026/11/02/stocks-making-the-biggest-moves-after-hours-fn-clx-aapl-pltr.html"
+        },
+        {
+          "title": "Gotrade Daily: Midterms, Apple, Palantir and AMD Tonight",
+          "url": "https://www.heygotrade.com/en/news/midterms-apple-palantir-and-amd-tonight/"
+        },
+        {
+          "title": "Apple and Palantir beat earnings. Why did both stocks fall?",
+          "url": "https://investinglive.com/stocks/apple-and-palantir-beat-earnings-why-did-both-stocks-fall/"
+        },
+        {
+          "title": "Apple and Palantir to Report Earnings Amid AI and Growth Expectations",
+          "url": "https://www.kucoin.com/news/flash/apple-and-palantir-to-report-earnings-amid-ai-and-growth-expectations"
+        },
+        {
+          "title": "Apple, Palantir report; U.S. midterm elections ahead - what’s moving markets By Investing.com",
+          "url": "https://www.investing.com/news/economy-news/apple-palantir-report-us-midterm-elections-ahead--whats-moving-markets-4993940"
+        },
+        {
+          "title": "Stock Market Today, Nov. 3: Futures Mixed on Midterm Election Day; Apple and Palantir Shares Slide After Earnings - TipRanks.com",
+          "url": "https://tipranks.com/news/stock-market-today-nov-3-futures-mixed-on-midterm-election-day-apple-and-palantir-shares-slide-after-earnings"
+        },
+        {
+          "title": "Apple, Palantir report; U.S. midterm elections ahead - what’s moving markets By Investing.com",
+          "url": "https://ca.investing.com/news/economy-news/apple-palantir-report-us-midterm-elections-ahead--whats-moving-markets-4924451"
+        },
+        {
+          "title": "Apple, Palantir report; U.S. midterm elections ahead - what’s moving markets By Investing.com",
+          "url": "https://za.investing.com/news/economy-news/apple-palantir-report-us-midterm-elections-ahead--whats-moving-markets-4545080"
+        },
+        {
+          "title": "Why Palantir Technologies Shares Are Exploding Higher Following Q4 Earnings",
+          "url": "https://benzinga.com/z/30887780"
+        }
+      ]
+    },
+    {
+      "query": "stock market close Monday November 2 2026 Dow S&P Nasdaq",
+      "results": [
+        {
+          "title": "Stock market news for Nov. 2, 2026",
+          "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
+        },
+        {
+          "title": "Closing Look — Monday, November 2, 2026",
+          "url": "https://cappnotes.substack.com/p/closing-look-monday-november-2-2026"
+        },
+        {
+          "title": "Stock Market News for Nov 2, 2026",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-2-132700821.html"
+        },
+        {
+          "title": "How major US stock indexes fared Monday 11/2/2026",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-212103580.html"
+        },
+        {
+          "title": "S&P 500 Closes Down 0.5% While the Dow Gains Nearly 1%",
+          "url": "https://247wallst.com/cards/money-rotated-out-of-tech-today-the-dow-and-nasdaq-split-by-gspc-market-bell-01m6f16sjakb82rhj0p9s07n7a"
+        },
+        {
+          "title": "Stock Market Close Nov 2, 2026: S&P 500, Dow, Nasdaq",
+          "url": "https://portfolio-terminal.com/markets/stock-market-close"
+        },
+        {
+          "title": "Tech Stocks Pulled the Nasdaq Lower in the Stock Market Today, November 2, 2026, as Oil Tumbled",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-2-2026"
+        },
+        {
+          "title": "Stock Market Today: Monday, November 2, 2026 - STL.News",
+          "url": "https://www.stl.news/stock-market-today-monday-november-2-2026/"
+        },
+        {
+          "title": "Stock Market News for Dec 17, 2024",
+          "url": "https://www.itiger.com/hans/news/2492627439"
+        }
+      ]
+    },
+    {
+      "query": "oil price plunge November 2 2026 Iran peace hopes Brent",
+      "results": [
+        {
+          "title": "Oil Prices Plunge 8% as US-Iran Peace Talks Ease Hormuz Tensions",
+          "url": "https://gulfnews.com/business/energy/oil-plunges-8-as-us-iran-peace-hopes-ease-hormuz-fears-1.500733408"
+        },
+        {
+          "title": "Oil Prices Plunge as Draft Proposal to End U.S.-Iran War is Circulated",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-as-Draft-Proposal-to-End-US-Iran-War-is-Circulated.html"
+        },
+        {
+          "title": "Oil Prices Plunge 7% as U.S. and Iran Signal Room for Diplomacy",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-7-as-US-and-Iran-Signal-Room-for-Diplomacy.html"
+        },
+        {
+          "title": "Oil falls 7.5% on peace hopes, gold up",
+          "url": "https://tribune.com.pk/story/2638309/oil-falls-75-on-peace-hopes-gold-up"
+        },
+        {
+          "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+          "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+        },
+        {
+          "title": "Oil Prices Drop 7% as Iran, Qatar Open to Peace Talks",
+          "url": "https://www.marinelink.com/news/oil-prices-drop-iran-qatar-open-peace-544080"
+        },
+        {
+          "title": "US launches 'defensive' strikes on Iranian island as Tehran talks hang in balance",
+          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-midterms-peace-deal-israel-november-2"
+        },
+        {
+          "title": "Oil prices fall by 6% as hopes of US-Iran peace talks ease supply concerns",
+          "url": "https://kalingatv.com/world/oil-prices-fall-by-6-with-renewed-hopes-of-us-iran-peace-talks/"
+        },
+        {
+          "title": "Oil prices tumble 8% as hopes of a US-Iran peace deal ease fears over the Strait of Hormuz. - https://www.dubaistandard.com",
+          "url": "https://www.dubaistandard.com/oil-prices-tumble-8-as-hopes-of-a-us-iran-peace-deal-ease-fears-over-the-strait-of-hormuz/"
+        },
+        {
+          "title": "Oil prices fall 8% on US-Iran peace hopes",
+          "url": "https://newskarnataka.com/business/oil-prices-fall-8-on-us-iran-peace-hopes/03112026/"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Russia news November 2 2026",
+      "results": [
+        {
+          "title": "Get the Latest Ukraine News Today - Kyiv Post",
+          "url": "https://www.kyivpost.com/"
+        },
+        {
+          "title": "Ukraine News Today",
+          "url": "https://en.wikipedia.org/wiki/Ukraine_News_Today"
+        },
+        {
+          "title": "Ukraine Online",
+          "url": "https://en.wikipedia.org/wiki/Ukraine_Online"
+        },
+        {
+          "title": "Ukrainian National News",
+          "url": "https://en.wikipedia.org/wiki/Ukrainian_National_News"
+        },
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.co.uk/h/World+News/Europe/Eastern+Europe/Ukraine"
+        },
+        {
+          "title": "Latest news",
+          "url": "https://www.ukrinform.net/block-lastnews"
+        },
+        {
+          "title": "Russian invasion of Ukraine: Latest news, analysis and videos",
+          "url": "https://www.cnn.com/world/europe/ukraine"
+        },
+        {
+          "title": "Russian attack on Ukraine aid hub kills 26 as US announces new peace talks",
+          "url": "https://www.aljazeera.com/news/2026/11/2/russian-bombing-of-ukrainian-aid-centre-kills-24-people-zelenskyy"
+        },
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.com/us/World/Europe/Eastern+Europe/Ukraine"
+        }
+      ]
+    },
+    {
+      "query": "Israel news November 2 2026 coalition Eisenkot Herzog",
+      "results": [
+        {
+          "title": "Israel Coalition Talks: Liberman, Bennett and Golan Back Eisenkot for Prime Minister as Herzog Prepares Consultations - Northeast Times",
+          "url": "https://northeasttimes.com/2026/11/02/israel-coalition-talks-liberman-bennett-golan-back-eisenkot-herzog-consultations/"
+        },
+        {
+          "title": "Israel's coalition consultations: The move pressuring undecided parties as support for Eisenkot grows",
+          "url": "https://www.ynetnews.com/article/hy3hwbiagx"
+        },
+        {
+          "title": "Israel election: Isaac Herzog to begin coalition consultations with smallest parties",
+          "url": "https://www.jpost.com/israel-election-2026/article-913577"
+        },
+        {
+          "title": "Israel Election 2026",
+          "url": "https://www.haaretz.com/israel-news/elections/2026-11-02/ty-article-live/trump-says-he-had-very-good-talk-with-netanyahu-discussed-iran/000001a1-9a1d-d125-a3b1-ffdf0a060000"
+        },
+        {
+          "title": "Joint List, Ra'am to back Gadi Eisenkot for premiership as Isaac Herzog opens negotiations",
+          "url": "https://www.jpost.com/israel-election-2026/article-913448"
+        },
+        {
+          "title": "Israeli opposition parties back Eisenkot to form government - Latest News from Saudi Arabia and the World",
+          "url": "https://saudigazette.com.sa/article/665955/world/israeli-opposition-parties-back-eisenkot-to-form-government"
+        },
+        {
+          "title": "Israel Election: Gadi Eisenkot may get the mandate, but haredi parties hold the key",
+          "url": "http://www.jpost.com/israel-election-2026/article-913674"
+        },
+        {
+          "title": "National Unity (Israel)",
+          "url": "https://en.wikipedia.org/wiki/National_Unity_(Israel)"
+        },
+        {
+          "title": "Israeli war cabinet",
+          "url": "https://en.wikipedia.org/wiki/Israeli_war_cabinet"
+        }
+      ]
+    },
+    {
+      "query": "Europe news November 2 2026 Poland France",
+      "results": [
+        {
+          "title": "Video. Latest news bulletin",
+          "url": "https://www.euronews.com/video/2026/11/02/latest-news-bulletin-november-2nd-2026-evening"
+        },
+        {
+          "title": "Video. Latest news bulletin",
+          "url": "https://www.euronews.com/video/2026/11/02/latest-news-bulletin-november-2nd-2026-midday"
+        },
+        {
+          "title": "Europe Today: Tusk v Nawrocki: Poland's Constitutional Tribunal crisis explodes",
+          "url": "https://www.euronews.com/2026/11/02/europe-today-tusk-v-nawrocki-polands-constitutional-court-crisis-explodes"
+        },
+        {
+          "title": "Europe Intelligence Brief for Monday, November 2, 2026",
+          "url": "https://www.riotimesonline.com/europe-intelligence-brief-monday-november-2-2026/"
+        },
+        {
+          "title": "Opinion polling on the European Union in Poland",
+          "url": "https://en.wikipedia.org/wiki/Opinion_polling_on_the_European_Union_in_Poland"
+        },
+        {
+          "title": "Poland - Laurence Boone Visiting Warsaw (30 November 2022)",
+          "url": "https://www.diplomatie.gouv.fr/en/country-files/poland/events/article/poland-laurence-boone-visiting-warsaw-30-nov-22"
+        },
+        {
+          "title": "poland joint communique issued by the ministry for europe and foreign affairs",
+          "url": "https://www.diplomatie.gouv.fr/en/country-files/poland/events/article/poland-joint-communique-issued-by-the-ministry-for-europe-and-foreign-affairs"
+        },
+        {
+          "title": "www.diplomatie.gouv.fr",
+          "url": "https://www.diplomatie.gouv.fr/en/country-files/poland"
+        },
+        {
+          "title": "Poland – Presidential election (2 June 2025)",
+          "url": "https://www.diplomatie.gouv.fr/en/country-files/poland/events/article/poland-presidential-election-2-jun-2025"
+        }
+      ]
+    },
+    {
+      "query": "US strike Qeshm Island Iran November 2 2026 defensive",
+      "results": [
+        {
+          "title": "US carries out attack on Iran's Qeshm Island",
+          "url": "https://www.thenationalnews.com/news/us/2026/11/03/us-strike-qeshm-iran-hormuz/"
+        },
+        {
+          "title": "US carries out defensive airstrikes on Iran's Qeshm Island: Officials - ABC News",
+          "url": "https://abcnews.com/International/us-carries-defensive-airstrikes-irans-qeshm-island-officials/story?id=137792518"
+        },
+        {
+          "title": "US military conducts strikes on Iran’s Qeshm Island in defensive operation, officials say",
+          "url": "https://www.cnn.com/2026/11/02/politics/us-strikes-iran-qeshm-island"
+        },
+        {
+          "title": "7 May 2026 United States strikes on Iran",
+          "url": "https://en.wikipedia.org/wiki/7_May_2026_United_States_strikes_on_Iran"
+        },
+        {
+          "title": "Oil rises after report of US strike on Iran's Qeshm Island",
+          "url": "https://www.cnbc.com/2026/11/03/oil-rises-after-report-of-us-strike-on-irans-qeshm-island.html"
+        },
+        {
+          "title": "2026 Qeshm Island desalination plant attack",
+          "url": "https://en.wikipedia.org/wiki/2026_Qeshm_Island_desalination_plant_attack"
+        },
+        {
+          "title": "Operation Project Freedom",
+          "url": "https://en.wikipedia.org/wiki/Operation_Project_Freedom"
+        },
+        {
+          "title": "2026 Kharg Island attack",
+          "url": "https://en.wikipedia.org/wiki/2026_Kharg_Island_attack"
+        },
+        {
+          "title": "2026 in Oman",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Oman"
+        }
+      ]
+    },
+    {
+      "query": "Russian strike aid hub Zaporizhzhia Komyshuvakha killed November 2026",
+      "results": [
+        {
+          "title": "Ukraine war latest: Russian bomb strikes kill 24 at humanitarian aid center in Zaporizhzhia Oblast",
+          "url": "https://kyivindependent.com/ukraine-war-latest-russian-bomb-strikes-kill-24-at-humanitarian-aid-center-in-zaporizhzhia-oblast/"
+        },
+        {
+          "title": "'Exceptionally horrific strike' — Russian bombs strike school used as humanitarian aid center in Zaporizhzhia Oblast, killing 24",
+          "url": "https://kyivindependent.com/exceptionally-horrific-strike-russian-bombs-strike-school-used-as-humanitarian-aid-center-in-zaporizhzhia-oblast-killing-24/"
+        },
+        {
+          "title": "Russia bombs aid center and shelter in southern Ukraine, killing 26, officials say - The Korea Times",
+          "url": "https://www.koreatimes.co.kr/world/20261103/russia-bombs-aid-center-and-shelter-in-southern-ukraine-killing-26-officials-say"
+        },
+        {
+          "title": "Russian bombing on Ukrainian aid center kills 26 in Zaporizhzhia region - Daily Times",
+          "url": "https://dailytimes.com.pk/1576093/russian-bombing-on-ukrainian-aid-center-kills-26-in-zaporizhzhia-region/"
+        },
+        {
+          "title": "Tragedy in Zaporizhzhia: Russian Aerial Bombs Strike School Serving as Humanitarian Aid Hub (2026)",
+          "url": "https://raccolto.org/article/tragedy-in-zaporizhzhia-russian-aerial-bombs-strike-school-serving-as-humanitarian-aid-hub"
+        },
+        {
+          "title": "Russian Forces Bomb Humanitarian Aid Centre In Komyshuvakha, Zaporizhzhia, Killing 24: how 20 outlets framed it",
+          "url": "https://newscord.org/article/russian-forces-bomb-humanitarian-aid-centre-in-komyshuvakha-zaporizhzhia-killing--Story_20261103_Russiabombsaidcentref770d013"
+        },
+        {
+          "title": "Strike on Komyshuvakha claims at least 26 lives — The Guardian",
+          "url": "https://ua.news/en/war-vs-rf/udar-po-komishuvasi-zabrav-shchonaimenshe-26-zhittiv-the-guardian"
+        },
+        {
+          "title": "www.euronews.com",
+          "url": "https://www.euronews.com/index.php/tag/zaporizhia"
+        },
+        {
+          "title": "Russian strike kills 13, injures 113 in Ukraine's Zaporizhzhia",
+          "url": "https://www.yahoo.com/news/russian-strike-kills-13-ukrainian-162924250.html"
+        },
+        {
+          "title": "Russian missiles strike outskirts of Zaporizhzhia, hitting humanitarian convoy: 23 killed and 28 wounded",
+          "url": "https://news.yahoo.com/russian-missiles-strike-outskirts-zaporizhzhia-060123612.html"
+        }
+      ]
+    },
+    {
+      "query": "Belgium De Wever offers resignation budget November 2026",
+      "results": [
+        {
+          "title": "PM Bart De Wever Resigns as Belgian Budget Negotiations Collapse / The New Voice of Ukraine",
+          "url": "https://english.nv.ua/nation/pm-bart-de-wever-resigns-as-belgian-budget-negotiations-collapse-50655543.html"
+        },
+        {
+          "title": "Belgian PM offers to quit over budget impasse",
+          "url": "https://www.france24.com/en/live-news/20261102-belgian-pm-offers-to-quit-over-budget-impasse-1"
+        },
+        {
+          "title": "Belgian PM quits after budget talks fail as king mulls whether to accept resignation - ABC News",
+          "url": "https://abcnews.com/International/wireStory/belgian-prime-minister-quits-after-budget-talks-fail-137764313"
+        },
+        {
+          "title": "Bart De Wever resigns as Belgian prime minister over budget dispute",
+          "url": "https://newsukraine.rbc.ua/news/belgian-pm-bart-de-wever-resigns-over-budget-1793626167.html"
+        },
+        {
+          "title": "Federal Government of Belgium",
+          "url": "https://en.wikipedia.org/wiki/Federal_Government_of_Belgium"
+        },
+        {
+          "title": "Vincent Van Peteghem",
+          "url": "https://en.wikipedia.org/wiki/Vincent_Van_Peteghem"
+        },
+        {
+          "title": "Belgium: De Wever submits resignation after deadlock over 2027 budget - Albeu.com",
+          "url": "https://albeu.com/english/belgium-de-wever-submits-resignation-after-deadlock-over-2027-budget/1084710/"
+        },
+        {
+          "title": "Belgian PM De Wever requests resignation amid budget deadlock",
+          "url": "https://ua.news/en/world/premier-belgiyi-bart-de-vever-podav-prokhannia-pro-vidstavku-anadolu-agency"
+        },
+        {
+          "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
+          "url": "https://www.euronews.com/my-europe/2024/08/23/belgian-government-talks-at-a-standstill-after-resignation-of-key-negotiator"
+        }
+      ]
+    },
+    {
+      "query": "Asian markets November 3 2026 Nikkei Kospi election day",
+      "results": [
+        {
+          "title": "Sensex Closing Today, Nifty 50 Update, Diwali stock market rally, Sensex closing November 3, FII inflows, Indian stock market today, stock market gainers, crude oil prices, FMCG stocks, Dalal Street",
+          "url": "https://newsdrum.in/business/diwali-rally-continues-sensex-surges-1225-points-nifty-gains-158-on-fii-inflows-12779622"
+        },
+        {
+          "title": "Asia Stock Markets Today: Nikkei, Hang Seng, Shanghai & KOSPI",
+          "url": "https://liveworldmarket.com/asia-stock-market-dashboard"
+        },
+        {
+          "title": "asian stocks drop european markets mixed kospi 1 70 hang seng 1 20 nikkei 1",
+          "url": "https://newsonair.gov.in/asian-stocks-drop-european-markets-mixed-kospi-1-70-hang-seng-1-20-nikkei-1"
+        },
+        {
+          "title": "October 6, 2023 4:51 PM",
+          "url": "https://www.newsonair.gov.in/tag/asian-markets"
+        },
+        {
+          "title": "asian stocks mixed south koreas kospi up 2 11 japans nikkei 225 down 1 66",
+          "url": "https://newsonair.gov.in/asian-stocks-mixed-south-koreas-kospi-up-2-11-japans-nikkei-225-down-1-66"
+        },
+        {
+          "title": "nikkei kospi rise shanghai hang seng fall",
+          "url": "https://www.newsonair.gov.in/nikkei-kospi-rise-shanghai-hang-seng-fall/"
+        },
+        {
+          "title": "asian markets mostly red nikkei drops 2 49 straits times falls 1 04 hang seng kospi up 0 25",
+          "url": "https://newsonair.gov.in/asian-markets-mostly-red-nikkei-drops-2-49-straits-times-falls-1-04-hang-seng-kospi-up-0-25"
+        },
+        {
+          "title": "September 29, 2023 4:59 PM September 29, 2023 4:59 PM",
+          "url": "https://www.newsonair.gov.in/tag/asian-markets-japans-nikkei-225-falls-0-1"
+        },
+        {
+          "title": "August 26, 2024 5:47 PM",
+          "url": "https://www.newsonair.gov.in/asian-markets-hang-seng-straits-times-rise-nikkei-kospi-fall"
+        }
+      ]
+    },
+    {
+      "query": "Africa news November 2 2026",
+      "results": [
+        {
+          "title": "Africa News: Breaking News and Analysis on Africa Politics, Business & More",
+          "url": "https://www.nbcnews.com/news/africa"
+        },
+        {
+          "title": "Africanews",
+          "url": "https://www.africanews.com/"
+        },
+        {
+          "title": "News - Daily news, hot news and breaking news in Africa",
+          "url": "https://www.africanews.com/news/"
+        },
+        {
+          "title": "Africa News",
+          "url": "https://www.aljazeera.com/africa/"
+        },
+        {
+          "title": "South Africa, Rwanda lose access to Agoa - Moneyweb",
+          "url": "https://www.moneyweb.co.za/news/south-africa/south-africa-rwanda-lose-access-to-agoa/"
+        },
+        {
+          "title": "allafrica.com",
+          "url": "https://allafrica.com/list/aans/post/af/pubkey/publisher:editorial:00010437.html?page=3"
+        },
+        {
+          "title": "Top allafrica.com competitors & alternatives",
+          "url": "https://ahrefs.com/websites/allafrica.com/competitors"
+        },
+        {
+          "title": "the latest news from africa",
+          "url": "https://www.npr.org/2003/12/23/1566996/the-latest-news-from-africa"
+        },
+        {
+          "title": "latest news headlines from africa",
+          "url": "https://www.npr.org/2004/06/28/3021273/latest-news-headlines-from-africa"
+        },
+        {
+          "title": "allafrica.com",
+          "url": "https://allafrica.com/view/newsletter/main/main/cat/latest.html"
+        }
+      ]
+    },
+    {
+      "query": "Asia news November 2 2026 China Japan Korea India",
+      "results": [
+        {
+          "title": "Asia News Network",
+          "url": "https://asianews.network/"
+        },
+        {
+          "title": "Nikkei Asia - Business, Politics, Economy and Tech News & Analysis",
+          "url": "https://asia.nikkei.com/"
+        },
+        {
+          "title": "First East Asia Summit",
+          "url": "https://en.wikipedia.org/wiki/First_East_Asia_Summit"
+        },
+        {
+          "title": "List of programmes broadcast by CNA",
+          "url": "https://en.wikipedia.org/wiki/List_of_programmes_broadcast_by_CNA"
+        },
+        {
+          "title": "Asia Pacific Daily",
+          "url": "https://en.wikipedia.org/wiki/Asia_Pacific_Daily"
+        },
+        {
+          "title": "India Crush South Korea 8-0, Finish Asian Champions Trophy League Stage Unbeaten",
+          "url": "https://www.outlookindia.com/sports/hockey/india-vs-south-korea-asian-champions-trophy-2026-league-stage-match-report"
+        },
+        {
+          "title": "Asia News",
+          "url": "https://www.aljazeera.com/asia/"
+        },
+        {
+          "title": "asiadailynews.gumroad.com",
+          "url": "https://asiadailynews.gumroad.com/"
+        },
+        {
+          "title": "• A Program of Columbia University",
+          "url": "https://exeas.weai.columbia.edu/links-news-media"
+        }
+      ]
+    },
+    {
+      "query": "Poland Nawrocki enters Constitutional Tribunal police clash protesters November 2",
+      "results": [
+        {
+          "title": "Poland's constitutional tribunal crisis sparks major criticism against Tusk",
+          "url": "https://www.foxnews.com/world/polands-constitutional-crisis-deepens-prime-minister-tusk-faces-accusations-power-grab"
+        },
+        {
+          "title": "Poland Crisis: Tusk and Nawrocki clash over constitutional tribunal",
+          "url": "https://organiser.org/2026/10/31/422708/international/poland-coup-fears-police-surround-constitutional-tribunal-as-tusk-nawrocki-power-struggle-sparks-constitutional-crisis/"
+        },
+        {
+          "title": "Tensions over Poland’s top court ignite as the country’s prime minister and president square off",
+          "url": "https://edition.cnn.com/2026/10/31/europe/poland-protests-president-karol-nawrocki-flies-home-hnk-intl"
+        },
+        {
+          "title": "Poland protests intensify amid political dispute",
+          "url": "https://www.foxnews.com/world/polish-president-turns-plane-around-after-coup-at-nations-top-court"
+        },
+        {
+          "title": "Protests near Poland’s Constitutional Tribunal are gaining momentum — Nawrocki’s camp claims an attempted coup",
+          "url": "https://unn.ua/en/news/protests-near-polands-constitutional-tribunal-are-gaining-momentum-nawrockis-camp-claims-an-attempted-coup"
+        },
+        {
+          "title": "‘COUP’ AT POLAND’S TOP COURT: HOW PRESIDENT NAWROCKI FORCED HIS WAY IN AFTER TUSK ATTEMPTED TO SEIZE CONTROL",
+          "url": "https://harryrichardson.substack.com/p/coup-at-polands-top-court-how-president"
+        },
+        {
+          "title": "All-Poland Women%27s Strike",
+          "url": "https://en.wikipedia.org/wiki/All-Poland_Women%27s_Strike"
+        },
+        {
+          "title": "Who runs Poland’s top court? A judge whose authority Nawrocki disputes suspended the president, and police deployed",
+          "url": "https://www.plataformamedia.com/en/2026/11/02/who-runs-polands-top-court-a-judge-whose-authority-nawrocki-disputes-suspended-the-president-and-police-deployed/"
+        },
+        {
+          "title": "Polish constitutional crisis",
+          "url": "https://en.wikipedia.org/wiki/Polish_constitutional_crisis"
+        },
+        {
+          "title": "1 December 2013 Euromaidan protests",
+          "url": "https://en.wikipedia.org/wiki/1_December_2013_Euromaidan_protests"
+        }
+      ]
+    },
+    {
+      "query": "Vance progress Iran off ramp November 2 2026 Trump Netanyahu call",
+      "results": [
+        {
+          "title": "Netanyahu reportedly urges Trump to attack Iran after US midterms",
+          "url": "https://english.alarabiya.net/News/middle-east/2026/11/01/trump-reportedly-holds-call-with-netanyahu-over-state-of-iran-war"
+        },
+        {
+          "title": "Trump has frank call with Netanyahu about next move in Iran war",
+          "url": "https://www.axios.com/2026/11/01/trump-netanyahu-iran-negotiations-war"
+        },
+        {
+          "title": "US launches 'defensive' strikes on Iranian island as Tehran talks hang in balance",
+          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-midterms-peace-deal-israel-november-2"
+        },
+        {
+          "title": "Iran War Updates: Trump says peace deal still possible as U.S. launches limited strikes on eve of elections",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/"
+        },
+        {
+          "title": "Trump holds call with Netanyahu amid preparations to renew strikes on Iran -- report",
+          "url": "https://www.timesofisrael.com/trump-holds-call-with-netanyahu-amid-preparations-to-renew-strikes-on-iran-report/"
+        },
+        {
+          "title": "Netanyahu pressing Trump to attack Iran after midterms, officials tell AP",
+          "url": "https://spectrumlocalnews.com/us/snplus/international/2026/11/02/netanyahu-pressing-trump-to-attack-iran-after-midterms-officials-say"
+        },
+        {
+          "title": "Netanyahu Is Pressing Trump to Attack Iran After the Midterms, Officials Say",
+          "url": "https://english.aawsat.com/world/5336928-netanyahu-pressing-trump-attack-iran-after-midterms-officials-say"
+        },
+        {
+          "title": "Benjamin Netanyahu presses Donald Trump to renew strikes as US remains undecided",
+          "url": "https://www.jpost.com/middle-east/iran-news/article-913632"
+        },
+        {
+          "title": "Iran's delegation has left negotiations in Qatar after a tense weekend. Here's where things stand",
+          "url": "https://pbs.org/newshour/world/irans-delegation-has-left-negotiations-in-qatar-after-a-tense-weekend-heres-where-things-stand"
+        },
+        {
+          "title": "U.S. conducts strikes on Iranian targets on eve of midterm elections, U.S. official says",
+          "url": "https://www.ms.now/news/u-s-conducts-strikes-on-iranian-targets-on-eve-of-midterm-elections-u-s-official-says"
+        }
+      ]
+    }
+  ],
+  "fetched": [],
+  "meta": {
+    "id": "2026-11-03",
+    "generated_at": "2026-11-03T11:24:20.505Z",
+    "model": "claude-opus-5-5",
+    "via": "claude-code-routine",
+    "searches": 16,
+    "results_count": 148,
+    "cited_count": 34
+  }
+}
