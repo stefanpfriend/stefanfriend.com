@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-04",
+      "date": "Wednesday, November 4, 2026",
+      "edition": "DEMOCRATIC SWEEP",
+      "searches": 16,
+      "cited_count": 38,
+      "results_count": 147
+    },
+    {
       "id": "2026-11-03",
       "date": "Tuesday, November 3, 2026",
       "edition": "ELECTION DAY",
