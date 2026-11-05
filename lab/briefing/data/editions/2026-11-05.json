@@ -1,0 +1,949 @@
+{
+  "date": "Thursday, November 5, 2026",
+  "edition": "AFTERSHOCKS",
+  "tldr_label": "TL;DR — The Dow posts its best day of the year and oil sinks as Vance blames the Iran war for the midterm rout",
+  "tldr_bullets": [
+    {
+      "label": "Markets",
+      "body": "The Dow jumped 3% to 53,356, its biggest gain of the year, after Trump accepted the election results. The S&P 500 rose 1.6%. [[TAG:success:Dow +3%]]"
+    },
+    {
+      "label": "Oil",
+      "body": "Oilprice.com reported that Brent fell about 9% toward $94 as Trump and Vance tied the Iran war to the Republican defeat and traders bet on a deal. [[TAG:warning:Brent ~$94]]"
+    },
+    {
+      "label": "Congress",
+      "body": "Democrats say lowering costs is their first priority, alongside investigations of the administration. Senate races in Alaska and Mississippi remain uncalled."
+    },
+    {
+      "label": "Iran",
+      "body": "Vance said 'the reason we lost is the war'. Trump said he would do it again and threatened to 'finish the job' if Iran rejects a nuclear deal."
+    },
+    {
+      "label": "Israel",
+      "body": "Eisenkot leads in recommendations as Herzog's consultations near an end. The haredi party UTJ declined to back Netanyahu."
+    },
+    {
+      "label": "World",
+      "body": "Early results in South Africa show the ANC narrowly ahead of the DA. Zelensky says the Zaporizhzhia aid-center strike may have killed 70 people, a figure that is disputed."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Wall Street Cheers Gridlock",
+      "icon": "📈",
+      "summary": "The Dow posts its biggest gain of the year as Trump makes peace with the result; oil slides",
+      "paragraphs": [
+        {
+          "heading": "Rally",
+          "body": "CBS News reported that the Dow jumped 1,569 points, or 3%, to 53,356.12, its biggest gain of the year, and that the S&P 500 rose about 1.6% and the Nasdaq 1.4%. CNBC said Trump's quick acceptance of the results drove the 'monster rally'. Analysts cited gridlock limiting big tax and spending bills. CBS said Trump Media fell nearly 25%. [[TAG:success:Dow +3%]]"
+        },
+        {
+          "heading": "Oil",
+          "body": "Oilprice.com reported that Brent first fell to about $100 on bets of a US-Iran deal, then dropped about 9% toward $94 as Trump and Vance blamed the war for the midterm losses. Fortune put Brent near $106 on Wednesday morning. Prices vary widely by timestamp. [[TAG:warning:oil volatile]]"
+        },
+        {
+          "heading": "Asia",
+          "body": "CNBC's live coverage reported that Korea's Kospi fell more than 5% on Thursday while other Asian markets were mixed. Benzinga said US futures were mixed after the rally."
+        }
+      ],
+      "sources": "CBS News, CNBC, Oilprice.com, Fortune, Benzinga",
+      "citations": [
+        {
+          "outlet": "CBS News",
+          "title": "Dow posts biggest gain of the year after Democrats take control of Congress - CBS News",
+          "url": "https://www.cbsnews.com/news/stock-market-soar-democrats-take-control-of-congress/"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "What was really behind Wednesday's monster rally? Trump quickly making peace",
+          "url": "https://www.cnbc.com/2026/11/04/stock-market-rally-trump-midterms.html"
+        },
+        {
+          "outlet": "Oilprice.com",
+          "title": "Brent Falls to $100 as Traders Bet on a U.S.-Iran Deal",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Falls-to-100-as-Traders-Bet-on-a-US-Iran-Deal.html"
+        },
+        {
+          "outlet": "Oilprice.com",
+          "title": "Oil Crashes 9% as Trump and Vance Blame Iran War for Midterm Rout",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Crashes-9-as-Trump-and-Vance-Blame-Iran-War-for-Midterm-Rout.html"
+        },
+        {
+          "outlet": "Fortune",
+          "title": "Current price of oil as of Nov. 4, 2026",
+          "url": "https://fortune.com/article/price-of-oil-11-04-2026/"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Stock market today: Live updates",
+          "url": "https://cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+        },
+        {
+          "outlet": "Benzinga",
+          "title": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed After Post-Midterm Rally — TM, ARM, QCOM in Fo - Benzinga",
+          "url": "https://benzinga.com/markets/equities/26/11/62906643/stock-market-today-dow-jones-sp-500-futures-trade-mixed-after-post-midterm-rally-tm-arm-qcom-in-focus"
+        }
+      ]
+    },
+    {
+      "title": "The New Congress",
+      "icon": "🇺🇸",
+      "summary": "Democrats put cutting costs first, alongside oversight; Alaska and Mississippi remain uncalled",
+      "paragraphs": [
+        {
+          "heading": "Agenda",
+          "body": "Spectrum News reported that Schumer and Jeffries call cutting costs the first job of the new majority. ABC News and NBC News said Democrats also plan investigations of the administration. Their priorities include restoring health-care subsidies, reversing Medicaid cuts and challenging tariffs. Trump's veto still limits what can become law. [[TAG:info:affordability first]]"
+        },
+        {
+          "heading": "Count",
+          "body": "CNBC reported that Alaska and Mississippi are the only Senate races the AP has not yet called. NBC Chicago reported a 54-44 Democratic Senate majority with those two pending. NBC News projected about 258 House seats for Democrats. In Alaska, Peltola and Sullivan are separated by a fraction of a point, and Roll Call reported that a judge dismissed a Justice Department suit seeking to block certification if Sullivan loses. [[TAG:warning:Alaska close]]"
+        }
+      ],
+      "sources": "Spectrum News, ABC News, NBC News, CNBC, NBC Chicago, Roll Call",
+      "citations": [
+        {
+          "outlet": "Spectrum News",
+          "title": "Schumer, Jeffries say cutting costs is job No. 1 for Democratic majority",
+          "url": "https://spectrumnews1.com/ca/la/politics/2026/11/04/schumer-jeffries-midterm-election-wins-democratic-congressional-control"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Democrats take the House. Here’s what they plan to investigate and their legislative agenda - ABC News",
+          "url": "https://abcnews.com/Politics/democrats-house-heres-plan-investigate-legislative-agenda/story?id=137832144"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "Democrats take Congress with dual goals: Investigate Trump and tackle affordability",
+          "url": "https://www.nbcnews.com/politics/congress/democrats-control-house-senate-plans-trump-oversight-rcna605714"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "2026 midterm election results: House, Senate",
+          "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+        },
+        {
+          "outlet": "NBC Chicago",
+          "title": "Midterm results: Which races still haven't been called, and which states flipped blue?",
+          "url": "https://www.nbcchicago.com/news/local/election-2026-which-races-still-havent-been-called-and-what-states-flipped-seats-mississippi-alaska-election-results/4012174/"
+        },
+        {
+          "outlet": "Roll Call",
+          "title": "Judge tosses DOJ lawsuit seeking to delay Alaska vote certification - Roll Call",
+          "url": "https://rollcall.com/2026/11/01/alaska-senate-vote-certification-dan-sullivan/"
+        }
+      ]
+    },
+    {
+      "title": "Iran After the Vote",
+      "icon": "⚔️",
+      "summary": "Vance blames the war for the GOP rout; Trump says he'd do it again and warns Tehran",
+      "paragraphs": [
+        {
+          "heading": "Blame",
+          "body": "Military Times and NBC News reported that Vance wrote 'the reason we lost is the war', and Bloomberg said he also cited ties with Israel. ABC News reported that Trump said he would 'do it again', and Khaleej Times said Trump called the link to the war 'largely true'. ABC News added that its poll found voters more focused on the cost of living than on the war. [[TAG:warning:blame disputed]]"
+        },
+        {
+          "heading": "Tehran",
+          "body": "CBS News reported that Iran says the election shows Americans reject war. Fox News said Trump threatened to 'finish the job' if Iran rejects a nuclear deal, while the Revolutionary Guards vowed 'united' resistance. Gulf News reported that talks mediated by Qatar continue, with no decision on renewed strikes."
+        }
+      ],
+      "sources": "Military Times, NBC News, Bloomberg, ABC News, Khaleej Times, CBS News, Fox News, Gulf News",
+      "citations": [
+        {
+          "outlet": "Military Times",
+          "title": "'The reason we lost is the war': Vance blames midterm GOP losses on Iran conflict",
+          "url": "https://www.militarytimes.com/news/pentagon-congress/2026/11/04/the-reason-we-lost-is-the-war-vance-blames-midterm-gop-losses-iran-conflict/"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "Vance says the ‘real reason’ for GOP rout was anger over Iran war",
+          "url": "https://www.nbcnews.com/politics/2026-election/vance-says-ranger-iran-war-caused-gop-midterm-losses-rcna607446"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Vance Blames War in Iran, Israel Ties for GOP Midterm Loss - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/vance-points-to-iran-war-israel-as-reasons-for-gop-midterm-loss"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Vance blames Iran war for Republicans' midterms defeat. Trump says he would 'do it again' - ABC News",
+          "url": "https://abcnews.com/Politics/vance-blames-iran-war-republicans-midterms-defeat-trump/story?id=137849295"
+        },
+        {
+          "outlet": "Khaleej Times",
+          "title": "Trump says 'largely true' Iran war caused midterms loss, after Vance comments",
+          "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-4-2026"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Live Updates: Iran says U.S. election results show Americans reject war, as Trump says he'd do it again",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Trump threatens to ‘finish the job’ if Iran rejects nuclear deal as IRGC vows ‘united’ resistance",
+          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-elections-oil-prices-november-4"
+        },
+        {
+          "outlet": "Gulf News",
+          "title": "US/Israel-Iran War: What UAE residents need to know today (Nov. 4, 2026)",
+          "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-4-2026-1.500735252"
+        }
+      ]
+    },
+    {
+      "title": "Israel's Mandate",
+      "icon": "🗳️",
+      "summary": "Eisenkot leads in recommendations as UTJ declines to back Netanyahu",
+      "paragraphs": [
+        {
+          "heading": "Recommendations",
+          "body": "The Jerusalem Post reported that Religious Zionism and Shas recommended Netanyahu, while Yisrael Beytenu backed Eisenkot. The Times of Israel said the haredi faction UTJ will not recommend Netanyahu. Reports put Eisenkot at 56 or more recommendations to Netanyahu's 53 before the Joint List decides. The Tribune and JNS reported that consultations moved into a second day. The Knesset convenes on November 10. [[TAG:info:mandate pending]]"
+        },
+        {
+          "heading": "US ties",
+          "body": "The Times of Israel live blog reported that Eisenkot pledged after the US midterms to renew a bipartisan US-Israel alliance."
+        }
+      ],
+      "sources": "Jerusalem Post, Times of Israel, The Tribune, JNS",
+      "citations": [
+        {
+          "outlet": "Jerusalem Post",
+          "title": "RZP, Shas recommend Benjamin Netanyahu, Avigdor Liberman backs Gadi Eisenkot in talks with Isaac Herzog",
+          "url": "https://www.jpost.com/israel-news/article-913842"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "As Herzog consults party heads, Haredi faction says it won't recommend Netanyahu as PM",
+          "url": "https://www.timesofisrael.com/as-herzog-consults-party-heads-haredi-faction-says-it-wont-recommend-netanyahu-as-pm/"
+        },
+        {
+          "outlet": "The Tribune",
+          "title": "Israel's President Herzog begins second day of consultations with parties on picking next PM - The Tribune",
+          "url": "https://www.tribuneindia.com/news/benjamin-netanyahu-support/israels-president-herzog-begins-second-day-of-consultations-with-parties-on-picking-next-pm"
+        },
+        {
+          "outlet": "JNS",
+          "title": "Herzog resumes talks on who will form next Israeli government - Israel & Jewish News - JNS",
+          "url": "https://www.jns.org/news/israel-news/herzog-resumes-talks-on-who-will-form-next-israeli-govt"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "Nov. 4: In post-midterm message, Eisenkot pledges to renew bipartisan US-Israel alliance",
+          "url": "https://www.timesofisrael.com/liveblog-november-4-2026/"
+        }
+      ]
+    },
+    {
+      "title": "Ukraine",
+      "icon": "🇺🇦",
+      "summary": "Zelensky says the aid-center strike may have killed 70; Russia hits grids in nine regions",
+      "paragraphs": [
+        {
+          "heading": "Toll dispute",
+          "body": "CBS News reported that Zelensky said Russia's 'insane attack' on an aid center in Zaporizhzhia region may have killed 70 people, and he pleaded for air defenses. ABC News reported 31 confirmed deaths, and Russia said the strike killed Ukrainian troops. [[TAG:warning:toll disputed]]"
+        },
+        {
+          "heading": "Energy war",
+          "body": "ABC News reported that Ukraine and Russia exchanged hundreds of drones overnight as Moscow kept targeting energy infrastructure, damaging facilities in nine regions. Al Jazeera reported that Ukrainian strikes killed three people in Russia's Belgorod region."
+        }
+      ],
+      "sources": "CBS News, ABC News, Al Jazeera",
+      "citations": [
+        {
+          "outlet": "CBS News",
+          "title": "Ukraine's leader says Russian \"insane attack\" on aid center may have killed 70 people, pleads for air defenses - CBS News",
+          "url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Ukraine and Russia trade hundreds of drones overnight, as Moscow continues targeting energy infrastructure - ABC News",
+          "url": "https://abcnews.com/International/ukraine-russia-trade-hundreds-drones-overnight-moscow-continues/story?id=137838953"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Ukrainian strikes kill three in Russia’s Belgorod region",
+          "url": "https://www.aljazeera.com/news/2026/11/4/ukrainian-strikes-kill-three-in-russias-belgorod-region"
+        }
+      ]
+    },
+    {
+      "title": "Africa",
+      "icon": "🌍",
+      "summary": "Early count shows the ANC narrowly ahead of the DA in South Africa's local elections",
+      "paragraphs": [
+        {
+          "heading": "South Africa",
+          "body": "CNBC Africa, citing Reuters, reported that with a quarter of votes counted the ANC had about 32% and the DA about 29%. Polity said the ANC narrowly leads, and Reuters noted the ANC would be about 14 points below its 2021 result if the trend holds. The DA leads in most Gauteng metros. The results are preliminary. [[TAG:warning:ANC near 32%]]"
+        },
+        {
+          "heading": "Ebola",
+          "body": "The Rio Times Africa brief reported 10,305 confirmed Ebola cases and 4,996 deaths in DR Congo as of October 28. UNICEF said it is stepping up preparedness in South Sudan, which has reported no cases."
+        }
+      ],
+      "sources": "CNBC Africa, Polity, Rio Times, UNICEF",
+      "citations": [
+        {
+          "outlet": "CNBC Africa",
+          "title": "South Africa’s ANC on 32%, DA 29% after one-quarter of local election votes counted",
+          "url": "https://www.cnbcafrica.com/2026/south-africas-anc-on-32-da-29-after-one-quarter-of-local-election-votes-counted"
+        },
+        {
+          "outlet": "Polity",
+          "title": "ANC narrowly leads DA in early South Africa municipal election results",
+          "url": "https://www.polity.org.za/article/anc-narrowly-leads-da-in-early-south-africa-municipal-election-results-2026-11-05"
+        },
+        {
+          "outlet": "Rio Times",
+          "title": "Africa Intelligence Brief — Wednesday, November 4, 2026",
+          "url": "https://www.riotimesonline.com/africa-intelligence-brief-wednesday-november-4-2026"
+        },
+        {
+          "outlet": "UNICEF",
+          "title": "UNICEF scales up preparedness in response to Ebola outbreaks in neighbouring countries",
+          "url": "https://www.unicef.org/southsudan/press-releases/unicef-scales-preparedness-response-ebola-outbreaks-neighbouring-countries"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "query": "midterm results November 4 2026 House seat count Alaska Senate called",
+      "results": [
+        {
+          "title": "Alaska U.S. House Midterm Election 2026: Live Results",
+          "url": "https://www.nbcnews.com/politics/2026-elections/alaska-house-results"
+        },
+        {
+          "title": "Midterm results: Which races still haven't been called, and which states flipped blue?",
+          "url": "https://www.nbcchicago.com/news/local/election-2026-which-races-still-havent-been-called-and-what-states-flipped-seats-mississippi-alaska-election-results/4012174/"
+        },
+        {
+          "title": "Alaska 2026 live midterm election results - ABC News",
+          "url": "https://abcnews.com/Politics/alaska-2026-live-midterm-election-results/story?id=136761068"
+        },
+        {
+          "title": "2026 midterm election results: House, Senate",
+          "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+        },
+        {
+          "title": "U.S. Senate Election 2026 Live Results: Democrats Win Majority",
+          "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+        },
+        {
+          "title": "Alaska 2026 Election Results — MultiState Elections",
+          "url": "https://www.multistate.us/elections/results/alaska-2026"
+        },
+        {
+          "title": "midterm election results these key races have yet called",
+          "url": "https://www.foxnews.com/politics/midterm-election-results-these-key-races-have-yet-called"
+        },
+        {
+          "title": "LIVE UPDATES",
+          "url": "https://noticias.foxnews.com/elections/2022/midterm-results"
+        },
+        {
+          "title": "Meet the Press Blog",
+          "url": "https://www.nbcnews.com/news/amp/shows/meetthepress/blog/rcna43475"
+        }
+      ]
+    },
+    {
+      "query": "stock market close Wednesday November 4 2026 after midterms",
+      "results": [
+        {
+          "title": "Stock market news for Nov. 4, 2026",
+          "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
+        },
+        {
+          "title": "Dow, S&P 500, Nasdaq Futures Mixed After A Democratic Sweep In Midterms: NVDA, MU, SNDK, NBIS, IREN In Focus",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-025524882.html"
+        },
+        {
+          "title": "US midterms the market ended close to where it started after a week of sharp swings",
+          "url": "https://www.home.saxo/en-ch/content/articles/options/us-midterms-the-market-ended-close-to-where-it-started-after-a-week-of-sharp-swings-05112026"
+        },
+        {
+          "title": "What was really behind Wednesday's monster rally? Trump quickly making peace",
+          "url": "https://www.cnbc.com/2026/11/04/stock-market-rally-trump-midterms.html"
+        },
+        {
+          "title": "Dow posts biggest gain of the year after Democrats take control of Congress - CBS News",
+          "url": "https://www.cbsnews.com/news/stock-market-soar-democrats-take-control-of-congress/"
+        },
+        {
+          "title": "stock market news for nov 10 2022",
+          "url": "https://zacks.com/stock/news/2016731/stock-market-news-for-nov-10-2022"
+        },
+        {
+          "title": "US stocks close higher after midterm elections",
+          "url": "https://www.business-standard.com/amp/article/news-ians/us-stocks-close-higher-after-midterm-elections-118110800050_1.html"
+        },
+        {
+          "title": "Friday, December 12, 2025 | 12:40 PM ISTहिंदी में पढें",
+          "url": "https://www.business-standard.com/article/news-ians/us-stocks-close-higher-after-midterm-elections-118110800050_1.html"
+        },
+        {
+          "title": "Dow, S&P 500 close at record highs after mid-term vote",
+          "url": "https://www.business-standard.com/amp/article/reuters/dow-s-p-500-close-at-records-after-midterm-vote-114110600050_1.html"
+        }
+      ]
+    },
+    {
+      "query": "Iran news November 4 2026",
+      "results": [
+        {
+          "title": "US/Israel-Iran War: What UAE residents need to know today (Nov. 4, 2026)",
+          "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-4-2026-1.500735252"
+        },
+        {
+          "title": "Trump says 'largely true' Iran war caused midterms loss, after Vance comments",
+          "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-4-2026"
+        },
+        {
+          "title": "Live Updates: Iran says U.S. election results show Americans reject war, as Trump says he'd do it again",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+        },
+        {
+          "title": "Iran Update: November 04, 2026",
+          "url": "https://www.criticalthreats.org/analysis/iran-update-november-04-2026"
+        },
+        {
+          "title": "Nov. 4: In post-midterm message, Eisenkot pledges to renew bipartisan US-Israel alliance",
+          "url": "https://www.timesofisrael.com/liveblog-november-4-2026/"
+        },
+        {
+          "title": "Trump threatens to ‘finish the job’ if Iran rejects nuclear deal as IRGC vows ‘united’ resistance",
+          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-elections-oil-prices-november-4"
+        },
+        {
+          "title": "2026 in Oman",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Oman"
+        },
+        {
+          "title": "2026 Iranian leadership crisis",
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_leadership_crisis"
+        },
+        {
+          "title": "2026 Iran explosions",
+          "url": "https://en.wikipedia.org/wiki/2026_Iran_explosions"
+        },
+        {
+          "title": "2026 United States protests against strikes on Iran",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_protests_against_strikes_on_Iran"
+        }
+      ]
+    },
+    {
+      "query": "Herzog consultations Eisenkot recommendations November 4 2026 mandate",
+      "results": [
+        {
+          "title": "RZP, Shas recommend Benjamin Netanyahu, Avigdor Liberman backs Gadi Eisenkot in talks with Isaac Herzog",
+          "url": "https://www.jpost.com/israel-news/article-913842"
+        },
+        {
+          "title": "As Herzog consults party heads, Haredi faction says it won't recommend Netanyahu as PM",
+          "url": "https://www.timesofisrael.com/as-herzog-consults-party-heads-haredi-faction-says-it-wont-recommend-netanyahu-as-pm/"
+        },
+        {
+          "title": "Joint List, Ra'am to back Gadi Eisenkot for premiership as Isaac Herzog opens negotiations",
+          "url": "https://www.jpost.com/israel-election-2026/article-913448"
+        },
+        {
+          "title": "Presidential consultations enter final stretch in selection of prime minister",
+          "url": "https://www.jpost.com/israel-election-2026/article-913890"
+        },
+        {
+          "title": "Israel's President Herzog begins second day of consultations with parties on picking next PM - The Tribune",
+          "url": "https://www.tribuneindia.com/news/benjamin-netanyahu-support/israels-president-herzog-begins-second-day-of-consultations-with-parties-on-picking-next-pm"
+        },
+        {
+          "title": "Herzog resumes talks on who will form next Israeli government - Israel & Jewish News - JNS",
+          "url": "https://www.jns.org/news/israel-news/herzog-resumes-talks-on-who-will-form-next-israeli-govt"
+        },
+        {
+          "title": "Ra'am to recommend Eisenkot to form Israel's government — Der Spiegel",
+          "url": "https://ua.news/en/dovkolo-svitu/partiia-raam-rekomenduvatime-aizenkota-dlia-formuvannia-uriadu-izrayiliu-der-spiegel"
+        },
+        {
+          "title": "Eisenkot Recommendations: Opposition Backs Him for Mandate",
+          "url": "https://www.jfeed.com/news/eisenkot-recommendations-mandate-netanyahu-herzog"
+        },
+        {
+          "title": "Democrats Recommend Eisenkot; Herzog Questions Anti-Bibi Focus",
+          "url": "https://www.jfeed.com/news-israel/to0wm1"
+        }
+      ]
+    },
+    {
+      "query": "South Africa local election results ANC DA November 5 2026",
+      "results": [
+        {
+          "title": "2026 Local Election Results (South Africa)",
+          "url": "https://sepush.co.za/elections/local/2026"
+        },
+        {
+          "title": "2026 Local Election Results (South Africa)",
+          "url": "https://esp.info/elections/local/2026?ballot=pr"
+        },
+        {
+          "title": "South Africa’s ANC on 32%, DA 29% after one-quarter of local election votes counted",
+          "url": "https://www.cnbcafrica.com/2026/south-africas-anc-on-32-da-29-after-one-quarter-of-local-election-votes-counted"
+        },
+        {
+          "title": "LGE 2026 Results LIVE",
+          "url": "https://briefly.co.za/politics/257979-local-government-elections-2026-results-live-track-municipal-election-outcomes-iec-counts-votes/"
+        },
+        {
+          "title": "ANC narrowly leads DA in early South Africa municipal election results",
+          "url": "https://www.polity.org.za/article/anc-narrowly-leads-da-in-early-south-africa-municipal-election-results-2026-11-05"
+        },
+        {
+          "title": "South Africa votes: results as they come in",
+          "url": "https://theoutlier.co.za/results"
+        },
+        {
+          "title": "ANC support falls sharply in early South Africa municipal election results",
+          "url": "https://cnbcafrica.com/2026/anc-narrowly-leads-da-in-early-south-africa-municipal-election-results"
+        },
+        {
+          "title": "First 2026 Ward result declared",
+          "url": "https://www.sabcnews.com/sabcnews/1174811-2/"
+        },
+        {
+          "title": "South Africa: Local election results show ANC weakened",
+          "url": "https://www.aljazeera.com/amp/news/2016/8/4/south-africa-local-election-results-show-anc-weakened"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Russia news November 4 2026",
+      "results": [
+        {
+          "title": "Ukraine News Today",
+          "url": "https://en.wikipedia.org/wiki/Ukraine_News_Today"
+        },
+        {
+          "title": "Ukraine Online",
+          "url": "https://en.wikipedia.org/wiki/Ukraine_Online"
+        },
+        {
+          "title": "Ukrainian National News",
+          "url": "https://en.wikipedia.org/wiki/Ukrainian_National_News"
+        },
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.co.uk/h/World+News/Europe/Eastern+Europe/Ukraine"
+        },
+        {
+          "title": "Ukraine's leader says Russian \"insane attack\" on aid center may have killed 70 people, pleads for air defenses - CBS News",
+          "url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/"
+        },
+        {
+          "title": "Ukraine and Russia trade hundreds of drones overnight, as Moscow continues targeting energy infrastructure - ABC News",
+          "url": "https://abcnews.com/International/ukraine-russia-trade-hundreds-drones-overnight-moscow-continues/story?id=137838953"
+        },
+        {
+          "title": "Ukrainian strikes kill three in Russia’s Belgorod region",
+          "url": "https://www.aljazeera.com/news/2026/11/4/ukrainian-strikes-kill-three-in-russias-belgorod-region"
+        },
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.com/us/World/Europe/Eastern+Europe/Ukraine"
+        },
+        {
+          "title": "Full Episode",
+          "url": "https://www.pbs.org/newshour/tag/ukraine/page/52"
+        }
+      ]
+    },
+    {
+      "query": "Alaska Senate Dan Sullivan second candidate lawsuit certification Trump administration",
+      "results": [
+        {
+          "title": "Trump administration sues to block Alaska Senate certification if Republican Sen. Dan Sullivan loses in November",
+          "url": "https://www.nbcnews.com/politics/2026-election/trump-justice-department-lawsuit-alaska-senate-rcna605229"
+        },
+        {
+          "title": "Judge dismisses DOJ lawsuit seeking to block Alaska Senate certification if GOP's Dan Sullivan loses",
+          "url": "https://www.yahoo.com/news/politics/article/judge-dismisses-doj-lawsuit-seeking-to-block-alaska-senate-certification-if-gops-dan-sullivan-loses-184010306.html"
+        },
+        {
+          "title": "Alaska Senate: Judge dismisses DOJ lawsuit over Sullivan names",
+          "url": "https://www.cnbc.com/2026/11/01/alaska-senate-doj-lawsuit-dismissed-sullivan-peltola.html"
+        },
+        {
+          "title": "2026 election news: Judge dismisses lawsuit seeking to block Alaska Senate race certification if incumbent Dan Sullivan loses - ABC7 San Francisco",
+          "url": "https://abc7news.com/post/2026-election-news-judge-dismisses-lawsuit-seeking-block-alaska-senate-race-certification-incumbent-dan-sullivan-loses/20006519/"
+        },
+        {
+          "title": "Trump says he ordered DOJ suit to block Alaska Senate race certification if Republican loses",
+          "url": "https://www.cnbc.com/2026/10/23/alaska-senate-election-doj-lawsuit-sullivan.html"
+        },
+        {
+          "title": "Judge tosses DOJ lawsuit seeking to delay Alaska vote certification - Roll Call",
+          "url": "https://rollcall.com/2026/11/01/alaska-senate-vote-certification-dan-sullivan/"
+        },
+        {
+          "title": "Federal judge dismisses DOJ lawsuit to delay Alaska Senate election",
+          "url": "https://www.foxnews.com/politics/doj-set-appeal-ruling-alaska-senate-race-dispute-over-decoy-dan"
+        },
+        {
+          "title": "Trump told DOJ to sue to block Alaska Senate results if Republican narrowly loses - ABC News",
+          "url": "https://abcnews.com/US/doj-preemptively-sues-block-alaska-senate-results-republican/story?id=137512876"
+        },
+        {
+          "title": "2026 United States Senate election in Alaska",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska"
+        }
+      ]
+    },
+    {
+      "query": "Democrats agenda new Congress Jeffries Schumer plans November 2026",
+      "results": [
+        {
+          "title": "Democrats take the House. Here’s what they plan to investigate and their legislative agenda - ABC News",
+          "url": "https://abcnews.com/Politics/democrats-house-heres-plan-investigate-legislative-agenda/story?id=137832144"
+        },
+        {
+          "title": "Democrats' Congress agenda: affordability and oversight",
+          "url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
+        },
+        {
+          "title": "Schumer, Jeffries say cutting costs is job No. 1 for Democratic majority",
+          "url": "https://spectrumnews1.com/ca/la/politics/2026/11/04/schumer-jeffries-midterm-election-wins-democratic-congressional-control"
+        },
+        {
+          "title": "How Democrats plan to use their majorities to constrain Trump",
+          "url": "https://thehill.com/homenews/senate/6199596-congressional-majorities-trump-challenges"
+        },
+        {
+          "title": "Democrats usher in a new era with their resounding sweep of the House and the Senate",
+          "url": "https://whyy.org/articles/election-2026-democrats-sweep-house-representatives-senate/"
+        },
+        {
+          "title": "Democrats take Congress with dual goals: Investigate Trump and tackle affordability",
+          "url": "https://www.nbcnews.com/politics/congress/democrats-control-house-senate-plans-trump-oversight-rcna605714"
+        },
+        {
+          "title": "Democrats usher in a new era with their resounding sweep of the House and the Senate",
+          "url": "https://www.wsls.com/news/politics/2026/11/04/democrats-usher-in-a-new-era-with-their-resounding-sweep-of-the-house-and-the-senate/"
+        },
+        {
+          "title": "Democrats lay out plans to fight corruption once they take control of Congress",
+          "url": "https://foxbaltimore.com/news/nation-world/democrats-lay-out-plans-to-fight-corruption-once-they-take-control-of-congress-senate-chuck-schumer-subpoena"
+        },
+        {
+          "title": "Victorious Democrats outline plan of attack for 120th Congress",
+          "url": "https://www.yahoo.com/news/politics/articles/victorious-democrats-outline-plan-attack-223800652.html"
+        },
+        {
+          "title": "Democrats Face Test of Governing Priorities as Trump Investigations Compete With Affordability Agenda",
+          "url": "https://yournews.com/2026/11/05/7252952/democrats-face-test-of-governing-priorities-as-trump-investigations-compete/"
+        }
+      ]
+    },
+    {
+      "query": "oil prices November 5 2026 Brent",
+      "results": [
+        {
+          "title": "Brent Crude Oil Futures Price Today - Investing.com",
+          "url": "https://www.investing.com/commodities/brent-oil"
+        },
+        {
+          "title": "Brent Falls to $100 as Traders Bet on a U.S.-Iran Deal",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Falls-to-100-as-Traders-Bet-on-a-US-Iran-Deal.html"
+        },
+        {
+          "title": "Current price of oil as of Nov. 4, 2026",
+          "url": "https://fortune.com/article/price-of-oil-11-04-2026/"
+        },
+        {
+          "title": "Brent Crude Oil Price Chart and Latest News",
+          "url": "https://www.hl.co.uk/shares/trading-commodities/brent-crude-oil"
+        },
+        {
+          "title": "Oil Prices Continue to Fall as Democratic Sweep Shakes Energy Markets",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Continue-to-Fall-as-Democratic-Sweep-Shakes-Energy-Markets.html"
+        },
+        {
+          "title": "Oil Crashes 9% as Trump and Vance Blame Iran War for Midterm Rout",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Crashes-9-as-Trump-and-Vance-Blame-Iran-War-for-Midterm-Rout.html"
+        },
+        {
+          "title": "Oil Price Charts",
+          "url": "https://oilprice.com/oil-price-charts/"
+        },
+        {
+          "title": "oil prices rise as brent hits 75 wti nears 72",
+          "url": "https://newsonair.gov.in/oil-prices-rise-as-brent-hits-75-wti-nears-72"
+        },
+        {
+          "title": "crude oil prices rise brent at 67 73 wti at 63 68 per barrel",
+          "url": "https://www.newsonair.gov.in/crude-oil-prices-rise-brent-at-67-73-wti-at-63-68-per-barrel"
+        }
+      ]
+    },
+    {
+      "query": "Asian markets November 5 2026 Nikkei Kospi rally",
+      "results": [
+        {
+          "title": "Stock market today: Live updates",
+          "url": "https://cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+        },
+        {
+          "title": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed After Post-Midterm Rally — TM, ARM, QCOM in Fo - Benzinga",
+          "url": "https://benzinga.com/markets/equities/26/11/62906643/stock-market-today-dow-jones-sp-500-futures-trade-mixed-after-post-midterm-rally-tm-arm-qcom-in-focus"
+        },
+        {
+          "title": "September 20, 2024 7:50 PM",
+          "url": "https://www.newsonair.gov.in/major-asian-markets-traded-in-green-european-in-red"
+        },
+        {
+          "title": "nikkei kospi rise shanghai hang seng fall",
+          "url": "https://www.newsonair.gov.in/nikkei-kospi-rise-shanghai-hang-seng-fall/"
+        },
+        {
+          "title": "October 6, 2023 4:51 PM",
+          "url": "https://www.newsonair.gov.in/tag/asian-markets"
+        },
+        {
+          "title": "Asian stock markets end in green",
+          "url": "https://newsonair.gov.in/asian-stock-markets-end-in-green"
+        },
+        {
+          "title": "November 26, 2025 6:23 PM",
+          "url": "https://www.newsonair.gov.in/asian-stock-markets-closes-in-positive-zone-today/"
+        },
+        {
+          "title": "asian stocks drop european markets mixed kospi 1 70 hang seng 1 20 nikkei 1",
+          "url": "https://newsonair.gov.in/asian-stocks-drop-european-markets-mixed-kospi-1-70-hang-seng-1-20-nikkei-1"
+        },
+        {
+          "title": "asian stocks mixed south koreas kospi up 2 11 japans nikkei 225 down 1 66",
+          "url": "https://newsonair.gov.in/asian-stocks-mixed-south-koreas-kospi-up-2-11-japans-nikkei-225-down-1-66"
+        }
+      ]
+    },
+    {
+      "query": "Europe news November 4 2026 Belgium Poland",
+      "results": [
+        {
+          "title": "Poland triumph over Belgium to tee up Ireland decider",
+          "url": "https://www.rte.ie/sport/soccer/2026/1013/1595286-poland-triumph-over-belgium-to-set-up-ireland-showdown/"
+        },
+        {
+          "title": "Belgian PM De Wever resigns amid failed 2027 budget talks",
+          "url": "https://112.ua/en/premer-belgii-bart-de-vever-podav-u-vidstavku-cerez-proval-peregovoriv-pro-budzetnij-deficit-2027-roku-195432"
+        },
+        {
+          "title": "The Brussels Times",
+          "url": "https://en.wikipedia.org/wiki/The_Brussels_Times"
+        },
+        {
+          "title": "Belgium 1-0 Poland (Oct 9, 2026) Final Score - ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401878166/poland-belgium"
+        },
+        {
+          "title": "Belgium%E2%80%93Poland relations",
+          "url": "https://en.wikipedia.org/wiki/Belgium%E2%80%93Poland_relations"
+        },
+        {
+          "title": "MEP Freund urges EC to review Poland’s access to EU funds",
+          "url": "https://ua.news/en/world/evrodeputat-froind-zaklikav-ek-pereviriti-dostup-polshchi-do-fondiv-es-rmf24"
+        },
+        {
+          "title": "king belgium attacks today our country mourning n543786",
+          "url": "https://www.nbcnews.com/storyline/brussels-attacks/king-belgium-attacks-today-our-country-mourning-n543786"
+        },
+        {
+          "title": "www.euronews.com",
+          "url": "https://www.euronews.com/profiles/650?p=31"
+        },
+        {
+          "title": "the european commission launches legal action against poland over russian influence law",
+          "url": "https://www.euronews.com/video/2023/06/07/the-european-commission-launches-legal-action-against-poland-over-russian-influence-law"
+        }
+      ]
+    },
+    {
+      "query": "Trump Iran war caused midterm loss largely true Vance November 4",
+      "results": [
+        {
+          "title": "Vance Blames War in Iran, Israel Ties for GOP Midterm Loss - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/vance-points-to-iran-war-israel-as-reasons-for-gop-midterm-loss"
+        },
+        {
+          "title": "Vance blames Iran war for Republicans' midterms defeat. Trump says he would 'do it again' - ABC News",
+          "url": "https://abcnews.com/Politics/vance-blames-iran-war-republicans-midterms-defeat-trump/story?id=137849295"
+        },
+        {
+          "title": "Arab News",
+          "url": "https://www.arabnews.com/middle-east/us-vp-vance-says-iran-war-is-the-reason-we-lost-midterms-3009798"
+        },
+        {
+          "title": "'The reason we lost is the war': Vance blames midterm GOP losses on Iran conflict",
+          "url": "https://www.militarytimes.com/news/pentagon-congress/2026/11/04/the-reason-we-lost-is-the-war-vance-blames-midterm-gop-losses-iran-conflict/"
+        },
+        {
+          "title": "Vance says the ‘real reason’ for GOP rout was anger over Iran war",
+          "url": "https://www.nbcnews.com/politics/2026-election/vance-says-ranger-iran-war-caused-gop-midterm-losses-rcna607446"
+        },
+        {
+          "title": "Operation Dawn-4",
+          "url": "https://en.wikipedia.org/wiki/Operation_Dawn-4"
+        },
+        {
+          "title": "Vance Blames Republican Midterm Losses On Iran War",
+          "url": "https://www.forbes.com/sites/conormurray/2026/11/04/vance-blames-republican-midterm-losses-on-iran-war-everyone-knows-why-we-lost/"
+        },
+        {
+          "title": "Donald Trump breaks silence on disagreement with JD Vance over Iran war plan",
+          "url": "https://www.aol.com/articles/donald-trump-breaks-silence-disagreement-124500849.html"
+        },
+        {
+          "title": "‘Pretty Bad for Vance’: The VP’s Silence on Iran Peeves Allies",
+          "url": "https://www.yahoo.com/news/articles/pretty-bad-vance-vp-silence-013923015.html"
+        }
+      ]
+    },
+    {
+      "query": "Gaza Lebanon news November 4 2026",
+      "results": [
+        {
+          "title": "Gaza Strip news - Today’s latest updates - CBS News",
+          "url": "https://www.cbsnews.com/tag/gaza-strip/"
+        },
+        {
+          "title": "Lebanon News Today",
+          "url": "https://www.newsnow.co.uk/h/World+News/Middle+East/Lebanon"
+        },
+        {
+          "title": "Gaza Now",
+          "url": "https://en.wikipedia.org/wiki/Gaza_Now"
+        },
+        {
+          "title": "Lebanon News: Latest News on Lebanon and Conflicts in the Mideast Region",
+          "url": "https://www.nbcnews.com/lebanon"
+        },
+        {
+          "title": "Gaza News: Breaking News on the Israel-Gaza Conflict, Netanyahu, Hamas & More",
+          "url": "https://www.nbcnews.com/gaza"
+        },
+        {
+          "title": "Palestine and Israel news today on map - Jerusalem today - Israel News today - Palestine News today - israelpalestine.liveuamap.com",
+          "url": "https://israelpalestine.liveuamap.com/"
+        },
+        {
+          "title": "Conflict With Hezbollah in Lebanon",
+          "url": "https://www.cfr.org/global-conflict-tracker/conflict/political-instability-lebanon"
+        },
+        {
+          "title": "Israel/Lebanon News Today",
+          "url": "https://www.newsnow.com/us/World/Middle+East/Israel~Lebanon"
+        },
+        {
+          "title": "Israel threatens to impose ‘Gaza model’ on Lebanon (VIDEO) — RT World News",
+          "url": "https://rt-english.com/news/647399-israel-lebanon-destruction-military/"
+        }
+      ]
+    },
+    {
+      "query": "Africa news November 4 2026 Ebola Sudan",
+      "results": [
+        {
+          "title": "South Sudan news - Today’s latest updates - CBS News",
+          "url": "https://www.cbsnews.com/tag/south-sudan/"
+        },
+        {
+          "title": "Uganda confirms deadly outbreak of Sudan Ebola virus",
+          "url": "https://www.cidrap.umn.edu/ebola/uganda-confirms-deadly-outbreak-sudan-ebola-virus"
+        },
+        {
+          "title": "Remaining patients discharged in Uganda's Ebola Sudan outbreak",
+          "url": "https://www.cidrap.umn.edu/ebola/remaining-patients-discharged-ugandas-ebola-sudan-outbreak"
+        },
+        {
+          "title": "Catholic Church Ready to Support Ebola Preparedness in South Sudan, Bishop Tells U.S. Ambassador",
+          "url": "https://www.aciafrica.org/news/25129/catholic-church-ready-to-support-ebola-preparedness-in-south-sudan-bishop-tells-us-ambassador"
+        },
+        {
+          "title": "Ebola News Today: Latest 2026 Outbreak Headlines",
+          "url": "https://www.liveebolamap.com/news"
+        },
+        {
+          "title": "Today's top news: Ebola coordinator, Lebanon, Occupied Palestinian Territory, Sudan",
+          "url": "https://www.unocha.org/news/todays-top-news-ebola-coordinator-lebanon-occupied-palestinian-territory-sudan"
+        },
+        {
+          "title": "UNICEF delivers 50 tonnes of Ebola medical supplies to South Sudan",
+          "url": "https://eyeradio.org/unicef-delivers-50-tonnes-of-ebola-medical-supplies-to-south-sudan/"
+        },
+        {
+          "title": "UNICEF scales up preparedness in response to Ebola outbreaks in neighbouring countries",
+          "url": "https://www.unicef.org/southsudan/press-releases/unicef-scales-preparedness-response-ebola-outbreaks-neighbouring-countries"
+        },
+        {
+          "title": "Africa Intelligence Brief — Wednesday, November 4, 2026",
+          "url": "https://www.riotimesonline.com/africa-intelligence-brief-wednesday-november-4-2026"
+        }
+      ]
+    },
+    {
+      "query": "China Asia news November 4 2026",
+      "results": [
+        {
+          "title": "China Today (TV program)",
+          "url": "https://en.wikipedia.org/wiki/China_Today_(TV_program)"
+        },
+        {
+          "title": "The Asian Today",
+          "url": "https://en.wikipedia.org/wiki/The_Asian_Today"
+        },
+        {
+          "title": "Asia Pacific Daily",
+          "url": "https://en.wikipedia.org/wiki/Asia_Pacific_Daily"
+        },
+        {
+          "title": "China Breaking News & Headlines",
+          "url": "https://www.scmp.com/news/china"
+        },
+        {
+          "title": "The China Post",
+          "url": "https://en.wikipedia.org/wiki/The_China_Post"
+        },
+        {
+          "title": "Asia Business Report",
+          "url": "https://en.wikipedia.org/wiki/Asia_Business_Report"
+        },
+        {
+          "title": "China Today",
+          "url": "https://en.wikipedia.org/wiki/China_Today"
+        },
+        {
+          "title": "Nikkei Asia - Business, Politics, Economy and Tech News & Analysis",
+          "url": "https://asia.nikkei.com/"
+        },
+        {
+          "title": "China news - breaking news, video, headlines and opinion",
+          "url": "https://www.cnn.com/world/china"
+        },
+        {
+          "title": "Asia Times",
+          "url": "https://asiatimes.com/"
+        }
+      ]
+    }
+  ],
+  "fetched": [],
+  "meta": {
+    "id": "2026-11-05",
+    "generated_at": "2026-11-05T11:24:03.392Z",
+    "model": "claude-opus-5-5",
+    "via": "claude-code-routine",
+    "searches": 15,
+    "results_count": 138,
+    "cited_count": 33
+  }
+}

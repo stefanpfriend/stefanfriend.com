@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-05",
+      "date": "Thursday, November 5, 2026",
+      "edition": "AFTERSHOCKS",
+      "searches": 15,
+      "cited_count": 33,
+      "results_count": 138
+    },
+    {
       "id": "2026-11-04",
       "date": "Wednesday, November 4, 2026",
       "edition": "DEMOCRATIC SWEEP",
