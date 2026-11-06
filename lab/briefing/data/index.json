@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-06",
+      "date": "Friday, November 6, 2026",
+      "edition": "AI MELTDOWN",
+      "searches": 15,
+      "cited_count": 37,
+      "results_count": 136
+    },
+    {
       "id": "2026-11-05",
       "date": "Thursday, November 5, 2026",
       "edition": "AFTERSHOCKS",

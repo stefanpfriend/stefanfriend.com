@@ -1,524 +1,632 @@
 {
-  "date": "Thursday, November 5, 2026",
-  "edition": "AFTERSHOCKS",
-  "tldr_label": "TL;DR — The Dow posts its best day of the year and oil sinks as Vance blames the Iran war for the midterm rout",
+  "date": "Friday, November 6, 2026",
+  "edition": "AI MELTDOWN",
+  "tldr_label": "TL;DR — The Nasdaq has its worst day since April 2025, Asia follows, and Trump blames Democrats",
   "tldr_bullets": [
     {
-      "label": "Markets",
-      "body": "The Dow jumped 3% to 53,356, its biggest gain of the year, after Trump accepted the election results. The S&P 500 rose 1.6%. [[TAG:success:Dow +3%]]"
+      "label": "Wall Street",
+      "body": "The Nasdaq fell 5.5% into correction territory and the S&P 500 lost 4.4% as AI and chip stocks collapsed, erasing Wednesday's rally. [[TAG:danger:Nasdaq -5.5%]]"
     },
     {
-      "label": "Oil",
-      "body": "Oilprice.com reported that Brent fell about 9% toward $94 as Trump and Vance tied the Iran war to the Republican defeat and traders bet on a deal. [[TAG:warning:Brent ~$94]]"
+      "label": "Asia",
+      "body": "Bloomberg and Fox Business reported that Japan's Nikkei entered a bear market and that Korea's Kospi and Taiwan's Taiex plunged on Friday. [[TAG:danger:Nikkei bear market]]"
     },
     {
-      "label": "Congress",
-      "body": "Democrats say lowering costs is their first priority, alongside investigations of the administration. Senate races in Alaska and Mississippi remain uncalled."
-    },
-    {
-      "label": "Iran",
-      "body": "Vance said 'the reason we lost is the war'. Trump said he would do it again and threatened to 'finish the job' if Iran rejects a nuclear deal."
+      "label": "Jobs",
+      "body": "October payrolls, due today, are expected to show about 65,000 new jobs. Traders are weighing a Fed hike in December."
     },
     {
       "label": "Israel",
-      "body": "Eisenkot leads in recommendations as Herzog's consultations near an end. The haredi party UTJ declined to back Netanyahu."
+      "body": "Herzog says 67 lawmakers recommended Eisenkot and will hand over the mandate on Sunday. CNN reported he called Trump's plan to end annual military aid 'a bolt from the blue'."
+    },
+    {
+      "label": "Iran",
+      "body": "Trump is weighing whether to resume the war as US Central Command prepares options. Iran says talks are 'proceeding very intensively'."
     },
     {
       "label": "World",
-      "body": "Early results in South Africa show the ANC narrowly ahead of the DA. Zelensky says the Zaporizhzhia aid-center strike may have killed 70 people, a figure that is disputed."
+      "body": "More than 600,000 marched in France. The toll from the Zaporizhzhia aid-center strike has risen to about 42, and early results show the ANC near 32% in South Africa."
     }
   ],
   "sections": [
     {
-      "title": "Wall Street Cheers Gridlock",
-      "icon": "📈",
-      "summary": "The Dow posts its biggest gain of the year as Trump makes peace with the result; oil slides",
+      "title": "AI Meltdown",
+      "icon": "📉",
+      "summary": "Nasdaq posts its worst day since April 2025 as chip stocks crash; Trump blames Democrats",
       "paragraphs": [
         {
-          "heading": "Rally",
-          "body": "CBS News reported that the Dow jumped 1,569 points, or 3%, to 53,356.12, its biggest gain of the year, and that the S&P 500 rose about 1.6% and the Nasdaq 1.4%. CNBC said Trump's quick acceptance of the results drove the 'monster rally'. Analysts cited gridlock limiting big tax and spending bills. CBS said Trump Media fell nearly 25%. [[TAG:success:Dow +3%]]"
+          "heading": "The rout",
+          "body": "CNBC reported that Nvidia and Qualcomm fell more than 9%, pushing the Nasdaq to its worst day since April 2025. The Motley Fool said the AI trade came under fire. StockTitan reported a sharply lower close as the chip selloff spread, and Yahoo Finance said the Dow lost about 1,800 points as the Nasdaq entered a correction. Reported closes are Nasdaq down 5.5%, S&P 500 down 4.4% and Dow down 3.4%. [[TAG:danger:S&P -4.4%]]"
         },
         {
-          "heading": "Oil",
-          "body": "Oilprice.com reported that Brent first fell to about $100 on bets of a US-Iran deal, then dropped about 9% toward $94 as Trump and Vance blamed the war for the midterm losses. Fortune put Brent near $106 on Wednesday morning. Prices vary widely by timestamp. [[TAG:warning:oil volatile]]"
+          "heading": "Why",
+          "body": "CNBC tied part of the selloff to Qualcomm's weak outlook. Reuters, via The Globe and Mail, cited fears that Democratic control of Congress could slow the buildout of AI data centers. Fox Business reported that Trump blamed the 'Dumocrats' for the drop. Analysts point mainly to worries about AI spending and crowded positions, and Business Standard also carried Trump's claim."
         },
         {
-          "heading": "Asia",
-          "body": "CNBC's live coverage reported that Korea's Kospi fell more than 5% on Thursday while other Asian markets were mixed. Benzinga said US futures were mixed after the rally."
+          "heading": "Asia and today",
+          "body": "Bloomberg and Fox Business reported that Asian markets plunged on Friday. The Nikkei fell into a bear market and Korea's Kospi dropped more than 6% after a trading halt. The Globe and Mail said Nasdaq futures rose early as chip stocks stabilized. Kiplinger and FXStreet said the October jobs report is due, with about 65,000 jobs expected."
         }
       ],
-      "sources": "CBS News, CNBC, Oilprice.com, Fortune, Benzinga",
+      "sources": "CNBC, Motley Fool, StockTitan, Yahoo Finance, Globe and Mail/Reuters, Fox Business, Business Standard, Bloomberg, Kiplinger, FXStreet",
       "citations": [
         {
-          "outlet": "CBS News",
-          "title": "Dow posts biggest gain of the year after Democrats take control of Congress - CBS News",
-          "url": "https://www.cbsnews.com/news/stock-market-soar-democrats-take-control-of-congress/"
-        },
-        {
           "outlet": "CNBC",
-          "title": "What was really behind Wednesday's monster rally? Trump quickly making peace",
-          "url": "https://www.cnbc.com/2026/11/04/stock-market-rally-trump-midterms.html"
+          "title": "AI meltdown: Nvidia and Qualcomm drop more than 9%, pushing Nasdaq to worst day since April 2025",
+          "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
         },
         {
-          "outlet": "Oilprice.com",
-          "title": "Brent Falls to $100 as Traders Bet on a U.S.-Iran Deal",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Falls-to-100-as-Traders-Bet-on-a-US-Iran-Deal.html"
+          "outlet": "Motley Fool",
+          "title": "Stock Market Today, Nov. 5: Nasdaq Suffers Worst Day in 18 Months as AI Trade Comes Under Fire",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nasdaq-suffers-worst-day-in-18-months-as-ai-trade-comes-under-fire/"
         },
         {
-          "outlet": "Oilprice.com",
-          "title": "Oil Crashes 9% as Trump and Vance Blame Iran War for Midterm Rout",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Crashes-9-as-Trump-and-Vance-Blame-Iran-War-for-Midterm-Rout.html"
+          "outlet": "StockTitan",
+          "title": "The Stock Market Today, November 5, 2026, Closed Sharply Lower as the AI Chip Selloff Spread",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026"
         },
         {
-          "outlet": "Fortune",
-          "title": "Current price of oil as of Nov. 4, 2026",
-          "url": "https://fortune.com/article/price-of-oil-11-04-2026/"
+          "outlet": "Yahoo Finance",
+          "title": "Stock market today: Dow plunges 1,800 points, Nasdaq enters correction in AI trade meltdown",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"
         },
         {
-          "outlet": "CNBC",
-          "title": "Stock market today: Live updates",
-          "url": "https://cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+          "outlet": "Globe and Mail/Reuters",
+          "title": "Premarket: Nasdaq futures rise after steep AI selloff as chip stocks stabilize - The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-nasdaq-futures-rise-after-steep-ai-selloff-as-chip-stocks/"
         },
         {
-          "outlet": "Benzinga",
-          "title": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed After Post-Midterm Rally — TM, ARM, QCOM in Fo - Benzinga",
-          "url": "https://benzinga.com/markets/equities/26/11/62906643/stock-market-today-dow-jones-sp-500-futures-trade-mixed-after-post-midterm-rally-tm-arm-qcom-in-focus"
-        }
-      ]
-    },
-    {
-      "title": "The New Congress",
-      "icon": "🇺🇸",
-      "summary": "Democrats put cutting costs first, alongside oversight; Alaska and Mississippi remain uncalled",
-      "paragraphs": [
-        {
-          "heading": "Agenda",
-          "body": "Spectrum News reported that Schumer and Jeffries call cutting costs the first job of the new majority. ABC News and NBC News said Democrats also plan investigations of the administration. Their priorities include restoring health-care subsidies, reversing Medicaid cuts and challenging tariffs. Trump's veto still limits what can become law. [[TAG:info:affordability first]]"
+          "outlet": "Fox Business",
+          "title": "Trump blames Democrat midterm wins for stock market drop and 401(k)s",
+          "url": "https://www.foxbusiness.com/politics/trump-blames-democrats-stock-market-plunge-after-sweeping-midterm-victories"
         },
         {
-          "heading": "Count",
-          "body": "CNBC reported that Alaska and Mississippi are the only Senate races the AP has not yet called. NBC Chicago reported a 54-44 Democratic Senate majority with those two pending. NBC News projected about 258 House seats for Democrats. In Alaska, Peltola and Sullivan are separated by a fraction of a point, and Roll Call reported that a judge dismissed a Justice Department suit seeking to block certification if Sullivan loses. [[TAG:warning:Alaska close]]"
-        }
-      ],
-      "sources": "Spectrum News, ABC News, NBC News, CNBC, NBC Chicago, Roll Call",
-      "citations": [
-        {
-          "outlet": "Spectrum News",
-          "title": "Schumer, Jeffries say cutting costs is job No. 1 for Democratic majority",
-          "url": "https://spectrumnews1.com/ca/la/politics/2026/11/04/schumer-jeffries-midterm-election-wins-democratic-congressional-control"
-        },
-        {
-          "outlet": "ABC News",
-          "title": "Democrats take the House. Here’s what they plan to investigate and their legislative agenda - ABC News",
-          "url": "https://abcnews.com/Politics/democrats-house-heres-plan-investigate-legislative-agenda/story?id=137832144"
-        },
-        {
-          "outlet": "NBC News",
-          "title": "Democrats take Congress with dual goals: Investigate Trump and tackle affordability",
-          "url": "https://www.nbcnews.com/politics/congress/democrats-control-house-senate-plans-trump-oversight-rcna605714"
-        },
-        {
-          "outlet": "CNBC",
-          "title": "2026 midterm election results: House, Senate",
-          "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
-        },
-        {
-          "outlet": "NBC Chicago",
-          "title": "Midterm results: Which races still haven't been called, and which states flipped blue?",
-          "url": "https://www.nbcchicago.com/news/local/election-2026-which-races-still-havent-been-called-and-what-states-flipped-seats-mississippi-alaska-election-results/4012174/"
-        },
-        {
-          "outlet": "Roll Call",
-          "title": "Judge tosses DOJ lawsuit seeking to delay Alaska vote certification - Roll Call",
-          "url": "https://rollcall.com/2026/11/01/alaska-senate-vote-certification-dan-sullivan/"
-        }
-      ]
-    },
-    {
-      "title": "Iran After the Vote",
-      "icon": "⚔️",
-      "summary": "Vance blames the war for the GOP rout; Trump says he'd do it again and warns Tehran",
-      "paragraphs": [
-        {
-          "heading": "Blame",
-          "body": "Military Times and NBC News reported that Vance wrote 'the reason we lost is the war', and Bloomberg said he also cited ties with Israel. ABC News reported that Trump said he would 'do it again', and Khaleej Times said Trump called the link to the war 'largely true'. ABC News added that its poll found voters more focused on the cost of living than on the war. [[TAG:warning:blame disputed]]"
-        },
-        {
-          "heading": "Tehran",
-          "body": "CBS News reported that Iran says the election shows Americans reject war. Fox News said Trump threatened to 'finish the job' if Iran rejects a nuclear deal, while the Revolutionary Guards vowed 'united' resistance. Gulf News reported that talks mediated by Qatar continue, with no decision on renewed strikes."
-        }
-      ],
-      "sources": "Military Times, NBC News, Bloomberg, ABC News, Khaleej Times, CBS News, Fox News, Gulf News",
-      "citations": [
-        {
-          "outlet": "Military Times",
-          "title": "'The reason we lost is the war': Vance blames midterm GOP losses on Iran conflict",
-          "url": "https://www.militarytimes.com/news/pentagon-congress/2026/11/04/the-reason-we-lost-is-the-war-vance-blames-midterm-gop-losses-iran-conflict/"
-        },
-        {
-          "outlet": "NBC News",
-          "title": "Vance says the ‘real reason’ for GOP rout was anger over Iran war",
-          "url": "https://www.nbcnews.com/politics/2026-election/vance-says-ranger-iran-war-caused-gop-midterm-losses-rcna607446"
+          "outlet": "Business Standard",
+          "title": "Trump blames US market crash on Democrats' midterm election victories",
+          "url": "https://business-standard.com/amp/world-news/trump-blames-us-market-crash-on-democrats-midterm-election-victories-126110600089_1.html"
         },
         {
           "outlet": "Bloomberg",
-          "title": "Vance Blames War in Iran, Israel Ties for GOP Midterm Loss - Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-04/vance-points-to-iran-war-israel-as-reasons-for-gop-midterm-loss"
+          "title": "AI Selloff Drives Asian Stock Markets to Fresh Grim Milestones - Bloomberg",
+          "url": "https://bloomberg.com/news/articles/2026-11-06/ai-selloff-asian-stock-markets-nikkei-kospi-taiex-grim-milestones?srnd=homepage-americas"
         },
         {
-          "outlet": "ABC News",
-          "title": "Vance blames Iran war for Republicans' midterms defeat. Trump says he would 'do it again' - ABC News",
-          "url": "https://abcnews.com/Politics/vance-blames-iran-war-republicans-midterms-defeat-trump/story?id=137849295"
+          "outlet": "Fox Business",
+          "title": "Asian stock markets plunge as Japan Nikkei, South Korea KOSPI and Taiwan stocks fall",
+          "url": "https://www.foxbusiness.com/markets/asian-stock-markets-plunge-japan-nikkei-south-korea-kospi-taiwan-stocks-fall"
         },
         {
-          "outlet": "Khaleej Times",
-          "title": "Trump says 'largely true' Iran war caused midterms loss, after Vance comments",
-          "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-4-2026"
+          "outlet": "Kiplinger",
+          "title": "What to Expect From the October Jobs Report",
+          "url": "https://www.kiplinger.com/investing/economy/jobs-report-october-2026-what-to-expect"
         },
         {
-          "outlet": "CBS News",
-          "title": "Live Updates: Iran says U.S. election results show Americans reject war, as Trump says he'd do it again",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
-        },
-        {
-          "outlet": "Fox News",
-          "title": "Trump threatens to ‘finish the job’ if Iran rejects nuclear deal as IRGC vows ‘united’ resistance",
-          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-elections-oil-prices-november-4"
-        },
-        {
-          "outlet": "Gulf News",
-          "title": "US/Israel-Iran War: What UAE residents need to know today (Nov. 4, 2026)",
-          "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-4-2026-1.500735252"
+          "outlet": "FXStreet",
+          "title": "US Nonfarm Payrolls expected to pick up in October",
+          "url": "https://www.fxstreet.com/news/us-nonfarm-payrolls-expected-to-pick-up-in-october-202611060930"
         }
       ]
     },
     {
-      "title": "Israel's Mandate",
-      "icon": "🗳️",
-      "summary": "Eisenkot leads in recommendations as UTJ declines to back Netanyahu",
+      "title": "Oil Swings",
+      "icon": "🛢️",
+      "summary": "Brent rebounds toward $98 after a midweek plunge as hopes of a quick Iran deal fade",
       "paragraphs": [
         {
-          "heading": "Recommendations",
-          "body": "The Jerusalem Post reported that Religious Zionism and Shas recommended Netanyahu, while Yisrael Beytenu backed Eisenkot. The Times of Israel said the haredi faction UTJ will not recommend Netanyahu. Reports put Eisenkot at 56 or more recommendations to Netanyahu's 53 before the Joint List decides. The Tribune and JNS reported that consultations moved into a second day. The Knesset convenes on November 10. [[TAG:info:mandate pending]]"
-        },
-        {
-          "heading": "US ties",
-          "body": "The Times of Israel live blog reported that Eisenkot pledged after the US midterms to renew a bipartisan US-Israel alliance."
+          "heading": "Rebound",
+          "body": "Oilprice.com reported that oil rebounded sharply after Wednesday's rout, when Brent fell about 8.7% to $94.62, and rose toward $98 on Thursday. Trading Economics put Thursday's close near $96.30. Figures vary by timestamp. [[TAG:warning:oil volatile]]"
         }
       ],
-      "sources": "Jerusalem Post, Times of Israel, The Tribune, JNS",
+      "sources": "Oilprice.com, Trading Economics",
       "citations": [
         {
-          "outlet": "Jerusalem Post",
-          "title": "RZP, Shas recommend Benjamin Netanyahu, Avigdor Liberman backs Gadi Eisenkot in talks with Isaac Herzog",
-          "url": "https://www.jpost.com/israel-news/article-913842"
+          "outlet": "Oilprice.com",
+          "title": "Oil Prices Rebound Sharply After Brutal Midweek Rout",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-Sharply-After-Brutal-Midweek-Rout.html"
         },
         {
-          "outlet": "Times of Israel",
-          "title": "As Herzog consults party heads, Haredi faction says it won't recommend Netanyahu as PM",
-          "url": "https://www.timesofisrael.com/as-herzog-consults-party-heads-haredi-faction-says-it-wont-recommend-netanyahu-as-pm/"
+          "outlet": "Oilprice.com",
+          "title": "Oil Rebounds Toward $100 as Democrats’ Sweep Rattles Energy Stocks",
+          "url": "https://oilprice.com/Energy/Energy-General/Oil-Rebounds-Toward-100-as-Democrats-Sweep-Rattles-Energy-Stocks.html"
         },
         {
-          "outlet": "The Tribune",
-          "title": "Israel's President Herzog begins second day of consultations with parties on picking next PM - The Tribune",
-          "url": "https://www.tribuneindia.com/news/benjamin-netanyahu-support/israels-president-herzog-begins-second-day-of-consultations-with-parties-on-picking-next-pm"
+          "outlet": "Trading Economics",
+          "title": "Brent oil - Price - Chart - Historical Data - News",
+          "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+        }
+      ]
+    },
+    {
+      "title": "Iran",
+      "icon": "⚔️",
+      "summary": "Trump weighs resuming the war as CENTCOM prepares options; Tehran says talks are intensive",
+      "paragraphs": [
+        {
+          "heading": "Next move",
+          "body": "Fox News reported that Trump met his national security team as US Central Command prepares for possible strikes. PBS said Trump must now weigh his next move in a war that contributed to the Republican defeat. CBS News reported more attacks on ships in the Gulf, and that Iran says talks through mediators are 'proceeding very intensively' and that the outcome depends on Washington. Reports differ on whether new strikes are imminent. [[TAG:warning:strikes possible]]"
+        }
+      ],
+      "sources": "Fox News, PBS NewsHour, CBS News",
+      "citations": [
+        {
+          "outlet": "Fox News",
+          "title": "Trump weighs resuming Iran war as CENTCOM prepares for possible strikes",
+          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-israel-elections-november-5"
         },
+        {
+          "outlet": "PBS NewsHour",
+          "title": "After midterms, Trump is left to weigh his next move in Iran war that contributed to GOP loss",
+          "url": "https://www.pbs.org/newshour/politics/after-midterms-trump-is-left-to-weigh-his-next-move-in-iran-war-that-contributed-to-gop-loss"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Iran War Updates: More ships attacked in Persian Gulf, oil prices rebound slightly after post-midterm plunge",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+        }
+      ]
+    },
+    {
+      "title": "Israel",
+      "icon": "🗳️",
+      "summary": "67 lawmakers back Eisenkot, with the mandate due Sunday; Trump's aid cut stuns Jerusalem",
+      "paragraphs": [
+        {
+          "heading": "Mandate",
+          "body": "JNS and the Times of Israel reported Herzog saying that factions with 67 lawmakers recommended Eisenkot and 46 backed Netanyahu, and that he will assign the mandate on Sunday. Ynet said Eisenkot is close to the mandate. Herzog warned that 'mutual vetoes' between and within the blocs leave the outcome open, and 19 of the 67 recommendations come from Arab-led parties. [[TAG:info:mandate Sunday]]"
+        },
+        {
+          "heading": "Aid shock",
+          "body": "CNN reported that Herzog called Trump's announcement ending annual US military aid 'like a bolt from the blue'. The Washington Post and Fox News reported that Trump said the roughly $4 billion a year would end by the close of 2026, while Israel could still buy weapons. It is unclear how this squares with the existing aid agreement, which runs to 2028. [[TAG:warning:details unclear]]"
+        }
+      ],
+      "sources": "JNS, Times of Israel, Ynet, CNN, Washington Post, Fox News",
+      "citations": [
         {
           "outlet": "JNS",
-          "title": "Herzog resumes talks on who will form next Israeli government - Israel & Jewish News - JNS",
-          "url": "https://www.jns.org/news/israel-news/herzog-resumes-talks-on-who-will-form-next-israeli-govt"
+          "title": "Herzog: 67 MKs recommend Eisenkot, 46 Netanyahu; mandate to be assigned Sunday - Israel & Jewish News - JNS",
+          "url": "https://www.jns.org/news/israel-news/herzog-67-mks-recommend-eisenkot-46-netanyahu-mandate-to-be-assigned-sunday"
         },
         {
           "outlet": "Times of Israel",
-          "title": "Nov. 4: In post-midterm message, Eisenkot pledges to renew bipartisan US-Israel alliance",
-          "url": "https://www.timesofisrael.com/liveblog-november-4-2026/"
+          "title": "Herzog says Eisenkot got 67 nods as PM, but he will only hand over mandate on Sunday",
+          "url": "https://www.timesofisrael.com/liveblog_entry/herzog-says-eisenkot-got-67-nods-as-pm-but-he-will-only-hand-over-mandate-on-sunday/"
+        },
+        {
+          "outlet": "Ynet",
+          "title": "Eisenkot secures 67 recommendations, nears mandate to form Israel's next government",
+          "url": "https://www.ynetnews.com/article/ryuqebc6zg"
+        },
+        {
+          "outlet": "CNN",
+          "title": "‘Like a bolt from the blue’: Israel’s president shocked by Trump announcing end of aid",
+          "url": "https://www.cnn.com/2026/11/05/middleeast/israel-trump-aid-election-latam-intl"
+        },
+        {
+          "outlet": "Washington Post",
+          "title": "Trump to stop $4 billion in annual funding for Israeli arms purchases - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/11/03/trump-stop-4-billion-annual-funding-israeli-arms-purchases/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Trump says US annual military aid to Israel ends by close of year",
+          "url": "https://www.foxnews.com/politics/trump-says-israel-stop-receiving-4b-us-aid-years-end-can-still-buy-weapons"
         }
       ]
     },
     {
       "title": "Ukraine",
       "icon": "🇺🇦",
-      "summary": "Zelensky says the aid-center strike may have killed 70; Russia hits grids in nine regions",
+      "summary": "Aid-center toll climbs past 40 with dozens missing; Trump says a deal is near",
       "paragraphs": [
         {
-          "heading": "Toll dispute",
-          "body": "CBS News reported that Zelensky said Russia's 'insane attack' on an aid center in Zaporizhzhia region may have killed 70 people, and he pleaded for air defenses. ABC News reported 31 confirmed deaths, and Russia said the strike killed Ukrainian troops. [[TAG:warning:toll disputed]]"
+          "heading": "Toll",
+          "body": "NBC News reported that the toll from Russia's strike on the aid site in Komyshuvakha reached 40, with dozens still missing. The Oman Observer reported 42, and The Insider had earlier reported 31. Russia says it hit Ukrainian troops. [[TAG:danger:40+ killed]]"
         },
         {
-          "heading": "Energy war",
-          "body": "ABC News reported that Ukraine and Russia exchanged hundreds of drones overnight as Moscow kept targeting energy infrastructure, damaging facilities in nine regions. Al Jazeera reported that Ukrainian strikes killed three people in Russia's Belgorod region."
+          "heading": "Diplomacy",
+          "body": "Al Jazeera reported that Trump said a Russia-Ukraine deal is near after meeting Putin's envoy, though he gave no specifics. NBC News said a US envoy called the renewed security talks productive as the two sides traded airstrikes."
         }
       ],
-      "sources": "CBS News, ABC News, Al Jazeera",
+      "sources": "NBC News, Oman Observer, The Insider, Al Jazeera",
       "citations": [
         {
-          "outlet": "CBS News",
-          "title": "Ukraine's leader says Russian \"insane attack\" on aid center may have killed 70 people, pleads for air defenses - CBS News",
-          "url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/"
+          "outlet": "NBC News",
+          "title": "Death toll hits 40 after Russian strike on Ukrainian aid site; dozens remain missing",
+          "url": "https://www.nbcnews.com/world/ukraine/russia-bomb-aid-center-ukraine-dead-missing-zelenskyy-bodies-rcna607458"
         },
         {
-          "outlet": "ABC News",
-          "title": "Ukraine and Russia trade hundreds of drones overnight, as Moscow continues targeting energy infrastructure - ABC News",
-          "url": "https://abcnews.com/International/ukraine-russia-trade-hundreds-drones-overnight-moscow-continues/story?id=137838953"
+          "outlet": "Oman Observer",
+          "title": "Toll from Ukraine aid centre strike rises to 42 - Oman Observer",
+          "url": "https://www.omanobserver.om/article/1199179/world/europe/toll-from-ukraine-aid-centre-strike-rises-to-42"
+        },
+        {
+          "outlet": "The Insider",
+          "title": "Death toll from Russian strike on humanitarian aid distribution site in Ukraine’s Zaporizhzhia Region rises to 31 — The Insider",
+          "url": "https://theins.press/en/news/299111"
         },
         {
           "outlet": "Al Jazeera",
-          "title": "Ukrainian strikes kill three in Russia’s Belgorod region",
-          "url": "https://www.aljazeera.com/news/2026/11/4/ukrainian-strikes-kill-three-in-russias-belgorod-region"
+          "title": "Trump says Russia-Ukraine deal is near after meeting Putin’s envoy",
+          "url": "https://www.aljazeera.com/news/2026/11/6/trump-met-russian-envoy-after-he-appeared-with-melania-trump-and-ukrainians"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "Russia and Ukraine exchange airstrikes as U.S. envoy describes renewed security talks as productive",
+          "url": "https://www.nbcnews.com/world/ukraine/russia-ukraine-exchange-airstrikes-us-envoy-describes-renewed-security-rcna607778"
         }
       ]
     },
     {
-      "title": "Africa",
-      "icon": "🌍",
-      "summary": "Early count shows the ANC narrowly ahead of the DA in South Africa's local elections",
+      "title": "France in the Streets",
+      "icon": "🇫🇷",
+      "summary": "Biggest protest day in years as unions and students march over wages and costs",
       "paragraphs": [
         {
-          "heading": "South Africa",
-          "body": "CNBC Africa, citing Reuters, reported that with a quarter of votes counted the ANC had about 32% and the DA about 29%. Polity said the ANC narrowly leads, and Reuters noted the ANC would be about 14 points below its 2021 result if the trend holds. The DA leads in most Gauteng metros. The results are preliminary. [[TAG:warning:ANC near 32%]]"
-        },
-        {
-          "heading": "Ebola",
-          "body": "The Rio Times Africa brief reported 10,305 confirmed Ebola cases and 4,996 deaths in DR Congo as of October 28. UNICEF said it is stepping up preparedness in South Sudan, which has reported no cases."
+          "heading": "Turnout",
+          "body": "CNN called it France's biggest day of protests in years. CP24 reported that more than 600,000 people rallied, according to the interior ministry, while the CGT union claimed nearly 1.6 million. The Washington Post said the crowds demanded higher wages and backed students' demands. The day was largely peaceful, with some local clashes, and Prime Minister Sébastien Lecornu has called a 'social conference' with unions and employers for November 9. [[TAG:warning:600K+ marched]]"
         }
       ],
-      "sources": "CNBC Africa, Polity, Rio Times, UNICEF",
+      "sources": "CNN, CP24, Washington Post",
       "citations": [
         {
-          "outlet": "CNBC Africa",
-          "title": "South Africa’s ANC on 32%, DA 29% after one-quarter of local election votes counted",
-          "url": "https://www.cnbcafrica.com/2026/south-africas-anc-on-32-da-29-after-one-quarter-of-local-election-votes-counted"
+          "outlet": "CNN",
+          "title": "Hundreds of thousands march in France’s biggest day of protests in years. Here’s what we know",
+          "url": "https://www.cnn.com/2026/11/05/europe/french-protest-demonstration-latam-intl"
         },
         {
-          "outlet": "Polity",
-          "title": "ANC narrowly leads DA in early South Africa municipal election results",
-          "url": "https://www.polity.org.za/article/anc-narrowly-leads-da-in-early-south-africa-municipal-election-results-2026-11-05"
+          "outlet": "CP24",
+          "title": "France protests: Unions join forces for nationwide strikes",
+          "url": "https://www.cp24.com/news/world/2026/11/05/more-than-600000-rally-across-france-to-demand-higher-wages-and-school-funding/"
         },
         {
-          "outlet": "Rio Times",
-          "title": "Africa Intelligence Brief — Wednesday, November 4, 2026",
-          "url": "https://www.riotimesonline.com/africa-intelligence-brief-wednesday-november-4-2026"
+          "outlet": "Washington Post",
+          "title": "Mass protests sweep France as huge crowds demand higher wages, back students' demands - The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/11/05/france-protests-unions-students-paris-rioting/58400290-d8f4-11f1-930a-e08f8086f5ac_story.html"
+        }
+      ]
+    },
+    {
+      "title": "Votes Still Counting",
+      "icon": "🗳️",
+      "summary": "Alaska's Senate race stays tight; South Africa's ANC near 32% with results due Sunday",
+      "paragraphs": [
+        {
+          "heading": "Alaska",
+          "body": "The Washington Post reported that Mary Peltola narrowly leads Senator Dan Sullivan, and The Hill reported the same narrow lead. The Anchorage Daily News tracked the early count. Alaska counts ballots by ranked choice, and the race had not been called in these reports."
         },
         {
-          "outlet": "UNICEF",
-          "title": "UNICEF scales up preparedness in response to Ebola outbreaks in neighbouring countries",
-          "url": "https://www.unicef.org/southsudan/press-releases/unicef-scales-preparedness-response-ebola-outbreaks-neighbouring-countries"
+          "heading": "South Africa",
+          "body": "The Citizen said early results do not look promising for the ANC. Swisher Post, citing the electoral commission's dashboard, reported the ANC at about 32% and leading in 62 councils with roughly 69% counted. MyBroadband said the DA may fall short in Johannesburg and Pretoria as ActionSA gains. Official results are due on Sunday. [[TAG:info:results Sunday]]"
+        }
+      ],
+      "sources": "Washington Post, The Hill, Anchorage Daily News, The Citizen, Swisher Post, MyBroadband",
+      "citations": [
+        {
+          "outlet": "Washington Post",
+          "title": "Alaska Senate election live results 2026: Peltola narrowly leads Sullivan in tight race - The Washington Post",
+          "url": "https://www.washingtonpost.com/elections/results/2026/11/03/alaska-senate-peltola-sullivan-live-updates/"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Mary Peltola narrowly leads Dan S. Sullivan in Alaska Senate race",
+          "url": "https://thehill.com/homenews/campaign/6197925-mary-peltola-alaska-senate-race-lead/"
+        },
+        {
+          "outlet": "Anchorage Daily News",
+          "title": "Early results show Peltola and Sullivan in tight U.S. Senate race - Anchorage Daily News",
+          "url": "https://www.adn.com/politics/2026/11/03/peltola-leads-sullivan-in-limited-early-results-in-hard-fought-us-senate-race/"
+        },
+        {
+          "outlet": "The Citizen",
+          "title": "LOCAL GOVERNMENT ELECTIONS LIVE: Early results not looking promising for ANC",
+          "url": "https://www.citizen.co.za/news/south-africa/elections/local-government-elections-live-day-1-results-and-turnout/"
+        },
+        {
+          "outlet": "Swisher Post",
+          "title": "Local government election results: ANC leads in 62 councils",
+          "url": "https://www.swisherpost.com/news/local-government-election-results-anc-leads-62-councils/"
+        },
+        {
+          "outlet": "MyBroadband",
+          "title": "2026 South African Election Results: DA expected to fall short in Johannesburg and Pretoria as ActionSA emerges as a major player",
+          "url": "https://mybroadband.co.za/news/government/676205-2026-south-african-election-results-da-expected-to-fall-short-in-johannesburg-and-pretoria-as-actionsa-emerges-as-a-major-player.html"
         }
       ]
     }
   ],
   "searches": [
     {
-      "query": "midterm results November 4 2026 House seat count Alaska Senate called",
+      "query": "Iran news November 5 2026",
       "results": [
         {
-          "title": "Alaska U.S. House Midterm Election 2026: Live Results",
-          "url": "https://www.nbcnews.com/politics/2026-elections/alaska-house-results"
+          "title": "Iranian Economic News Agency",
+          "url": "https://en.wikipedia.org/wiki/Iranian_Economic_News_Agency"
         },
         {
-          "title": "Midterm results: Which races still haven't been called, and which states flipped blue?",
-          "url": "https://www.nbcchicago.com/news/local/election-2026-which-races-still-havent-been-called-and-what-states-flipped-seats-mississippi-alaska-election-results/4012174/"
+          "title": "Iran News",
+          "url": "https://www.newsnow.co.uk/h/World+News/Middle+East/Iran"
         },
         {
-          "title": "Alaska 2026 live midterm election results - ABC News",
-          "url": "https://abcnews.com/Politics/alaska-2026-live-midterm-election-results/story?id=136761068"
+          "title": "Iran plays down hope for deal to end war after new U.S. strikes on eve of midterm elections",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/"
         },
         {
-          "title": "2026 midterm election results: House, Senate",
-          "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+          "title": "Iran",
+          "url": "https://www.iranintl.com/en/iran-en"
         },
         {
-          "title": "U.S. Senate Election 2026 Live Results: Democrats Win Majority",
-          "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
-        },
-        {
-          "title": "Alaska 2026 Election Results — MultiState Elections",
-          "url": "https://www.multistate.us/elections/results/alaska-2026"
-        },
-        {
-          "title": "midterm election results these key races have yet called",
-          "url": "https://www.foxnews.com/politics/midterm-election-results-these-key-races-have-yet-called"
-        },
-        {
-          "title": "LIVE UPDATES",
-          "url": "https://noticias.foxnews.com/elections/2022/midterm-results"
-        },
-        {
-          "title": "Meet the Press Blog",
-          "url": "https://www.nbcnews.com/news/amp/shows/meetthepress/blog/rcna43475"
-        }
-      ]
-    },
-    {
-      "query": "stock market close Wednesday November 4 2026 after midterms",
-      "results": [
-        {
-          "title": "Stock market news for Nov. 4, 2026",
-          "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
-        },
-        {
-          "title": "Dow, S&P 500, Nasdaq Futures Mixed After A Democratic Sweep In Midterms: NVDA, MU, SNDK, NBIS, IREN In Focus",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-025524882.html"
-        },
-        {
-          "title": "US midterms the market ended close to where it started after a week of sharp swings",
-          "url": "https://www.home.saxo/en-ch/content/articles/options/us-midterms-the-market-ended-close-to-where-it-started-after-a-week-of-sharp-swings-05112026"
-        },
-        {
-          "title": "What was really behind Wednesday's monster rally? Trump quickly making peace",
-          "url": "https://www.cnbc.com/2026/11/04/stock-market-rally-trump-midterms.html"
-        },
-        {
-          "title": "Dow posts biggest gain of the year after Democrats take control of Congress - CBS News",
-          "url": "https://www.cbsnews.com/news/stock-market-soar-democrats-take-control-of-congress/"
-        },
-        {
-          "title": "stock market news for nov 10 2022",
-          "url": "https://zacks.com/stock/news/2016731/stock-market-news-for-nov-10-2022"
-        },
-        {
-          "title": "US stocks close higher after midterm elections",
-          "url": "https://www.business-standard.com/amp/article/news-ians/us-stocks-close-higher-after-midterm-elections-118110800050_1.html"
-        },
-        {
-          "title": "Friday, December 12, 2025 | 12:40 PM ISTहिंदी में पढें",
-          "url": "https://www.business-standard.com/article/news-ians/us-stocks-close-higher-after-midterm-elections-118110800050_1.html"
-        },
-        {
-          "title": "Dow, S&P 500 close at record highs after mid-term vote",
-          "url": "https://www.business-standard.com/amp/article/reuters/dow-s-p-500-close-at-records-after-midterm-vote-114110600050_1.html"
-        }
-      ]
-    },
-    {
-      "query": "Iran news November 4 2026",
-      "results": [
-        {
-          "title": "US/Israel-Iran War: What UAE residents need to know today (Nov. 4, 2026)",
-          "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-4-2026-1.500735252"
-        },
-        {
-          "title": "Trump says 'largely true' Iran war caused midterms loss, after Vance comments",
-          "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-4-2026"
-        },
-        {
-          "title": "Live Updates: Iran says U.S. election results show Americans reject war, as Trump says he'd do it again",
+          "title": "Iran War Updates: More ships attacked in Persian Gulf, oil prices rebound slightly after post-midterm plunge",
           "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
         },
         {
-          "title": "Iran Update: November 04, 2026",
-          "url": "https://www.criticalthreats.org/analysis/iran-update-november-04-2026"
+          "title": "Trump weighs resuming Iran war as CENTCOM prepares for possible strikes",
+          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-israel-elections-november-5"
         },
         {
-          "title": "Nov. 4: In post-midterm message, Eisenkot pledges to renew bipartisan US-Israel alliance",
-          "url": "https://www.timesofisrael.com/liveblog-november-4-2026/"
+          "title": "After midterms, Trump is left to weigh his next move in Iran war that contributed to GOP loss",
+          "url": "https://www.pbs.org/newshour/politics/after-midterms-trump-is-left-to-weigh-his-next-move-in-iran-war-that-contributed-to-gop-loss"
         },
         {
-          "title": "Trump threatens to ‘finish the job’ if Iran rejects nuclear deal as IRGC vows ‘united’ resistance",
-          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-elections-oil-prices-november-4"
+          "title": "Iran News Today in English",
+          "url": "https://apps.apple.com/us/app/id1229854645"
         },
         {
-          "title": "2026 in Oman",
-          "url": "https://en.wikipedia.org/wiki/2026_in_Oman"
-        },
-        {
-          "title": "2026 Iranian leadership crisis",
-          "url": "https://en.wikipedia.org/wiki/2026_Iranian_leadership_crisis"
-        },
-        {
-          "title": "2026 Iran explosions",
-          "url": "https://en.wikipedia.org/wiki/2026_Iran_explosions"
-        },
-        {
-          "title": "2026 United States protests against strikes on Iran",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_protests_against_strikes_on_Iran"
+          "title": "Updated Jun 3, 2019 - World",
+          "url": "https://www.axios.com/2019/05/22/today-in-iran-news"
         }
       ]
     },
     {
-      "query": "Herzog consultations Eisenkot recommendations November 4 2026 mandate",
+      "query": "stock market close Thursday November 5 2026 Dow S&P Nasdaq",
       "results": [
         {
-          "title": "RZP, Shas recommend Benjamin Netanyahu, Avigdor Liberman backs Gadi Eisenkot in talks with Isaac Herzog",
-          "url": "https://www.jpost.com/israel-news/article-913842"
+          "title": "Markets Today on X: \"US STOCK MARKET CLOSING #SECTOR HIGHLIGHTS — NOVEMBER 5, 2026 🔹 Nasdaq Composite plunged 5.52% (-1,421.52 points) to close at 24,315.00, wiping out a record $2.5 trillion in market cap and entering official correction territory. 🔹 Dow Jones Industrial Average dropped 3.44%… / ",
+          "url": "https://x.com/marketsday/status/2118541251436011578"
+        },
+        {
+          "title": "Stock Market News for Nov 5, 2026",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-5-132500891.html"
+        },
+        {
+          "title": "Closing Look — Thursday, November 5, 2026",
+          "url": "https://cappnotes.substack.com/p/closing-look-thursday-november-5"
+        },
+        {
+          "title": "S&P 500 (^GSPC) Charts, Data & News - Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+        },
+        {
+          "title": "Stock market news for Nov. 5, 2026",
+          "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+        },
+        {
+          "title": "Stock Market Today, Nov. 5: Nasdaq Suffers Worst Day in 18 Months as AI Trade Comes Under Fire",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nasdaq-suffers-worst-day-in-18-months-as-ai-trade-comes-under-fire/"
+        },
+        {
+          "title": "Stock Market Today, Nov 5, 2026: US Stocks Sink as Postelection AI Fears Drive Tech Rout",
+          "url": "https://sellthenews.org/catalyx/market/2026-11-05"
+        },
+        {
+          "title": "The Stock Market Today, November 5, 2026, Closed Sharply Lower as the AI Chip Selloff Spread",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026"
+        },
+        {
+          "title": "market attributes us equities 202511",
+          "url": "https://www.spglobal.com/spdji/en/documents/commentary/market-attributes-us-equities-202511.pdf"
+        }
+      ]
+    },
+    {
+      "query": "Herzog mandate Eisenkot November 5 2026 consultations end",
+      "results": [
+        {
+          "title": "‘Like a bolt from the blue’: Israel’s president shocked by Trump announcing end of aid",
+          "url": "https://www.cnn.com/2026/11/05/middleeast/israel-trump-aid-election-latam-intl"
         },
         {
           "title": "As Herzog consults party heads, Haredi faction says it won't recommend Netanyahu as PM",
           "url": "https://www.timesofisrael.com/as-herzog-consults-party-heads-haredi-faction-says-it-wont-recommend-netanyahu-as-pm/"
         },
         {
-          "title": "Joint List, Ra'am to back Gadi Eisenkot for premiership as Isaac Herzog opens negotiations",
-          "url": "https://www.jpost.com/israel-election-2026/article-913448"
+          "title": "Eisenkot set to receive mandate to form Israeli gov't as Herzog rounds out consultation meetings",
+          "url": "https://www.jpost.com/israel-election-2026/article-913989"
         },
         {
-          "title": "Presidential consultations enter final stretch in selection of prime minister",
+          "title": "Herzog: 67 MKs recommend Eisenkot, 46 Netanyahu; mandate to be assigned Sunday - Israel & Jewish News - JNS",
+          "url": "https://www.jns.org/news/israel-news/herzog-67-mks-recommend-eisenkot-46-netanyahu-mandate-to-be-assigned-sunday"
+        },
+        {
+          "title": "Herzog begins coalition talks as Eisenkot, Netanyahu vie for mandate to form government",
+          "url": "https://www.ynetnews.com/article/sjzk4rutmg"
+        },
+        {
+          "title": "Gadi Eisenkot expected to get presidential mandate as Ra'am, Joint List give support",
           "url": "https://www.jpost.com/israel-election-2026/article-913890"
         },
         {
-          "title": "Israel's President Herzog begins second day of consultations with parties on picking next PM - The Tribune",
-          "url": "https://www.tribuneindia.com/news/benjamin-netanyahu-support/israels-president-herzog-begins-second-day-of-consultations-with-parties-on-picking-next-pm"
+          "title": "Herzog says Eisenkot got 67 nods as PM, but he will only hand over mandate on Sunday",
+          "url": "https://www.timesofisrael.com/liveblog_entry/herzog-says-eisenkot-got-67-nods-as-pm-but-he-will-only-hand-over-mandate-on-sunday/"
         },
         {
-          "title": "Herzog resumes talks on who will form next Israeli government - Israel & Jewish News - JNS",
-          "url": "https://www.jns.org/news/israel-news/herzog-resumes-talks-on-who-will-form-next-israeli-govt"
+          "title": "RZP, Shas recommend Benjamin Netanyahu, Avigdor Liberman backs Gadi Eisenkot in talks with Isaac Herzog",
+          "url": "https://www.jpost.com/israel-news/article-913842"
         },
         {
-          "title": "Ra'am to recommend Eisenkot to form Israel's government — Der Spiegel",
-          "url": "https://ua.news/en/dovkolo-svitu/partiia-raam-rekomenduvatime-aizenkota-dlia-formuvannia-uriadu-izrayiliu-der-spiegel"
-        },
-        {
-          "title": "Eisenkot Recommendations: Opposition Backs Him for Mandate",
-          "url": "https://www.jfeed.com/news/eisenkot-recommendations-mandate-netanyahu-herzog"
-        },
-        {
-          "title": "Democrats Recommend Eisenkot; Herzog Questions Anti-Bibi Focus",
-          "url": "https://www.jfeed.com/news-israel/to0wm1"
+          "title": "Eisenkot secures 67 recommendations, nears mandate to form Israel's next government",
+          "url": "https://www.ynetnews.com/article/ryuqebc6zg"
         }
       ]
     },
     {
-      "query": "South Africa local election results ANC DA November 5 2026",
+      "query": "October jobs report November 6 2026 payrolls expectations",
       "results": [
         {
-          "title": "2026 Local Election Results (South Africa)",
-          "url": "https://sepush.co.za/elections/local/2026"
+          "title": "October Jobs Report Expected To Show Modest Hiring - Finimize",
+          "url": "https://finimize.com/content/october-jobs-report-expected-to-show-modest-hiring"
         },
         {
-          "title": "2026 Local Election Results (South Africa)",
-          "url": "https://esp.info/elections/local/2026?ballot=pr"
+          "title": "Tech Pressure Persists but Broader Market Climbs",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
         },
         {
-          "title": "South Africa’s ANC on 32%, DA 29% after one-quarter of local election votes counted",
-          "url": "https://www.cnbcafrica.com/2026/south-africas-anc-on-32-da-29-after-one-quarter-of-local-election-votes-counted"
+          "title": "What to Expect From the October Jobs Report",
+          "url": "https://www.kiplinger.com/investing/economy/jobs-report-october-2026-what-to-expect"
         },
         {
-          "title": "LGE 2026 Results LIVE",
-          "url": "https://briefly.co.za/politics/257979-local-government-elections-2026-results-live-track-municipal-election-outcomes-iec-counts-votes/"
+          "title": "U.S. Nonfarm Payrolls Report Expected to Show Weak Growth but Stable Labor Market",
+          "url": "https://www.kucoin.com/news/flash/u-s-nonfarm-payrolls-report-expected-to-show-weak-growth-but-stable-labor-market"
         },
         {
-          "title": "ANC narrowly leads DA in early South Africa municipal election results",
-          "url": "https://www.polity.org.za/article/anc-narrowly-leads-da-in-early-south-africa-municipal-election-results-2026-11-05"
+          "title": "October Jobs Report Seen Showing Resilient Labor Market",
+          "url": "https://www.morningstar.com/economy/october-jobs-report-seen-showing-resilient-labor-market"
         },
         {
-          "title": "South Africa votes: results as they come in",
-          "url": "https://theoutlier.co.za/results"
+          "title": "US Nonfarm Payrolls expected to pick up in October",
+          "url": "https://www.fxstreet.com/news/us-nonfarm-payrolls-expected-to-pick-up-in-october-202611060930"
         },
         {
-          "title": "ANC support falls sharply in early South Africa municipal election results",
-          "url": "https://cnbcafrica.com/2026/anc-narrowly-leads-da-in-early-south-africa-municipal-election-results"
+          "title": "Stock market today: Dow, S&P 500, Nasdaq futures wobble after brutal sell-off, with key jobs report on deck",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-091927729.html"
         },
         {
-          "title": "First 2026 Ward result declared",
-          "url": "https://www.sabcnews.com/sabcnews/1174811-2/"
+          "title": "Can the October jobs report revive market sentiment after the US stock selloff?",
+          "url": "https://www.fxstreet.com/news/can-the-october-jobs-report-revive-market-sentiment-after-the-us-stock-selloff-202611060537"
         },
         {
-          "title": "South Africa: Local election results show ANC weakened",
-          "url": "https://www.aljazeera.com/amp/news/2016/8/4/south-africa-local-election-results-show-anc-weakened"
+          "title": "US October Nonfarm Payrolls Preview: Can Employment Rebound? US Stocks, Dollar and Gold Face Key Test",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262279310-us-nfp-preview-october-employment-recovery-stocks-dollar-gold-test-tradingkey"
         }
       ]
     },
     {
-      "query": "Ukraine Russia news November 4 2026",
+      "query": "Trump announces end of military aid to Israel November 5 2026",
+      "results": [
+        {
+          "title": "What Trump's Drastic Reduction Of U.S. Military Aid To Israel Could Mean",
+          "url": "https://www.twz.com/news-features/what-trumps-drastic-reduction-of-u-s-military-aid-to-israel-could-mean"
+        },
+        {
+          "title": "Trump says US will end $4 billion annual military aid to Israel by December",
+          "url": "https://business-standard.com/amp/world-news/trump-end-us-military-aid-israel-4-billion-2026-126110400515_1.html"
+        },
+        {
+          "title": "Trump says US annual military aid to Israel ends by close of year",
+          "url": "https://www.foxnews.com/politics/trump-says-israel-stop-receiving-4b-us-aid-years-end-can-still-buy-weapons"
+        },
+        {
+          "title": "Arab News",
+          "url": "https://www.arabnews.com/middle-east/trump-says-us-will-stop-4-billion-military-aid-to-israel-at-end-of-2026-3009615"
+        },
+        {
+          "title": "Trump Announces U.S. to Stop Providing Israel $4 Billion in Annual Military Aid",
+          "url": "https://www.democracynow.org/2026/11/4/headlines/trump_announces_us_to_stop_providing_israel_4_billion_in_annual_military_aid"
+        },
+        {
+          "title": "Trump to stop $4 billion in annual funding for Israeli arms purchases - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/11/03/trump-stop-4-billion-annual-funding-israeli-arms-purchases/"
+        },
+        {
+          "title": "Trump Scrambles to Halt Military Aid to Israel to Deprive El-Sayed of a Talking Point",
+          "url": "https://theintercept.com/2026/11/03/trump-us-military-aid-israel-el-sayed/"
+        },
+        {
+          "title": "Trends in the News",
+          "url": "https://trendsinthenews.substack.com/p/massie-end-all-us-military-aid-to"
+        },
+        {
+          "title": "Donald Trump threatens cutting off aid to Palestinians",
+          "url": "https://www.aljazeera.com/news/2018/1/2/donald-trump-threatens-cutting-off-aid-to-palestinians"
+        },
+        {
+          "title": "Donald Trump threatens cutting off aid to Palestinians",
+          "url": "https://www.aljazeera.com/amp/news/2018/1/2/donald-trump-threatens-cutting-off-aid-to-palestinians"
+        }
+      ]
+    },
+    {
+      "query": "Nasdaq worst day AI selloff November 5 2026 what caused Nvidia",
+      "results": [
+        {
+          "title": "AI meltdown: Nvidia and Qualcomm drop more than 9%, pushing Nasdaq to worst day since April 2025",
+          "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+        },
+        {
+          "title": "The AI Selloff Is Getting Worse. Nvidia, Dell and Data Center Stocks Are Plunging Hard. Is It Time to Buy the Dip?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-selloff-getting-worse-nvidia-163927045.html"
+        },
+        {
+          "title": "Stock market today: Dow plunges 1,800 points, Nasdaq enters correction in AI trade meltdown",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"
+        },
+        {
+          "title": "Premarket: Nasdaq futures rise after steep AI selloff as chip stocks stabilize - The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-nasdaq-futures-rise-after-steep-ai-selloff-as-chip-stocks/"
+        },
+        {
+          "title": "Nasdaq futures rise after steep AI selloff as chip stocks stabilize By Reuters",
+          "url": "https://za.investing.com/news/stock-market-news/nasdaq-futures-rise-after-steep-ai-selloff-as-chip-stocks-stabilize-4557213"
+        },
+        {
+          "title": "Nvidia Stock Plunges Nearly 8% in Steepest Drop Since April 2025 as AI Chip Rout Erases 1,000 Nasdaq Points",
+          "url": "https://www.ibtimes.com.au/nvidia-shares-ai-semiconductor-stock-selloff-1877991"
+        },
+        {
+          "title": "Nvidia Stock Crashes 9% as AI Selloff Causes Wall Street Panic",
+          "url": "https://coinpaper.com/38413/nvidia-stock-crashes-9-as-ai-selloff-causes-wall-street-panic"
+        },
+        {
+          "title": "Why Did US Stocks Plunge? Nvidia, SanDisk and Micron Slump as AI Trade Suffers Worst Selloff Since 2020",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262288665-why-us-stocks-plunge-nvidia-sandisk-micron-tumble-worst-sell-since-2020-tradingkey"
+        },
+        {
+          "title": "why nvidia stock is sinking today",
+          "url": "https://www.barchart.com/story/news/31285046/why-nvidia-stock-is-sinking-today"
+        }
+      ]
+    },
+    {
+      "query": "Asian markets November 6 2026 Nikkei Kospi selloff",
+      "results": [
+        {
+          "title": "Stock market today: Live updates",
+          "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+        },
+        {
+          "title": "Asian stock markets plunge as Japan Nikkei, South Korea KOSPI and Taiwan stocks fall",
+          "url": "https://www.foxbusiness.com/markets/asian-stock-markets-plunge-japan-nikkei-south-korea-kospi-taiwan-stocks-fall"
+        },
+        {
+          "title": "AI Selloff Drives Asian Stock Markets to Fresh Grim Milestones - Bloomberg",
+          "url": "https://bloomberg.com/news/articles/2026-11-06/ai-selloff-asian-stock-markets-nikkei-kospi-taiex-grim-milestones?srnd=homepage-americas"
+        },
+        {
+          "title": "Bitcoin Clings to $75K as Asian Markets Lose Over $1 Trillion in a Day",
+          "url": "https://news.bitcoin.com/market-updates/asia-stocks-1-trillion-crash-kospi-bitcoin-75k/"
+        },
+        {
+          "title": "Asian Stocks Tumble as Tech Rout Sends Nikkei Into Bear Market - Archynewsy",
+          "url": "https://www.archynewsy.com/asian-stocks-tumble-as-tech-rout-sends-nikkei-into-bear-market/"
+        },
+        {
+          "title": "asian stocks drop european markets mixed kospi 1 70 hang seng 1 20 nikkei 1",
+          "url": "https://newsonair.gov.in/asian-stocks-drop-european-markets-mixed-kospi-1-70-hang-seng-1-20-nikkei-1"
+        },
+        {
+          "title": "asian stock markets ended with losses",
+          "url": "https://www.newsonair.gov.in/asian-stock-markets-ended-with-losses"
+        },
+        {
+          "title": "July 6, 2023 4:33 PM | Asian markets",
+          "url": "https://www.newsonair.gov.in/asian-markets-ended-with-losses"
+        },
+        {
+          "title": "August 16, 2023 6:08 PM",
+          "url": "https://www.newsonair.gov.in/tag/asian-stock-markets-ended-with-losses"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Russia news November 5 2026",
       "results": [
         {
           "title": "Ukraine News Today",
@@ -529,28 +637,28 @@
           "url": "https://en.wikipedia.org/wiki/Ukraine_Online"
         },
         {
-          "title": "Ukrainian National News",
-          "url": "https://en.wikipedia.org/wiki/Ukrainian_National_News"
-        },
-        {
           "title": "Ukraine News Today Live",
           "url": "https://www.newsnow.co.uk/h/World+News/Europe/Eastern+Europe/Ukraine"
         },
         {
-          "title": "Ukraine's leader says Russian \"insane attack\" on aid center may have killed 70 people, pleads for air defenses - CBS News",
-          "url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/"
+          "title": "Russia and Ukraine trade airstrikes as reconstruction and security talks resume in Brussels",
+          "url": "https://www.audacy.com/wwl/news/business/russia-ukraine-war-airstrikes-negotiations-kushner-0b975a30f862731346e7e1d098a8d538"
         },
         {
-          "title": "Ukraine and Russia trade hundreds of drones overnight, as Moscow continues targeting energy infrastructure - ABC News",
-          "url": "https://abcnews.com/International/ukraine-russia-trade-hundreds-drones-overnight-moscow-continues/story?id=137838953"
-        },
-        {
-          "title": "Ukrainian strikes kill three in Russia’s Belgorod region",
-          "url": "https://www.aljazeera.com/news/2026/11/4/ukrainian-strikes-kill-three-in-russias-belgorod-region"
+          "title": "Russia-Ukraine war",
+          "url": "https://www.aljazeera.com/tag/ukraine-russia-crisis/"
         },
         {
           "title": "Ukraine News Today Live",
           "url": "https://www.newsnow.com/us/World/Europe/Eastern+Europe/Ukraine"
+        },
+        {
+          "title": "Trump says Russia-Ukraine deal is near after meeting Putin’s envoy",
+          "url": "https://www.aljazeera.com/news/2026/11/6/trump-met-russian-envoy-after-he-appeared-with-melania-trump-and-ukrainians"
+        },
+        {
+          "title": "Russia and Ukraine exchange airstrikes as U.S. envoy describes renewed security talks as productive",
+          "url": "https://www.nbcnews.com/world/ukraine/russia-ukraine-exchange-airstrikes-us-envoy-describes-renewed-security-rcna607778"
         },
         {
           "title": "Full Episode",
@@ -559,105 +667,15 @@
       ]
     },
     {
-      "query": "Alaska Senate Dan Sullivan second candidate lawsuit certification Trump administration",
-      "results": [
-        {
-          "title": "Trump administration sues to block Alaska Senate certification if Republican Sen. Dan Sullivan loses in November",
-          "url": "https://www.nbcnews.com/politics/2026-election/trump-justice-department-lawsuit-alaska-senate-rcna605229"
-        },
-        {
-          "title": "Judge dismisses DOJ lawsuit seeking to block Alaska Senate certification if GOP's Dan Sullivan loses",
-          "url": "https://www.yahoo.com/news/politics/article/judge-dismisses-doj-lawsuit-seeking-to-block-alaska-senate-certification-if-gops-dan-sullivan-loses-184010306.html"
-        },
-        {
-          "title": "Alaska Senate: Judge dismisses DOJ lawsuit over Sullivan names",
-          "url": "https://www.cnbc.com/2026/11/01/alaska-senate-doj-lawsuit-dismissed-sullivan-peltola.html"
-        },
-        {
-          "title": "2026 election news: Judge dismisses lawsuit seeking to block Alaska Senate race certification if incumbent Dan Sullivan loses - ABC7 San Francisco",
-          "url": "https://abc7news.com/post/2026-election-news-judge-dismisses-lawsuit-seeking-block-alaska-senate-race-certification-incumbent-dan-sullivan-loses/20006519/"
-        },
-        {
-          "title": "Trump says he ordered DOJ suit to block Alaska Senate race certification if Republican loses",
-          "url": "https://www.cnbc.com/2026/10/23/alaska-senate-election-doj-lawsuit-sullivan.html"
-        },
-        {
-          "title": "Judge tosses DOJ lawsuit seeking to delay Alaska vote certification - Roll Call",
-          "url": "https://rollcall.com/2026/11/01/alaska-senate-vote-certification-dan-sullivan/"
-        },
-        {
-          "title": "Federal judge dismisses DOJ lawsuit to delay Alaska Senate election",
-          "url": "https://www.foxnews.com/politics/doj-set-appeal-ruling-alaska-senate-race-dispute-over-decoy-dan"
-        },
-        {
-          "title": "Trump told DOJ to sue to block Alaska Senate results if Republican narrowly loses - ABC News",
-          "url": "https://abcnews.com/US/doj-preemptively-sues-block-alaska-senate-results-republican/story?id=137512876"
-        },
-        {
-          "title": "2026 United States Senate election in Alaska",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska"
-        }
-      ]
-    },
-    {
-      "query": "Democrats agenda new Congress Jeffries Schumer plans November 2026",
-      "results": [
-        {
-          "title": "Democrats take the House. Here’s what they plan to investigate and their legislative agenda - ABC News",
-          "url": "https://abcnews.com/Politics/democrats-house-heres-plan-investigate-legislative-agenda/story?id=137832144"
-        },
-        {
-          "title": "Democrats' Congress agenda: affordability and oversight",
-          "url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
-        },
-        {
-          "title": "Schumer, Jeffries say cutting costs is job No. 1 for Democratic majority",
-          "url": "https://spectrumnews1.com/ca/la/politics/2026/11/04/schumer-jeffries-midterm-election-wins-democratic-congressional-control"
-        },
-        {
-          "title": "How Democrats plan to use their majorities to constrain Trump",
-          "url": "https://thehill.com/homenews/senate/6199596-congressional-majorities-trump-challenges"
-        },
-        {
-          "title": "Democrats usher in a new era with their resounding sweep of the House and the Senate",
-          "url": "https://whyy.org/articles/election-2026-democrats-sweep-house-representatives-senate/"
-        },
-        {
-          "title": "Democrats take Congress with dual goals: Investigate Trump and tackle affordability",
-          "url": "https://www.nbcnews.com/politics/congress/democrats-control-house-senate-plans-trump-oversight-rcna605714"
-        },
-        {
-          "title": "Democrats usher in a new era with their resounding sweep of the House and the Senate",
-          "url": "https://www.wsls.com/news/politics/2026/11/04/democrats-usher-in-a-new-era-with-their-resounding-sweep-of-the-house-and-the-senate/"
-        },
-        {
-          "title": "Democrats lay out plans to fight corruption once they take control of Congress",
-          "url": "https://foxbaltimore.com/news/nation-world/democrats-lay-out-plans-to-fight-corruption-once-they-take-control-of-congress-senate-chuck-schumer-subpoena"
-        },
-        {
-          "title": "Victorious Democrats outline plan of attack for 120th Congress",
-          "url": "https://www.yahoo.com/news/politics/articles/victorious-democrats-outline-plan-attack-223800652.html"
-        },
-        {
-          "title": "Democrats Face Test of Governing Priorities as Trump Investigations Compete With Affordability Agenda",
-          "url": "https://yournews.com/2026/11/05/7252952/democrats-face-test-of-governing-priorities-as-trump-investigations-compete/"
-        }
-      ]
-    },
-    {
-      "query": "oil prices November 5 2026 Brent",
+      "query": "oil prices November 6 2026 Brent",
       "results": [
         {
           "title": "Brent Crude Oil Futures Price Today - Investing.com",
           "url": "https://www.investing.com/commodities/brent-oil"
         },
         {
-          "title": "Brent Falls to $100 as Traders Bet on a U.S.-Iran Deal",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Falls-to-100-as-Traders-Bet-on-a-US-Iran-Deal.html"
-        },
-        {
-          "title": "Current price of oil as of Nov. 4, 2026",
-          "url": "https://fortune.com/article/price-of-oil-11-04-2026/"
+          "title": "Brent oil - Price - Chart - Historical Data - News",
+          "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
         },
         {
           "title": "Brent Crude Oil Price Chart and Latest News",
@@ -668,8 +686,12 @@
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Continue-to-Fall-as-Democratic-Sweep-Shakes-Energy-Markets.html"
         },
         {
-          "title": "Oil Crashes 9% as Trump and Vance Blame Iran War for Midterm Rout",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Crashes-9-as-Trump-and-Vance-Blame-Iran-War-for-Midterm-Rout.html"
+          "title": "Oil Prices Rebound Sharply After Brutal Midweek Rout",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-Sharply-After-Brutal-Midweek-Rout.html"
+        },
+        {
+          "title": "Oil Rebounds Toward $100 as Democrats’ Sweep Rattles Energy Stocks",
+          "url": "https://oilprice.com/Energy/Energy-General/Oil-Rebounds-Toward-100-as-Democrats-Sweep-Rattles-Energy-Stocks.html"
         },
         {
           "title": "Oil Price Charts",
@@ -686,264 +708,260 @@
       ]
     },
     {
-      "query": "Asian markets November 5 2026 Nikkei Kospi rally",
+      "query": "South Africa local election results ANC DA November 6 2026 count",
       "results": [
         {
-          "title": "Stock market today: Live updates",
-          "url": "https://cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+          "title": "2026 Local Election Results (South Africa)",
+          "url": "https://sepush.co.za/elections/local/2026"
         },
         {
-          "title": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed After Post-Midterm Rally — TM, ARM, QCOM in Fo - Benzinga",
-          "url": "https://benzinga.com/markets/equities/26/11/62906643/stock-market-today-dow-jones-sp-500-futures-trade-mixed-after-post-midterm-rally-tm-arm-qcom-in-focus"
+          "title": "ANC narrowly leads DA in early South Africa municipal election results",
+          "url": "https://www.polity.org.za/article/anc-narrowly-leads-da-in-early-south-africa-municipal-election-results-2026-11-05"
         },
         {
-          "title": "September 20, 2024 7:50 PM",
-          "url": "https://www.newsonair.gov.in/major-asian-markets-traded-in-green-european-in-red"
+          "title": "2026 Local Election Results (South Africa)",
+          "url": "https://esp.info/elections/local/2026?ballot=pr"
         },
         {
-          "title": "nikkei kospi rise shanghai hang seng fall",
-          "url": "https://www.newsonair.gov.in/nikkei-kospi-rise-shanghai-hang-seng-fall/"
+          "title": "LOCAL GOVERNMENT ELECTIONS LIVE: Early results not looking promising for ANC",
+          "url": "https://www.citizen.co.za/news/south-africa/elections/local-government-elections-live-day-1-results-and-turnout/"
         },
         {
-          "title": "October 6, 2023 4:51 PM",
-          "url": "https://www.newsonair.gov.in/tag/asian-markets"
+          "title": "South Africa’s ANC faces ‘worst nightmare’ as vote share tumbles",
+          "url": "https://www.cnbcafrica.com/2026/anc-narrowly-leads-da-in-early-south-africa-municipal-election-results"
         },
         {
-          "title": "Asian stock markets end in green",
-          "url": "https://newsonair.gov.in/asian-stock-markets-end-in-green"
+          "title": "South Africa votes: results as they come in",
+          "url": "https://theoutlier.co.za/results"
         },
         {
-          "title": "November 26, 2025 6:23 PM",
-          "url": "https://www.newsonair.gov.in/asian-stock-markets-closes-in-positive-zone-today/"
+          "title": "2026 South African Election Results: DA expected to fall short in Johannesburg and Pretoria as ActionSA emerges as a major player",
+          "url": "https://mybroadband.co.za/news/government/676205-2026-south-african-election-results-da-expected-to-fall-short-in-johannesburg-and-pretoria-as-actionsa-emerges-as-a-major-player.html"
         },
         {
-          "title": "asian stocks drop european markets mixed kospi 1 70 hang seng 1 20 nikkei 1",
-          "url": "https://newsonair.gov.in/asian-stocks-drop-european-markets-mixed-kospi-1-70-hang-seng-1-20-nikkei-1"
+          "title": "Local Election Results 2026 Live: ANC 32.1%, DA 27.3% (39% Counted)",
+          "url": "https://www.rateweb.co.za/elections-2026/results/"
         },
         {
-          "title": "asian stocks mixed south koreas kospi up 2 11 japans nikkei 225 down 1 66",
-          "url": "https://newsonair.gov.in/asian-stocks-mixed-south-koreas-kospi-up-2-11-japans-nikkei-225-down-1-66"
+          "title": "Local government election results: ANC leads in 62 councils",
+          "url": "https://www.swisherpost.com/news/local-government-election-results-anc-leads-62-councils/"
         }
       ]
     },
     {
-      "query": "Europe news November 4 2026 Belgium Poland",
+      "query": "Alaska Senate Peltola Sullivan result November 5 2026 Mississippi Senate",
       "results": [
         {
-          "title": "Poland triumph over Belgium to tee up Ireland decider",
-          "url": "https://www.rte.ie/sport/soccer/2026/1013/1595286-poland-triumph-over-belgium-to-set-up-ireland-showdown/"
+          "title": "Alaska Senate election live results 2026: Peltola narrowly leads Sullivan in tight race - The Washington Post",
+          "url": "https://www.washingtonpost.com/elections/results/2026/11/03/alaska-senate-peltola-sullivan-live-updates/"
         },
         {
-          "title": "Belgian PM De Wever resigns amid failed 2027 budget talks",
-          "url": "https://112.ua/en/premer-belgii-bart-de-vever-podav-u-vidstavku-cerez-proval-peregovoriv-pro-budzetnij-deficit-2027-roku-195432"
+          "title": "Live Alaska Senate results: Sullivan vs. Peltola too close to call",
+          "url": "https://www.yahoo.com/news/politics/articles/live-alaska-senate-results-sullivan-153931432.html"
         },
         {
-          "title": "The Brussels Times",
-          "url": "https://en.wikipedia.org/wiki/The_Brussels_Times"
+          "title": "Early results show Peltola and Sullivan in tight U.S. Senate race - Anchorage Daily News",
+          "url": "https://www.adn.com/politics/2026/11/03/peltola-leads-sullivan-in-limited-early-results-in-hard-fought-us-senate-race/"
         },
         {
-          "title": "Belgium 1-0 Poland (Oct 9, 2026) Final Score - ESPN",
-          "url": "https://www.espn.com/soccer/match/_/gameId/401878166/poland-belgium"
+          "title": "Mary Peltola narrowly leads Dan S. Sullivan in Alaska Senate race",
+          "url": "https://thehill.com/homenews/campaign/6197925-mary-peltola-alaska-senate-race-lead/"
         },
         {
-          "title": "Belgium%E2%80%93Poland relations",
-          "url": "https://en.wikipedia.org/wiki/Belgium%E2%80%93Poland_relations"
+          "title": "Alaska U.S. Senate Election 2026 Live Results: Mary Peltola, Dan Sullivan and More",
+          "url": "https://www.nbcnews.com/politics/2026-elections/alaska-senate-results"
         },
         {
-          "title": "MEP Freund urges EC to review Poland’s access to EU funds",
-          "url": "https://ua.news/en/world/evrodeputat-froind-zaklikav-ek-pereviriti-dostup-polshchi-do-fondiv-es-rmf24"
+          "title": "2026 United States Senate election in Alaska",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska"
         },
         {
-          "title": "king belgium attacks today our country mourning n543786",
-          "url": "https://www.nbcnews.com/storyline/brussels-attacks/king-belgium-attacks-today-our-country-mourning-n543786"
+          "title": "Alaska Senate Race Results: Mary Peltola vs Dan Sullivan and the Ranked-Choice Count",
+          "url": "https://cryptoticker.io/en/alaska-senate-race-results-peltola-sullivan/"
+        },
+        {
+          "title": "democrat mary peltola barrier breaking ex alaska congresswoman is challenging republican dan sullivan in senate race",
+          "url": "https://www.pbs.org/newshour/amp/politics/democrat-mary-peltola-barrier-breaking-ex-alaska-congresswoman-is-challenging-republican-dan-sullivan-in-senate-race"
+        },
+        {
+          "title": "Democratic former Rep. Mary Peltola launches Alaska Senate run",
+          "url": "https://www.nbcnews.com/politics/2026-election/former-democratic-rep-mary-peltola-launches-alaska-senate-run-rcna253193"
+        }
+      ]
+    },
+    {
+      "query": "Europe news November 5 2026",
+      "results": [
+        {
+          "title": "Europe Today (radio programme)",
+          "url": "https://en.wikipedia.org/wiki/Europe_Today_(radio_programme)"
+        },
+        {
+          "title": "Latest episodes and news",
+          "url": "https://www.euronews.com/programs/europe-today"
+        },
+        {
+          "title": "Latest News: Today's Top Headlines & Live Updates",
+          "url": "https://www.euronews.com/just-in"
+        },
+        {
+          "title": "Europe news - breaking news, video, headlines and opinion",
+          "url": "https://edition.cnn.com/world/europe"
+        },
+        {
+          "title": "Europe news",
+          "url": "https://www.thenationalnews.com/news/europe/"
+        },
+        {
+          "title": "Europe's Latest Business News, Sector Watch News and Business Headlines Online. - CNBC",
+          "url": "https://www.cnbc.com/europe-news/"
+        },
+        {
+          "title": "Europe Today",
+          "url": "https://www.euronews.com/europe-today-newsletter"
         },
         {
           "title": "www.euronews.com",
-          "url": "https://www.euronews.com/profiles/650?p=31"
+          "url": "https://www.euronews.com/tag/news?p=76"
         },
         {
-          "title": "the european commission launches legal action against poland over russian influence law",
-          "url": "https://www.euronews.com/video/2023/06/07/the-european-commission-launches-legal-action-against-poland-over-russian-influence-law"
+          "title": "www.euronews.com",
+          "url": "https://www.euronews.com/tag/news?p=81"
         }
       ]
     },
     {
-      "query": "Trump Iran war caused midterm loss largely true Vance November 4",
+      "query": "France protests November 5 2026 biggest day wages students",
       "results": [
         {
-          "title": "Vance Blames War in Iran, Israel Ties for GOP Midterm Loss - Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-04/vance-points-to-iran-war-israel-as-reasons-for-gop-midterm-loss"
+          "title": "2026 French student protests",
+          "url": "https://en.wikipedia.org/wiki/2026_French_student_protests"
         },
         {
-          "title": "Vance blames Iran war for Republicans' midterms defeat. Trump says he would 'do it again' - ABC News",
-          "url": "https://abcnews.com/Politics/vance-blames-iran-war-republicans-midterms-defeat-trump/story?id=137849295"
+          "title": "Video. France: Workers and students unite in nationwide protests over living costs",
+          "url": "https://www.euronews.com/video/2026/11/05/france-workers-and-students-unite-in-nationwide-protests-over-living-costs"
         },
         {
-          "title": "Arab News",
-          "url": "https://www.arabnews.com/middle-east/us-vp-vance-says-iran-war-is-the-reason-we-lost-midterms-3009798"
+          "title": "France protests: Unions join forces for nationwide strikes",
+          "url": "https://www.cp24.com/news/world/2026/11/05/more-than-600000-rally-across-france-to-demand-higher-wages-and-school-funding/"
         },
         {
-          "title": "'The reason we lost is the war': Vance blames midterm GOP losses on Iran conflict",
-          "url": "https://www.militarytimes.com/news/pentagon-congress/2026/11/04/the-reason-we-lost-is-the-war-vance-blames-midterm-gop-losses-iran-conflict/"
+          "title": "Mass protests sweep France as huge crowds demand higher wages, back students' demands - The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/11/05/france-protests-unions-students-paris-rioting/58400290-d8f4-11f1-930a-e08f8086f5ac_story.html"
         },
         {
-          "title": "Vance says the ‘real reason’ for GOP rout was anger over Iran war",
-          "url": "https://www.nbcnews.com/politics/2026-election/vance-says-ranger-iran-war-caused-gop-midterm-losses-rcna607446"
+          "title": "2022 French protests",
+          "url": "https://en.wikipedia.org/wiki/2022_French_protests"
         },
         {
-          "title": "Operation Dawn-4",
-          "url": "https://en.wikipedia.org/wiki/Operation_Dawn-4"
+          "title": "France strikes: largest day of protests in years as economy fuels unrest",
+          "url": "https://www.cnn.com/2026/11/05/world/live-news/france-strikes-protests-action-schools-intl"
         },
         {
-          "title": "Vance Blames Republican Midterm Losses On Iran War",
-          "url": "https://www.forbes.com/sites/conormurray/2026/11/04/vance-blames-republican-midterm-losses-on-iran-war-everyone-knows-why-we-lost/"
+          "title": "Hundreds of thousands march in France’s biggest day of protests in years. Here’s what we know",
+          "url": "https://www.cnn.com/2026/11/05/europe/french-protest-demonstration-latam-intl"
         },
         {
-          "title": "Donald Trump breaks silence on disagreement with JD Vance over Iran war plan",
-          "url": "https://www.aol.com/articles/donald-trump-breaks-silence-disagreement-124500849.html"
+          "title": "Union Syndicale Lyc%C3%A9enne",
+          "url": "https://en.wikipedia.org/wiki/Union_Syndicale_Lyc%C3%A9enne"
         },
         {
-          "title": "‘Pretty Bad for Vance’: The VP’s Silence on Iran Peeves Allies",
-          "url": "https://www.yahoo.com/news/articles/pretty-bad-vance-vp-silence-013923015.html"
+          "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
+          "url": "https://www.euronews.com/2025/12/02/french-unions-stage-new-strikes-against-budget-plan-as-nationwide-turnout-dwindles"
         }
       ]
     },
     {
-      "query": "Gaza Lebanon news November 4 2026",
+      "query": "Trump blames Democrats stock selloff November 5 2026",
       "results": [
         {
-          "title": "Gaza Strip news - Today’s latest updates - CBS News",
-          "url": "https://www.cbsnews.com/tag/gaza-strip/"
+          "title": "Trump blames Democrat midterm wins for stock market drop and 401(k)s",
+          "url": "https://www.foxbusiness.com/politics/trump-blames-democrats-stock-market-plunge-after-sweeping-midterm-victories"
         },
         {
-          "title": "Lebanon News Today",
-          "url": "https://www.newsnow.co.uk/h/World+News/Middle+East/Lebanon"
+          "title": "Wall Street bleeds: Trump blames Democrats for $1 trillion stock rout post midterm shake up - BusinessToday",
+          "url": "https://www.businesstoday.in/world/story/wall-street-bleeds-trump-blames-democrats-for-1-trillion-stock-rout-post-midterm-shake-up-566083-2026-11-06"
         },
         {
-          "title": "Gaza Now",
-          "url": "https://en.wikipedia.org/wiki/Gaza_Now"
+          "title": "Trump Blames Democrats as $3 Trillion Vanishes From Market Post Midterms - State Street SPDR S&P 500 ETF - Benzinga",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62965277/donald-trump-democrats-stock-market-selloff-3-trillion-nasdaq-100-midterms"
         },
         {
-          "title": "Lebanon News: Latest News on Lebanon and Conflicts in the Mideast Region",
-          "url": "https://www.nbcnews.com/lebanon"
+          "title": "Trump blames US market crash on Democrats' midterm election victories",
+          "url": "https://business-standard.com/amp/world-news/trump-blames-us-market-crash-on-democrats-midterm-election-victories-126110600089_1.html"
         },
         {
-          "title": "Gaza News: Breaking News on the Israel-Gaza Conflict, Netanyahu, Hamas & More",
-          "url": "https://www.nbcnews.com/gaza"
+          "title": "Trump blames Democrats for US stock market plunge",
+          "url": "https://newsukraine.rbc.ua/news/trump-blames-democrats-for-us-stock-market-1793958373.html"
         },
         {
-          "title": "Palestine and Israel news today on map - Jerusalem today - Israel News today - Palestine News today - israelpalestine.liveuamap.com",
-          "url": "https://israelpalestine.liveuamap.com/"
+          "title": "Trump Blames Democrats as AI Selloff Wipes $2 Trillion Off Nasdaq; S&P 500 Drops 4.4% — BigGo Finance",
+          "url": "https://finance.biggo.com/news/b273d40a-221c-44f4-9aee-ff5e9ee7f68d"
         },
         {
-          "title": "Conflict With Hezbollah in Lebanon",
-          "url": "https://www.cfr.org/global-conflict-tracker/conflict/political-instability-lebanon"
+          "title": "in his own words trump takes credit for stock market rises but casts aside blame for sell off",
+          "url": "https://www.barchart.com/story/news/31358850/in-his-own-words-trump-takes-credit-for-stock-market-rises-but-casts-aside-blame-for-sell-off"
         },
         {
-          "title": "Israel/Lebanon News Today",
-          "url": "https://www.newsnow.com/us/World/Middle+East/Israel~Lebanon"
+          "title": "Free Trial",
+          "url": "https://www.marketbeat.com/articles/in-his-own-words-trump-takes-credit-for-stock-market-rises-but-casts-aside-blame-for-sell-off-2025-03-11"
         },
         {
-          "title": "Israel threatens to impose ‘Gaza model’ on Lebanon (VIDEO) — RT World News",
-          "url": "https://rt-english.com/news/647399-israel-lebanon-destruction-military/"
+          "title": "benzinga.com",
+          "url": "https://benzinga.com/z/40219766"
         }
       ]
     },
     {
-      "query": "Africa news November 4 2026 Ebola Sudan",
+      "query": "Zaporizhzhia aid center strike death toll rises 40 November 2026",
       "results": [
         {
-          "title": "South Sudan news - Today’s latest updates - CBS News",
-          "url": "https://www.cbsnews.com/tag/south-sudan/"
+          "title": "Death toll from Russian strike on humanitarian aid distribution site in Ukraine’s Zaporizhzhia Region rises to 31 — The Insider",
+          "url": "https://theins.press/en/news/299111"
         },
         {
-          "title": "Uganda confirms deadly outbreak of Sudan Ebola virus",
-          "url": "https://www.cidrap.umn.edu/ebola/uganda-confirms-deadly-outbreak-sudan-ebola-virus"
+          "title": "Toll from Ukraine aid centre strike rises to 42 - Oman Observer",
+          "url": "https://www.omanobserver.om/article/1199179/world/europe/toll-from-ukraine-aid-centre-strike-rises-to-42"
         },
         {
-          "title": "Remaining patients discharged in Uganda's Ebola Sudan outbreak",
-          "url": "https://www.cidrap.umn.edu/ebola/remaining-patients-discharged-ugandas-ebola-sudan-outbreak"
+          "title": "Death toll hits 40 after Russian strike on Ukrainian aid site; dozens remain missing",
+          "url": "https://www.nbcnews.com/world/ukraine/russia-bomb-aid-center-ukraine-dead-missing-zelenskyy-bodies-rcna607458"
         },
         {
-          "title": "Catholic Church Ready to Support Ebola Preparedness in South Sudan, Bishop Tells U.S. Ambassador",
-          "url": "https://www.aciafrica.org/news/25129/catholic-church-ready-to-support-ebola-preparedness-in-south-sudan-bishop-tells-us-ambassador"
+          "title": "Dozens dead and missing after Russian strike on Ukrainian aid centre, officials say",
+          "url": "https://www.yahoo.com/news/world/articles/dozens-dead-missing-russian-strike-114700942.html"
         },
         {
-          "title": "Ebola News Today: Latest 2026 Outbreak Headlines",
-          "url": "https://www.liveebolamap.com/news"
+          "title": "Dozens Dead and Missing After Russian Strike on Ukrainian Aid Centre",
+          "url": "https://ground.news/article/death-toll-in-russian-attack-on-aid-centre-up-to-40-zelenskyy_76f13a"
         },
         {
-          "title": "Today's top news: Ebola coordinator, Lebanon, Occupied Palestinian Territory, Sudan",
-          "url": "https://www.unocha.org/news/todays-top-news-ebola-coordinator-lebanon-occupied-palestinian-territory-sudan"
+          "title": "Russian Bombing of Ukrainian Aid Center Leaves 42 Dead, 59 Missing",
+          "url": "https://www.forth.news/stories/CgjcMQHr7hHMxzeWczvGm"
         },
         {
-          "title": "UNICEF delivers 50 tonnes of Ebola medical supplies to South Sudan",
-          "url": "https://eyeradio.org/unicef-delivers-50-tonnes-of-ebola-medical-supplies-to-south-sudan/"
+          "title": "Zaporizhzhia Death Toll Climbs Following Heavy Bombing of Aid Site",
+          "url": "https://azat.tv/en/zaporizhzhia-aid-site-bombing-death-toll-rises/"
         },
         {
-          "title": "UNICEF scales up preparedness in response to Ebola outbreaks in neighbouring countries",
-          "url": "https://www.unicef.org/southsudan/press-releases/unicef-scales-preparedness-response-ebola-outbreaks-neighbouring-countries"
+          "title": "Death toll in strike on Ukraine’s Zaporizhzhia rises to 11 – officials | Inquirer News",
+          "url": "https://newsinfo.inquirer.net/1738497/death-toll-in-strike-on-ukraines-zaporizhzhia-rises-to-11-officials"
         },
         {
-          "title": "Africa Intelligence Brief — Wednesday, November 4, 2026",
-          "url": "https://www.riotimesonline.com/africa-intelligence-brief-wednesday-november-4-2026"
-        }
-      ]
-    },
-    {
-      "query": "China Asia news November 4 2026",
-      "results": [
-        {
-          "title": "China Today (TV program)",
-          "url": "https://en.wikipedia.org/wiki/China_Today_(TV_program)"
-        },
-        {
-          "title": "The Asian Today",
-          "url": "https://en.wikipedia.org/wiki/The_Asian_Today"
-        },
-        {
-          "title": "Asia Pacific Daily",
-          "url": "https://en.wikipedia.org/wiki/Asia_Pacific_Daily"
-        },
-        {
-          "title": "China Breaking News & Headlines",
-          "url": "https://www.scmp.com/news/china"
-        },
-        {
-          "title": "The China Post",
-          "url": "https://en.wikipedia.org/wiki/The_China_Post"
-        },
-        {
-          "title": "Asia Business Report",
-          "url": "https://en.wikipedia.org/wiki/Asia_Business_Report"
-        },
-        {
-          "title": "China Today",
-          "url": "https://en.wikipedia.org/wiki/China_Today"
-        },
-        {
-          "title": "Nikkei Asia - Business, Politics, Economy and Tech News & Analysis",
-          "url": "https://asia.nikkei.com/"
-        },
-        {
-          "title": "China news - breaking news, video, headlines and opinion",
-          "url": "https://www.cnn.com/world/china"
-        },
-        {
-          "title": "Asia Times",
-          "url": "https://asiatimes.com/"
+          "title": "Death toll in strike on Ukraine’s Zaporizhzhia rises to 11 – officials",
+          "url": "https://newsinfo.inquirer.net/1738497/death-toll-in-strike-on-ukraines-zaporizhzhia-rises-to-11-officials/amp"
         }
       ]
     }
   ],
   "fetched": [],
   "meta": {
-    "id": "2026-11-05",
-    "generated_at": "2026-11-05T11:24:03.392Z",
+    "id": "2026-11-06",
+    "generated_at": "2026-11-06T11:24:58.465Z",
     "model": "claude-opus-5-5",
     "via": "claude-code-routine",
     "searches": 15,
-    "results_count": 138,
-    "cited_count": 33
+    "results_count": 136,
+    "cited_count": 37
   }
 }
