@@ -1,0 +1,991 @@
+{
+  "date": "Saturday, November 7, 2026",
+  "edition": "HOT JOBS",
+  "tldr_label": "TL;DR — A strong jobs report lifts the odds of a Fed hike; Trump threatens to 'destroy' the rest of Iran; Russia fires 36 missiles at Kyiv",
+  "tldr_bullets": [
+    {
+      "label": "Jobs",
+      "body": "The US added 165,000 jobs in October, far above forecasts, and unemployment fell to 4.1%. Markets now price roughly 77% odds of a Fed hike in December. [[TAG:warning:hike odds up]]"
+    },
+    {
+      "label": "Markets",
+      "body": "The Nasdaq and S&P 500 rebounded on Friday but posted weekly losses of about 3.4% and 2.7%. Brent ended near $98 after one of its steepest weekly drops since 2020."
+    },
+    {
+      "label": "Iran",
+      "body": "Trump said he may have to 'destroy the rest' of Iran and would decide soon on resuming strikes. Iran's Revolutionary Guards say they downed a US drone over Qeshm. [[TAG:danger:strikes weighed]]"
+    },
+    {
+      "label": "Ukraine",
+      "body": "Zelensky says Russia fired 36 ballistic missiles at Kyiv overnight, damaging a major bridge. Trump says a peace deal is 'very close'. [[TAG:danger:36 missiles]]"
+    },
+    {
+      "label": "Europe",
+      "body": "The Bank of England raised its rate to 4%, citing energy prices. Hoax bomb threats disrupted flights across Europe for a second time this week."
+    },
+    {
+      "label": "Elections",
+      "body": "Eisenkot is set to receive Israel's mandate on Sunday. Alaska's Senate race is still separated by a few hundred votes, and South Africa's ANC is near 31% with final results due Sunday."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Jobs and the Fed",
+      "icon": "💼",
+      "summary": "Payrolls jump 165,000 and unemployment falls to 4.1%, raising the odds of a December hike",
+      "paragraphs": [
+        {
+          "heading": "The report",
+          "body": "CNBC reported that the economy added 165,000 jobs in October, far more than the roughly 59,000 expected, and that unemployment slipped to 4.1%. Morningstar and Fox Business carried the same headline figure. CNBC noted that the share of long-term unemployed rose to its highest since late 2021. [[TAG:success:+165K jobs]]"
+        },
+        {
+          "heading": "Rates",
+          "body": "The Rio Times reported that odds of a Fed hike in December rose to about 77%, and InvestmentNews said the report lifted those odds. Yahoo Finance said yields rose, and Pomegra put the 10-year Treasury yield near 4.87%. The next inflation report is due on November 10."
+        }
+      ],
+      "sources": "CNBC, Morningstar, Fox Business, Rio Times, InvestmentNews, Yahoo Finance, Pomegra",
+      "citations": [
+        {
+          "outlet": "CNBC",
+          "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
+          "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+        },
+        {
+          "outlet": "Morningstar",
+          "title": "October US Jobs Report: 165,000 Rise in Payrolls, Beating Expectations",
+          "url": "https://www.morningstar.com/economy/october-us-jobs-report-165000-rise-payrolls-beating-expectations"
+        },
+        {
+          "outlet": "Fox Business",
+          "title": "October jobs report: US economy added 165,000 jobs last month",
+          "url": "https://www.foxbusiness.com/economy/us-jobs-report-october-2026"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "A long-term unemployment trend is hiding in the October job report",
+          "url": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html"
+        },
+        {
+          "outlet": "Rio Times",
+          "title": "Fed Hike Odds Rise to 77% After Jobs Report",
+          "url": "https://www.riotimesonline.com/fed-december-hike-odds-rise-after-jobs-report-2026"
+        },
+        {
+          "outlet": "InvestmentNews",
+          "title": "October jobs report beats forecasts, lifting December Fed hike odds - InvestmentNews",
+          "url": "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Strong October jobs report sends yields higher",
+          "url": "https://finance.yahoo.com/economy/policy/articles/strong-october-jobs-report-sends-134858909.html"
+        },
+        {
+          "outlet": "Pomegra",
+          "title": "10-Year Treasury Yield Hits 4.87% After Strong Jobs Data",
+          "url": "https://pomegra.io/news/10-year-treasury-yield-hits-487-after-strong-jobs-data"
+        }
+      ]
+    },
+    {
+      "title": "Markets After the Rout",
+      "icon": "📈",
+      "summary": "Tech rebounds on Friday but stocks post a losing week; Brent ends near $98",
+      "paragraphs": [
+        {
+          "heading": "Stocks",
+          "body": "Yahoo Finance reported that the Nasdaq and S&P 500 rebounded on Friday while the Dow slipped, capping a bruising week for AI stocks. The Washington Post carried the index tally. StockTitan said chip stocks bounced back a day after their selloff. For the week, the S&P 500 lost about 2.7% and the Nasdaq about 3.4%."
+        },
+        {
+          "heading": "Oil",
+          "body": "FinanceFeeds reported that Brent settled near $98.32 after what it called a 16% weekly drop. Investors King said Brent was heading for a decline of about 12%, so the size of the drop depends on the starting point. NBC News said prices had fallen below $100 on hopes of an end to the Iran war, and Yahoo Finance reported that Brent rose more than $3 on one day after tanker attacks. [[TAG:warning:oil volatile]]"
+        }
+      ],
+      "sources": "Yahoo Finance, Washington Post, StockTitan, FinanceFeeds, Investors King, NBC News",
+      "citations": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Stock market today: Nasdaq and S&P 500 rebound, Dow slips to cap bruising week for AI stocks",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
+        },
+        {
+          "outlet": "Washington Post",
+          "title": "How major US stock indexes fared Friday 11/6/2026 - The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/11/06/wall-street-stocks-dow-nasdaq/fbde12a0-da27-11f1-930a-e08f8086f5ac_story.html"
+        },
+        {
+          "outlet": "StockTitan",
+          "title": "Chip Stocks Bounced Back in the Stock Market Today, November 6, 2026, a Day After Their Selloff",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-6-2026"
+        },
+        {
+          "outlet": "FinanceFeeds",
+          "title": "Brent Crude Oil Price: $98.32 After 16% Weekly Drop",
+          "url": "https://financefeeds.com/brent-crude-oil-price-98-32-saturday-week-ahead-us-iran-deal-bets-cpi-10-november-bull-105-bear-93/"
+        },
+        {
+          "outlet": "Investors King",
+          "title": "Oil Prices Rebound Towards $100 But Brent Heads For 12% Weekly Decline",
+          "url": "https://investorsking.com/2026/11/06/oil-prices-rebound-towards-100-but-brent-heads-for-12-weekly-decline/"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "Oil prices drop below $100 as midterms fuel hope for an end to the Iran war",
+          "url": "https://www.nbcnews.com/business/energy/oil-prices-iran-war-midterms-rcna607448"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Brent crude jumps, settles up over $3 after tanker attacks",
+          "url": "https://finance.yahoo.com/news/oil-falls-fourth-day-expectations-045943628.html"
+        }
+      ]
+    },
+    {
+      "title": "Iran",
+      "icon": "⚔️",
+      "summary": "Trump says he may have to 'destroy the rest' of Iran as Tehran courts Moscow",
+      "paragraphs": [
+        {
+          "heading": "Threat",
+          "body": "Al Jazeera reported that Trump said the US may have to 'destroy' the rest of Iran and that he would decide soon. The New Arab said diplomatic efforts are intensifying at the same time. Gulf News reported that Trump warned of a 'heavy hit'. Reports say Central Command is finalizing plans while Trump weighs resuming strikes, tightening sanctions or pursuing a deal. [[TAG:danger:strikes weighed]]"
+        },
+        {
+          "heading": "Tehran",
+          "body": "Al Jazeera's live blog reported that the Revolutionary Guards say they downed a US drone over Qeshm and that tankers were hit in Hormuz. It also reported that Iran's security chief met Putin and delivered a message from Khamenei. Dawn reported a separate claim that two drones were downed, so accounts differ."
+        }
+      ],
+      "sources": "Al Jazeera, The New Arab, Gulf News, Dawn",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran war live: Trump warns US may have to ‘destroy’ rest of Iran",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran?update=5127426"
+        },
+        {
+          "outlet": "The New Arab",
+          "title": "Trump threatens to ’destroy’ Iran, diplomatic efforts intensify",
+          "url": "https://www.newarab.com/news/trump-threatens-destroy-iran-diplomatic-efforts-intensify"
+        },
+        {
+          "outlet": "Gulf News",
+          "title": "Trump Warns Iran of 'Heavy Hit' Amid Rising Gulf Tensions and Diplomatic Efforts",
+          "url": "https://gulfnews.com/world/mena/us-israel-iran-war-trump-warns-iran-heavy-hit-tehran-gulf-diplomacy-1.500737918"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran war live: IRGC says US drone downed, tankers hit in Strait of Hormuz",
+          "url": "https://aljazeera.com/amp/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
+        },
+        {
+          "outlet": "Dawn",
+          "title": "Live Updates: War returns to Iran with Israel, US strikes - DAWN.COM",
+          "url": "https://dawn.com/live/iran-israel-war"
+        }
+      ]
+    },
+    {
+      "title": "Ukraine",
+      "icon": "🇺🇦",
+      "summary": "36 ballistic missiles hit the Kyiv region and damage a key bridge; Trump says a deal is near",
+      "paragraphs": [
+        {
+          "heading": "Kyiv strike",
+          "body": "The Kyiv Independent reported that Zelensky said 36 Russian ballistic missiles struck Kyiv and the surrounding region, damaging the Northern Bridge. Reuters, via Al Arabiya, reported casualties, and early counts differ, from several injured to one dead. Sigmalive said a kindergarten was damaged. The attack followed Zelensky's warning about strikes on energy and bridges. [[TAG:danger:36 missiles]]"
+        },
+        {
+          "heading": "Diplomacy",
+          "body": "Al Jazeera reported that Trump said a deal with Russia is 'very close' after meeting Putin's envoy Kirill Dmitriev, without giving specifics. Talks in Abu Dhabi are expected in the coming days."
+        }
+      ],
+      "sources": "Kyiv Independent, Al Arabiya/Reuters, Sigmalive, Al Jazeera",
+      "citations": [
+        {
+          "outlet": "Kyiv Independent",
+          "title": "36 Russian ballistic missiles slam Kyiv and Kyiv Oblast, damage Northern Bridge, injure at least 6 people",
+          "url": "https://kyivindependent.com/russian-ballistic-missiles-slam-kyiv-after-zelensky-warns-of-mass-attack/"
+        },
+        {
+          "outlet": "Al Arabiya/Reuters",
+          "title": "Russian forces launch missile attack on Ukrainian capital Kyiv, mayor says",
+          "url": "https://english.alarabiya.net/News/world/2026/11/07/russian-forces-launch-missile-attack-on-ukrainian-capital-kyiv-mayor-says"
+        },
+        {
+          "outlet": "Sigmalive",
+          "title": "Russian missile attack on Kyiv leaves two injured, damages kindergarten - Sigmalive English",
+          "url": "https://en.sigmalive.com/russian-missile-attack-on-kyiv-leaves-two-injured-damages-kindergarten/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump says Russia-Ukraine deal is near after meeting Putin’s envoy",
+          "url": "https://www.aljazeera.com/news/2026/11/6/trump-met-russian-envoy-after-he-appeared-with-melania-trump-and-ukrainians"
+        }
+      ]
+    },
+    {
+      "title": "Europe",
+      "icon": "🇪🇺",
+      "summary": "BoE raises its rate to 4% on energy costs; hoax bomb threats disrupt flights again",
+      "paragraphs": [
+        {
+          "heading": "Bank of England",
+          "body": "The Bank of England said its Monetary Policy Committee voted 8-1 to raise Bank Rate by a quarter point to 4%, citing energy price pressure from the Middle East conflict. MoneyWeek covered the decision live. The next decision is due on December 17. [[TAG:warning:BoE hike]]"
+        },
+        {
+          "heading": "Flight threats",
+          "body": "CNBC and NPR reported repeated waves of hoax bomb threats against European flights this week, with diversions and fighter escorts, and NPR said broadcasters were also targeted. The Washington Post reported disruptions across several countries. Al Jazeera said the EU called it too early to say whether the threats are linked. Officials have warned about Russian hybrid threats but have not attributed these."
+        }
+      ],
+      "sources": "Bank of England, MoneyWeek, CNBC, NPR, Washington Post, Al Jazeera",
+      "citations": [
+        {
+          "outlet": "Bank of England",
+          "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+        },
+        {
+          "outlet": "MoneyWeek",
+          "title": "Live: Bank of England raises interest rates",
+          "url": "https://moneyweek.com/economy/news/live/uk-interest-rates-november-bank-of-england"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Hoax bomb threats repeatedly disrupt flights across Europe this week. Here’s what we know",
+          "url": "https://www.cnbc.com/2026/11/05/bomb-threats-flights-europe.html"
+        },
+        {
+          "outlet": "NPR",
+          "title": "European flights and broadcasters are targeted with another wave of bomb threats",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6032612/europe-flights-hoaxes"
+        },
+        {
+          "outlet": "Washington Post",
+          "title": "Bomb scares disrupt multiple flights across Europe - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/11/05/bomb-threats-target-multiple-flights-across-europe/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Hoax or bomb threats? What we know about flight disruptions across Europe",
+          "url": "https://www.aljazeera.com/news/2026/11/6/hoax-or-bomb-threats-what-we-know-about-flight-disruptions-across-europe"
+        }
+      ]
+    },
+    {
+      "title": "Elections Pending",
+      "icon": "🗳️",
+      "summary": "Eisenkot's mandate is due Sunday; Alaska's count drags on; South Africa's ANC is near 31%",
+      "paragraphs": [
+        {
+          "heading": "Israel",
+          "body": "Israel National News and JNS reported that Herzog will assign the mandate on Sunday after 67 lawmakers recommended Eisenkot. Haaretz reported that Eisenkot signaled he is ready for a minority government, after Liberman ruled one out. [[TAG:info:mandate Sunday]]"
+        },
+        {
+          "heading": "Alaska",
+          "body": "Alaska's News Source reported that the Senate race remains undecided, with fewer than 700 votes separating Peltola and Sullivan. Reason argued that Peltola appears likely to win, while an Alaska Beacon analysis said ranked-choice redistribution could help Sullivan. Counting must finish by November 18. [[TAG:warning:too close]]"
+        },
+        {
+          "heading": "South Africa",
+          "body": "France 24 reported that the ANC is on track for 'nightmare' losses. BusinessTech said about 95% of votes are counted, with the ANC near 31% and the DA near 24%. The Citizen said the DA leads several metros, where coalitions will be needed. Final results are due on Sunday."
+        }
+      ],
+      "sources": "Israel National News, JNS, Haaretz, Alaska's News Source, Reason, Alaska Beacon, France 24, BusinessTech, The Citizen",
+      "citations": [
+        {
+          "outlet": "Israel National News",
+          "title": "67 MKs back Eisenkot, 46 back Netanyahu: Herzog to assign mandate on Sunday",
+          "url": "https://www.israelnationalnews.com/news/435750"
+        },
+        {
+          "outlet": "JNS",
+          "title": "Herzog: 67 MKs recommend Eisenkot, 46 Netanyahu; mandate to be assigned Sunday - Israel & Jewish News - JNS",
+          "url": "https://www.jns.org/news/israel-news/herzog-67-mks-recommend-eisenkot-46-netanyahu-mandate-to-be-assigned-sunday"
+        },
+        {
+          "outlet": "Haaretz",
+          "title": "Eisenkot Signals Readiness for Minority Government to Replace Netanyahu - Israel Political News",
+          "url": "https://www.haaretz.com/israel-news/israel-politics/2026-11-06/ty-article/.premium/eisenkot-signals-readiness-for-minority-government-to-replace-netanyahu/000001a1-b12a-defa-a7f7-bd7f4c110000"
+        },
+        {
+          "outlet": "Alaska's News Source",
+          "title": "Alaska Senate race remains undecided days after Election Day",
+          "url": "https://www.alaskasnewssource.com/2026/11/07/alaska-senate-race-remains-undecided-days-after-election-day/"
+        },
+        {
+          "outlet": "Reason",
+          "title": "Mary Peltola appears likely to defeat both Dan Sullivans in Alaska's Senate race",
+          "url": "https://reason.com/2026/11/06/mary-peltola-appears-likely-to-defeat-both-dan-sullivans-in-alaskas-senate-race/"
+        },
+        {
+          "outlet": "Alaska Beacon",
+          "title": "Ranked choice voting may help Republican US Sen. Dan Sullivan, analysis finds",
+          "url": "https://alaskabeacon.com/2026/11/04/ranked-choice-voting-may-help-republican-us-sen-dan-sullivan-analysis-finds/"
+        },
+        {
+          "outlet": "France 24",
+          "title": "South Africa's ANC party on track to face 'nightmare' losses in municipal elections - France 24",
+          "url": "https://www.france24.com/en/africa/20261106-south-africa-anc-party-on-track-to-face-nightmare-losses-in-municipal-elections"
+        },
+        {
+          "outlet": "BusinessTech",
+          "title": "2026 election results: Final numbers in sight as 95% of votes counted, with winners and losers clear",
+          "url": "https://businesstech.co.za/news/government/883196/2026-election-results-final-numbers-in-sight-as-95-of-votes-counted-with-winners-and-losers-clear/"
+        },
+        {
+          "outlet": "The Citizen",
+          "title": "Here's how the eight metros stand as the IEC begins to wrap up results",
+          "url": "https://www.citizen.co.za/news/south-africa/elections/heres-how-the-eight-metros-stand-as-the-iec-begins-to-wrap-up-results/"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "query": "October jobs report results November 6 2026 payrolls unemployment",
+      "results": [
+        {
+          "title": "October US Jobs Report: 165,000 Rise in Payrolls, Beating Expectations",
+          "url": "https://www.morningstar.com/economy/october-us-jobs-report-165000-rise-payrolls-beating-expectations"
+        },
+        {
+          "title": "The October jobs report is out Friday. Here's everything to expect",
+          "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html"
+        },
+        {
+          "title": "October Jobs Report: Payrolls Smash Estimates at 165K - Advanced Micro Devices (NASDAQ:AMD) - Benzinga",
+          "url": "https://www.benzinga.com/markets/economic-data/26/11/62974776/october-jobs-report-nonfarm-payrolls-unemployment-rate"
+        },
+        {
+          "title": "Strong October jobs report sends yields higher",
+          "url": "https://finance.yahoo.com/economy/policy/articles/strong-october-jobs-report-sends-134858909.html"
+        },
+        {
+          "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
+          "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+        },
+        {
+          "title": "What a Hotter-Than-Expected October Jobs Report Means ...",
+          "url": "https://www.kiplinger.com/investing/economy/jobs-report-october-2026-what-to-expect"
+        },
+        {
+          "title": "A long-term unemployment trend is hiding in the October job report",
+          "url": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html"
+        },
+        {
+          "title": "October jobs report: US economy added 165,000 jobs last month",
+          "url": "https://www.foxbusiness.com/economy/us-jobs-report-october-2026"
+        },
+        {
+          "title": "U.S. Jobs Report October 2026: Payrolls Jump 165,000",
+          "url": "https://finwire.io/news/forex-news/us-jobs-report-october-2026-payrolls-jump-165000"
+        },
+        {
+          "title": "November 6, 2015",
+          "url": "https://www.rpc.senate.gov/policy-papers/october-2015-jobs-report"
+        }
+      ]
+    },
+    {
+      "query": "stock market close Friday November 6 2026 Dow S&P Nasdaq week",
+      "results": [
+        {
+          "title": "Closing Look — Friday, November 6, 2026",
+          "url": "https://cappnotes.substack.com/p/closing-look-friday-november-6-2026"
+        },
+        {
+          "title": "Stock market news for Nov. 6, 2026",
+          "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+        },
+        {
+          "title": "Stock market today: Nasdaq and S&P 500 rebound, Dow slips to cap bruising week for AI stocks",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
+        },
+        {
+          "title": "Stock Market News for Nov 6, 2026",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-6-132900980.html"
+        },
+        {
+          "title": "Stock Market Today (Nov. 6, 2026): Nasdaq, S&P 500 rise after midterms AI rout",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-6-144816072.html"
+        },
+        {
+          "title": "How major US stock indexes fared Friday 11/6/2026 - The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/11/06/wall-street-stocks-dow-nasdaq/fbde12a0-da27-11f1-930a-e08f8086f5ac_story.html"
+        },
+        {
+          "title": "Did the Stock Market Crash Today? Nasdaq Rebounds After $2.5 Trillion Selloff as Dow Futures Signal Volatility",
+          "url": "https://finchannel.com/did-the-stock-market-crash-today-editorial-scenario-probabilities-for-next-week/140827/featured/2026/11/"
+        },
+        {
+          "title": "Market Review: November 06, 2026 - Investrade",
+          "url": "https://investrade.com/market-review-november-06-2026/"
+        },
+        {
+          "title": "Chip Stocks Bounced Back in the Stock Market Today, November 6, 2026, a Day After Their Selloff",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-6-2026"
+        }
+      ]
+    },
+    {
+      "query": "Iran news November 6 2026",
+      "results": [
+        {
+          "title": "Iran",
+          "url": "https://www.aljazeera.com/where/iran/"
+        },
+        {
+          "title": "Iran war live: IRGC says US drone downed, tankers hit in Strait of Hormuz",
+          "url": "https://aljazeera.com/amp/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
+        },
+        {
+          "title": "2026 in Oman",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Oman"
+        },
+        {
+          "title": "2026 Iranian leadership crisis",
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_leadership_crisis"
+        },
+        {
+          "title": "2026 Iran explosions",
+          "url": "https://en.wikipedia.org/wiki/2026_Iran_explosions"
+        },
+        {
+          "title": "2026 United States protests against strikes on Iran",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_protests_against_strikes_on_Iran"
+        },
+        {
+          "title": "Timeline of the 2026 Iran war",
+          "url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war"
+        },
+        {
+          "title": "Live Updates: War returns to Iran with Israel, US strikes - DAWN.COM",
+          "url": "https://dawn.com/live/iran-israel-war"
+        },
+        {
+          "title": "Iran News in Brief",
+          "url": "https://www.ncr-iran.org/en/news/iran-news-in-brief-november-5-2026/"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Russia news November 6 2026",
+      "results": [
+        {
+          "title": "Ukraine News Today",
+          "url": "https://en.wikipedia.org/wiki/Ukraine_News_Today"
+        },
+        {
+          "title": "Ukraine Online",
+          "url": "https://en.wikipedia.org/wiki/Ukraine_Online"
+        },
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.co.uk/h/World+News/Europe/Eastern+Europe/Ukraine"
+        },
+        {
+          "title": "Russian invasion of Ukraine: Latest news, analysis and videos",
+          "url": "https://www.cnn.com/world/europe/ukraine"
+        },
+        {
+          "title": "Russia launches missile attack on Kyiv, injuring residents",
+          "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents"
+        },
+        {
+          "title": "Russia-Ukraine war",
+          "url": "https://www.aljazeera.com/tag/ukraine-russia-crisis/"
+        },
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.com/us/World/Europe/Eastern+Europe/Ukraine"
+        },
+        {
+          "title": "Trump says Russia-Ukraine deal is near after meeting Putin’s envoy",
+          "url": "https://www.aljazeera.com/news/2026/11/6/trump-met-russian-envoy-after-he-appeared-with-melania-trump-and-ukrainians"
+        },
+        {
+          "title": "Full Episode",
+          "url": "https://www.pbs.org/newshour/tag/ukraine/page/52"
+        }
+      ]
+    },
+    {
+      "query": "Trump warns US may have to destroy rest of Iran November 6 2026",
+      "results": [
+        {
+          "title": "Iran war live: Trump warns US may have to ‘destroy’ rest of Iran",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran?update=5127426"
+        },
+        {
+          "title": "Trump threatens to \"destroy the rest\" of Iran in stark new warning",
+          "url": "https://www.soapcentral.com/entertainment/trump-threatens-destroy-rest-iran-stark-new-warning"
+        },
+        {
+          "title": "Trump Warns Iran of 'Heavy Hit' Amid Rising Gulf Tensions and Diplomatic Efforts",
+          "url": "https://gulfnews.com/world/mena/us-israel-iran-war-trump-warns-iran-heavy-hit-tehran-gulf-diplomacy-1.500737918"
+        },
+        {
+          "title": "Trump threatens to ’destroy’ Iran, diplomatic efforts intensify",
+          "url": "https://www.newarab.com/news/trump-threatens-destroy-iran-diplomatic-efforts-intensify"
+        },
+        {
+          "title": "Trump threatens to destroy rest of Iran as war tensions escalate - Tribune Online",
+          "url": "https://tribuneonlineng.com/trump-threatens-to-destroy-rest-of-iran-as-war-tensions-escalate/"
+        },
+        {
+          "title": "Trump threatens to 'destroy the rest' of Iran and will decide soon on resuming strikes: 'I did the right thing and would do it again'",
+          "url": "https://www.todoalicante.es/english/trump-threatens-destroy-rest-20261106051152-nt.html"
+        },
+        {
+          "title": "Trump Says He May Have To ‘Destroy the Rest of the Country’ of Iran in Latest Threat",
+          "url": "https://headlineusa.com/trump-says-he-may-have-to-destroy-the-rest-of-the-country-of-iran-in-latest-threat/"
+        },
+        {
+          "title": "Trump warns US may have to destroy Iran in new military - Newsy Today",
+          "url": "https://www.newsy-today.com/trump-warns-us-may-have-to-destroy-iran-in-new-military/"
+        },
+        {
+          "title": "Trump says US may destroy Iran as Tehran reviews nuclear proposals - World Today News",
+          "url": "https://www.world-today-news.com/trump-says-us-may-destroy-iran-as-tehran-reviews-nuclear-proposals/"
+        }
+      ]
+    },
+    {
+      "query": "Fed December rate hike odds after jobs report November 6 2026 Treasury yields dollar",
+      "results": [
+        {
+          "title": "US jobs report: 165,000 payroll lift Treasury yields and Fed hike odds",
+          "url": "https://beinsure.com/news/us-jobs-report-165k-payroll-lift-treasury-yields/"
+        },
+        {
+          "title": "Strong Jobs Print Pushed Treasury Yields Back Up - Finimize",
+          "url": "https://finimize.com/content/strong-jobs-print-pushed-treasury-yields-back-up"
+        },
+        {
+          "title": "October jobs report beats forecasts, lifting December Fed hike odds - InvestmentNews",
+          "url": "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915"
+        },
+        {
+          "title": "Stocks Mixed, Yields Up on Surging U.S. Job Growth",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+        },
+        {
+          "title": "Fed Hike Odds Rise to 77% After Jobs Report",
+          "url": "https://www.riotimesonline.com/fed-december-hike-odds-rise-after-jobs-report-2026"
+        },
+        {
+          "title": "Fed rate hike odds jump after October jobs report as officials signal more tightening",
+          "url": "https://invezz.com/en-ae/news/2026/11/06/fed-rate-hike-odds-jump-after-october-jobs-report-as-officials-signal-more-tightening/"
+        },
+        {
+          "title": "Jobs Report Pushes December Rate Hike Probability to 88%",
+          "url": "https://gokhshtein.com/news/2026-11-06-us-job-growth-accelerated-in-october-and-the-unemployment"
+        },
+        {
+          "title": "10-Year Treasury Yield Hits 4.87% After Strong Jobs Data",
+          "url": "https://pomegra.io/news/10-year-treasury-yield-hits-487-after-strong-jobs-data"
+        },
+        {
+          "title": "US Jobs Surge 165,000, Nearly Triple Forecasts, as Fed Rate Hike Odds Hit 80",
+          "url": "https://coinpaper.com/38460/us-jobs-surge-165-000-nearly-triple-forecasts-as-fed-rate-hike-odds-hit-80"
+        },
+        {
+          "title": "Dollar and US yields rise, stocks fall after jobs report keeps Fed hike alive",
+          "url": "https://gulfnews.com/business/markets/dollar-and-us-yields-rise-stocks-fall-after-jobs-report-keeps-fed-hike-alive-1.1666628"
+        }
+      ]
+    },
+    {
+      "query": "Israel news November 6 2026 Eisenkot mandate Sunday Netanyahu",
+      "results": [
+        {
+          "title": "Herzog: 67 MKs recommend Eisenkot, 46 Netanyahu; mandate to be assigned Sunday - Israel & Jewish News - JNS",
+          "url": "https://www.jns.org/news/israel-news/herzog-67-mks-recommend-eisenkot-46-netanyahu-mandate-to-be-assigned-sunday"
+        },
+        {
+          "title": "Eisenkot Signals Readiness for Minority Government to Replace Netanyahu - Israel Political News",
+          "url": "https://www.haaretz.com/israel-news/israel-politics/2026-11-06/ty-article/.premium/eisenkot-signals-readiness-for-minority-government-to-replace-netanyahu/000001a1-b12a-defa-a7f7-bd7f4c110000"
+        },
+        {
+          "title": "Eisenkot secures 67 recommendations, nears mandate to form Israel's next government",
+          "url": "https://www.ynetnews.com/article/ryuqebc6zg"
+        },
+        {
+          "title": "67 MKs back Eisenkot, 46 back Netanyahu: Herzog to assign mandate on Sunday",
+          "url": "https://www.israelnationalnews.com/news/435750"
+        },
+        {
+          "title": "Eisenkot set to receive mandate to form Israeli gov't as Herzog rounds out consultation meetings",
+          "url": "https://www.jpost.com/israel-election-2026/article-913989"
+        },
+        {
+          "title": "Israel’s opposition leaders back Eisenkot to oust Netanyahu",
+          "url": "https://www.aljazeera.com/news/2026/11/3/israeli-opposition-leaders-back-eisenkot-to-oust-netanyahu"
+        },
+        {
+          "title": "Sparta Speech",
+          "url": "https://en.wikipedia.org/wiki/Sparta_Speech"
+        },
+        {
+          "title": "Eisenkot Rifts: Netanyahu Gains Edge in Israel Vote · Daily Beirut",
+          "url": "https://dailybeirut.com/en/world/fragile-majority-trap-opposition-rifts-threaten-eisenkot-netanyahu/"
+        },
+        {
+          "title": "The Daily Telegraph - Saturday",
+          "url": "https://www.pressreader.com/uk/the-daily-telegraph-saturday/20240120/281943137745494"
+        }
+      ]
+    },
+    {
+      "query": "Alaska Senate race update November 6 2026 Peltola Sullivan count",
+      "results": [
+        {
+          "title": "Mary Peltola narrowly leads Dan S. Sullivan in Alaska Senate race",
+          "url": "https://thehill.com/homenews/campaign/6197925-mary-peltola-alaska-senate-race-lead/"
+        },
+        {
+          "title": "Alaska Senate race remains undecided days after Election Day",
+          "url": "https://www.alaskasnewssource.com/2026/11/07/alaska-senate-race-remains-undecided-days-after-election-day/"
+        },
+        {
+          "title": "Mary Peltola appears likely to defeat both Dan Sullivans in Alaska's Senate race",
+          "url": "https://reason.com/2026/11/06/mary-peltola-appears-likely-to-defeat-both-dan-sullivans-in-alaskas-senate-race/"
+        },
+        {
+          "title": "Early results show Peltola and Sullivan in tight U.S. Senate race - Anchorage Daily News",
+          "url": "https://www.adn.com/politics/2026/11/03/peltola-leads-sullivan-in-limited-early-results-in-hard-fought-us-senate-race/"
+        },
+        {
+          "title": "Alaska’s US Senate race a tossup, with many absentee and early votes to be counted",
+          "url": "https://alaskabeacon.com/2026/11/03/democratic-candidate-mary-peltola-leads-in-early-vote-counts-for-alaskas-us-senate-election/"
+        },
+        {
+          "title": "Sullivan and Peltola locked in tight U.S. Senate race as more results come in",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-11-03/peltola-takes-early-lead-in-alaskas-u-s-senate-race"
+        },
+        {
+          "title": "Dem Senate Candidate Mary Peltola Sues Alaska Over Absentee Ballots as Race Sits on a Razor’s Edge",
+          "url": "https://www.mediaite.com/politics/dem-senate-candidate-mary-peltola-sues-alaska-over-absentee-ballots-as-race-sits-on-a-razors-edge/"
+        },
+        {
+          "title": "2026 United States Senate election in Alaska",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska"
+        },
+        {
+          "title": "Ranked choice voting may help Republican US Sen. Dan Sullivan, analysis finds",
+          "url": "https://alaskabeacon.com/2026/11/04/ranked-choice-voting-may-help-republican-us-sen-dan-sullivan-analysis-finds/"
+        },
+        {
+          "title": "Watch CBS News",
+          "url": "https://www.cbsnews.com/news/mary-peltola-senate-race-alaska-dan-sullivan"
+        }
+      ]
+    },
+    {
+      "query": "oil prices Friday November 6 2026 Brent weekly",
+      "results": [
+        {
+          "title": "Brent Crude Oil Price: $98.32 After 16% Weekly Drop",
+          "url": "https://financefeeds.com/brent-crude-oil-price-98-32-saturday-week-ahead-us-iran-deal-bets-cpi-10-november-bull-105-bear-93/"
+        },
+        {
+          "title": "Crude Oil - Price - Chart - Historical Data - News",
+          "url": "https://tradingeconomics.com/commodity/crude-oil"
+        },
+        {
+          "title": "Brent oil - Price - Chart - Historical Data - News",
+          "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+        },
+        {
+          "title": "Oil set for biggest weekly drop; may bring relief for India's oil bill",
+          "url": "https://www.business-standard.com/amp/industry/news/oil-set-for-biggest-weekly-drop-may-bring-relief-for-india-s-oil-bill-126110601681_1.html"
+        },
+        {
+          "title": "Oil Prices Rebound Towards $100 But Brent Heads For 12% Weekly Decline",
+          "url": "https://investorsking.com/2026/11/06/oil-prices-rebound-towards-100-but-brent-heads-for-12-weekly-decline/"
+        },
+        {
+          "title": "Oil prices drop below $100 as midterms fuel hope for an end to the Iran war",
+          "url": "https://www.nbcnews.com/business/energy/oil-prices-iran-war-midterms-rcna607448"
+        },
+        {
+          "title": "Brent crude jumps, settles up over $3 after tanker attacks",
+          "url": "https://finance.yahoo.com/news/oil-falls-fourth-day-expectations-045943628.html"
+        },
+        {
+          "title": "Brent crude near $99 as global oil risks persist",
+          "url": "https://newskarnataka.com/business/brent-crude-near-99-as-global-oil-risks-persist/06112026/"
+        },
+        {
+          "title": "October 18, 2025 6:09 PM",
+          "url": "https://www.newsonair.gov.in/oil-prices-edge-up-on-friday-but-record-weekly-losses"
+        }
+      ]
+    },
+    {
+      "query": "South Africa election results November 7 2026 ANC DA final count metros",
+      "results": [
+        {
+          "title": "South Africa votes: results as they come in",
+          "url": "https://theoutlier.co.za/results"
+        },
+        {
+          "title": "Here's how the eight metros stand as the IEC begins to wrap up results",
+          "url": "https://www.citizen.co.za/news/south-africa/elections/heres-how-the-eight-metros-stand-as-the-iec-begins-to-wrap-up-results/"
+        },
+        {
+          "title": "2026 election results: Final numbers in sight as 95% of votes counted, with winners and losers clear",
+          "url": "https://businesstech.co.za/news/government/883196/2026-election-results-final-numbers-in-sight-as-95-of-votes-counted-with-winners-and-losers-clear/"
+        },
+        {
+          "title": "2026 election results: First major city in South Africa reaches final count",
+          "url": "https://businesstech.co.za/news/government/883133/2026-election-results-first-major-city-in-south-africa-reaches-final-count-with-the-anc-suffering-a-blow/"
+        },
+        {
+          "title": "LOCAL GOVERNMENT ELECTIONS LIVE: Early results not looking promising for ANC",
+          "url": "https://www.citizen.co.za/news/south-africa/elections/local-government-elections-live-day-1-results-and-turnout/"
+        },
+        {
+          "title": "2000 South African municipal elections",
+          "url": "https://en.wikipedia.org/wiki/2000_South_African_municipal_elections"
+        },
+        {
+          "title": "Election Results eNCA",
+          "url": "https://www.enca.com/elections-2026-enca/iec-results-2026"
+        },
+        {
+          "title": "South Africa's ANC party on track to face 'nightmare' losses in municipal elections - France 24",
+          "url": "https://www.france24.com/en/africa/20261106-south-africa-anc-party-on-track-to-face-nightmare-losses-in-municipal-elections"
+        },
+        {
+          "title": "2026 Elections Final Results Prediction: ANC and EFF decline, DA and VF Plus improve, ActionSA is the biggest winner",
+          "url": "https://newsday.co.za/south-africa/35838/2026-elections-final-results-prediction-anc-and-eff-decline-da-and-vf-plus-improve-actionsa-is-the-biggest-winner/"
+        }
+      ]
+    },
+    {
+      "query": "Europe news November 6 2026",
+      "results": [
+        {
+          "title": "Video. Latest news bulletin",
+          "url": "https://www.euronews.com/video/2026/11/06/latest-news-bulletin-november-6th-2026-morning"
+        },
+        {
+          "title": "Video. Latest news bulletin",
+          "url": "https://www.euronews.com/video/2026/11/06/latest-news-bulletin-november-6th-2026-evening"
+        },
+        {
+          "title": "Europe News",
+          "url": "https://www.aljazeera.com/europe/"
+        },
+        {
+          "title": "Aa",
+          "url": "https://aa.com.tr/en/world/morning-briefing-nov-6-2026/4113576"
+        },
+        {
+          "title": "Early Edition: November 6, 2026",
+          "url": "https://justsecurity.org/163619/early-edition-november-6-2026"
+        },
+        {
+          "title": "Europe Intelligence Brief for Friday, November 6, 2026",
+          "url": "https://www.riotimesonline.com/europe-intelligence-brief-friday-november-6-2026/"
+        },
+        {
+          "title": "euronews live",
+          "url": "https://www.euronews.com/tag/euronews-live?p=8"
+        },
+        {
+          "title": "top stories",
+          "url": "https://www.euronews.com/tag/top-stories?p=9"
+        },
+        {
+          "title": "top news stories today",
+          "url": "https://www.euronews.com/top-news-stories-today"
+        },
+        {
+          "title": "top stories",
+          "url": "https://www.euronews.com/tag/top-stories?p=6"
+        }
+      ]
+    },
+    {
+      "query": "China Asia news November 6 2026",
+      "results": [
+        {
+          "title": "China Today (TV program)",
+          "url": "https://en.wikipedia.org/wiki/China_Today_(TV_program)"
+        },
+        {
+          "title": "China News: Latest on President Xi Jinping, China's Tech Advances and More",
+          "url": "https://www.nbcnews.com/news/china"
+        },
+        {
+          "title": "The Asian Today",
+          "url": "https://en.wikipedia.org/wiki/The_Asian_Today"
+        },
+        {
+          "title": "Asia Pacific Daily",
+          "url": "https://en.wikipedia.org/wiki/Asia_Pacific_Daily"
+        },
+        {
+          "title": "The China Post",
+          "url": "https://en.wikipedia.org/wiki/The_China_Post"
+        },
+        {
+          "title": "Asia Business Report",
+          "url": "https://en.wikipedia.org/wiki/Asia_Business_Report"
+        },
+        {
+          "title": "China Today",
+          "url": "https://en.wikipedia.org/wiki/China_Today"
+        },
+        {
+          "title": "Nikkei Asia - Business, Politics, Economy and Tech News & Analysis",
+          "url": "https://asia.nikkei.com/"
+        },
+        {
+          "title": "China news - breaking news, video, headlines and opinion",
+          "url": "https://www.cnn.com/world/china"
+        },
+        {
+          "title": "China Breaking News & Headlines",
+          "url": "https://www.scmp.com/news/china"
+        }
+      ]
+    },
+    {
+      "query": "Bank of England rate decision November 5 2026 hike",
+      "results": [
+        {
+          "title": "Monetary Policy Committee Interest Rate Decision, November 2026 - MTA",
+          "url": "https://www.mta.org.uk/resources/monetary-policy-committee-interest-rate-decision-november-2026/"
+        },
+        {
+          "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+        },
+        {
+          "title": "Live: Bank of England raises interest rates",
+          "url": "https://moneyweek.com/economy/news/live/uk-interest-rates-november-bank-of-england"
+        },
+        {
+          "title": "United Kingdom Interest Rate",
+          "url": "https://tradingeconomics.com/united-kingdom/interest-rate"
+        },
+        {
+          "title": "Interest rates and Bank Rate: our latest decision",
+          "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
+        },
+        {
+          "title": "Bank of England Base Rate 2026 - Latest Updates",
+          "url": "https://www.money.co.uk/mortgages/bank-of-england-base-rate"
+        },
+        {
+          "title": "Interest Rate Predictions UK & Mortgage Rate Forecast — Mortgage One",
+          "url": "https://www.mortgageonefinance.co.uk/interest-rate-projection"
+        },
+        {
+          "title": "BoE Rate Decision November 2026: What to Expect",
+          "url": "https://www.doultonbridgingfinance.com/guides/interest-rate-decision-november-2026"
+        },
+        {
+          "title": "boe preview forecasts from 10 major banks big rate hike in doubt 202211021555",
+          "url": "https://www.fxstreet.com/news/boe-preview-forecasts-from-10-major-banks-big-rate-hike-in-doubt-202211021555"
+        }
+      ]
+    },
+    {
+      "query": "Europe flights bomb threats diverted November 2026",
+      "results": [
+        {
+          "title": "Hoax or bomb threats? What we know about flight disruptions across Europe",
+          "url": "https://www.aljazeera.com/news/2026/11/6/hoax-or-bomb-threats-what-we-know-about-flight-disruptions-across-europe"
+        },
+        {
+          "title": "Hoax bomb threats repeatedly disrupt flights across Europe this week. Here’s what we know",
+          "url": "https://www.cnbc.com/2026/11/05/bomb-threats-flights-europe.html"
+        },
+        {
+          "title": "Flight bomb threats live: Multiple planes in Europe diverted for second time in a week",
+          "url": "https://www.cnn.com/2026/11/05/world/live-news/plane-flights-bomb-threats-europe-intl"
+        },
+        {
+          "title": "New bomb threats force more European flights into emergency landings",
+          "url": "https://www.aljazeera.com/news/2026/11/5/bomb-threat-diverts-dublin-rome-flight-to-france"
+        },
+        {
+          "title": "European flights and broadcasters are targeted with another wave of bomb threats",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6032612/europe-flights-hoaxes"
+        },
+        {
+          "title": "Bomb scares disrupt multiple flights across Europe - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/11/05/bomb-threats-target-multiple-flights-across-europe/"
+        },
+        {
+          "title": "two air france flights from the u s grounded by bomb threats",
+          "url": "https://fortune.com/2015/11/18/two-air-france-flights-from-the-u-s-grounded-by-bomb-threats"
+        },
+        {
+          "title": "two air france flights from the u s grounded by bomb threats",
+          "url": "https://dc.fortune.com/2015/11/18/two-air-france-flights-from-the-u-s-grounded-by-bomb-threats"
+        },
+        {
+          "title": "International flights diverted over bomb threats, no explosives found",
+          "url": "https://www.pressreader.com/india/hindustan-times-ranchi/20151123/282119225449732"
+        },
+        {
+          "title": "Flight for N.Y. Diverted After Bomb Threat",
+          "url": "https://www.foxnews.com/story/flight-for-n-y-diverted-after-bomb-threat.amp"
+        }
+      ]
+    },
+    {
+      "query": "Russia missile attack Kyiv November 7 2026",
+      "results": [
+        {
+          "title": "36 Russian ballistic missiles slam Kyiv and Kyiv Oblast, damage Northern Bridge, injure at least 6 people",
+          "url": "https://kyivindependent.com/russian-ballistic-missiles-slam-kyiv-after-zelensky-warns-of-mass-attack/"
+        },
+        {
+          "title": "Russian forces launch missile attack on Ukrainian capital Kyiv, mayor says By Reuters",
+          "url": "https://www.investing.com/news/world-news/russian-forces-launch-missile-attack-on-ukrainian-capital-kyiv-mayor-says-5009502"
+        },
+        {
+          "title": "Russian forces launch missile attack on Ukrainian capital Kyiv, mayor says",
+          "url": "https://www.yahoo.com/news/world/articles/russian-forces-launch-missile-attack-012321092.html"
+        },
+        {
+          "title": "Russian forces launch missile attack on Ukrainian capital Kyiv, mayor says",
+          "url": "https://english.alarabiya.net/News/world/2026/11/07/russian-forces-launch-missile-attack-on-ukrainian-capital-kyiv-mayor-says"
+        },
+        {
+          "title": "Russian missile attack on Kyiv leaves two injured, damages kindergarten - Sigmalive English",
+          "url": "https://en.sigmalive.com/russian-missile-attack-on-kyiv-leaves-two-injured-damages-kindergarten/"
+        },
+        {
+          "title": "Ukraine, Moscow launches missile attack on Kyiv: five injured - LaPresse News",
+          "url": "https://uk.lapresse.it/world-en/2026/11/07/ukraine-moscow-launches-missile-attack-on-kyiv-five-injured/"
+        },
+        {
+          "title": "Russian missile attack damages residential buildings in Kyiv, injures two",
+          "url": "https://mediaselangor.com/en/2026/11/405536"
+        },
+        {
+          "title": "Russia launches missile attack on Kyiv, injuring residents  - Dominican Republic Post",
+          "url": "https://dominicanrepublicpost.com/russia-launches-missile-attack-on-kyiv-injuring-residents/"
+        },
+        {
+          "title": "malaymail.com",
+          "url": "https://malaymail.com/news/world/2024/03/21/ukraines-capital-kyiv-is-under-russian-missile-attack-mayor-says/124701"
+        }
+      ]
+    }
+  ],
+  "fetched": [],
+  "meta": {
+    "id": "2026-11-07",
+    "generated_at": "2026-11-07T11:24:18.675Z",
+    "model": "claude-opus-5-5",
+    "via": "claude-code-routine",
+    "searches": 15,
+    "results_count": 141,
+    "cited_count": 39
+  }
+}
