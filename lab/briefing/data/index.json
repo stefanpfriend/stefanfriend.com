@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-08",
+      "date": "Sunday, November 8, 2026",
+      "edition": "MANDATE DAY",
+      "searches": 15,
+      "cited_count": 35,
+      "results_count": 143
+    },
+    {
       "id": "2026-11-07",
       "date": "Saturday, November 7, 2026",
       "edition": "HOT JOBS",

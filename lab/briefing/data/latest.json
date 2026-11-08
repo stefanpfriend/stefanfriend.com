@@ -1,472 +1,448 @@
 {
-  "date": "Saturday, November 7, 2026",
-  "edition": "HOT JOBS",
-  "tldr_label": "TL;DR — A strong jobs report lifts the odds of a Fed hike; Trump threatens to 'destroy' the rest of Iran; Russia fires 36 missiles at Kyiv",
+  "date": "Sunday, November 8, 2026",
+  "edition": "MANDATE DAY",
+  "tldr_label": "TL;DR — Herzog taps Eisenkot to form Israel's government; US strikes Iran again and opens a land front in its blockade",
   "tldr_bullets": [
     {
-      "label": "Jobs",
-      "body": "The US added 165,000 jobs in October, far above forecasts, and unemployment fell to 4.1%. Markets now price roughly 77% odds of a Fed hike in December. [[TAG:warning:hike odds up]]"
-    },
-    {
-      "label": "Markets",
-      "body": "The Nasdaq and S&P 500 rebounded on Friday but posted weekly losses of about 3.4% and 2.7%. Brent ended near $98 after one of its steepest weekly drops since 2020."
+      "label": "Israel",
+      "body": "Herzog picked Eisenkot over Netanyahu to form a government, with the mandate due today. Eisenkot has 28 days, with a possible 14-day extension, and his coalition path is unclear. [[TAG:info:mandate today]]"
     },
     {
       "label": "Iran",
-      "body": "Trump said he may have to 'destroy the rest' of Iran and would decide soon on resuming strikes. Iran's Revolutionary Guards say they downed a US drone over Qeshm. [[TAG:danger:strikes weighed]]"
+      "body": "Trump called new US strikes near Qeshm 'minor'. Central Command set up Task Force Iron Gate to choke Iran's land and Caspian trade, and Iran's military called it 'wordplay'. [[TAG:danger:new strikes]]"
+    },
+    {
+      "label": "Senate",
+      "body": "Alaska and Mississippi remain uncalled. Democrats lead narrowly in both: Peltola by about 600 votes and Colom by about 2,500."
     },
     {
       "label": "Ukraine",
-      "body": "Zelensky says Russia fired 36 ballistic missiles at Kyiv overnight, damaging a major bridge. Trump says a peace deal is 'very close'. [[TAG:danger:36 missiles]]"
+      "body": "Zelensky says only four of 36 Russian missiles were shot down, citing a shortage of interceptors, as talks with the US approach."
     },
     {
-      "label": "Europe",
-      "body": "The Bank of England raised its rate to 4%, citing energy prices. Hoax bomb threats disrupted flights across Europe for a second time this week."
+      "label": "Africa",
+      "body": "A Tanzanian court acquitted Tundu Lissu of treason but jailed him for four years for incitement. Militants killed 33 in Ebola-hit eastern Congo. [[TAG:danger:33 killed]]"
     },
     {
-      "label": "Elections",
-      "body": "Eisenkot is set to receive Israel's mandate on Sunday. Alaska's Senate race is still separated by a few hundred votes, and South Africa's ANC is near 31% with final results due Sunday."
+      "label": "Week ahead",
+      "body": "US CPI is due Tuesday, with markets pricing about an 80% chance of a Fed hike in December. Belgium's king rejected De Wever's resignation."
     }
   ],
   "sections": [
     {
-      "title": "Jobs and the Fed",
-      "icon": "💼",
-      "summary": "Payrolls jump 165,000 and unemployment falls to 4.1%, raising the odds of a December hike",
+      "title": "Eisenkot Gets the Nod",
+      "icon": "🗳️",
+      "summary": "Herzog picks Eisenkot over Netanyahu, but his path to 61 seats remains fraught",
       "paragraphs": [
         {
-          "heading": "The report",
-          "body": "CNBC reported that the economy added 165,000 jobs in October, far more than the roughly 59,000 expected, and that unemployment slipped to 4.1%. Morningstar and Fox Business carried the same headline figure. CNBC noted that the share of long-term unemployed rose to its highest since late 2021. [[TAG:success:+165K jobs]]"
+          "heading": "The pick",
+          "body": "Al Jazeera reported that President Herzog chose Gadi Eisenkot over Netanyahu to form the next government, and JNS said the mandate would be handed over on Sunday. The Times of Israel said the path remains 'fraught'. Eisenkot has 28 days, with a possible 14-day extension, to assemble 61 seats. Organiser reported the handover as already done, but most outlets described it as scheduled. [[TAG:info:28 days]]"
         },
         {
-          "heading": "Rates",
-          "body": "The Rio Times reported that odds of a Fed hike in December rose to about 77%, and InvestmentNews said the report lifted those odds. Yahoo Finance said yields rose, and Pomegra put the 10-year Treasury yield near 4.87%. The next inflation report is due on November 10."
+          "heading": "Obstacles",
+          "body": "Middle East Monitor noted that several parties in Eisenkot's camp oppose a government that includes Arab parties. That leaves a minority government with outside support, or defections from Netanyahu's bloc, as the main options."
+        },
+        {
+          "heading": "Gaza",
+          "body": "Al Jazeera reported that floods left tens of thousands in Gaza without shelter, with officials saying about 70,000 tents were flooded as aid restrictions continue."
         }
       ],
-      "sources": "CNBC, Morningstar, Fox Business, Rio Times, InvestmentNews, Yahoo Finance, Pomegra",
+      "sources": "Al Jazeera, JNS, Times of Israel, Organiser, Middle East Monitor",
       "citations": [
         {
-          "outlet": "CNBC",
-          "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
-          "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+          "outlet": "Al Jazeera",
+          "title": "Israel’s president picks Eisenkot over Netanyahu to form next government",
+          "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
         },
         {
-          "outlet": "Morningstar",
-          "title": "October US Jobs Report: 165,000 Rise in Payrolls, Beating Expectations",
-          "url": "https://www.morningstar.com/economy/october-us-jobs-report-165000-rise-payrolls-beating-expectations"
+          "outlet": "JNS",
+          "title": "Herzog to grant Eisenkot mandate to form Israel’s next government - Israel & Jewish News - JNS",
+          "url": "https://www.jns.org/news/israel-news/herzog-to-grant-eisenkot-mandate-to-form-israels-next-government"
         },
         {
-          "outlet": "Fox Business",
-          "title": "October jobs report: US economy added 165,000 jobs last month",
-          "url": "https://www.foxbusiness.com/economy/us-jobs-report-october-2026"
+          "outlet": "Times of Israel",
+          "title": "President Herzog taps Eisenkot to form coalition, but path remains fraught",
+          "url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
         },
         {
-          "outlet": "CNBC",
-          "title": "A long-term unemployment trend is hiding in the October job report",
-          "url": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html"
+          "outlet": "Organiser",
+          "title": "Israel: Gadi Eisenkot receives mandate to form government from President Isaac Herzog",
+          "url": "https://organiser.org/2026/11/08/424952/international/israel-gadi-eisenkot-receives-mandate-to-form-government-from-president-isaac-herzog/"
         },
         {
-          "outlet": "Rio Times",
-          "title": "Fed Hike Odds Rise to 77% After Jobs Report",
-          "url": "https://www.riotimesonline.com/fed-december-hike-odds-rise-after-jobs-report-2026"
+          "outlet": "Middle East Monitor",
+          "title": "Israel’s president says will task Eisenkot with forming next government",
+          "url": "https://middleeastmonitor.com/20261108-israels-president-says-will-task-eisenkot-with-forming-next-government"
         },
         {
-          "outlet": "InvestmentNews",
-          "title": "October jobs report beats forecasts, lifting December Fed hike odds - InvestmentNews",
-          "url": "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915"
-        },
-        {
-          "outlet": "Yahoo Finance",
-          "title": "Strong October jobs report sends yields higher",
-          "url": "https://finance.yahoo.com/economy/policy/articles/strong-october-jobs-report-sends-134858909.html"
-        },
-        {
-          "outlet": "Pomegra",
-          "title": "10-Year Treasury Yield Hits 4.87% After Strong Jobs Data",
-          "url": "https://pomegra.io/news/10-year-treasury-yield-hits-487-after-strong-jobs-data"
+          "outlet": "Al Jazeera",
+          "title": "Floods in Gaza leave tens of thousands without shelter",
+          "url": "https://www.aljazeera.com/news/2026/11/8/floods-in-gaza-leave-tens-of-thousands-without-shelter"
         }
       ]
     },
     {
-      "title": "Markets After the Rout",
-      "icon": "📈",
-      "summary": "Tech rebounds on Friday but stocks post a losing week; Brent ends near $98",
+      "title": "Iran: Strikes and Iron Gate",
+      "icon": "⚔️",
+      "summary": "New 'minor' US strikes and a task force targeting Iran's land routes as talks continue",
       "paragraphs": [
         {
-          "heading": "Stocks",
-          "body": "Yahoo Finance reported that the Nasdaq and S&P 500 rebounded on Friday while the Dow slipped, capping a bruising week for AI stocks. The Washington Post carried the index tally. StockTitan said chip stocks bounced back a day after their selloff. For the week, the S&P 500 lost about 2.7% and the Nasdaq about 3.4%."
+          "heading": "Strikes",
+          "body": "NBC News and Euronews reported that the US carried out new limited strikes on Iran, the first since the midterms, as Trump claimed progress in talks. AP, via WHEC, said Iran's leaders are weighing proposals from mediators. Ynet reported fears of a wider war after Tehran warned of a response. [[TAG:danger:new strikes]]"
         },
         {
-          "heading": "Oil",
-          "body": "FinanceFeeds reported that Brent settled near $98.32 after what it called a 16% weekly drop. Investors King said Brent was heading for a decline of about 12%, so the size of the drop depends on the starting point. NBC News said prices had fallen below $100 on hopes of an end to the Iran war, and Yahoo Finance reported that Brent rose more than $3 on one day after tanker attacks. [[TAG:warning:oil volatile]]"
+          "heading": "Land blockade",
+          "body": "The Washington Post reported that the US military is seeking to disrupt Iran's land routes, extending its naval blockade. The Tribune said Central Command created Task Force Iron Gate to target Iran's land borders and Caspian trade, and CBS News carried the announcement. IBTimes noted growing opposition in both parties to the war. It is not clear what force, if any, will back the effort."
         }
       ],
-      "sources": "Yahoo Finance, Washington Post, StockTitan, FinanceFeeds, Investors King, NBC News",
+      "sources": "NBC News, Euronews, WHEC/AP, Ynet, Washington Post, The Tribune, CBS News, IBTimes",
       "citations": [
         {
-          "outlet": "Yahoo Finance",
-          "title": "Stock market today: Nasdaq and S&P 500 rebound, Dow slips to cap bruising week for AI stocks",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
+          "outlet": "NBC News",
+          "title": "U.S. military carries out new limited strikes on Iran",
+          "url": "https://www.nbcnews.com/news/us-news/us-military-carries-new-targeted-strikes-iran-rcna607969"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "US launches new targeted strikes on Iran as Trump claims progress in talks with Tehran",
+          "url": "https://www.euronews.com/2026/11/07/us-launches-new-targeted-strikes-on-iran-as-trump-claims-progress-in-talks-with-tehran"
+        },
+        {
+          "outlet": "WHEC/AP",
+          "title": "US military carries out new targeted strikes on Iran as Tehran's leaders weigh mediator's proposals - WHEC.com",
+          "url": "https://www.whec.com/ap-top-news/us-military-carries-out-new-targeted-strikes-on-iran-as-tehrans-leaders-weigh-mediators-proposals/"
+        },
+        {
+          "outlet": "Ynet",
+          "title": "New US strikes on Iran raise fears of wider war as Tehran issues stark warning",
+          "url": "https://www.ynetnews.com/article/bkt6hz26fx"
         },
         {
           "outlet": "Washington Post",
-          "title": "How major US stock indexes fared Friday 11/6/2026 - The Washington Post",
-          "url": "https://www.washingtonpost.com/business/2026/11/06/wall-street-stocks-dow-nasdaq/fbde12a0-da27-11f1-930a-e08f8086f5ac_story.html"
+          "title": "U.S. military seeks to disrupt Iran’s land routes, expanding on naval blockade - The Washington Post",
+          "url": "https://www.washingtonpost.com/national-security/2026/11/07/us-military-seeks-disrupt-irans-land-routes-expanding-naval-blockade/"
         },
         {
-          "outlet": "StockTitan",
-          "title": "Chip Stocks Bounced Back in the Stock Market Today, November 6, 2026, a Day After Their Selloff",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-6-2026"
+          "outlet": "The Tribune",
+          "title": "US CENTCOM establishes task force \"Iron Gate\" to disrupt Iranian ground transit routes, curb illegal shipments - The Tribune",
+          "url": "https://www.tribuneindia.com/news/usa-news/us-centcom-establishes-task-force-iron-gate-to-disrupt-iranian-ground-transit-routes-curb-illegal-shipments"
         },
         {
-          "outlet": "FinanceFeeds",
-          "title": "Brent Crude Oil Price: $98.32 After 16% Weekly Drop",
-          "url": "https://financefeeds.com/brent-crude-oil-price-98-32-saturday-week-ahead-us-iran-deal-bets-cpi-10-november-bull-105-bear-93/"
+          "outlet": "CBS News",
+          "title": "Live Updates: U.S. launches new task force aimed at disrupting Iranian ground shipping routes",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
         },
         {
-          "outlet": "Investors King",
-          "title": "Oil Prices Rebound Towards $100 But Brent Heads For 12% Weekly Decline",
-          "url": "https://investorsking.com/2026/11/06/oil-prices-rebound-towards-100-but-brent-heads-for-12-weekly-decline/"
-        },
-        {
-          "outlet": "NBC News",
-          "title": "Oil prices drop below $100 as midterms fuel hope for an end to the Iran war",
-          "url": "https://www.nbcnews.com/business/energy/oil-prices-iran-war-midterms-rcna607448"
-        },
-        {
-          "outlet": "Yahoo Finance",
-          "title": "Brent crude jumps, settles up over $3 after tanker attacks",
-          "url": "https://finance.yahoo.com/news/oil-falls-fourth-day-expectations-045943628.html"
+          "outlet": "IBTimes",
+          "title": "The U.S. Is Seeking To Expand Its Blockade On Iran Despite Growing Bipartisan Opposition To The Conflict",
+          "url": "https://www.ibtimes.com/centcom-task-force-iron-gate-iran-supply-routes-3809533"
         }
       ]
     },
     {
-      "title": "Iran",
-      "icon": "⚔️",
-      "summary": "Trump says he may have to 'destroy the rest' of Iran as Tehran courts Moscow",
+      "title": "Two Senate Seats Pending",
+      "icon": "🇺🇸",
+      "summary": "Democrats lead narrowly in Alaska and Mississippi as counting continues",
       "paragraphs": [
         {
-          "heading": "Threat",
-          "body": "Al Jazeera reported that Trump said the US may have to 'destroy' the rest of Iran and that he would decide soon. The New Arab said diplomatic efforts are intensifying at the same time. Gulf News reported that Trump warned of a 'heavy hit'. Reports say Central Command is finalizing plans while Trump weighs resuming strikes, tightening sanctions or pursuing a deal. [[TAG:danger:strikes weighed]]"
+          "heading": "Mississippi",
+          "body": "CNBC reported that Democrat Scott Colom's lead over Senator Cindy Hyde-Smith grew to nearly 2,500 votes, and the Washington Post said he defied the odds in a close race. The Mississippi Free Press stressed that the race has not been called. A Colom win would make him Mississippi's first Black senator since Reconstruction. [[TAG:warning:uncalled]]"
         },
         {
-          "heading": "Tehran",
-          "body": "Al Jazeera's live blog reported that the Revolutionary Guards say they downed a US drone over Qeshm and that tankers were hit in Hormuz. It also reported that Iran's security chief met Putin and delivered a message from Khamenei. Dawn reported a separate claim that two drones were downed, so accounts differ."
+          "heading": "Alaska",
+          "body": "The Anchorage Daily News reported that Trump weighed in on the tight race as thousands of ballots remain to be counted. Yahoo News said Alaska and Mississippi are both still too close to call. Peltola leads Sullivan by about 600 votes, and the result may not be known until ranked-choice tabulation in mid-November."
         }
       ],
-      "sources": "Al Jazeera, The New Arab, Gulf News, Dawn",
+      "sources": "CNBC, Washington Post, Mississippi Free Press, Anchorage Daily News, Yahoo News",
       "citations": [
         {
-          "outlet": "Al Jazeera",
-          "title": "Iran war live: Trump warns US may have to ‘destroy’ rest of Iran",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran?update=5127426"
+          "outlet": "CNBC",
+          "title": "Mississippi Senate: Colom increases lead over Hyde-Smith to nearly 2,500 votes",
+          "url": "https://www.cnbc.com/2026/11/05/mississippi-senate-election-scott-colom-hyde-smith.html"
         },
         {
-          "outlet": "The New Arab",
-          "title": "Trump threatens to ’destroy’ Iran, diplomatic efforts intensify",
-          "url": "https://www.newarab.com/news/trump-threatens-destroy-iran-diplomatic-efforts-intensify"
+          "outlet": "Washington Post",
+          "title": "Mississippi U.S. Senate election live results 2026: Colom defies odds in close race - The Washington Post",
+          "url": "https://www.washingtonpost.com/elections/results/2026/11/03/mississippi-senate-live-updates/"
         },
         {
-          "outlet": "Gulf News",
-          "title": "Trump Warns Iran of 'Heavy Hit' Amid Rising Gulf Tensions and Diplomatic Efforts",
-          "url": "https://gulfnews.com/world/mena/us-israel-iran-war-trump-warns-iran-heavy-hit-tehran-gulf-diplomacy-1.500737918"
+          "outlet": "Mississippi Free Press",
+          "title": "Liveblog: Mississippi’s 2026 U.S. Senate Election Results",
+          "url": "https://www.mississippifreepress.org/liveblog-mississippis-2026-u-s-senate-election-results/"
         },
         {
-          "outlet": "Al Jazeera",
-          "title": "Iran war live: IRGC says US drone downed, tankers hit in Strait of Hormuz",
-          "url": "https://aljazeera.com/amp/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
+          "outlet": "Anchorage Daily News",
+          "title": "Trump weighs in on Alaska’s tight U.S. Senate race as thousands of ballots are yet to be tallied - Anchorage Daily News",
+          "url": "https://adn.com/politics/2026/11/05/trump-weighs-in-on-alaskas-tight-us-senate-race-as-thousands-of-ballots-are-yet-to-be-tallied"
         },
         {
-          "outlet": "Dawn",
-          "title": "Live Updates: War returns to Iran with Israel, US strikes - DAWN.COM",
-          "url": "https://dawn.com/live/iran-israel-war"
+          "outlet": "Yahoo News",
+          "title": "Midterms 2026 results and latest updates: Mississippi and Alaska Senate races still too close to call; Boebert trails in Colorado",
+          "url": "https://yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
         }
       ]
     },
     {
       "title": "Ukraine",
       "icon": "🇺🇦",
-      "summary": "36 ballistic missiles hit the Kyiv region and damage a key bridge; Trump says a deal is near",
+      "summary": "Zelensky says only four of 36 missiles were downed as Russia escalates before talks",
       "paragraphs": [
         {
-          "heading": "Kyiv strike",
-          "body": "The Kyiv Independent reported that Zelensky said 36 Russian ballistic missiles struck Kyiv and the surrounding region, damaging the Northern Bridge. Reuters, via Al Arabiya, reported casualties, and early counts differ, from several injured to one dead. Sigmalive said a kindergarten was damaged. The attack followed Zelensky's warning about strikes on energy and bridges. [[TAG:danger:36 missiles]]"
-        },
-        {
-          "heading": "Diplomacy",
-          "body": "Al Jazeera reported that Trump said a deal with Russia is 'very close' after meeting Putin's envoy Kirill Dmitriev, without giving specifics. Talks in Abu Dhabi are expected in the coming days."
+          "heading": "Air defense gap",
+          "body": "CBS News reported that Zelensky accused Russia of escalating attacks before talks with the US, and said only four of the 36 missiles fired were shot down because Ukraine is short of interceptors. Ukraine's energy ministry said lines carrying power from nuclear plants were damaged. Ukrinform reported that most of the overnight drones were downed. [[TAG:danger:4 of 36 intercepted]]"
         }
       ],
-      "sources": "Kyiv Independent, Al Arabiya/Reuters, Sigmalive, Al Jazeera",
+      "sources": "CBS News, Ukrinform",
       "citations": [
         {
-          "outlet": "Kyiv Independent",
-          "title": "36 Russian ballistic missiles slam Kyiv and Kyiv Oblast, damage Northern Bridge, injure at least 6 people",
-          "url": "https://kyivindependent.com/russian-ballistic-missiles-slam-kyiv-after-zelensky-warns-of-mass-attack/"
+          "outlet": "CBS News",
+          "title": "Zelenskyy accuses Russia of ramping up attacks on Ukraine ahead of U.S. talks - CBS News",
+          "url": "https://www.cbsnews.com/news/zelenskyy-russia-attacks-us-talks/"
         },
         {
-          "outlet": "Al Arabiya/Reuters",
-          "title": "Russian forces launch missile attack on Ukrainian capital Kyiv, mayor says",
-          "url": "https://english.alarabiya.net/News/world/2026/11/07/russian-forces-launch-missile-attack-on-ukrainian-capital-kyiv-mayor-says"
-        },
-        {
-          "outlet": "Sigmalive",
-          "title": "Russian missile attack on Kyiv leaves two injured, damages kindergarten - Sigmalive English",
-          "url": "https://en.sigmalive.com/russian-missile-attack-on-kyiv-leaves-two-injured-damages-kindergarten/"
-        },
-        {
-          "outlet": "Al Jazeera",
-          "title": "Trump says Russia-Ukraine deal is near after meeting Putin’s envoy",
-          "url": "https://www.aljazeera.com/news/2026/11/6/trump-met-russian-envoy-after-he-appeared-with-melania-trump-and-ukrainians"
+          "outlet": "Ukrinform",
+          "title": "Latest news",
+          "url": "https://www.ukrinform.net/block-lastnews"
         }
       ]
     },
     {
-      "title": "Europe",
-      "icon": "🇪🇺",
-      "summary": "BoE raises its rate to 4% on energy costs; hoax bomb threats disrupt flights again",
+      "title": "Africa",
+      "icon": "🌍",
+      "summary": "Lissu cleared of treason but jailed for incitement; militants kill 33 in Ebola-hit Congo",
       "paragraphs": [
         {
-          "heading": "Bank of England",
-          "body": "The Bank of England said its Monetary Policy Committee voted 8-1 to raise Bank Rate by a quarter point to 4%, citing energy price pressure from the Middle East conflict. MoneyWeek covered the decision live. The next decision is due on December 17. [[TAG:warning:BoE hike]]"
+          "heading": "Tanzania",
+          "body": "Al Jazeera, Bloomberg and ABC News reported that a Tanzanian court acquitted opposition leader Tundu Lissu of treason, which can carry the death penalty, but sentenced him to four years for inciting people to disrupt last year's election. His party plans to appeal. The Washington Post noted that treason charges are often used against government critics across Africa."
         },
         {
-          "heading": "Flight threats",
-          "body": "CNBC and NPR reported repeated waves of hoax bomb threats against European flights this week, with diversions and fighter escorts, and NPR said broadcasters were also targeted. The Washington Post reported disruptions across several countries. Al Jazeera said the EU called it too early to say whether the threats are linked. Officials have warned about Russian hybrid threats but have not attributed these."
-        }
-      ],
-      "sources": "Bank of England, MoneyWeek, CNBC, NPR, Washington Post, Al Jazeera",
-      "citations": [
-        {
-          "outlet": "Bank of England",
-          "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
-          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
-        },
-        {
-          "outlet": "MoneyWeek",
-          "title": "Live: Bank of England raises interest rates",
-          "url": "https://moneyweek.com/economy/news/live/uk-interest-rates-november-bank-of-england"
-        },
-        {
-          "outlet": "CNBC",
-          "title": "Hoax bomb threats repeatedly disrupt flights across Europe this week. Here’s what we know",
-          "url": "https://www.cnbc.com/2026/11/05/bomb-threats-flights-europe.html"
-        },
-        {
-          "outlet": "NPR",
-          "title": "European flights and broadcasters are targeted with another wave of bomb threats",
-          "url": "https://www.npr.org/2026/11/06/nx-s1-6032612/europe-flights-hoaxes"
-        },
-        {
-          "outlet": "Washington Post",
-          "title": "Bomb scares disrupt multiple flights across Europe - The Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/11/05/bomb-threats-target-multiple-flights-across-europe/"
-        },
-        {
-          "outlet": "Al Jazeera",
-          "title": "Hoax or bomb threats? What we know about flight disruptions across Europe",
-          "url": "https://www.aljazeera.com/news/2026/11/6/hoax-or-bomb-threats-what-we-know-about-flight-disruptions-across-europe"
-        }
-      ]
-    },
-    {
-      "title": "Elections Pending",
-      "icon": "🗳️",
-      "summary": "Eisenkot's mandate is due Sunday; Alaska's count drags on; South Africa's ANC is near 31%",
-      "paragraphs": [
-        {
-          "heading": "Israel",
-          "body": "Israel National News and JNS reported that Herzog will assign the mandate on Sunday after 67 lawmakers recommended Eisenkot. Haaretz reported that Eisenkot signaled he is ready for a minority government, after Liberman ruled one out. [[TAG:info:mandate Sunday]]"
-        },
-        {
-          "heading": "Alaska",
-          "body": "Alaska's News Source reported that the Senate race remains undecided, with fewer than 700 votes separating Peltola and Sullivan. Reason argued that Peltola appears likely to win, while an Alaska Beacon analysis said ranked-choice redistribution could help Sullivan. Counting must finish by November 18. [[TAG:warning:too close]]"
+          "heading": "Congo",
+          "body": "Yahoo News, carrying AFP, reported that armed men killed at least 33 people in a village in Ebola-hit eastern Congo. TimesLive said the Islamic State-linked militants forced Ebola patients to flee a nearby hospital. Accounts differ on how many patients fled. [[TAG:danger:33 killed]]"
         },
         {
           "heading": "South Africa",
-          "body": "France 24 reported that the ANC is on track for 'nightmare' losses. BusinessTech said about 95% of votes are counted, with the ANC near 31% and the DA near 24%. The Citizen said the DA leads several metros, where coalitions will be needed. Final results are due on Sunday."
+          "body": "SA News reported that the electoral commission had completed 91% of local results, and Nova News said official results would be announced on Sunday."
         }
       ],
-      "sources": "Israel National News, JNS, Haaretz, Alaska's News Source, Reason, Alaska Beacon, France 24, BusinessTech, The Citizen",
+      "sources": "Al Jazeera, Bloomberg, ABC News, Washington Post, Yahoo News, TimesLive, SA News, Nova News",
       "citations": [
         {
-          "outlet": "Israel National News",
-          "title": "67 MKs back Eisenkot, 46 back Netanyahu: Herzog to assign mandate on Sunday",
-          "url": "https://www.israelnationalnews.com/news/435750"
+          "outlet": "Al Jazeera",
+          "title": "Tanzania court jails opposition leader for incitement, lifts treason charge",
+          "url": "https://www.aljazeera.com/news/2026/11/6/tanzania-court-jails-opposition-leader-for-incitement-lifts-treason-charge"
         },
         {
-          "outlet": "JNS",
-          "title": "Herzog: 67 MKs recommend Eisenkot, 46 Netanyahu; mandate to be assigned Sunday - Israel & Jewish News - JNS",
-          "url": "https://www.jns.org/news/israel-news/herzog-67-mks-recommend-eisenkot-46-netanyahu-mandate-to-be-assigned-sunday"
+          "outlet": "Bloomberg",
+          "title": "Tanzania Court Acquits Opposition Chief Tundu Lissu of Treason Charges - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/tanzania-court-acquits-opposition-chief-of-treason-charges"
         },
         {
-          "outlet": "Haaretz",
-          "title": "Eisenkot Signals Readiness for Minority Government to Replace Netanyahu - Israel Political News",
-          "url": "https://www.haaretz.com/israel-news/israel-politics/2026-11-06/ty-article/.premium/eisenkot-signals-readiness-for-minority-government-to-replace-netanyahu/000001a1-b12a-defa-a7f7-bd7f4c110000"
+          "outlet": "ABC News",
+          "title": "Tanzania opposition leader Lissu sentenced to 4 years for incitement, acquitted of treason - ABC News",
+          "url": "https://abcnews.com/International/wireStory/tanzania-opposition-leader-lissu-sentenced-4-years-incitement-137905667"
         },
         {
-          "outlet": "Alaska's News Source",
-          "title": "Alaska Senate race remains undecided days after Election Day",
-          "url": "https://www.alaskasnewssource.com/2026/11/07/alaska-senate-race-remains-undecided-days-after-election-day/"
+          "outlet": "Washington Post",
+          "title": "Prominent government critics across Africa are facing treason charges. It's often to silence them - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/11/06/africa-treason-trial-tundu-lissu/47650030-d9dd-11f1-930a-e08f8086f5ac_story.html"
         },
         {
-          "outlet": "Reason",
-          "title": "Mary Peltola appears likely to defeat both Dan Sullivans in Alaska's Senate race",
-          "url": "https://reason.com/2026/11/06/mary-peltola-appears-likely-to-defeat-both-dan-sullivans-in-alaskas-senate-race/"
+          "outlet": "Yahoo News",
+          "title": "Armed men kill at least 33 in village in Ebola-hit eastern DRC",
+          "url": "https://www.yahoo.com/news/world/articles/armed-men-kill-least-33-190706831.html"
         },
         {
-          "outlet": "Alaska Beacon",
-          "title": "Ranked choice voting may help Republican US Sen. Dan Sullivan, analysis finds",
-          "url": "https://alaskabeacon.com/2026/11/04/ranked-choice-voting-may-help-republican-us-sen-dan-sullivan-analysis-finds/"
+          "outlet": "TimesLive",
+          "title": "Islamist militants force Ebola patients to flee in deadly DRC raid",
+          "url": "https://www.timeslive.co.za/news/world/2026-11-08-islamist-militants-force-ebola-patients-to-flee-in-deadly-drc-raid/"
         },
         {
-          "outlet": "France 24",
-          "title": "South Africa's ANC party on track to face 'nightmare' losses in municipal elections - France 24",
-          "url": "https://www.france24.com/en/africa/20261106-south-africa-anc-party-on-track-to-face-nightmare-losses-in-municipal-elections"
+          "outlet": "SA News",
+          "title": "IEC achieves 91% completion rate for local election results",
+          "url": "https://www.sanews.gov.za/south-africa/iec-achieves-91-completion-rate-local-election-results"
         },
         {
-          "outlet": "BusinessTech",
-          "title": "2026 election results: Final numbers in sight as 95% of votes counted, with winners and losers clear",
-          "url": "https://businesstech.co.za/news/government/883196/2026-election-results-final-numbers-in-sight-as-95-of-votes-counted-with-winners-and-losers-clear/"
+          "outlet": "Nova News",
+          "title": "IEC confirms official 2026 local election results to be announced on Sunday",
+          "url": "https://novanews.co.za/iec-confirms-official-2026-local-election-results-to-be-announced-on-sunday/"
+        }
+      ]
+    },
+    {
+      "title": "Week Ahead",
+      "icon": "📅",
+      "summary": "US inflation data and Fed speakers headline the week; Belgium's government gets a reprieve",
+      "paragraphs": [
+        {
+          "heading": "Markets",
+          "body": "Schaeffer's said inflation data takes center stage as earnings slow. FXStreet expects October CPI on Tuesday to rise about 0.3% for the month, and KuCoin said Fed officials' speeches will also be in focus. Markets price roughly an 80% chance of a December hike. Bloomingbit said investors are looking to CoreWeave and Nvidia results for the AI outlook. [[TAG:info:CPI Tuesday]]"
         },
         {
-          "outlet": "The Citizen",
-          "title": "Here's how the eight metros stand as the IEC begins to wrap up results",
-          "url": "https://www.citizen.co.za/news/south-africa/elections/heres-how-the-eight-metros-stand-as-the-iec-begins-to-wrap-up-results/"
+          "heading": "Belgium",
+          "body": "Euronews reported that King Philippe refused Prime Minister Bart De Wever's resignation and asked him to restart budget talks. The Brussels Times said the king set a new deadline, and De Wever is to report back by November 16."
+        }
+      ],
+      "sources": "Schaeffer's, FXStreet, KuCoin, Bloomingbit, Euronews, Brussels Times",
+      "citations": [
+        {
+          "outlet": "Schaeffer's",
+          "title": "The Week Ahead: Inflation Data on Deck as Earnings Slow - Schaeffer's Investment Research",
+          "url": "https://www.schaeffersresearch.com/content/news/2026/11/05/the-week-ahead-inflation-data-on-deck-as-earnings-slow"
+        },
+        {
+          "outlet": "FXStreet",
+          "title": "Economics week ahead",
+          "url": "https://www.fxstreet.com/analysis/economics-week-ahead-202611061916"
+        },
+        {
+          "outlet": "KuCoin",
+          "title": "U.S. CPI Data and Fed Officials’ Speeches to Be Market Focus Next Week",
+          "url": "https://www.kucoin.com/news/flash/u-s-cpi-data-and-fed-officials-speeches-to-be-market-focus-next-week"
+        },
+        {
+          "outlet": "Bloomingbit",
+          "title": "Kospi Slides as Markets Look to CoreWeave, Nvidia Earnings for AI Outlook",
+          "url": "https://en.bloomingbit.io/feed/news/123854"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Belgian king refuses PM Bart De Wever's resignation and asks him to restart budget talks",
+          "url": "https://www.euronews.com/2026/11/06/belgian-king-refuses-pm-bart-de-wevers-resignation-and-asks-him-to-restart-budget-talks"
+        },
+        {
+          "outlet": "Brussels Times",
+          "title": "Belgian King rejects PM De Wever's resignation, new deadline to find way out of budget crisis",
+          "url": "https://www.brusselstimes.com/belgium/2394385/belgian-pm-to-meet-with-king-as-resignation-still-under-consideration-tbtb"
         }
       ]
     }
   ],
   "searches": [
     {
-      "query": "October jobs report results November 6 2026 payrolls unemployment",
+      "query": "Iran news November 7 2026",
       "results": [
         {
-          "title": "October US Jobs Report: 165,000 Rise in Payrolls, Beating Expectations",
-          "url": "https://www.morningstar.com/economy/october-us-jobs-report-165000-rise-payrolls-beating-expectations"
+          "title": "Live Updates: U.S. launches new task force aimed at disrupting Iranian ground shipping routes",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
         },
         {
-          "title": "The October jobs report is out Friday. Here's everything to expect",
-          "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html"
+          "title": "Iranian Economic News Agency",
+          "url": "https://en.wikipedia.org/wiki/Iranian_Economic_News_Agency"
         },
         {
-          "title": "October Jobs Report: Payrolls Smash Estimates at 165K - Advanced Micro Devices (NASDAQ:AMD) - Benzinga",
-          "url": "https://www.benzinga.com/markets/economic-data/26/11/62974776/october-jobs-report-nonfarm-payrolls-unemployment-rate"
+          "title": "Home",
+          "url": "https://www.iranintl.com/en"
         },
         {
-          "title": "Strong October jobs report sends yields higher",
-          "url": "https://finance.yahoo.com/economy/policy/articles/strong-october-jobs-report-sends-134858909.html"
+          "title": "Iran: Latest news and updates",
+          "url": "https://www.nbcnews.com/iran"
         },
         {
-          "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
-          "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+          "title": "Iranintl",
+          "url": "https://www.iranintl.com/en/liveblog/202610312594"
         },
-        {
-          "title": "What a Hotter-Than-Expected October Jobs Report Means ...",
-          "url": "https://www.kiplinger.com/investing/economy/jobs-report-october-2026-what-to-expect"
-        },
-        {
-          "title": "A long-term unemployment trend is hiding in the October job report",
-          "url": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html"
-        },
-        {
-          "title": "October jobs report: US economy added 165,000 jobs last month",
-          "url": "https://www.foxbusiness.com/economy/us-jobs-report-october-2026"
-        },
-        {
-          "title": "U.S. Jobs Report October 2026: Payrolls Jump 165,000",
-          "url": "https://finwire.io/news/forex-news/us-jobs-report-october-2026-payrolls-jump-165000"
-        },
-        {
-          "title": "November 6, 2015",
-          "url": "https://www.rpc.senate.gov/policy-papers/october-2015-jobs-report"
-        }
-      ]
-    },
-    {
-      "query": "stock market close Friday November 6 2026 Dow S&P Nasdaq week",
-      "results": [
-        {
-          "title": "Closing Look — Friday, November 6, 2026",
-          "url": "https://cappnotes.substack.com/p/closing-look-friday-november-6-2026"
-        },
-        {
-          "title": "Stock market news for Nov. 6, 2026",
-          "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
-        },
-        {
-          "title": "Stock market today: Nasdaq and S&P 500 rebound, Dow slips to cap bruising week for AI stocks",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
-        },
-        {
-          "title": "Stock Market News for Nov 6, 2026",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-6-132900980.html"
-        },
-        {
-          "title": "Stock Market Today (Nov. 6, 2026): Nasdaq, S&P 500 rise after midterms AI rout",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-6-144816072.html"
-        },
-        {
-          "title": "How major US stock indexes fared Friday 11/6/2026 - The Washington Post",
-          "url": "https://www.washingtonpost.com/business/2026/11/06/wall-street-stocks-dow-nasdaq/fbde12a0-da27-11f1-930a-e08f8086f5ac_story.html"
-        },
-        {
-          "title": "Did the Stock Market Crash Today? Nasdaq Rebounds After $2.5 Trillion Selloff as Dow Futures Signal Volatility",
-          "url": "https://finchannel.com/did-the-stock-market-crash-today-editorial-scenario-probabilities-for-next-week/140827/featured/2026/11/"
-        },
-        {
-          "title": "Market Review: November 06, 2026 - Investrade",
-          "url": "https://investrade.com/market-review-november-06-2026/"
-        },
-        {
-          "title": "Chip Stocks Bounced Back in the Stock Market Today, November 6, 2026, a Day After Their Selloff",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-6-2026"
-        }
-      ]
-    },
-    {
-      "query": "Iran news November 6 2026",
-      "results": [
         {
           "title": "Iran",
           "url": "https://www.aljazeera.com/where/iran/"
         },
         {
-          "title": "Iran war live: IRGC says US drone downed, tankers hit in Strait of Hormuz",
-          "url": "https://aljazeera.com/amp/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
+          "title": "U.S. military carries out new limited strikes on Iran",
+          "url": "https://www.nbcnews.com/news/us-news/us-military-carries-new-targeted-strikes-iran-rcna607969"
         },
         {
-          "title": "2026 in Oman",
-          "url": "https://en.wikipedia.org/wiki/2026_in_Oman"
+          "title": "US launches new targeted strikes on Iran as Trump claims progress in talks with Tehran",
+          "url": "https://www.euronews.com/2026/11/07/us-launches-new-targeted-strikes-on-iran-as-trump-claims-progress-in-talks-with-tehran"
         },
         {
-          "title": "2026 Iranian leadership crisis",
-          "url": "https://en.wikipedia.org/wiki/2026_Iranian_leadership_crisis"
-        },
-        {
-          "title": "2026 Iran explosions",
-          "url": "https://en.wikipedia.org/wiki/2026_Iran_explosions"
-        },
-        {
-          "title": "2026 United States protests against strikes on Iran",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_protests_against_strikes_on_Iran"
-        },
-        {
-          "title": "Timeline of the 2026 Iran war",
-          "url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war"
-        },
-        {
-          "title": "Live Updates: War returns to Iran with Israel, US strikes - DAWN.COM",
-          "url": "https://dawn.com/live/iran-israel-war"
-        },
-        {
-          "title": "Iran News in Brief",
-          "url": "https://www.ncr-iran.org/en/news/iran-news-in-brief-november-5-2026/"
+          "title": "Iran News Today in English",
+          "url": "https://apps.apple.com/us/app/id1229854645"
         }
       ]
     },
     {
-      "query": "Ukraine Russia news November 6 2026",
+      "query": "Herzog assigns mandate Eisenkot November 8 2026",
+      "results": [
+        {
+          "title": "Israel President Handing Mandate to Gadi Eisenkot Today After 67-Seat Endorsement",
+          "url": "https://www.heraldgoa.in/globe-nation/israel-president-handing-mandate-to-gadi-eisenkot-today-after-67-seat-endorsement/494952/"
+        },
+        {
+          "title": "Herzog to grant Eisenkot mandate to form Israel’s next government - Israel & Jewish News - JNS",
+          "url": "https://www.jns.org/news/israel-news/herzog-to-grant-eisenkot-mandate-to-form-israels-next-government"
+        },
+        {
+          "title": "Israel’s president picks Eisenkot over Netanyahu to form next government",
+          "url": "https://www.yahoo.com/news/politics/articles/israel-president-picks-eisenkot-over-202658136.html"
+        },
+        {
+          "title": "Israel’s president picks Eisenkot over Netanyahu to form next government",
+          "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+        },
+        {
+          "title": "President Herzog taps Eisenkot to form coalition, but path remains fraught",
+          "url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+        },
+        {
+          "title": "Israel: Gadi Eisenkot receives mandate to form government from President Isaac Herzog",
+          "url": "https://organiser.org/2026/11/08/424952/international/israel-gadi-eisenkot-receives-mandate-to-form-government-from-president-isaac-herzog/"
+        },
+        {
+          "title": "Herzog assigns Eisenkot responsibility for government formation",
+          "url": "https://www.democrata.es/en/international/herzog-designates-gadi-eisenkot-to-try-to-form-a-government-in-israel/"
+        },
+        {
+          "title": "Israel’s president says will task Eisenkot with forming next government",
+          "url": "https://middleeastmonitor.com/20261108-israels-president-says-will-task-eisenkot-with-forming-next-government"
+        },
+        {
+          "title": "Isaac Herzog",
+          "url": "https://en.wikipedia.org/wiki/Isaac_Herzog"
+        }
+      ]
+    },
+    {
+      "query": "South Africa local election final results IEC November 8 2026",
+      "results": [
+        {
+          "title": "IEC achieves 91% completion rate for local election results",
+          "url": "https://www.sanews.gov.za/south-africa/iec-achieves-91-completion-rate-local-election-results"
+        },
+        {
+          "title": "2026 Local Election Results (South Africa)",
+          "url": "https://sepush.co.za/elections/local/2026"
+        },
+        {
+          "title": "2026 Local Election Results (South Africa)",
+          "url": "https://esp.info/elections/local/2026"
+        },
+        {
+          "title": "IEC confirms 150 of 213 municipalities have finalised the results - SABC News - Breaking news, special reports, world, business, sport coverage of all South African current events. Africa's news leader.",
+          "url": "https://www.sabcnews.com/sabcnews/iec-confirms-150-of-213-municipalities-have-finalised-the-results/"
+        },
+        {
+          "title": "IEC confirms official 2026 local election results to be announced on Sunday",
+          "url": "https://novanews.co.za/iec-confirms-official-2026-local-election-results-to-be-announced-on-sunday/"
+        },
+        {
+          "title": "Election Results eNCA",
+          "url": "https://www.enca.com/elections-2026-enca/iec-results-2026"
+        },
+        {
+          "title": "2026 Local Election Results (South Africa)",
+          "url": "https://eskom.sepush.co.za/elections/local/2026"
+        },
+        {
+          "title": "2006 South African municipal elections",
+          "url": "https://en.wikipedia.org/wiki/2006_South_African_municipal_elections"
+        },
+        {
+          "title": "South Africa local election results 2026",
+          "url": "https://www.thepeoplesregister.co.za/elections/2026/results/"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Russia news November 7 2026",
       "results": [
         {
           "title": "Ukraine News Today",
@@ -477,6 +453,10 @@
           "url": "https://en.wikipedia.org/wiki/Ukraine_Online"
         },
         {
+          "title": "Ukrainian National News",
+          "url": "https://en.wikipedia.org/wiki/Ukrainian_National_News"
+        },
+        {
           "title": "Ukraine News Today Live",
           "url": "https://www.newsnow.co.uk/h/World+News/Europe/Eastern+Europe/Ukraine"
         },
@@ -485,20 +465,16 @@
           "url": "https://www.cnn.com/world/europe/ukraine"
         },
         {
-          "title": "Russia launches missile attack on Kyiv, injuring residents",
-          "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents"
+          "title": "Zelenskyy accuses Russia of ramping up attacks on Ukraine ahead of U.S. talks - CBS News",
+          "url": "https://www.cbsnews.com/news/zelenskyy-russia-attacks-us-talks/"
         },
         {
-          "title": "Russia-Ukraine war",
-          "url": "https://www.aljazeera.com/tag/ukraine-russia-crisis/"
+          "title": "Latest news",
+          "url": "https://www.ukrinform.net/block-lastnews"
         },
         {
           "title": "Ukraine News Today Live",
           "url": "https://www.newsnow.com/us/World/Europe/Eastern+Europe/Ukraine"
-        },
-        {
-          "title": "Trump says Russia-Ukraine deal is near after meeting Putin’s envoy",
-          "url": "https://www.aljazeera.com/news/2026/11/6/trump-met-russian-envoy-after-he-appeared-with-melania-trump-and-ukrainians"
         },
         {
           "title": "Full Episode",
@@ -507,485 +483,509 @@
       ]
     },
     {
-      "query": "Trump warns US may have to destroy rest of Iran November 6 2026",
+      "query": "US new limited strikes Iran November 7 2026 Trump minor Qatar emir call",
       "results": [
         {
-          "title": "Iran war live: Trump warns US may have to ‘destroy’ rest of Iran",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran?update=5127426"
+          "title": "Live Updates: U.S. launches new task force aimed at disrupting Iranian ground shipping routes",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
         },
         {
-          "title": "Trump threatens to \"destroy the rest\" of Iran in stark new warning",
-          "url": "https://www.soapcentral.com/entertainment/trump-threatens-destroy-rest-iran-stark-new-warning"
+          "title": "U.S. military carries out new limited strikes on Iran",
+          "url": "https://www.nbcnews.com/news/us-news/us-military-carries-new-targeted-strikes-iran-rcna607969"
         },
         {
-          "title": "Trump Warns Iran of 'Heavy Hit' Amid Rising Gulf Tensions and Diplomatic Efforts",
-          "url": "https://gulfnews.com/world/mena/us-israel-iran-war-trump-warns-iran-heavy-hit-tehran-gulf-diplomacy-1.500737918"
+          "title": "New US strikes on Iran raise fears of wider war as Tehran issues stark warning",
+          "url": "https://www.ynetnews.com/article/bkt6hz26fx"
         },
         {
-          "title": "Trump threatens to ’destroy’ Iran, diplomatic efforts intensify",
-          "url": "https://www.newarab.com/news/trump-threatens-destroy-iran-diplomatic-efforts-intensify"
+          "title": "US carries out another round of ‘minor’ strikes on Iran, Trump says - npkpress",
+          "url": "https://palestina-komitee.nl/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says/"
         },
         {
-          "title": "Trump threatens to destroy rest of Iran as war tensions escalate - Tribune Online",
-          "url": "https://tribuneonlineng.com/trump-threatens-to-destroy-rest-of-iran-as-war-tensions-escalate/"
+          "title": "US military carries out new targeted strikes on Iran as Tehran's leaders weigh mediator's proposals - WHEC.com",
+          "url": "https://www.whec.com/ap-top-news/us-military-carries-out-new-targeted-strikes-on-iran-as-tehrans-leaders-weigh-mediators-proposals/"
         },
         {
-          "title": "Trump threatens to 'destroy the rest' of Iran and will decide soon on resuming strikes: 'I did the right thing and would do it again'",
-          "url": "https://www.todoalicante.es/english/trump-threatens-destroy-rest-20261106051152-nt.html"
+          "title": "Iran’s strike on Qatar was a ‘calculated response to save face,’ former US Navy commander",
+          "url": "https://www.foxnews.com/politics/moderate-house-dem-jared-golden-says-trump-right-strike-iran"
         },
         {
-          "title": "Trump Says He May Have To ‘Destroy the Rest of the Country’ of Iran in Latest Threat",
-          "url": "https://headlineusa.com/trump-says-he-may-have-to-destroy-the-rest-of-the-country-of-iran-in-latest-threat/"
+          "title": "Iran attacks U.S. base in Qatar - UPDATES",
+          "url": "https://worldweekly.substack.com/p/iran-attacks-us-base-in-qatar-updates"
         },
         {
-          "title": "Trump warns US may have to destroy Iran in new military - Newsy Today",
-          "url": "https://www.newsy-today.com/trump-warns-us-may-have-to-destroy-iran-in-new-military/"
+          "title": "trump thanks iran for heads up on",
+          "url": "https://diplomatic.substack.com/p/trump-thanks-iran-for-heads-up-on"
         },
         {
-          "title": "Trump says US may destroy Iran as Tehran reviews nuclear proposals - World Today News",
-          "url": "https://www.world-today-news.com/trump-says-us-may-destroy-iran-as-tehran-reviews-nuclear-proposals/"
+          "title": "Trump: ‘Today Iran will be hit very hard’ as war enters another week",
+          "url": "https://www.yahoo.com/news/articles/trump-today-iran-hit-very-115213060.html"
         }
       ]
     },
     {
-      "query": "Fed December rate hike odds after jobs report November 6 2026 Treasury yields dollar",
+      "query": "week ahead markets November 9 2026 CPI inflation Nvidia earnings",
       "results": [
         {
-          "title": "US jobs report: 165,000 payroll lift Treasury yields and Fed hike odds",
-          "url": "https://beinsure.com/news/us-jobs-report-165k-payroll-lift-treasury-yields/"
+          "title": "The Week Ahead: US PCE, Tokyo CPI, Nvidia earnings",
+          "url": "https://www.cmcmarkets.com/en-ie/news-and-analysis/the-week-ahead-us-pce-tokyo-cpi-nvidia-earnings"
         },
         {
-          "title": "Strong Jobs Print Pushed Treasury Yields Back Up - Finimize",
-          "url": "https://finimize.com/content/strong-jobs-print-pushed-treasury-yields-back-up"
+          "title": "The Week Ahead: US, Germany inflation, Cisco earnings",
+          "url": "https://cmcmarkets.com/en-gb/news-and-analysis/the-week-ahead-us-germany-inflation-cisco-earnings"
         },
         {
-          "title": "October jobs report beats forecasts, lifting December Fed hike odds - InvestmentNews",
-          "url": "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915"
+          "title": "Wall Street Week Ahead",
+          "url": "https://seekingalpha.com/article/4964825-wall-street-week-ahead"
         },
         {
-          "title": "Stocks Mixed, Yields Up on Surging U.S. Job Growth",
-          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+          "title": "The Week Ahead: Inflation Data on Deck as Earnings Slow - Schaeffer's Investment Research",
+          "url": "https://www.schaeffersresearch.com/content/news/2026/11/05/the-week-ahead-inflation-data-on-deck-as-earnings-slow"
         },
         {
-          "title": "Fed Hike Odds Rise to 77% After Jobs Report",
-          "url": "https://www.riotimesonline.com/fed-december-hike-odds-rise-after-jobs-report-2026"
+          "title": "U.S. CPI Data and Fed Officials’ Speeches to Be Market Focus Next Week",
+          "url": "https://www.kucoin.com/news/flash/u-s-cpi-data-and-fed-officials-speeches-to-be-market-focus-next-week"
         },
         {
-          "title": "Fed rate hike odds jump after October jobs report as officials signal more tightening",
-          "url": "https://invezz.com/en-ae/news/2026/11/06/fed-rate-hike-odds-jump-after-october-jobs-report-as-officials-signal-more-tightening/"
+          "title": "Kospi Slides as Markets Look to CoreWeave, Nvidia Earnings for AI Outlook",
+          "url": "https://en.bloomingbit.io/feed/news/123854"
         },
         {
-          "title": "Jobs Report Pushes December Rate Hike Probability to 88%",
-          "url": "https://gokhshtein.com/news/2026-11-06-us-job-growth-accelerated-in-october-and-the-unemployment"
+          "title": "Economics week ahead",
+          "url": "https://www.fxstreet.com/analysis/economics-week-ahead-202611061916"
         },
         {
-          "title": "10-Year Treasury Yield Hits 4.87% After Strong Jobs Data",
-          "url": "https://pomegra.io/news/10-year-treasury-yield-hits-487-after-strong-jobs-data"
+          "title": "Week Ahead: US CPI, UK GDP and Market Outlook",
+          "url": "https://www.equiti.com/jo-en/news/trade-reviews/week-ahead-us-inflation-uk-gdp-market-outlook/"
         },
         {
-          "title": "US Jobs Surge 165,000, Nearly Triple Forecasts, as Fed Rate Hike Odds Hit 80",
-          "url": "https://coinpaper.com/38460/us-jobs-surge-165-000-nearly-triple-forecasts-as-fed-rate-hike-odds-hit-80"
-        },
-        {
-          "title": "Dollar and US yields rise, stocks fall after jobs report keeps Fed hike alive",
-          "url": "https://gulfnews.com/business/markets/dollar-and-us-yields-rise-stocks-fall-after-jobs-report-keeps-fed-hike-alive-1.1666628"
+          "title": "Intel Corp Stock (INTC) Moved Up by 5.73% on Nov 6: Facts Behind the Movement",
+          "url": "https://tradingkey.com/news/market-movers/262292658-market-movers-intc-20261106"
         }
       ]
     },
     {
-      "query": "Israel news November 6 2026 Eisenkot mandate Sunday Netanyahu",
+      "query": "Alaska Senate race November 7 2026 count Peltola Sullivan latest",
       "results": [
-        {
-          "title": "Herzog: 67 MKs recommend Eisenkot, 46 Netanyahu; mandate to be assigned Sunday - Israel & Jewish News - JNS",
-          "url": "https://www.jns.org/news/israel-news/herzog-67-mks-recommend-eisenkot-46-netanyahu-mandate-to-be-assigned-sunday"
-        },
-        {
-          "title": "Eisenkot Signals Readiness for Minority Government to Replace Netanyahu - Israel Political News",
-          "url": "https://www.haaretz.com/israel-news/israel-politics/2026-11-06/ty-article/.premium/eisenkot-signals-readiness-for-minority-government-to-replace-netanyahu/000001a1-b12a-defa-a7f7-bd7f4c110000"
-        },
-        {
-          "title": "Eisenkot secures 67 recommendations, nears mandate to form Israel's next government",
-          "url": "https://www.ynetnews.com/article/ryuqebc6zg"
-        },
-        {
-          "title": "67 MKs back Eisenkot, 46 back Netanyahu: Herzog to assign mandate on Sunday",
-          "url": "https://www.israelnationalnews.com/news/435750"
-        },
-        {
-          "title": "Eisenkot set to receive mandate to form Israeli gov't as Herzog rounds out consultation meetings",
-          "url": "https://www.jpost.com/israel-election-2026/article-913989"
-        },
-        {
-          "title": "Israel’s opposition leaders back Eisenkot to oust Netanyahu",
-          "url": "https://www.aljazeera.com/news/2026/11/3/israeli-opposition-leaders-back-eisenkot-to-oust-netanyahu"
-        },
-        {
-          "title": "Sparta Speech",
-          "url": "https://en.wikipedia.org/wiki/Sparta_Speech"
-        },
-        {
-          "title": "Eisenkot Rifts: Netanyahu Gains Edge in Israel Vote · Daily Beirut",
-          "url": "https://dailybeirut.com/en/world/fragile-majority-trap-opposition-rifts-threaten-eisenkot-netanyahu/"
-        },
-        {
-          "title": "The Daily Telegraph - Saturday",
-          "url": "https://www.pressreader.com/uk/the-daily-telegraph-saturday/20240120/281943137745494"
-        }
-      ]
-    },
-    {
-      "query": "Alaska Senate race update November 6 2026 Peltola Sullivan count",
-      "results": [
-        {
-          "title": "Mary Peltola narrowly leads Dan S. Sullivan in Alaska Senate race",
-          "url": "https://thehill.com/homenews/campaign/6197925-mary-peltola-alaska-senate-race-lead/"
-        },
-        {
-          "title": "Alaska Senate race remains undecided days after Election Day",
-          "url": "https://www.alaskasnewssource.com/2026/11/07/alaska-senate-race-remains-undecided-days-after-election-day/"
-        },
-        {
-          "title": "Mary Peltola appears likely to defeat both Dan Sullivans in Alaska's Senate race",
-          "url": "https://reason.com/2026/11/06/mary-peltola-appears-likely-to-defeat-both-dan-sullivans-in-alaskas-senate-race/"
-        },
         {
           "title": "Early results show Peltola and Sullivan in tight U.S. Senate race - Anchorage Daily News",
           "url": "https://www.adn.com/politics/2026/11/03/peltola-leads-sullivan-in-limited-early-results-in-hard-fought-us-senate-race/"
         },
         {
-          "title": "Alaska’s US Senate race a tossup, with many absentee and early votes to be counted",
-          "url": "https://alaskabeacon.com/2026/11/03/democratic-candidate-mary-peltola-leads-in-early-vote-counts-for-alaskas-us-senate-election/"
-        },
-        {
           "title": "Sullivan and Peltola locked in tight U.S. Senate race as more results come in",
-          "url": "https://alaskapublic.org/news/politics/elections/2026-11-03/peltola-takes-early-lead-in-alaskas-u-s-senate-race"
+          "url": "https://www.ktoo.org/2026/11/03/sullivan-and-peltola-locked-in-tight-u-s-senate-race-as-more-results-come-in-2/"
         },
         {
-          "title": "Dem Senate Candidate Mary Peltola Sues Alaska Over Absentee Ballots as Race Sits on a Razor’s Edge",
-          "url": "https://www.mediaite.com/politics/dem-senate-candidate-mary-peltola-sues-alaska-over-absentee-ballots-as-race-sits-on-a-razors-edge/"
+          "title": "Trump weighs in on Alaska’s tight U.S. Senate race as thousands of ballots are yet to be tallied - Anchorage Daily News",
+          "url": "https://adn.com/politics/2026/11/05/trump-weighs-in-on-alaskas-tight-us-senate-race-as-thousands-of-ballots-are-yet-to-be-tallied"
         },
         {
-          "title": "2026 United States Senate election in Alaska",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska"
+          "title": "Midterms 2026 results and latest updates: Mississippi and Alaska Senate races still too close to call; Boebert trails in Colorado",
+          "url": "https://yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
         },
         {
-          "title": "Ranked choice voting may help Republican US Sen. Dan Sullivan, analysis finds",
-          "url": "https://alaskabeacon.com/2026/11/04/ranked-choice-voting-may-help-republican-us-sen-dan-sullivan-analysis-finds/"
+          "title": "Alaska Senate Race Results: Mary Peltola vs Dan Sullivan and the Ranked-Choice Count",
+          "url": "https://cryptoticker.io/en/alaska-senate-race-results-peltola-sullivan/"
         },
         {
           "title": "Watch CBS News",
           "url": "https://www.cbsnews.com/news/mary-peltola-senate-race-alaska-dan-sullivan"
+        },
+        {
+          "title": "mary peltola",
+          "url": "https://www.pbs.org/newshour/tag/mary-peltola"
+        },
+        {
+          "title": "Scoop: Schumer courts Peltola for Alaska Senate race",
+          "url": "https://www.axios.com/2025/08/13/alaska-senate-peltola-schumer-sullivan"
+        },
+        {
+          "title": "democrat mary peltola barrier breaking ex alaska congresswoman is challenging republican dan sullivan in senate race",
+          "url": "https://www.pbs.org/newshour/amp/politics/democrat-mary-peltola-barrier-breaking-ex-alaska-congresswoman-is-challenging-republican-dan-sullivan-in-senate-race"
+        },
+        {
+          "title": "Live results: Alaska Senate election tight with more ballots to count",
+          "url": "https://www.yahoo.com/news/politics/articles/live-results-alaska-senate-election-185832304.html"
+        },
+        {
+          "title": "Alaska U.S. Senate Election 2026 Live Results: Mary Peltola, Dan Sullivan and More",
+          "url": "https://www.nbcnews.com/politics/2026-elections/alaska-senate-results"
+        },
+        {
+          "title": "Alaska Senate election live results 2026: Peltola narrowly leads Sullivan in tight race - The Washington Post",
+          "url": "https://www.washingtonpost.com/elections/results/2026/11/03/alaska-senate-peltola-sullivan-live-updates/"
+        },
+        {
+          "title": "Alaska Midterm Elections 2026: Live Results",
+          "url": "https://www.nbcnews.com/politics/2026-elections/alaska-results"
+        },
+        {
+          "title": "2018 Alaska Senate election",
+          "url": "https://en.wikipedia.org/wiki/2018_Alaska_Senate_election"
+        },
+        {
+          "title": "2014 Alaska Senate election",
+          "url": "https://en.wikipedia.org/wiki/2014_Alaska_Senate_election"
+        },
+        {
+          "title": "1958 United States Senate elections in Alaska",
+          "url": "https://en.wikipedia.org/wiki/1958_United_States_Senate_elections_in_Alaska"
+        },
+        {
+          "title": "2002 United States Senate election in Alaska",
+          "url": "https://en.wikipedia.org/wiki/2002_United_States_Senate_election_in_Alaska"
+        },
+        {
+          "title": "Elvi Gray-Jackson",
+          "url": "https://en.wikipedia.org/wiki/Elvi_Gray-Jackson"
+        },
+        {
+          "title": "2022 Alaska Senate election",
+          "url": "https://en.wikipedia.org/wiki/2022_Alaska_Senate_election"
         }
       ]
     },
     {
-      "query": "oil prices Friday November 6 2026 Brent weekly",
+      "query": "Europe news November 7 2026 Belgium king De Wever decision",
       "results": [
         {
-          "title": "Brent Crude Oil Price: $98.32 After 16% Weekly Drop",
-          "url": "https://financefeeds.com/brent-crude-oil-price-98-32-saturday-week-ahead-us-iran-deal-bets-cpi-10-november-bull-105-bear-93/"
+          "title": "Belgian king refuses PM Bart De Wever's resignation and asks him to restart budget talks",
+          "url": "https://www.euronews.com/2026/11/06/belgian-king-refuses-pm-bart-de-wevers-resignation-and-asks-him-to-restart-budget-talks"
         },
         {
-          "title": "Crude Oil - Price - Chart - Historical Data - News",
-          "url": "https://tradingeconomics.com/commodity/crude-oil"
+          "title": "Belgian government in turmoil over budget: King puts Prime Minister De Wever’s resignation on hold",
+          "url": "https://www.eunews.it/en/2026/11/02/belgian-government-in-turmoil-over-budget-king-puts-prime-minister-de-wevers-resignation-on-hold/"
         },
         {
-          "title": "Brent oil - Price - Chart - Historical Data - News",
-          "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+          "title": "Belgian king refuses PM Bart De Wever's resignation and asks him to restart budget talks",
+          "url": "https://www.yahoo.com/news/world/articles/belgian-king-refuses-pm-bart-142146332.html"
         },
         {
-          "title": "Oil set for biggest weekly drop; may bring relief for India's oil bill",
-          "url": "https://www.business-standard.com/amp/industry/news/oil-set-for-biggest-weekly-drop-may-bring-relief-for-india-s-oil-bill-126110601681_1.html"
+          "title": "Belgian King calls for political responsibility as he considers PM De Wever's resignation",
+          "url": "https://www.brusselstimes.com/belgium/2387762/belgian-pm-de-wever-to-offer-resignation-to-king-after-failed-budget-talks-tbtb"
         },
         {
-          "title": "Oil Prices Rebound Towards $100 But Brent Heads For 12% Weekly Decline",
-          "url": "https://investorsking.com/2026/11/06/oil-prices-rebound-towards-100-but-brent-heads-for-12-weekly-decline/"
+          "title": "2024%E2%80%932025 Belgian government formation",
+          "url": "https://en.wikipedia.org/wiki/2024%E2%80%932025_Belgian_government_formation"
         },
         {
-          "title": "Oil prices drop below $100 as midterms fuel hope for an end to the Iran war",
-          "url": "https://www.nbcnews.com/business/energy/oil-prices-iran-war-midterms-rcna607448"
+          "title": "Belgian King rejects PM De Wever's resignation, new deadline to find way out of budget crisis",
+          "url": "https://www.brusselstimes.com/belgium/2394385/belgian-pm-to-meet-with-king-as-resignation-still-under-consideration-tbtb"
         },
         {
-          "title": "Brent crude jumps, settles up over $3 after tanker attacks",
-          "url": "https://finance.yahoo.com/news/oil-falls-fourth-day-expectations-045943628.html"
+          "title": "2025 in Belgium",
+          "url": "https://en.wikipedia.org/wiki/2025_in_Belgium"
         },
         {
-          "title": "Brent crude near $99 as global oil risks persist",
-          "url": "https://newskarnataka.com/business/brent-crude-near-99-as-global-oil-risks-persist/06112026/"
+          "title": "Bart De Wever",
+          "url": "https://en.wikipedia.org/wiki/Bart_De_Wever"
         },
         {
-          "title": "October 18, 2025 6:09 PM",
-          "url": "https://www.newsonair.gov.in/oil-prices-edge-up-on-friday-but-record-weekly-losses"
+          "title": "De Wever government",
+          "url": "https://en.wikipedia.org/wiki/De_Wever_government"
         }
       ]
     },
     {
-      "query": "South Africa election results November 7 2026 ANC DA final count metros",
+      "query": "Mississippi Senate race 2026 result too close to call",
       "results": [
         {
-          "title": "South Africa votes: results as they come in",
-          "url": "https://theoutlier.co.za/results"
+          "title": "Liveblog: Mississippi’s 2026 U.S. Senate Election Results",
+          "url": "https://www.mississippifreepress.org/liveblog-mississippis-2026-u-s-senate-election-results/"
         },
         {
-          "title": "Here's how the eight metros stand as the IEC begins to wrap up results",
-          "url": "https://www.citizen.co.za/news/south-africa/elections/heres-how-the-eight-metros-stand-as-the-iec-begins-to-wrap-up-results/"
+          "title": "Mississippi U.S. Senate Midterm Election 2026: Live Results",
+          "url": "https://www.nbcnews.com/politics/2026-elections/mississippi-senate-results"
         },
         {
-          "title": "2026 election results: Final numbers in sight as 95% of votes counted, with winners and losers clear",
-          "url": "https://businesstech.co.za/news/government/883196/2026-election-results-final-numbers-in-sight-as-95-of-votes-counted-with-winners-and-losers-clear/"
+          "title": "Mississippi U.S. Senate election live results 2026: Colom defies odds in close race - The Washington Post",
+          "url": "https://www.washingtonpost.com/elections/results/2026/11/03/mississippi-senate-live-updates/"
         },
         {
-          "title": "2026 election results: First major city in South Africa reaches final count",
-          "url": "https://businesstech.co.za/news/government/883133/2026-election-results-first-major-city-in-south-africa-reaches-final-count-with-the-anc-suffering-a-blow/"
+          "title": "Mississippi Midterm Elections 2026: Live Results",
+          "url": "https://www.nbcnews.com/politics/2026-elections/mississippi-results"
         },
         {
-          "title": "LOCAL GOVERNMENT ELECTIONS LIVE: Early results not looking promising for ANC",
-          "url": "https://www.citizen.co.za/news/south-africa/elections/local-government-elections-live-day-1-results-and-turnout/"
+          "title": "2026 United States Senate election in Mississippi",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi"
         },
         {
-          "title": "2000 South African municipal elections",
-          "url": "https://en.wikipedia.org/wiki/2000_South_African_municipal_elections"
+          "title": "2025 Mississippi State Senate special election",
+          "url": "https://en.wikipedia.org/wiki/2025_Mississippi_State_Senate_special_election"
         },
         {
-          "title": "Election Results eNCA",
-          "url": "https://www.enca.com/elections-2026-enca/iec-results-2026"
+          "title": "Mississippi Senate: Colom increases lead over Hyde-Smith to nearly 2,500 votes",
+          "url": "https://www.cnbc.com/2026/11/05/mississippi-senate-election-scott-colom-hyde-smith.html"
         },
         {
-          "title": "South Africa's ANC party on track to face 'nightmare' losses in municipal elections - France 24",
-          "url": "https://www.france24.com/en/africa/20261106-south-africa-anc-party-on-track-to-face-nightmare-losses-in-municipal-elections"
+          "title": "2027 Mississippi elections",
+          "url": "https://en.wikipedia.org/wiki/2027_Mississippi_elections"
         },
         {
-          "title": "2026 Elections Final Results Prediction: ANC and EFF decline, DA and VF Plus improve, ActionSA is the biggest winner",
-          "url": "https://newsday.co.za/south-africa/35838/2026-elections-final-results-prediction-anc-and-eff-decline-da-and-vf-plus-improve-actionsa-is-the-biggest-winner/"
+          "title": "Mississippi Senate Primary Results 2024",
+          "url": "https://www.nbcnews.com/politics/2024-primary-elections/mississippi-senate-results"
         }
       ]
     },
     {
-      "query": "Europe news November 6 2026",
+      "query": "US task force disrupt Iranian ground shipping routes November 2026",
       "results": [
         {
-          "title": "Video. Latest news bulletin",
-          "url": "https://www.euronews.com/video/2026/11/06/latest-news-bulletin-november-6th-2026-morning"
+          "title": "Live Updates: U.S. launches new task force aimed at disrupting Iranian ground shipping routes",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
         },
         {
-          "title": "Video. Latest news bulletin",
-          "url": "https://www.euronews.com/video/2026/11/06/latest-news-bulletin-november-6th-2026-evening"
+          "title": "US CENTCOM establishes task force \"Iron Gate\" to disrupt Iranian ground transit routes, curb illegal shipments - The Tribune",
+          "url": "https://www.tribuneindia.com/news/usa-news/us-centcom-establishes-task-force-iron-gate-to-disrupt-iranian-ground-transit-routes-curb-illegal-shipments"
         },
         {
-          "title": "Europe News",
-          "url": "https://www.aljazeera.com/europe/"
+          "title": "CENTCOM creates task force to disrupt Iran's weapons ground routes",
+          "url": "https://www.yahoo.com/news/us/articles/centcom-creates-task-force-disrupt-164937970.html"
         },
         {
-          "title": "Aa",
-          "url": "https://aa.com.tr/en/world/morning-briefing-nov-6-2026/4113576"
+          "title": "U.S. military seeks to disrupt Iran’s land routes, expanding on naval blockade - The Washington Post",
+          "url": "https://www.washingtonpost.com/national-security/2026/11/07/us-military-seeks-disrupt-irans-land-routes-expanding-naval-blockade/"
         },
         {
-          "title": "Early Edition: November 6, 2026",
-          "url": "https://justsecurity.org/163619/early-edition-november-6-2026"
+          "title": "US CENTCOM Establishes Task Force 'Iron Gate' to Disrupt Iranian Ground Transit Routes, Curb Illegal Shipments",
+          "url": "https://www.republicworld.com/world-news/us-centcom-establishes-task-force-iron-gate-to-disrupt-iranian-ground-transit-routes-curb-illegal-shipments-2026-11-07-140628"
         },
         {
-          "title": "Europe Intelligence Brief for Friday, November 6, 2026",
-          "url": "https://www.riotimesonline.com/europe-intelligence-brief-friday-november-6-2026/"
+          "title": "US CENTCOM launches Task Force Iron Gate to curb Iran supply routes",
+          "url": "https://inshorts.com/en/news/us-centcom-launches-task-force-iron-gate-to-curb-iran-supply-routes-1794126660885"
         },
         {
-          "title": "euronews live",
-          "url": "https://www.euronews.com/tag/euronews-live?p=8"
+          "title": "The U.S. Is Seeking To Expand Its Blockade On Iran Despite Growing Bipartisan Opposition To The Conflict",
+          "url": "https://www.ibtimes.com/centcom-task-force-iron-gate-iran-supply-routes-3809533"
         },
         {
-          "title": "top stories",
-          "url": "https://www.euronews.com/tag/top-stories?p=9"
+          "title": "Unit 190",
+          "url": "https://en.wikipedia.org/wiki/Unit_190"
         },
         {
-          "title": "top news stories today",
-          "url": "https://www.euronews.com/top-news-stories-today"
-        },
-        {
-          "title": "top stories",
-          "url": "https://www.euronews.com/tag/top-stories?p=6"
+          "title": "US Central Command forms Task Force Iron Gate to curb Iran's land trade",
+          "url": "https://www.israel.com/news/us-central-command-forms-task-force-iron-gate-to-curb-irans-land-trade"
         }
       ]
     },
     {
-      "query": "China Asia news November 6 2026",
+      "query": "Africa news November 7 2026",
       "results": [
         {
-          "title": "China Today (TV program)",
-          "url": "https://en.wikipedia.org/wiki/China_Today_(TV_program)"
+          "title": "Africa News: Breaking News and Analysis on Africa Politics, Business & More",
+          "url": "https://www.nbcnews.com/news/africa"
         },
         {
-          "title": "China News: Latest on President Xi Jinping, China's Tech Advances and More",
-          "url": "https://www.nbcnews.com/news/china"
+          "title": "News - Daily news, hot news and breaking news in Africa",
+          "url": "https://www.africanews.com/news/"
         },
         {
-          "title": "The Asian Today",
-          "url": "https://en.wikipedia.org/wiki/The_Asian_Today"
+          "title": "Africa News",
+          "url": "https://www.aljazeera.com/africa/"
         },
         {
-          "title": "Asia Pacific Daily",
-          "url": "https://en.wikipedia.org/wiki/Asia_Pacific_Daily"
+          "title": "Africanews",
+          "url": "https://www.africanews.com/"
         },
         {
-          "title": "The China Post",
-          "url": "https://en.wikipedia.org/wiki/The_China_Post"
+          "title": "Today News Africa",
+          "url": "https://todaynewsafrica.com/"
         },
         {
-          "title": "Asia Business Report",
-          "url": "https://en.wikipedia.org/wiki/Asia_Business_Report"
+          "title": "allafrica.com",
+          "url": "https://allafrica.com/list/aans/post/af/pubkey/publisher:editorial:00010437.html?page=3"
         },
         {
-          "title": "China Today",
-          "url": "https://en.wikipedia.org/wiki/China_Today"
+          "title": "Top allafrica.com competitors & alternatives",
+          "url": "https://ahrefs.com/websites/allafrica.com/competitors"
         },
+        {
+          "title": "the latest news from africa",
+          "url": "https://www.npr.org/2003/12/23/1566996/the-latest-news-from-africa"
+        },
+        {
+          "title": "latest news headlines from africa",
+          "url": "https://www.npr.org/2004/06/28/3021273/latest-news-headlines-from-africa"
+        }
+      ]
+    },
+    {
+      "query": "Asia news November 7 2026 Japan China Korea",
+      "results": [
         {
           "title": "Nikkei Asia - Business, Politics, Economy and Tech News & Analysis",
           "url": "https://asia.nikkei.com/"
         },
         {
-          "title": "China news - breaking news, video, headlines and opinion",
-          "url": "https://www.cnn.com/world/china"
+          "title": "List of programmes broadcast by CNA",
+          "url": "https://en.wikipedia.org/wiki/List_of_programmes_broadcast_by_CNA"
         },
         {
-          "title": "China Breaking News & Headlines",
-          "url": "https://www.scmp.com/news/china"
+          "title": "Asia Times",
+          "url": "https://asiatimes.com/"
+        },
+        {
+          "title": "Asiavision (news exchange)",
+          "url": "https://en.wikipedia.org/wiki/Asiavision_(news_exchange)"
+        },
+        {
+          "title": "The Japan Times - News On Japan, Business News, Opinion, Sports, Entertainment And More",
+          "url": "https://www.japantimes.co.jp/"
+        },
+        {
+          "title": "Asia News Network",
+          "url": "https://en.wikipedia.org/wiki/Asia_News_Network"
+        },
+        {
+          "title": "Asia News",
+          "url": "https://www.newsnow.co.uk/h/World+News/Asia"
+        },
+        {
+          "title": "AP News Summary at 2:10 a.m. EST",
+          "url": "https://dailyunion.com/news/nation_world/ap-news-summary-at-2-10-a-m-est/article_62037471-9a8d-55b6-bfd7-158ac7610f74.html"
+        },
+        {
+          "title": "• A Program of Columbia University",
+          "url": "https://exeas.weai.columbia.edu/links-news-media"
         }
       ]
     },
     {
-      "query": "Bank of England rate decision November 5 2026 hike",
+      "query": "Tundu Lissu jailed incitement treason charge dropped November 2026",
       "results": [
         {
-          "title": "Monetary Policy Committee Interest Rate Decision, November 2026 - MTA",
-          "url": "https://www.mta.org.uk/resources/monetary-policy-committee-interest-rate-decision-november-2026/"
+          "title": "Tanzania Court Acquits Opposition Chief Tundu Lissu of Treason Charges - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/tanzania-court-acquits-opposition-chief-of-treason-charges"
         },
         {
-          "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
-          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+          "title": "Tanzania court jails opposition leader for incitement, lifts treason charge",
+          "url": "https://www.aljazeera.com/news/2026/11/6/tanzania-court-jails-opposition-leader-for-incitement-lifts-treason-charge"
         },
         {
-          "title": "Live: Bank of England raises interest rates",
-          "url": "https://moneyweek.com/economy/news/live/uk-interest-rates-november-bank-of-england"
+          "title": "Tanzania opposition leader Lissu sentenced to 4 years for incitement, acquitted of treason",
+          "url": "https://www.washingtontimes.com/news/2026/nov/6/tanzania-opposition-leader-lissu-sentenced-four-years-incitement/"
         },
         {
-          "title": "United Kingdom Interest Rate",
-          "url": "https://tradingeconomics.com/united-kingdom/interest-rate"
+          "title": "Prominent government critics across Africa are facing treason charges. It's often to silence them - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/11/06/africa-treason-trial-tundu-lissu/47650030-d9dd-11f1-930a-e08f8086f5ac_story.html"
         },
         {
-          "title": "Interest rates and Bank Rate: our latest decision",
-          "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
+          "title": "Tanzania opposition leader cleared of treason, sentenced for inciting unrest",
+          "url": "https://www.cnbcafrica.com/2026/tanzanian-court-finds-no-evidence-to-convict-opposition-leader-lissu-of-treason"
         },
         {
-          "title": "Bank of England Base Rate 2026 - Latest Updates",
-          "url": "https://www.money.co.uk/mortgages/bank-of-england-base-rate"
+          "title": "Tanzania opposition leader Lissu sentenced to 4 years for incitement, acquitted of treason - ABC News",
+          "url": "https://abcnews.com/International/wireStory/tanzania-opposition-leader-lissu-sentenced-4-years-incitement-137905667"
         },
         {
-          "title": "Interest Rate Predictions UK & Mortgage Rate Forecast — Mortgage One",
-          "url": "https://www.mortgageonefinance.co.uk/interest-rate-projection"
+          "title": "Tanzanian opposition leader found guilty of ‘incitement,’ handed 4-year sentence - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/11/06/tanzanian-opposition-leader-found-guilty-incitement-handed-4-year-sentence/"
         },
         {
-          "title": "BoE Rate Decision November 2026: What to Expect",
-          "url": "https://www.doultonbridgingfinance.com/guides/interest-rate-decision-november-2026"
+          "title": "2025 in Tanzania",
+          "url": "https://en.wikipedia.org/wiki/2025_in_Tanzania"
         },
         {
-          "title": "boe preview forecasts from 10 major banks big rate hike in doubt 202211021555",
-          "url": "https://www.fxstreet.com/news/boe-preview-forecasts-from-10-major-banks-big-rate-hike-in-doubt-202211021555"
+          "title": "Tanzania Treason Ruling on Opposition Leader",
+          "url": "https://www.riotimesonline.com/tundu-lissu-treason-trial-tanzania-explained-2026/"
+        },
+        {
+          "title": "Tundu Lissu found guilty of incitement to treason — BBC News",
+          "url": "https://ua.news/en/dovkolo-svitu/opozitsionera-lissu-viznali-vinnim-u-pidburiuvanni-do-derzhzradi-bbc-news"
         }
       ]
     },
     {
-      "query": "Europe flights bomb threats diverted November 2026",
+      "query": "DR Congo armed men kill 33 village Ebola-affected east November 2026",
       "results": [
         {
-          "title": "Hoax or bomb threats? What we know about flight disruptions across Europe",
-          "url": "https://www.aljazeera.com/news/2026/11/6/hoax-or-bomb-threats-what-we-know-about-flight-disruptions-across-europe"
+          "title": "Armed men kill at least 33 in village in Ebola-hit eastern DRC",
+          "url": "https://www.yahoo.com/news/world/articles/armed-men-kill-least-33-190706831.html"
         },
         {
-          "title": "Hoax bomb threats repeatedly disrupt flights across Europe this week. Here’s what we know",
-          "url": "https://www.cnbc.com/2026/11/05/bomb-threats-flights-europe.html"
+          "title": "Islamist militants force Ebola patients to flee in deadly DRC raid",
+          "url": "https://www.timeslive.co.za/news/world/2026-11-08-islamist-militants-force-ebola-patients-to-flee-in-deadly-drc-raid/"
         },
         {
-          "title": "Flight bomb threats live: Multiple planes in Europe diverted for second time in a week",
-          "url": "https://www.cnn.com/2026/11/05/world/live-news/plane-flights-bomb-threats-europe-intl"
+          "title": "Congo: IS-linked militants kill 33, force Ebola patients to flee.",
+          "url": "https://www.newsbytesapp.com/news/world/militants-attack-ebola-stricken-village-in-dr-congo/story"
         },
         {
-          "title": "New bomb threats force more European flights into emergency landings",
-          "url": "https://www.aljazeera.com/news/2026/11/5/bomb-threat-diverts-dublin-rome-flight-to-france"
+          "title": "IS-linked militants kill 33 in fresh attack on eastern DR Congo village - Tribune Online",
+          "url": "https://tribuneonlineng.com/is-linked-militants-kill-33-eastern-congo-village-attack"
         },
         {
-          "title": "European flights and broadcasters are targeted with another wave of bomb threats",
-          "url": "https://www.npr.org/2026/11/06/nx-s1-6032612/europe-flights-hoaxes"
+          "title": "Armed men kill at least 33 in village in Ebola-hit eastern DRC",
+          "url": "https://www.timesofearth.com/2026/11/07/islamist-militants-force-ebola-patients-to-flee-in-deadly-congo-raid/"
         },
         {
-          "title": "Bomb scares disrupt multiple flights across Europe - The Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/11/05/bomb-threats-target-multiple-flights-across-europe/"
+          "title": "Gunmen Kill 33, Burn Over 50 Houses in Ebola-Hit DR Congo Village",
+          "url": "https://www.annahda.com.ng/2026/11/gunmen-kill-33-burn-over-50-houses-in.html"
         },
         {
-          "title": "two air france flights from the u s grounded by bomb threats",
-          "url": "https://fortune.com/2015/11/18/two-air-france-flights-from-the-u-s-grounded-by-bomb-threats"
+          "title": "Armed men kill at least 33 in village in Ebola-hit eastern DRC",
+          "url": "https://finwire.io/news/world-news/armed-men-kill-at-least-33-in-village-in-ebola-hit-eastern-drc"
         },
         {
-          "title": "two air france flights from the u s grounded by bomb threats",
-          "url": "https://dc.fortune.com/2015/11/18/two-air-france-flights-from-the-u-s-grounded-by-bomb-threats"
+          "title": "Ebola outbreak in DR Congo believed to have killed 33",
+          "url": "https://www.pressreader.com/malaysia/the-borneo-post/20180806/282475709645215"
         },
         {
-          "title": "International flights diverted over bomb threats, no explosives found",
-          "url": "https://www.pressreader.com/india/hindustan-times-ranchi/20151123/282119225449732"
-        },
-        {
-          "title": "Flight for N.Y. Diverted After Bomb Threat",
-          "url": "https://www.foxnews.com/story/flight-for-n-y-diverted-after-bomb-threat.amp"
+          "title": "DR Congo forces kill 26 rebels in Ebola zone near Beni",
+          "url": "https://www.aljazeera.com/amp/news/2019/5/30/dr-congo-forces-kill-26-rebels-in-ebola-zone-near-beni"
         }
       ]
     },
     {
-      "query": "Russia missile attack Kyiv November 7 2026",
+      "query": "Gaza news November 7 2026",
       "results": [
         {
-          "title": "36 Russian ballistic missiles slam Kyiv and Kyiv Oblast, damage Northern Bridge, injure at least 6 people",
-          "url": "https://kyivindependent.com/russian-ballistic-missiles-slam-kyiv-after-zelensky-warns-of-mass-attack/"
+          "title": "situation in Gaza - UN News - the United Nations",
+          "url": "https://news.un.org/en/tags/gaza"
         },
         {
-          "title": "Russian forces launch missile attack on Ukrainian capital Kyiv, mayor says By Reuters",
-          "url": "https://www.investing.com/news/world-news/russian-forces-launch-missile-attack-on-ukrainian-capital-kyiv-mayor-says-5009502"
+          "title": "Gaza Daily",
+          "url": "https://en.wikipedia.org/wiki/Gaza_Daily"
         },
         {
-          "title": "Russian forces launch missile attack on Ukrainian capital Kyiv, mayor says",
-          "url": "https://www.yahoo.com/news/world/articles/russian-forces-launch-missile-attack-012321092.html"
+          "title": "Gaza Now",
+          "url": "https://en.wikipedia.org/wiki/Gaza_Now"
         },
         {
-          "title": "Russian forces launch missile attack on Ukrainian capital Kyiv, mayor says",
-          "url": "https://english.alarabiya.net/News/world/2026/11/07/russian-forces-launch-missile-attack-on-ukrainian-capital-kyiv-mayor-says"
+          "title": "Anas Al-Sharif",
+          "url": "https://en.wikipedia.org/wiki/Anas_Al-Sharif"
         },
         {
-          "title": "Russian missile attack on Kyiv leaves two injured, damages kindergarten - Sigmalive English",
-          "url": "https://en.sigmalive.com/russian-missile-attack-on-kyiv-leaves-two-injured-damages-kindergarten/"
+          "title": "Mustafa Moien Ayyash",
+          "url": "https://en.wikipedia.org/wiki/Mustafa_Moien_Ayyash"
         },
         {
-          "title": "Ukraine, Moscow launches missile attack on Kyiv: five injured - LaPresse News",
-          "url": "https://uk.lapresse.it/world-en/2026/11/07/ukraine-moscow-launches-missile-attack-on-kyiv-five-injured/"
+          "title": "Gaza Weekly Newspaper",
+          "url": "https://en.wikipedia.org/wiki/Gaza_Weekly_Newspaper"
         },
         {
-          "title": "Russian missile attack damages residential buildings in Kyiv, injures two",
-          "url": "https://mediaselangor.com/en/2026/11/405536"
+          "title": "Palestine and Israel news today on map - Jerusalem today - Israel News today - Palestine News today - israelpalestine.liveuamap.com",
+          "url": "https://israelpalestine.liveuamap.com/"
         },
         {
-          "title": "Russia launches missile attack on Kyiv, injuring residents  - Dominican Republic Post",
-          "url": "https://dominicanrepublicpost.com/russia-launches-missile-attack-on-kyiv-injuring-residents/"
+          "title": "Floods in Gaza leave tens of thousands without shelter",
+          "url": "https://www.aljazeera.com/news/2026/11/8/floods-in-gaza-leave-tens-of-thousands-without-shelter"
         },
         {
-          "title": "malaymail.com",
-          "url": "https://malaymail.com/news/world/2024/03/21/ukraines-capital-kyiv-is-under-russian-missile-attack-mayor-says/124701"
+          "title": "Gaza, Palestine News",
+          "url": "https://www.newsnow.com/us/World/Middle+East/Palestine/Gaza"
         }
       ]
     }
   ],
   "fetched": [],
   "meta": {
-    "id": "2026-11-07",
-    "generated_at": "2026-11-07T11:24:18.675Z",
+    "id": "2026-11-08",
+    "generated_at": "2026-11-08T11:24:35.214Z",
     "model": "claude-opus-5-5",
     "via": "claude-code-routine",
     "searches": 15,
-    "results_count": 141,
-    "cited_count": 39
+    "results_count": 143,
+    "cited_count": 35
   }
 }

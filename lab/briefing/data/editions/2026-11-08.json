@@ -1,0 +1,991 @@
+{
+  "date": "Sunday, November 8, 2026",
+  "edition": "MANDATE DAY",
+  "tldr_label": "TL;DR — Herzog taps Eisenkot to form Israel's government; US strikes Iran again and opens a land front in its blockade",
+  "tldr_bullets": [
+    {
+      "label": "Israel",
+      "body": "Herzog picked Eisenkot over Netanyahu to form a government, with the mandate due today. Eisenkot has 28 days, with a possible 14-day extension, and his coalition path is unclear. [[TAG:info:mandate today]]"
+    },
+    {
+      "label": "Iran",
+      "body": "Trump called new US strikes near Qeshm 'minor'. Central Command set up Task Force Iron Gate to choke Iran's land and Caspian trade, and Iran's military called it 'wordplay'. [[TAG:danger:new strikes]]"
+    },
+    {
+      "label": "Senate",
+      "body": "Alaska and Mississippi remain uncalled. Democrats lead narrowly in both: Peltola by about 600 votes and Colom by about 2,500."
+    },
+    {
+      "label": "Ukraine",
+      "body": "Zelensky says only four of 36 Russian missiles were shot down, citing a shortage of interceptors, as talks with the US approach."
+    },
+    {
+      "label": "Africa",
+      "body": "A Tanzanian court acquitted Tundu Lissu of treason but jailed him for four years for incitement. Militants killed 33 in Ebola-hit eastern Congo. [[TAG:danger:33 killed]]"
+    },
+    {
+      "label": "Week ahead",
+      "body": "US CPI is due Tuesday, with markets pricing about an 80% chance of a Fed hike in December. Belgium's king rejected De Wever's resignation."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Eisenkot Gets the Nod",
+      "icon": "🗳️",
+      "summary": "Herzog picks Eisenkot over Netanyahu, but his path to 61 seats remains fraught",
+      "paragraphs": [
+        {
+          "heading": "The pick",
+          "body": "Al Jazeera reported that President Herzog chose Gadi Eisenkot over Netanyahu to form the next government, and JNS said the mandate would be handed over on Sunday. The Times of Israel said the path remains 'fraught'. Eisenkot has 28 days, with a possible 14-day extension, to assemble 61 seats. Organiser reported the handover as already done, but most outlets described it as scheduled. [[TAG:info:28 days]]"
+        },
+        {
+          "heading": "Obstacles",
+          "body": "Middle East Monitor noted that several parties in Eisenkot's camp oppose a government that includes Arab parties. That leaves a minority government with outside support, or defections from Netanyahu's bloc, as the main options."
+        },
+        {
+          "heading": "Gaza",
+          "body": "Al Jazeera reported that floods left tens of thousands in Gaza without shelter, with officials saying about 70,000 tents were flooded as aid restrictions continue."
+        }
+      ],
+      "sources": "Al Jazeera, JNS, Times of Israel, Organiser, Middle East Monitor",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Israel’s president picks Eisenkot over Netanyahu to form next government",
+          "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+        },
+        {
+          "outlet": "JNS",
+          "title": "Herzog to grant Eisenkot mandate to form Israel’s next government - Israel & Jewish News - JNS",
+          "url": "https://www.jns.org/news/israel-news/herzog-to-grant-eisenkot-mandate-to-form-israels-next-government"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "President Herzog taps Eisenkot to form coalition, but path remains fraught",
+          "url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+        },
+        {
+          "outlet": "Organiser",
+          "title": "Israel: Gadi Eisenkot receives mandate to form government from President Isaac Herzog",
+          "url": "https://organiser.org/2026/11/08/424952/international/israel-gadi-eisenkot-receives-mandate-to-form-government-from-president-isaac-herzog/"
+        },
+        {
+          "outlet": "Middle East Monitor",
+          "title": "Israel’s president says will task Eisenkot with forming next government",
+          "url": "https://middleeastmonitor.com/20261108-israels-president-says-will-task-eisenkot-with-forming-next-government"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Floods in Gaza leave tens of thousands without shelter",
+          "url": "https://www.aljazeera.com/news/2026/11/8/floods-in-gaza-leave-tens-of-thousands-without-shelter"
+        }
+      ]
+    },
+    {
+      "title": "Iran: Strikes and Iron Gate",
+      "icon": "⚔️",
+      "summary": "New 'minor' US strikes and a task force targeting Iran's land routes as talks continue",
+      "paragraphs": [
+        {
+          "heading": "Strikes",
+          "body": "NBC News and Euronews reported that the US carried out new limited strikes on Iran, the first since the midterms, as Trump claimed progress in talks. AP, via WHEC, said Iran's leaders are weighing proposals from mediators. Ynet reported fears of a wider war after Tehran warned of a response. [[TAG:danger:new strikes]]"
+        },
+        {
+          "heading": "Land blockade",
+          "body": "The Washington Post reported that the US military is seeking to disrupt Iran's land routes, extending its naval blockade. The Tribune said Central Command created Task Force Iron Gate to target Iran's land borders and Caspian trade, and CBS News carried the announcement. IBTimes noted growing opposition in both parties to the war. It is not clear what force, if any, will back the effort."
+        }
+      ],
+      "sources": "NBC News, Euronews, WHEC/AP, Ynet, Washington Post, The Tribune, CBS News, IBTimes",
+      "citations": [
+        {
+          "outlet": "NBC News",
+          "title": "U.S. military carries out new limited strikes on Iran",
+          "url": "https://www.nbcnews.com/news/us-news/us-military-carries-new-targeted-strikes-iran-rcna607969"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "US launches new targeted strikes on Iran as Trump claims progress in talks with Tehran",
+          "url": "https://www.euronews.com/2026/11/07/us-launches-new-targeted-strikes-on-iran-as-trump-claims-progress-in-talks-with-tehran"
+        },
+        {
+          "outlet": "WHEC/AP",
+          "title": "US military carries out new targeted strikes on Iran as Tehran's leaders weigh mediator's proposals - WHEC.com",
+          "url": "https://www.whec.com/ap-top-news/us-military-carries-out-new-targeted-strikes-on-iran-as-tehrans-leaders-weigh-mediators-proposals/"
+        },
+        {
+          "outlet": "Ynet",
+          "title": "New US strikes on Iran raise fears of wider war as Tehran issues stark warning",
+          "url": "https://www.ynetnews.com/article/bkt6hz26fx"
+        },
+        {
+          "outlet": "Washington Post",
+          "title": "U.S. military seeks to disrupt Iran’s land routes, expanding on naval blockade - The Washington Post",
+          "url": "https://www.washingtonpost.com/national-security/2026/11/07/us-military-seeks-disrupt-irans-land-routes-expanding-naval-blockade/"
+        },
+        {
+          "outlet": "The Tribune",
+          "title": "US CENTCOM establishes task force \"Iron Gate\" to disrupt Iranian ground transit routes, curb illegal shipments - The Tribune",
+          "url": "https://www.tribuneindia.com/news/usa-news/us-centcom-establishes-task-force-iron-gate-to-disrupt-iranian-ground-transit-routes-curb-illegal-shipments"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Live Updates: U.S. launches new task force aimed at disrupting Iranian ground shipping routes",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+        },
+        {
+          "outlet": "IBTimes",
+          "title": "The U.S. Is Seeking To Expand Its Blockade On Iran Despite Growing Bipartisan Opposition To The Conflict",
+          "url": "https://www.ibtimes.com/centcom-task-force-iron-gate-iran-supply-routes-3809533"
+        }
+      ]
+    },
+    {
+      "title": "Two Senate Seats Pending",
+      "icon": "🇺🇸",
+      "summary": "Democrats lead narrowly in Alaska and Mississippi as counting continues",
+      "paragraphs": [
+        {
+          "heading": "Mississippi",
+          "body": "CNBC reported that Democrat Scott Colom's lead over Senator Cindy Hyde-Smith grew to nearly 2,500 votes, and the Washington Post said he defied the odds in a close race. The Mississippi Free Press stressed that the race has not been called. A Colom win would make him Mississippi's first Black senator since Reconstruction. [[TAG:warning:uncalled]]"
+        },
+        {
+          "heading": "Alaska",
+          "body": "The Anchorage Daily News reported that Trump weighed in on the tight race as thousands of ballots remain to be counted. Yahoo News said Alaska and Mississippi are both still too close to call. Peltola leads Sullivan by about 600 votes, and the result may not be known until ranked-choice tabulation in mid-November."
+        }
+      ],
+      "sources": "CNBC, Washington Post, Mississippi Free Press, Anchorage Daily News, Yahoo News",
+      "citations": [
+        {
+          "outlet": "CNBC",
+          "title": "Mississippi Senate: Colom increases lead over Hyde-Smith to nearly 2,500 votes",
+          "url": "https://www.cnbc.com/2026/11/05/mississippi-senate-election-scott-colom-hyde-smith.html"
+        },
+        {
+          "outlet": "Washington Post",
+          "title": "Mississippi U.S. Senate election live results 2026: Colom defies odds in close race - The Washington Post",
+          "url": "https://www.washingtonpost.com/elections/results/2026/11/03/mississippi-senate-live-updates/"
+        },
+        {
+          "outlet": "Mississippi Free Press",
+          "title": "Liveblog: Mississippi’s 2026 U.S. Senate Election Results",
+          "url": "https://www.mississippifreepress.org/liveblog-mississippis-2026-u-s-senate-election-results/"
+        },
+        {
+          "outlet": "Anchorage Daily News",
+          "title": "Trump weighs in on Alaska’s tight U.S. Senate race as thousands of ballots are yet to be tallied - Anchorage Daily News",
+          "url": "https://adn.com/politics/2026/11/05/trump-weighs-in-on-alaskas-tight-us-senate-race-as-thousands-of-ballots-are-yet-to-be-tallied"
+        },
+        {
+          "outlet": "Yahoo News",
+          "title": "Midterms 2026 results and latest updates: Mississippi and Alaska Senate races still too close to call; Boebert trails in Colorado",
+          "url": "https://yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
+        }
+      ]
+    },
+    {
+      "title": "Ukraine",
+      "icon": "🇺🇦",
+      "summary": "Zelensky says only four of 36 missiles were downed as Russia escalates before talks",
+      "paragraphs": [
+        {
+          "heading": "Air defense gap",
+          "body": "CBS News reported that Zelensky accused Russia of escalating attacks before talks with the US, and said only four of the 36 missiles fired were shot down because Ukraine is short of interceptors. Ukraine's energy ministry said lines carrying power from nuclear plants were damaged. Ukrinform reported that most of the overnight drones were downed. [[TAG:danger:4 of 36 intercepted]]"
+        }
+      ],
+      "sources": "CBS News, Ukrinform",
+      "citations": [
+        {
+          "outlet": "CBS News",
+          "title": "Zelenskyy accuses Russia of ramping up attacks on Ukraine ahead of U.S. talks - CBS News",
+          "url": "https://www.cbsnews.com/news/zelenskyy-russia-attacks-us-talks/"
+        },
+        {
+          "outlet": "Ukrinform",
+          "title": "Latest news",
+          "url": "https://www.ukrinform.net/block-lastnews"
+        }
+      ]
+    },
+    {
+      "title": "Africa",
+      "icon": "🌍",
+      "summary": "Lissu cleared of treason but jailed for incitement; militants kill 33 in Ebola-hit Congo",
+      "paragraphs": [
+        {
+          "heading": "Tanzania",
+          "body": "Al Jazeera, Bloomberg and ABC News reported that a Tanzanian court acquitted opposition leader Tundu Lissu of treason, which can carry the death penalty, but sentenced him to four years for inciting people to disrupt last year's election. His party plans to appeal. The Washington Post noted that treason charges are often used against government critics across Africa."
+        },
+        {
+          "heading": "Congo",
+          "body": "Yahoo News, carrying AFP, reported that armed men killed at least 33 people in a village in Ebola-hit eastern Congo. TimesLive said the Islamic State-linked militants forced Ebola patients to flee a nearby hospital. Accounts differ on how many patients fled. [[TAG:danger:33 killed]]"
+        },
+        {
+          "heading": "South Africa",
+          "body": "SA News reported that the electoral commission had completed 91% of local results, and Nova News said official results would be announced on Sunday."
+        }
+      ],
+      "sources": "Al Jazeera, Bloomberg, ABC News, Washington Post, Yahoo News, TimesLive, SA News, Nova News",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Tanzania court jails opposition leader for incitement, lifts treason charge",
+          "url": "https://www.aljazeera.com/news/2026/11/6/tanzania-court-jails-opposition-leader-for-incitement-lifts-treason-charge"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Tanzania Court Acquits Opposition Chief Tundu Lissu of Treason Charges - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/tanzania-court-acquits-opposition-chief-of-treason-charges"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Tanzania opposition leader Lissu sentenced to 4 years for incitement, acquitted of treason - ABC News",
+          "url": "https://abcnews.com/International/wireStory/tanzania-opposition-leader-lissu-sentenced-4-years-incitement-137905667"
+        },
+        {
+          "outlet": "Washington Post",
+          "title": "Prominent government critics across Africa are facing treason charges. It's often to silence them - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/11/06/africa-treason-trial-tundu-lissu/47650030-d9dd-11f1-930a-e08f8086f5ac_story.html"
+        },
+        {
+          "outlet": "Yahoo News",
+          "title": "Armed men kill at least 33 in village in Ebola-hit eastern DRC",
+          "url": "https://www.yahoo.com/news/world/articles/armed-men-kill-least-33-190706831.html"
+        },
+        {
+          "outlet": "TimesLive",
+          "title": "Islamist militants force Ebola patients to flee in deadly DRC raid",
+          "url": "https://www.timeslive.co.za/news/world/2026-11-08-islamist-militants-force-ebola-patients-to-flee-in-deadly-drc-raid/"
+        },
+        {
+          "outlet": "SA News",
+          "title": "IEC achieves 91% completion rate for local election results",
+          "url": "https://www.sanews.gov.za/south-africa/iec-achieves-91-completion-rate-local-election-results"
+        },
+        {
+          "outlet": "Nova News",
+          "title": "IEC confirms official 2026 local election results to be announced on Sunday",
+          "url": "https://novanews.co.za/iec-confirms-official-2026-local-election-results-to-be-announced-on-sunday/"
+        }
+      ]
+    },
+    {
+      "title": "Week Ahead",
+      "icon": "📅",
+      "summary": "US inflation data and Fed speakers headline the week; Belgium's government gets a reprieve",
+      "paragraphs": [
+        {
+          "heading": "Markets",
+          "body": "Schaeffer's said inflation data takes center stage as earnings slow. FXStreet expects October CPI on Tuesday to rise about 0.3% for the month, and KuCoin said Fed officials' speeches will also be in focus. Markets price roughly an 80% chance of a December hike. Bloomingbit said investors are looking to CoreWeave and Nvidia results for the AI outlook. [[TAG:info:CPI Tuesday]]"
+        },
+        {
+          "heading": "Belgium",
+          "body": "Euronews reported that King Philippe refused Prime Minister Bart De Wever's resignation and asked him to restart budget talks. The Brussels Times said the king set a new deadline, and De Wever is to report back by November 16."
+        }
+      ],
+      "sources": "Schaeffer's, FXStreet, KuCoin, Bloomingbit, Euronews, Brussels Times",
+      "citations": [
+        {
+          "outlet": "Schaeffer's",
+          "title": "The Week Ahead: Inflation Data on Deck as Earnings Slow - Schaeffer's Investment Research",
+          "url": "https://www.schaeffersresearch.com/content/news/2026/11/05/the-week-ahead-inflation-data-on-deck-as-earnings-slow"
+        },
+        {
+          "outlet": "FXStreet",
+          "title": "Economics week ahead",
+          "url": "https://www.fxstreet.com/analysis/economics-week-ahead-202611061916"
+        },
+        {
+          "outlet": "KuCoin",
+          "title": "U.S. CPI Data and Fed Officials’ Speeches to Be Market Focus Next Week",
+          "url": "https://www.kucoin.com/news/flash/u-s-cpi-data-and-fed-officials-speeches-to-be-market-focus-next-week"
+        },
+        {
+          "outlet": "Bloomingbit",
+          "title": "Kospi Slides as Markets Look to CoreWeave, Nvidia Earnings for AI Outlook",
+          "url": "https://en.bloomingbit.io/feed/news/123854"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Belgian king refuses PM Bart De Wever's resignation and asks him to restart budget talks",
+          "url": "https://www.euronews.com/2026/11/06/belgian-king-refuses-pm-bart-de-wevers-resignation-and-asks-him-to-restart-budget-talks"
+        },
+        {
+          "outlet": "Brussels Times",
+          "title": "Belgian King rejects PM De Wever's resignation, new deadline to find way out of budget crisis",
+          "url": "https://www.brusselstimes.com/belgium/2394385/belgian-pm-to-meet-with-king-as-resignation-still-under-consideration-tbtb"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "query": "Iran news November 7 2026",
+      "results": [
+        {
+          "title": "Live Updates: U.S. launches new task force aimed at disrupting Iranian ground shipping routes",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+        },
+        {
+          "title": "Iranian Economic News Agency",
+          "url": "https://en.wikipedia.org/wiki/Iranian_Economic_News_Agency"
+        },
+        {
+          "title": "Home",
+          "url": "https://www.iranintl.com/en"
+        },
+        {
+          "title": "Iran: Latest news and updates",
+          "url": "https://www.nbcnews.com/iran"
+        },
+        {
+          "title": "Iranintl",
+          "url": "https://www.iranintl.com/en/liveblog/202610312594"
+        },
+        {
+          "title": "Iran",
+          "url": "https://www.aljazeera.com/where/iran/"
+        },
+        {
+          "title": "U.S. military carries out new limited strikes on Iran",
+          "url": "https://www.nbcnews.com/news/us-news/us-military-carries-new-targeted-strikes-iran-rcna607969"
+        },
+        {
+          "title": "US launches new targeted strikes on Iran as Trump claims progress in talks with Tehran",
+          "url": "https://www.euronews.com/2026/11/07/us-launches-new-targeted-strikes-on-iran-as-trump-claims-progress-in-talks-with-tehran"
+        },
+        {
+          "title": "Iran News Today in English",
+          "url": "https://apps.apple.com/us/app/id1229854645"
+        }
+      ]
+    },
+    {
+      "query": "Herzog assigns mandate Eisenkot November 8 2026",
+      "results": [
+        {
+          "title": "Israel President Handing Mandate to Gadi Eisenkot Today After 67-Seat Endorsement",
+          "url": "https://www.heraldgoa.in/globe-nation/israel-president-handing-mandate-to-gadi-eisenkot-today-after-67-seat-endorsement/494952/"
+        },
+        {
+          "title": "Herzog to grant Eisenkot mandate to form Israel’s next government - Israel & Jewish News - JNS",
+          "url": "https://www.jns.org/news/israel-news/herzog-to-grant-eisenkot-mandate-to-form-israels-next-government"
+        },
+        {
+          "title": "Israel’s president picks Eisenkot over Netanyahu to form next government",
+          "url": "https://www.yahoo.com/news/politics/articles/israel-president-picks-eisenkot-over-202658136.html"
+        },
+        {
+          "title": "Israel’s president picks Eisenkot over Netanyahu to form next government",
+          "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+        },
+        {
+          "title": "President Herzog taps Eisenkot to form coalition, but path remains fraught",
+          "url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+        },
+        {
+          "title": "Israel: Gadi Eisenkot receives mandate to form government from President Isaac Herzog",
+          "url": "https://organiser.org/2026/11/08/424952/international/israel-gadi-eisenkot-receives-mandate-to-form-government-from-president-isaac-herzog/"
+        },
+        {
+          "title": "Herzog assigns Eisenkot responsibility for government formation",
+          "url": "https://www.democrata.es/en/international/herzog-designates-gadi-eisenkot-to-try-to-form-a-government-in-israel/"
+        },
+        {
+          "title": "Israel’s president says will task Eisenkot with forming next government",
+          "url": "https://middleeastmonitor.com/20261108-israels-president-says-will-task-eisenkot-with-forming-next-government"
+        },
+        {
+          "title": "Isaac Herzog",
+          "url": "https://en.wikipedia.org/wiki/Isaac_Herzog"
+        }
+      ]
+    },
+    {
+      "query": "South Africa local election final results IEC November 8 2026",
+      "results": [
+        {
+          "title": "IEC achieves 91% completion rate for local election results",
+          "url": "https://www.sanews.gov.za/south-africa/iec-achieves-91-completion-rate-local-election-results"
+        },
+        {
+          "title": "2026 Local Election Results (South Africa)",
+          "url": "https://sepush.co.za/elections/local/2026"
+        },
+        {
+          "title": "2026 Local Election Results (South Africa)",
+          "url": "https://esp.info/elections/local/2026"
+        },
+        {
+          "title": "IEC confirms 150 of 213 municipalities have finalised the results - SABC News - Breaking news, special reports, world, business, sport coverage of all South African current events. Africa's news leader.",
+          "url": "https://www.sabcnews.com/sabcnews/iec-confirms-150-of-213-municipalities-have-finalised-the-results/"
+        },
+        {
+          "title": "IEC confirms official 2026 local election results to be announced on Sunday",
+          "url": "https://novanews.co.za/iec-confirms-official-2026-local-election-results-to-be-announced-on-sunday/"
+        },
+        {
+          "title": "Election Results eNCA",
+          "url": "https://www.enca.com/elections-2026-enca/iec-results-2026"
+        },
+        {
+          "title": "2026 Local Election Results (South Africa)",
+          "url": "https://eskom.sepush.co.za/elections/local/2026"
+        },
+        {
+          "title": "2006 South African municipal elections",
+          "url": "https://en.wikipedia.org/wiki/2006_South_African_municipal_elections"
+        },
+        {
+          "title": "South Africa local election results 2026",
+          "url": "https://www.thepeoplesregister.co.za/elections/2026/results/"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Russia news November 7 2026",
+      "results": [
+        {
+          "title": "Ukraine News Today",
+          "url": "https://en.wikipedia.org/wiki/Ukraine_News_Today"
+        },
+        {
+          "title": "Ukraine Online",
+          "url": "https://en.wikipedia.org/wiki/Ukraine_Online"
+        },
+        {
+          "title": "Ukrainian National News",
+          "url": "https://en.wikipedia.org/wiki/Ukrainian_National_News"
+        },
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.co.uk/h/World+News/Europe/Eastern+Europe/Ukraine"
+        },
+        {
+          "title": "Russian invasion of Ukraine: Latest news, analysis and videos",
+          "url": "https://www.cnn.com/world/europe/ukraine"
+        },
+        {
+          "title": "Zelenskyy accuses Russia of ramping up attacks on Ukraine ahead of U.S. talks - CBS News",
+          "url": "https://www.cbsnews.com/news/zelenskyy-russia-attacks-us-talks/"
+        },
+        {
+          "title": "Latest news",
+          "url": "https://www.ukrinform.net/block-lastnews"
+        },
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.com/us/World/Europe/Eastern+Europe/Ukraine"
+        },
+        {
+          "title": "Full Episode",
+          "url": "https://www.pbs.org/newshour/tag/ukraine/page/52"
+        }
+      ]
+    },
+    {
+      "query": "US new limited strikes Iran November 7 2026 Trump minor Qatar emir call",
+      "results": [
+        {
+          "title": "Live Updates: U.S. launches new task force aimed at disrupting Iranian ground shipping routes",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+        },
+        {
+          "title": "U.S. military carries out new limited strikes on Iran",
+          "url": "https://www.nbcnews.com/news/us-news/us-military-carries-new-targeted-strikes-iran-rcna607969"
+        },
+        {
+          "title": "New US strikes on Iran raise fears of wider war as Tehran issues stark warning",
+          "url": "https://www.ynetnews.com/article/bkt6hz26fx"
+        },
+        {
+          "title": "US carries out another round of ‘minor’ strikes on Iran, Trump says - npkpress",
+          "url": "https://palestina-komitee.nl/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says/"
+        },
+        {
+          "title": "US military carries out new targeted strikes on Iran as Tehran's leaders weigh mediator's proposals - WHEC.com",
+          "url": "https://www.whec.com/ap-top-news/us-military-carries-out-new-targeted-strikes-on-iran-as-tehrans-leaders-weigh-mediators-proposals/"
+        },
+        {
+          "title": "Iran’s strike on Qatar was a ‘calculated response to save face,’ former US Navy commander",
+          "url": "https://www.foxnews.com/politics/moderate-house-dem-jared-golden-says-trump-right-strike-iran"
+        },
+        {
+          "title": "Iran attacks U.S. base in Qatar - UPDATES",
+          "url": "https://worldweekly.substack.com/p/iran-attacks-us-base-in-qatar-updates"
+        },
+        {
+          "title": "trump thanks iran for heads up on",
+          "url": "https://diplomatic.substack.com/p/trump-thanks-iran-for-heads-up-on"
+        },
+        {
+          "title": "Trump: ‘Today Iran will be hit very hard’ as war enters another week",
+          "url": "https://www.yahoo.com/news/articles/trump-today-iran-hit-very-115213060.html"
+        }
+      ]
+    },
+    {
+      "query": "week ahead markets November 9 2026 CPI inflation Nvidia earnings",
+      "results": [
+        {
+          "title": "The Week Ahead: US PCE, Tokyo CPI, Nvidia earnings",
+          "url": "https://www.cmcmarkets.com/en-ie/news-and-analysis/the-week-ahead-us-pce-tokyo-cpi-nvidia-earnings"
+        },
+        {
+          "title": "The Week Ahead: US, Germany inflation, Cisco earnings",
+          "url": "https://cmcmarkets.com/en-gb/news-and-analysis/the-week-ahead-us-germany-inflation-cisco-earnings"
+        },
+        {
+          "title": "Wall Street Week Ahead",
+          "url": "https://seekingalpha.com/article/4964825-wall-street-week-ahead"
+        },
+        {
+          "title": "The Week Ahead: Inflation Data on Deck as Earnings Slow - Schaeffer's Investment Research",
+          "url": "https://www.schaeffersresearch.com/content/news/2026/11/05/the-week-ahead-inflation-data-on-deck-as-earnings-slow"
+        },
+        {
+          "title": "U.S. CPI Data and Fed Officials’ Speeches to Be Market Focus Next Week",
+          "url": "https://www.kucoin.com/news/flash/u-s-cpi-data-and-fed-officials-speeches-to-be-market-focus-next-week"
+        },
+        {
+          "title": "Kospi Slides as Markets Look to CoreWeave, Nvidia Earnings for AI Outlook",
+          "url": "https://en.bloomingbit.io/feed/news/123854"
+        },
+        {
+          "title": "Economics week ahead",
+          "url": "https://www.fxstreet.com/analysis/economics-week-ahead-202611061916"
+        },
+        {
+          "title": "Week Ahead: US CPI, UK GDP and Market Outlook",
+          "url": "https://www.equiti.com/jo-en/news/trade-reviews/week-ahead-us-inflation-uk-gdp-market-outlook/"
+        },
+        {
+          "title": "Intel Corp Stock (INTC) Moved Up by 5.73% on Nov 6: Facts Behind the Movement",
+          "url": "https://tradingkey.com/news/market-movers/262292658-market-movers-intc-20261106"
+        }
+      ]
+    },
+    {
+      "query": "Alaska Senate race November 7 2026 count Peltola Sullivan latest",
+      "results": [
+        {
+          "title": "Early results show Peltola and Sullivan in tight U.S. Senate race - Anchorage Daily News",
+          "url": "https://www.adn.com/politics/2026/11/03/peltola-leads-sullivan-in-limited-early-results-in-hard-fought-us-senate-race/"
+        },
+        {
+          "title": "Sullivan and Peltola locked in tight U.S. Senate race as more results come in",
+          "url": "https://www.ktoo.org/2026/11/03/sullivan-and-peltola-locked-in-tight-u-s-senate-race-as-more-results-come-in-2/"
+        },
+        {
+          "title": "Trump weighs in on Alaska’s tight U.S. Senate race as thousands of ballots are yet to be tallied - Anchorage Daily News",
+          "url": "https://adn.com/politics/2026/11/05/trump-weighs-in-on-alaskas-tight-us-senate-race-as-thousands-of-ballots-are-yet-to-be-tallied"
+        },
+        {
+          "title": "Midterms 2026 results and latest updates: Mississippi and Alaska Senate races still too close to call; Boebert trails in Colorado",
+          "url": "https://yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
+        },
+        {
+          "title": "Alaska Senate Race Results: Mary Peltola vs Dan Sullivan and the Ranked-Choice Count",
+          "url": "https://cryptoticker.io/en/alaska-senate-race-results-peltola-sullivan/"
+        },
+        {
+          "title": "Watch CBS News",
+          "url": "https://www.cbsnews.com/news/mary-peltola-senate-race-alaska-dan-sullivan"
+        },
+        {
+          "title": "mary peltola",
+          "url": "https://www.pbs.org/newshour/tag/mary-peltola"
+        },
+        {
+          "title": "Scoop: Schumer courts Peltola for Alaska Senate race",
+          "url": "https://www.axios.com/2025/08/13/alaska-senate-peltola-schumer-sullivan"
+        },
+        {
+          "title": "democrat mary peltola barrier breaking ex alaska congresswoman is challenging republican dan sullivan in senate race",
+          "url": "https://www.pbs.org/newshour/amp/politics/democrat-mary-peltola-barrier-breaking-ex-alaska-congresswoman-is-challenging-republican-dan-sullivan-in-senate-race"
+        },
+        {
+          "title": "Live results: Alaska Senate election tight with more ballots to count",
+          "url": "https://www.yahoo.com/news/politics/articles/live-results-alaska-senate-election-185832304.html"
+        },
+        {
+          "title": "Alaska U.S. Senate Election 2026 Live Results: Mary Peltola, Dan Sullivan and More",
+          "url": "https://www.nbcnews.com/politics/2026-elections/alaska-senate-results"
+        },
+        {
+          "title": "Alaska Senate election live results 2026: Peltola narrowly leads Sullivan in tight race - The Washington Post",
+          "url": "https://www.washingtonpost.com/elections/results/2026/11/03/alaska-senate-peltola-sullivan-live-updates/"
+        },
+        {
+          "title": "Alaska Midterm Elections 2026: Live Results",
+          "url": "https://www.nbcnews.com/politics/2026-elections/alaska-results"
+        },
+        {
+          "title": "2018 Alaska Senate election",
+          "url": "https://en.wikipedia.org/wiki/2018_Alaska_Senate_election"
+        },
+        {
+          "title": "2014 Alaska Senate election",
+          "url": "https://en.wikipedia.org/wiki/2014_Alaska_Senate_election"
+        },
+        {
+          "title": "1958 United States Senate elections in Alaska",
+          "url": "https://en.wikipedia.org/wiki/1958_United_States_Senate_elections_in_Alaska"
+        },
+        {
+          "title": "2002 United States Senate election in Alaska",
+          "url": "https://en.wikipedia.org/wiki/2002_United_States_Senate_election_in_Alaska"
+        },
+        {
+          "title": "Elvi Gray-Jackson",
+          "url": "https://en.wikipedia.org/wiki/Elvi_Gray-Jackson"
+        },
+        {
+          "title": "2022 Alaska Senate election",
+          "url": "https://en.wikipedia.org/wiki/2022_Alaska_Senate_election"
+        }
+      ]
+    },
+    {
+      "query": "Europe news November 7 2026 Belgium king De Wever decision",
+      "results": [
+        {
+          "title": "Belgian king refuses PM Bart De Wever's resignation and asks him to restart budget talks",
+          "url": "https://www.euronews.com/2026/11/06/belgian-king-refuses-pm-bart-de-wevers-resignation-and-asks-him-to-restart-budget-talks"
+        },
+        {
+          "title": "Belgian government in turmoil over budget: King puts Prime Minister De Wever’s resignation on hold",
+          "url": "https://www.eunews.it/en/2026/11/02/belgian-government-in-turmoil-over-budget-king-puts-prime-minister-de-wevers-resignation-on-hold/"
+        },
+        {
+          "title": "Belgian king refuses PM Bart De Wever's resignation and asks him to restart budget talks",
+          "url": "https://www.yahoo.com/news/world/articles/belgian-king-refuses-pm-bart-142146332.html"
+        },
+        {
+          "title": "Belgian King calls for political responsibility as he considers PM De Wever's resignation",
+          "url": "https://www.brusselstimes.com/belgium/2387762/belgian-pm-de-wever-to-offer-resignation-to-king-after-failed-budget-talks-tbtb"
+        },
+        {
+          "title": "2024%E2%80%932025 Belgian government formation",
+          "url": "https://en.wikipedia.org/wiki/2024%E2%80%932025_Belgian_government_formation"
+        },
+        {
+          "title": "Belgian King rejects PM De Wever's resignation, new deadline to find way out of budget crisis",
+          "url": "https://www.brusselstimes.com/belgium/2394385/belgian-pm-to-meet-with-king-as-resignation-still-under-consideration-tbtb"
+        },
+        {
+          "title": "2025 in Belgium",
+          "url": "https://en.wikipedia.org/wiki/2025_in_Belgium"
+        },
+        {
+          "title": "Bart De Wever",
+          "url": "https://en.wikipedia.org/wiki/Bart_De_Wever"
+        },
+        {
+          "title": "De Wever government",
+          "url": "https://en.wikipedia.org/wiki/De_Wever_government"
+        }
+      ]
+    },
+    {
+      "query": "Mississippi Senate race 2026 result too close to call",
+      "results": [
+        {
+          "title": "Liveblog: Mississippi’s 2026 U.S. Senate Election Results",
+          "url": "https://www.mississippifreepress.org/liveblog-mississippis-2026-u-s-senate-election-results/"
+        },
+        {
+          "title": "Mississippi U.S. Senate Midterm Election 2026: Live Results",
+          "url": "https://www.nbcnews.com/politics/2026-elections/mississippi-senate-results"
+        },
+        {
+          "title": "Mississippi U.S. Senate election live results 2026: Colom defies odds in close race - The Washington Post",
+          "url": "https://www.washingtonpost.com/elections/results/2026/11/03/mississippi-senate-live-updates/"
+        },
+        {
+          "title": "Mississippi Midterm Elections 2026: Live Results",
+          "url": "https://www.nbcnews.com/politics/2026-elections/mississippi-results"
+        },
+        {
+          "title": "2026 United States Senate election in Mississippi",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi"
+        },
+        {
+          "title": "2025 Mississippi State Senate special election",
+          "url": "https://en.wikipedia.org/wiki/2025_Mississippi_State_Senate_special_election"
+        },
+        {
+          "title": "Mississippi Senate: Colom increases lead over Hyde-Smith to nearly 2,500 votes",
+          "url": "https://www.cnbc.com/2026/11/05/mississippi-senate-election-scott-colom-hyde-smith.html"
+        },
+        {
+          "title": "2027 Mississippi elections",
+          "url": "https://en.wikipedia.org/wiki/2027_Mississippi_elections"
+        },
+        {
+          "title": "Mississippi Senate Primary Results 2024",
+          "url": "https://www.nbcnews.com/politics/2024-primary-elections/mississippi-senate-results"
+        }
+      ]
+    },
+    {
+      "query": "US task force disrupt Iranian ground shipping routes November 2026",
+      "results": [
+        {
+          "title": "Live Updates: U.S. launches new task force aimed at disrupting Iranian ground shipping routes",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+        },
+        {
+          "title": "US CENTCOM establishes task force \"Iron Gate\" to disrupt Iranian ground transit routes, curb illegal shipments - The Tribune",
+          "url": "https://www.tribuneindia.com/news/usa-news/us-centcom-establishes-task-force-iron-gate-to-disrupt-iranian-ground-transit-routes-curb-illegal-shipments"
+        },
+        {
+          "title": "CENTCOM creates task force to disrupt Iran's weapons ground routes",
+          "url": "https://www.yahoo.com/news/us/articles/centcom-creates-task-force-disrupt-164937970.html"
+        },
+        {
+          "title": "U.S. military seeks to disrupt Iran’s land routes, expanding on naval blockade - The Washington Post",
+          "url": "https://www.washingtonpost.com/national-security/2026/11/07/us-military-seeks-disrupt-irans-land-routes-expanding-naval-blockade/"
+        },
+        {
+          "title": "US CENTCOM Establishes Task Force 'Iron Gate' to Disrupt Iranian Ground Transit Routes, Curb Illegal Shipments",
+          "url": "https://www.republicworld.com/world-news/us-centcom-establishes-task-force-iron-gate-to-disrupt-iranian-ground-transit-routes-curb-illegal-shipments-2026-11-07-140628"
+        },
+        {
+          "title": "US CENTCOM launches Task Force Iron Gate to curb Iran supply routes",
+          "url": "https://inshorts.com/en/news/us-centcom-launches-task-force-iron-gate-to-curb-iran-supply-routes-1794126660885"
+        },
+        {
+          "title": "The U.S. Is Seeking To Expand Its Blockade On Iran Despite Growing Bipartisan Opposition To The Conflict",
+          "url": "https://www.ibtimes.com/centcom-task-force-iron-gate-iran-supply-routes-3809533"
+        },
+        {
+          "title": "Unit 190",
+          "url": "https://en.wikipedia.org/wiki/Unit_190"
+        },
+        {
+          "title": "US Central Command forms Task Force Iron Gate to curb Iran's land trade",
+          "url": "https://www.israel.com/news/us-central-command-forms-task-force-iron-gate-to-curb-irans-land-trade"
+        }
+      ]
+    },
+    {
+      "query": "Africa news November 7 2026",
+      "results": [
+        {
+          "title": "Africa News: Breaking News and Analysis on Africa Politics, Business & More",
+          "url": "https://www.nbcnews.com/news/africa"
+        },
+        {
+          "title": "News - Daily news, hot news and breaking news in Africa",
+          "url": "https://www.africanews.com/news/"
+        },
+        {
+          "title": "Africa News",
+          "url": "https://www.aljazeera.com/africa/"
+        },
+        {
+          "title": "Africanews",
+          "url": "https://www.africanews.com/"
+        },
+        {
+          "title": "Today News Africa",
+          "url": "https://todaynewsafrica.com/"
+        },
+        {
+          "title": "allafrica.com",
+          "url": "https://allafrica.com/list/aans/post/af/pubkey/publisher:editorial:00010437.html?page=3"
+        },
+        {
+          "title": "Top allafrica.com competitors & alternatives",
+          "url": "https://ahrefs.com/websites/allafrica.com/competitors"
+        },
+        {
+          "title": "the latest news from africa",
+          "url": "https://www.npr.org/2003/12/23/1566996/the-latest-news-from-africa"
+        },
+        {
+          "title": "latest news headlines from africa",
+          "url": "https://www.npr.org/2004/06/28/3021273/latest-news-headlines-from-africa"
+        }
+      ]
+    },
+    {
+      "query": "Asia news November 7 2026 Japan China Korea",
+      "results": [
+        {
+          "title": "Nikkei Asia - Business, Politics, Economy and Tech News & Analysis",
+          "url": "https://asia.nikkei.com/"
+        },
+        {
+          "title": "List of programmes broadcast by CNA",
+          "url": "https://en.wikipedia.org/wiki/List_of_programmes_broadcast_by_CNA"
+        },
+        {
+          "title": "Asia Times",
+          "url": "https://asiatimes.com/"
+        },
+        {
+          "title": "Asiavision (news exchange)",
+          "url": "https://en.wikipedia.org/wiki/Asiavision_(news_exchange)"
+        },
+        {
+          "title": "The Japan Times - News On Japan, Business News, Opinion, Sports, Entertainment And More",
+          "url": "https://www.japantimes.co.jp/"
+        },
+        {
+          "title": "Asia News Network",
+          "url": "https://en.wikipedia.org/wiki/Asia_News_Network"
+        },
+        {
+          "title": "Asia News",
+          "url": "https://www.newsnow.co.uk/h/World+News/Asia"
+        },
+        {
+          "title": "AP News Summary at 2:10 a.m. EST",
+          "url": "https://dailyunion.com/news/nation_world/ap-news-summary-at-2-10-a-m-est/article_62037471-9a8d-55b6-bfd7-158ac7610f74.html"
+        },
+        {
+          "title": "• A Program of Columbia University",
+          "url": "https://exeas.weai.columbia.edu/links-news-media"
+        }
+      ]
+    },
+    {
+      "query": "Tundu Lissu jailed incitement treason charge dropped November 2026",
+      "results": [
+        {
+          "title": "Tanzania Court Acquits Opposition Chief Tundu Lissu of Treason Charges - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/tanzania-court-acquits-opposition-chief-of-treason-charges"
+        },
+        {
+          "title": "Tanzania court jails opposition leader for incitement, lifts treason charge",
+          "url": "https://www.aljazeera.com/news/2026/11/6/tanzania-court-jails-opposition-leader-for-incitement-lifts-treason-charge"
+        },
+        {
+          "title": "Tanzania opposition leader Lissu sentenced to 4 years for incitement, acquitted of treason",
+          "url": "https://www.washingtontimes.com/news/2026/nov/6/tanzania-opposition-leader-lissu-sentenced-four-years-incitement/"
+        },
+        {
+          "title": "Prominent government critics across Africa are facing treason charges. It's often to silence them - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/11/06/africa-treason-trial-tundu-lissu/47650030-d9dd-11f1-930a-e08f8086f5ac_story.html"
+        },
+        {
+          "title": "Tanzania opposition leader cleared of treason, sentenced for inciting unrest",
+          "url": "https://www.cnbcafrica.com/2026/tanzanian-court-finds-no-evidence-to-convict-opposition-leader-lissu-of-treason"
+        },
+        {
+          "title": "Tanzania opposition leader Lissu sentenced to 4 years for incitement, acquitted of treason - ABC News",
+          "url": "https://abcnews.com/International/wireStory/tanzania-opposition-leader-lissu-sentenced-4-years-incitement-137905667"
+        },
+        {
+          "title": "Tanzanian opposition leader found guilty of ‘incitement,’ handed 4-year sentence - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/11/06/tanzanian-opposition-leader-found-guilty-incitement-handed-4-year-sentence/"
+        },
+        {
+          "title": "2025 in Tanzania",
+          "url": "https://en.wikipedia.org/wiki/2025_in_Tanzania"
+        },
+        {
+          "title": "Tanzania Treason Ruling on Opposition Leader",
+          "url": "https://www.riotimesonline.com/tundu-lissu-treason-trial-tanzania-explained-2026/"
+        },
+        {
+          "title": "Tundu Lissu found guilty of incitement to treason — BBC News",
+          "url": "https://ua.news/en/dovkolo-svitu/opozitsionera-lissu-viznali-vinnim-u-pidburiuvanni-do-derzhzradi-bbc-news"
+        }
+      ]
+    },
+    {
+      "query": "DR Congo armed men kill 33 village Ebola-affected east November 2026",
+      "results": [
+        {
+          "title": "Armed men kill at least 33 in village in Ebola-hit eastern DRC",
+          "url": "https://www.yahoo.com/news/world/articles/armed-men-kill-least-33-190706831.html"
+        },
+        {
+          "title": "Islamist militants force Ebola patients to flee in deadly DRC raid",
+          "url": "https://www.timeslive.co.za/news/world/2026-11-08-islamist-militants-force-ebola-patients-to-flee-in-deadly-drc-raid/"
+        },
+        {
+          "title": "Congo: IS-linked militants kill 33, force Ebola patients to flee.",
+          "url": "https://www.newsbytesapp.com/news/world/militants-attack-ebola-stricken-village-in-dr-congo/story"
+        },
+        {
+          "title": "IS-linked militants kill 33 in fresh attack on eastern DR Congo village - Tribune Online",
+          "url": "https://tribuneonlineng.com/is-linked-militants-kill-33-eastern-congo-village-attack"
+        },
+        {
+          "title": "Armed men kill at least 33 in village in Ebola-hit eastern DRC",
+          "url": "https://www.timesofearth.com/2026/11/07/islamist-militants-force-ebola-patients-to-flee-in-deadly-congo-raid/"
+        },
+        {
+          "title": "Gunmen Kill 33, Burn Over 50 Houses in Ebola-Hit DR Congo Village",
+          "url": "https://www.annahda.com.ng/2026/11/gunmen-kill-33-burn-over-50-houses-in.html"
+        },
+        {
+          "title": "Armed men kill at least 33 in village in Ebola-hit eastern DRC",
+          "url": "https://finwire.io/news/world-news/armed-men-kill-at-least-33-in-village-in-ebola-hit-eastern-drc"
+        },
+        {
+          "title": "Ebola outbreak in DR Congo believed to have killed 33",
+          "url": "https://www.pressreader.com/malaysia/the-borneo-post/20180806/282475709645215"
+        },
+        {
+          "title": "DR Congo forces kill 26 rebels in Ebola zone near Beni",
+          "url": "https://www.aljazeera.com/amp/news/2019/5/30/dr-congo-forces-kill-26-rebels-in-ebola-zone-near-beni"
+        }
+      ]
+    },
+    {
+      "query": "Gaza news November 7 2026",
+      "results": [
+        {
+          "title": "situation in Gaza - UN News - the United Nations",
+          "url": "https://news.un.org/en/tags/gaza"
+        },
+        {
+          "title": "Gaza Daily",
+          "url": "https://en.wikipedia.org/wiki/Gaza_Daily"
+        },
+        {
+          "title": "Gaza Now",
+          "url": "https://en.wikipedia.org/wiki/Gaza_Now"
+        },
+        {
+          "title": "Anas Al-Sharif",
+          "url": "https://en.wikipedia.org/wiki/Anas_Al-Sharif"
+        },
+        {
+          "title": "Mustafa Moien Ayyash",
+          "url": "https://en.wikipedia.org/wiki/Mustafa_Moien_Ayyash"
+        },
+        {
+          "title": "Gaza Weekly Newspaper",
+          "url": "https://en.wikipedia.org/wiki/Gaza_Weekly_Newspaper"
+        },
+        {
+          "title": "Palestine and Israel news today on map - Jerusalem today - Israel News today - Palestine News today - israelpalestine.liveuamap.com",
+          "url": "https://israelpalestine.liveuamap.com/"
+        },
+        {
+          "title": "Floods in Gaza leave tens of thousands without shelter",
+          "url": "https://www.aljazeera.com/news/2026/11/8/floods-in-gaza-leave-tens-of-thousands-without-shelter"
+        },
+        {
+          "title": "Gaza, Palestine News",
+          "url": "https://www.newsnow.com/us/World/Middle+East/Palestine/Gaza"
+        }
+      ]
+    }
+  ],
+  "fetched": [],
+  "meta": {
+    "id": "2026-11-08",
+    "generated_at": "2026-11-08T11:24:35.214Z",
+    "model": "claude-opus-5-5",
+    "via": "claude-code-routine",
+    "searches": 15,
+    "results_count": 143,
+    "cited_count": 35
+  }
+}
