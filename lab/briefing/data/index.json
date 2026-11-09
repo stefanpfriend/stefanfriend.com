@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-09",
+      "date": "Monday, November 9, 2026",
+      "edition": "TALKS WEEK",
+      "searches": 15,
+      "cited_count": 36,
+      "results_count": 137
+    },
+    {
       "id": "2026-11-08",
       "date": "Sunday, November 8, 2026",
       "edition": "MANDATE DAY",

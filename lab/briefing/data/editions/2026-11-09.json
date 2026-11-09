@@ -1,0 +1,964 @@
+{
+  "date": "Monday, November 9, 2026",
+  "edition": "TALKS WEEK",
+  "tldr_label": "TL;DR — Eisenkot starts coalition talks, Abu Dhabi peace talks open Tuesday, and the House may vote to impeach Hegseth",
+  "tldr_bullets": [
+    {
+      "label": "Israel",
+      "body": "Eisenkot formally received the mandate and opened coalition talks. Liberman rejects a minority government that relies on Arab parties. [[TAG:info:28 days]]"
+    },
+    {
+      "label": "Ukraine",
+      "body": "Russian strikes cut power to hundreds of thousands of people before US-brokered talks in Abu Dhabi on Tuesday and Wednesday, which European officials will attend. [[TAG:danger:power cuts]]"
+    },
+    {
+      "label": "US",
+      "body": "Axios reports that the House is poised to impeach Defense Secretary Pete Hegseth this week. Democrats lead the uncalled Senate races in Alaska and Mississippi."
+    },
+    {
+      "label": "Iran",
+      "body": "Trump says new attacks are 'highly unlikely' if Tehran agrees a nuclear deal and reopens Hormuz. Israel's defense minister says the 'mission is not complete'."
+    },
+    {
+      "label": "Markets",
+      "body": "Asian stocks rebounded and Brent eased toward $97. China's factory-gate inflation hit 5.7%, its highest in more than four years."
+    },
+    {
+      "label": "Africa",
+      "body": "The ANC won about 30.8% in South Africa's local polls, its worst result. A migrant boat sank off Senegal, killing between 21 and 34 people. [[TAG:warning:ANC 30.8%]]"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Eisenkot's Coalition Math",
+      "icon": "🗳️",
+      "summary": "Eisenkot receives the mandate and sets four conditions; Liberman rejects a minority government",
+      "paragraphs": [
+        {
+          "heading": "Mandate",
+          "body": "The Jerusalem Post and the Times of Israel reported that Eisenkot formally received the mandate from President Herzog on Sunday. The Times of Israel said he promised a 'creative and unconventional' path to an emergency coalition. He has 28 days, with a possible 14-day extension. [[TAG:info:clock running]]"
+        },
+        {
+          "heading": "Conditions and obstacles",
+          "body": "The JTA explained Eisenkot's four conditions: a Jewish and democratic state, the values of the Declaration of Independence, military service for all, and recognizing Hamas as a terrorist group. Ynet reported that Liberman rejects a minority government. The Times of Israel said Eisenkot is holding firm on mandatory service after Liberman opened the door to ultra-Orthodox parties. [[TAG:warning:deadlock risk]]"
+        }
+      ],
+      "sources": "Jerusalem Post, Times of Israel, JTA, Ynet",
+      "citations": [
+        {
+          "outlet": "Jerusalem Post",
+          "title": "Gadi Eisenkot receives Knessset mandate from President Isaac Herzog",
+          "url": "https://www.jpost.com/israel-election-2026/article-914236"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "Eisenkot tasked with forming government, vows ‘creative and unconventional’ path to ‘emergency’ coalition",
+          "url": "https://www.timesofisrael.com/eisenkot-gets-nod-to-form-government-vows-unconventional-acts-in-time-of-emergency/"
+        },
+        {
+          "outlet": "JTA",
+          "title": "Explainer: Gadi Eisenkot’s four conditions for forming Israel’s next government - Jewish Telegraphic Agency",
+          "url": "https://jta.org/2026/11/08/israel/explainer-gadi-eisenkots-four-conditions-for-forming-israels-next-government"
+        },
+        {
+          "outlet": "Ynet",
+          "title": "Political deadlock? Eisenkot opens coalition talks as Liberman rejects minority government",
+          "url": "https://www.ynetnews.com/article/rjya9vaaml"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "Eisenkot stands by mandatory service after Liberman opens door to ultra-Orthodox parties",
+          "url": "https://www.timesofisrael.com/eisenkot-stands-by-mandatory-service-after-liberman-opens-door-to-ultra-orthodox-parties/"
+        }
+      ]
+    },
+    {
+      "title": "Iran",
+      "icon": "⚔️",
+      "summary": "Trump calls new attacks 'highly unlikely' if a deal is reached; Israel says its mission isn't done",
+      "paragraphs": [
+        {
+          "heading": "Signals",
+          "body": "Fox News reported that Trump said fresh attacks on Iran are 'highly unlikely' if Tehran agrees a nuclear deal and reopens Hormuz, though the Wall Street Journal reported that his advisers are divided. CBS News said Iran played down the new US task force targeting its land routes. Asharq Al-Awsat and Arab News reported that Israeli Defense Minister Israel Katz said 'the mission is not complete' and accused Iran of renewing its nuclear efforts, which Iran denies. [[TAG:warning:mixed signals]]"
+        }
+      ],
+      "sources": "Fox News, CBS News, Asharq Al-Awsat, Arab News",
+      "citations": [
+        {
+          "outlet": "Fox News",
+          "title": "Trump says fresh attacks on Iran 'highly unlikely' if Tehran strikes nuclear deal, reopens Hormuz",
+          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-saudi-houthi-november-8"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Iran downplays new U.S. task force aimed at disrupting ground transport routes",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+        },
+        {
+          "outlet": "Asharq Al-Awsat",
+          "title": "Israel Defense Minister Says ‘Mission Not Complete’ on Iran",
+          "url": "https://english.aawsat.com/world/5338873-israel-defense-minister-says-%E2%80%98mission-not-complete%E2%80%99-iran"
+        },
+        {
+          "outlet": "Arab News",
+          "title": "Israel defense minister says ‘mission not complete’ on Iran",
+          "url": "https://www.arabnews.pk/world/israel-defense-minister-says-mission-not-complete-on-iran-3006442"
+        }
+      ]
+    },
+    {
+      "title": "Ukraine Before Abu Dhabi",
+      "icon": "🇺🇦",
+      "summary": "Russian strikes black out swaths of Ukraine as Europe joins talks Moscow tried to exclude",
+      "paragraphs": [
+        {
+          "heading": "Blackouts",
+          "body": "Al Jazeera and CBS News reported that Russian strikes left hundreds of thousands without power, mainly in Dnipropetrovsk and Kharkiv regions. CBC said Russia kept hitting power facilities around Kyiv as temperatures drop. Zelensky says Moscow is escalating to gain leverage before the talks. [[TAG:danger:850K without power]]"
+        },
+        {
+          "heading": "Talks",
+          "body": "NPR reported that European officials will join the US-brokered talks in Abu Dhabi, defying the Kremlin's objections. Yahoo News said the US, Russia and Ukraine will meet there on Tuesday and Wednesday, and WVTM said the talks will focus on security guarantees. Experts do not expect a breakthrough."
+        }
+      ],
+      "sources": "Al Jazeera, CBS News, CBC, NPR, Yahoo News, WVTM",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Russian strikes on Ukraine leave hundreds of thousands without electricity",
+          "url": "https://aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Hundreds of thousands left without power in Ukraine after Russian strikes, authorities say - CBS News",
+          "url": "https://www.cbsnews.com/news/ukraine-russia-war-strike-power/"
+        },
+        {
+          "outlet": "CBC",
+          "title": "Russia continues its attacks on power facilities in Kyiv as temperatures drop ahead of winter",
+          "url": "https://www.cbc.ca/news/world/russia-kyiv-power-winter-9.7413490"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections : NPR",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia&gsessionid=E8u_S3EmLkpbm5d3K6qQg61jSa2mSqSigf-5eq5MM1O7dkneppvd3g"
+        },
+        {
+          "outlet": "Yahoo News",
+          "title": "US, Russia, and Ukraine to hold talks in Abu Dhabi",
+          "url": "https://www.yahoo.com/news/us/articles/us-russia-ukraine-hold-talks-224135475.html"
+        },
+        {
+          "outlet": "WVTM",
+          "title": "US-led peace talks for Russia and Ukraine will look at security guarantees for both sides",
+          "url": "https://www.wvtm13.com/article/us-led-peace-talks-russia-ukraine-security-guarantees/74373247"
+        }
+      ]
+    },
+    {
+      "title": "Washington",
+      "icon": "🇺🇸",
+      "summary": "House eyes impeaching Hegseth; Democrats lead the two uncalled Senate races",
+      "paragraphs": [
+        {
+          "heading": "Hegseth",
+          "body": "Axios reported that the House is poised to impeach Defense Secretary Pete Hegseth after the Republican midterm defeat, in a vote forced by Republican Thomas Massie. NBC News said Hakeem Jeffries is a 'hard yes'. CNN reported that Trump defended Hegseth. Removal would require two-thirds of the Senate, which is considered unlikely. [[TAG:warning:impeachment vote]]"
+        },
+        {
+          "heading": "Senate count",
+          "body": "Democracy Now reported that Democrats lead in both Alaska and Mississippi. Al Jazeera explained why the calls are delayed: Mississippi must finish its count by November 13, and Alaska's ranked-choice results come on November 18. Winning both would give Democrats 56 seats."
+        }
+      ],
+      "sources": "Axios, NBC News, CNN, Democracy Now, Al Jazeera",
+      "citations": [
+        {
+          "outlet": "Axios",
+          "title": "House poised to impeach Pete Hegseth after GOP midterm defeat",
+          "url": "https://www.axios.com/2026/11/08/pete-hegseth-impeachment-house-republicans-massie"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "House Minority Leader Hakeem Jeffries says he’s a ‘hard yes’ on impeaching Defense Secretary Pete Hegseth",
+          "url": "https://www.nbcnews.com/politics/congress/house-minority-leader-hakeem-jeffries-hard-yes-impeaching-hegseth-rcna608137"
+        },
+        {
+          "outlet": "CNN",
+          "title": "Trump defends Hegseth ahead of expected impeachment vote",
+          "url": "https://www.cnn.com/2026/11/08/politics/live-news/midterm-election-trump-congress"
+        },
+        {
+          "outlet": "Democracy Now",
+          "title": "Democrats Lead in Alaska and Mississippi Senate Races as House Majority Approaches 260 Seats",
+          "url": "https://www.democracynow.org/2026/11/6/headlines/democrats_lead_in_alaska_and_mississippi_senate_races_as_house_majority_approaches_260_seats"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "What’s delaying the US Senate election results in Mississippi and Alaska?",
+          "url": "https://www.aljazeera.com/news/2026/11/5/whats-delaying-us-midterm-election-calls-in-mississippi-and-alaska"
+        }
+      ]
+    },
+    {
+      "title": "Markets and Economies",
+      "icon": "📈",
+      "summary": "Asia rebounds and oil eases; China's factory-gate inflation hits a four-year high",
+      "paragraphs": [
+        {
+          "heading": "Markets",
+          "body": "Reuters, via Investing.com, reported that Asian stocks steadied as worries about AI and the Middle East eased, while the dollar held firm on bets of a Fed hike. CNBC said US futures moved as investors brace for more data and earnings. Grafa reported that Brent fell about 1.5% toward $97, and Invezz said prices are falling despite attacks near Hormuz. US CPI is due Tuesday. [[TAG:info:CPI Tuesday]]"
+        },
+        {
+          "heading": "China",
+          "body": "CNBC reported that China's producer prices rose 5.7% in October, the fastest in more than four years, while consumer inflation slowed to 0.7%. Investinglive noted that the CPI figure came in below the 0.8% forecast."
+        },
+        {
+          "heading": "France",
+          "body": "US News reported that Prime Minister Lecornu is holding talks with unions and employers on the cost of living after mass protests. Franceinfo said public-sector unions have called a strike for November 17."
+        }
+      ],
+      "sources": "Investing.com/Reuters, CNBC, Grafa, Invezz, Investinglive, US News, Franceinfo",
+      "citations": [
+        {
+          "outlet": "Investing.com/Reuters",
+          "title": "Asian stocks steady as AI, Mideast jitters recede; dollar firm on Fed bets By Reuters",
+          "url": "https://www.investing.com/news/economy-news/asian-stocks-steady-as-ai-mideast-jitters-recede-dollar-firm-on-fed-bets-5010407"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Stock futures rise as investors eye AI trade, brace for more data and earnings: Live updates",
+          "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
+        },
+        {
+          "outlet": "Grafa",
+          "title": "Brent Oil Falls 1.5% to US$96.91 as Iran Tensions Ease",
+          "url": "https://grafa.com/en/news/united-states/brent-oil-prices-fall-iran-tensions-supply-concerns"
+        },
+        {
+          "outlet": "Invezz",
+          "title": "Oil prices today: Why Brent is falling despite Strait of Hormuz attacks",
+          "url": "https://invezz.com/uk/news/2026/11/09/why-are-oil-prices-falling-despite-fresh-attacks-near-the-strait-of-hormuz/"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
+          "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html"
+        },
+        {
+          "outlet": "Investinglive",
+          "title": "China October 2026 CPI +0.7% y/y (expected +0.8%, prior +0.9%)",
+          "url": "https://investinglive.com/news/china-october-2026-cpi-0-7-y-y-expected-0-8-prior-0-9/"
+        },
+        {
+          "outlet": "US News",
+          "title": "French PM Lecornu Holds Talks Over Protesters' Cost-Of-Living Concerns",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-09/french-pm-lecornu-holds-talks-over-protesters-cost-of-living-concerns"
+        },
+        {
+          "outlet": "Franceinfo",
+          "title": "DIRECT. Conférence sociale : une intersyndicale de la fonction publique appelle à la grève le 17 novembre",
+          "url": "https://franceinfo.fr/economie/greve/direct-conference-sociale-pour-repondre-a-la-colere-le-premier-ministre-reunit-lundi-matin-les-syndicats_8273954.html"
+        }
+      ]
+    },
+    {
+      "title": "Africa",
+      "icon": "🌍",
+      "summary": "ANC's worst-ever result at about 30.8%; migrant boat disaster off Senegal",
+      "paragraphs": [
+        {
+          "heading": "South Africa",
+          "body": "The Citizen reported that the ANC topped the local elections with 30.76% as President Ramaphosa warned parties ahead of coalition talks. Stuff and Anadolu called it the party's worst-ever result, down from about 45.6% in 2021. allAfrica said the DA came second with about 24.6%. Most councils have no outright majority. [[TAG:warning:ANC 30.8%]]"
+        },
+        {
+          "heading": "Senegal",
+          "body": "Euronews and TRT World reported at least 21 dead after a migrant boat capsized off Kebemer, citing the interior ministry. 3News and The Courier, citing the state news agency, put the toll at 34. Officials have not said how many people were aboard. [[TAG:danger:21 to 34 dead]]"
+        }
+      ],
+      "sources": "The Citizen, Stuff, Anadolu, allAfrica, Euronews, TRT World, 3News, The Courier",
+      "citations": [
+        {
+          "outlet": "The Citizen",
+          "title": "ANC tops 2026 local government election results as Ramaphosa warns parties ahead of coalition talks",
+          "url": "https://www.citizen.co.za/news/anc-2026-local-government-election-ramaphosa-coalition/"
+        },
+        {
+          "outlet": "Stuff",
+          "title": "South Africa’s ANC suffers worst-ever election result in historic collapse",
+          "url": "https://www.stuff.co.nz/world-news/361056884/south-africas-anc-suffers-worst-ever-election-result-historic-collapse"
+        },
+        {
+          "outlet": "Anadolu",
+          "title": "Nelson Mandela's party ANC suffers historic losses in South African local elections",
+          "url": "https://aa.com.tr/en/africa/nelson-mandelas-party-anc-suffers-historic-losses-in-south-african-local-elections/4116258"
+        },
+        {
+          "outlet": "allAfrica",
+          "title": "Africa: All of Africa Today - November 9, 2026 - allAfrica.com",
+          "url": "https://allafrica.com/stories/202611090111.html"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
+          "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say"
+        },
+        {
+          "outlet": "TRT World",
+          "title": "TRT World - At least 21 killed as migrant boat sinks off Senegal",
+          "url": "https://www.trtworld.com/article/5851111d24e3"
+        },
+        {
+          "outlet": "3News",
+          "title": "At least 34 dead as migrant boat sinks off Senegal",
+          "url": "https://3news.com/world/at-least-34-dead-migrant-boat-sinks-senegal"
+        },
+        {
+          "outlet": "The Courier",
+          "title": "Death toll at 34 as migrant boat sinks off Senegal",
+          "url": "https://www.thecourier.com.au/story/9387857/death-toll-at-34-as-migrant-boat-sinks-off-senegal/"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "query": "Eisenkot receives mandate Herzog November 8 2026 coalition",
+      "results": [
+        {
+          "title": "Yashar party's Eisenkot officially receives mandate from President Herzog to form Israel's next government",
+          "url": "https://www.aninews.in/news/world/middle-east/yashar-partys-eisenkot-officially-receives-mandate-from-president-herzog-to-form-israels-next-government20261108210104/"
+        },
+        {
+          "title": "Yashar party's Eisenkot officially receives mandate from President Herzog to form Israel's next government - The Tribune",
+          "url": "https://www.tribuneindia.com/news/world/yashar-partys-eisenkot-officially-receives-mandate-from-president-herzog-to-form-israels-next-government/"
+        },
+        {
+          "title": "Gadi Eisenkot receives Knessset mandate from President Isaac Herzog",
+          "url": "https://www.jpost.com/israel-election-2026/article-914236"
+        },
+        {
+          "title": "Israel Election 2026 live updates: Eisenkot receives mandate to build coalition",
+          "url": "https://www.jpost.com/israel-election-2026/2026-11-08/live-updates-914159"
+        },
+        {
+          "title": "WATCH: Eisenkot receives mandate to form next government in official ceremony",
+          "url": "https://www.timesofisrael.com/liveblog_entry/watch-eisenkot-receives-mandate-to-form-next-government-in-official-ceremony"
+        },
+        {
+          "title": "Eisenkot set to receive mandate to form Israeli gov't as Herzog rounds out consultation meetings",
+          "url": "https://www.jpost.com/israel-election-2026/article-913989"
+        },
+        {
+          "title": "Israeli Opposition Leader Gadi Eisenkot Given Mandate to Form Coalition, Pushing Netanyahu to Brink of Ouster",
+          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008836242"
+        },
+        {
+          "title": "Israel: Gadi Eisenkot receives mandate to form government from President Isaac Herzog",
+          "url": "https://organiser.org/2026/11/08/424952/international/israel-gadi-eisenkot-receives-mandate-to-form-government-from-president-isaac-herzog/"
+        },
+        {
+          "title": "2015 Israeli legislative election",
+          "url": "https://en.wikipedia.org/wiki/2015_Israeli_legislative_election"
+        }
+      ]
+    },
+    {
+      "query": "South Africa local election official results announced November 8 2026 ANC",
+      "results": [
+        {
+          "title": "2026 Local Election Results (South Africa)",
+          "url": "https://sepush.co.za/elections/local/2026"
+        },
+        {
+          "title": "ANC tops 2026 local government election results as Ramaphosa warns parties ahead of coalition talks",
+          "url": "https://www.citizen.co.za/news/anc-2026-local-government-election-ramaphosa-coalition/"
+        },
+        {
+          "title": "South Africa’s ANC suffers worst-ever election result in historic collapse",
+          "url": "https://www.stuff.co.nz/world-news/361056884/south-africas-anc-suffers-worst-ever-election-result-historic-collapse"
+        },
+        {
+          "title": "2026 Local Election Results (South Africa)",
+          "url": "https://esp.info/elections/local/2026"
+        },
+        {
+          "title": "Nelson Mandela's party ANC suffers historic losses in South African local elections",
+          "url": "https://aa.com.tr/en/africa/nelson-mandelas-party-anc-suffers-historic-losses-in-south-african-local-elections/4116258"
+        },
+        {
+          "title": "2006 South African municipal elections",
+          "url": "https://en.wikipedia.org/wiki/2006_South_African_municipal_elections"
+        },
+        {
+          "title": "South Africa votes: results as they come in",
+          "url": "https://theoutlier.co.za/results"
+        },
+        {
+          "title": "Local Election Results 2026 Live: ANC 30.8%, DA 24.6% (99% Counted)",
+          "url": "https://www.rateweb.co.za/elections-2026/results/"
+        },
+        {
+          "title": "South Africa: Local election results show ANC weakened",
+          "url": "https://www.aljazeera.com/amp/news/2016/8/4/south-africa-local-election-results-show-anc-weakened"
+        }
+      ]
+    },
+    {
+      "query": "Iran news November 8 2026",
+      "results": [
+        {
+          "title": "Iranian Economic News Agency",
+          "url": "https://en.wikipedia.org/wiki/Iranian_Economic_News_Agency"
+        },
+        {
+          "title": "Home",
+          "url": "https://www.iranintl.com/en"
+        },
+        {
+          "title": "Iran news - breaking stories, video and analysis",
+          "url": "https://www.cnn.com/world/middleeast/iran"
+        },
+        {
+          "title": "Iran",
+          "url": "https://www.aljazeera.com/where/iran/"
+        },
+        {
+          "title": "Trump says fresh attacks on Iran 'highly unlikely' if Tehran strikes nuclear deal, reopens Hormuz",
+          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-saudi-houthi-november-8"
+        },
+        {
+          "title": "IRNA English",
+          "url": "https://en.irna.ir/"
+        },
+        {
+          "title": "Iran downplays new U.S. task force aimed at disrupting ground transport routes",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+        },
+        {
+          "title": "Iran News Today in English",
+          "url": "https://apps.apple.com/us/app/id1229854645"
+        },
+        {
+          "title": "Updated Jun 3, 2019 - World",
+          "url": "https://www.axios.com/2019/05/22/today-in-iran-news"
+        }
+      ]
+    },
+    {
+      "query": "stock futures Asia markets Monday November 9 2026",
+      "results": [
+        {
+          "title": "Stock futures rise as investors eye AI trade, brace for more data and earnings: Live updates",
+          "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
+        },
+        {
+          "title": "Futures - Bloomberg - Bloomberg Markets",
+          "url": "https://www.bloomberg.com/markets/stocks/futures"
+        },
+        {
+          "title": "Asian stocks bounce as AI, Mideast jitters recede; dollar firm on Fed bets - Markets - Business Recorder",
+          "url": "https://www.brecorder.com/news/40448089"
+        },
+        {
+          "title": "Asian stocks steady as AI, Mideast jitters recede; dollar firm on Fed bets By Reuters",
+          "url": "https://www.investing.com/news/economy-news/asian-stocks-steady-as-ai-mideast-jitters-recede-dollar-firm-on-fed-bets-5010407"
+        },
+        {
+          "title": "Asian stocks steady as AI, Mideast jitters recede; dollar firm on Fed bets",
+          "url": "https://ground.news/article/asian-stocks-steady-as-ai-mideast-jitters-recede-dollar-firm-on-fed-bets"
+        },
+        {
+          "title": "Asian markets bounce back after a recovery for AI stocks on Wall Street",
+          "url": "https://www.daytondailynews.com/nation-world/asian-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/article_21772b7f-3f52-506a-8d1f-88fac5389da9.html"
+        },
+        {
+          "title": "How Are Asian Markets Doing Today?",
+          "url": "https://www.benzinga.com/news/20/10/17988911/how-are-asian-markets-doing-today"
+        },
+        {
+          "title": "Asian stock markets today close mixed; London's FTSE-100 falls 0.7%",
+          "url": "https://newsonair.gov.in/asian-stock-markets-today-close-mixed-londons-ftse-100-falls-0-7"
+        },
+        {
+          "title": "September 14, 2023 7:39 PM",
+          "url": "https://www.newsonair.gov.in/tag/asian-stock-markets-end-in-green"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Russia news November 8 2026 Abu Dhabi talks",
+      "results": [
+        {
+          "title": "US, Russia, and Ukraine to hold talks in Abu Dhabi",
+          "url": "https://www.yahoo.com/news/us/articles/us-russia-ukraine-hold-talks-224135475.html"
+        },
+        {
+          "title": "Ukraine-Russia talks: what to know",
+          "url": "https://www.yahoo.com/news/politics/articles/ukraine-russia-talks-know-110234099.html"
+        },
+        {
+          "title": "Russia confirms new Ukraine peace talks as Melania Trump prepares to host ceasefire meeting",
+          "url": "https://www.cnbc.com/2026/11/03/russia-ukraine-peace-talks-abu-dhabi-trump-putin-xi.html"
+        },
+        {
+          "title": "US-led peace talks for Russia and Ukraine will look at security guarantees for both sides",
+          "url": "https://www.wvtm13.com/article/us-led-peace-talks-russia-ukraine-security-guarantees/74373247"
+        },
+        {
+          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections : NPR",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia&gsessionid=E8u_S3EmLkpbm5d3K6qQg61jSa2mSqSigf-5eq5MM1O7dkneppvd3g"
+        },
+        {
+          "title": "Europeans to join Abu Dhabi talks on Ukraine",
+          "url": "https://sana.sy/en/politics/2357213/"
+        },
+        {
+          "title": "February 4, 2026 9:15 PM",
+          "url": "https://www.newsonair.gov.in/ukraine-and-russia-hold-second-round-of-us-brokered-talks-in-abu-dhabi"
+        },
+        {
+          "title": "January 24, 2026 9:31 AM",
+          "url": "https://www.newsonair.gov.in/representatives-from-russia-ukraine-us-hold-first-round-of-peace-talks-in-abu-dhabi"
+        },
+        {
+          "title": "UAE President meets heads of delegations participating in US-Russia-Ukraine trilateral talks",
+          "url": "https://gulfnews.com/uae/government/uae-president-meets-heads-of-delegations-participating-in-us-russia-ukraine-trilateral-talks-1.500418729"
+        },
+        {
+          "title": "www.malaymail.com",
+          "url": "https://www.malaymail.com/amp/news/world/2025/11/25/secret-abu-dhabi-talks-with-russia-add-new-twist-to-us-push-for-ukraine-ceasefire/199640"
+        }
+      ]
+    },
+    {
+      "query": "Israel defense minister mission not complete Iran November 8 2026",
+      "results": [
+        {
+          "title": "Israel Defense Minister Says ‘Mission Not Complete’ on Iran",
+          "url": "https://english.aawsat.com/world/5338873-israel-defense-minister-says-%E2%80%98mission-not-complete%E2%80%99-iran"
+        },
+        {
+          "title": "Israel defence minister says 'mission not complete' on Iran - World - Business Recorder",
+          "url": "https://www.brecorder.com/news/40447999/israel-defence-minister-says-mission-not-complete-on-iran"
+        },
+        {
+          "title": "Israeli Defense Minister: Mission Against Iran Is Not Complete",
+          "url": "https://libertarianinstitute.org/news/israeli-defense-minister-mission-against-iran-is-not-complete/"
+        },
+        {
+          "title": "Arab News",
+          "url": "https://www.arabnews.com/middle-east/israel-defense-minister-says-mission-not-complete-on-iran-3010486"
+        },
+        {
+          "title": "Israel defense minister says ‘mission not complete’ on Iran",
+          "url": "https://www.arabnews.pk/world/israel-defense-minister-says-mission-not-complete-on-iran-3006442"
+        },
+        {
+          "title": "Iran downplays new U.S. task force aimed at disrupting ground transport routes",
+          "url": "https://cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf"
+        },
+        {
+          "title": "Katz warns: \"The mission against Iran Is not complete\"",
+          "url": "https://www.israelnationalnews.com/news/435841"
+        },
+        {
+          "title": "Israel vows Iran mission 'not complete' amid nuclear fears",
+          "url": "https://en.yenisafak.com/world/israel-vows-iran-mission-not-complete-amid-nuclear-fears-3725302"
+        },
+        {
+          "title": "Katz says Israel’s mission regarding Iran is not complete",
+          "url": "https://ua.news/en/dovkolo-svitu/ministr-oboroni-izrayiliu-kats-misiiu-shchodo-iranu-ne-zaversheno-asharq-al-awsat"
+        }
+      ]
+    },
+    {
+      "query": "Eisenkot four principles coalition Liberman meeting Monday",
+      "results": [
+        {
+          "title": "Political deadlock? Eisenkot opens coalition talks as Liberman rejects minority government",
+          "url": "https://www.ynetnews.com/article/rjya9vaaml"
+        },
+        {
+          "title": "Opposition chiefs meet, agree to launch coalition talks, but path remains unclear",
+          "url": "https://www.timesofisrael.com/opposition-chiefs-meet-agree-to-launch-coalition-talks-but-path-remains-unclear/"
+        },
+        {
+          "title": "Eisenkot stands by mandatory service after Liberman opens door to ultra-Orthodox parties",
+          "url": "https://www.timesofisrael.com/eisenkot-stands-by-mandatory-service-after-liberman-opens-door-to-ultra-orthodox-parties/"
+        },
+        {
+          "title": "Israel Coalition Talks: Liberman, Bennett and Golan Back Eisenkot for Prime Minister as Herzog Prepares Consultations - Northeast Times",
+          "url": "https://northeasttimes.com/2026/11/02/israel-coalition-talks-liberman-bennett-golan-back-eisenkot-herzog-consultations/"
+        },
+        {
+          "title": "Eisenkot tasked with forming government, vows ‘creative and unconventional’ path to ‘emergency’ coalition",
+          "url": "https://www.timesofisrael.com/eisenkot-gets-nod-to-form-government-vows-unconventional-acts-in-time-of-emergency/"
+        },
+        {
+          "title": "Eisenkot reaffirms draft demand after Liberman opens door to UTJ coalition - i24NEWS",
+          "url": "https://www.i24news.tv/en/news/israel/politics/artc-eisenkot-reaffirms-draft-demand-after-liberman-opens-door-to-utj-coalition"
+        },
+        {
+          "title": "'History will not forgive them': Eisenkot presses minority government plan, takes aim at Liberman",
+          "url": "https://www.ynetnews.com/article/s1rqpujazx"
+        },
+        {
+          "title": "Explainer: Gadi Eisenkot’s four conditions for forming Israel’s next government - Jewish Telegraphic Agency",
+          "url": "https://jta.org/2026/11/08/israel/explainer-gadi-eisenkots-four-conditions-for-forming-israels-next-government"
+        },
+        {
+          "title": "Eisenkot stands by mandatory service after Liberman opens door to ultra-Orthodox parties",
+          "url": "https://sweaterkittensahoy.tumblr.com/post/832584915601244160"
+        },
+        {
+          "title": "Liberman rules out alternative coalition without Netanyahu",
+          "url": "https://www.pressreader.com/israel/jerusalem-post/20170321/281479276234270"
+        }
+      ]
+    },
+    {
+      "query": "France social conference November 9 2026 Lecornu unions wages",
+      "results": [
+        {
+          "title": "Interior ministry says 575,000 protest across France as unions claim 'close to 1.6 million' - France 24",
+          "url": "https://www.france24.com/en/france/20261105-live-france-nationwide-strikes-living-costs"
+        },
+        {
+          "title": "French PM Lecornu Holds Talks Over Protesters' Cost-Of-Living Concerns",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-09/french-pm-lecornu-holds-talks-over-protesters-cost-of-living-concerns"
+        },
+        {
+          "title": "France Talks Pay as Unions Weigh Next Move",
+          "url": "https://www.riotimesonline.com/france-talks-pay-unions-weigh-next-move"
+        },
+        {
+          "title": "DIRECT. Conférence sociale : une intersyndicale de la fonction publique appelle à la grève le 17 novembre",
+          "url": "https://franceinfo.fr/economie/greve/direct-conference-sociale-pour-repondre-a-la-colere-le-premier-ministre-reunit-lundi-matin-les-syndicats_8273954.html"
+        },
+        {
+          "title": "French PM holds 'social conference': just 'an exercise in PR'? • FRANCE 24 English - World News",
+          "url": "https://worldnews.whatfinger.com/2026/11/09/french-pm-holds-social-conference-just-an-exercise-in-pr-france-24-english"
+        },
+        {
+          "title": "French PM Lecornu holds wage talks — The Rio Times",
+          "url": "https://ua.news/en/dovkolo-svitu/premier-frantsiyi-lekorniu-provodit-peregovori-pro-zarplati-the-rio-times"
+        },
+        {
+          "title": "Jean-Pierre Farandou",
+          "url": "https://en.wikipedia.org/wiki/Jean-Pierre_Farandou"
+        },
+        {
+          "title": "run october 1997 social summit",
+          "url": "https://www.eurofound.europa.eu/en/resources/article/1997/run-october-1997-social-summit"
+        },
+        {
+          "title": "conference employment pay and working time",
+          "url": "https://www.eurofound.europa.eu/en/publications/all/conference-employment-pay-and-working-time"
+        }
+      ]
+    },
+    {
+      "query": "Alaska Mississippi Senate races update November 8 2026",
+      "results": [
+        {
+          "title": "2026 United States Senate election in Alaska",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska"
+        },
+        {
+          "title": "Midterms 2026 results and latest updates: House could vote to impeach Hegseth this week; Mississippi and Alaska Senate races still too close to call",
+          "url": "https://www.yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
+        },
+        {
+          "title": "2026 United States Senate election in Mississippi",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi"
+        },
+        {
+          "title": "What’s delaying the US Senate election results in Mississippi and Alaska?",
+          "url": "https://www.aljazeera.com/news/2026/11/5/whats-delaying-us-midterm-election-calls-in-mississippi-and-alaska"
+        },
+        {
+          "title": "2026 United States Senate elections",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections"
+        },
+        {
+          "title": "2026 Alaska Senate election",
+          "url": "https://en.wikipedia.org/wiki/2026_Alaska_Senate_election"
+        },
+        {
+          "title": "2026 Alaska elections",
+          "url": "https://en.wikipedia.org/wiki/2026_Alaska_elections"
+        },
+        {
+          "title": "Democrats Lead in Alaska and Mississippi Senate Races as House Majority Approaches 260 Seats",
+          "url": "https://www.democracynow.org/2026/11/6/headlines/democrats_lead_in_alaska_and_mississippi_senate_races_as_house_majority_approaches_260_seats"
+        },
+        {
+          "title": "2026 United States House of Representatives election in Alaska",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_Alaska"
+        }
+      ]
+    },
+    {
+      "query": "oil prices Monday November 9 2026 Brent",
+      "results": [
+        {
+          "title": "Brent Crude Oil Futures Price Today - Investing.com",
+          "url": "https://www.investing.com/commodities/brent-oil"
+        },
+        {
+          "title": "Oil Prices Today: WTI & Brent Crude Benchmarks",
+          "url": "https://www.oilpriceapi.com/oil-prices-today"
+        },
+        {
+          "title": "Brent Crude Oil Price Live",
+          "url": "https://www.oilpriceapi.com/live/brent-crude-oil-price"
+        },
+        {
+          "title": "Crude Oil Trades Mixed as Iran Peace Hopes Ease Risks",
+          "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-november-9-2026-brent-slips-to-98-wti-rises-to-91-supply-outlook-in-focus-amid-trump-peace-remarks"
+        },
+        {
+          "title": "Brent oil - Price - Chart - Historical Data - News",
+          "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+        },
+        {
+          "title": "Oil prices today: Why Brent is falling despite Strait of Hormuz attacks",
+          "url": "https://invezz.com/uk/news/2026/11/09/why-are-oil-prices-falling-despite-fresh-attacks-near-the-strait-of-hormuz/"
+        },
+        {
+          "title": "Oil Prices Today: WTI $91.25 · Brent $98.27 · Gas $3.03",
+          "url": "https://www.onevalor.com/oil-gas-prices/"
+        },
+        {
+          "title": "Brent Oil Falls 1.5% to US$96.91 as Iran Tensions Ease",
+          "url": "https://grafa.com/en/news/united-states/brent-oil-prices-fall-iran-tensions-supply-concerns"
+        },
+        {
+          "title": "crude oil prices rise brent at 67 73 wti at 63 68 per barrel",
+          "url": "https://www.newsonair.gov.in/crude-oil-prices-rise-brent-at-67-73-wti-at-63-68-per-barrel"
+        }
+      ]
+    },
+    {
+      "query": "China inflation October 2026 CPI PPI November 9",
+      "results": [
+        {
+          "title": "China October 2026 CPI +0.7% y/y (expected +0.8%, prior +0.9%)",
+          "url": "https://investinglive.com/news/china-october-2026-cpi-0-7-y-y-expected-0-8-prior-0-9/"
+        },
+        {
+          "title": "China October inflation preview: CPI seen near 0.8%, PPI above 5%",
+          "url": "https://investinglive.com/news/china-october-inflation-preview-cpi-seen-near-0-8-ppi-above-5/"
+        },
+        {
+          "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
+          "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html"
+        },
+        {
+          "title": "China Producer Prices Change",
+          "url": "https://tradingeconomics.com/china/producer-prices-change"
+        },
+        {
+          "title": "China October-26 CPI Inflation Report - by Gianluca Benigno",
+          "url": "https://gianlucabenigno.substack.com/p/china-october-26-cpi-inflation-report"
+        },
+        {
+          "title": "China Consumer Price Index (CPI) YoY",
+          "url": "https://www.investing.com/economic-calendar/china-consumer-price-index-(cpi)-yoy-459"
+        },
+        {
+          "title": "China's October PPI rises 5.7% year-on-year, highest in nearly four and a half years; CPI up just 0.7%, weaker than expected — BigGo Finance",
+          "url": "https://finance.biggo.com/news/46bc6e4e-7403-4e99-8bd2-11397497f799"
+        },
+        {
+          "title": "China PPI Surges 5.7% as CPI Lags: Iron Ore Faces Pressure",
+          "url": "https://discoveryalert.com/news/china-ppi-iron-ore-cpi-gap-november-2026/"
+        },
+        {
+          "title": "China October 2026 CPI +0.7% y/y (expected +0.8%, prior +0.9%) » SwingFish Forex Traders",
+          "url": "https://www.swingfish.trade/blog/market-news/china-october-2026-cpi-0-7-y-y-expected-0-8-prior-0-9-441758/"
+        },
+        {
+          "title": "china cpi rebounds in october uob group 202511100948",
+          "url": "https://www.fxstreet.com/news/china-cpi-rebounds-in-october-uob-group-202511100948"
+        }
+      ]
+    },
+    {
+      "query": "Africa news November 8 2026",
+      "results": [
+        {
+          "title": "Africa: All of Africa Today - November 9, 2026 - allAfrica.com",
+          "url": "https://allafrica.com/stories/202611090111.html"
+        },
+        {
+          "title": "Africa News: Breaking News and Analysis on Africa Politics, Business & More",
+          "url": "https://www.nbcnews.com/news/africa"
+        },
+        {
+          "title": "Africa News",
+          "url": "https://www.aljazeera.com/africa/"
+        },
+        {
+          "title": "Breaking news from AFRICA, Maghreb and Sub-Saharan Africa - France 24",
+          "url": "https://www.france24.com/en/africa/"
+        },
+        {
+          "title": "allafrica.com",
+          "url": "https://allafrica.com/list/aans/post/af/pubkey/publisher:editorial:00010437.html?page=3"
+        },
+        {
+          "title": "Top allafrica.com competitors & alternatives",
+          "url": "https://ahrefs.com/websites/allafrica.com/competitors"
+        },
+        {
+          "title": "the latest news from africa",
+          "url": "https://www.npr.org/2003/12/23/1566996/the-latest-news-from-africa"
+        },
+        {
+          "title": "latest news headlines from africa",
+          "url": "https://www.npr.org/2004/06/28/3021273/latest-news-headlines-from-africa"
+        },
+        {
+          "title": "allafrica.com",
+          "url": "https://allafrica.com/view/newsletter/main/main/cat/latest.html"
+        }
+      ]
+    },
+    {
+      "query": "House impeach Hegseth vote this week November 2026",
+      "results": [
+        {
+          "title": "House could vote next week to impeach Hegseth as GOP support wavers",
+          "url": "https://www.kptv.com/2026/11/05/house-could-vote-next-week-impeach-hegseth-gop-support-wavers/"
+        },
+        {
+          "title": "Midterms 2026 results and latest updates: House could vote to impeach Hegseth this week; Mississippi and Alaska Senate races still too close to call",
+          "url": "https://www.yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
+        },
+        {
+          "title": "House poised to impeach Pete Hegseth after GOP midterm defeat",
+          "url": "https://www.axios.com/2026/11/08/pete-hegseth-impeachment-house-republicans-massie"
+        },
+        {
+          "title": "House could vote next week to impeach Hegseth as GOP support wavers",
+          "url": "https://www.kgns.tv/2026/11/05/house-could-vote-next-week-impeach-hegseth-gop-support-wavers/"
+        },
+        {
+          "title": "Defense Secretary Pete Hegseth Facing Impeachment This Week",
+          "url": "https://www.mediaite.com/media/news/pete-hegseth-expected-to-be-impeached-this-week-reports/"
+        },
+        {
+          "title": "House Minority Leader Hakeem Jeffries says he’s a ‘hard yes’ on impeaching Defense Secretary Pete Hegseth",
+          "url": "https://www.nbcnews.com/politics/congress/house-minority-leader-hakeem-jeffries-hard-yes-impeaching-hegseth-rcna608137"
+        },
+        {
+          "title": "Trump defends Hegseth ahead of expected impeachment vote",
+          "url": "https://www.cnn.com/2026/11/08/politics/live-news/midterm-election-trump-congress"
+        },
+        {
+          "title": "Hegseth Impeachment Vote: 217 House Votes Needed to Pass",
+          "url": "https://aroundprague.cz/en/news/us/hegseth-impeachment-vote-massie-house-math"
+        },
+        {
+          "title": "Jeffries Will Vote to Impeach Hegseth as Trump Defends Pentagon Chief",
+          "url": "https://aroundprague.cz/en/news/us/jeffries-will-vote-to-impeach-hegseth-as-trump-defends-pentagon-chief"
+        }
+      ]
+    },
+    {
+      "query": "Senegal migrant boat sinks Kebemer dead November 2026",
+      "results": [
+        {
+          "title": "At least 34 dead as migrant boat sinks off Senegal",
+          "url": "https://3news.com/world/at-least-34-dead-migrant-boat-sinks-senegal"
+        },
+        {
+          "title": "Arab News",
+          "url": "https://www.arabnews.com/world/migrant-boat-sinks-off-senegal-34-killed-authorities-3010579"
+        },
+        {
+          "title": "Death toll at 34 as migrant boat sinks off Senegal",
+          "url": "https://www.thecourier.com.au/story/9387857/death-toll-at-34-as-migrant-boat-sinks-off-senegal/"
+        },
+        {
+          "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
+          "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say"
+        },
+        {
+          "title": "At least 34 dead as small boat sinks off Senegal",
+          "url": "https://adaderana.lk/news/251291"
+        },
+        {
+          "title": "TRT World - At least 21 killed as migrant boat sinks off Senegal",
+          "url": "https://www.trtworld.com/article/5851111d24e3"
+        },
+        {
+          "title": "Migrant Boat Sinks off Senegal, Killing 21 - Africa Press English",
+          "url": "https://www.africa-press.net/en/policy/migrant-boat-sinks-off-senegal-killing-21"
+        },
+        {
+          "title": "Senegal reports at least 21 dead in migrant boat sinking off Kébémer",
+          "url": "https://www.inquisitr.com/senegal-migrant-boat-sinking-kebemer/"
+        },
+        {
+          "title": "Twenty-one migrants die as vessel capsizes off Senegal coast near Kebemer",
+          "url": "https://streamlinefeed.co.ke/news/twenty-one-migrants-die-as-vessel-capsizes-off-senegal-coast-near-kebemer"
+        },
+        {
+          "title": "senegal smuggling boat sinks 1 dead 11 rescued 303437",
+          "url": "https://www.tribuneindia.com/news/nation/senegal-smuggling-boat-sinks-1-dead-11-rescued-303437"
+        }
+      ]
+    },
+    {
+      "query": "Russia strikes Ukraine November 8 2026 energy attacks weekend",
+      "results": [
+        {
+          "title": "Russian strikes cut power to hundreds of thousands in Ukraine - Yahoo News Singapore",
+          "url": "https://sg.news.yahoo.com/russian-strikes-cut-power-hundreds-151803388.html"
+        },
+        {
+          "title": "Russia's Attacks on Ukraine's Energy Infrastructure - GV Wire",
+          "url": "https://gvwire.com/2026/11/07/russia-pounds-power-facilities-around-kyiv-damages-major-bridge/"
+        },
+        {
+          "title": "Hundreds of thousands left without power in Ukraine after Russian strikes, authorities say - CBS News",
+          "url": "https://www.cbsnews.com/news/ukraine-russia-war-strike-power/"
+        },
+        {
+          "title": "Russian strikes on Ukraine leave hundreds of thousands without electricity",
+          "url": "https://aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity"
+        },
+        {
+          "title": "Russia continues its attacks on power facilities in Kyiv as temperatures drop ahead of winter",
+          "url": "https://www.cbc.ca/news/world/russia-kyiv-power-winter-9.7413490"
+        },
+        {
+          "title": "Russian strikes damage Ukraine energy network and infrastructure",
+          "url": "https://www.archyde.com/russian-strikes-damage-ukraine-energy-network-and-infrastructure/"
+        },
+        {
+          "title": "Russia hits Ukrainian energy sites in ‘massive’ attack",
+          "url": "https://www.pressreader.com/bahrain/gulf-today/20240428/281659670109020"
+        },
+        {
+          "title": "Russia targets Ukrainian energy",
+          "url": "https://www.pressreader.com/usa/arkansas-democrat-gazette/20240428/281715504684291"
+        },
+        {
+          "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
+          "url": "https://euronews.com/2025/11/09/ukraine-and-russia-trade-overnight-strikes-on-energy-facilities"
+        }
+      ]
+    }
+  ],
+  "fetched": [],
+  "meta": {
+    "id": "2026-11-09",
+    "generated_at": "2026-11-09T11:26:00.254Z",
+    "model": "claude-opus-5-5",
+    "via": "claude-code-routine",
+    "searches": 15,
+    "results_count": 137,
+    "cited_count": 36
+  }
+}
