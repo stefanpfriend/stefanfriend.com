@@ -1,805 +1,980 @@
 {
-  "date": "Monday, November 9, 2026",
-  "edition": "TALKS WEEK",
-  "tldr_label": "TL;DR — Eisenkot starts coalition talks, Abu Dhabi peace talks open Tuesday, and the House may vote to impeach Hegseth",
+  "date": "Tuesday, November 10, 2026",
+  "edition": "ABU DHABI OPENS",
+  "tldr_label": "TL;DR: Ukraine talks open in Abu Dhabi, oil drops below $90, France blames Iran for a supermarket hack, and the House prepares a Hegseth vote",
   "tldr_bullets": [
     {
-      "label": "Israel",
-      "body": "Eisenkot formally received the mandate and opened coalition talks. Liberman rejects a minority government that relies on Arab parties. [[TAG:info:28 days]]"
-    },
-    {
       "label": "Ukraine",
-      "body": "Russian strikes cut power to hundreds of thousands of people before US-brokered talks in Abu Dhabi on Tuesday and Wednesday, which European officials will attend. [[TAG:danger:power cuts]]"
+      "body": "US, Russian and Ukrainian delegations opened two days of security-focused talks in Abu Dhabi, the first trilateral round in months. Russian strikes on the power grid continued. [[TAG:warning:modest hopes]]"
     },
     {
-      "label": "US",
-      "body": "Axios reports that the House is poised to impeach Defense Secretary Pete Hegseth this week. Democrats lead the uncalled Senate races in Alaska and Mississippi."
+      "label": "Oil",
+      "body": "CNBC reported that Brent fell below $90 for the first time since August as traders bet on a US-Iran deal. Asian stocks rallied. [[TAG:success:de-escalation bet]]"
     },
     {
-      "label": "Iran",
-      "body": "Trump says new attacks are 'highly unlikely' if Tehran agrees a nuclear deal and reopens Hormuz. Israel's defense minister says the 'mission is not complete'."
+      "label": "France and Iran",
+      "body": "Paris summoned Iran's ambassador and will seek EU sanctions after prosecutors blamed the Revolutionary Guard for a cyberattack on supermarket refrigeration. [[TAG:danger:cyber sabotage]]"
     },
     {
-      "label": "Markets",
-      "body": "Asian stocks rebounded and Brent eased toward $97. China's factory-gate inflation hit 5.7%, its highest in more than four years."
+      "label": "Washington",
+      "body": "The House may vote by Wednesday on Massie's impeachment articles against Defense Secretary Hegseth. The Senate races in Alaska and Mississippi remain uncalled. [[TAG:warning:vote pending]]"
     },
     {
-      "label": "Africa",
-      "body": "The ANC won about 30.8% in South Africa's local polls, its worst result. A migrant boat sank off Senegal, killing between 21 and 34 people. [[TAG:warning:ANC 30.8%]]"
+      "label": "Nvidia",
+      "body": "Nvidia fell 4.27% on Monday while the broader market rallied, after its board opened an investigation into CEO Jensen Huang's relationship with a woman US officials reportedly believe was a Chinese intelligence asset. [[TAG:danger:governance probe]]"
     }
   ],
   "sections": [
     {
-      "title": "Eisenkot's Coalition Math",
-      "icon": "🗳️",
-      "summary": "Eisenkot receives the mandate and sets four conditions; Liberman rejects a minority government",
+      "title": "Ukraine: Talks Open in Abu Dhabi",
+      "icon": "🕊️",
+      "summary": "First trilateral round since February focuses on security guarantees as strikes continue",
       "paragraphs": [
         {
-          "heading": "Mandate",
-          "body": "The Jerusalem Post and the Times of Israel reported that Eisenkot formally received the mandate from President Herzog on Sunday. The Times of Israel said he promised a 'creative and unconventional' path to an emergency coalition. He has 28 days, with a possible 14-day extension. [[TAG:info:clock running]]"
+          "heading": "The Table",
+          "body": "NPR, NBC News and CBS News reported that US-mediated talks between the United States, Russia and Ukraine began in Abu Dhabi on Tuesday. The National said the two days of sessions focus on security guarantees and a longer-term security arrangement between Russia and Europe. CNN described the round as a restart after roughly nine months. ABC News reported that President Trump says the war can 'end soon.' [[TAG:info:two-day round]]"
         },
         {
-          "heading": "Conditions and obstacles",
-          "body": "The JTA explained Eisenkot's four conditions: a Jewish and democratic state, the values of the Declaration of Independence, military service for all, and recognizing Hamas as a terrorist group. Ynet reported that Liberman rejects a minority government. The Times of Israel said Eisenkot is holding firm on mandatory service after Liberman opened the door to ultra-Orthodox parties. [[TAG:warning:deadlock risk]]"
+          "heading": "Europe in the Room",
+          "body": "According to The National, representatives of Britain, France, Germany and Italy, along with NATO and the European Commission, met the Ukrainian and US delegations in Abu Dhabi before the trilateral session. Russia had objected to European involvement in the three-way format. The Washington Post reported that Putin aide Vladimir Medinsky leads Moscow's delegation. [[TAG:warning:Moscow objects]]"
+        },
+        {
+          "heading": "Territory Gap",
+          "body": "CBS News reported that Zelensky continues to reject Russian demands that Ukraine give up territory Russia has not taken on the battlefield. US officials framed the round as a first step that could build momentum. One former US ambassador quoted in coverage said expectations should be 'very modest.' [[TAG:danger:core dispute unresolved]]"
+        },
+        {
+          "heading": "Grid Under Fire",
+          "body": "France 24 and Al Jazeera reported that weekend Russian strikes cut power to hundreds of thousands of people. DTEK said more than 600,000 residents of Dnipropetrovsk region lost electricity. Ukrinform reported that Ukrenergo recorded attacks on energy infrastructure in eight regions overnight into Tuesday, with hourly outage schedules across most of the country. CNN said analysts see a campaign aimed at Ukraine's economy ahead of winter. [[TAG:danger:power cuts]]"
         }
       ],
-      "sources": "Jerusalem Post, Times of Israel, JTA, Ynet",
+      "sources": "NPR, NBC News, CBS News, The National, CNN, ABC News, Washington Post, France 24, Al Jazeera, Ukrinform",
       "citations": [
         {
-          "outlet": "Jerusalem Post",
-          "title": "Gadi Eisenkot receives Knessset mandate from President Isaac Herzog",
-          "url": "https://www.jpost.com/israel-election-2026/article-914236"
+          "outlet": "NPR",
+          "title": "U.S.-mediated talks on ending Russia-Ukraine war begin in Abu Dhabi : NPR",
+          "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks"
         },
         {
-          "outlet": "Times of Israel",
-          "title": "Eisenkot tasked with forming government, vows ‘creative and unconventional’ path to ‘emergency’ coalition",
-          "url": "https://www.timesofisrael.com/eisenkot-gets-nod-to-form-government-vows-unconventional-acts-in-time-of-emergency/"
-        },
-        {
-          "outlet": "JTA",
-          "title": "Explainer: Gadi Eisenkot’s four conditions for forming Israel’s next government - Jewish Telegraphic Agency",
-          "url": "https://jta.org/2026/11/08/israel/explainer-gadi-eisenkots-four-conditions-for-forming-israels-next-government"
-        },
-        {
-          "outlet": "Ynet",
-          "title": "Political deadlock? Eisenkot opens coalition talks as Liberman rejects minority government",
-          "url": "https://www.ynetnews.com/article/rjya9vaaml"
-        },
-        {
-          "outlet": "Times of Israel",
-          "title": "Eisenkot stands by mandatory service after Liberman opens door to ultra-Orthodox parties",
-          "url": "https://www.timesofisrael.com/eisenkot-stands-by-mandatory-service-after-liberman-opens-door-to-ultra-orthodox-parties/"
-        }
-      ]
-    },
-    {
-      "title": "Iran",
-      "icon": "⚔️",
-      "summary": "Trump calls new attacks 'highly unlikely' if a deal is reached; Israel says its mission isn't done",
-      "paragraphs": [
-        {
-          "heading": "Signals",
-          "body": "Fox News reported that Trump said fresh attacks on Iran are 'highly unlikely' if Tehran agrees a nuclear deal and reopens Hormuz, though the Wall Street Journal reported that his advisers are divided. CBS News said Iran played down the new US task force targeting its land routes. Asharq Al-Awsat and Arab News reported that Israeli Defense Minister Israel Katz said 'the mission is not complete' and accused Iran of renewing its nuclear efforts, which Iran denies. [[TAG:warning:mixed signals]]"
-        }
-      ],
-      "sources": "Fox News, CBS News, Asharq Al-Awsat, Arab News",
-      "citations": [
-        {
-          "outlet": "Fox News",
-          "title": "Trump says fresh attacks on Iran 'highly unlikely' if Tehran strikes nuclear deal, reopens Hormuz",
-          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-saudi-houthi-november-8"
+          "outlet": "NBC News",
+          "title": "U.S.-mediated talks on ending the war between Russia and Ukraine begin in Abu Dhabi",
+          "url": "https://www.nbcnews.com/world/ukraine/us-mediated-talks-ending-war-russia-ukraine-begin-abu-dhabi-rcna608499"
         },
         {
           "outlet": "CBS News",
-          "title": "Iran downplays new U.S. task force aimed at disrupting ground transport routes",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+          "title": "U.S., Russia and Ukraine begin talks in Abu Dhabi aimed at ending war in Ukraine - CBS News",
+          "url": "https://www.cbsnews.com/news/us-russia-ukraine-war-talks-peace-abu-dhabi-deal/"
         },
         {
-          "outlet": "Asharq Al-Awsat",
-          "title": "Israel Defense Minister Says ‘Mission Not Complete’ on Iran",
-          "url": "https://english.aawsat.com/world/5338873-israel-defense-minister-says-%E2%80%98mission-not-complete%E2%80%99-iran"
+          "outlet": "The National",
+          "title": "Russia and Ukraine security-focused talks start in Abu Dhabi",
+          "url": "https://www.thenationalnews.com/news/mena/2026/11/10/russia-and-ukraine-security-focused-talks-start-in-abu-dhabi/"
         },
         {
-          "outlet": "Arab News",
-          "title": "Israel defense minister says ‘mission not complete’ on Iran",
-          "url": "https://www.arabnews.pk/world/israel-defense-minister-says-mission-not-complete-on-iran-3006442"
-        }
-      ]
-    },
-    {
-      "title": "Ukraine Before Abu Dhabi",
-      "icon": "🇺🇦",
-      "summary": "Russian strikes black out swaths of Ukraine as Europe joins talks Moscow tried to exclude",
-      "paragraphs": [
-        {
-          "heading": "Blackouts",
-          "body": "Al Jazeera and CBS News reported that Russian strikes left hundreds of thousands without power, mainly in Dnipropetrovsk and Kharkiv regions. CBC said Russia kept hitting power facilities around Kyiv as temperatures drop. Zelensky says Moscow is escalating to gain leverage before the talks. [[TAG:danger:850K without power]]"
+          "outlet": "CNN",
+          "title": "Ukraine peace talks restart after 9 months. What makes them different this time?",
+          "url": "https://www.cnn.com/2026/11/09/europe/russia-ukraine-us-peace-talks-preview-intl"
         },
         {
-          "heading": "Talks",
-          "body": "NPR reported that European officials will join the US-brokered talks in Abu Dhabi, defying the Kremlin's objections. Yahoo News said the US, Russia and Ukraine will meet there on Tuesday and Wednesday, and WVTM said the talks will focus on security guarantees. Experts do not expect a breakthrough."
-        }
-      ],
-      "sources": "Al Jazeera, CBS News, CBC, NPR, Yahoo News, WVTM",
-      "citations": [
+          "outlet": "ABC News",
+          "title": "Russia, Ukraine and US meet for Abu Dhabi talks as Trump says war can 'end soon' - ABC News",
+          "url": "https://abcnews.com/International/russia-ukraine-us-meet-abu-dhabi-talks-trump/story?id=137970621"
+        },
+        {
+          "outlet": "Washington Post",
+          "title": "US-brokered talks are set to start in Abu Dhabi to discuss Ukraine-Russia peace deal - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/11/10/russia-ukraine-war-putin-zelenskyy-uae/f7f2e2f2-dcc4-11f1-912c-4fbb80d73f7f_story.html"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Russian strikes cut power to hundreds of thousands in Ukraine",
+          "url": "https://www.france24.com/en/live-news/20261108-russian-strikes-cut-power-to-hundreds-of-thousands-in-ukraine"
+        },
         {
           "outlet": "Al Jazeera",
           "title": "Russian strikes on Ukraine leave hundreds of thousands without electricity",
-          "url": "https://aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity"
+          "url": "https://www.aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity"
         },
         {
-          "outlet": "CBS News",
-          "title": "Hundreds of thousands left without power in Ukraine after Russian strikes, authorities say - CBS News",
-          "url": "https://www.cbsnews.com/news/ukraine-russia-war-strike-power/"
+          "outlet": "Ukrinform",
+          "title": "Russians attack energy infrastructure in eight regions overnight",
+          "url": "https://ukrinform.net/rubric-economy/4183282-russians-attack-energy-infrastructure-in-eight-regions-overnight.html"
+        },
+        {
+          "outlet": "CNN",
+          "title": "As fresh talks near, Putin appears set on wrecking Ukraine’s economy, leaving Kyiv facing the toughest winter yet",
+          "url": "https://www.cnn.com/2026/11/08/europe/ukraine-russia-attacks-energy-infrastructure-economy-intl"
+        }
+      ]
+    },
+    {
+      "title": "Iran: Talks, Oil and a Cyber Row",
+      "icon": "🛢️",
+      "summary": "Brent drops below $90 on deal hopes; France blames the Revolutionary Guard for a fridge hack",
+      "paragraphs": [
+        {
+          "heading": "Deal Watch",
+          "body": "CNN reported that Washington and Tehran are negotiating quietly, with Qatar as the main mediator. Bloomberg said on Friday that the two sides had moved closer to a deal, with nuclear issues back on the table. Al Jazeera reported on Monday that Iran is holding to its seven demands, including lifting the US blockade of its southern ports and lifting sanctions, while the US increases military pressure. The outlets differ on how close an agreement is. [[TAG:warning:no deal yet]]"
+        },
+        {
+          "heading": "Oil Slides",
+          "body": "CNBC reported that Brent fell below $90 a barrel on Tuesday for the first time since August, on hopes the Iran war will de-escalate. Analysts cited recovering regional oil flows and reports that Iran may soften its position on the Strait of Hormuz. IOL put Brent near $91 mid-morning in South Africa, so quoted prices vary by time of day. [[TAG:success:about 20% lower this month]]"
+        },
+        {
+          "heading": "Supermarket Sabotage",
+          "body": "Al Jazeera reported that France summoned Iran's ambassador on Tuesday to lodge a 'very strong protest.' Paris prosecutors said on Monday that a cyber unit of Iran's Revolutionary Guard was behind an October attack that disabled refrigeration in hundreds of supermarkets. Foreign Minister Jean-Noel Barrot said France would seek sanctions at the European level. Reports of the number of stores hit range from about 700 to more than 1,000. The Week said investigators cited Farsi-language traces and Iran-linked IP addresses. No Iranian response appeared in the coverage reviewed. [[TAG:danger:EU sanctions sought]]"
+        }
+      ],
+      "sources": "CNN, Bloomberg, Al Jazeera, CNBC, IOL, The Week, CBC",
+      "citations": [
+        {
+          "outlet": "CNN",
+          "title": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know",
+          "url": "https://www.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "US and Iran Edge Closer to Deal With Nuclear Issue Back in Play - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/us-and-iran-edge-closer-to-deal-with-nuclear-issue-back-in-play"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran stands by demands to end the war as US ramps up military pressure",
+          "url": "https://www.aljazeera.com/news/2026/11/9/iran-stands-by-demands-to-end-the-war-as-us-ramps-up-military-pressure"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Brent crude falls below $90 for first time since August on Iran war de-escalation hopes",
+          "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
+        },
+        {
+          "outlet": "IOL",
+          "title": "Markets today",
+          "url": "https://iol.co.za/business/economy/2026-11-10-markets-today-oil-prices-slide-further-as-hopes-of-us-iran-deal-lift-global-stocks/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "France summons Iran’s ambassador over supermarket fridge ‘sabotage’",
+          "url": "https://www.aljazeera.com/news/2026/11/10/france-summons-irans-ambassador-over-supermarket-fridge-sabotage"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "France accuses Iran of cyberattack on supermarket fridges",
+          "url": "https://www.aljazeera.com/news/2026/11/9/france-accuses-iran-of-cyberattack-on-european-fridges"
+        },
+        {
+          "outlet": "The Week",
+          "title": "‘Farsi, Iranian IP address found’: France summons Iran envoy over refrigerator cyberattack - The Week",
+          "url": "https://www.theweek.in/news/world/2026/11/10/farsi-iranian-ip-address-found-france-summons-iran-envoy-over-refrigerator-cyberattack.html"
         },
         {
           "outlet": "CBC",
-          "title": "Russia continues its attacks on power facilities in Kyiv as temperatures drop ahead of winter",
-          "url": "https://www.cbc.ca/news/world/russia-kyiv-power-winter-9.7413490"
+          "title": "France blames Iran for cyberattack that hacked supermarket refrigerators across the country",
+          "url": "https://www.cbc.ca/news/world/france-iran-cyberattack-accusation-9.7415031"
+        }
+      ]
+    },
+    {
+      "title": "Israel and Gaza",
+      "icon": "🏛️",
+      "summary": "Eisenkot courts partners, including possibly Netanyahu; storm floods some 70,000 Gaza tents",
+      "paragraphs": [
+        {
+          "heading": "Coalition Paths",
+          "body": "NBC News and Fox News reported that factions representing 67 of the Knesset's 120 members recommended Eisenkot. Because he has ruled out relying on Arab-led parties, that tally does not translate into a working majority. Al Jazeera reported that Eisenkot is open to Netanyahu joining his government. ABC News (Australia) set out five ways the talks could end, including Netanyahu receiving the mandate next if Eisenkot fails. Reports differ on the deadline: some cite 28 days plus a possible extension, while Al Jazeera cites six weeks. [[TAG:info:61 needed]]"
         },
         {
-          "outlet": "NPR",
-          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections : NPR",
-          "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia&gsessionid=E8u_S3EmLkpbm5d3K6qQg61jSa2mSqSigf-5eq5MM1O7dkneppvd3g"
+          "heading": "Gaza Floods",
+          "body": "La Sicilia and other outlets reported that a storm flooded about 70,000 tents in Gaza and killed at least five people. According to UN humanitarian office figures cited in the reports, children were among the dead. Gaza's Government Media Office accuses Israel of blocking tens of thousands of tents and mobile homes, and Israel has not responded to that claim in the coverage reviewed. Al Jazeera's weekly roundup also documented escalating settler violence in the West Bank. [[TAG:danger:shelter crisis]]"
+        }
+      ],
+      "sources": "NBC News, Fox News, Al Jazeera, ABC News (Australia), La Sicilia, Eastleigh Voice",
+      "citations": [
+        {
+          "outlet": "NBC News",
+          "title": "Israel’s president gives Eisenkot the first chance to form the next government",
+          "url": "https://www.nbcnews.com/world/israel/israels-president-taps-gadi-eisenkot-rcna608033"
         },
         {
-          "outlet": "Yahoo News",
-          "title": "US, Russia, and Ukraine to hold talks in Abu Dhabi",
-          "url": "https://www.yahoo.com/news/us/articles/us-russia-ukraine-hold-talks-224135475.html"
+          "outlet": "Fox News",
+          "title": "Herzog taps Eisenkot to form government with 67 Knesset nods",
+          "url": "https://www.foxnews.com/world/israeli-president-picks-netanyahu-rival-form-government-coalition-battle-looms"
         },
         {
-          "outlet": "WVTM",
-          "title": "US-led peace talks for Russia and Ukraine will look at security guarantees for both sides",
-          "url": "https://www.wvtm13.com/article/us-led-peace-talks-russia-ukraine-security-guarantees/74373247"
+          "outlet": "Al Jazeera",
+          "title": "Eisenkot open to Netanyahu joining Israel’s next government",
+          "url": "https://www.aljazeera.com/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government"
+        },
+        {
+          "outlet": "ABC News (Australia)",
+          "title": "Gadi Eisenkot is trying to form government in Israel. Here are five ways it could go - ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-09/five-ways-israel-coalition-negotiations-could-go/107361790"
+        },
+        {
+          "outlet": "La Sicilia",
+          "title": "Gaza, the rain overwhelms the shelters: 70,000 flooded tents and at least five dead - La Sicilia",
+          "url": "https://en.lasicilia.it/news/italy-world/3089032/gaza-the-rain-overwhelms-the-shelters-70-000-flooded-tents-and-at-least-five-dead.html"
+        },
+        {
+          "outlet": "Eastleigh Voice",
+          "title": "Children among the dead as heavy rains flood tents and shelters in Gaza",
+          "url": "https://eastleighvoice.co.ke/middle-east/421728/children-among-the-dead-as-heavy-rains-flood-tents-and-shelters-in-gaza"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Palestine Weekly: West Bank on fire",
+          "url": "https://www.aljazeera.com/news/2026/11/10/palestine-weekly-west-bank-on-fire-and-gazas-tents-under"
         }
       ]
     },
     {
       "title": "Washington",
       "icon": "🇺🇸",
-      "summary": "House eyes impeaching Hegseth; Democrats lead the two uncalled Senate races",
+      "summary": "Massie files articles against Hegseth with a vote possible by Wednesday; two Senate races open",
       "paragraphs": [
         {
-          "heading": "Hegseth",
-          "body": "Axios reported that the House is poised to impeach Defense Secretary Pete Hegseth after the Republican midterm defeat, in a vote forced by Republican Thomas Massie. NBC News said Hakeem Jeffries is a 'hard yes'. CNN reported that Trump defended Hegseth. Removal would require two-thirds of the Senate, which is considered unlikely. [[TAG:warning:impeachment vote]]"
+          "heading": "Hegseth Articles",
+          "body": "CBS News reported that Rep. Thomas Massie introduced articles of impeachment on Monday accusing Defense Secretary Pete Hegseth of waging war on Iran without congressional authorization. A floor vote is possible this week. According to Yahoo News' live coverage, Democratic leader Hakeem Jeffries is a 'hard yes' and Speaker Mike Johnson called impeachment during hostilities 'a terrible, terrible look.' Removal would require 67 Senate votes. [[TAG:warning:House vote pending]]"
         },
         {
-          "heading": "Senate count",
-          "body": "Democracy Now reported that Democrats lead in both Alaska and Mississippi. Al Jazeera explained why the calls are delayed: Mississippi must finish its count by November 13, and Alaska's ranked-choice results come on November 18. Winning both would give Democrats 56 seats."
+          "heading": "Count Continues",
+          "body": "Yahoo News, citing AP tallies, reported that Democrats hold at least 54 Senate seats, with Alaska and Mississippi still uncalled, and 254 House seats, with 19 races uncalled. NBC News said a government funding bill tops Congress's agenda as members return. Punchbowl News said Republicans will also choose a new leader. [[TAG:info:counting continues]]"
         }
       ],
-      "sources": "Axios, NBC News, CNN, Democracy Now, Al Jazeera",
+      "sources": "CBS News, Yahoo News, NBC News, Punchbowl News, PBS NewsHour",
       "citations": [
         {
-          "outlet": "Axios",
-          "title": "House poised to impeach Pete Hegseth after GOP midterm defeat",
-          "url": "https://www.axios.com/2026/11/08/pete-hegseth-impeachment-house-republicans-massie"
+          "outlet": "CBS News",
+          "title": "Massie introduces impeachment articles against Hegseth, teeing up vote this week - CBS News",
+          "url": "https://www.cbsnews.com/news/pete-hegseth-impeachment-vote-house-thomas-massie/"
+        },
+        {
+          "outlet": "Yahoo News",
+          "title": "Midterms 2026 latest updates: Trump questions election results; Mississippi and Alaska Senate races still too close to call; Massie introduces articles of impeachment against Hegseth",
+          "url": "https://www.yahoo.com/news/politics/live/midterms-2026-results-and-latest-updates-house-could-vote-to-impeach-hegseth-this-week-mississippi-and-alaska-senate-races-still-too-close-to-call-134833800.html"
         },
         {
           "outlet": "NBC News",
-          "title": "House Minority Leader Hakeem Jeffries says he’s a ‘hard yes’ on impeaching Defense Secretary Pete Hegseth",
-          "url": "https://www.nbcnews.com/politics/congress/house-minority-leader-hakeem-jeffries-hard-yes-impeaching-hegseth-rcna608137"
+          "title": "Congress returns with government funding bill atop its to-do list",
+          "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-2026-midterm-elections-senate-house-supreme-court-live-updates-rcna608235"
+        },
+        {
+          "outlet": "Punchbowl News",
+          "title": "Congress is back. Hegseth, Iran and new GOP leader on tap",
+          "url": "https://punchbowl.news/article/washington/congress-returns-hegseth-iran-gop-leader/"
+        },
+        {
+          "outlet": "PBS NewsHour",
+          "title": "WATCH LIVE: House returns to Washington after blowout election for Democrats",
+          "url": "https://www.pbs.org/newshour/politics/watch-live-house-returns-to-washington-after-blowout-election-for-democrats"
+        }
+      ]
+    },
+    {
+      "title": "Markets and the Nvidia Probe",
+      "icon": "📈",
+      "summary": "Wall Street rallies as Nvidia falls 4%; Tokyo and Seoul surge; US inflation data due",
+      "paragraphs": [
+        {
+          "heading": "Huang Investigation",
+          "body": "CBS News and NBC News reported that Nvidia's board opened an independent investigation, led by independent directors with outside counsel, after reports that CEO Jensen Huang was the target of a Chinese intelligence effort. The Washington Post and CNBC said Huang acknowledged an affair with a businesswoman whom US officials reportedly believe was a Chinese Ministry of State Security asset. The board said it has no reason to believe national security or company secrets were compromised. China's Foreign Ministry called the spy narrative unsubstantiated. CNBC reported bipartisan calls in Congress for an inquiry. [[TAG:danger:board probe]]"
+        },
+        {
+          "heading": "Rally Without Nvidia",
+          "body": "CNBC reported that Nvidia closed down 4.27% on Monday. Chartmill and TechFlow reported that the Dow, S&P 500 and Nasdaq each rose more than 2%, led by other chipmakers such as AMD and Broadcom. Vantage Markets put Nvidia's slide since November 4 at about 11%. Nvidia reports quarterly earnings on November 17. [[TAG:warning:index heavyweight lags]]"
+        },
+        {
+          "heading": "Asia and CPI",
+          "body": "JournalArta reported that Japan's Nikkei jumped more than 5% on Tuesday and Australia's ASX 200 rose about 1%, as Asian tech stocks followed Wall Street higher. TipRanks and Yahoo Finance said traders were waiting for the October US consumer price report, due Tuesday morning. [[TAG:info:CPI today]]"
+        }
+      ],
+      "sources": "CBS News, NBC News, Washington Post, CNBC, Chartmill, TechFlow, Vantage Markets, JournalArta, TipRanks, Yahoo Finance",
+      "citations": [
+        {
+          "outlet": "CBS News",
+          "title": "Nvidia investigates CEO Jensen Huang amid allegations he was target of Chinese intelligence effort - CBS News",
+          "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-investigation-china-intelligence/"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "Nvidia opens investigation after CEO Jensen Huang’s affair with alleged Chinese spy",
+          "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-investigation-rcna608148"
+        },
+        {
+          "outlet": "Washington Post",
+          "title": "Nvidia investigates whether CEO Jensen Huang was targeted by Chinese spy with whom he had an affair - The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/11/08/nvidia-jensen-huang-investigation-chinese-spy/7965324e-dbbd-11f1-912c-4fbb80d73f7f_story.html"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link",
+          "url": "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Nvidia stock falls 4% as scrutiny turns to Jensen Huang’s affair with alleged Chinese spy",
+          "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
+        },
+        {
+          "outlet": "Chartmill",
+          "title": "Stock Market Today: Nvidia Board Opens Probe Into Jensen Huang as Wall Street Licks Its AI Wounds",
+          "url": "https://www.chartmill.com/news/AMD/Chartmill-58406-stock-market-today-chip-stocks-rebound-nvidia-ceo-scandal-anthropic-ipo-roadshow-2026-11-10"
+        },
+        {
+          "outlet": "TechFlow",
+          "title": "US Stock Market Trends (Nov. 10): Dow Surges Over 1,100 Points, NVIDIA Falls Approximately 4%",
+          "url": "https://www.techflowpost.com/en-US/article/35226"
+        },
+        {
+          "outlet": "Vantage Markets",
+          "title": "Why Is Nvidia Stock Down? 11% Slide and a Huang Spy Probe",
+          "url": "https://www.vantagemarkets.com/market-news/why-is-nvidia-stock-down-huang-report-november-10-2026/"
+        },
+        {
+          "outlet": "JournalArta",
+          "title": "Asia Markets Today: Nikkei Surges, ASX 200 Climbs After Wall St — JournalArta Global",
+          "url": "https://journalarta.com/en/2026/11/10/asia-markets-today-nikkei-225-surges-and-asx-200-climbs-after-wall-streets-2-35-jump/"
+        },
+        {
+          "outlet": "TipRanks",
+          "title": "Stock Market Today, Nov. 10: Markets Await the Consumer Inflation Report - TipRanks.com",
+          "url": "https://www.tipranks.com/news/stock-market-today-nov-10-markets-await-the-consumer-inflation-report"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Stock market today: Dow, S&P 500, Nasdaq trade mixed ahead of key inflation data",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+        }
+      ]
+    },
+    {
+      "title": "Taiwan Strait",
+      "icon": "⚓",
+      "summary": "Taipei says the Liaoning group is running 'area denial' drills; G7 warns against coercion",
+      "paragraphs": [
+        {
+          "heading": "Area Denial",
+          "body": "The Japan Times reported that Taiwan's defense minister Koo said on Tuesday that China is conducting 'area denial' drills in the Western Pacific with the Liaoning carrier group and other naval formations. Beijing has not formally announced any exercise. China's defense ministry has previously described the carrier's Western Pacific training as routine and not aimed at any country. Taiwanese officials also reported a sharp increase in Chinese military aircraft around the island. [[TAG:warning:undeclared drills]]"
+        },
+        {
+          "heading": "G7 and Carriers",
+          "body": "The Japan Times reported that G7 foreign ministers meeting in Paris expressed strong opposition to any attempt to change the status quo by force or coercion, including across the Taiwan Strait. Modern Diplomacy and the Western Journal noted that the Liaoning group is moving toward waters where a US carrier is exercising with allied ships. The drills come ahead of next week's APEC summit in Shenzhen. [[TAG:info:APEC next week]]"
+        }
+      ],
+      "sources": "Japan Times, Modern Diplomacy, Western Journal",
+      "citations": [
+        {
+          "outlet": "Japan Times",
+          "title": "Taiwan says China is conducting ‘area denial’ drills in Western Pacific - The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/10/asia-pacific/taiwan-china-area-denial-pacific/"
+        },
+        {
+          "outlet": "Japan Times",
+          "title": "G7 diplomats speak out on Taiwan as China ramps up military drills - The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/10/japan/politics/japan-g7-china-taiwan-military/"
+        },
+        {
+          "outlet": "Modern Diplomacy",
+          "title": "Is China Preparing to Block US Military Support for Taiwan With Western Pacific Naval Drills? - Modern Diplomacy",
+          "url": "https://moderndiplomacy.eu/2026/11/10/is-china-preparing-to-block-us-military-support-for-taiwan-with-western-pacific-naval-drills/"
+        },
+        {
+          "outlet": "Western Journal",
+          "title": "American And Chinese Aircraft Carriers Could Cross Paths as Tensions Rise Near Taiwan",
+          "url": "https://www.westernjournal.com/american-chinese-aircraft-carriers-cross-paths-tensions-rise-near-taiwan/"
+        }
+      ]
+    },
+    {
+      "title": "Around the World",
+      "icon": "🌍",
+      "summary": "COP31 opens without US officials; Turkish steel plant blast kills 16; Pope visits Argentina",
+      "paragraphs": [
+        {
+          "heading": "COP31",
+          "body": "UN News reported that the COP31 climate conference opened in Antalya, Türkiye, and runs through November 20, with more than 90,000 participants expected and a leaders' summit on November 11 and 12. The agenda covers loss and damage, the pace of the clean-energy transition, and whether rich countries will meet their finance pledges. Türkiye holds the presidency and Australia's Chris Bowen leads the negotiations. Coverage noted that the US has not sent officials. [[TAG:info:runs to Nov 20]]"
+        },
+        {
+          "heading": "Izmir Blast",
+          "body": "CNN and the Washington Post reported that an explosion at the HABAS steel plant in Aliaga, Izmir province, on Monday killed 16 people and injured 13, according to President Erdogan. Earlier counts from the governor were lower. Initial findings reported in coverage point to a crane falling into an arc furnace during casting. An investigation is under way. [[TAG:danger:16 dead]]"
+        },
+        {
+          "heading": "Pope in Argentina",
+          "body": "CNN reported that Pope Leo XIV, on the first papal visit to Argentina since 1987, urged President Milei to safeguard democracy. Local authorities estimated that about 2.5 million people attended his first Mass in Buenos Aires, according to EWTN's live coverage. Vatican News reported that he visited the San Martín monument. [[TAG:success:first since 1987]]"
+        },
+        {
+          "heading": "Africa",
+          "body": "Africanews reported that a train collision in Egypt killed seven people and injured 125, and that the toll from a migrant boat sinking off Senegal has reached at least 39. In South Africa, Africanews said coalition talks are taking centre stage as the ANC loses ground. [[TAG:warning:coalition talks]]"
+        }
+      ],
+      "sources": "UN News, The Wire, CNN, Washington Post, Türkiye Today, EWTN News, Vatican News, Africanews",
+      "citations": [
+        {
+          "outlet": "UN News",
+          "title": "COP31 opens in Antalya: Can climate promises finally deliver results?",
+          "url": "https://news.un.org/en/story/2026/11/1168763"
+        },
+        {
+          "outlet": "The Wire",
+          "title": "COP31 Kicks Off In Türkiye: Climate Finance, Electrification and Curbing Emission To Take Centre Stage - The Wire",
+          "url": "https://m.thewire.in/article/environment/cop31-kicks-off-in-turkiye-climate-finance-electrification-and-curbing-emission-take-centre-stage"
         },
         {
           "outlet": "CNN",
-          "title": "Trump defends Hegseth ahead of expected impeachment vote",
-          "url": "https://www.cnn.com/2026/11/08/politics/live-news/midterm-election-trump-congress"
+          "title": "Steel plant blast kills 16 in western Turkey",
+          "url": "https://www.cnn.com/2026/11/09/world/deadly-steel-plant-blast-turkey-latam-intl"
         },
         {
-          "outlet": "Democracy Now",
-          "title": "Democrats Lead in Alaska and Mississippi Senate Races as House Majority Approaches 260 Seats",
-          "url": "https://www.democracynow.org/2026/11/6/headlines/democrats_lead_in_alaska_and_mississippi_senate_races_as_house_majority_approaches_260_seats"
+          "outlet": "Washington Post",
+          "title": "Explosion at steel plant in western Turkey leaves 16 dead and 13 injured - The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/11/09/turkey-aliaga-explosion-steel-plant-habas/a7d6eb56-dc33-11f1-912c-4fbb80d73f7f_story.html"
         },
         {
-          "outlet": "Al Jazeera",
-          "title": "What’s delaying the US Senate election results in Mississippi and Alaska?",
-          "url": "https://www.aljazeera.com/news/2026/11/5/whats-delaying-us-midterm-election-calls-in-mississippi-and-alaska"
-        }
-      ]
-    },
-    {
-      "title": "Markets and Economies",
-      "icon": "📈",
-      "summary": "Asia rebounds and oil eases; China's factory-gate inflation hits a four-year high",
-      "paragraphs": [
-        {
-          "heading": "Markets",
-          "body": "Reuters, via Investing.com, reported that Asian stocks steadied as worries about AI and the Middle East eased, while the dollar held firm on bets of a Fed hike. CNBC said US futures moved as investors brace for more data and earnings. Grafa reported that Brent fell about 1.5% toward $97, and Invezz said prices are falling despite attacks near Hormuz. US CPI is due Tuesday. [[TAG:info:CPI Tuesday]]"
+          "outlet": "Türkiye Today",
+          "title": "At least 10 killed, 15 injured in explosion at steel plant in Izmir - Türkiye Today",
+          "url": "https://www.turkiyetoday.com/nation/explosion-sparks-fire-at-steel-plant-in-izmir-workers-reportedly-injured-3232043"
         },
         {
-          "heading": "China",
-          "body": "CNBC reported that China's producer prices rose 5.7% in October, the fastest in more than four years, while consumer inflation slowed to 0.7%. Investinglive noted that the CPI figure came in below the 0.8% forecast."
+          "outlet": "CNN",
+          "title": "Pope Leo urges President Milei, a Trump ally, to ‘safeguard democracy’ on arrival in Argentina",
+          "url": "https://www.cnn.com/2026/11/09/americas/pope-visit-argentina-latam-intl"
         },
         {
-          "heading": "France",
-          "body": "US News reported that Prime Minister Lecornu is holding talks with unions and employers on the cost of living after mass protests. Franceinfo said public-sector unions have called a strike for November 17."
-        }
-      ],
-      "sources": "Investing.com/Reuters, CNBC, Grafa, Invezz, Investinglive, US News, Franceinfo",
-      "citations": [
-        {
-          "outlet": "Investing.com/Reuters",
-          "title": "Asian stocks steady as AI, Mideast jitters recede; dollar firm on Fed bets By Reuters",
-          "url": "https://www.investing.com/news/economy-news/asian-stocks-steady-as-ai-mideast-jitters-recede-dollar-firm-on-fed-bets-5010407"
+          "outlet": "EWTN News",
+          "title": "LIVE UPDATES: Pope Leo XIV flies to Córdoba for Mass before a youth vigil in Buenos Aires",
+          "url": "https://www.ewtnnews.com/vatican/live-updates-pope-leo-xiv-in-south-america"
         },
         {
-          "outlet": "CNBC",
-          "title": "Stock futures rise as investors eye AI trade, brace for more data and earnings: Live updates",
-          "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
+          "outlet": "Vatican News",
+          "title": "Pope Leo XIV visits San Martín monument in Buenos Aires - Vatican News",
+          "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-visits-san-martin-monument-argentina.html"
         },
         {
-          "outlet": "Grafa",
-          "title": "Brent Oil Falls 1.5% to US$96.91 as Iran Tensions Ease",
-          "url": "https://grafa.com/en/news/united-states/brent-oil-prices-fall-iran-tensions-supply-concerns"
-        },
-        {
-          "outlet": "Invezz",
-          "title": "Oil prices today: Why Brent is falling despite Strait of Hormuz attacks",
-          "url": "https://invezz.com/uk/news/2026/11/09/why-are-oil-prices-falling-despite-fresh-attacks-near-the-strait-of-hormuz/"
-        },
-        {
-          "outlet": "CNBC",
-          "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
-          "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html"
-        },
-        {
-          "outlet": "Investinglive",
-          "title": "China October 2026 CPI +0.7% y/y (expected +0.8%, prior +0.9%)",
-          "url": "https://investinglive.com/news/china-october-2026-cpi-0-7-y-y-expected-0-8-prior-0-9/"
-        },
-        {
-          "outlet": "US News",
-          "title": "French PM Lecornu Holds Talks Over Protesters' Cost-Of-Living Concerns",
-          "url": "https://www.usnews.com/news/world/articles/2026-11-09/french-pm-lecornu-holds-talks-over-protesters-cost-of-living-concerns"
-        },
-        {
-          "outlet": "Franceinfo",
-          "title": "DIRECT. Conférence sociale : une intersyndicale de la fonction publique appelle à la grève le 17 novembre",
-          "url": "https://franceinfo.fr/economie/greve/direct-conference-sociale-pour-repondre-a-la-colere-le-premier-ministre-reunit-lundi-matin-les-syndicats_8273954.html"
-        }
-      ]
-    },
-    {
-      "title": "Africa",
-      "icon": "🌍",
-      "summary": "ANC's worst-ever result at about 30.8%; migrant boat disaster off Senegal",
-      "paragraphs": [
-        {
-          "heading": "South Africa",
-          "body": "The Citizen reported that the ANC topped the local elections with 30.76% as President Ramaphosa warned parties ahead of coalition talks. Stuff and Anadolu called it the party's worst-ever result, down from about 45.6% in 2021. allAfrica said the DA came second with about 24.6%. Most councils have no outright majority. [[TAG:warning:ANC 30.8%]]"
-        },
-        {
-          "heading": "Senegal",
-          "body": "Euronews and TRT World reported at least 21 dead after a migrant boat capsized off Kebemer, citing the interior ministry. 3News and The Courier, citing the state news agency, put the toll at 34. Officials have not said how many people were aboard. [[TAG:danger:21 to 34 dead]]"
-        }
-      ],
-      "sources": "The Citizen, Stuff, Anadolu, allAfrica, Euronews, TRT World, 3News, The Courier",
-      "citations": [
-        {
-          "outlet": "The Citizen",
-          "title": "ANC tops 2026 local government election results as Ramaphosa warns parties ahead of coalition talks",
-          "url": "https://www.citizen.co.za/news/anc-2026-local-government-election-ramaphosa-coalition/"
-        },
-        {
-          "outlet": "Stuff",
-          "title": "South Africa’s ANC suffers worst-ever election result in historic collapse",
-          "url": "https://www.stuff.co.nz/world-news/361056884/south-africas-anc-suffers-worst-ever-election-result-historic-collapse"
-        },
-        {
-          "outlet": "Anadolu",
-          "title": "Nelson Mandela's party ANC suffers historic losses in South African local elections",
-          "url": "https://aa.com.tr/en/africa/nelson-mandelas-party-anc-suffers-historic-losses-in-south-african-local-elections/4116258"
-        },
-        {
-          "outlet": "allAfrica",
-          "title": "Africa: All of Africa Today - November 9, 2026 - allAfrica.com",
-          "url": "https://allafrica.com/stories/202611090111.html"
-        },
-        {
-          "outlet": "Euronews",
-          "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-          "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say"
-        },
-        {
-          "outlet": "TRT World",
-          "title": "TRT World - At least 21 killed as migrant boat sinks off Senegal",
-          "url": "https://www.trtworld.com/article/5851111d24e3"
-        },
-        {
-          "outlet": "3News",
-          "title": "At least 34 dead as migrant boat sinks off Senegal",
-          "url": "https://3news.com/world/at-least-34-dead-migrant-boat-sinks-senegal"
-        },
-        {
-          "outlet": "The Courier",
-          "title": "Death toll at 34 as migrant boat sinks off Senegal",
-          "url": "https://www.thecourier.com.au/story/9387857/death-toll-at-34-as-migrant-boat-sinks-off-senegal/"
+          "outlet": "Africanews",
+          "title": "Africanews",
+          "url": "https://www.africanews.com/"
         }
       ]
     }
   ],
   "searches": [
     {
-      "query": "Eisenkot receives mandate Herzog November 8 2026 coalition",
+      "query": "world news November 10 2026",
       "results": [
         {
-          "title": "Yashar party's Eisenkot officially receives mandate from President Herzog to form Israel's next government",
-          "url": "https://www.aninews.in/news/world/middle-east/yashar-partys-eisenkot-officially-receives-mandate-from-president-herzog-to-form-israels-next-government20261108210104/"
+          "title": "The World Today (TV news programme)",
+          "url": "https://en.wikipedia.org/wiki/The_World_Today_(TV_news_programme)"
         },
         {
-          "title": "Yashar party's Eisenkot officially receives mandate from President Herzog to form Israel's next government - The Tribune",
-          "url": "https://www.tribuneindia.com/news/world/yashar-partys-eisenkot-officially-receives-mandate-from-president-herzog-to-form-israels-next-government/"
+          "title": "Morning Wide: Today's Major News (November 10, 2026)",
+          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008838153"
         },
         {
-          "title": "Gadi Eisenkot receives Knessset mandate from President Isaac Herzog",
-          "url": "https://www.jpost.com/israel-election-2026/article-914236"
+          "title": "Video. Latest news bulletin",
+          "url": "https://www.euronews.com/video/2026/11/10/latest-news-bulletin-november-10th-2026-morning"
         },
         {
-          "title": "Israel Election 2026 live updates: Eisenkot receives mandate to build coalition",
-          "url": "https://www.jpost.com/israel-election-2026/2026-11-08/live-updates-914159"
+          "title": "Video. Latest news bulletin",
+          "url": "https://www.euronews.com/video/2026/11/10/latest-news-bulletin-november-10th-2026-midday"
         },
         {
-          "title": "WATCH: Eisenkot receives mandate to form next government in official ceremony",
-          "url": "https://www.timesofisrael.com/liveblog_entry/watch-eisenkot-receives-mandate-to-form-next-government-in-official-ceremony"
+          "title": "Latest news bulletin",
+          "url": "https://www.inkl.com/news/latest-news-bulletin-november-10th-2026-morning"
         },
         {
-          "title": "Eisenkot set to receive mandate to form Israeli gov't as Herzog rounds out consultation meetings",
-          "url": "https://www.jpost.com/israel-election-2026/article-913989"
+          "title": "Headlines of the Day 10-November-2026 - Current Affairs",
+          "url": "https://nextias.com/ca/headlines-of-the-day/10-11-2026/88377"
         },
         {
-          "title": "Israeli Opposition Leader Gadi Eisenkot Given Mandate to Form Coalition, Pushing Netanyahu to Brink of Ouster",
-          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008836242"
+          "title": "France summons Iran envoy over supermarket fridge hack, warns of response",
+          "url": "https://www.al-monitor.com/originals/2026/11/france-summons-iran-envoy-over-supermarket-fridge-hack-warns-response"
         },
         {
-          "title": "Israel: Gadi Eisenkot receives mandate to form government from President Isaac Herzog",
-          "url": "https://organiser.org/2026/11/08/424952/international/israel-gadi-eisenkot-receives-mandate-to-form-government-from-president-isaac-herzog/"
+          "title": "world news",
+          "url": "https://www.euronews.com/tag/world-news?p=9"
         },
         {
-          "title": "2015 Israeli legislative election",
-          "url": "https://en.wikipedia.org/wiki/2015_Israeli_legislative_election"
+          "title": "TODAY'S NEWS, Weekend Edition, November 13-16, 2024",
+          "url": "https://larrys.substack.com/p/todays-news-weekend-edition-november"
         }
       ]
     },
     {
-      "query": "South Africa local election official results announced November 8 2026 ANC",
+      "query": "Ukraine Russia Abu Dhabi talks November 2026",
       "results": [
         {
-          "title": "2026 Local Election Results (South Africa)",
-          "url": "https://sepush.co.za/elections/local/2026"
+          "title": "Russia and Ukraine security-focused talks start in Abu Dhabi",
+          "url": "https://www.thenationalnews.com/news/mena/2026/11/10/russia-and-ukraine-security-focused-talks-start-in-abu-dhabi/"
         },
         {
-          "title": "ANC tops 2026 local government election results as Ramaphosa warns parties ahead of coalition talks",
-          "url": "https://www.citizen.co.za/news/anc-2026-local-government-election-ramaphosa-coalition/"
+          "title": "U.S., Russia and Ukraine begin talks in Abu Dhabi aimed at ending war in Ukraine - CBS News",
+          "url": "https://www.cbsnews.com/news/us-russia-ukraine-war-talks-peace-abu-dhabi-deal/"
         },
         {
-          "title": "South Africa’s ANC suffers worst-ever election result in historic collapse",
-          "url": "https://www.stuff.co.nz/world-news/361056884/south-africas-anc-suffers-worst-ever-election-result-historic-collapse"
+          "title": "Russia, Ukraine and US meet for Abu Dhabi talks as Trump says war can 'end soon' - ABC News",
+          "url": "https://abcnews.com/International/russia-ukraine-us-meet-abu-dhabi-talks-trump/story?id=137970621"
         },
         {
-          "title": "2026 Local Election Results (South Africa)",
-          "url": "https://esp.info/elections/local/2026"
+          "title": "U.S.-mediated talks on ending Russia-Ukraine war begin in Abu Dhabi : NPR",
+          "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks"
         },
         {
-          "title": "Nelson Mandela's party ANC suffers historic losses in South African local elections",
-          "url": "https://aa.com.tr/en/africa/nelson-mandelas-party-anc-suffers-historic-losses-in-south-african-local-elections/4116258"
-        },
-        {
-          "title": "2006 South African municipal elections",
-          "url": "https://en.wikipedia.org/wiki/2006_South_African_municipal_elections"
-        },
-        {
-          "title": "South Africa votes: results as they come in",
-          "url": "https://theoutlier.co.za/results"
-        },
-        {
-          "title": "Local Election Results 2026 Live: ANC 30.8%, DA 24.6% (99% Counted)",
-          "url": "https://www.rateweb.co.za/elections-2026/results/"
-        },
-        {
-          "title": "South Africa: Local election results show ANC weakened",
-          "url": "https://www.aljazeera.com/amp/news/2016/8/4/south-africa-local-election-results-show-anc-weakened"
-        }
-      ]
-    },
-    {
-      "query": "Iran news November 8 2026",
-      "results": [
-        {
-          "title": "Iranian Economic News Agency",
-          "url": "https://en.wikipedia.org/wiki/Iranian_Economic_News_Agency"
-        },
-        {
-          "title": "Home",
-          "url": "https://www.iranintl.com/en"
-        },
-        {
-          "title": "Iran news - breaking stories, video and analysis",
-          "url": "https://www.cnn.com/world/middleeast/iran"
-        },
-        {
-          "title": "Iran",
-          "url": "https://www.aljazeera.com/where/iran/"
-        },
-        {
-          "title": "Trump says fresh attacks on Iran 'highly unlikely' if Tehran strikes nuclear deal, reopens Hormuz",
-          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-saudi-houthi-november-8"
-        },
-        {
-          "title": "IRNA English",
-          "url": "https://en.irna.ir/"
-        },
-        {
-          "title": "Iran downplays new U.S. task force aimed at disrupting ground transport routes",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
-        },
-        {
-          "title": "Iran News Today in English",
-          "url": "https://apps.apple.com/us/app/id1229854645"
-        },
-        {
-          "title": "Updated Jun 3, 2019 - World",
-          "url": "https://www.axios.com/2019/05/22/today-in-iran-news"
-        }
-      ]
-    },
-    {
-      "query": "stock futures Asia markets Monday November 9 2026",
-      "results": [
-        {
-          "title": "Stock futures rise as investors eye AI trade, brace for more data and earnings: Live updates",
-          "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
-        },
-        {
-          "title": "Futures - Bloomberg - Bloomberg Markets",
-          "url": "https://www.bloomberg.com/markets/stocks/futures"
-        },
-        {
-          "title": "Asian stocks bounce as AI, Mideast jitters recede; dollar firm on Fed bets - Markets - Business Recorder",
-          "url": "https://www.brecorder.com/news/40448089"
-        },
-        {
-          "title": "Asian stocks steady as AI, Mideast jitters recede; dollar firm on Fed bets By Reuters",
-          "url": "https://www.investing.com/news/economy-news/asian-stocks-steady-as-ai-mideast-jitters-recede-dollar-firm-on-fed-bets-5010407"
-        },
-        {
-          "title": "Asian stocks steady as AI, Mideast jitters recede; dollar firm on Fed bets",
-          "url": "https://ground.news/article/asian-stocks-steady-as-ai-mideast-jitters-recede-dollar-firm-on-fed-bets"
-        },
-        {
-          "title": "Asian markets bounce back after a recovery for AI stocks on Wall Street",
-          "url": "https://www.daytondailynews.com/nation-world/asian-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/article_21772b7f-3f52-506a-8d1f-88fac5389da9.html"
-        },
-        {
-          "title": "How Are Asian Markets Doing Today?",
-          "url": "https://www.benzinga.com/news/20/10/17988911/how-are-asian-markets-doing-today"
-        },
-        {
-          "title": "Asian stock markets today close mixed; London's FTSE-100 falls 0.7%",
-          "url": "https://newsonair.gov.in/asian-stock-markets-today-close-mixed-londons-ftse-100-falls-0-7"
-        },
-        {
-          "title": "September 14, 2023 7:39 PM",
-          "url": "https://www.newsonair.gov.in/tag/asian-stock-markets-end-in-green"
-        }
-      ]
-    },
-    {
-      "query": "Ukraine Russia news November 8 2026 Abu Dhabi talks",
-      "results": [
-        {
-          "title": "US, Russia, and Ukraine to hold talks in Abu Dhabi",
-          "url": "https://www.yahoo.com/news/us/articles/us-russia-ukraine-hold-talks-224135475.html"
-        },
-        {
-          "title": "Ukraine-Russia talks: what to know",
-          "url": "https://www.yahoo.com/news/politics/articles/ukraine-russia-talks-know-110234099.html"
+          "title": "US-brokered talks are set to start in Abu Dhabi to discuss Ukraine-Russia peace deal - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/11/10/russia-ukraine-war-putin-zelenskyy-uae/f7f2e2f2-dcc4-11f1-912c-4fbb80d73f7f_story.html"
         },
         {
           "title": "Russia confirms new Ukraine peace talks as Melania Trump prepares to host ceasefire meeting",
           "url": "https://www.cnbc.com/2026/11/03/russia-ukraine-peace-talks-abu-dhabi-trump-putin-xi.html"
         },
         {
-          "title": "US-led peace talks for Russia and Ukraine will look at security guarantees for both sides",
-          "url": "https://www.wvtm13.com/article/us-led-peace-talks-russia-ukraine-security-guarantees/74373247"
+          "title": "US-Mediated Talks on Ending the War Between Russia and Ukraine Begin in Abu Dhabi",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-10/us-brokered-talks-are-set-to-start-in-abu-dhabi-to-discuss-ukraine-russia-peace-deal"
         },
         {
-          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections : NPR",
-          "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia&gsessionid=E8u_S3EmLkpbm5d3K6qQg61jSa2mSqSigf-5eq5MM1O7dkneppvd3g"
+          "title": "U.S.-mediated talks on ending the war between Russia and Ukraine begin in Abu Dhabi",
+          "url": "https://www.nbcnews.com/world/ukraine/us-mediated-talks-ending-war-russia-ukraine-begin-abu-dhabi-rcna608499"
         },
         {
-          "title": "Europeans to join Abu Dhabi talks on Ukraine",
-          "url": "https://sana.sy/en/politics/2357213/"
+          "title": "Ukraine peace talks restart after 9 months. What makes them different this time?",
+          "url": "https://www.cnn.com/2026/11/09/europe/russia-ukraine-us-peace-talks-preview-intl"
         },
         {
-          "title": "February 4, 2026 9:15 PM",
-          "url": "https://www.newsonair.gov.in/ukraine-and-russia-hold-second-round-of-us-brokered-talks-in-abu-dhabi"
-        },
-        {
-          "title": "January 24, 2026 9:31 AM",
-          "url": "https://www.newsonair.gov.in/representatives-from-russia-ukraine-us-hold-first-round-of-peace-talks-in-abu-dhabi"
-        },
-        {
-          "title": "UAE President meets heads of delegations participating in US-Russia-Ukraine trilateral talks",
-          "url": "https://gulfnews.com/uae/government/uae-president-meets-heads-of-delegations-participating-in-us-russia-ukraine-trilateral-talks-1.500418729"
-        },
-        {
-          "title": "www.malaymail.com",
-          "url": "https://www.malaymail.com/amp/news/world/2025/11/25/secret-abu-dhabi-talks-with-russia-add-new-twist-to-us-push-for-ukraine-ceasefire/199640"
+          "title": "January 30, 2026 2:11 PM",
+          "url": "https://www.newsonair.gov.in/uae-president-meets-russian-president-as-abu-dhabi-hosts-us-russia-ukraine-talks"
         }
       ]
     },
     {
-      "query": "Israel defense minister mission not complete Iran November 8 2026",
+      "query": "Eisenkot coalition talks Israel government news",
       "results": [
         {
-          "title": "Israel Defense Minister Says ‘Mission Not Complete’ on Iran",
-          "url": "https://english.aawsat.com/world/5338873-israel-defense-minister-says-%E2%80%98mission-not-complete%E2%80%99-iran"
+          "title": "Gadi Eisenkot is trying to form government in Israel. Here are five ways it could go - ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-09/five-ways-israel-coalition-negotiations-could-go/107361790"
         },
         {
-          "title": "Israel defence minister says 'mission not complete' on Iran - World - Business Recorder",
-          "url": "https://www.brecorder.com/news/40447999/israel-defence-minister-says-mission-not-complete-on-iran"
+          "title": "Eisenkot open to Netanyahu joining Israel’s next government",
+          "url": "https://www.aljazeera.com/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government"
         },
         {
-          "title": "Israeli Defense Minister: Mission Against Iran Is Not Complete",
-          "url": "https://libertarianinstitute.org/news/israeli-defense-minister-mission-against-iran-is-not-complete/"
+          "title": "Herzog taps Eisenkot to form government with 67 Knesset nods",
+          "url": "https://www.foxnews.com/world/israeli-president-picks-netanyahu-rival-form-government-coalition-battle-looms"
         },
         {
-          "title": "Arab News",
-          "url": "https://www.arabnews.com/middle-east/israel-defense-minister-says-mission-not-complete-on-iran-3010486"
+          "title": "Israel’s president gives Eisenkot the first chance to form the next government",
+          "url": "https://www.nbcnews.com/world/israel/israels-president-taps-gadi-eisenkot-rcna608033"
         },
         {
-          "title": "Israel defense minister says ‘mission not complete’ on Iran",
-          "url": "https://www.arabnews.pk/world/israel-defense-minister-says-mission-not-complete-on-iran-3006442"
+          "title": "Israel’s president officially taps Eisenkot to form a government",
+          "url": "https://www.ms.now/news/gadi-eisenkot-benjamin-netanyahu-israel-government-election"
         },
         {
-          "title": "Iran downplays new U.S. task force aimed at disrupting ground transport routes",
-          "url": "https://cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf"
+          "title": "israel coalition talks set to begin",
+          "url": "https://www.aljazeera.com/amp/news/2004/12/11/israel-coalition-talks-set-to-begin"
         },
         {
-          "title": "Katz warns: \"The mission against Iran Is not complete\"",
-          "url": "https://www.israelnationalnews.com/news/435841"
+          "title": "Israel coalition talks set to begin",
+          "url": "https://www.aljazeera.com/news/2004/12/11/israel-coalition-talks-set-to-begin"
         },
         {
-          "title": "Israel vows Iran mission 'not complete' amid nuclear fears",
-          "url": "https://en.yenisafak.com/world/israel-vows-iran-mission-not-complete-amid-nuclear-fears-3725302"
+          "title": "www.npr.org",
+          "url": "https://www.npr.org/transcripts/100597536"
         },
         {
-          "title": "Katz says Israel’s mission regarding Iran is not complete",
-          "url": "https://ua.news/en/dovkolo-svitu/ministr-oboroni-izrayiliu-kats-misiiu-shchodo-iranu-ne-zaversheno-asharq-al-awsat"
+          "title": "Sharon, Peres to discuss coalition government",
+          "url": "https://www.nbcnews.com/news/amp/wbna5395758"
         }
       ]
     },
     {
-      "query": "Eisenkot four principles coalition Liberman meeting Monday",
+      "query": "Iran US deal talks news this week",
       "results": [
         {
-          "title": "Political deadlock? Eisenkot opens coalition talks as Liberman rejects minority government",
-          "url": "https://www.ynetnews.com/article/rjya9vaaml"
+          "title": "Trump signals progress on Iran deal as Tehran pushes faster ceasefire",
+          "url": "https://www.aljazeera.com/news/2026/11/2/iran-pushing-accelerated-plan-for-ceasefire-talks-with-us"
         },
         {
-          "title": "Opposition chiefs meet, agree to launch coalition talks, but path remains unclear",
-          "url": "https://www.timesofisrael.com/opposition-chiefs-meet-agree-to-launch-coalition-talks-but-path-remains-unclear/"
+          "title": "US and Iran Edge Closer to Deal With Nuclear Issue Back in Play - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/us-and-iran-edge-closer-to-deal-with-nuclear-issue-back-in-play"
         },
         {
-          "title": "Eisenkot stands by mandatory service after Liberman opens door to ultra-Orthodox parties",
-          "url": "https://www.timesofisrael.com/eisenkot-stands-by-mandatory-service-after-liberman-opens-door-to-ultra-orthodox-parties/"
+          "title": "Iran plays down hope for deal to end war after new U.S. strikes on eve of midterm elections",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/"
         },
         {
-          "title": "Israel Coalition Talks: Liberman, Bennett and Golan Back Eisenkot for Prime Minister as Herzog Prepares Consultations - Northeast Times",
-          "url": "https://northeasttimes.com/2026/11/02/israel-coalition-talks-liberman-bennett-golan-back-eisenkot-herzog-consultations/"
+          "title": "Iran stands by demands to end the war as US ramps up military pressure",
+          "url": "https://www.aljazeera.com/news/2026/11/9/iran-stands-by-demands-to-end-the-war-as-us-ramps-up-military-pressure"
         },
         {
-          "title": "Eisenkot tasked with forming government, vows ‘creative and unconventional’ path to ‘emergency’ coalition",
-          "url": "https://www.timesofisrael.com/eisenkot-gets-nod-to-form-government-vows-unconventional-acts-in-time-of-emergency/"
+          "title": "Iran and US explore diplomacy amid rising threats of war",
+          "url": "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war"
         },
         {
-          "title": "Eisenkot reaffirms draft demand after Liberman opens door to UTJ coalition - i24NEWS",
-          "url": "https://www.i24news.tv/en/news/israel/politics/artc-eisenkot-reaffirms-draft-demand-after-liberman-opens-door-to-utj-coalition"
+          "title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
+          "url": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html"
         },
         {
-          "title": "'History will not forgive them': Eisenkot presses minority government plan, takes aim at Liberman",
-          "url": "https://www.ynetnews.com/article/s1rqpujazx"
+          "title": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know",
+          "url": "https://www.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl"
         },
         {
-          "title": "Explainer: Gadi Eisenkot’s four conditions for forming Israel’s next government - Jewish Telegraphic Agency",
-          "url": "https://jta.org/2026/11/08/israel/explainer-gadi-eisenkots-four-conditions-for-forming-israels-next-government"
+          "title": "February 17, 2026 9:35 PM",
+          "url": "https://www.newsonair.gov.in/us-and-iran-hold-second-round-of-talks-over-tehrans-nuclear-programme"
         },
         {
-          "title": "Eisenkot stands by mandatory service after Liberman opens door to ultra-Orthodox parties",
-          "url": "https://sweaterkittensahoy.tumblr.com/post/832584915601244160"
-        },
-        {
-          "title": "Liberman rules out alternative coalition without Netanyahu",
-          "url": "https://www.pressreader.com/israel/jerusalem-post/20170321/281479276234270"
+          "title": "February 15, 2026 1:54 PM",
+          "url": "https://www.newsonair.gov.in/us-iran-to-hold-second-round-of-talks-over-tehrans-nuclear-programme-next-week"
         }
       ]
     },
     {
-      "query": "France social conference November 9 2026 Lecornu unions wages",
+      "query": "France Iran supermarket refrigeration cyberattack ambassador summoned",
       "results": [
         {
-          "title": "Interior ministry says 575,000 protest across France as unions claim 'close to 1.6 million' - France 24",
-          "url": "https://www.france24.com/en/france/20261105-live-france-nationwide-strikes-living-costs"
+          "title": "France summons Iran’s ambassador over supermarket fridge ‘sabotage’",
+          "url": "https://www.aljazeera.com/news/2026/11/10/france-summons-irans-ambassador-over-supermarket-fridge-sabotage"
         },
         {
-          "title": "French PM Lecornu Holds Talks Over Protesters' Cost-Of-Living Concerns",
-          "url": "https://www.usnews.com/news/world/articles/2026-11-09/french-pm-lecornu-holds-talks-over-protesters-cost-of-living-concerns"
+          "title": "‘Farsi, Iranian IP address found’: France summons Iran envoy over refrigerator cyberattack - The Week",
+          "url": "https://www.theweek.in/news/world/2026/11/10/farsi-iranian-ip-address-found-france-summons-iran-envoy-over-refrigerator-cyberattack.html"
         },
         {
-          "title": "France Talks Pay as Unions Weigh Next Move",
-          "url": "https://www.riotimesonline.com/france-talks-pay-unions-weigh-next-move"
+          "title": "France accuses Iran of cyberattack on supermarket fridges",
+          "url": "https://www.aljazeera.com/news/2026/11/9/france-accuses-iran-of-cyberattack-on-european-fridges"
         },
         {
-          "title": "DIRECT. Conférence sociale : une intersyndicale de la fonction publique appelle à la grève le 17 novembre",
-          "url": "https://franceinfo.fr/economie/greve/direct-conference-sociale-pour-repondre-a-la-colere-le-premier-ministre-reunit-lundi-matin-les-syndicats_8273954.html"
+          "title": "France blames Iran for a cyberattack that heated supermarket refrigerators",
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/11/10/france-blames-iran-for-a-cyberattack-that-heated-supermarket-refrigerators"
         },
         {
-          "title": "French PM holds 'social conference': just 'an exercise in PR'? • FRANCE 24 English - World News",
-          "url": "https://worldnews.whatfinger.com/2026/11/09/french-pm-holds-social-conference-just-an-exercise-in-pr-france-24-english"
+          "title": "France blames Iran for cyberattack that hacked supermarket refrigerators across the country",
+          "url": "https://www.cbc.ca/news/world/france-iran-cyberattack-accusation-9.7415031"
         },
         {
-          "title": "French PM Lecornu holds wage talks — The Rio Times",
-          "url": "https://ua.news/en/dovkolo-svitu/premier-frantsiyi-lekorniu-provodit-peregovori-pro-zarplati-the-rio-times"
+          "title": "France Summons Iranian Envoy Over Alleged Cyberattack on Supermarket Cooling Systems - Oneindia News",
+          "url": "https://www.oneindia.com/international/france-summons-iranian-envoy-over-alleged-cyberattack-on-supermarket-cooling-systems-8255987.html"
         },
         {
-          "title": "Jean-Pierre Farandou",
-          "url": "https://en.wikipedia.org/wiki/Jean-Pierre_Farandou"
+          "title": "Summoning of Iran’s Ambassador to France (13 January 2026)",
+          "url": "https://www.diplomatie.gouv.fr/en/country-files/iran/news/article/summoning-of-iran-s-ambassador-to-france-13-january-2026?xtor=RSS-1"
         },
         {
-          "title": "run october 1997 social summit",
-          "url": "https://www.eurofound.europa.eu/en/resources/article/1997/run-october-1997-social-summit"
+          "title": "Iran – Summoning of the Ambassador (10 January 2025)",
+          "url": "https://www.diplomatie.gouv.fr/en/country-files/iran/news/article/iran-summoning-of-the-ambassador-10-jan-2025"
         },
         {
-          "title": "conference employment pay and working time",
-          "url": "https://www.eurofound.europa.eu/en/publications/all/conference-employment-pay-and-working-time"
+          "title": "Iran – Summoning of the Iranian Ambassador to the Ministry for Europe and Foreign Affairs (15 April 2024)",
+          "url": "https://www.diplomatie.gouv.fr/en/country-files/iran/news/article/iran-summoning-of-the-iranian-ambassador-to-the-ministry-for-europe-and-foreign"
         }
       ]
     },
     {
-      "query": "Alaska Mississippi Senate races update November 8 2026",
+      "query": "COP31 Antalya opens climate talks",
       "results": [
         {
-          "title": "2026 United States Senate election in Alaska",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska"
+          "title": "COP31 opens in Antalya: Can climate promises finally deliver results?",
+          "url": "https://news.un.org/en/story/2026/11/1168763"
         },
         {
-          "title": "Midterms 2026 results and latest updates: House could vote to impeach Hegseth this week; Mississippi and Alaska Senate races still too close to call",
+          "title": "Unsdg",
+          "url": "https://unsdg.un.org/latest/stories/cop31-opens-antalya-can-climate-promises-finally-deliver-results"
+        },
+        {
+          "title": "COP31 Kicks Off In Türkiye: Climate Finance, Electrification and Curbing Emission To Take Centre Stage - The Wire",
+          "url": "https://m.thewire.in/article/environment/cop31-kicks-off-in-turkiye-climate-finance-electrification-and-curbing-emission-take-centre-stage"
+        },
+        {
+          "title": "2026 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
+        },
+        {
+          "title": "COP31 opens with leaders under pressure to tackle climate crisis - Daily Times",
+          "url": "https://dailytimes.com.pk/1579238/cop31-opens-with-leaders-under-pressure-to-tackle-climate-crisis/"
+        },
+        {
+          "title": "COP31 opens in Türkiye with calls to turn climate pledges into action",
+          "url": "https://www.gbcghanaonline.com/general/cop31-opens/2026/"
+        },
+        {
+          "title": "COP31 opens in Antalya with global electrification at the core",
+          "url": "https://streamlinefeed.co.ke/news/cop31-opens-in-antalya-with-global-electrification-at-the-core"
+        },
+        {
+          "title": "warwick.ac.uk",
+          "url": "https://warwick.ac.uk/sustainability/governance/multilateralengagement/eoicop30"
+        },
+        {
+          "title": "UN Climate Change Conference - Antalya, November 2026",
+          "url": "https://unfccc.int/cop31"
+        }
+      ]
+    },
+    {
+      "query": "China drills near Taiwan Liaoning carrier November 2026",
+      "results": [
+        {
+          "title": "China Taiwan Military Drills: Rising Tensions Ahead - The China-Global South Project",
+          "url": "https://chinaglobalsouth.com/2026/11/10/china-taiwan-aircraft-carrier-area-denial-military-drills/"
+        },
+        {
+          "title": "Taiwan says China is conducting ‘area denial’ drills in Western Pacific - The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/10/asia-pacific/taiwan-china-area-denial-pacific/"
+        },
+        {
+          "title": "G7 diplomats speak out on Taiwan as China ramps up military drills - The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/10/japan/politics/japan-g7-china-taiwan-military/"
+        },
+        {
+          "title": "American And Chinese Aircraft Carriers Could Cross Paths as Tensions Rise Near Taiwan",
+          "url": "https://www.westernjournal.com/american-chinese-aircraft-carriers-cross-paths-tensions-rise-near-taiwan/"
+        },
+        {
+          "title": "Is China Preparing to Block US Military Support for Taiwan With Western Pacific Naval Drills? - Modern Diplomacy",
+          "url": "https://moderndiplomacy.eu/2026/11/10/is-china-preparing-to-block-us-military-support-for-taiwan-with-western-pacific-naval-drills/"
+        },
+        {
+          "title": "China Conducting ‘Area Denial’ Drills in Western Pacific",
+          "url": "https://www.arabtimesonline.com/news/china-conducting-area-denial-drills-in-western-pacific/"
+        },
+        {
+          "title": "China's Area-Denial Drills Near Taiwan: Taipei flags growing security threat; armed forces closely tracking China",
+          "url": "https://www.inkl.com/news/chinas-area-denial-drills-near-taiwan-taipei-flags-growing-security-threat-armed-forces-closely-tracking-china"
+        },
+        {
+          "title": "Taiwan says China is running 'area denial' drills in the Western Pacific with the Liaoning carrier",
+          "url": "https://mlq.ai/news/taiwan-says-china-is-running-area-denial-drills-in-the-western-pacific-with-the-liaoning-carrier/"
+        },
+        {
+          "title": "China’s Liaoning aircraft carrier leads naval exercise off Taiwan",
+          "url": "https://www.aljazeera.com/news/2021/4/6/chinas-liaoning-aircraft-carrier-leads-naval-exercise-off-taiwan"
+        }
+      ]
+    },
+    {
+      "query": "stock market today Nvidia shares Wall Street November 10",
+      "results": [
+        {
+          "title": "Stock Market Today, Nov. 10: Markets Await the Consumer Inflation Report - TipRanks.com",
+          "url": "https://www.tipranks.com/news/stock-market-today-nov-10-markets-await-the-consumer-inflation-report"
+        },
+        {
+          "title": "Stock market today: Dow, S&P 500, Nasdaq trade mixed ahead of key inflation data",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+        },
+        {
+          "title": "Stock market today: Live updates",
+          "url": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html"
+        },
+        {
+          "title": "Stock Market Today: Nvidia Board Opens Probe Into Jensen Huang as Wall Street Licks Its AI Wounds",
+          "url": "https://www.chartmill.com/news/AMD/Chartmill-58406-stock-market-today-chip-stocks-rebound-nvidia-ceo-scandal-anthropic-ipo-roadshow-2026-11-10"
+        },
+        {
+          "title": "Stock Markets Today: Bullish Undercurrent on Wall Street Rebound But Risks Persist",
+          "url": "https://www.investingcube.com/marketbrief/stock-markets-today-bullish-undercurrent-on-wall-street-rebound-but-risks-persist/"
+        },
+        {
+          "title": "NVIDIA FELL 4%. NASDAQ HAD ITS BEST DAY IN MONTHS.",
+          "url": "https://cycledesk.substack.com/p/nvidia-fell-4-nasdaq-had-its-best"
+        },
+        {
+          "title": "Nvidia Stock Price Chart — NASDAQ:NVDA — TradingView",
+          "url": "https://www.tradingview.com/symbols/NASDAQ-NVDA/"
+        },
+        {
+          "title": "US Stock Market Trends (Nov. 10): Dow Surges Over 1,100 Points, NVIDIA Falls Approximately 4%",
+          "url": "https://www.techflowpost.com/en-US/article/35226"
+        },
+        {
+          "title": "Why Is Nvidia Stock Down? 11% Slide and a Huang Spy Probe",
+          "url": "https://www.vantagemarkets.com/market-news/why-is-nvidia-stock-down-huang-report-november-10-2026/"
+        },
+        {
+          "title": "stock market today nvidia closes 4 trillion",
+          "url": "https://www.fool.com/data-news/2025/07/10/stock-market-today-nvidia-closes-4-trillion"
+        }
+      ]
+    },
+    {
+      "query": "Nvidia Jensen Huang board investigation report Chinese intelligence",
+      "results": [
+        {
+          "title": "Nvidia investigates CEO Jensen Huang amid allegations he was target of Chinese intelligence effort - CBS News",
+          "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-investigation-china-intelligence/"
+        },
+        {
+          "title": "Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link",
+          "url": "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html"
+        },
+        {
+          "title": "Nvidia investigates whether CEO Jensen Huang was targeted by Chinese spy with whom he had an affair - The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/11/08/nvidia-jensen-huang-investigation-chinese-spy/7965324e-dbbd-11f1-912c-4fbb80d73f7f_story.html"
+        },
+        {
+          "title": "Nvidia's board launches investigation into CEO Jensen Huang's affair with an alleged Chinese spy",
+          "url": "https://finance.yahoo.com/markets/article/nvidias-jensen-huang-admits-to-affair-after-allegations-of-romance-with-chinese-spy-report-205122263.html"
+        },
+        {
+          "title": "Nvidia board launches probe after Jensen Huang admits affair with woman reported to be Chinese spy",
+          "url": "https://www.foxbusiness.com/politics/house-republicans-demand-answers-from-nvidia-ceo-over-reported-chinese-spy-ties"
+        },
+        {
+          "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+          "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
+        },
+        {
+          "title": "Nvidia opens investigation after CEO Jensen Huang’s affair with alleged Chinese spy",
+          "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-investigation-rcna608148"
+        },
+        {
+          "title": "Nvidia stock falls 4% as scrutiny turns to Jensen Huang’s affair with alleged Chinese spy",
+          "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
+        },
+        {
+          "title": "Nvidia CEO Jensen Huang faces scrutiny over ties to Alice Huang amid intelligence allegations",
+          "url": "https://cryptobriefing.com/nvidia-jensen-huang-alice-huang-intelligence-allegations/"
+        }
+      ]
+    },
+    {
+      "query": "Senate races uncalled Hegseth impeachment House Democrats November 2026",
+      "results": [
+        {
+          "title": "Midterms 2026 latest updates: Trump questions election results; Mississippi and Alaska Senate races still too close to call; Massie introduces articles of impeachment against Hegseth",
+          "url": "https://www.yahoo.com/news/politics/live/midterms-2026-results-and-latest-updates-house-could-vote-to-impeach-hegseth-this-week-mississippi-and-alaska-senate-races-still-too-close-to-call-134833800.html"
+        },
+        {
+          "title": "Midterms 2026 latest updates: Trump questions election results; Mississippi and Alaska Senate races still too close to call; Massie introduces articles of impeachment against Hegseth",
           "url": "https://www.yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
         },
         {
-          "title": "2026 United States Senate election in Mississippi",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi"
+          "title": "Congress is back. Hegseth, Iran and new GOP leader on tap",
+          "url": "https://punchbowl.news/article/washington/congress-returns-hegseth-iran-gop-leader/"
         },
         {
-          "title": "What’s delaying the US Senate election results in Mississippi and Alaska?",
-          "url": "https://www.aljazeera.com/news/2026/11/5/whats-delaying-us-midterm-election-calls-in-mississippi-and-alaska"
+          "title": "Hegseth Impeachment Vote: 217 House Votes Needed to Pass",
+          "url": "https://aroundprague.cz/en/news/us/hegseth-impeachment-vote-massie-house-math"
         },
         {
-          "title": "2026 United States Senate elections",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections"
+          "title": "WATCH LIVE: House returns to Washington after blowout election for Democrats",
+          "url": "https://www.pbs.org/newshour/politics/watch-live-house-returns-to-washington-after-blowout-election-for-democrats"
         },
         {
-          "title": "2026 Alaska Senate election",
-          "url": "https://en.wikipedia.org/wiki/2026_Alaska_Senate_election"
+          "title": "Congress returns with government funding bill atop its to-do list",
+          "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-2026-midterm-elections-senate-house-supreme-court-live-updates-rcna608235"
         },
         {
-          "title": "2026 Alaska elections",
-          "url": "https://en.wikipedia.org/wiki/2026_Alaska_elections"
+          "title": "Massie introduces impeachment articles against Hegseth, teeing up vote this week - CBS News",
+          "url": "https://www.cbsnews.com/news/pete-hegseth-impeachment-vote-house-thomas-massie/"
         },
         {
-          "title": "Democrats Lead in Alaska and Mississippi Senate Races as House Majority Approaches 260 Seats",
-          "url": "https://www.democracynow.org/2026/11/6/headlines/democrats_lead_in_alaska_and_mississippi_senate_races_as_house_majority_approaches_260_seats"
+          "title": "here are all uncalled house senate governor races n934541",
+          "url": "https://www.nbcnews.com/politics/elections/here-are-all-uncalled-house-senate-governor-races-n934541"
         },
         {
-          "title": "2026 United States House of Representatives election in Alaska",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_Alaska"
+          "title": "u s senate race",
+          "url": "https://www.pbs.org/newshour/tag/u-s-senate-race"
         }
       ]
     },
     {
-      "query": "oil prices Monday November 9 2026 Brent",
+      "query": "Izmir steel plant explosion dead",
       "results": [
         {
-          "title": "Brent Crude Oil Futures Price Today - Investing.com",
-          "url": "https://www.investing.com/commodities/brent-oil"
+          "title": "Steel plant blast kills 16 in western Turkey",
+          "url": "https://www.cnn.com/2026/11/09/world/deadly-steel-plant-blast-turkey-latam-intl"
         },
         {
-          "title": "Oil Prices Today: WTI & Brent Crude Benchmarks",
-          "url": "https://www.oilpriceapi.com/oil-prices-today"
+          "title": "Explosion at steel plant in western Turkey leaves 16 dead and 13 injured - The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/11/09/turkey-aliaga-explosion-steel-plant-habas/a7d6eb56-dc33-11f1-912c-4fbb80d73f7f_story.html"
         },
         {
-          "title": "Brent Crude Oil Price Live",
-          "url": "https://www.oilpriceapi.com/live/brent-crude-oil-price"
+          "title": "Death toll rises to 16 in Turkish steel plant explosion - CGTN",
+          "url": "https://news.cgtn.com/news/2026-11-09/news-1RVWfOHCBUs/p.html"
         },
         {
-          "title": "Crude Oil Trades Mixed as Iran Peace Hopes Ease Risks",
-          "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-november-9-2026-brent-slips-to-98-wti-rises-to-91-supply-outlook-in-focus-amid-trump-peace-remarks"
+          "title": "Türkiye: 10 workers killed, 15 injured in Izmir steel plant explosion",
+          "url": "https://sana.sy/en/international/2357494/"
         },
         {
-          "title": "Brent oil - Price - Chart - Historical Data - News",
-          "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+          "title": "At least 10 killed, 15 injured in explosion at steel plant in Izmir - Türkiye Today",
+          "url": "https://www.turkiyetoday.com/nation/explosion-sparks-fire-at-steel-plant-in-izmir-workers-reportedly-injured-3232043"
         },
         {
-          "title": "Oil prices today: Why Brent is falling despite Strait of Hormuz attacks",
-          "url": "https://invezz.com/uk/news/2026/11/09/why-are-oil-prices-falling-despite-fresh-attacks-near-the-strait-of-hormuz/"
+          "title": "HABAS steelworks explosion kills 10 in Izmir, governor says",
+          "url": "https://www.inquisitr.com/habas-steelworks-explosion-izmir/"
         },
         {
-          "title": "Oil Prices Today: WTI $91.25 · Brent $98.27 · Gas $3.03",
-          "url": "https://www.onevalor.com/oil-gas-prices/"
+          "title": "July 1, 2024 5:24 PM",
+          "url": "https://www.newsonair.gov.in/5-killed-60-injured-in-natural-gas-explosion-in-turkiye"
         },
         {
-          "title": "Brent Oil Falls 1.5% to US$96.91 as Iran Tensions Ease",
-          "url": "https://grafa.com/en/news/united-states/brent-oil-prices-fall-iran-tensions-supply-concerns"
+          "title": "Nine killed in gas explosion at steel plant",
+          "url": "https://www.pressreader.com/south-africa/post/20181010/281578061616821"
         },
         {
-          "title": "crude oil prices rise brent at 67 73 wti at 63 68 per barrel",
-          "url": "https://www.newsonair.gov.in/crude-oil-prices-rise-brent-at-67-73-wti-at-63-68-per-barrel"
+          "title": "Deaths in India steel plant blast",
+          "url": "https://www.aljazeera.com/amp/news/2012/6/14/deaths-in-india-steel-plant-blast"
         }
       ]
     },
     {
-      "query": "China inflation October 2026 CPI PPI November 9",
+      "query": "oil prices Asia markets Tuesday November 10 2026",
       "results": [
         {
-          "title": "China October 2026 CPI +0.7% y/y (expected +0.8%, prior +0.9%)",
-          "url": "https://investinglive.com/news/china-october-2026-cpi-0-7-y-y-expected-0-8-prior-0-9/"
+          "title": "Stock market today: Live updates",
+          "url": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html"
         },
         {
-          "title": "China October inflation preview: CPI seen near 0.8%, PPI above 5%",
-          "url": "https://investinglive.com/news/china-october-inflation-preview-cpi-seen-near-0-8-ppi-above-5/"
+          "title": "Markets today",
+          "url": "https://iol.co.za/business/economy/2026-11-10-markets-today-oil-prices-slide-further-as-hopes-of-us-iran-deal-lift-global-stocks/"
         },
         {
-          "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
-          "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html"
+          "title": "Asia News - Page 1",
+          "url": "https://oilprice.com/Geopolitics/Asia/"
         },
         {
-          "title": "China Producer Prices Change",
-          "url": "https://tradingeconomics.com/china/producer-prices-change"
+          "title": "Oil Prices Asia: Live Asian Benchmarks, Dubai & Regional Analysis",
+          "url": "https://www.oilpriceapi.com/prices/regional/oil-prices-asia"
         },
         {
-          "title": "China October-26 CPI Inflation Report - by Gianluca Benigno",
-          "url": "https://gianlucabenigno.substack.com/p/china-october-26-cpi-inflation-report"
+          "title": "Brent Crude Falls Below $90 for First Time Since August",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
         },
         {
-          "title": "China Consumer Price Index (CPI) YoY",
-          "url": "https://www.investing.com/economic-calendar/china-consumer-price-index-(cpi)-yoy-459"
+          "title": "Asia Markets Today: Nikkei Surges, ASX 200 Climbs After Wall St — JournalArta Global",
+          "url": "https://journalarta.com/en/2026/11/10/asia-markets-today-nikkei-225-surges-and-asx-200-climbs-after-wall-streets-2-35-jump/"
         },
         {
-          "title": "China's October PPI rises 5.7% year-on-year, highest in nearly four and a half years; CPI up just 0.7%, weaker than expected — BigGo Finance",
-          "url": "https://finance.biggo.com/news/46bc6e4e-7403-4e99-8bd2-11397497f799"
+          "title": "Energy - Bloomberg - Bloomberg Markets",
+          "url": "https://www.bloomberg.com/energy"
         },
         {
-          "title": "China PPI Surges 5.7% as CPI Lags: Iron Ore Faces Pressure",
-          "url": "https://discoveryalert.com/news/china-ppi-iron-ore-cpi-gap-november-2026/"
+          "title": "Brent crude falls below $90 for first time since August on Iran war de-escalation hopes",
+          "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
         },
         {
-          "title": "China October 2026 CPI +0.7% y/y (expected +0.8%, prior +0.9%) » SwingFish Forex Traders",
-          "url": "https://www.swingfish.trade/blog/market-news/china-october-2026-cpi-0-7-y-y-expected-0-8-prior-0-9-441758/"
-        },
-        {
-          "title": "china cpi rebounds in october uob group 202511100948",
-          "url": "https://www.fxstreet.com/news/china-cpi-rebounds-in-october-uob-group-202511100948"
+          "title": "Oil prices rebound in Asia",
+          "url": "https://www.business-standard.com/amp/article/pti-stories/oil-prices-rebound-in-asia-114090300228_1.html"
         }
       ]
     },
     {
-      "query": "Africa news November 8 2026",
+      "query": "Africa news November 10 2026",
       "results": [
-        {
-          "title": "Africa: All of Africa Today - November 9, 2026 - allAfrica.com",
-          "url": "https://allafrica.com/stories/202611090111.html"
-        },
         {
           "title": "Africa News: Breaking News and Analysis on Africa Politics, Business & More",
           "url": "https://www.nbcnews.com/news/africa"
         },
         {
-          "title": "Africa News",
-          "url": "https://www.aljazeera.com/africa/"
+          "title": "Africanews",
+          "url": "https://www.africanews.com/"
         },
         {
           "title": "Breaking news from AFRICA, Maghreb and Sub-Saharan Africa - France 24",
           "url": "https://www.france24.com/en/africa/"
+        },
+        {
+          "title": "Latest -- Home - allAfrica.com",
+          "url": "https://allafrica.com/latest/"
         },
         {
           "title": "allafrica.com",
@@ -824,141 +999,141 @@
       ]
     },
     {
-      "query": "House impeach Hegseth vote this week November 2026",
+      "query": "Pope Leo XIV Buenos Aires visit Argentina",
       "results": [
         {
-          "title": "House could vote next week to impeach Hegseth as GOP support wavers",
-          "url": "https://www.kptv.com/2026/11/05/house-could-vote-next-week-impeach-hegseth-gop-support-wavers/"
+          "title": "Pope Leo XIV visits San Martín monument in Buenos Aires - Vatican News",
+          "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-visits-san-martin-monument-argentina.html"
         },
         {
-          "title": "Midterms 2026 results and latest updates: House could vote to impeach Hegseth this week; Mississippi and Alaska Senate races still too close to call",
-          "url": "https://www.yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
+          "title": "Visit Argentina - The Pope's itinerary in Argentina",
+          "url": "https://www.argentina.travel/en/news/the-popes-itinerary-in-argentina"
         },
         {
-          "title": "House poised to impeach Pete Hegseth after GOP midterm defeat",
-          "url": "https://www.axios.com/2026/11/08/pete-hegseth-impeachment-house-republicans-massie"
+          "title": "Pope Leo urges President Milei, a Trump ally, to ‘safeguard democracy’ on arrival in Argentina",
+          "url": "https://www.cnn.com/2026/11/09/americas/pope-visit-argentina-latam-intl"
         },
         {
-          "title": "House could vote next week to impeach Hegseth as GOP support wavers",
-          "url": "https://www.kgns.tv/2026/11/05/house-could-vote-next-week-impeach-hegseth-gop-support-wavers/"
+          "title": "President Milei welcomes Pope Leo during historic visit to Argentina",
+          "url": "https://www.aljazeera.com/news/2026/11/8/president-milei-welcomes-pope-leo-during-historic-visit-to-argentina"
         },
         {
-          "title": "Defense Secretary Pete Hegseth Facing Impeachment This Week",
-          "url": "https://www.mediaite.com/media/news/pete-hegseth-expected-to-be-impeached-this-week-reports/"
+          "title": "Pope Leo XIV arrives in Argentina, meets President Milei while urging respectful dialogue",
+          "url": "https://www.catholicregister.org/item/4696-pope-leo-xiv-arrives-in-argentina-meets-president-milei-while-urging-respectful-dialogue"
         },
         {
-          "title": "House Minority Leader Hakeem Jeffries says he’s a ‘hard yes’ on impeaching Defense Secretary Pete Hegseth",
-          "url": "https://www.nbcnews.com/politics/congress/house-minority-leader-hakeem-jeffries-hard-yes-impeaching-hegseth-rcna608137"
+          "title": "Pope Leo XIV arrives in Argentina home to more than 43 million Catholics, meets with President Milei - The Dialog",
+          "url": "http://thedialog.org/featured/pope-leo-xiv-arrives-in-argentina-home-to-more-than-43-million-catholics-meets-with-president-milei/"
         },
         {
-          "title": "Trump defends Hegseth ahead of expected impeachment vote",
-          "url": "https://www.cnn.com/2026/11/08/politics/live-news/midterm-election-trump-congress"
+          "title": "Pope Leo XIV arrives in Argentina, meets President Milei while urging respectful dialogue - OSV News",
+          "url": "https://www.osvnews.com/pope-leo-xiv-arrives-in-argentina-meets-president-milei-while-urging-respectful-dialogue/"
         },
         {
-          "title": "Hegseth Impeachment Vote: 217 House Votes Needed to Pass",
-          "url": "https://aroundprague.cz/en/news/us/hegseth-impeachment-vote-massie-house-math"
+          "title": "LIVE UPDATES: Pope Leo XIV flies to Córdoba for Mass before a youth vigil in Buenos Aires",
+          "url": "https://www.ewtnnews.com/vatican/live-updates-pope-leo-xiv-in-south-america"
         },
         {
-          "title": "Jeffries Will Vote to Impeach Hegseth as Trump Defends Pentagon Chief",
-          "url": "https://aroundprague.cz/en/news/us/jeffries-will-vote-to-impeach-hegseth-as-trump-defends-pentagon-chief"
+          "title": "Pope Leo XIV arrives in Buenos Aires and is received by Milei on the first papal trip to Argentina since 1987",
+          "url": "https://infovaticana.com/en/2026/11/08/pope-leo-xiv-arrives-in-buenos-aires-and-is-received-by-milei-on-the-first-papal-visit-to-argentina-since-1987/"
+        },
+        {
+          "title": "Archdiocese of Buenos Aires",
+          "url": "https://en.wikipedia.org/wiki/Archdiocese_of_Buenos_Aires"
         }
       ]
     },
     {
-      "query": "Senegal migrant boat sinks Kebemer dead November 2026",
+      "query": "Gaza news November 10 2026",
       "results": [
         {
-          "title": "At least 34 dead as migrant boat sinks off Senegal",
-          "url": "https://3news.com/world/at-least-34-dead-migrant-boat-sinks-senegal"
+          "title": "Palestine Weekly: West Bank on fire",
+          "url": "https://www.aljazeera.com/news/2026/11/10/palestine-weekly-west-bank-on-fire-and-gazas-tents-under"
         },
         {
-          "title": "Arab News",
-          "url": "https://www.arabnews.com/world/migrant-boat-sinks-off-senegal-34-killed-authorities-3010579"
+          "title": "Gaza, the rain overwhelms the shelters: 70,000 flooded tents and at least five dead - La Sicilia",
+          "url": "https://en.lasicilia.it/news/italy-world/3089032/gaza-the-rain-overwhelms-the-shelters-70-000-flooded-tents-and-at-least-five-dead.html"
         },
         {
-          "title": "Death toll at 34 as migrant boat sinks off Senegal",
-          "url": "https://www.thecourier.com.au/story/9387857/death-toll-at-34-as-migrant-boat-sinks-off-senegal/"
+          "title": "Children among the dead as heavy rains flood tents and shelters in Gaza",
+          "url": "https://eastleighvoice.co.ke/middle-east/421728/children-among-the-dead-as-heavy-rains-flood-tents-and-shelters-in-gaza"
         },
         {
-          "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-          "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say"
+          "title": "Gaza Now",
+          "url": "https://en.wikipedia.org/wiki/Gaza_Now"
         },
         {
-          "title": "At least 34 dead as small boat sinks off Senegal",
-          "url": "https://adaderana.lk/news/251291"
+          "title": "At least 5 killed, including children, as floods swamp Gaza’s tent camps - World Socialist Web Site",
+          "url": "https://www.wsws.org/en/articles/2026/11/10/fusi-n10.html"
         },
         {
-          "title": "TRT World - At least 21 killed as migrant boat sinks off Senegal",
-          "url": "https://www.trtworld.com/article/5851111d24e3"
+          "title": "Gaza Storm Floods Tents as West Bank Violence Escalates",
+          "url": "https://ozarab.media/gaza-storm-floods-tents-as-west-bank-violence-escalates/"
         },
         {
-          "title": "Migrant Boat Sinks off Senegal, Killing 21 - Africa Press English",
-          "url": "https://www.africa-press.net/en/policy/migrant-boat-sinks-off-senegal-killing-21"
+          "title": "Timeline of the Gaza war",
+          "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Gaza_war"
         },
         {
-          "title": "Senegal reports at least 21 dead in migrant boat sinking off Kébémer",
-          "url": "https://www.inquisitr.com/senegal-migrant-boat-sinking-kebemer/"
+          "title": "Israeli attacks on Al-Maghazi refugee camp",
+          "url": "https://en.wikipedia.org/wiki/Israeli_attacks_on_Al-Maghazi_refugee_camp"
         },
         {
-          "title": "Twenty-one migrants die as vessel capsizes off Senegal coast near Kebemer",
-          "url": "https://streamlinefeed.co.ke/news/twenty-one-migrants-die-as-vessel-capsizes-off-senegal-coast-near-kebemer"
-        },
-        {
-          "title": "senegal smuggling boat sinks 1 dead 11 rescued 303437",
-          "url": "https://www.tribuneindia.com/news/nation/senegal-smuggling-boat-sinks-1-dead-11-rescued-303437"
+          "title": "Casualties of the Gaza war",
+          "url": "https://en.wikipedia.org/wiki/Casualties_of_the_Gaza_war"
         }
       ]
     },
     {
-      "query": "Russia strikes Ukraine November 8 2026 energy attacks weekend",
+      "query": "Russian strikes Ukraine energy blackout November 9 2026",
       "results": [
         {
-          "title": "Russian strikes cut power to hundreds of thousands in Ukraine - Yahoo News Singapore",
-          "url": "https://sg.news.yahoo.com/russian-strikes-cut-power-hundreds-151803388.html"
+          "title": "Russian strikes cut power to hundreds of thousands in Ukraine",
+          "url": "https://www.france24.com/en/live-news/20261108-russian-strikes-cut-power-to-hundreds-of-thousands-in-ukraine"
         },
         {
-          "title": "Russia's Attacks on Ukraine's Energy Infrastructure - GV Wire",
-          "url": "https://gvwire.com/2026/11/07/russia-pounds-power-facilities-around-kyiv-damages-major-bridge/"
+          "title": "Russian strikes on Ukraine leave hundreds of thousands without electricity",
+          "url": "https://www.aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity"
+        },
+        {
+          "title": "As fresh talks near, Putin appears set on wrecking Ukraine’s economy, leaving Kyiv facing the toughest winter yet",
+          "url": "https://www.cnn.com/2026/11/08/europe/ukraine-russia-attacks-energy-infrastructure-economy-intl"
         },
         {
           "title": "Hundreds of thousands left without power in Ukraine after Russian strikes, authorities say - CBS News",
           "url": "https://www.cbsnews.com/news/ukraine-russia-war-strike-power/"
         },
         {
-          "title": "Russian strikes on Ukraine leave hundreds of thousands without electricity",
-          "url": "https://aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity"
+          "title": "Russians attack energy infrastructure in eight regions overnight",
+          "url": "https://ukrinform.net/rubric-economy/4183282-russians-attack-energy-infrastructure-in-eight-regions-overnight.html"
         },
         {
-          "title": "Russia continues its attacks on power facilities in Kyiv as temperatures drop ahead of winter",
-          "url": "https://www.cbc.ca/news/world/russia-kyiv-power-winter-9.7413490"
+          "title": "Russia attacked energy infrastructure in 8 regions: where there are power outages and where the situation is most difficult",
+          "url": "https://unn.ua/en/news/russia-attacked-energy-infrastructure-in-8-regions-where-there-are-power-outages-and-where-the-situation-is-most-difficult"
         },
         {
-          "title": "Russian strikes damage Ukraine energy network and infrastructure",
-          "url": "https://www.archyde.com/russian-strikes-damage-ukraine-energy-network-and-infrastructure/"
+          "title": "Russian strikes cut power to hundreds of thousands in Ukraine",
+          "url": "https://www.rapporteur.com/news/russian-strikes-cut-power-to-hundreds-of-thousands-in-ukraine/"
+        },
+        {
+          "title": "Russian Strikes Leave Over 850,000 Ukrainians Without Power as Temperatures Drop Toward Freezing; Russia Says it Hit Substations Powering Ukrainian Defense Plants",
+          "url": "https://www.realnewsnotbs.com/2026/11/09/russian-strikes-leave-over-850000-ukrainians-without-power-as-temperatures-drop-toward-freezing-russia-says-it-hit-substations-powering-ukrainian-defense-plants/"
         },
         {
           "title": "Russia hits Ukrainian energy sites in ‘massive’ attack",
           "url": "https://www.pressreader.com/bahrain/gulf-today/20240428/281659670109020"
-        },
-        {
-          "title": "Russia targets Ukrainian energy",
-          "url": "https://www.pressreader.com/usa/arkansas-democrat-gazette/20240428/281715504684291"
-        },
-        {
-          "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
-          "url": "https://euronews.com/2025/11/09/ukraine-and-russia-trade-overnight-strikes-on-energy-facilities"
         }
       ]
     }
   ],
   "fetched": [],
   "meta": {
-    "id": "2026-11-09",
-    "generated_at": "2026-11-09T11:26:00.254Z",
+    "id": "2026-11-10",
+    "generated_at": "2026-11-10T11:25:03.676Z",
     "model": "claude-opus-5-5",
     "via": "claude-code-routine",
-    "searches": 15,
-    "results_count": 137,
-    "cited_count": 36
+    "searches": 16,
+    "results_count": 146,
+    "cited_count": 56
   }
 }
