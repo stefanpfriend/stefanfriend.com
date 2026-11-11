@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-11",
+      "date": "Wednesday, November 11, 2026",
+      "edition": "SHELVED",
+      "searches": 16,
+      "cited_count": 47,
+      "results_count": 150
+    },
+    {
       "id": "2026-11-10",
       "date": "Tuesday, November 10, 2026",
       "edition": "ABU DHABI OPENS",
