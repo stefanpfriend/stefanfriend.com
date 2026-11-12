@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-12",
+      "date": "Thursday, November 12, 2026",
+      "edition": "BOARDROOM",
+      "searches": 16,
+      "cited_count": 46,
+      "results_count": 148
+    },
+    {
       "id": "2026-11-11",
       "date": "Wednesday, November 11, 2026",
       "edition": "SHELVED",
