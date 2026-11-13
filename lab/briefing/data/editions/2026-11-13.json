@@ -1,0 +1,1078 @@
+{
+  "date": "Friday, November 13, 2026",
+  "edition": "HUANG OUT",
+  "tldr_label": "TL;DR: Jensen Huang resigns as Nvidia CEO, Iran claims a strike on a US radar in Bahrain, and Europe is set to join Ukraine talks",
+  "tldr_bullets": [
+    {
+      "label": "Nvidia",
+      "body": "Jensen Huang resigned as CEO and from the board. CFO Colette Kress is interim CEO. Congress is summoning Huang over chip exports to China. [[TAG:danger:founder exits]]"
+    },
+    {
+      "label": "Iran",
+      "body": "The Revolutionary Guards claim they destroyed a US early-warning radar in Bahrain, and the claim is unconfirmed. Trump moved Vance off Iran talks, saying a deal is unnecessary. [[TAG:danger:escalation risk]]"
+    },
+    {
+      "label": "Ukraine",
+      "body": "After the envoys met Putin, Witkoff and Zelensky say Europeans will join the next round of talks. The Kremlin played that down, and Putin rejected foreign peacekeepers. [[TAG:warning:no date set]]"
+    },
+    {
+      "label": "Washington",
+      "body": "Chris Van Hollen launched a challenge to Chuck Schumer for Senate Democratic leader ahead of a December 1 vote. [[TAG:info:leadership fight]]"
+    },
+    {
+      "label": "New York",
+      "body": "A building collapse in Brooklyn killed eight people, including two children. The cause is under investigation. [[TAG:danger:8 dead]]"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Nvidia After Huang",
+      "icon": "💼",
+      "summary": "Founder resigns as CEO and director; CFO Kress steps in as Congress summons Huang",
+      "paragraphs": [
+        {
+          "heading": "Resignation",
+          "body": "Nvidia said in a press release and SEC filing that Jensen Huang resigned as president, CEO and board member, effective immediately. CFO Colette Kress becomes interim CEO and Harvey Jones becomes the board's first chair. The board is searching for a permanent CEO and will consider internal and external candidates. NPR tied the exit to the scandal over Huang's relationship with a businesswoman alleged to be a Chinese spy. The 8-K dates the board's acceptance to November 11, while the release is dated November 12. [[TAG:danger:founder exits]]"
+        },
+        {
+          "heading": "Interim CEO",
+          "body": "Reuters, via Investing.com, reported that Nvidia shares fell as much as 14% on Thursday before closing down 4.3%. Yahoo Finance reported that analysts generally welcomed Kress as a stabilizing choice. Some, including Dan Ives, expect the board to look outside for a permanent CEO. Kress remains CFO and will present Tuesday's earnings report. [[TAG:warning:earnings Tuesday]]"
+        },
+        {
+          "heading": "Congress",
+          "body": "CBS News and CNN reported that Republican committee chairs asked Huang and Commerce Secretary Howard Lutnick to testify on chip exports to China, and threatened subpoenas. Three House committees asked Huang for a closed-door interview on December 1. Engadget reported that Huang is set to testify, while other outlets said his decision was still pending. Fortune reported that Megaspeed, the company linked to the woman at the center of the scandal, is under investigation for allegedly smuggling Nvidia chips into China, which it denies. [[TAG:info:testimony sought]]"
+        }
+      ],
+      "sources": "Nvidia, SEC, NPR, CNN, Investing.com (Reuters), Yahoo Finance, CBS News, Engadget, Fortune",
+      "citations": [
+        {
+          "outlet": "Nvidia",
+          "title": "NVIDIA Corporation - NVIDIA Announces CEO Transition",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/"
+        },
+        {
+          "outlet": "SEC",
+          "title": "NVIDIA CORP - Form 8-K - FY2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6037833/jensen-huang-nvidia-stepped-down"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Nvidia CEO Jensen Huang resigns: Live updates",
+          "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html"
+        },
+        {
+          "outlet": "Investing.com (Reuters)",
+          "title": "Colette Kress, the CFO who challenged Huang’s bets, is Nvidia’s interim CEO By Reuters",
+          "url": "https://www.investing.com/news/stock-market-news/colette-kress-the-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-5023936"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Nvidia CFO solid pick for interim CEO, but company outlook is clouded, Wall Street says",
+          "url": "https://finance.yahoo.com/technology/article/nvidia-cfo-solid-pick-for-interim-ceo-but-company-outlook-is-clouded-wall-street-says-181415153.html"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "GOP lawmakers push Jensen Huang and Howard Lutnick to appear before Congress amid Nvidia controversy - CBS News",
+          "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-congress-testify/"
+        },
+        {
+          "outlet": "CNN",
+          "title": "Jensen Huang summoned to testify before Congress after resigning as Nvidia CEO",
+          "url": "https://edition.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout"
+        },
+        {
+          "outlet": "Engadget",
+          "title": "Ex-NVIDIA CEO Jensen Huang is set to testify before Congress this month - Engadget",
+          "url": "https://www.engadget.com/2315091/ex-nvidia-ceo-jensen-huang-is-set-to-testify-before-congress-this-month/"
+        },
+        {
+          "outlet": "Fortune",
+          "title": "2 scandals, 1 destination—Why Nvidia can’t shake China smuggling allegations",
+          "url": "http://fortune.com/2026/11/10/2-scandals-1-destination-why-nvidia-cant-shake-china-smuggling-allegations/"
+        }
+      ]
+    },
+    {
+      "title": "Iran: The Lull Frays",
+      "icon": "🛢️",
+      "summary": "Guards claim a hit on a US radar in Bahrain; Trump sidelines Vance and says no deal needed",
+      "paragraphs": [
+        {
+          "heading": "Bahrain Claim",
+          "body": "Al Jazeera and The New Arab reported that Iran's Revolutionary Guards claim to have struck and destroyed a US early-warning radar in Bahrain, home to the US Fifth Fleet. Bahrain and the United States had not immediately confirmed the strike. The Jerusalem Post said the Guards framed it as retaliation for an attack on a telecom tower in Sirik, near the Strait of Hormuz. Reports said it is the first such claim against US assets in a Gulf state since early September. [[TAG:danger:unconfirmed strike]]"
+        },
+        {
+          "heading": "Washington's Signals",
+          "body": "Iran International reported that Trump told Vice President Vance to shift his focus away from Iran talks and said Washington no longer needs a deal. Israel National News reported that Trump said he could strike again without hesitation. Israel's Kan, cited by APA and World Israel News, reported that US Central Command told the Israeli military to prepare for possible renewed fighting. CENTCOM reportedly called those reports speculation. [[TAG:warning:mixed signals]]"
+        },
+        {
+          "heading": "Oil",
+          "body": "investingLive reported Brent near $95-96 on Friday, after an early jump of about 3%. Traders appeared to be waiting for confirmation of the Bahrain claim before adding more risk premium. [[TAG:warning:Brent near $95]]"
+        }
+      ],
+      "sources": "Al Jazeera, The New Arab, Jerusalem Post, Iran International, Israel National News, APA, World Israel News, investingLive",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran says it targeted US radar site in Bahrain",
+          "url": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain"
+        },
+        {
+          "outlet": "The New Arab",
+          "title": "Iran says it hit US radar station in Bahrain, diplomats scramble to avert war",
+          "url": "https://www.newarab.com/news/iran-says-it-hit-us-radar-station-bahrain"
+        },
+        {
+          "outlet": "Jerusalem Post",
+          "title": "Iran claims strike on US radar in Bahrain retaliation for Sirik telecom attack",
+          "url": "https://www.jpost.com/middle-east/iran-news/article-914794"
+        },
+        {
+          "outlet": "Iran International",
+          "title": "Iran’s Revolutionary Guards say they hit US early-warning radar in Bahrain",
+          "url": "https://www.iranintl.com/en/202611137770"
+        },
+        {
+          "outlet": "Iran International",
+          "title": "Trump shifts Vance away from Iran talks, says deal unnecessary",
+          "url": "https://www.iranintl.com/en/202611129077"
+        },
+        {
+          "outlet": "Israel National News",
+          "title": "Trump warns he could strike Iran again with no hesitation",
+          "url": "https://www.israelnationalnews.com/news/436115"
+        },
+        {
+          "outlet": "APA",
+          "title": "US warns Israeli military to prepare for possible resumption of war against Iran",
+          "url": "https://en.apa.az/america/us-warns-israeli-military-to-prepare-for-possible-resumption-of-war-against-iran-535853"
+        },
+        {
+          "outlet": "World Israel News",
+          "title": "US military warns Israel to prepare for another war with Iran",
+          "url": "https://worldisraelnews.com/us-military-warns-israel-to-prepare-for-renewed-war-against-iran/"
+        },
+        {
+          "outlet": "investingLive",
+          "title": "Iran’s Guards claim strike on US radar in Bahrain, warn firms over Hormuz oil trade",
+          "url": "https://investinglive.com/commodities/iran-s-guards-claim-strike-on-us-radar-in-bahrain-warn-firms-over-hormuz-oil-trade/"
+        }
+      ]
+    },
+    {
+      "title": "Ukraine: Europe at the Table?",
+      "icon": "🕊️",
+      "summary": "Witkoff says a new round with Europeans is agreed; Kremlin downplays it; drone hits Baltic warship",
+      "paragraphs": [
+        {
+          "heading": "Moscow",
+          "body": "Time and The Moscow Times reported that Witkoff and Kushner met Putin on Thursday and that Witkoff said a new round of trilateral talks was agreed. Kremlin aide Yuri Ushakov confirmed the talks would continue but appeared to play down Witkoff's statement that Europeans would take part. Azat TV and other outlets reported that Putin again rejected foreign peacekeeping troops in Ukraine and that the territorial deadlock persists. Ushakov said Putin will discuss Ukraine with Trump at the APEC summit. [[TAG:warning:deadlock persists]]"
+        },
+        {
+          "heading": "Dublin",
+          "body": "The Irish Times and Kyiv Independent reported that the envoys then met Zelensky at Casement Aerodrome near Dublin. Zelensky said European representatives would sit on the negotiating team directly in the next round, and that an upcoming prisoner exchange would be the largest yet. No date or venue has been announced. [[TAG:info:largest swap ahead]]"
+        },
+        {
+          "heading": "Baltic Strike",
+          "body": "Yahoo News and Army Recognition reported that a Ukrainian drone hit the Russian Buyan-M corvette Naro-Fominsk in the Gulf of Finland during an SBU operation against the Ust-Luga oil terminal. It was reportedly the first such attack on a Russian warship in the Baltic. Finnish officials confirmed an explosion aboard but said they could not determine who was responsible. The ship reportedly sailed to Kronstadt under its own power. [[TAG:danger:war widens north]]"
+        }
+      ],
+      "sources": "Time, Moscow Times, Azat TV, Irish Times, Kyiv Independent, CBC, Yahoo News, Army Recognition",
+      "citations": [
+        {
+          "outlet": "Time",
+          "title": "Trump Envoys Witkoff and Kushner Meet With Putin in Moscow for Ukraine Talks",
+          "url": "https://time.com/article/2026/11/12/ukraine-russia-peace-deal-talks-putin-zelensky-witkoff-kushner/"
+        },
+        {
+          "outlet": "Moscow Times",
+          "title": "U.S. Envoy Says New Round of Talks Agreed After Kremlin Meeting - The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/12/us-envoy-says-new-round-of-talks-agreed-after-kremlin-meeting-a94236"
+        },
+        {
+          "outlet": "Azat TV",
+          "title": "Kushner and Witkoff Conclude Moscow Talks as Territorial Deadlock Persists",
+          "url": "https://azat.tv/en/kushner-witkoff-moscow-ukraine-talks-analysis/"
+        },
+        {
+          "outlet": "Irish Times",
+          "title": "Zelenskiy says Europe to be included in Ukraine peace talks as he meets US envoys in Dublin",
+          "url": "https://www.irishtimes.com/politics/2026/11/12/eu-meetings-dublin-road-closures-traffic-disruption-latest/"
+        },
+        {
+          "outlet": "Kyiv Independent",
+          "title": "Zelensky meets with Trump's envoys in Dublin after their summit with Putin",
+          "url": "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/"
+        },
+        {
+          "outlet": "CBC",
+          "title": "U.S. envoys talk to Zelenskyy in Dublin, after prior sitdown with Putin in Moscow",
+          "url": "https://www.cbc.ca/news/world/us-witkoff-kushner-putin-zelenskyy-talks-9.7418799"
+        },
+        {
+          "outlet": "Yahoo News",
+          "title": "Ukrainian drone strikes Russian warship in Gulf of Finland",
+          "url": "https://www.yahoo.com/news/world/articles/ukrainian-drone-strikes-russian-warship-010415039.html"
+        },
+        {
+          "outlet": "Army Recognition",
+          "title": "Ukraine launches first drone attack on Russian warship in Baltic Sea against Buyan-M corvette Naro-Fominsk",
+          "url": "https://www.armyrecognition.com/focus-analysis-conflicts/army/conflicts-in-the-world/russia-ukraine-war-2022/ukraine-launches-first-drone-attack-on-russian-warship-in-baltic-sea-against-buyan-m-corvette-naro-fominsk"
+        }
+      ]
+    },
+    {
+      "title": "United States",
+      "icon": "🇺🇸",
+      "summary": "Van Hollen challenges Schumer before a Dec. 1 vote; Brooklyn collapse kills eight",
+      "paragraphs": [
+        {
+          "heading": "Leadership Fight",
+          "body": "CNN and CBS News reported that Sen. Chris Van Hollen will challenge Chuck Schumer for Senate Democratic leader in a secret-ballot election on December 1. Reports said Van Hollen claims 'more than 10' senators back him, and that Bernie Sanders endorsed him. Schumer said he has the votes. Newsweek reported that at least six incoming senators have said they will not back Schumer. [[TAG:info:Dec 1 vote]]"
+        },
+        {
+          "heading": "Brooklyn Collapse",
+          "body": "NBC News and CBS New York reported that a three-story building on Flatbush Avenue in Brooklyn collapsed on Wednesday afternoon, killing eight people and injuring at least 17. ABC News reported that the dead include two children, aged 9 and 10. Search and rescue has ended, and officials have not said what caused the collapse. [[TAG:danger:cause unknown]]"
+        },
+        {
+          "heading": "Markets",
+          "body": "Yahoo Finance data show the Dow fell 0.36%, the S&P 500 0.35% and the Nasdaq 0.39% on Thursday. Trading Economics cited Nvidia's leadership crisis and a rise in oil that pushed up Treasury yields. investingLive said on Friday that Fed rate-hike bets were rippling through Asia, with the US 10-year yield near 5.1%. [[TAG:warning:yields climb]]"
+        }
+      ],
+      "sources": "CNN, CBS News, Axios, Newsweek, NBC News, CBS New York, ABC News, Yahoo Finance, Trading Economics, investingLive",
+      "citations": [
+        {
+          "outlet": "CNN",
+          "title": "Chris Van Hollen launches challenge against Chuck Schumer to lead Senate Democrats",
+          "url": "https://www.cnn.com/2026/11/12/politics/chris-van-hollen-chuck-schumer-senate-democratic-leader"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader - CBS News",
+          "url": "https://www.cbsnews.com/news/chris-van-hollen-challenge-chuck-schumer-senate-majority-leader-democrat/"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Chris Van Hollen to challenge Schumer for Senate majority leader",
+          "url": "https://www.axios.com/2026/11/13/schumer-van-hollen-senate-majority-leader"
+        },
+        {
+          "outlet": "Newsweek",
+          "title": "Chuck Schumer’s Future in Doubt as Momentum Grows for Chris Van Hollen - Newsweek",
+          "url": "https://www.newsweek.com/chuck-schumer-chris-van-hollen-senate-majority-leader-challenge-12687780"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "8 dead, at least 17 hurt in New York City building collapse, authorities say",
+          "url": "https://www.nbcnews.com/news/us-news/new-york-brooklyn-building-collapse-rcna608909"
+        },
+        {
+          "outlet": "CBS New York",
+          "title": "At least 8 killed, 17 hurt in Brooklyn building collapse, officials say - CBS New York",
+          "url": "https://www.cbsnews.com/newyork/news/brooklyn-building-collapse-bedford-avenue/"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "What we know about victims of deadly Brooklyn building collapse - ABC News",
+          "url": "https://abcnews.com/US/victims-deadly-brooklyn-building-collapse/story?id=138098954"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Dow Jones Industrial Average (^DJI) Interactive Stock Chart - Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/%5EDJI/chart/"
+        },
+        {
+          "outlet": "Trading Economics",
+          "title": "United States Stock Market Index - Quote - Chart - Historical Data - News",
+          "url": "https://tradingeconomics.com/united-states/stock-market"
+        },
+        {
+          "outlet": "investingLive",
+          "title": "investingLive Asia-Pacific market news: Fed hike bets ripple through Asia",
+          "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-fed-hike-bets-ripple-through-asia/"
+        }
+      ]
+    },
+    {
+      "title": "Israel: The Haredi Key",
+      "icon": "🏛️",
+      "summary": "Eisenkot and Liberman greenlight outreach to Haredi parties as Netanyahu warns them off",
+      "paragraphs": [
+        {
+          "heading": "Outreach",
+          "body": "The Times of Israel reported that Eisenkot and Liberman approved outreach to the Haredi parties and agreed on a Knesset speaker. Yashar's Meridor said Haredi parties are welcome if they accept Eisenkot's four principles. The Jerusalem Post said Eisenkot needs both United Torah Judaism and Shas to reach 61 seats. Military service remains the main obstacle, and Haredi sources say Shas is unlikely to negotiate at all. [[TAG:warning:draft dispute]]"
+        },
+        {
+          "heading": "Netanyahu's Warning",
+          "body": "Yahoo News reported that Netanyahu warned the Haredi parties that Eisenkot's bloc would 'use you and throw you away.' The Times of Israel noted that any new coalition may require leaders on both sides to break campaign pledges. A minority government backed from outside by Arab parties remains a fallback that the Haredi parties and Liberman reportedly oppose. [[TAG:info:61 needed]]"
+        }
+      ],
+      "sources": "Times of Israel, Yahoo News, Jerusalem Post",
+      "citations": [
+        {
+          "outlet": "Times of Israel",
+          "title": "Eisenkot, Liberman said to greenlight outreach to Haredim, reach agreement on Knesset speaker",
+          "url": "https://www.timesofisrael.com/eisenkot-liberman-said-to-greenlight-outreach-to-haredim-reach-agreement-on-knesset-speaker/"
+        },
+        {
+          "outlet": "Yahoo News",
+          "title": "Haredi parties welcome in Eisenkot-led gov't if they accept four principles, Yashar's Meridor says",
+          "url": "https://www.yahoo.com/news/politics/articles/haredi-parties-welcome-eisenkot-led-140745021.html"
+        },
+        {
+          "outlet": "Jerusalem Post",
+          "title": "Israel Election: Gadi Eisenkot faces coalition hurdles in forming next government",
+          "url": "https://www.jpost.com/israel-election-2026/article-914170"
+        },
+        {
+          "outlet": "Yahoo News",
+          "title": "'They will use you and throw you away': Netanyahu warns haredi parties away from Eisenkot-led bloc",
+          "url": "https://www.yahoo.com/news/politics/articles/throw-away-netanyahu-warns-haredi-092021725.html"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "To build new coalition amid deadlock, Eisenkot, Netanyahu and others may need to break key pledges",
+          "url": "https://www.timesofisrael.com/to-become-pm-eisenkot-and-netanyahu-may-need-to-break-key-promises/"
+        }
+      ]
+    },
+    {
+      "title": "Climate and the Sahel",
+      "icon": "🌍",
+      "summary": "COP31's '35 by 35' electrification pledge draws an Indian refusal; Burkina's jihadists clash",
+      "paragraphs": [
+        {
+          "heading": "COP31 Pledge",
+          "body": "FinChannel and The Climate Watch reported that COP31's voluntary '35 by 35' pledge aims to raise electricity to 35% of final energy use by 2035, up from roughly 20-23% today. The pledge does not require that power to be clean, which the EU has pushed for. Energy News reported that India declined to sign. A first negotiating draft is expected early next week, according to the Climate Diplomacy Brief. [[TAG:info:draft next week]]"
+        },
+        {
+          "heading": "Burkina Faso",
+          "body": "Al Jazeera reported that al-Qaeda-linked JNIM and the Islamic State's Sahel affiliate are fighting each other for territory as Burkina Faso's state loses ground. The Africa Defense Forum, citing ACLED, said the clashes are the deadliest between the groups to date. Human Rights Watch documented JNIM killings of civilians and abuses by government-aligned forces. [[TAG:danger:state losing ground]]"
+        }
+      ],
+      "sources": "FinChannel, The Climate Watch, Energy News, Climate Diplomacy Brief, Al Jazeera, Africa Defense Forum, Human Rights Watch",
+      "citations": [
+        {
+          "outlet": "FinChannel",
+          "title": "COP31 Electrification Pledge Puts 35% Global Power Target at Center of Antalya Talks - FINCHANNEL",
+          "url": "https://finchannel.com/cop31-electrification-pledge-puts-35-global-power-target-at-center-of-antalya-talks/141132/environment/2026/11/"
+        },
+        {
+          "outlet": "The Climate Watch",
+          "title": "COP31 electrification target faces scrutiny over clean power and finance",
+          "url": "https://theclimatewatch.com/cop31-electrification-target-faces-scrutiny-over-clean-power-and-finance/"
+        },
+        {
+          "outlet": "Energy News",
+          "title": "COP31: Three Days of Electrification Pact, Calls to Tax Fossil Fuels and Absences",
+          "url": "https://energynews.pro/en/cop31-three-days-of-electrification-pact-calls-to-tax-fossil-fuels-and-absences"
+        },
+        {
+          "outlet": "Climate Diplomacy Brief",
+          "title": "Climate Diplomacy Brief - COP31 day 3",
+          "url": "https://climatediplobrief.substack.com/p/climate-diplomacy-brief-cop31-day-d31"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Burkina Faso’s rival armed groups turn on each other as state loses ground",
+          "url": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground"
+        },
+        {
+          "outlet": "Africa Defense Forum",
+          "title": "Rival Terror Groups Devastate the Sahel - Africa Defense Forum",
+          "url": "https://adf-magazine.com/2026/11/rival-terror-groups-devastate-the-sahel/"
+        },
+        {
+          "outlet": "Human Rights Watch",
+          "title": "Burkina Faso: Islamist Armed Group Targets Civilians",
+          "url": "https://www.hrw.org/news/2026/11/04/burkina-faso-islamist-armed-group-targets-civilians"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "query": "Nvidia Jensen Huang board decision November 12 2026",
+      "results": [
+        {
+          "title": "NVIDIA CORP - Form 8-K - FY2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+        },
+        {
+          "title": "NVIDIA Corporation - NVIDIA Announces CEO Transition",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/"
+        },
+        {
+          "title": "NVIDIA CORP - Form 8-K - FY2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm"
+        },
+        {
+          "title": "Nvidia board to decide CEO’s future",
+          "url": "https://www.manilatimes.net/2026/11/13/business/foreign-business/nvidia-board-to-decide-ceos-future/2468353"
+        },
+        {
+          "title": "Nvidia CEO Jensen Huang resigns: Live updates",
+          "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html"
+        },
+        {
+          "title": "NVIDIA CORP - Form ARS - FY2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000038/a2026-annualxreportxwebxfi.pdf"
+        },
+        {
+          "title": "Jensen Huang summoned to testify before Congress after resigning as Nvidia CEO",
+          "url": "https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout"
+        },
+        {
+          "title": "Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6037833/jensen-huang-nvidia-stepped-down"
+        },
+        {
+          "title": "What Comes Next for NVIDIA",
+          "url": "https://time.com/article/2026/11/11/what-comes-next-for-nvidia/"
+        }
+      ]
+    },
+    {
+      "query": "Witkoff Kushner Putin Moscow meeting outcome Kremlin",
+      "results": [
+        {
+          "title": "Trump Envoys Witkoff and Kushner Meet With Putin in Moscow for Ukraine Talks",
+          "url": "https://time.com/article/2026/11/12/ukraine-russia-peace-deal-talks-putin-zelensky-witkoff-kushner/"
+        },
+        {
+          "title": "After talks with Putin, Witkoff announces a new meeting between Ukraine, Russia and the U.S.",
+          "url": "https://news.liga.net/en/politics/news/after-meeting-with-putin-witkoff-announced-a-new-meeting-between-ukraine-russia-and-the-united-states-it-is-unclear-with-the-europeans"
+        },
+        {
+          "title": "U.S. Envoy Says New Round of Talks Agreed After Kremlin Meeting - The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/12/us-envoy-says-new-round-of-talks-agreed-after-kremlin-meeting-a94236"
+        },
+        {
+          "title": "Witkoff and Kushner left the Kremlin after talks with Putin",
+          "url": "https://unn.ua/en/news/witkoff-and-kushner-left-the-kremlin-after-talks-with-putin"
+        },
+        {
+          "title": "Remarkable Video - Kremlin Allows Media to Record 30 Minutes of Discussion Between Putin, Witkoff and Kushner. - The Last Refuge",
+          "url": "https://theconservativetreehouse.com/blog/2026/11/12/remarkable-video-kremlin-allows-media-to-record-30-minutes-of-discussion-between-putin-witkoff-and-kushner/"
+        },
+        {
+          "title": "Kushner and Witkoff Conclude Moscow Talks as Territorial Deadlock Persists",
+          "url": "https://azat.tv/en/kushner-witkoff-moscow-ukraine-talks-analysis/"
+        },
+        {
+          "title": "Ukraine Peace Talks Stall as Putin Rejects Foreign Troops",
+          "url": "https://ukrainetoday.org/a-ridiculous-circus-witkoff-and-kushners-visit-to-putin-ended-without-results/"
+        },
+        {
+          "title": "Witkoff and Kushner scheduled to meet Putin in Moscow",
+          "url": "https://www.foxnews.com/politics/witkoff-kushner-scheduled-meet-putin-moscow.amp"
+        },
+        {
+          "title": "no ukraine peace deal after lengthy five hour putin witkoff kushner meeting",
+          "url": "https://www.foxnews.com/world/no-ukraine-peace-deal-after-lengthy-five-hour-putin-witkoff-kushner-meeting"
+        },
+        {
+          "title": "witkoff kushner meet with putin for talks to end war 1764718443",
+          "url": "https://video.wedu.org/video/witkoff-kushner-meet-with-putin-for-talks-to-end-war-1764718443"
+        }
+      ]
+    },
+    {
+      "query": "world news November 13 2026",
+      "results": [
+        {
+          "title": "Friday morning news: November 13, 2026",
+          "url": "https://wng.org/podcasts/friday-morning-news-november-13-2026-1794509912"
+        },
+        {
+          "title": "The World Today (TV news programme)",
+          "url": "https://en.wikipedia.org/wiki/The_World_Today_(TV_news_programme)"
+        },
+        {
+          "title": "Latest news bulletin",
+          "url": "https://www.inkl.com/news/latest-news-bulletin-november-13th-2026-morning"
+        },
+        {
+          "title": "Global News, 13 Nov 2026: Hour by Hour",
+          "url": "https://newscura.com/global/timeline/2026-11-13"
+        },
+        {
+          "title": "10 Things Global News - 13th November 2026",
+          "url": "https://www.10things.news/p/10-things-global-news-13th-november-797"
+        },
+        {
+          "title": "TODAY'S NEWS, Weekend Edition, November 13-16, 2024",
+          "url": "https://larrys.substack.com/p/todays-news-weekend-edition-november"
+        },
+        {
+          "title": "top stories",
+          "url": "https://www.euronews.com/tag/top-stories?p=8"
+        },
+        {
+          "title": "top stories",
+          "url": "https://euronews.com/tag/top-stories?p=5"
+        },
+        {
+          "title": "world news",
+          "url": "https://www.euronews.com/tag/world-news?p=7"
+        }
+      ]
+    },
+    {
+      "query": "stock market November 12 2026 close Dow Nasdaq",
+      "results": [
+        {
+          "title": "Dow Jones Industrial Average (^DJI) Interactive Stock Chart - Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/%5EDJI/chart/"
+        },
+        {
+          "title": "October 27, 1997, mini-crash",
+          "url": "https://en.wikipedia.org/wiki/October_27,_1997,_mini-crash"
+        },
+        {
+          "title": "Stock Market Data",
+          "url": "https://edition.cnn.com/markets"
+        },
+        {
+          "title": "US stocks closed lower; Technology lags while Financials and Communication Services lead",
+          "url": "https://247wallst.com/cards/us-stocks-closed-lower-technology-lags-while-financials-and-communication-servic-spy-market-explainer-01m73qyjzbtvqd6e7bax73kfa0"
+        },
+        {
+          "title": "Nasdaq 100 Turns Green Despite Nvidia's 5% Drop on Huang Exit - Apple (NASDAQ:AAPL) - Benzinga",
+          "url": "https://benzinga.com/markets/equities/26/11/63210863/stock-market-today-nvidia-huang-exit-amd-broadcom-rally"
+        },
+        {
+          "title": "United States Stock Market Index - Quote - Chart - Historical Data - News",
+          "url": "https://tradingeconomics.com/united-states/stock-market"
+        },
+        {
+          "title": "US Stocks Edge Down as Nasdaq Leads Losses at Tuesday's Close · Business Upturn",
+          "url": "https://businessupturn.com/usa/money/us-markets/us-stocks-edge-down-as-nasdaq-leads-losses-at-tuesdays-close/"
+        },
+        {
+          "title": "nasdaq s dow inches up",
+          "url": "https://www.newsonair.gov.in/nasdaq-s-dow-inches-up"
+        },
+        {
+          "title": "stock market today stocks sag 142325638",
+          "url": "https://finance.yahoo.com/news/stock-market-today-stocks-sag-142325638.html"
+        }
+      ]
+    },
+    {
+      "query": "US warns Israel prepare renewed fighting Iran Vance withdrawn negotiations",
+      "results": [
+        {
+          "title": "Al Hadath reports Israel preparing for possible renewed Iran fighting within days",
+          "url": "https://www.iranintl.com/en/202611012082"
+        },
+        {
+          "title": "Trump shifts Vance away from Iran talks, says deal unnecessary",
+          "url": "https://www.iranintl.com/en/202611129077"
+        },
+        {
+          "title": "Trump warns he could strike Iran again with no hesitation",
+          "url": "https://www.israelnationalnews.com/news/436115"
+        },
+        {
+          "title": "Report: US warns Israel of imminent possibility of renewed Iran fighting",
+          "url": "https://www.israelnationalnews.com/news/436107"
+        },
+        {
+          "title": "US warns Israeli military to prepare for possible resumption of war against Iran",
+          "url": "https://en.apa.az/america/us-warns-israeli-military-to-prepare-for-possible-resumption-of-war-against-iran-535853"
+        },
+        {
+          "title": "US military warns Israel to prepare for another war with Iran",
+          "url": "https://worldisraelnews.com/us-military-warns-israel-to-prepare-for-renewed-war-against-iran/"
+        },
+        {
+          "title": "Israel's Government in Transition: No Plans for Iran Strike but US CENTCOM Urges Prep for Renewed Fight",
+          "url": "https://cbn.com/news/israel/israels-government-transition-no-plans-iran-strike-us-centcom-urges-prep-renewed-fight"
+        },
+        {
+          "title": "Washington asks Israel to prepare for possible resumption of war with Iran -ANHA",
+          "url": "https://hawarnews.com/en/washington-asks-israel-to-prepare-for-possible-resumption-of-war-with-iran"
+        },
+        {
+          "title": "Vance warns Iran that 'another option on the table' if nuclear deal not reached",
+          "url": "https://www.foxnews.com/politics/vance-warns-iran-another-option-table-nuclear-deal-not-reached.amp"
+        }
+      ]
+    },
+    {
+      "query": "Jensen Huang testify Congress subpoena Megaspeed chip smuggling investigation",
+      "results": [
+        {
+          "title": "Congress Summons Ex-Nvidia CEO Jensen Huang, Lutnick Over Chip Exports to China",
+          "url": "https://www.yahoo.com/news/politics/articles/congress-summons-ex-nvidia-ceo-105554944.html"
+        },
+        {
+          "title": "GOP lawmakers push Jensen Huang and Howard Lutnick to appear before Congress amid Nvidia controversy - CBS News",
+          "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-congress-testify/"
+        },
+        {
+          "title": "Ex-NVIDIA CEO Jensen Huang is set to testify before Congress this month - Engadget",
+          "url": "https://www.engadget.com/2315091/ex-nvidia-ceo-jensen-huang-is-set-to-testify-before-congress-this-month/"
+        },
+        {
+          "title": "Jensen Huang summoned to testify before Congress after resigning as Nvidia CEO",
+          "url": "https://edition.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout"
+        },
+        {
+          "title": "Congress Is Reportedly Gearing Up To Subpoena Nvidia's Jensen Huang Over Alleged Chinese Spy Links",
+          "url": "https://stocktwits.com/news-articles/markets/equity/congress-is-reportedly-gearing-up-to-subpoena-nvidia-s-jensen-huang/cNGxGhdR995"
+        },
+        {
+          "title": "2 scandals, 1 destination—Why Nvidia can’t shake China smuggling allegations",
+          "url": "http://fortune.com/2026/11/10/2-scandals-1-destination-why-nvidia-cant-shake-china-smuggling-allegations/"
+        },
+        {
+          "title": "Lawmakers seek Huang, Lutnick testimony on Nvidia security questions",
+          "url": "https://streamlinefeed.co.ke/news/lawmakers-seek-huang-lutnick-testimony-on-nvidia-security-questions"
+        },
+        {
+          "title": "Congress Summons Ex-Nvidia CEO Jensen Huang and Lutnick Over Chip Exports to China",
+          "url": "https://www.bitbase.com/news/congress-summons-ex-nvidia-ceo-jensen-huang-lutnick-over-chip-exports-to-china"
+        },
+        {
+          "title": "December 11, 2025",
+          "url": "https://www.banking.senate.gov/newsroom/minority/on-senate-floor-warren-raises-concerns-about-donald-trumps-potentially-muzzling-department-of-justice-on-risks-of-sending-h200-chips-to-china"
+        },
+        {
+          "title": "megaspeed investigated by u s officials over ties to china ny times reports thefly",
+          "url": "https://www.tipranks.com/news/the-fly/megaspeed-investigated-by-u-s-officials-over-ties-to-china-ny-times-reports-thefly"
+        }
+      ]
+    },
+    {
+      "query": "New York building collapse eight killed",
+      "results": [
+        {
+          "title": "8 dead, at least 17 hurt in New York City building collapse, authorities say",
+          "url": "https://www.nbcnews.com/news/us-news/new-york-brooklyn-building-collapse-rcna608909"
+        },
+        {
+          "title": "Investigation into deadly New York building collapse widens as rescuers complete search for survivors",
+          "url": "https://www.cnn.com/2026/11/11/us/live-news/brooklyn-building-collapse-nyc"
+        },
+        {
+          "title": "What we know about victims of deadly Brooklyn building collapse - ABC News",
+          "url": "https://abcnews.com/US/victims-deadly-brooklyn-building-collapse/story?id=138098954"
+        },
+        {
+          "title": "Rescue operations end after Brooklyn building collapse that killed 8, investigation ongoing",
+          "url": "https://www.cbsnews.com/newyork/live-updates/brooklyn-building-collapse-search-survivors/"
+        },
+        {
+          "title": "At least 8 killed, 17 hurt in Brooklyn building collapse, officials say - CBS New York",
+          "url": "https://www.cbsnews.com/newyork/news/brooklyn-building-collapse-bedford-avenue/"
+        },
+        {
+          "title": "Recap: Death toll rises in Brooklyn building collapse",
+          "url": "https://www.nbcnewyork.com/news/local/live-blog-partial-building-collapse-in-nyc-rescue-crews-on-scene/6570695/"
+        },
+        {
+          "title": "New York gas blast death toll rises to eight",
+          "url": "https://newsinfo.inquirer.net/585517/new-york-gas-blast-death-toll-rises-to-eight/amp"
+        },
+        {
+          "title": "New York gas blast death toll rises to eight | Inquirer News",
+          "url": "https://newsinfo.inquirer.net/585517/new-york-gas-blast-death-toll-rises-to-eight"
+        },
+        {
+          "title": "At least one dead, 5 injured in New York building collapse | Inquirer News",
+          "url": "https://newsinfo.inquirer.net/1758283/at-least-one-dead-5-injured-in-new-york-building-collapse"
+        }
+      ]
+    },
+    {
+      "query": "Ukrainian drone strikes Russian warship Baltic",
+      "results": [
+        {
+          "title": "Ukrainian drone strikes Russian warship in Gulf of Finland",
+          "url": "https://www.yahoo.com/news/world/articles/ukrainian-drone-strikes-russian-warship-010415039.html"
+        },
+        {
+          "title": "2026 Ukrainian drone incursions into the Baltic states",
+          "url": "https://en.wikipedia.org/wiki/2026_Ukrainian_drone_incursions_into_the_Baltic_states"
+        },
+        {
+          "title": "Ukraine strikes Russian corvette in Gulf of Finland, heightening tensions in the Baltic Sea : Global : JKN",
+          "url": "https://news.jkn.co.kr/editions/english/post/1090640"
+        },
+        {
+          "title": "Russian warship hit by Ukrainian drone in Gulf of Finland - Latest News from Saudi Arabia and the World",
+          "url": "https://saudigazette.com.sa/article/666218/world/russian-warship-hit-by-ukrainian-drone-in-gulf-of-finland"
+        },
+        {
+          "title": "Ukraine launches first drone attack on Russian warship in Baltic Sea against Buyan-M corvette Naro-Fominsk",
+          "url": "https://www.armyrecognition.com/focus-analysis-conflicts/army/conflicts-in-the-world/russia-ukraine-war-2022/ukraine-launches-first-drone-attack-on-russian-warship-in-baltic-sea-against-buyan-m-corvette-naro-fominsk"
+        },
+        {
+          "title": "Russian missile ship damaged in suspected Ukrainian drone attack in Gulf of Finland",
+          "url": "https://sana.sy/en/international/2358290/"
+        },
+        {
+          "title": "russian ballistic missile strikes port infrastructure in odesa ukrainian drones hit russian warship okhotnik",
+          "url": "https://www.newsonair.gov.in/russian-ballistic-missile-strikes-port-infrastructure-in-odesa-ukrainian-drones-hit-russian-warship-okhotnik"
+        },
+        {
+          "title": "Watch: Ukraine sinks Russian warship in Black Sea drone strike",
+          "url": "https://news.yahoo.com/watch-ukraine-sinks-russian-warship-151517140.html"
+        },
+        {
+          "title": "Ukraine says it hit a Russian missile ship with flying explosive-packed drones",
+          "url": "https://www.yahoo.com/news/articles/ukraine-says-hit-russian-missile-190300723.html"
+        }
+      ]
+    },
+    {
+      "query": "Eisenkot coalition Haredi Arab parties November 12 2026",
+      "results": [
+        {
+          "title": "Israel Election: Gadi Eisenkot faces coalition hurdles in forming next government",
+          "url": "https://www.jpost.com/israel-election-2026/article-914170"
+        },
+        {
+          "title": "Arab Parties May Unite Behind Eisenkot to End Netanyahu Rule - The Jewish Independent",
+          "url": "https://thejewishindependent.com.au/arab-leaders-aim-oust-netanyahu/"
+        },
+        {
+          "title": "Israel Election: Gadi Eisenkot may get the mandate, but haredi parties hold the key",
+          "url": "https://www.jpost.com/israel-election-2026/article-913674"
+        },
+        {
+          "title": "To build new coalition amid deadlock, Eisenkot, Netanyahu and others may need to break key pledges",
+          "url": "https://www.timesofisrael.com/to-become-pm-eisenkot-and-netanyahu-may-need-to-break-key-promises/"
+        },
+        {
+          "title": "Haredi parties welcome in Eisenkot-led gov't if they accept four principles, Yashar's Meridor says",
+          "url": "https://www.yahoo.com/news/politics/articles/haredi-parties-welcome-eisenkot-led-140745021.html"
+        },
+        {
+          "title": "Eisenkot, Liberman said to greenlight outreach to Haredim, reach agreement on Knesset speaker",
+          "url": "https://www.timesofisrael.com/eisenkot-liberman-said-to-greenlight-outreach-to-haredim-reach-agreement-on-knesset-speaker/"
+        },
+        {
+          "title": "'They will use you and throw you away': Netanyahu warns haredi parties away from Eisenkot-led bloc",
+          "url": "https://www.yahoo.com/news/politics/articles/throw-away-netanyahu-warns-haredi-092021725.html"
+        },
+        {
+          "title": "2026 Israeli legislative election",
+          "url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election"
+        },
+        {
+          "title": "National camp",
+          "url": "https://en.wikipedia.org/wiki/National_camp"
+        }
+      ]
+    },
+    {
+      "query": "Van Hollen challenge Schumer majority leader Senate Democrats",
+      "results": [
+        {
+          "title": "Chris Van Hollen launches challenge against Chuck Schumer to lead Senate Democrats",
+          "url": "https://www.cnn.com/2026/11/12/politics/chris-van-hollen-chuck-schumer-senate-democratic-leader"
+        },
+        {
+          "title": "Chris Van Hollen to challenge Schumer for Senate majority leader",
+          "url": "https://www.axios.com/2026/11/13/schumer-van-hollen-senate-majority-leader"
+        },
+        {
+          "title": "Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader - CBS News",
+          "url": "https://www.cbsnews.com/news/chris-van-hollen-challenge-chuck-schumer-senate-majority-leader-democrat/"
+        },
+        {
+          "title": "Chris Van Hollen officially challenges Chuck Schumer to lead Senate Democrats",
+          "url": "https://www.yahoo.com/news/politics/articles/chris-van-hollen-officially-challenges-025206357.html"
+        },
+        {
+          "title": "Chuck Schumer’s Future in Doubt as Momentum Grows for Chris Van Hollen - Newsweek",
+          "url": "https://www.newsweek.com/chuck-schumer-chris-van-hollen-senate-majority-leader-challenge-12687780"
+        },
+        {
+          "title": "Van Hollen Will Challenge Chuck Schumer For Senate Majority Leader, Deepening Rifts In The Democratic Party",
+          "url": "https://www.ibtimes.com/van-hollen-challenges-schumer-senate-leader-3809710"
+        },
+        {
+          "title": "Chris Van Hollen",
+          "url": "https://en.wikipedia.org/wiki/Chris_Van_Hollen"
+        },
+        {
+          "title": "Axios Hill Leaders",
+          "url": "https://www.axios.com/newsletters/axios-hill-leaders-93df7690-c3e8-11f0-86c8-3b8ff613dcd9.html"
+        },
+        {
+          "title": "Top House Dem Van Hollen Will Run for Senate",
+          "url": "https://www.nbcnews.com/politics/elections/top-house-dem-van-hollen-will-run-senate-n317536"
+        }
+      ]
+    },
+    {
+      "query": "Asian markets Friday November 13 2026 Nikkei oil",
+      "results": [
+        {
+          "title": "investingLive Asia-Pacific market news: Fed hike bets ripple through Asia",
+          "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-fed-hike-bets-ripple-through-asia/"
+        },
+        {
+          "title": "Asian stocks steady as Nikkei gains 1.4%, Hang Seng slips on Nvidia leadership fallout",
+          "url": "https://investinglive.com/stock-market-update/asian-stocks-steady-as-nikkei-gains-1-4-hang-seng-slips-on-nvidia-leadership-fallout/"
+        },
+        {
+          "title": "Asian shares are mixed as investors assess impact of Nvidia's fallout on global AI development - The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/investing/markets/indices/TXLV/pressreleases/8814505/asian-shares-are-mixed-as-investors-assess-impact-of-nvidia-s-fallout-on-global-ai-development/"
+        },
+        {
+          "title": "Asia Markets Today: Nikkei Up 0.77%, ASX 200 Down 0.81% — JournalArta Global",
+          "url": "https://journalarta.com/en/2026/11/13/asia-markets-today-nikkei-rises-0-77-to-61719-25-as-asx-200-slips-0-81-and-oil-climbs/"
+        },
+        {
+          "title": "Asia Stock Markets Today: Nikkei, Hang Seng, Shanghai & KOSPI",
+          "url": "https://liveworldmarket.com/asia-stock-market-dashboard"
+        },
+        {
+          "title": "asian stock market nikkei soars on positive market mood dxy turns subdued oil eyes 8500 202210040548",
+          "url": "https://www.fxstreet.com/news/asian-stock-market-nikkei-soars-on-positive-market-mood-dxy-turns-subdued-oil-eyes-8500-202210040548"
+        },
+        {
+          "title": "asian stock market nikkei extends rally despite volatility in sp500 futures oil rebounds from 8000 202301250450",
+          "url": "https://www.fxstreet.com/amp/news/asian-stock-market-nikkei-extends-rally-despite-volatility-in-sp500-futures-oil-rebounds-from-8000-202301250450"
+        },
+        {
+          "title": "asian stock market nikkei extends rally despite volatility in sp500 futures oil rebounds from 8000 202301250450",
+          "url": "https://www.fxstreet.com/news/asian-stock-market-nikkei-extends-rally-despite-volatility-in-sp500-futures-oil-rebounds-from-8000-202301250450"
+        },
+        {
+          "title": "Asian Stock Market: Nikkei soars on positive market mood, DXY turns subdued, oil eyes $85.00",
+          "url": "https://www.fxstreet.com/amp/news/asian-stock-market-nikkei-soars-on-positive-market-mood-dxy-turns-subdued-oil-eyes-8500-202210040548"
+        }
+      ]
+    },
+    {
+      "query": "COP31 negotiations draft text electrification finance November 12",
+      "results": [
+        {
+          "title": "Key Takeaways from the 2026 Bonn Climate Conference",
+          "url": "https://www.eesi.org/articles/view/key-takeaways-from-the-2026-bonn-climate-conference"
+        },
+        {
+          "title": "COP31 cover-text choreography - Policy - Carbon Brief Connect",
+          "url": "https://connect.carbonbrief.org/t/cop31-cover-text-choreography/131"
+        },
+        {
+          "title": "Energy boss Birol urges governments to accelerate global electrification at COP31",
+          "url": "https://www.euronews.com/2026/11/10/energy-boss-birol-urges-governments-to-accelerate-global-electrification-at-cop31"
+        },
+        {
+          "title": "COP31 Electrification Pledge Puts 35% Global Power Target at Center of Antalya Talks - FINCHANNEL",
+          "url": "https://finchannel.com/cop31-electrification-pledge-puts-35-global-power-target-at-center-of-antalya-talks/141132/environment/2026/11/"
+        },
+        {
+          "title": "COP31 electrification target faces scrutiny over clean power and finance",
+          "url": "https://theclimatewatch.com/cop31-electrification-target-faces-scrutiny-over-clean-power-and-finance/"
+        },
+        {
+          "title": "Climate Diplomacy Brief - COP31 day 3",
+          "url": "https://climatediplobrief.substack.com/p/climate-diplomacy-brief-cop31-day-d31"
+        },
+        {
+          "title": "COP31: Three Days of Electrification Pact, Calls to Tax Fossil Fuels and Absences",
+          "url": "https://energynews.pro/en/cop31-three-days-of-electrification-pact-calls-to-tax-fossil-fuels-and-absences"
+        },
+        {
+          "title": "What is COP?",
+          "url": "https://kpmg.com/tr/en/home/insights/2024/12/kpmg-cop29.html"
+        },
+        {
+          "title": "Rwanda: COP30 Negotiators Warn of Slow Progress On Critical Agenda Items",
+          "url": "https://allafrica.com/stories/202511200022.html"
+        }
+      ]
+    },
+    {
+      "query": "Iran claims strike US radar Bahrain",
+      "results": [
+        {
+          "title": "Iran says it targeted US radar site in Bahrain",
+          "url": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain"
+        },
+        {
+          "title": "Iran claims strike on US radar in Bahrain retaliation for Sirik telecom attack",
+          "url": "https://www.jpost.com/middle-east/iran-news/article-914794"
+        },
+        {
+          "title": "Iran’s Guards claim strike on US radar in Bahrain, warn firms over Hormuz oil trade",
+          "url": "https://investinglive.com/commodities/iran-s-guards-claim-strike-on-us-radar-in-bahrain-warn-firms-over-hormuz-oil-trade/"
+        },
+        {
+          "title": "Iran says it hit US radar station in Bahrain, diplomats scramble to avert war",
+          "url": "https://www.newarab.com/news/iran-says-it-hit-us-radar-station-bahrain"
+        },
+        {
+          "title": "Iran’s Revolutionary Guards say they hit US early-warning radar in Bahrain",
+          "url": "https://www.iranintl.com/en/202611137770"
+        },
+        {
+          "title": "Iran's Revolutionary Guard says it destroyed a US radar in Bahrain, and other Mideast news",
+          "url": "https://www.news4jax.com/news/world/2026/11/13/irans-revolutionary-guard-says-it-destroyed-a-us-radar-in-bahrain-and-other-mideast-news/"
+        },
+        {
+          "title": "Iran's Guards say they targeted a US early-warning radar in Bahrain",
+          "url": "https://business-standard.com/amp/world-news/iran-s-guards-say-they-targeted-a-us-early-warning-radar-in-bahrain-126111300602_1.html"
+        },
+        {
+          "title": "Iran’s Revolutionary Guards claim attack on US radar site in Bahrain - Latest News from Saudi Arabia and the World",
+          "url": "https://saudigazette.com.sa/article/666229/world/irans-revolutionary-guards-claim-attack-on-us-radar-site-in-bahrain"
+        },
+        {
+          "title": "2026 in Bahrain",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Bahrain"
+        }
+      ]
+    },
+    {
+      "query": "Zelensky Dublin Witkoff Kushner meeting Europe next round talks",
+      "results": [
+        {
+          "title": "Zelensky meets with Trump's envoys in Dublin after their summit with Putin",
+          "url": "https://www.yahoo.com/news/politics/articles/zelensky-meets-trumps-envoys-dublin-213558361.html"
+        },
+        {
+          "title": "U.S. envoys talk to Zelenskyy in Dublin, after prior sitdown with Putin in Moscow",
+          "url": "https://www.cbc.ca/news/world/us-witkoff-kushner-putin-zelenskyy-talks-9.7418799"
+        },
+        {
+          "title": "Zelensky meets with Trump's envoys in Dublin after their summit with Putin",
+          "url": "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/"
+        },
+        {
+          "title": "Zelenskiy says Europe to be included in Ukraine peace talks as he meets US envoys in Dublin",
+          "url": "https://www.irishtimes.com/politics/2026/11/12/eu-meetings-dublin-road-closures-traffic-disruption-latest/"
+        },
+        {
+          "title": "Europe to Join Ukraine Peace Talks After US-Putin Meeting",
+          "url": "https://www.kyivpost.com/post/89972"
+        },
+        {
+          "title": "Zelensky seeks ceasefire agenda as Europe joins next Ukraine talks",
+          "url": "https://streamlinefeed.co.ke/news/zelensky-seeks-ceasefire-agenda-as-europe-joins-next-ukraine-talks"
+        },
+        {
+          "title": "zelenskyy visits europe trump aide meets putin as peace efforts advance",
+          "url": "https://www.tribuneindia.com/news/world/zelenskyy-visits-europe-trump-aide-meets-putin-as-peace-efforts-advance"
+        },
+        {
+          "title": "Zelensky at Davos: Trump has exposed Europe's weakness",
+          "url": "https://www.axios.com/2026/01/22/zelensky-speech-davos-trump-putin-meeting?stream=top"
+        },
+        {
+          "title": "Add Tribune As Your Trusted Source",
+          "url": "https://www.tribuneindia.com/news/world/zelenskyy-visits-europe-trump-aide-meets-putin-as-peace-efforts-advance/amp"
+        }
+      ]
+    },
+    {
+      "query": "Nvidia Colette Kress interim CEO shares reaction analysts",
+      "results": [
+        {
+          "title": "Colette Kress, the CFO who challenged Huang’s bets, is Nvidia’s interim CEO By Reuters",
+          "url": "https://www.investing.com/news/stock-market-news/colette-kress-the-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-5023936"
+        },
+        {
+          "title": "Who is Colette Kress, Nvidia's interim CEO? Longtime exec takes top spot after Jensen Huang resigns",
+          "url": "https://finance.yahoo.com/technology/articles/colette-kress-nvidias-interim-ceo-155544177.html"
+        },
+        {
+          "title": "Colette Kress named Nvidia interim CEO as Jensen Huang's abrupt resignation raises investor concerns",
+          "url": "https://www.foxbusiness.com/markets/colette-kress-named-nvidia-interim-ceo-jensen-huangs-abrupt-resignation-raises-investor-concerns"
+        },
+        {
+          "title": "Nvidia CFO solid pick for interim CEO, but company outlook is clouded, Wall Street says",
+          "url": "https://finance.yahoo.com/technology/article/nvidia-cfo-solid-pick-for-interim-ceo-but-company-outlook-is-clouded-wall-street-says-181415153.html"
+        },
+        {
+          "title": "Nvidia CEO Jensen Huang resigns: Live updates",
+          "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html"
+        },
+        {
+          "title": "HE CALLED HER A DEER IN THE HEADLIGHTS. SHE'S NOW THE CEO",
+          "url": "https://cycledesk.substack.com/p/he-called-her-a-deer-in-the-headlights"
+        },
+        {
+          "title": "Nvidia live updates: Following Jensen Huang's resignation as CEO, allegations of a third affair emerge",
+          "url": "https://finance.yahoo.com/technology/live/nvidia-live-updates-following-jensen-huangs-resignation-as-ceo-allegations-of-a-third-affair-emerge-195535310.html"
+        },
+        {
+          "title": "Jensen Huang Resigns: Nvidia Shares Tumble as Interim CEO Kress Keeps CFO Job Before Earnings",
+          "url": "https://www.techtimes.com/articles/330561/20261112/jensen-huang-resigns-nvidia-shares-tumble-interim-ceo-kress-keeps-cfo-job-before-earnings.htm"
+        },
+        {
+          "title": "Free Trial",
+          "url": "https://www.marketbeat.com/instant-alerts/nvidia-nasdaqnvda-stock-price-down-37-on-insider-selling-2025-11-06/"
+        },
+        {
+          "title": "Free Trial",
+          "url": "https://www.marketbeat.com/instant-alerts/nvidia-corporation-nasdaqnvda-cfo-colette-kress-sells-27650-shares-2025-07-17"
+        }
+      ]
+    },
+    {
+      "query": "Burkina Faso armed groups Sahel news November 2026",
+      "results": [
+        {
+          "title": "Burkina Faso",
+          "url": "https://www.hrw.org/africa/burkina-faso"
+        },
+        {
+          "title": "Burkina Faso’s rival armed groups turn on each other as state loses ground",
+          "url": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground"
+        },
+        {
+          "title": "Burkina Faso: Islamist Armed Group Targets Civilians",
+          "url": "https://www.hrw.org/news/2026/11/04/burkina-faso-islamist-armed-group-targets-civilians"
+        },
+        {
+          "title": "Rival Terror Groups Devastate the Sahel - Africa Defense Forum",
+          "url": "https://adf-magazine.com/2026/11/rival-terror-groups-devastate-the-sahel/"
+        },
+        {
+          "title": "Conflict in the Sahel",
+          "url": "https://acleddata.com/region/conflict-sahel"
+        },
+        {
+          "title": "List of massacres in Burkina Faso",
+          "url": "https://en.wikipedia.org/wiki/List_of_massacres_in_Burkina_Faso"
+        },
+        {
+          "title": "Terrorism in Burkina Faso",
+          "url": "https://en.wikipedia.org/wiki/Terrorism_in_Burkina_Faso"
+        },
+        {
+          "title": "2025 in Burkina Faso",
+          "url": "https://en.wikipedia.org/wiki/2025_in_Burkina_Faso"
+        },
+        {
+          "title": "2021 Markoye Department attacks",
+          "url": "https://en.wikipedia.org/wiki/2021_Markoye_Department_attacks"
+        }
+      ]
+    }
+  ],
+  "fetched": [],
+  "meta": {
+    "id": "2026-11-13",
+    "generated_at": "2026-11-13T11:24:46.545Z",
+    "model": "claude-opus-5-5",
+    "via": "claude-code-routine",
+    "searches": 16,
+    "results_count": 146,
+    "cited_count": 49
+  }
+}
