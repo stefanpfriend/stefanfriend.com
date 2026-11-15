@@ -1,0 +1,1057 @@
+{
+  "date": "Sunday, November 15, 2026",
+  "edition": "CHOKEPOINTS",
+  "tldr_label": "TL;DR: The Kremlin confirms a Trump-Xi-Putin meeting, Iran strikes at Bahrain again, and the Houthis take the Bab el-Mandeb coast",
+  "tldr_bullets": [
+    {
+      "label": "APEC",
+      "body": "The Kremlin confirmed that Putin, Xi and Trump will meet in Shenzhen on November 19. Beijing has not confirmed, and Ukraine is not on the White House agenda. [[TAG:info:Nov 19]]"
+    },
+    {
+      "label": "Gulf",
+      "body": "Bahrain said it intercepted a second round of Iranian drone attacks in three days. Iran's navy claims mines set three tankers ablaze near Hormuz, which the US has not confirmed. [[TAG:danger:escalation]]"
+    },
+    {
+      "label": "Red Sea",
+      "body": "Yemeni government-aligned forces withdrew from the area overlooking the Bab el-Mandeb Strait, leaving the Houthis in control. [[TAG:danger:second chokepoint]]"
+    },
+    {
+      "label": "Alliances",
+      "body": "Turkey and Qatar signed a mutual defence pact, and the Philippines and Australia upgraded their defense arrangement. [[TAG:info:new pacts]]"
+    },
+    {
+      "label": "US",
+      "body": "A router fault triggered a nationwide FAA ground stop, only the third in US history. Treasury Secretary Bessent confirmed he moved to a military base after Iranian threats. [[TAG:warning:systems strained]]"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Shenzhen Summit Confirmed",
+      "icon": "🌐",
+      "summary": "Kremlin says the Putin-Xi-Trump meeting is set for Nov 19; China silent; Ukraine off the agenda",
+      "paragraphs": [
+        {
+          "heading": "Moscow Confirms",
+          "body": "Anadolu and Al Arabiya reported that Kremlin spokesman Dmitry Peskov said on Saturday that Putin, Xi and Trump will hold a trilateral meeting in Shenzhen on November 19, alongside the APEC summit. He called it 'extremely significant' but said any agreements could not be imposed on other nations. China has not yet confirmed the meeting. [[TAG:info:Beijing silent]]"
+        },
+        {
+          "heading": "Agenda",
+          "body": "According to the reports, the White House said the talks would cover global nuclear arms reduction and the Middle East war, but not Ukraine. Al Jazeera and CBS News described it as the first meeting of its kind. A digest on No1's Daily Digest noted that the format leaves Kyiv out. [[TAG:warning:Kyiv excluded]]"
+        }
+      ],
+      "sources": "Anadolu, Al Arabiya, Al Jazeera, CBS News, No1's Daily Digest",
+      "citations": [
+        {
+          "outlet": "Anadolu",
+          "title": "Aa",
+          "url": "https://www.aa.com.tr/en/eurasia/kremlin-says-putin-xi-trump-to-hold-trilateral-meeting-in-shenzhen-on-nov-19/4125290"
+        },
+        {
+          "outlet": "Al Arabiya",
+          "title": "Moscow confirms Trump, Xi, Putin meeting in China",
+          "url": "https://english.alarabiya.net/News/world/2026/11/15/moscow-confirms-trump-xi-putin-meeting-in-china"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump-Xi-Putin trilateral meeting at APEC: What to expect",
+          "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Trump, Putin and Xi Jinping expected to meet in first-ever trilateral of its kind, officials say - CBS News",
+          "url": "https://www.cbsnews.com/news/trump-putin-xi-jinping-meeting-china-us-russia-talks/"
+        },
+        {
+          "outlet": "No1's Daily Digest",
+          "title": "Daily digest: 2026-11-15 - No1's Daily Digest",
+          "url": "https://no1sdailydigest.substack.com/p/daily-digest-2026-11-15"
+        }
+      ]
+    },
+    {
+      "title": "Gulf and Red Sea: Pressure on the Straits",
+      "icon": "🛢️",
+      "summary": "Bahrain intercepts Iranian drones; Iran claims mined tankers; Houthis gain Bab el-Mandeb coast",
+      "paragraphs": [
+        {
+          "heading": "Bahrain Again",
+          "body": "France 24 and Dawn reported that Iran launched its second drone attack on Bahrain in three days. Bahrain's Defense Force said the drones were intercepted before reaching their targets. Kurdistan24 reported that the Revolutionary Guards claimed six drones hit a US air-defense radar at the Riffa base, without offering evidence. Bloomberg reported that Iran repeated that a path to a deal with the US remains open. [[TAG:danger:second strike in 3 days]]"
+        },
+        {
+          "heading": "Mined Tankers",
+          "body": "Anadolu and ANI reported that Iran's navy said tankers caught fire after hitting naval mines near the Strait of Hormuz. Accounts range from two to three ships. Iran said the vessels were using an unauthorized route with their tracking systems off. It did not name the ships or report casualties, and there was no independent confirmation. The US military says it has cleared the strait's routes of mines. [[TAG:warning:unconfirmed]]"
+        },
+        {
+          "heading": "Bab el-Mandeb",
+          "body": "Al-Monitor and The National reported that southern Yemeni forces aligned with the government withdrew from the Dhubab area overlooking the Bab el-Mandeb Strait, leaving the Houthis in control. The forces called it a redeployment to secure Aden. Daily Sabah reported that Saudi Arabia struck Houthi targets in response. [[TAG:danger:Red Sea risk]]"
+        },
+        {
+          "heading": "Turkey-Qatar Pact",
+          "body": "Al Jazeera and France 24 reported that Turkey and Qatar signed a mutual defence agreement in Istanbul, pledging a unified stance against any external armed attack on either country. Turkey said the pact is not aimed at any other country and is open to others, including Egypt. [[TAG:info:mutual defence]]"
+        }
+      ],
+      "sources": "France 24, Dawn, Kurdistan24, Bloomberg, Anadolu, ANI, Al-Monitor, The National, Daily Sabah, Al Jazeera",
+      "citations": [
+        {
+          "outlet": "France 24",
+          "title": "Iran claims attack on US military airbase in Bahrain - France 24",
+          "url": "https://www.france24.com/en/middle-east/20261115-iran-claims-attack-on-us-military-airbase-in-bahrain"
+        },
+        {
+          "outlet": "Dawn",
+          "title": "Blasts rattle Bahrain as Iran launches second drone attack in 3 days - World - DAWN.COM",
+          "url": "https://www.dawn.com/news/2044711/blasts-rattle-bahrain-as-iran-launches-second-drone-attack-in-3-days"
+        },
+        {
+          "outlet": "Kurdistan24",
+          "title": "IRGC Says Six Drones Targeted US Air-Defense Radar At Bahrain’s Riffa Base",
+          "url": "https://www.kurdistan24.net/en/story/953065/irgc-says-six-drones-targeted-us-air-defense-radar-at-bahrains-riffa-base"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Iran Strikes Bahrain Base, Repeats Path to US Deal Remains Open - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/iran-strikes-bahrain-base-repeats-path-to-us-deal-remains-open"
+        },
+        {
+          "outlet": "Anadolu",
+          "title": "2 oil tankers hit mines, catch fire near Strait of Hormuz: Iran's Revolutionary Guard",
+          "url": "https://aa.com.tr/en/middle-east/2-oil-tankers-hit-mines-catch-fire-near-strait-of-hormuz-irans-revolutionary-guard/4125453"
+        },
+        {
+          "outlet": "ANI",
+          "title": "Three oil tankers catch fire after hitting naval mines in Hormuz, claims Iran's Navy",
+          "url": "https://aninews.in/news/world/middle-east/three-oil-tankers-catch-fire-after-hitting-naval-mines-in-hormuz-claims-irans-navy20261115061422/"
+        },
+        {
+          "outlet": "Al-Monitor",
+          "title": "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control - AL-MONITOR: The Middle Eastʼs leading independent news source since 2012",
+          "url": "https://www.al-monitor.com/originals/2026/11/yemen-government-forces-withdraw-area-near-bab-el-mandeb-strait-houthis-control"
+        },
+        {
+          "outlet": "The National",
+          "title": "Southern Yemeni forces withdraw from area near Bab Al Mandab",
+          "url": "https://www.thenationalnews.com/news/mena/2026/11/15/southern-yemeni-forces-withdraw-from-area-near-bab-al-mandab/"
+        },
+        {
+          "outlet": "Daily Sabah",
+          "title": "Yemen govt forces' retreat leaves Bab el-Mandeb control to Houthis",
+          "url": "https://www.dailysabah.com/world/mid-east/yemen-govt-forces-retreat-leaves-bab-el-mandeb-control-to-houthis"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Turkiye and Qatar sign mutual defence agreement",
+          "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Turkey and Qatar pledge unified stance against attacks in mutual defence pact - France 24",
+          "url": "https://www.france24.com/en/middle-east/20261113-turkey-and-qatar-pledge-unified-stance-against-attacks-in-mutual-defence-pact"
+        }
+      ]
+    },
+    {
+      "title": "United States",
+      "icon": "🇺🇸",
+      "summary": "Router fault grounds all US flights for hours; Bessent confirms move to base over Iran threats",
+      "paragraphs": [
+        {
+          "heading": "Ground Stop",
+          "body": "Al Jazeera and CNN reported that the FAA halted flights nationwide on Friday afternoon after a telecommunications outage hit all 22 air route traffic control centers. The ground stop was lifted that night. Transportation Secretary Sean Duffy blamed overloaded routers in an aging system. The root cause was still under investigation as of Saturday. Reports said it was only the third nationwide ground stop in US history. [[TAG:warning:aging system]]"
+        },
+        {
+          "heading": "Bessent",
+          "body": "CBS News and The Hill reported that Treasury Secretary Scott Bessent confirmed he moved from his Washington home to a military base at the Secret Service's direction after Iranian threats against his life. He said he would not be cowed. The Hill reported that Hegseth and Rubio are also living on military bases. Iran has previously denied plotting attacks on US soil. [[TAG:danger:threats to officials]]"
+        },
+        {
+          "heading": "Iran Policy",
+          "body": "Al Jazeera analyzed how Tehran views Trump's decision to sideline Vice President Vance from talks. Iran continues to demand seven conditions with clear sequencing. Fox News reported that Trump said on Truth Social that the US no longer needs a nuclear deal. [[TAG:info:no-deal posture]]"
+        }
+      ],
+      "sources": "Al Jazeera, CNN, FAA, CBS News, The Hill, Fox News",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "FAA ground stop lifted: Why were US flights grounded, and what’s next?",
+          "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+        },
+        {
+          "outlet": "CNN",
+          "title": "November 13, 2026 — Some US flights resume after hours-long ground stop",
+          "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa"
+        },
+        {
+          "outlet": "FAA",
+          "title": "FAA Statement on Nationwide Ground Stop",
+          "url": "https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Bessent relocates from D.C.-area home to military base following Iran threats - CBS News",
+          "url": "https://www.cbsnews.com/news/bessent-relocate-dc-area-home-military-base-iran-threats-to-kill-him/"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Treasury Secretary Scott Bessent relocates to military base after Iran threats",
+          "url": "https://thehill.com/homenews/administration/6213592-bessent-moves-military-base/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "How does Iran view Trump sidelining Vance from talks?",
+          "url": "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Trump says the US no longer needs an Iran nuclear deal on Truth Social",
+          "url": "https://www.foxnews.com/politics/trump-keeps-signaling-end-iran-war-expert-warns-crucial-piece-his-strategy-missing"
+        }
+      ]
+    },
+    {
+      "title": "Asia-Pacific",
+      "icon": "🌏",
+      "summary": "ASEAN opens in Manila with South China Sea code set to miss deadline; Manila, Canberra upgrade pact",
+      "paragraphs": [
+        {
+          "heading": "ASEAN Summit",
+          "body": "The Philippine Star and AP, via ABC News, reported that the 49th ASEAN summit opened in Manila, with global conflicts and their impact at the top of the agenda. President Marcos opened the plenary without giving a timeline for the South China Sea code of conduct, which ASEAN had targeted for 2026. A diplomat told AFP that no code is expected to be signed at the summit. [[TAG:warning:code delayed]]"
+        },
+        {
+          "heading": "Defense Upgrade",
+          "body": "Anadolu and the Japan Times reported that the Philippines and Australia signed an upgraded defense cooperation arrangement in Manila, witnessed by Prime Minister Anthony Albanese. It covers joint exercises, procurement and disaster response. Philippine Defense Secretary Gilberto Teodoro said it bolsters a credible deterrent posture. Bloomberg framed it as a response to China. [[TAG:info:deterrence]]"
+        }
+      ],
+      "sources": "Philippine Star, ABC News (AP), Anadolu, Japan Times, Bloomberg",
+      "citations": [
+        {
+          "outlet": "Philippine Star",
+          "title": "Marcos opens ASEAN plenary as South China Sea code likely to miss target",
+          "url": "https://www.philstar.com/headlines/2026/11/15/2570290/marcos-opens-asean-plenary-south-china-sea-code-likely-miss-target"
+        },
+        {
+          "outlet": "ABC News (AP)",
+          "title": "Southeast Asian leaders open annual summit with major conflicts and their impact topping the agenda - ABC News",
+          "url": "https://abcnews.com/International/wireStory/southeast-asian-leaders-open-annual-summit-major-conflicts-138153824"
+        },
+        {
+          "outlet": "Anadolu",
+          "title": "Philippines, Australia upgrade defense pact to 'bolster credible deterrent posture'",
+          "url": "https://www.aa.com.tr/en/asia-pacific/philippines-australia-upgrade-defense-pact-to-bolster-credible-deterrent-posture/4125485"
+        },
+        {
+          "outlet": "Japan Times",
+          "title": "Australia and Philippines upgrade defense ties with focus on China - The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/15/asia-pacific/australia-philippines-defense-upgrade-china/"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Australia, Philippines Upgrade Defense Ties With Focus on China - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/australia-philippines-upgrade-defense-ties-with-focus-on-china"
+        }
+      ]
+    },
+    {
+      "title": "Europe and Ukraine",
+      "icon": "🇪🇺",
+      "summary": "France's fifth Saturday of protests draws about 106,000; Ukraine prepares the war's largest swap",
+      "paragraphs": [
+        {
+          "heading": "France",
+          "body": "Al Jazeera and France 24 reported that the interior ministry counted about 106,000 protesters nationwide on Saturday, down from 146,000 a week earlier, while student unions claimed far more. It was the fifth straight Saturday of protests over living costs, public services and police violence. Tear gas was used in Paris, Nantes and Bordeaux, and Paris prosecutors reported 45 arrests in the capital. Riviera Radio said about 70,000 police were deployed. [[TAG:warning:unrest continues]]"
+        },
+        {
+          "heading": "Ukraine",
+          "body": "RBC-Ukraine reported that the Trump team has begun preparations for the largest-ever Ukraine-Russia prisoner exchange, and that Zelensky rejected a Russian proposal for a humanitarian mission in Kostiantynivka as a 'primitive move.' The Kyiv Independent reported Russian strikes on Zaporizhzhia that injured 50 people, including children, and a Ukrainian drone attack on Russia's largest oil refinery. [[TAG:danger:strikes continue]]"
+        }
+      ],
+      "sources": "Al Jazeera, France 24, Riviera Radio, RBC-Ukraine, Kyiv Independent",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "More than 100,000 rally across France in new Yellow Vest protests",
+          "url": "https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests"
+        },
+        {
+          "outlet": "France 24",
+          "title": "More than 100,000 protest across France, interior ministry says - France 24",
+          "url": "https://www.france24.com/en/france/20261114-live-france-mobilises-in-fifth-wave-of-student-protests"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "France sees fifth consecutive Saturday of nationwide protests",
+          "url": "https://www.euronews.com/2026/11/14/france-sees-fifth-consecutive-saturday-of-nationwide-protests"
+        },
+        {
+          "outlet": "Riviera Radio",
+          "title": "France prepares for nationwide protests on Saturday with 70,000 police officers deployed",
+          "url": "https://www.rivieraradio.mc/article/france-prepares-for-nationwide-protests-on-saturday-with-70-000-police-officers-5HjdmLP_2/"
+        },
+        {
+          "outlet": "RBC-Ukraine",
+          "title": "Russia Ukraine war news - latest updates",
+          "url": "https://newsukraine.rbc.ua/war-in-ukraine"
+        },
+        {
+          "outlet": "Kyiv Independent",
+          "title": "The Kyiv Independent — News from Ukraine, Eastern Europe",
+          "url": "https://kyivindependent.com/"
+        }
+      ]
+    },
+    {
+      "title": "Israel: The UTJ Track",
+      "icon": "🏛️",
+      "summary": "UTJ leads Haredi contacts with Eisenkot's bloc while Shas stays close to Netanyahu",
+      "paragraphs": [
+        {
+          "heading": "Talks",
+          "body": "The Times of Israel reported that Eisenkot and Liberman agreed to open talks with the Haredi parties, eyeing concessions on the military draft law. Yahoo News, quoting a former Shas spokesperson, reported that United Torah Judaism is leading the contacts because of Shas's deep ties to Likud. The Jerusalem Post said Netanyahu has told the Haredi parties they cannot trust Eisenkot's promises. [[TAG:info:draft concessions]]"
+        },
+        {
+          "heading": "Netanyahu's Bind",
+          "body": "A Jerusalem Post analysis said Netanyahu is buying time as the Haredi parties weigh an Eisenkot coalition, but lacks an alternative path of his own. Shas has called reports that it will join an Eisenkot government 'fake news.' [[TAG:warning:Shas holds out]]"
+        }
+      ],
+      "sources": "Times of Israel, Yahoo News, Jerusalem Post",
+      "citations": [
+        {
+          "outlet": "Times of Israel",
+          "title": "Report: Eisenkot, Liberman agree to open talks with Haredi parties, eyeing draft law concessions",
+          "url": "https://www.timesofisrael.com/liveblog_entry/report-eisenkot-liberman-agree-to-open-talks-with-haredi-parties-eyeing-draft-law-concessions/"
+        },
+        {
+          "outlet": "Yahoo News",
+          "title": "UTJ leads talks with Eisenkot-led bloc due to deep Shas-Likud ties, ex-Shas spokesperson says",
+          "url": "https://www.yahoo.com/news/politics/articles/utj-leads-talks-eisenkot-led-221918569.html"
+        },
+        {
+          "outlet": "Jerusalem Post",
+          "title": "Benjamin Netanyahu tells haredi parties they cannot trust Gadi Eisenkot promises",
+          "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-914799"
+        },
+        {
+          "outlet": "Jerusalem Post",
+          "title": "Netanyahu buys time as haredi parties weigh Eisenkot coalition, but lacks alternative - analysis",
+          "url": "http://www.jpost.com/israel-election-2026/article-914868"
+        }
+      ]
+    },
+    {
+      "title": "Pope in the Andes",
+      "icon": "⛪",
+      "summary": "Leo urges an end to violence in a remote Andes town; Peru names itself 'Land of Pope Leo XIV'",
+      "paragraphs": [
+        {
+          "heading": "Andes Mass",
+          "body": "Al Jazeera reported that Pope Leo XIV urged an end to violence in Peru during a Mass in the remote Andes town of Santa Cruz de Succhabamba, which he reached by military helicopter. EWTN said he praised the evangelists of the Andes. Vatican News said he travels on Sunday to Cusco, the former Inca capital that John Paul II visited 41 years ago, where Leo will meet representatives of popular devotion at Saqsaywaman. [[TAG:info:Cusco Sunday]]"
+        },
+        {
+          "heading": "Decree",
+          "body": "Latin Times reported that Peru's government published a decree naming the country the 'Land of Pope Leo XIV.' [[TAG:success:national honor]]"
+        }
+      ],
+      "sources": "Al Jazeera, EWTN, Vatican News, Latin Times",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Pope Leo urges end to violence in Peru during visit to remote Andes town",
+          "url": "https://www.aljazeera.com/news/2026/11/14/pope-leo-urges-end-to-violence-in-peru-during-visit-to-remote-andes-town"
+        },
+        {
+          "outlet": "EWTN",
+          "title": "At papal Mass in Peru, Pope Leo XIV praises the evangelists of the Andes",
+          "url": "https://www.ewtnnews.com/vatican/papal-mass-santa-cruz-de-succhabamba"
+        },
+        {
+          "outlet": "Vatican News",
+          "title": "A look at Cusco and its devotions as Pope Leo travels to the Imperial City - Vatican News",
+          "url": "https://www.vaticannews.va/en/pope/news/2026-11/a-look-at-cusco-and-its-devotions-as-pope-leo-travels.html"
+        },
+        {
+          "outlet": "Latin Times",
+          "title": "No Country Has Done This Before: Peru Claims Pope Leo XIV as Its Own in a Historic Decree",
+          "url": "https://www.latintimes.com/peru-land-pope-leo-xiv-decree-601349"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "query": "world news November 15 2026",
+      "results": [
+        {
+          "title": "The World Today (TV news programme)",
+          "url": "https://en.wikipedia.org/wiki/The_World_Today_(TV_news_programme)"
+        },
+        {
+          "title": "Morning Briefing: Nov. 15, 2026",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489"
+        },
+        {
+          "title": "Video. Latest news bulletin",
+          "url": "https://www.euronews.com/video/2026/11/15/latest-news-bulletin-november-15th-2026-morning"
+        },
+        {
+          "title": "Daily digest: 2026-11-15 - No1's Daily Digest",
+          "url": "https://no1sdailydigest.substack.com/p/daily-digest-2026-11-15"
+        },
+        {
+          "title": "TODAY'S NEWS, Weekend Edition, November 13-16, 2024",
+          "url": "https://larrys.substack.com/p/todays-news-weekend-edition-november"
+        },
+        {
+          "title": "world news",
+          "url": "https://www.euronews.com/tag/world-news?p=13"
+        },
+        {
+          "title": "top stories",
+          "url": "https://www.euronews.com/tag/top-stories?p=21"
+        },
+        {
+          "title": "world news",
+          "url": "https://www.euronews.com/tag/world-news?p=8"
+        },
+        {
+          "title": "world news",
+          "url": "https://www.euronews.com/tag/world-news?p=15"
+        }
+      ]
+    },
+    {
+      "query": "Iran US news November 14 2026",
+      "results": [
+        {
+          "title": "Latest news on the U.S.-Israeli war with Iran — stories, videos, latest coverage",
+          "url": "https://www.cbsnews.com/us-iran-tensions/"
+        },
+        {
+          "title": "Iran War: Latest News, Live Coverage and Video",
+          "url": "https://www.nbcnews.com/world/iran-war"
+        },
+        {
+          "title": "Rubio says U.S. has \"no need\" to restart combat operations in Iran",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-deal-negotiations/"
+        },
+        {
+          "title": "United States",
+          "url": "https://www.iranintl.com/en/united-states"
+        },
+        {
+          "title": "Trump says the US no longer needs an Iran nuclear deal on Truth Social",
+          "url": "https://www.foxnews.com/politics/trump-keeps-signaling-end-iran-war-expert-warns-crucial-piece-his-strategy-missing"
+        },
+        {
+          "title": "How does Iran view Trump sidelining Vance from talks?",
+          "url": "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away"
+        },
+        {
+          "title": "breaking united states bombs iran",
+          "url": "https://aaronparnas.substack.com/p/breaking-united-states-bombs-iran"
+        },
+        {
+          "title": "latest news bulletin may 22nd morning",
+          "url": "https://www.euronews.com/video/2025/05/22/latest-news-bulletin-may-22nd-morning"
+        },
+        {
+          "title": "latest news bulletin march 15th midday",
+          "url": "https://www.euronews.com/video/2024/03/15/latest-news-bulletin-march-15th-midday"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Russia news November 14 2026",
+      "results": [
+        {
+          "title": "Ukraine News Today",
+          "url": "https://en.wikipedia.org/wiki/Ukraine_News_Today"
+        },
+        {
+          "title": "Ukraine Online",
+          "url": "https://en.wikipedia.org/wiki/Ukraine_Online"
+        },
+        {
+          "title": "Ukrainian National News",
+          "url": "https://en.wikipedia.org/wiki/Ukrainian_National_News"
+        },
+        {
+          "title": "Russia-Ukraine War News: Updates, Video from Zelenskyy-Putin Conflict",
+          "url": "https://www.nbcnews.com/world/russia-ukraine-news"
+        },
+        {
+          "title": "Russian invasion of Ukraine: Latest news, analysis and videos",
+          "url": "https://www.cnn.com/world/europe/ukraine"
+        },
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.co.uk/h/World+News/Europe/Eastern+Europe/Ukraine"
+        },
+        {
+          "title": "The Kyiv Independent — News from Ukraine, Eastern Europe",
+          "url": "https://kyivindependent.com/"
+        },
+        {
+          "title": "Russia Ukraine war news - latest updates",
+          "url": "https://newsukraine.rbc.ua/war-in-ukraine"
+        },
+        {
+          "title": "Ukraine war live map: front line and news today",
+          "url": "https://liveuamap.com/"
+        }
+      ]
+    },
+    {
+      "query": "China Russia confirm Trump Xi Putin APEC meeting Kremlin Beijing response",
+      "results": [
+        {
+          "title": "Moscow confirms Trump, Xi, Putin meeting in China",
+          "url": "https://english.alarabiya.net/News/world/2026/11/15/moscow-confirms-trump-xi-putin-meeting-in-china"
+        },
+        {
+          "title": "Aa",
+          "url": "https://www.aa.com.tr/en/eurasia/kremlin-says-putin-xi-trump-to-hold-trilateral-meeting-in-shenzhen-on-nov-19/4125290"
+        },
+        {
+          "title": "Trump-Xi-Putin trilateral meeting at APEC: What to expect",
+          "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect"
+        },
+        {
+          "title": "Trump, Putin and Xi Jinping expected to meet in first-ever trilateral of its kind, officials say - CBS News",
+          "url": "https://www.cbsnews.com/news/trump-putin-xi-jinping-meeting-china-us-russia-talks/"
+        },
+        {
+          "title": "trump putin meeting 1.4396641",
+          "url": "https://amp.cbc.ca/news/world/trump-putin-meeting-1.4396641"
+        },
+        {
+          "title": "Prospects for Putin-Trump meeting at APEC summit unclear",
+          "url": "https://gulfnews.com/world/americas/prospects-for-putin-trump-meeting-at-apec-summit-unclear-1.2121945"
+        },
+        {
+          "title": "Keith Kellogg: China's Xi trying to be 'the great negotiator' in wake of Putin meeting",
+          "url": "https://www.foxnews.com/world/russia-criticizes-wests-reaction-xi-jinpings-visit-deeply-hostile"
+        },
+        {
+          "title": "www.npr.org",
+          "url": "https://www.npr.org/transcripts/730564570"
+        },
+        {
+          "title": "Add Tribune As Your Trusted Source",
+          "url": "https://www.tribuneindia.com/news/world/russian-pm-mikhail-mishustin-meets-with-chinese-president-xi/amp"
+        }
+      ]
+    },
+    {
+      "query": "oil tankers struck mines Strait of Hormuz fire",
+      "results": [
+        {
+          "title": "2 oil tankers hit mines, catch fire near Strait of Hormuz: Iran's Revolutionary Guard",
+          "url": "https://aa.com.tr/en/middle-east/2-oil-tankers-hit-mines-catch-fire-near-strait-of-hormuz-irans-revolutionary-guard/4125453"
+        },
+        {
+          "title": "Iran's navy says three tankers on fire after hitting mines in Hormuz",
+          "url": "https://www.yahoo.com/news/world/articles/irans-navy-says-three-tankers-225347151.html"
+        },
+        {
+          "title": "Three oil tankers catch fire after hitting naval mines in Hormuz, claims Iran's Navy",
+          "url": "https://aninews.in/news/world/middle-east/three-oil-tankers-catch-fire-after-hitting-naval-mines-in-hormuz-claims-irans-navy20261115061422/"
+        },
+        {
+          "title": "Two oil tankers struck by mines in Strait of Hormuz, Qatar and US talk about mediation efforts",
+          "url": "https://www.newsnationnow.com/world/oil-tankers-mines-strait-of-hormuz/"
+        },
+        {
+          "title": "Live Updates: Bahrain says it intercepted Iranian attacks after Tehran claims it targeted U.S. assets",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/"
+        },
+        {
+          "title": "Iran’s IRGC says it attacked US radar system at a base in Bahrain - The Tribune",
+          "url": "https://tribuneindia.com/news/bahrain-riffa-air-base/irans-irgc-says-it-attacked-us-radar-system-at-a-base-in-bahrain"
+        },
+        {
+          "title": "Operation Project Freedom",
+          "url": "https://en.wikipedia.org/wiki/Operation_Project_Freedom"
+        },
+        {
+          "title": "Iran says 2 oil tankers hit sea mines, catch fire near Strait of Hormuz - Türkiye Today",
+          "url": "https://www.turkiyetoday.com/region/iran-says-2-oil-tankers-hit-sea-mines-catch-fire-near-strait-of-hormuz-3232412"
+        },
+        {
+          "title": "US says Iran attacked tankers",
+          "url": "https://www.pressreader.com/usa/the-morning-call/20190614/281500752764519"
+        }
+      ]
+    },
+    {
+      "query": "US air traffic control nationwide outage FAA November 2026",
+      "results": [
+        {
+          "title": "2026 FAA nationwide ground stop",
+          "url": "https://en.wikipedia.org/wiki/2026_FAA_communication_outage"
+        },
+        {
+          "title": "2026 FAA nationwide ground stop",
+          "url": "https://en.wikipedia.org/wiki/2026_US_ground_stop"
+        },
+        {
+          "title": "US nationwide ground stop lifted",
+          "url": "https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/"
+        },
+        {
+          "title": "November 13, 2026 — Some US flights resume after hours-long ground stop",
+          "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa"
+        },
+        {
+          "title": "FAA ground stop lifted: Why were US flights grounded, and what’s next?",
+          "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+        },
+        {
+          "title": "FAA Statement on Nationwide Ground Stop",
+          "url": "https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop"
+        },
+        {
+          "title": "US flights resume after FAA lifts hours-long nationwide ground stop",
+          "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue"
+        },
+        {
+          "title": "2023 FAA system outage",
+          "url": "https://en.wikipedia.org/wiki/2023_FAA_system_outage"
+        },
+        {
+          "title": "ATC communications outage impacting flights across US",
+          "url": "https://www.aerotime.aero/articles/faa-nationwide-ground-stop-atc-communications-november-2026"
+        }
+      ]
+    },
+    {
+      "query": "Qatar Turkey defence alliance announced",
+      "results": [
+        {
+          "title": "Turkey, Qatar sign mutual defence agreement",
+          "url": "https://www.france24.com/en/live-news/20261113-turkey-qatar-sign-mutual-defence-agreement"
+        },
+        {
+          "title": "Turkey, Qatar sign mutual defence agreement, pledge unified stance against attack",
+          "url": "https://www.yahoo.com/news/articles/turkey-qatar-sign-mutual-defence-155214426.html"
+        },
+        {
+          "title": "Turkey, Qatar Sign Mutual Defence Agreement, Pledge Unified Stance Against Attack",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-13/turkey-qatar-sign-mutual-defence-agreement-turkish-presidency-says"
+        },
+        {
+          "title": "New Age",
+          "url": "https://www.newagebd.net/post/middle-east/322379/turkey-qatar-sign-defence-agreement-amid-regional-tension"
+        },
+        {
+          "title": "Turkiye and Qatar sign mutual defence agreement",
+          "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement"
+        },
+        {
+          "title": "Turkey and Qatar pledge unified stance against attacks in mutual defence pact - France 24",
+          "url": "https://www.france24.com/en/middle-east/20261113-turkey-and-qatar-pledge-unified-stance-against-attacks-in-mutual-defence-pact"
+        },
+        {
+          "title": "Turkey and Qatar sign mutual defence agreement",
+          "url": "https://www.middleeasteye.net/news/turkey-and-qatar-sign-mutual-defence-agreement"
+        },
+        {
+          "title": "Qatar and Turkiye sign a mutual defence pact: What do we know?",
+          "url": "https://www.yahoo.com/news/world/articles/qatar-turkiye-sign-mutual-defence-091943088.html"
+        },
+        {
+          "title": "Qatar%E2%80%93Turkey relations",
+          "url": "https://en.wikipedia.org/wiki/Qatar%E2%80%93Turkey_relations"
+        },
+        {
+          "title": "Turkey sends more troops to Qatar",
+          "url": "https://www.aljazeera.com/news/2017/12/171227051912500.html"
+        }
+      ]
+    },
+    {
+      "query": "Yemen government forces withdraw Bab el-Mandeb Houthis control",
+      "results": [
+        {
+          "title": "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control - AL-MONITOR: The Middle Eastʼs leading independent news source since 2012",
+          "url": "https://www.al-monitor.com/originals/2026/11/yemen-government-forces-withdraw-area-near-bab-el-mandeb-strait-houthis-control"
+        },
+        {
+          "title": "Yemen govt forces withdraw from area near Bab Al Mandab Strait, Houthis in control",
+          "url": "https://www.khaleejtimes.com/world/mena/yemen-government-withdraws-area-near-bab-al-mandab-strait-houthis-in-control"
+        },
+        {
+          "title": "Yemen forces withdraw from area near Bab al-Mandeb Strait",
+          "url": "https://www.newarab.com/news/yemen-forces-withdraw-area-near-bab-al-mandeb-strait"
+        },
+        {
+          "title": "Houthis take control of Bab el-Mandeb Strait as Yemen's forces withdraw",
+          "url": "https://www.jpost.com/middle-east/article-914920"
+        },
+        {
+          "title": "Southern Yemeni forces withdraw from area near Bab Al Mandab",
+          "url": "https://www.thenationalnews.com/news/mena/2026/11/15/southern-yemeni-forces-withdraw-from-area-near-bab-al-mandab/"
+        },
+        {
+          "title": "Iran targets Bahrain, Yemen forces withdraw from Strait",
+          "url": "https://newarab.com/news/iran-targets-bahrain-yemen-forces-withdraw-strait"
+        },
+        {
+          "title": "Yemen govt forces' retreat leaves Bab el-Mandeb control to Houthis",
+          "url": "https://www.dailysabah.com/world/mid-east/yemen-govt-forces-retreat-leaves-bab-el-mandeb-control-to-houthis"
+        },
+        {
+          "title": "2026 in Yemen",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Yemen"
+        },
+        {
+          "title": "Yemeni forces regain control over strategic Bab Al Mandab strait",
+          "url": "https://gulfnews.com/world/gulf/yemen/yemeni-forces-regain-control-over-strategic-bab-al-mandab-strait-1.1593596"
+        }
+      ]
+    },
+    {
+      "query": "Bahrain intercepted Iranian attacks Riffa base November 14",
+      "results": [
+        {
+          "title": "Live Updates: Bahrain says it intercepted Iranian attacks after Tehran claims it targeted U.S. assets",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/"
+        },
+        {
+          "title": "Iran Strikes Bahrain Base, Repeats Path to US Deal Remains Open - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/iran-strikes-bahrain-base-repeats-path-to-us-deal-remains-open"
+        },
+        {
+          "title": "Iran claims attack on US military airbase in Bahrain - France 24",
+          "url": "https://www.france24.com/en/middle-east/20261115-iran-claims-attack-on-us-military-airbase-in-bahrain"
+        },
+        {
+          "title": "Blasts rattle Bahrain as Iran launches second drone attack in 3 days - World - DAWN.COM",
+          "url": "https://www.dawn.com/news/2044711/blasts-rattle-bahrain-as-iran-launches-second-drone-attack-in-3-days"
+        },
+        {
+          "title": "Bahrain intercepts several Iranian aerial attacks, says Defense Force",
+          "url": "https://www.arabtimesonline.com/news/bahrain-intercepts-several-iranian-aerial-attacks-says-defense-force/"
+        },
+        {
+          "title": "Bahrain Reports Iranian Air Attack Interceptions as Tehran Claims U.S. Radar Strike",
+          "url": "https://www.armyrecognition.com/news/army-news/2026/bahrain-reports-iranian-air-attack-interceptions-as-tehran-claims-u-s-radar-strike"
+        },
+        {
+          "title": "IRGC Says Six Drones Targeted US Air-Defense Radar At Bahrain’s Riffa Base",
+          "url": "https://www.kurdistan24.net/en/story/953065/irgc-says-six-drones-targeted-us-air-defense-radar-at-bahrains-riffa-base"
+        },
+        {
+          "title": "Bahrain intercepts 102 missiles, destroys 173 drones since start of Iranian attacks",
+          "url": "https://gulfnews.com/world/mena/bahrain-intercepts-102-missiles-destroys-173-drones-since-start-of-iranian-attacks-1.500469090"
+        },
+        {
+          "title": "Bahrain intercepts 95 missiles, 164 drones from Iranian attacks",
+          "url": "https://gulfnews.com/world/gulf/bahrain/bahrain-intercepts-95-missiles-164-drones-from-iranian-attacks-1.500467457"
+        },
+        {
+          "title": "Bahrain intercepts 102 missiles, destroys 173 drones since start of Iranian attacks",
+          "url": "https://gulfnews.com/amp/story/world%2Fmena%2Fbahrain-intercepts-102-missiles-destroys-173-drones-since-start-of-iranian-attacks-1.500469090"
+        }
+      ]
+    },
+    {
+      "query": "France nationwide protests fifth Saturday November 14 2026",
+      "results": [
+        {
+          "title": "France sees fifth consecutive Saturday of nationwide protests",
+          "url": "https://www.euronews.com/2026/11/14/france-sees-fifth-consecutive-saturday-of-nationwide-protests"
+        },
+        {
+          "title": "More than 100,000 rally across France in new Yellow Vest protests",
+          "url": "https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests"
+        },
+        {
+          "title": "More than 100,000 protest across France, interior ministry says - France 24",
+          "url": "https://www.france24.com/en/france/20261114-live-france-mobilises-in-fifth-wave-of-student-protests"
+        },
+        {
+          "title": "France prepares for nationwide protests on Saturday with 70,000 police officers deployed",
+          "url": "https://www.rivieraradio.mc/article/france-prepares-for-nationwide-protests-on-saturday-with-70-000-police-officers-5HjdmLP_2/"
+        },
+        {
+          "title": "'No justice, no peace': Fifth round of protests sweep across France - France 24",
+          "url": "https://www.france24.com/en/france/20261114-no-justice-no-peace-fifth-round-of-protests-sweep-across-france"
+        },
+        {
+          "title": "'ACAB': Unrest Across France Amid Anti-Police Demonstrations",
+          "url": "https://www.breitbart.com/europe/2026/11/14/acab-unrest-across-france-as-anti-police-demonstrations-held-throughout-country/"
+        },
+        {
+          "title": "2024 French protests against the National Rally",
+          "url": "https://en.wikipedia.org/wiki/2024_French_protests_against_the_National_Rally"
+        },
+        {
+          "title": "Large-scale protests in France on 14 November: 70,000 police officers",
+          "url": "https://ukrmedia.news/en/world/frantsiia-protesty-14-lystopada-70-tysiach-politsii/"
+        },
+        {
+          "title": "September 10, 2025 5:50 PM",
+          "url": "https://www.newsonair.gov.in/france-hit-by-nationwide-protests-against-president-macron"
+        }
+      ]
+    },
+    {
+      "query": "Bessent relocated military base threats Iran Treasury",
+      "results": [
+        {
+          "title": "Scott Bessent relocated to military base over Iran assassination threat",
+          "url": "https://www.foxnews.com/politics/bessent-moved-military-base-iran-threats-exceed-advanced-stage-official-says"
+        },
+        {
+          "title": "US Treasury chief Bessent moved to military base after Iranian threats, sources say",
+          "url": "https://www.yahoo.com/news/articles/us-treasury-chief-bessent-moved-010010728.html"
+        },
+        {
+          "title": "US Treasury chief Bessent moved to military base after ‘Iranian threats’",
+          "url": "https://www.aljazeera.com/news/2026/11/11/us-treasury-chief-bessent-moved-to-military-base-after-iranian-threats"
+        },
+        {
+          "title": "Treasury Secretary Scott Bessent relocates to military base after Iran threats",
+          "url": "https://thehill.com/homenews/administration/6213592-bessent-moves-military-base/"
+        },
+        {
+          "title": "Third Trump Cabinet Member Moves to Military Base Amid Iran Threats: Report - Newsweek",
+          "url": "https://www.newsweek.com/third-trump-cabinet-member-moves-to-military-base-amid-iran-threats-report-12698007"
+        },
+        {
+          "title": "Bessent relocates from D.C.-area home to military base following Iran threats - CBS News",
+          "url": "https://www.cbsnews.com/news/bessent-relocate-dc-area-home-military-base-iran-threats-to-kill-him/"
+        },
+        {
+          "title": "US Treasury Secretary Bessent blasts Iran's leaders, confirms move to army base",
+          "url": "https://www.jpost.com/american-politics/article-914821"
+        },
+        {
+          "title": "Treasury Secretary Scott Bessent Remains at US Base Over Alleged Iranian Death Threats",
+          "url": "https://www.military.com/treasury-secretary-scott-bessent-remains-us-base-over-alleged-iranian-death-threats"
+        },
+        {
+          "title": "Report: Iran threatens U.S. Army base",
+          "url": "https://www.pressreader.com/usa/hamilton-journal-news/20210322/281629603041433"
+        }
+      ]
+    },
+    {
+      "query": "Philippines Australia defense pact upgrade November 2026",
+      "results": [
+        {
+          "title": "Philippines, Australia upgrade defense pact to 'bolster credible deterrent posture'",
+          "url": "https://www.aa.com.tr/en/asia-pacific/philippines-australia-upgrade-defense-pact-to-bolster-credible-deterrent-posture/4125485"
+        },
+        {
+          "title": "Australia and Philippines upgrade defense ties with focus on China - The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/15/asia-pacific/australia-philippines-defense-upgrade-china/"
+        },
+        {
+          "title": "Australia, Philippines Upgrade Defense Ties With Focus on China - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/australia-philippines-upgrade-defense-ties-with-focus-on-china"
+        },
+        {
+          "title": "Philippines and Australia Sign Updated Defense Pact to Boost Military Cooperation",
+          "url": "https://tribune.net.ph/2026/11/15/philippines-australia-sign-updated-defense-pact-to-speed-up-military-cooperation"
+        },
+        {
+          "title": "Australia and the Philippines updated a 1995 defense deal to speed up disaster response",
+          "url": "https://astig.ph/philippines-australia-defense-cooperation-arrangement-signed-november-2026/"
+        },
+        {
+          "title": "Philippines, Australia Sign Defense Pact to Boost Deterrence",
+          "url": "https://menafn.com/1111961243/Philippines-Australia-Sign-Defense-Pact-to-Boost-Deterrence"
+        },
+        {
+          "title": "Philippines, Australia sign renewed defense pact to strengthen military cooperation",
+          "url": "https://thechronicle.com.ph/philippines-australia-sign-renewed-defense-pact-to-strengthen-military-cooperation/"
+        },
+        {
+          "title": "Philippines, Australia upgrade defense pact to 'bolster credible deterrent posture'",
+          "url": "https://www.usmuslims.com/philippines-australia-upgrade-defense-pact-to-bolster-credible-deterrent-381723h.htm"
+        },
+        {
+          "title": "mil 230908 rfa01",
+          "url": "https://www.globalsecurity.org/military/library/news/2023/09/mil-230908-rfa01.htm"
+        }
+      ]
+    },
+    {
+      "query": "Russian strike Dnipro train station killed November 2026",
+      "results": [
+        {
+          "title": "Russia strikes Dnipro train station in central Ukraine, killing 14",
+          "url": "https://www.yahoo.com/news/world/articles/russia-strikes-dnipro-train-station-101901139.html"
+        },
+        {
+          "title": "Russia strikes Dnipro train station in central Ukraine, killing 15",
+          "url": "https://www.cnn.com/2026/10/29/europe/russia-ukraine-strikes-dnipro-train-station-intl"
+        },
+        {
+          "title": "Russia strikes Dnipro train station in central Ukraine, killing 14",
+          "url": "https://www.komu.com/news/nationworld/russia-strikes-dnipro-train-station-in-central-ukraine-killing-14/article_d4e4cbbe-5967-59ad-8bae-ce08585ad369.amp.html"
+        },
+        {
+          "title": "14 killed in Russian drone attack on Dnipro train station platform, Zelensky condemns ‘horrific’ strike",
+          "url": "https://www.wionews.com/world/14-killed-in-russian-drone-attack-on-dnipro-train-station-platform-zelensky-condemns-horrific-strike-1793308033221"
+        },
+        {
+          "title": "Russian drone attack on train station kills 13 in Ukraine’s Dnipro",
+          "url": "https://ground.news/article/russian-drone-attack-on-train-station-kills-13-in-ukraines-dnipro_435c59"
+        },
+        {
+          "title": "Timeline of the Russo-Ukrainian war (8 April %E2%80%93 28 August 2022)",
+          "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Russo-Ukrainian_war_(8_April_%E2%80%93_28_August_2022)"
+        },
+        {
+          "title": "Russian Drone Kills 14 at Dnipro Train Station as Zelensky Blasts Trump-Putin Diesel Deal",
+          "url": "https://www.latintimes.com/russian-drone-strike-dnipro-railway-platform-600711"
+        },
+        {
+          "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
+          "url": "https://www.euronews.com/video/2022/08/25/dozens-killed-in-russia-strikes-that-targeted-train-station"
+        },
+        {
+          "title": "www.malaymail.com",
+          "url": "https://www.malaymail.com/news/world/2022/08/25/zelensky-15-killed-50-hurt-in-russian-strike-on-ukraine-rail-station/24609"
+        }
+      ]
+    },
+    {
+      "query": "ASEAN summit Manila November 2026 South China Sea statement",
+      "results": [
+        {
+          "title": "Southeast Asian leaders open annual summit with major conflicts and their impact topping the agenda",
+          "url": "https://www.yahoo.com/news/world/articles/southeast-asian-leaders-open-annual-051315754.html"
+        },
+        {
+          "title": "Marcos opens ASEAN plenary as South China Sea code likely to miss target",
+          "url": "https://www.philstar.com/headlines/2026/11/15/2570290/marcos-opens-asean-plenary-south-china-sea-code-likely-miss-target"
+        },
+        {
+          "title": "Southeast Asian leaders open annual summit with major conflicts and their impact topping the agenda - ABC News",
+          "url": "https://abcnews.com/International/wireStory/southeast-asian-leaders-open-annual-summit-major-conflicts-138153824"
+        },
+        {
+          "title": "Global powers converge in Manila as Asean summit kicks off",
+          "url": "https://www.manilatimes.net/2026/11/15/news/global-powers-converge-in-manila-as-asean-summit-kicks-off/2470176"
+        },
+        {
+          "title": "ASEAN Summit",
+          "url": "https://en.wikipedia.org/wiki/ASEAN_Summit"
+        },
+        {
+          "title": "ASEAN must advance effective South China Sea Code of Conduct under international law: Philippine President Marcos",
+          "url": "https://aninews.in/news/world/asia/asean-must-advance-effective-south-china-sea-code-of-conduct-under-international-law-philippine-president-marcos20261115085207/"
+        },
+        {
+          "title": "Southeast Asia nations open annual summit in Manila - KIRO 7 News Seattle",
+          "url": "https://www.kiro7.com/news/world/southeast-asian/2M3J3VFDL45WPGDZ36DVIFBQLE/"
+        },
+        {
+          "title": "China welcomes Asean summit declaration on South China Sea",
+          "url": "https://www.pressreader.com/malaysia/the-borneo-post/20170503/282162176116448"
+        },
+        {
+          "title": "Sea statement ‘to go easy on Beijing’",
+          "url": "https://www.pressreader.com/thailand/bangkok-post/20170427/281573765586174"
+        }
+      ]
+    },
+    {
+      "query": "Eisenkot Haredi talks Shas UTJ November 14 2026",
+      "results": [
+        {
+          "title": "UTJ leads talks with Eisenkot-led bloc due to deep Shas-Likud ties, ex-Shas spokesperson says",
+          "url": "https://www.yahoo.com/news/politics/articles/utj-leads-talks-eisenkot-led-221918569.html"
+        },
+        {
+          "title": "Report: Eisenkot, Liberman agree to open talks with Haredi parties, eyeing draft law concessions",
+          "url": "https://www.timesofisrael.com/liveblog_entry/report-eisenkot-liberman-agree-to-open-talks-with-haredi-parties-eyeing-draft-law-concessions/"
+        },
+        {
+          "title": "Eisenkot said to prioritize trying to form coalition with Haredim over Arab parties",
+          "url": "https://www.timesofisrael.com/liveblog_entry/eisenkot-said-to-prioritize-trying-to-form-coalition-with-haredim-over-arab-parties/"
+        },
+        {
+          "title": "Benjamin Netanyahu tells haredi parties they cannot trust Gadi Eisenkot promises",
+          "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-914799"
+        },
+        {
+          "title": "Eisenkot's Yashar seeks Shas, UTJ support to replace Knesset speaker Ohana",
+          "url": "https://www.jpost.com/israel-election-2026/article-914332"
+        },
+        {
+          "title": "Haredi parties consider Gadi Eisenkot coalition amid military draft crisis",
+          "url": "https://www.jpost.com/israel-election-2026/article-914275"
+        },
+        {
+          "title": "Netanyahu buys time as haredi parties weigh Eisenkot coalition, but lacks alternative - analysis",
+          "url": "http://www.jpost.com/israel-election-2026/article-914868"
+        },
+        {
+          "title": "Eisenkot said prioritizing efforts to form coalition with ultra-Orthodox",
+          "url": "https://www.timesofisrael.com/eisenkot-said-prioritizing-efforts-to-form-coalition-with-ultra-orthodox/"
+        },
+        {
+          "title": "Yachad (political party)",
+          "url": "https://en.wikipedia.org/wiki/Yachad_(political_party)"
+        },
+        {
+          "title": "Eisenkot, Netanyahu Clash Over Iran Strikes as Talks Stall",
+          "url": "https://www.hngn.com/articles/273746/20261113/eisenkot-gets-28-days-form-israel-government-13-seats-short.htm"
+        }
+      ]
+    },
+    {
+      "query": "Pope Leo Cuzco Peru November 14 2026",
+      "results": [
+        {
+          "title": "Visit by Pope Leo XIV to Uruguay, Argentina, and Peru",
+          "url": "https://en.wikipedia.org/wiki/Visit_by_Pope_Leo_XIV_to_Uruguay,_Argentina,_and_Peru"
+        },
+        {
+          "title": "Pope Leo to cross Peru for visits to Inca city, Amazon gateway",
+          "url": "https://www.yahoo.com/news/world/articles/pope-leo-cross-peru-visits-100614276.html"
+        },
+        {
+          "title": "Pope Leo urges end to violence in Peru during visit to remote Andes town",
+          "url": "https://www.aljazeera.com/news/2026/11/14/pope-leo-urges-end-to-violence-in-peru-during-visit-to-remote-andes-town"
+        },
+        {
+          "title": "LIVE UPDATES: Pope Leo XIV closes St. Turibius Jubilee in Zaña, Peru",
+          "url": "https://www.ewtnnews.com/vatican/live-updates-pope-leo-xiv-in-south-america"
+        },
+        {
+          "title": "At papal Mass in Peru, Pope Leo XIV praises the evangelists of the Andes",
+          "url": "https://www.ewtnnews.com/vatican/papal-mass-santa-cruz-de-succhabamba"
+        },
+        {
+          "title": "‘He is so excited’: What to expect from Pope Leo’s Peruvian homecoming - America Magazine",
+          "url": "https://www.americamagazine.org/vatican-dispatch/2026/11/11/pope-leo-homecoming-peru/"
+        },
+        {
+          "title": "A look at Cusco and its devotions as Pope Leo travels to the Imperial City - Vatican News",
+          "url": "https://www.vaticannews.va/en/pope/news/2026-11/a-look-at-cusco-and-its-devotions-as-pope-leo-travels.html"
+        },
+        {
+          "title": "No Country Has Done This Before: Peru Claims Pope Leo XIV as Its Own in a Historic Decree",
+          "url": "https://www.latintimes.com/peru-land-pope-leo-xiv-decree-601349"
+        },
+        {
+          "title": "List of diplomatic visits to the Holy See under Pope Leo XIV",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ]
+    }
+  ],
+  "fetched": [],
+  "meta": {
+    "id": "2026-11-15",
+    "generated_at": "2026-11-15T11:24:43.785Z",
+    "model": "claude-opus-5-5",
+    "via": "claude-code-routine",
+    "searches": 16,
+    "results_count": 146,
+    "cited_count": 42
+  }
+}

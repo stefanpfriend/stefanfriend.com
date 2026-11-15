@@ -1,396 +1,398 @@
 {
-  "date": "Saturday, November 14, 2026",
-  "edition": "BIG THREE",
-  "tldr_label": "TL;DR: Trump, Xi and Putin plan a joint APEC meeting, the US denies Iran hit its radar, and Democrats flip Mississippi",
+  "date": "Sunday, November 15, 2026",
+  "edition": "CHOKEPOINTS",
+  "tldr_label": "TL;DR: The Kremlin confirms a Trump-Xi-Putin meeting, Iran strikes at Bahrain again, and the Houthis take the Bab el-Mandeb coast",
   "tldr_bullets": [
     {
       "label": "APEC",
-      "body": "The White House says Trump, Xi and Putin plan a joint meeting on the sidelines of next week's APEC summit in Shenzhen. China and Russia have not confirmed it. [[TAG:info:unprecedented]]"
+      "body": "The Kremlin confirmed that Putin, Xi and Trump will meet in Shenzhen on November 19. Beijing has not confirmed, and Ukraine is not on the White House agenda. [[TAG:info:Nov 19]]"
     },
     {
-      "label": "Iran",
-      "body": "CENTCOM says it shot down two Iranian drones aimed at Bahrain and reported no damage, rejecting the Revolutionary Guards' claim that they destroyed a US radar. [[TAG:warning:claims clash]]"
+      "label": "Gulf",
+      "body": "Bahrain said it intercepted a second round of Iranian drone attacks in three days. Iran's navy claims mines set three tankers ablaze near Hormuz, which the US has not confirmed. [[TAG:danger:escalation]]"
     },
     {
-      "label": "Senate",
-      "body": "AP called Mississippi for Democrat Scott Colom. Mary Peltola leads in Alaska, the last uncalled Senate race. [[TAG:success:Mississippi flips]]"
+      "label": "Red Sea",
+      "body": "Yemeni government-aligned forces withdrew from the area overlooking the Bab el-Mandeb Strait, leaving the Houthis in control. [[TAG:danger:second chokepoint]]"
     },
     {
-      "label": "Inflation",
-      "body": "October wholesale prices rose 0.3% on the month and 6.5% on the year, the highest annual rate in nearly four years. Markets now see a December Fed hike as likely. [[TAG:danger:6.5% PPI]]"
+      "label": "Alliances",
+      "body": "Turkey and Qatar signed a mutual defence pact, and the Philippines and Australia upgraded their defense arrangement. [[TAG:info:new pacts]]"
     },
     {
-      "label": "Germany",
-      "body": "Mercedes-Benz froze new investment at its German plants and is examining closures after labour-cost talks failed. [[TAG:warning:industrial strain]]"
+      "label": "US",
+      "body": "A router fault triggered a nationwide FAA ground stop, only the third in US history. Treasury Secretary Bessent confirmed he moved to a military base after Iranian threats. [[TAG:warning:systems strained]]"
     }
   ],
   "sections": [
     {
-      "title": "APEC: A Three-Way Summit",
+      "title": "Shenzhen Summit Confirmed",
       "icon": "🌐",
-      "summary": "White House plans Trump-Xi-Putin meeting in Shenzhen; Iran and nuclear arms on the agenda",
+      "summary": "Kremlin says the Putin-Xi-Trump meeting is set for Nov 19; China silent; Ukraine off the agenda",
       "paragraphs": [
         {
-          "heading": "The Plan",
-          "body": "NBC News and the Boston Globe reported that the White House says Trump, Xi and Putin plan an unprecedented joint meeting on the sidelines of the APEC summit in Shenzhen, which runs November 18 to 19. Neither Beijing nor Moscow has confirmed it. A US official said Trump intends to raise Iran, and nuclear arms reduction is also expected to come up. The official called the meeting a starting point and said no agreements are expected. [[TAG:info:not yet confirmed]]"
+          "heading": "Moscow Confirms",
+          "body": "Anadolu and Al Arabiya reported that Kremlin spokesman Dmitry Peskov said on Saturday that Putin, Xi and Trump will hold a trilateral meeting in Shenzhen on November 19, alongside the APEC summit. He called it 'extremely significant' but said any agreements could not be imposed on other nations. China has not yet confirmed the meeting. [[TAG:info:Beijing silent]]"
         },
         {
-          "heading": "Trump and Xi",
-          "body": "According to the reports, Trump and Xi will also hold a one-on-one meeting and a working lunch on Thursday. Brookings noted that it would be their second straight APEC meeting, and that the multilateral setting eases pressure to produce major bilateral outcomes. Elon Musk will reportedly travel with Trump but will not join the three-way meeting. [[TAG:info:Thursday talks]]"
+          "heading": "Agenda",
+          "body": "According to the reports, the White House said the talks would cover global nuclear arms reduction and the Middle East war, but not Ukraine. Al Jazeera and CBS News described it as the first meeting of its kind. A digest on No1's Daily Digest noted that the format leaves Kyiv out. [[TAG:warning:Kyiv excluded]]"
         }
       ],
-      "sources": "NBC News, Boston Globe, MS NOW, Brookings, Politis",
+      "sources": "Anadolu, Al Arabiya, Al Jazeera, CBS News, No1's Daily Digest",
       "citations": [
         {
-          "outlet": "NBC News",
-          "title": "Trump, Xi and Putin plan an unprecedented meeting on the sidelines of APEC, officials say",
-          "url": "https://www.nbcnews.com/world/china/trump-xi-putin-plan-unprecedented-joint-meeting-sidelines-apec-officia-rcna609275"
+          "outlet": "Anadolu",
+          "title": "Aa",
+          "url": "https://www.aa.com.tr/en/eurasia/kremlin-says-putin-xi-trump-to-hold-trilateral-meeting-in-shenzhen-on-nov-19/4125290"
         },
         {
-          "outlet": "Boston Globe",
-          "title": "Trump, Xi and Putin plan an unprecedented joint meeting on the sidelines of APEC, White House says - The Boston Globe",
-          "url": "https://www.bostonglobe.com/2026/11/14/world/trump-xi-putin-joint-meeting-apec-white-house/"
+          "outlet": "Al Arabiya",
+          "title": "Moscow confirms Trump, Xi, Putin meeting in China",
+          "url": "https://english.alarabiya.net/News/world/2026/11/15/moscow-confirms-trump-xi-putin-meeting-in-china"
         },
         {
-          "outlet": "MS NOW",
-          "title": "Trump, Xi and Putin plan an unprecedented joint meeting on the sidelines of APEC, White House says",
-          "url": "https://www.ms.now/news/trump-xi-putin-plan-unprecedented-joint-meeting"
+          "outlet": "Al Jazeera",
+          "title": "Trump-Xi-Putin trilateral meeting at APEC: What to expect",
+          "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect"
         },
         {
-          "outlet": "Brookings",
-          "title": "Trump, Xi, and Putin: What to expect from the APEC summit",
-          "url": "https://www.brookings.edu/articles/trump-xi-and-putin-what-to-expect-from-the-apec-summit/"
+          "outlet": "CBS News",
+          "title": "Trump, Putin and Xi Jinping expected to meet in first-ever trilateral of its kind, officials say - CBS News",
+          "url": "https://www.cbsnews.com/news/trump-putin-xi-jinping-meeting-china-us-russia-talks/"
         },
         {
-          "outlet": "Politis",
-          "title": "Trump to Meet Xi and Putin in Shenzhen on Sidelines of APEC Summit",
-          "url": "https://en.politis.com.cy/news/world/1068659/trump-to-meet-xi-and-putin-in-shenzhen-on-sidelines-of-apec-summit"
+          "outlet": "No1's Daily Digest",
+          "title": "Daily digest: 2026-11-15 - No1's Daily Digest",
+          "url": "https://no1sdailydigest.substack.com/p/daily-digest-2026-11-15"
         }
       ]
     },
     {
-      "title": "Iran and Oil",
+      "title": "Gulf and Red Sea: Pressure on the Straits",
       "icon": "🛢️",
-      "summary": "US says it downed two drones with no damage; IEA sees crude surplus but diesel still scarce",
+      "summary": "Bahrain intercepts Iranian drones; Iran claims mined tankers; Houthis gain Bab el-Mandeb coast",
       "paragraphs": [
         {
-          "heading": "Radar Dispute",
-          "body": "Al-Monitor, the Washington Times and Euronews reported that US Central Command denied the Revolutionary Guards' claim that they destroyed a US early-warning radar in Bahrain. CENTCOM said it shot down two one-way attack drones fired at Bahrain overnight, with no injuries or damage. Iran called the attack retaliation for a US strike on a telecom tower in Sirik. Neither account has been independently verified. Euronews reported that diplomacy mediated by Qatar and Pakistan continues. [[TAG:warning:unverified claims]]"
+          "heading": "Bahrain Again",
+          "body": "France 24 and Dawn reported that Iran launched its second drone attack on Bahrain in three days. Bahrain's Defense Force said the drones were intercepted before reaching their targets. Kurdistan24 reported that the Revolutionary Guards claimed six drones hit a US air-defense radar at the Riffa base, without offering evidence. Bloomberg reported that Iran repeated that a path to a deal with the US remains open. [[TAG:danger:second strike in 3 days]]"
         },
         {
-          "heading": "IEA Outlook",
-          "body": "Quartz and Euronews reported that the IEA's November oil market report finds global supply overtaking demand for the first time since the Iran war began, with output up 2.3 million barrels a day in October to 105.4 million. The IEA said diesel remains the market's biggest concern. European diesel is near $180 a barrel, about 77% above pre-war levels, and the agency plans to speed up emergency stock releases. It warned that attacks on shipping remain the main risk to the recovery. [[TAG:warning:diesel tight]]"
+          "heading": "Mined Tankers",
+          "body": "Anadolu and ANI reported that Iran's navy said tankers caught fire after hitting naval mines near the Strait of Hormuz. Accounts range from two to three ships. Iran said the vessels were using an unauthorized route with their tracking systems off. It did not name the ships or report casualties, and there was no independent confirmation. The US military says it has cleared the strait's routes of mines. [[TAG:warning:unconfirmed]]"
+        },
+        {
+          "heading": "Bab el-Mandeb",
+          "body": "Al-Monitor and The National reported that southern Yemeni forces aligned with the government withdrew from the Dhubab area overlooking the Bab el-Mandeb Strait, leaving the Houthis in control. The forces called it a redeployment to secure Aden. Daily Sabah reported that Saudi Arabia struck Houthi targets in response. [[TAG:danger:Red Sea risk]]"
+        },
+        {
+          "heading": "Turkey-Qatar Pact",
+          "body": "Al Jazeera and France 24 reported that Turkey and Qatar signed a mutual defence agreement in Istanbul, pledging a unified stance against any external armed attack on either country. Turkey said the pact is not aimed at any other country and is open to others, including Egypt. [[TAG:info:mutual defence]]"
         }
       ],
-      "sources": "Al-Monitor, Washington Times, Euronews, US News (AP), IEA, Quartz, Financial News",
+      "sources": "France 24, Dawn, Kurdistan24, Bloomberg, Anadolu, ANI, Al-Monitor, The National, Daily Sabah, Al Jazeera",
       "citations": [
+        {
+          "outlet": "France 24",
+          "title": "Iran claims attack on US military airbase in Bahrain - France 24",
+          "url": "https://www.france24.com/en/middle-east/20261115-iran-claims-attack-on-us-military-airbase-in-bahrain"
+        },
+        {
+          "outlet": "Dawn",
+          "title": "Blasts rattle Bahrain as Iran launches second drone attack in 3 days - World - DAWN.COM",
+          "url": "https://www.dawn.com/news/2044711/blasts-rattle-bahrain-as-iran-launches-second-drone-attack-in-3-days"
+        },
+        {
+          "outlet": "Kurdistan24",
+          "title": "IRGC Says Six Drones Targeted US Air-Defense Radar At Bahrain’s Riffa Base",
+          "url": "https://www.kurdistan24.net/en/story/953065/irgc-says-six-drones-targeted-us-air-defense-radar-at-bahrains-riffa-base"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Iran Strikes Bahrain Base, Repeats Path to US Deal Remains Open - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/iran-strikes-bahrain-base-repeats-path-to-us-deal-remains-open"
+        },
+        {
+          "outlet": "Anadolu",
+          "title": "2 oil tankers hit mines, catch fire near Strait of Hormuz: Iran's Revolutionary Guard",
+          "url": "https://aa.com.tr/en/middle-east/2-oil-tankers-hit-mines-catch-fire-near-strait-of-hormuz-irans-revolutionary-guard/4125453"
+        },
+        {
+          "outlet": "ANI",
+          "title": "Three oil tankers catch fire after hitting naval mines in Hormuz, claims Iran's Navy",
+          "url": "https://aninews.in/news/world/middle-east/three-oil-tankers-catch-fire-after-hitting-naval-mines-in-hormuz-claims-irans-navy20261115061422/"
+        },
         {
           "outlet": "Al-Monitor",
-          "title": "US denies Iran's claim that it attacked early-warning radar in Bahrain - AL-MONITOR: The Middle Eastʼs leading independent news source since 2012",
-          "url": "https://www.al-monitor.com/originals/2026/11/us-denies-irans-claim-it-attacked-early-warning-radar-bahrain"
+          "title": "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control - AL-MONITOR: The Middle Eastʼs leading independent news source since 2012",
+          "url": "https://www.al-monitor.com/originals/2026/11/yemen-government-forces-withdraw-area-near-bab-el-mandeb-strait-houthis-control"
         },
         {
-          "outlet": "Washington Times",
-          "title": "U.S. denies Iran hit early warning radar system in Bahrain",
-          "url": "https://www.washingtontimes.com/news/2026/nov/13/us-denies-iran-hit-early-warning-radar-system-bahrain/"
+          "outlet": "The National",
+          "title": "Southern Yemeni forces withdraw from area near Bab Al Mandab",
+          "url": "https://www.thenationalnews.com/news/mena/2026/11/15/southern-yemeni-forces-withdraw-from-area-near-bab-al-mandab/"
         },
         {
-          "outlet": "Euronews",
-          "title": "US denies IRGC destroyed American radar in Bahrain after attack on southern Iran",
-          "url": "https://www.euronews.com/2026/11/13/irgc-says-it-destroyed-us-radar-in-bahrain-after-attack-on-southern-iran"
+          "outlet": "Daily Sabah",
+          "title": "Yemen govt forces' retreat leaves Bab el-Mandeb control to Houthis",
+          "url": "https://www.dailysabah.com/world/mid-east/yemen-govt-forces-retreat-leaves-bab-el-mandeb-control-to-houthis"
         },
         {
-          "outlet": "US News (AP)",
-          "title": "US Military Downs 2 Iranian Attack Drones as Iran Claims a Strike on a US Radar in Bahrain",
-          "url": "https://www.usnews.com/news/world/articles/2026-11-13/irans-revolutionary-guard-says-it-destroyed-a-us-radar-in-bahrain-and-other-mideast-news"
+          "outlet": "Al Jazeera",
+          "title": "Turkiye and Qatar sign mutual defence agreement",
+          "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement"
         },
         {
-          "outlet": "IEA",
-          "title": "Oil Market Report - November 2026 - IEA",
-          "url": "https://www.iea.org/reports/oil-market-report-november-2026"
-        },
-        {
-          "outlet": "Quartz",
-          "title": "IEA: Oil supply is topping demand for first time since Iran war",
-          "url": "https://qz.com/iea-oil-supply-topping-demand-first-time-iran-war-111326"
-        },
-        {
-          "outlet": "Euronews",
-          "title": "European diesel prices stay high as global oil supply overtakes demand, IEA says",
-          "url": "https://www.euronews.com/2026/11/13/european-diesel-prices-stay-high-as-global-oil-supply-overtakes-demand-iea-says"
-        },
-        {
-          "outlet": "Financial News",
-          "title": "IEA says oil supply overtakes demand as North Sea Dated falls 32% to $93 - Financial News",
-          "url": "https://www.financial-news.co.uk/iea-says-oil-supply-overtakes-demand-as-north-sea-dated/"
+          "outlet": "France 24",
+          "title": "Turkey and Qatar pledge unified stance against attacks in mutual defence pact - France 24",
+          "url": "https://www.france24.com/en/middle-east/20261113-turkey-and-qatar-pledge-unified-stance-against-attacks-in-mutual-defence-pact"
         }
       ]
     },
     {
-      "title": "Ukraine: Swap Ahead, Strikes Continue",
-      "icon": "🕊️",
-      "summary": "Largest prisoner exchange of the war agreed; deadly strikes on both sides",
-      "paragraphs": [
-        {
-          "heading": "Prisoner Exchange",
-          "body": "PBS NewsHour and NPR reported that Russia and Ukraine agreed at the Abu Dhabi talks to a large prisoner exchange, which NPR described as the biggest humanitarian release since the full-scale invasion. Russian officials put it at more than a thousand prisoners on each side, to take place within two to three weeks. AP noted that the specifics had not been confirmed by both governments. [[TAG:success:biggest swap]]"
-        },
-        {
-          "heading": "Strikes",
-          "body": "Euronews reported that Russian strikes on Friday killed at least three people and injured more than 20 across Ukraine. Ukrinform said three people, including a child, were killed and 62 injured in Zaporizhzhia region over a day. Euronews also reported that Ukrainian drone strikes killed four people at an industrial site in Samara region and four in Volgograd, according to Russian accounts. [[TAG:danger:strikes continue]]"
-        }
-      ],
-      "sources": "PBS NewsHour, NPR (via Iowa Public Radio), JURIST, Euronews, Ukrinform, Kyiv Independent",
-      "citations": [
-        {
-          "outlet": "PBS NewsHour",
-          "title": "Russia and Ukraine agree to a large prisoner exchange as talks end with no major breakthrough",
-          "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-agree-to-a-large-prisoner-exchange-as-talks-end-with-no-major-breakthrough"
-        },
-        {
-          "outlet": "NPR (via Iowa Public Radio)",
-          "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
-          "url": "https://www.iowapublicradio.org/news-from-npr/2026-11-11/russia-and-ukraine-agree-to-a-prisoner-exchange-as-talks-end-with-no-big-breakthrough"
-        },
-        {
-          "outlet": "JURIST",
-          "title": "Russia and Ukraine agree to large prisoner exchange following two days of US-mediated talks - JURIST - News",
-          "url": "https://www.jurist.org/news/2026/11/russia-and-ukraine-agree-to-large-prisoner-exchange-following-two-days-of-us-mediated-talks/"
-        },
-        {
-          "outlet": "Euronews",
-          "title": "At least three killed and more than 20 injured in Russian strikes on Ukraine",
-          "url": "https://www.euronews.com/2026/11/13/at-least-three-killed-and-more-than-20-injured-in-russian-strikes-on-ukraine"
-        },
-        {
-          "outlet": "Ukrinform",
-          "title": "Three killed, 62 injured in Russian attacks on Zaporizhzhia region over past day",
-          "url": "https://ukrinform.net/rubric-ato/4184591-three-killed-62-injured-in-russian-attacks-on-zaporizhzhia-region-over-past-day.html"
-        },
-        {
-          "outlet": "Kyiv Independent",
-          "title": "At least 7 killed, 80 injured in Russian attacks across Ukraine; Zaporizhzhia among worst hit",
-          "url": "https://kyivindependent.com/at-least-7-killed-80-injured-in-russian-attacks-across-ukraine-zaporizhzhia-among-worst-hit/"
-        }
-      ]
-    },
-    {
-      "title": "United States: Votes and Prices",
+      "title": "United States",
       "icon": "🇺🇸",
-      "summary": "Colom wins Mississippi; Peltola leads Alaska; 6.5% wholesale inflation firms up Fed-hike bets",
+      "summary": "Router fault grounds all US flights for hours; Bessent confirms move to base over Iran threats",
       "paragraphs": [
         {
-          "heading": "Senate Count",
-          "body": "Coverage reported that AP called Mississippi's Senate race for Democrat Scott Colom over Sen. Cindy Hyde-Smith on Wednesday. The Anchorage Daily News reported that Mary Peltola grew her lead over Sen. Dan Sullivan as thousands more ballots were counted, with about 49.8% of first-choice votes. Ranked-choice tabulation may still be needed. Democracy Docket reported that a Trump administration lawsuit challenges the Alaska race's certification. [[TAG:success:Mississippi flips]]"
+          "heading": "Ground Stop",
+          "body": "Al Jazeera and CNN reported that the FAA halted flights nationwide on Friday afternoon after a telecommunications outage hit all 22 air route traffic control centers. The ground stop was lifted that night. Transportation Secretary Sean Duffy blamed overloaded routers in an aging system. The root cause was still under investigation as of Saturday. Reports said it was only the third nationwide ground stop in US history. [[TAG:warning:aging system]]"
         },
         {
-          "heading": "Wholesale Inflation",
-          "body": "CNBC reported that the producer price index rose 0.3% in October, slightly below forecasts, but the annual rate reached 6.5%, the highest in nearly four years. TokenPost said market-implied odds of a quarter-point Fed hike in December rose to 91%. The Fed's next decision is December 9. [[TAG:danger:hike likely]]"
+          "heading": "Bessent",
+          "body": "CBS News and The Hill reported that Treasury Secretary Scott Bessent confirmed he moved from his Washington home to a military base at the Secret Service's direction after Iranian threats against his life. He said he would not be cowed. The Hill reported that Hegseth and Rubio are also living on military bases. Iran has previously denied plotting attacks on US soil. [[TAG:danger:threats to officials]]"
         },
         {
-          "heading": "Markets and Nvidia",
-          "body": "TheStreet and the Washington Post reported that on Friday the Dow edged up 0.10% while the S&P 500 fell 0.40% and the Nasdaq 0.91%. All three still gained on the week. TipRanks and Mediaite reported that Nvidia shares fell further after Reuters reported a third alleged affair involving Jensen Huang, with another Nvidia employee. Nvidia declined to comment. [[TAG:warning:Nvidia earnings Tuesday]]"
+          "heading": "Iran Policy",
+          "body": "Al Jazeera analyzed how Tehran views Trump's decision to sideline Vice President Vance from talks. Iran continues to demand seven conditions with clear sequencing. Fox News reported that Trump said on Truth Social that the US no longer needs a nuclear deal. [[TAG:info:no-deal posture]]"
         }
       ],
-      "sources": "Anchorage Daily News, Democracy Docket, The Hill, CNBC, TokenPost, TheStreet, Washington Post, TipRanks, Mediaite",
-      "citations": [
-        {
-          "outlet": "Anchorage Daily News",
-          "title": "Peltola grows lead in Alaska’s U.S. Senate race after thousands more ballots are counted - Anchorage Daily News",
-          "url": "https://www.adn.com/politics/2026/11/13/peltola-grows-lead-in-alaskas-us-senate-race-after-thousands-more-ballots-are-counted/"
-        },
-        {
-          "outlet": "Democracy Docket",
-          "title": "Democrat Peltola widens lead over both Sullivans combined in Alaska Senate race - Democracy Docket",
-          "url": "https://www.democracydocket.com/news-alerts/democrat-peltola-widens-lead-over-both-sullivans-combined-in-alaska-senate-race/"
-        },
-        {
-          "outlet": "The Hill",
-          "title": "Senate election margins widen: Mississippi’s Colom and Alaska’s Peltola increase leads",
-          "url": "https://thehill.com/video-clips/why-the-wait-mary-peltola-scott-colom-leads-widen-in-alaska-and-mississippi-senate-races-mh5msje5xue/"
-        },
-        {
-          "outlet": "CNBC",
-          "title": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
-          "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html"
-        },
-        {
-          "outlet": "TokenPost",
-          "title": "October PPI Data Lifts December Quarter-Point Fed Hike Odds to 91%",
-          "url": "https://www.tokenpost.com/news/investing/56743"
-        },
-        {
-          "outlet": "TheStreet",
-          "title": "Stock Market Today (Nov. 13, 2026): Nasdaq, S&P 500 end lower as Nvidia drama continues to roil tech - TheStreet",
-          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026"
-        },
-        {
-          "outlet": "Washington Post",
-          "title": "How major US stock indexes fared Friday 11/13/2026 - The Washington Post",
-          "url": "https://www.washingtonpost.com/business/2026/11/13/wall-street-stocks-dow-nasdaq/f15a10e2-dfa7-11f1-912c-4fbb80d73f7f_story.html"
-        },
-        {
-          "outlet": "TipRanks",
-          "title": "Nvidia Stock (NVDA) Continues to Fall on Reports of a Third Affair - TipRanks.com",
-          "url": "https://www.tipranks.com/news/nvidia-stock-nvda-continues-to-fall-on-reports-of-a-third-affair"
-        },
-        {
-          "outlet": "Mediaite",
-          "title": "Reuters Reveals Third Jensen Huang Affair As Nvidia Stock Continues to Fall",
-          "url": "https://www.mediaite.com/media/news/reuters-reveals-third-jensen-huang-affair-as-nvidia-stock-continues-to-fall/"
-        }
-      ]
-    },
-    {
-      "title": "Germany: Mercedes Hits Pause",
-      "icon": "🏭",
-      "summary": "Carmaker freezes investment at German plants and weighs closures after labour talks fail",
-      "paragraphs": [
-        {
-          "heading": "Investment Freeze",
-          "body": "RTE and Automotive News reported that Mercedes-Benz has halted new investment at its German plants after failing to agree on labour-cost cuts with its works council and unions. Board member Britta Seeger said the company must now examine closures more closely, though it wants to avoid them. Production chief Michael Schiebe warned that new models could be built only abroad. [[TAG:danger:closures weighed]]"
-        },
-        {
-          "heading": "Cost Squeeze",
-          "body": "Reports said the move follows a cut to Mercedes's 2026 profit outlook. The company is seeking savings that include lengthening the working week from 35 to at least 38 hours. IG Metall is demanding a 5% pay rise. Analyst Ferdinand Dudenhoeffer called it the German car industry's biggest crisis since its inception. [[TAG:warning:union clash]]"
-        }
-      ],
-      "sources": "RTE, Automotive News, Manila Times (AFP), Yahoo Finance",
-      "citations": [
-        {
-          "outlet": "RTE",
-          "title": "Mercedes-Benz to halt German investments",
-          "url": "https://www.rte.ie/news/business/2026/1113/1599071-mercedes-benz-halts-german-investments/"
-        },
-        {
-          "outlet": "Automotive News",
-          "title": "Mercedes halts German plant investments, weighs closures - Automotive News",
-          "url": "https://www.autonews.com/mercedes-benz/ane-mercedes-halts-german-investents-plant-closure-warning-1112/"
-        },
-        {
-          "outlet": "Manila Times (AFP)",
-          "title": "Mercedes to halt investments in Germany",
-          "url": "https://www.manilatimes.net/2026/11/14/business/foreign-business/mercedes-to-halt-investments-in-germany/2469469"
-        },
-        {
-          "outlet": "Yahoo Finance",
-          "title": "Mercedes-Benz freezes German investment amid cost pressures",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/mercedes-benz-freezes-german-investment-105410265.html"
-        }
-      ]
-    },
-    {
-      "title": "Israel and Gaza",
-      "icon": "🏛️",
-      "summary": "Eisenkot prioritizes a Haredi coalition; Gaza deaths continue as mediators demand more aid",
-      "paragraphs": [
-        {
-          "heading": "Coalition",
-          "body": "The Times of Israel, citing Channel 12, reported that Eisenkot has decided to prioritize a coalition with the ultra-Orthodox parties over relying on Arab parties. Israel.com reported that he says talks are progressing a week into his mandate, though bloc figures describe the contacts as initial soundings. Shas remains closely aligned with Netanyahu. [[TAG:info:Haredi track]]"
-        },
-        {
-          "heading": "Gaza",
-          "body": "Middle East Monitor, citing Anadolu, reported that Israeli attacks killed six Palestinians and wounded about 20 in Gaza on Friday despite the ceasefire. Palestinian health authorities put the toll since the ceasefire took effect above 1,600. Egypt Today reported that the intelligence chiefs of Egypt, Turkey and Qatar met in Cairo and called for a halt to Israeli violations and more humanitarian aid as winter sets in. Israel and Hamas accuse each other of violating the truce. [[TAG:danger:ceasefire strained]]"
-        }
-      ],
-      "sources": "Times of Israel, Israel.com, Middle East Monitor, Egypt Today, Modern Diplomacy",
-      "citations": [
-        {
-          "outlet": "Times of Israel",
-          "title": "Eisenkot said prioritizing efforts to form coalition with ultra-Orthodox",
-          "url": "https://www.timesofisrael.com/eisenkot-said-prioritizing-efforts-to-form-coalition-with-ultra-orthodox/"
-        },
-        {
-          "outlet": "Israel.com",
-          "title": "Eisenkot says coalition talks are progressing a week into his mandate",
-          "url": "https://www.israel.com/news/eisenkot-says-coalition-talks-are-progressing-a-week-into-his-mandate"
-        },
-        {
-          "outlet": "Middle East Monitor",
-          "title": "Israeli attacks kill 6 Palestinians, injure around 20 in Gaza despite ceasefire",
-          "url": "https://middleeastmonitor.com/20261113-israeli-attacks-kill-6-palestinians-injure-around-20-in-gaza-despite-ceasefire"
-        },
-        {
-          "outlet": "Egypt Today",
-          "title": "Egypt, Türkiye, Qatar intelligence chiefs call for more Gaza aid, halt to Israeli violations - EgyptToday",
-          "url": "https://www.egypttoday.com/Article/1/150573/Egypt-T%C3%BCrkiye-Qatar-intelligence-chiefs-call-for-more-Gaza-aid"
-        },
-        {
-          "outlet": "Modern Diplomacy",
-          "title": "A Ceasefire Measured in Tents: Israel’s Obstruction of Shelter Aid in Gaza - Modern Diplomacy",
-          "url": "https://moderndiplomacy.eu/2026/11/14/a-ceasefire-measured-in-tents-israels-obstruction-of-shelter-aid-in-gaza/"
-        }
-      ]
-    },
-    {
-      "title": "Around the World",
-      "icon": "🌍",
-      "summary": "Pope Leo's emotional Chiclayo Mass; Sudan's army claims a West Kordofan town",
-      "paragraphs": [
-        {
-          "heading": "Chiclayo",
-          "body": "Al Jazeera and OSV News reported that Pope Leo XIV celebrated an outdoor Mass near Chiclayo, the Peruvian diocese he led from 2015 to 2023. Crowd estimates range from about 500,000, cited by Vatican News, to one million, cited by America Magazine. Al Jazeera said the visit came a month after the pope's lung cancer surgery. [[TAG:success:homecoming Mass]]"
-        },
-        {
-          "heading": "Sudan",
-          "body": "Radio Tamazuj reported that Sudan's army and allied Joint Force fighters said they recaptured the strategic town of Al-Khuway in West Kordofan after heavy fighting with the Rapid Support Forces, which had not commented. A year after the RSF took El Fasher, Amnesty International has documented killings and torture there. Thousands of people remain missing, according to an allAfrica roundup. [[TAG:danger:war grinds on]]"
-        }
-      ],
-      "sources": "Al Jazeera, OSV News, Vatican News, America Magazine, Radio Tamazuj, Democrata, allAfrica",
+      "sources": "Al Jazeera, CNN, FAA, CBS News, The Hill, Fox News",
       "citations": [
         {
           "outlet": "Al Jazeera",
-          "title": "Pope thanks crowds on emotional return to ‘second home’ in Peru’s Chiclayo",
-          "url": "https://www.aljazeera.com/news/2026/11/13/pope-thanks-crowds-on-emotional-return-to-second-home-in-perus-chiclayo"
+          "title": "FAA ground stop lifted: Why were US flights grounded, and what’s next?",
+          "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
         },
         {
-          "outlet": "OSV News",
-          "title": "Pope Leo XIV’s Mass in Chiclayo an emotional reunion with his ‘beloved’ diocese - OSV News",
-          "url": "https://www.osvnews.com/pope-leo-xivs-mass-in-chiclayo-an-emotional-reunion-with-his-beloved-diocese/"
+          "outlet": "CNN",
+          "title": "November 13, 2026 — Some US flights resume after hours-long ground stop",
+          "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa"
+        },
+        {
+          "outlet": "FAA",
+          "title": "FAA Statement on Nationwide Ground Stop",
+          "url": "https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Bessent relocates from D.C.-area home to military base following Iran threats - CBS News",
+          "url": "https://www.cbsnews.com/news/bessent-relocate-dc-area-home-military-base-iran-threats-to-kill-him/"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Treasury Secretary Scott Bessent relocates to military base after Iran threats",
+          "url": "https://thehill.com/homenews/administration/6213592-bessent-moves-military-base/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "How does Iran view Trump sidelining Vance from talks?",
+          "url": "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Trump says the US no longer needs an Iran nuclear deal on Truth Social",
+          "url": "https://www.foxnews.com/politics/trump-keeps-signaling-end-iran-war-expert-warns-crucial-piece-his-strategy-missing"
+        }
+      ]
+    },
+    {
+      "title": "Asia-Pacific",
+      "icon": "🌏",
+      "summary": "ASEAN opens in Manila with South China Sea code set to miss deadline; Manila, Canberra upgrade pact",
+      "paragraphs": [
+        {
+          "heading": "ASEAN Summit",
+          "body": "The Philippine Star and AP, via ABC News, reported that the 49th ASEAN summit opened in Manila, with global conflicts and their impact at the top of the agenda. President Marcos opened the plenary without giving a timeline for the South China Sea code of conduct, which ASEAN had targeted for 2026. A diplomat told AFP that no code is expected to be signed at the summit. [[TAG:warning:code delayed]]"
+        },
+        {
+          "heading": "Defense Upgrade",
+          "body": "Anadolu and the Japan Times reported that the Philippines and Australia signed an upgraded defense cooperation arrangement in Manila, witnessed by Prime Minister Anthony Albanese. It covers joint exercises, procurement and disaster response. Philippine Defense Secretary Gilberto Teodoro said it bolsters a credible deterrent posture. Bloomberg framed it as a response to China. [[TAG:info:deterrence]]"
+        }
+      ],
+      "sources": "Philippine Star, ABC News (AP), Anadolu, Japan Times, Bloomberg",
+      "citations": [
+        {
+          "outlet": "Philippine Star",
+          "title": "Marcos opens ASEAN plenary as South China Sea code likely to miss target",
+          "url": "https://www.philstar.com/headlines/2026/11/15/2570290/marcos-opens-asean-plenary-south-china-sea-code-likely-miss-target"
+        },
+        {
+          "outlet": "ABC News (AP)",
+          "title": "Southeast Asian leaders open annual summit with major conflicts and their impact topping the agenda - ABC News",
+          "url": "https://abcnews.com/International/wireStory/southeast-asian-leaders-open-annual-summit-major-conflicts-138153824"
+        },
+        {
+          "outlet": "Anadolu",
+          "title": "Philippines, Australia upgrade defense pact to 'bolster credible deterrent posture'",
+          "url": "https://www.aa.com.tr/en/asia-pacific/philippines-australia-upgrade-defense-pact-to-bolster-credible-deterrent-posture/4125485"
+        },
+        {
+          "outlet": "Japan Times",
+          "title": "Australia and Philippines upgrade defense ties with focus on China - The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/15/asia-pacific/australia-philippines-defense-upgrade-china/"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Australia, Philippines Upgrade Defense Ties With Focus on China - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/australia-philippines-upgrade-defense-ties-with-focus-on-china"
+        }
+      ]
+    },
+    {
+      "title": "Europe and Ukraine",
+      "icon": "🇪🇺",
+      "summary": "France's fifth Saturday of protests draws about 106,000; Ukraine prepares the war's largest swap",
+      "paragraphs": [
+        {
+          "heading": "France",
+          "body": "Al Jazeera and France 24 reported that the interior ministry counted about 106,000 protesters nationwide on Saturday, down from 146,000 a week earlier, while student unions claimed far more. It was the fifth straight Saturday of protests over living costs, public services and police violence. Tear gas was used in Paris, Nantes and Bordeaux, and Paris prosecutors reported 45 arrests in the capital. Riviera Radio said about 70,000 police were deployed. [[TAG:warning:unrest continues]]"
+        },
+        {
+          "heading": "Ukraine",
+          "body": "RBC-Ukraine reported that the Trump team has begun preparations for the largest-ever Ukraine-Russia prisoner exchange, and that Zelensky rejected a Russian proposal for a humanitarian mission in Kostiantynivka as a 'primitive move.' The Kyiv Independent reported Russian strikes on Zaporizhzhia that injured 50 people, including children, and a Ukrainian drone attack on Russia's largest oil refinery. [[TAG:danger:strikes continue]]"
+        }
+      ],
+      "sources": "Al Jazeera, France 24, Riviera Radio, RBC-Ukraine, Kyiv Independent",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "More than 100,000 rally across France in new Yellow Vest protests",
+          "url": "https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests"
+        },
+        {
+          "outlet": "France 24",
+          "title": "More than 100,000 protest across France, interior ministry says - France 24",
+          "url": "https://www.france24.com/en/france/20261114-live-france-mobilises-in-fifth-wave-of-student-protests"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "France sees fifth consecutive Saturday of nationwide protests",
+          "url": "https://www.euronews.com/2026/11/14/france-sees-fifth-consecutive-saturday-of-nationwide-protests"
+        },
+        {
+          "outlet": "Riviera Radio",
+          "title": "France prepares for nationwide protests on Saturday with 70,000 police officers deployed",
+          "url": "https://www.rivieraradio.mc/article/france-prepares-for-nationwide-protests-on-saturday-with-70-000-police-officers-5HjdmLP_2/"
+        },
+        {
+          "outlet": "RBC-Ukraine",
+          "title": "Russia Ukraine war news - latest updates",
+          "url": "https://newsukraine.rbc.ua/war-in-ukraine"
+        },
+        {
+          "outlet": "Kyiv Independent",
+          "title": "The Kyiv Independent — News from Ukraine, Eastern Europe",
+          "url": "https://kyivindependent.com/"
+        }
+      ]
+    },
+    {
+      "title": "Israel: The UTJ Track",
+      "icon": "🏛️",
+      "summary": "UTJ leads Haredi contacts with Eisenkot's bloc while Shas stays close to Netanyahu",
+      "paragraphs": [
+        {
+          "heading": "Talks",
+          "body": "The Times of Israel reported that Eisenkot and Liberman agreed to open talks with the Haredi parties, eyeing concessions on the military draft law. Yahoo News, quoting a former Shas spokesperson, reported that United Torah Judaism is leading the contacts because of Shas's deep ties to Likud. The Jerusalem Post said Netanyahu has told the Haredi parties they cannot trust Eisenkot's promises. [[TAG:info:draft concessions]]"
+        },
+        {
+          "heading": "Netanyahu's Bind",
+          "body": "A Jerusalem Post analysis said Netanyahu is buying time as the Haredi parties weigh an Eisenkot coalition, but lacks an alternative path of his own. Shas has called reports that it will join an Eisenkot government 'fake news.' [[TAG:warning:Shas holds out]]"
+        }
+      ],
+      "sources": "Times of Israel, Yahoo News, Jerusalem Post",
+      "citations": [
+        {
+          "outlet": "Times of Israel",
+          "title": "Report: Eisenkot, Liberman agree to open talks with Haredi parties, eyeing draft law concessions",
+          "url": "https://www.timesofisrael.com/liveblog_entry/report-eisenkot-liberman-agree-to-open-talks-with-haredi-parties-eyeing-draft-law-concessions/"
+        },
+        {
+          "outlet": "Yahoo News",
+          "title": "UTJ leads talks with Eisenkot-led bloc due to deep Shas-Likud ties, ex-Shas spokesperson says",
+          "url": "https://www.yahoo.com/news/politics/articles/utj-leads-talks-eisenkot-led-221918569.html"
+        },
+        {
+          "outlet": "Jerusalem Post",
+          "title": "Benjamin Netanyahu tells haredi parties they cannot trust Gadi Eisenkot promises",
+          "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-914799"
+        },
+        {
+          "outlet": "Jerusalem Post",
+          "title": "Netanyahu buys time as haredi parties weigh Eisenkot coalition, but lacks alternative - analysis",
+          "url": "http://www.jpost.com/israel-election-2026/article-914868"
+        }
+      ]
+    },
+    {
+      "title": "Pope in the Andes",
+      "icon": "⛪",
+      "summary": "Leo urges an end to violence in a remote Andes town; Peru names itself 'Land of Pope Leo XIV'",
+      "paragraphs": [
+        {
+          "heading": "Andes Mass",
+          "body": "Al Jazeera reported that Pope Leo XIV urged an end to violence in Peru during a Mass in the remote Andes town of Santa Cruz de Succhabamba, which he reached by military helicopter. EWTN said he praised the evangelists of the Andes. Vatican News said he travels on Sunday to Cusco, the former Inca capital that John Paul II visited 41 years ago, where Leo will meet representatives of popular devotion at Saqsaywaman. [[TAG:info:Cusco Sunday]]"
+        },
+        {
+          "heading": "Decree",
+          "body": "Latin Times reported that Peru's government published a decree naming the country the 'Land of Pope Leo XIV.' [[TAG:success:national honor]]"
+        }
+      ],
+      "sources": "Al Jazeera, EWTN, Vatican News, Latin Times",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Pope Leo urges end to violence in Peru during visit to remote Andes town",
+          "url": "https://www.aljazeera.com/news/2026/11/14/pope-leo-urges-end-to-violence-in-peru-during-visit-to-remote-andes-town"
+        },
+        {
+          "outlet": "EWTN",
+          "title": "At papal Mass in Peru, Pope Leo XIV praises the evangelists of the Andes",
+          "url": "https://www.ewtnnews.com/vatican/papal-mass-santa-cruz-de-succhabamba"
         },
         {
           "outlet": "Vatican News",
-          "title": "‘Proclaiming Christ is a crucial task,’ Pope Leo tells faithful in Chiclayo, Peru - Vatican News",
-          "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-homily-mass-chiclayo-peru-evangelization.html"
+          "title": "A look at Cusco and its devotions as Pope Leo travels to the Imperial City - Vatican News",
+          "url": "https://www.vaticannews.va/en/pope/news/2026-11/a-look-at-cusco-and-its-devotions-as-pope-leo-travels.html"
         },
         {
-          "outlet": "America Magazine",
-          "title": "Pope Leo’s joyous return home to Chiclayo - America Magazine",
-          "url": "https://www.americamagazine.org/vatican-dispatch/2026/11/13/pope-leo-mass-chiclayo-home-peru/"
-        },
-        {
-          "outlet": "Radio Tamazuj",
-          "title": "Sudanese army, allies announce recapture of key West Kordofan town - Radio Tamazuj",
-          "url": "https://radiotamazuj.org/en/news/article/sudanese-army-allies-announce-recapture-of-key-west-kordofan-town"
-        },
-        {
-          "outlet": "Democrata",
-          "title": "Amnesty documents murders and tortures by the RSF in El Fasher one year after the fall of the city",
-          "url": "https://www.democrata.es/en/international/amnesty-documents-murders-and-tortures-by-the-rsf-in-el-fasher-one-year-after-the-fall-of-the-city/"
-        },
-        {
-          "outlet": "allAfrica",
-          "title": "Africa: All of Africa Today - November 2, 2026 - allAfrica.com",
-          "url": "https://allafrica.com/stories/202611020103.html"
+          "outlet": "Latin Times",
+          "title": "No Country Has Done This Before: Peru Claims Pope Leo XIV as Its Own in a Historic Decree",
+          "url": "https://www.latintimes.com/peru-land-pope-leo-xiv-decree-601349"
         }
       ]
     }
   ],
   "searches": [
     {
-      "query": "world news November 14 2026",
+      "query": "world news November 15 2026",
       "results": [
         {
           "title": "The World Today (TV news programme)",
           "url": "https://en.wikipedia.org/wiki/The_World_Today_(TV_news_programme)"
         },
         {
-          "title": "Video. Latest news bulletin",
-          "url": "https://www.euronews.com/video/2026/11/14/latest-news-bulletin-november-14th-2026-morning"
+          "title": "Morning Briefing: Nov. 15, 2026",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489"
         },
         {
-          "title": "Daily Brief: 14 November 2026 — What Happened Worldwide",
-          "url": "https://globalincidenttracker.com/brief/2026-11-14"
+          "title": "Video. Latest news bulletin",
+          "url": "https://www.euronews.com/video/2026/11/15/latest-news-bulletin-november-15th-2026-morning"
+        },
+        {
+          "title": "Daily digest: 2026-11-15 - No1's Daily Digest",
+          "url": "https://no1sdailydigest.substack.com/p/daily-digest-2026-11-15"
         },
         {
           "title": "TODAY'S NEWS, Weekend Edition, November 13-16, 2024",
@@ -401,107 +403,62 @@
           "url": "https://www.euronews.com/tag/world-news?p=13"
         },
         {
+          "title": "top stories",
+          "url": "https://www.euronews.com/tag/top-stories?p=21"
+        },
+        {
           "title": "world news",
           "url": "https://www.euronews.com/tag/world-news?p=8"
         },
         {
           "title": "world news",
-          "url": "https://www.euronews.com/tag/world-news?p=7"
-        },
-        {
-          "title": "world news",
-          "url": "https://www.euronews.com/tag/world-news?p=12"
-        },
-        {
-          "title": "world news",
-          "url": "https://www.euronews.com/tag/world-news?p=9"
+          "url": "https://www.euronews.com/tag/world-news?p=15"
         }
       ]
     },
     {
-      "query": "Iran Bahrain radar US response November 13 2026",
+      "query": "Iran US news November 14 2026",
       "results": [
         {
-          "title": "U.S. denies Iran hit early warning radar system in Bahrain",
-          "url": "https://www.washingtontimes.com/news/2026/nov/13/us-denies-iran-hit-early-warning-radar-system-bahrain/"
+          "title": "Latest news on the U.S.-Israeli war with Iran — stories, videos, latest coverage",
+          "url": "https://www.cbsnews.com/us-iran-tensions/"
         },
         {
-          "title": "US denies Iran's claim that it attacked early-warning radar in Bahrain",
-          "url": "https://www.yahoo.com/news/articles/irans-guards-targeted-us-early-045737524.html"
+          "title": "Iran War: Latest News, Live Coverage and Video",
+          "url": "https://www.nbcnews.com/world/iran-war"
         },
         {
-          "title": "US denies Iran's claim that it attacked early-warning radar in Bahrain - AL-MONITOR: The Middle Eastʼs leading independent news source since 2012",
-          "url": "https://www.al-monitor.com/originals/2026/11/us-denies-irans-claim-it-attacked-early-warning-radar-bahrain"
+          "title": "Rubio says U.S. has \"no need\" to restart combat operations in Iran",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-deal-negotiations/"
         },
         {
-          "title": "US denies IRGC destroyed American radar in Bahrain after attack on southern Iran",
-          "url": "https://www.euronews.com/2026/11/13/irgc-says-it-destroyed-us-radar-in-bahrain-after-attack-on-southern-iran"
+          "title": "United States",
+          "url": "https://www.iranintl.com/en/united-states"
         },
         {
-          "title": "US Military Downs 2 Iranian Attack Drones as Iran Claims a Strike on a US Radar in Bahrain",
-          "url": "https://www.usnews.com/news/world/articles/2026-11-13/irans-revolutionary-guard-says-it-destroyed-a-us-radar-in-bahrain-and-other-mideast-news"
+          "title": "Trump says the US no longer needs an Iran nuclear deal on Truth Social",
+          "url": "https://www.foxnews.com/politics/trump-keeps-signaling-end-iran-war-expert-warns-crucial-piece-his-strategy-missing"
         },
         {
-          "title": "2026 Iranian strikes on Arab countries",
-          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Arab_countries"
+          "title": "How does Iran view Trump sidelining Vance from talks?",
+          "url": "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away"
         },
         {
-          "title": "Iranian strikes on the United Arab Emirates",
-          "url": "https://en.wikipedia.org/wiki/Iranian_strikes_on_the_United_Arab_Emirates"
+          "title": "breaking united states bombs iran",
+          "url": "https://aaronparnas.substack.com/p/breaking-united-states-bombs-iran"
         },
         {
-          "title": "Reactions to the 2026 Iran war",
-          "url": "https://en.wikipedia.org/wiki/Reactions_to_the_2026_Iran_war"
+          "title": "latest news bulletin may 22nd morning",
+          "url": "https://www.euronews.com/video/2025/05/22/latest-news-bulletin-may-22nd-morning"
         },
         {
-          "title": "Kuwait in the 2026 Iran war",
-          "url": "https://en.wikipedia.org/wiki/Kuwait_in_the_2026_Iran_war"
+          "title": "latest news bulletin march 15th midday",
+          "url": "https://www.euronews.com/video/2024/03/15/latest-news-bulletin-march-15th-midday"
         }
       ]
     },
     {
-      "query": "stock market November 13 2026 close Dow S&P Nasdaq week",
-      "results": [
-        {
-          "title": "Stock Market News for Nov 13, 2026",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-13-081500049.html"
-        },
-        {
-          "title": "Closing Look — Friday, November 13, 2026 - CappNotes",
-          "url": "https://cappnotes.substack.com/p/closing-look-friday-november-13-2026"
-        },
-        {
-          "title": "Stock Market Today (Nov. 13, 2026): Nasdaq, S&P 500 end lower as Nvidia drama continues to roil tech - TheStreet",
-          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026"
-        },
-        {
-          "title": "Stock market news for Nov. 13, 2026",
-          "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
-        },
-        {
-          "title": "Stock market today: Dow rises, S&P 500 and Nasdaq slip to cap volatile week, Nvidia stock plunge deepens",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"
-        },
-        {
-          "title": "How major US stock indexes fared Friday 11/13/2026 - The Washington Post",
-          "url": "https://www.washingtonpost.com/business/2026/11/13/wall-street-stocks-dow-nasdaq/f15a10e2-dfa7-11f1-912c-4fbb80d73f7f_story.html"
-        },
-        {
-          "title": "Stocks Close Lower in the Stock Market Today, November 13, 2026, After a Higher Open",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-13-2026"
-        },
-        {
-          "title": "US Stocks Close Mixed on Friday as Nasdaq Falls and Dow Edges Higher · Business Upturn",
-          "url": "https://businessupturn.com/usa/money/us-markets/us-stocks-close-mixed-on-friday-as-nasdaq-falls-and-dow-edges-higher/"
-        },
-        {
-          "title": "Stock Market Today, November 13, 2026: Tech Stocks Fall as Nvidia Earnings and Anthropic IPO Loom",
-          "url": "https://eurasiabusinessnews.com/2026/11/14/stock-market-today-november-13-2026-tech-stocks-fall-as-nvidia-earnings-and-anthropic-ipo-loom/"
-        }
-      ]
-    },
-    {
-      "query": "Ukraine Russia news November 13 2026",
+      "query": "Ukraine Russia news November 14 2026",
       "results": [
         {
           "title": "Ukraine News Today",
@@ -520,548 +477,581 @@
           "url": "https://www.nbcnews.com/world/russia-ukraine-news"
         },
         {
-          "title": "Ukraine-Russia: Latest news about the invasion and conflict - CBS News",
-          "url": "https://www.cbsnews.com/ukraine-crisis/"
-        },
-        {
           "title": "Russian invasion of Ukraine: Latest news, analysis and videos",
           "url": "https://www.cnn.com/world/europe/ukraine"
+        },
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.co.uk/h/World+News/Europe/Eastern+Europe/Ukraine"
         },
         {
           "title": "The Kyiv Independent — News from Ukraine, Eastern Europe",
           "url": "https://kyivindependent.com/"
         },
         {
-          "title": "Full Episode",
-          "url": "https://www.pbs.org/newshour/tag/ukraine/page/52"
+          "title": "Russia Ukraine war news - latest updates",
+          "url": "https://newsukraine.rbc.ua/war-in-ukraine"
         },
         {
-          "title": "www.pbs.org",
-          "url": "https://www.pbs.org/newshour/classroom/tag/russia?page=4"
+          "title": "Ukraine war live map: front line and news today",
+          "url": "https://liveuamap.com/"
         }
       ]
     },
     {
-      "query": "Russia Ukraine prisoner exchange largest November 2026",
+      "query": "China Russia confirm Trump Xi Putin APEC meeting Kremlin Beijing response",
       "results": [
         {
-          "title": "Russia and Ukraine agree to a large exchange of prisoners of war, officials say",
-          "url": "https://www.kpbs.org/news/international/2026/11/11/russia-and-ukraine-agree-to-a-large-exchange-of-prisoners-of-war-officials-say"
+          "title": "Moscow confirms Trump, Xi, Putin meeting in China",
+          "url": "https://english.alarabiya.net/News/world/2026/11/15/moscow-confirms-trump-xi-putin-meeting-in-china"
         },
         {
-          "title": "Russia and Ukraine agree to large prisoner exchange following two days of US-mediated talks - JURIST - News",
-          "url": "https://www.jurist.org/news/2026/11/russia-and-ukraine-agree-to-large-prisoner-exchange-following-two-days-of-us-mediated-talks/"
+          "title": "Aa",
+          "url": "https://www.aa.com.tr/en/eurasia/kremlin-says-putin-xi-trump-to-hold-trilateral-meeting-in-shenzhen-on-nov-19/4125290"
         },
         {
-          "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
-          "url": "https://www.iowapublicradio.org/news-from-npr/2026-11-11/russia-and-ukraine-agree-to-a-prisoner-exchange-as-talks-end-with-no-big-breakthrough"
+          "title": "Trump-Xi-Putin trilateral meeting at APEC: What to expect",
+          "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect"
         },
         {
-          "title": "Russia and Ukraine agree to a large prisoner exchange as talks end with no major breakthrough",
-          "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-agree-to-a-large-prisoner-exchange-as-talks-end-with-no-major-breakthrough"
+          "title": "Trump, Putin and Xi Jinping expected to meet in first-ever trilateral of its kind, officials say - CBS News",
+          "url": "https://www.cbsnews.com/news/trump-putin-xi-jinping-meeting-china-us-russia-talks/"
         },
         {
-          "title": "Russia and Ukraine agree to a large prisoner exchange as talks end with no major breakthrough",
-          "url": "https://www.inquirer.com/news/nation-world/russia-ukraine-talks-prisoner-exchange-20261111.html"
+          "title": "trump putin meeting 1.4396641",
+          "url": "https://amp.cbc.ca/news/world/trump-putin-meeting-1.4396641"
         },
         {
-          "title": "Russia and Ukraine agree to a large prisoner exchange as talks end with no major breakthrough",
-          "url": "https://www.ksat.com/news/world/2026/11/11/officials-at-talks-between-russia-and-ukraine-say-the-sides-have-agreed-a-large-release-of-prisoners-of-war/"
+          "title": "Prospects for Putin-Trump meeting at APEC summit unclear",
+          "url": "https://gulfnews.com/world/americas/prospects-for-putin-trump-meeting-at-apec-summit-unclear-1.2121945"
         },
         {
-          "title": "2026 Russo-Ukrainian truce",
-          "url": "https://en.wikipedia.org/wiki/2026_Russo-Ukrainian_truce"
+          "title": "Keith Kellogg: China's Xi trying to be 'the great negotiator' in wake of Putin meeting",
+          "url": "https://www.foxnews.com/world/russia-criticizes-wests-reaction-xi-jinpings-visit-deeply-hostile"
         },
         {
-          "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough - OPB",
-          "url": "https://www.opb.org/article/2026/11/11/russia-and-ukraine-agree-to-prisoner-exchange-but-no-breakthrough/"
+          "title": "www.npr.org",
+          "url": "https://www.npr.org/transcripts/730564570"
         },
         {
-          "title": "Alexander Vasilyevich Krasnoyartsev",
-          "url": "https://en.wikipedia.org/wiki/Alexander_Vasilyevich_Krasnoyartsev"
-        },
-        {
-          "title": "russia ukraine exchange hundreds of prisoners of war",
-          "url": "https://newsonair.gov.in/russia-ukraine-exchange-hundreds-of-prisoners-of-war"
+          "title": "Add Tribune As Your Trusted Source",
+          "url": "https://www.tribuneindia.com/news/world/russian-pm-mikhail-mishustin-meets-with-chinese-president-xi/amp"
         }
       ]
     },
     {
-      "query": "Nvidia third affair allegation Huang Friday shares Kress",
+      "query": "oil tankers struck mines Strait of Hormuz fire",
       "results": [
         {
-          "title": "Nvidia Stock (NVDA) Continues to Fall on Reports of a Third Affair - TipRanks.com",
-          "url": "https://www.tipranks.com/news/nvidia-stock-nvda-continues-to-fall-on-reports-of-a-third-affair"
+          "title": "2 oil tankers hit mines, catch fire near Strait of Hormuz: Iran's Revolutionary Guard",
+          "url": "https://aa.com.tr/en/middle-east/2-oil-tankers-hit-mines-catch-fire-near-strait-of-hormuz-irans-revolutionary-guard/4125453"
         },
         {
-          "title": "Reuters Reveals Third Jensen Huang Affair As Nvidia Stock Continues to Fall",
-          "url": "https://www.mediaite.com/media/news/reuters-reveals-third-jensen-huang-affair-as-nvidia-stock-continues-to-fall/"
+          "title": "Iran's navy says three tankers on fire after hitting mines in Hormuz",
+          "url": "https://www.yahoo.com/news/world/articles/irans-navy-says-three-tankers-225347151.html"
         },
         {
-          "title": "Former Nvidia CEO Huang had third alleged affair: Reuters",
-          "url": "https://cryptobriefing.com/former-nvidia-ceo-huang-had-third-alleged-affair-reuters/"
+          "title": "Three oil tankers catch fire after hitting naval mines in Hormuz, claims Iran's Navy",
+          "url": "https://aninews.in/news/world/middle-east/three-oil-tankers-catch-fire-after-hitting-naval-mines-in-hormuz-claims-irans-navy20261115061422/"
         },
         {
-          "title": "Jensen Huang Reportedly Had a Third Affair With Another Nvidia Employee as New Allegations Emerge",
-          "url": "https://www.ibtimes.co.uk/reuters-third-alleged-relationship-jensen-huang-1831950"
+          "title": "Two oil tankers struck by mines in Strait of Hormuz, Qatar and US talk about mediation efforts",
+          "url": "https://www.newsnationnow.com/world/oil-tankers-mines-strait-of-hormuz/"
         },
         {
-          "title": "Nvidia (NVDA) Stock: Huang Resigns, Then Affair No. 3 Surfaces Hours Later - CoinCentral",
-          "url": "https://coincentral.com/nvidia-nvda-stock-huang-resigns-then-affair-no-3-surfaces-hours-later"
+          "title": "Live Updates: Bahrain says it intercepted Iranian attacks after Tehran claims it targeted U.S. assets",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/"
         },
         {
-          "title": "Nvidia (NVDA) Stock: Huang Steps Down, Then a Third Affair Report Lands - Blockonomi",
-          "url": "https://blockonomi.com/nvidia-nvda-stock-huang-steps-down-then-a-third-affair-report-lands"
+          "title": "Iran’s IRGC says it attacked US radar system at a base in Bahrain - The Tribune",
+          "url": "https://tribuneindia.com/news/bahrain-riffa-air-base/irans-irgc-says-it-attacked-us-radar-system-at-a-base-in-bahrain"
         },
         {
-          "title": "nvidia billionaires colette kress jay puri jensen huang",
-          "url": "https://fortune.com/2025/07/30/nvidia-billionaires-colette-kress-jay-puri-jensen-huang"
+          "title": "Operation Project Freedom",
+          "url": "https://en.wikipedia.org/wiki/Operation_Project_Freedom"
         },
         {
-          "title": "Jensen Huang is offloading nearly $1bn of Nvidia stock - but there's no reason to be concerned",
-          "url": "https://www.techradar.com/pro/jensen-huang-is-offloading-nearly-usd1bn-of-nvidia-stock-but-theres-no-reason-to-be-concerned"
+          "title": "Iran says 2 oil tankers hit sea mines, catch fire near Strait of Hormuz - Türkiye Today",
+          "url": "https://www.turkiyetoday.com/region/iran-says-2-oil-tankers-hit-sea-mines-catch-fire-near-strait-of-hormuz-3232412"
         },
         {
-          "title": "jensen huangs net worth drops below 100b as nvidia stock plummets 14 over 3 sessions after earni",
-          "url": "https://www.benzinga.com/markets/equities/24/09/40701545/jensen-huangs-net-worth-drops-below-100b-as-nvidia-stock-plummets-14-over-3-sessions-after-earni"
+          "title": "US says Iran attacked tankers",
+          "url": "https://www.pressreader.com/usa/the-morning-call/20190614/281500752764519"
         }
       ]
     },
     {
-      "query": "Eisenkot coalition news November 13 2026",
+      "query": "US air traffic control nationwide outage FAA November 2026",
       "results": [
         {
-          "title": "Eisenkot said prioritizing efforts to form coalition with ultra-Orthodox",
-          "url": "https://www.timesofisrael.com/eisenkot-said-prioritizing-efforts-to-form-coalition-with-ultra-orthodox/"
+          "title": "2026 FAA nationwide ground stop",
+          "url": "https://en.wikipedia.org/wiki/2026_FAA_communication_outage"
+        },
+        {
+          "title": "2026 FAA nationwide ground stop",
+          "url": "https://en.wikipedia.org/wiki/2026_US_ground_stop"
+        },
+        {
+          "title": "US nationwide ground stop lifted",
+          "url": "https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/"
+        },
+        {
+          "title": "November 13, 2026 — Some US flights resume after hours-long ground stop",
+          "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa"
+        },
+        {
+          "title": "FAA ground stop lifted: Why were US flights grounded, and what’s next?",
+          "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+        },
+        {
+          "title": "FAA Statement on Nationwide Ground Stop",
+          "url": "https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop"
+        },
+        {
+          "title": "US flights resume after FAA lifts hours-long nationwide ground stop",
+          "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue"
+        },
+        {
+          "title": "2023 FAA system outage",
+          "url": "https://en.wikipedia.org/wiki/2023_FAA_system_outage"
+        },
+        {
+          "title": "ATC communications outage impacting flights across US",
+          "url": "https://www.aerotime.aero/articles/faa-nationwide-ground-stop-atc-communications-november-2026"
+        }
+      ]
+    },
+    {
+      "query": "Qatar Turkey defence alliance announced",
+      "results": [
+        {
+          "title": "Turkey, Qatar sign mutual defence agreement",
+          "url": "https://www.france24.com/en/live-news/20261113-turkey-qatar-sign-mutual-defence-agreement"
+        },
+        {
+          "title": "Turkey, Qatar sign mutual defence agreement, pledge unified stance against attack",
+          "url": "https://www.yahoo.com/news/articles/turkey-qatar-sign-mutual-defence-155214426.html"
+        },
+        {
+          "title": "Turkey, Qatar Sign Mutual Defence Agreement, Pledge Unified Stance Against Attack",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-13/turkey-qatar-sign-mutual-defence-agreement-turkish-presidency-says"
+        },
+        {
+          "title": "New Age",
+          "url": "https://www.newagebd.net/post/middle-east/322379/turkey-qatar-sign-defence-agreement-amid-regional-tension"
+        },
+        {
+          "title": "Turkiye and Qatar sign mutual defence agreement",
+          "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement"
+        },
+        {
+          "title": "Turkey and Qatar pledge unified stance against attacks in mutual defence pact - France 24",
+          "url": "https://www.france24.com/en/middle-east/20261113-turkey-and-qatar-pledge-unified-stance-against-attacks-in-mutual-defence-pact"
+        },
+        {
+          "title": "Turkey and Qatar sign mutual defence agreement",
+          "url": "https://www.middleeasteye.net/news/turkey-and-qatar-sign-mutual-defence-agreement"
+        },
+        {
+          "title": "Qatar and Turkiye sign a mutual defence pact: What do we know?",
+          "url": "https://www.yahoo.com/news/world/articles/qatar-turkiye-sign-mutual-defence-091943088.html"
+        },
+        {
+          "title": "Qatar%E2%80%93Turkey relations",
+          "url": "https://en.wikipedia.org/wiki/Qatar%E2%80%93Turkey_relations"
+        },
+        {
+          "title": "Turkey sends more troops to Qatar",
+          "url": "https://www.aljazeera.com/news/2017/12/171227051912500.html"
+        }
+      ]
+    },
+    {
+      "query": "Yemen government forces withdraw Bab el-Mandeb Houthis control",
+      "results": [
+        {
+          "title": "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control - AL-MONITOR: The Middle Eastʼs leading independent news source since 2012",
+          "url": "https://www.al-monitor.com/originals/2026/11/yemen-government-forces-withdraw-area-near-bab-el-mandeb-strait-houthis-control"
+        },
+        {
+          "title": "Yemen govt forces withdraw from area near Bab Al Mandab Strait, Houthis in control",
+          "url": "https://www.khaleejtimes.com/world/mena/yemen-government-withdraws-area-near-bab-al-mandab-strait-houthis-in-control"
+        },
+        {
+          "title": "Yemen forces withdraw from area near Bab al-Mandeb Strait",
+          "url": "https://www.newarab.com/news/yemen-forces-withdraw-area-near-bab-al-mandeb-strait"
+        },
+        {
+          "title": "Houthis take control of Bab el-Mandeb Strait as Yemen's forces withdraw",
+          "url": "https://www.jpost.com/middle-east/article-914920"
+        },
+        {
+          "title": "Southern Yemeni forces withdraw from area near Bab Al Mandab",
+          "url": "https://www.thenationalnews.com/news/mena/2026/11/15/southern-yemeni-forces-withdraw-from-area-near-bab-al-mandab/"
+        },
+        {
+          "title": "Iran targets Bahrain, Yemen forces withdraw from Strait",
+          "url": "https://newarab.com/news/iran-targets-bahrain-yemen-forces-withdraw-strait"
+        },
+        {
+          "title": "Yemen govt forces' retreat leaves Bab el-Mandeb control to Houthis",
+          "url": "https://www.dailysabah.com/world/mid-east/yemen-govt-forces-retreat-leaves-bab-el-mandeb-control-to-houthis"
+        },
+        {
+          "title": "2026 in Yemen",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Yemen"
+        },
+        {
+          "title": "Yemeni forces regain control over strategic Bab Al Mandab strait",
+          "url": "https://gulfnews.com/world/gulf/yemen/yemeni-forces-regain-control-over-strategic-bab-al-mandab-strait-1.1593596"
+        }
+      ]
+    },
+    {
+      "query": "Bahrain intercepted Iranian attacks Riffa base November 14",
+      "results": [
+        {
+          "title": "Live Updates: Bahrain says it intercepted Iranian attacks after Tehran claims it targeted U.S. assets",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/"
+        },
+        {
+          "title": "Iran Strikes Bahrain Base, Repeats Path to US Deal Remains Open - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/iran-strikes-bahrain-base-repeats-path-to-us-deal-remains-open"
+        },
+        {
+          "title": "Iran claims attack on US military airbase in Bahrain - France 24",
+          "url": "https://www.france24.com/en/middle-east/20261115-iran-claims-attack-on-us-military-airbase-in-bahrain"
+        },
+        {
+          "title": "Blasts rattle Bahrain as Iran launches second drone attack in 3 days - World - DAWN.COM",
+          "url": "https://www.dawn.com/news/2044711/blasts-rattle-bahrain-as-iran-launches-second-drone-attack-in-3-days"
+        },
+        {
+          "title": "Bahrain intercepts several Iranian aerial attacks, says Defense Force",
+          "url": "https://www.arabtimesonline.com/news/bahrain-intercepts-several-iranian-aerial-attacks-says-defense-force/"
+        },
+        {
+          "title": "Bahrain Reports Iranian Air Attack Interceptions as Tehran Claims U.S. Radar Strike",
+          "url": "https://www.armyrecognition.com/news/army-news/2026/bahrain-reports-iranian-air-attack-interceptions-as-tehran-claims-u-s-radar-strike"
+        },
+        {
+          "title": "IRGC Says Six Drones Targeted US Air-Defense Radar At Bahrain’s Riffa Base",
+          "url": "https://www.kurdistan24.net/en/story/953065/irgc-says-six-drones-targeted-us-air-defense-radar-at-bahrains-riffa-base"
+        },
+        {
+          "title": "Bahrain intercepts 102 missiles, destroys 173 drones since start of Iranian attacks",
+          "url": "https://gulfnews.com/world/mena/bahrain-intercepts-102-missiles-destroys-173-drones-since-start-of-iranian-attacks-1.500469090"
+        },
+        {
+          "title": "Bahrain intercepts 95 missiles, 164 drones from Iranian attacks",
+          "url": "https://gulfnews.com/world/gulf/bahrain/bahrain-intercepts-95-missiles-164-drones-from-iranian-attacks-1.500467457"
+        },
+        {
+          "title": "Bahrain intercepts 102 missiles, destroys 173 drones since start of Iranian attacks",
+          "url": "https://gulfnews.com/amp/story/world%2Fmena%2Fbahrain-intercepts-102-missiles-destroys-173-drones-since-start-of-iranian-attacks-1.500469090"
+        }
+      ]
+    },
+    {
+      "query": "France nationwide protests fifth Saturday November 14 2026",
+      "results": [
+        {
+          "title": "France sees fifth consecutive Saturday of nationwide protests",
+          "url": "https://www.euronews.com/2026/11/14/france-sees-fifth-consecutive-saturday-of-nationwide-protests"
+        },
+        {
+          "title": "More than 100,000 rally across France in new Yellow Vest protests",
+          "url": "https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests"
+        },
+        {
+          "title": "More than 100,000 protest across France, interior ministry says - France 24",
+          "url": "https://www.france24.com/en/france/20261114-live-france-mobilises-in-fifth-wave-of-student-protests"
+        },
+        {
+          "title": "France prepares for nationwide protests on Saturday with 70,000 police officers deployed",
+          "url": "https://www.rivieraradio.mc/article/france-prepares-for-nationwide-protests-on-saturday-with-70-000-police-officers-5HjdmLP_2/"
+        },
+        {
+          "title": "'No justice, no peace': Fifth round of protests sweep across France - France 24",
+          "url": "https://www.france24.com/en/france/20261114-no-justice-no-peace-fifth-round-of-protests-sweep-across-france"
+        },
+        {
+          "title": "'ACAB': Unrest Across France Amid Anti-Police Demonstrations",
+          "url": "https://www.breitbart.com/europe/2026/11/14/acab-unrest-across-france-as-anti-police-demonstrations-held-throughout-country/"
+        },
+        {
+          "title": "2024 French protests against the National Rally",
+          "url": "https://en.wikipedia.org/wiki/2024_French_protests_against_the_National_Rally"
+        },
+        {
+          "title": "Large-scale protests in France on 14 November: 70,000 police officers",
+          "url": "https://ukrmedia.news/en/world/frantsiia-protesty-14-lystopada-70-tysiach-politsii/"
+        },
+        {
+          "title": "September 10, 2025 5:50 PM",
+          "url": "https://www.newsonair.gov.in/france-hit-by-nationwide-protests-against-president-macron"
+        }
+      ]
+    },
+    {
+      "query": "Bessent relocated military base threats Iran Treasury",
+      "results": [
+        {
+          "title": "Scott Bessent relocated to military base over Iran assassination threat",
+          "url": "https://www.foxnews.com/politics/bessent-moved-military-base-iran-threats-exceed-advanced-stage-official-says"
+        },
+        {
+          "title": "US Treasury chief Bessent moved to military base after Iranian threats, sources say",
+          "url": "https://www.yahoo.com/news/articles/us-treasury-chief-bessent-moved-010010728.html"
+        },
+        {
+          "title": "US Treasury chief Bessent moved to military base after ‘Iranian threats’",
+          "url": "https://www.aljazeera.com/news/2026/11/11/us-treasury-chief-bessent-moved-to-military-base-after-iranian-threats"
+        },
+        {
+          "title": "Treasury Secretary Scott Bessent relocates to military base after Iran threats",
+          "url": "https://thehill.com/homenews/administration/6213592-bessent-moves-military-base/"
+        },
+        {
+          "title": "Third Trump Cabinet Member Moves to Military Base Amid Iran Threats: Report - Newsweek",
+          "url": "https://www.newsweek.com/third-trump-cabinet-member-moves-to-military-base-amid-iran-threats-report-12698007"
+        },
+        {
+          "title": "Bessent relocates from D.C.-area home to military base following Iran threats - CBS News",
+          "url": "https://www.cbsnews.com/news/bessent-relocate-dc-area-home-military-base-iran-threats-to-kill-him/"
+        },
+        {
+          "title": "US Treasury Secretary Bessent blasts Iran's leaders, confirms move to army base",
+          "url": "https://www.jpost.com/american-politics/article-914821"
+        },
+        {
+          "title": "Treasury Secretary Scott Bessent Remains at US Base Over Alleged Iranian Death Threats",
+          "url": "https://www.military.com/treasury-secretary-scott-bessent-remains-us-base-over-alleged-iranian-death-threats"
+        },
+        {
+          "title": "Report: Iran threatens U.S. Army base",
+          "url": "https://www.pressreader.com/usa/hamilton-journal-news/20210322/281629603041433"
+        }
+      ]
+    },
+    {
+      "query": "Philippines Australia defense pact upgrade November 2026",
+      "results": [
+        {
+          "title": "Philippines, Australia upgrade defense pact to 'bolster credible deterrent posture'",
+          "url": "https://www.aa.com.tr/en/asia-pacific/philippines-australia-upgrade-defense-pact-to-bolster-credible-deterrent-posture/4125485"
+        },
+        {
+          "title": "Australia and Philippines upgrade defense ties with focus on China - The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/15/asia-pacific/australia-philippines-defense-upgrade-china/"
+        },
+        {
+          "title": "Australia, Philippines Upgrade Defense Ties With Focus on China - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/australia-philippines-upgrade-defense-ties-with-focus-on-china"
+        },
+        {
+          "title": "Philippines and Australia Sign Updated Defense Pact to Boost Military Cooperation",
+          "url": "https://tribune.net.ph/2026/11/15/philippines-australia-sign-updated-defense-pact-to-speed-up-military-cooperation"
+        },
+        {
+          "title": "Australia and the Philippines updated a 1995 defense deal to speed up disaster response",
+          "url": "https://astig.ph/philippines-australia-defense-cooperation-arrangement-signed-november-2026/"
+        },
+        {
+          "title": "Philippines, Australia Sign Defense Pact to Boost Deterrence",
+          "url": "https://menafn.com/1111961243/Philippines-Australia-Sign-Defense-Pact-to-Boost-Deterrence"
+        },
+        {
+          "title": "Philippines, Australia sign renewed defense pact to strengthen military cooperation",
+          "url": "https://thechronicle.com.ph/philippines-australia-sign-renewed-defense-pact-to-strengthen-military-cooperation/"
+        },
+        {
+          "title": "Philippines, Australia upgrade defense pact to 'bolster credible deterrent posture'",
+          "url": "https://www.usmuslims.com/philippines-australia-upgrade-defense-pact-to-bolster-credible-deterrent-381723h.htm"
+        },
+        {
+          "title": "mil 230908 rfa01",
+          "url": "https://www.globalsecurity.org/military/library/news/2023/09/mil-230908-rfa01.htm"
+        }
+      ]
+    },
+    {
+      "query": "Russian strike Dnipro train station killed November 2026",
+      "results": [
+        {
+          "title": "Russia strikes Dnipro train station in central Ukraine, killing 14",
+          "url": "https://www.yahoo.com/news/world/articles/russia-strikes-dnipro-train-station-101901139.html"
+        },
+        {
+          "title": "Russia strikes Dnipro train station in central Ukraine, killing 15",
+          "url": "https://www.cnn.com/2026/10/29/europe/russia-ukraine-strikes-dnipro-train-station-intl"
+        },
+        {
+          "title": "Russia strikes Dnipro train station in central Ukraine, killing 14",
+          "url": "https://www.komu.com/news/nationworld/russia-strikes-dnipro-train-station-in-central-ukraine-killing-14/article_d4e4cbbe-5967-59ad-8bae-ce08585ad369.amp.html"
+        },
+        {
+          "title": "14 killed in Russian drone attack on Dnipro train station platform, Zelensky condemns ‘horrific’ strike",
+          "url": "https://www.wionews.com/world/14-killed-in-russian-drone-attack-on-dnipro-train-station-platform-zelensky-condemns-horrific-strike-1793308033221"
+        },
+        {
+          "title": "Russian drone attack on train station kills 13 in Ukraine’s Dnipro",
+          "url": "https://ground.news/article/russian-drone-attack-on-train-station-kills-13-in-ukraines-dnipro_435c59"
+        },
+        {
+          "title": "Timeline of the Russo-Ukrainian war (8 April %E2%80%93 28 August 2022)",
+          "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Russo-Ukrainian_war_(8_April_%E2%80%93_28_August_2022)"
+        },
+        {
+          "title": "Russian Drone Kills 14 at Dnipro Train Station as Zelensky Blasts Trump-Putin Diesel Deal",
+          "url": "https://www.latintimes.com/russian-drone-strike-dnipro-railway-platform-600711"
+        },
+        {
+          "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
+          "url": "https://www.euronews.com/video/2022/08/25/dozens-killed-in-russia-strikes-that-targeted-train-station"
+        },
+        {
+          "title": "www.malaymail.com",
+          "url": "https://www.malaymail.com/news/world/2022/08/25/zelensky-15-killed-50-hurt-in-russian-strike-on-ukraine-rail-station/24609"
+        }
+      ]
+    },
+    {
+      "query": "ASEAN summit Manila November 2026 South China Sea statement",
+      "results": [
+        {
+          "title": "Southeast Asian leaders open annual summit with major conflicts and their impact topping the agenda",
+          "url": "https://www.yahoo.com/news/world/articles/southeast-asian-leaders-open-annual-051315754.html"
+        },
+        {
+          "title": "Marcos opens ASEAN plenary as South China Sea code likely to miss target",
+          "url": "https://www.philstar.com/headlines/2026/11/15/2570290/marcos-opens-asean-plenary-south-china-sea-code-likely-miss-target"
+        },
+        {
+          "title": "Southeast Asian leaders open annual summit with major conflicts and their impact topping the agenda - ABC News",
+          "url": "https://abcnews.com/International/wireStory/southeast-asian-leaders-open-annual-summit-major-conflicts-138153824"
+        },
+        {
+          "title": "Global powers converge in Manila as Asean summit kicks off",
+          "url": "https://www.manilatimes.net/2026/11/15/news/global-powers-converge-in-manila-as-asean-summit-kicks-off/2470176"
+        },
+        {
+          "title": "ASEAN Summit",
+          "url": "https://en.wikipedia.org/wiki/ASEAN_Summit"
+        },
+        {
+          "title": "ASEAN must advance effective South China Sea Code of Conduct under international law: Philippine President Marcos",
+          "url": "https://aninews.in/news/world/asia/asean-must-advance-effective-south-china-sea-code-of-conduct-under-international-law-philippine-president-marcos20261115085207/"
+        },
+        {
+          "title": "Southeast Asia nations open annual summit in Manila - KIRO 7 News Seattle",
+          "url": "https://www.kiro7.com/news/world/southeast-asian/2M3J3VFDL45WPGDZ36DVIFBQLE/"
+        },
+        {
+          "title": "China welcomes Asean summit declaration on South China Sea",
+          "url": "https://www.pressreader.com/malaysia/the-borneo-post/20170503/282162176116448"
+        },
+        {
+          "title": "Sea statement ‘to go easy on Beijing’",
+          "url": "https://www.pressreader.com/thailand/bangkok-post/20170427/281573765586174"
+        }
+      ]
+    },
+    {
+      "query": "Eisenkot Haredi talks Shas UTJ November 14 2026",
+      "results": [
+        {
+          "title": "UTJ leads talks with Eisenkot-led bloc due to deep Shas-Likud ties, ex-Shas spokesperson says",
+          "url": "https://www.yahoo.com/news/politics/articles/utj-leads-talks-eisenkot-led-221918569.html"
+        },
+        {
+          "title": "Report: Eisenkot, Liberman agree to open talks with Haredi parties, eyeing draft law concessions",
+          "url": "https://www.timesofisrael.com/liveblog_entry/report-eisenkot-liberman-agree-to-open-talks-with-haredi-parties-eyeing-draft-law-concessions/"
         },
         {
           "title": "Eisenkot said to prioritize trying to form coalition with Haredim over Arab parties",
           "url": "https://www.timesofisrael.com/liveblog_entry/eisenkot-said-to-prioritize-trying-to-form-coalition-with-haredim-over-arab-parties/"
         },
         {
-          "title": "President Herzog taps Eisenkot to form coalition, but path remains fraught",
-          "url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+          "title": "Benjamin Netanyahu tells haredi parties they cannot trust Gadi Eisenkot promises",
+          "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-914799"
         },
         {
-          "title": "Eisenkot tasked with forming government, vows ‘creative and unconventional’ path to ‘emergency’ coalition",
-          "url": "https://www.timesofisrael.com/eisenkot-gets-nod-to-form-government-vows-unconventional-acts-in-time-of-emergency/"
+          "title": "Eisenkot's Yashar seeks Shas, UTJ support to replace Knesset speaker Ohana",
+          "url": "https://www.jpost.com/israel-election-2026/article-914332"
         },
         {
-          "title": "National Unity (Israel)",
-          "url": "https://en.wikipedia.org/wiki/National_Unity_(Israel)"
+          "title": "Haredi parties consider Gadi Eisenkot coalition amid military draft crisis",
+          "url": "https://www.jpost.com/israel-election-2026/article-914275"
         },
         {
-          "title": "Gadi Eisenkot Charged With Forming Israel’s Coalition to Replace Benjamin Netanyahu: 5 outlets compared",
-          "url": "https://newscord.org/article/gadi-eisenkot-charged-with-forming-israels-coalition-to-replace-benjamin-netanya--Story_20261113_TheUSIsraelRelations4dc9e31f"
+          "title": "Netanyahu buys time as haredi parties weigh Eisenkot coalition, but lacks alternative - analysis",
+          "url": "http://www.jpost.com/israel-election-2026/article-914868"
         },
         {
-          "title": "Gadi Eisenkot",
-          "url": "https://en.wikipedia.org/wiki/Gadi_Eisenkot"
+          "title": "Eisenkot said prioritizing efforts to form coalition with ultra-Orthodox",
+          "url": "https://www.timesofisrael.com/eisenkot-said-prioritizing-efforts-to-form-coalition-with-ultra-orthodox/"
         },
         {
-          "title": "Eisenkot says coalition talks are progressing a week into his mandate",
-          "url": "https://www.israel.com/news/eisenkot-says-coalition-talks-are-progressing-a-week-into-his-mandate"
+          "title": "Yachad (political party)",
+          "url": "https://en.wikipedia.org/wiki/Yachad_(political_party)"
         },
         {
-          "title": "Gadi Eisenkot Coalition Faces U.S. Aid Crisis in Israel - QuantoSei News",
-          "url": "https://news.quantosei.com/2026/11/14/gadi-eisenkot-coalition-faces-u-s-aid-crisis-in-israel/"
+          "title": "Eisenkot, Netanyahu Clash Over Iran Strikes as Talks Stall",
+          "url": "https://www.hngn.com/articles/273746/20261113/eisenkot-gets-28-days-form-israel-government-13-seats-short.htm"
         }
       ]
     },
     {
-      "query": "IEA oil market report November 2026 supply demand diesel",
+      "query": "Pope Leo Cuzco Peru November 14 2026",
       "results": [
         {
-          "title": "Oil Market Report - November 2026 - IEA",
-          "url": "https://www.iea.org/reports/oil-market-report-november-2026"
+          "title": "Visit by Pope Leo XIV to Uruguay, Argentina, and Peru",
+          "url": "https://en.wikipedia.org/wiki/Visit_by_Pope_Leo_XIV_to_Uruguay,_Argentina,_and_Peru"
         },
         {
-          "title": "IEA Oil Market Report",
-          "url": "https://www.newsquawk.com/headlines/iea-oil-market-report--november-2026-"
+          "title": "Pope Leo to cross Peru for visits to Inca city, Amazon gateway",
+          "url": "https://www.yahoo.com/news/world/articles/pope-leo-cross-peru-visits-100614276.html"
         },
         {
-          "title": "Oil Market Report (OMR) - Data product - IEA",
-          "url": "https://www.iea.org/data-and-statistics/data-product/oil-market-report-omr"
+          "title": "Pope Leo urges end to violence in Peru during visit to remote Andes town",
+          "url": "https://www.aljazeera.com/news/2026/11/14/pope-leo-urges-end-to-violence-in-peru-during-visit-to-remote-andes-town"
         },
         {
-          "title": "IEA: Oil supply is topping demand for first time since Iran war",
-          "url": "https://qz.com/iea-oil-supply-topping-demand-first-time-iran-war-111326"
-        },
-        {
-          "title": "European diesel prices stay high as global oil supply overtakes demand, IEA says",
-          "url": "https://finance.yahoo.com/energy/articles/european-diesel-prices-stay-high-111707356.html"
-        },
-        {
-          "title": "European diesel prices stay high as global oil supply overtakes demand, IEA says",
-          "url": "https://www.euronews.com/2026/11/13/european-diesel-prices-stay-high-as-global-oil-supply-overtakes-demand-iea-says"
-        },
-        {
-          "title": "IEA Sees Oil Market Returning to Surplus as Gulf Exports Recover",
-          "url": "https://edgeconsultancykw.com/iea-omr-november-2026/"
-        },
-        {
-          "title": "IEA says oil supply overtakes demand as North Sea Dated falls 32% to $93 - Financial News",
-          "url": "https://www.financial-news.co.uk/iea-says-oil-supply-overtakes-demand-as-north-sea-dated/"
-        },
-        {
-          "title": "IEA says crude surplus returns while diesel stays scarce",
-          "url": "https://streamlinefeed.co.ke/news/iea-says-crude-surplus-returns-while-diesel-stays-scarce"
-        }
-      ]
-    },
-    {
-      "query": "Mercedes-Benz halts investment German plants closures",
-      "results": [
-        {
-          "title": "Mercedes-Benz to halt German investments",
-          "url": "https://www.rte.ie/news/business/2026/1113/1599071-mercedes-benz-halts-german-investments/"
-        },
-        {
-          "title": "Mercedes-Benz freezes German investment amid cost pressures",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/mercedes-benz-freezes-german-investment-105410265.html"
-        },
-        {
-          "title": "Mercedes to halt investments in Germany",
-          "url": "https://www.manilatimes.net/2026/11/14/business/foreign-business/mercedes-to-halt-investments-in-germany/2469469"
-        },
-        {
-          "title": "Mercedes to halt German investments, mulling plant closures - Yahoo News Singapore",
-          "url": "https://sg.news.yahoo.com/mercedes-halt-german-investments-mulling-182135931.html"
-        },
-        {
-          "title": "Mercedes-Benz halts new investment in German plants, considers closures",
-          "url": "https://uk.finance.yahoo.com/news/mercedes-benz-halts-investment-german-192202895.html"
-        },
-        {
-          "title": "Mercedes suspends all future investment in Germany",
-          "url": "https://finance.yahoo.com/economy/policy/articles/mercedes-suspends-future-investment-germany-120637937.html"
-        },
-        {
-          "title": "Mercedes halts German plant investments, weighs closures - Automotive News",
-          "url": "https://www.autonews.com/mercedes-benz/ane-mercedes-halts-german-investents-plant-closure-warning-1112/"
-        },
-        {
-          "title": "Mercedes-Benz Halts German Plant Investment, Considers Closures - News and Statistics - IndexBox",
-          "url": "https://www.indexbox.io/blog/mercedes-benz-suspends-investment-in-german-plants-and-weighs-factory-closures/"
-        },
-        {
-          "title": "COVID-19: Mercedes-Benz car plants successfully restart production",
-          "url": "https://gulfnews.com/auto/news/covid-19-mercedes-benz-car-plants-successfully-restart-production-1.1588665767964"
-        }
-      ]
-    },
-    {
-      "query": "Pope Leo Peru Chiclayo November 13",
-      "results": [
-        {
-          "title": "Pope Leo returns to Chiclayo, Peru, in emotional homecoming Mass",
-          "url": "https://angelusnews.com/news/pope-south-america-chiclayo-mass"
-        },
-        {
-          "title": "Pope Leo: Let's continue with the same spirit of joy in Chiclayo - Vatican News",
-          "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-apostolic-nunciature-lima-chiclayo-blessings-peru.html"
-        },
-        {
-          "title": "Pope Leo’s joyous return home to Chiclayo - America Magazine",
-          "url": "https://www.americamagazine.org/vatican-dispatch/2026/11/13/pope-leo-mass-chiclayo-home-peru/"
-        },
-        {
-          "title": "Pope Leo XIV’s Mass in Chiclayo an emotional reunion with his ‘beloved’ diocese - OSV News",
-          "url": "https://www.osvnews.com/pope-leo-xivs-mass-in-chiclayo-an-emotional-reunion-with-his-beloved-diocese/"
-        },
-        {
-          "title": "‘Proclaiming Christ is a crucial task,’ Pope Leo tells faithful in Chiclayo, Peru - Vatican News",
-          "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-homily-mass-chiclayo-peru-evangelization.html"
-        },
-        {
-          "title": "Pope thanks crowds on emotional return to ‘second home’ in Peru’s Chiclayo",
-          "url": "https://www.aljazeera.com/news/2026/11/13/pope-thanks-crowds-on-emotional-return-to-second-home-in-perus-chiclayo"
-        },
-        {
-          "title": "LIVE UPDATES: Pope Leo XIV ends Chiclayo homecoming at dinner with 140 priests",
+          "title": "LIVE UPDATES: Pope Leo XIV closes St. Turibius Jubilee in Zaña, Peru",
           "url": "https://www.ewtnnews.com/vatican/live-updates-pope-leo-xiv-in-south-america"
         },
         {
-          "title": "Pope says it’s a ‘joy’ to be home as Peru’s Chiclayo welcomes back its former shepherd",
-          "url": "https://www.washingtontimes.com/news/2026/nov/13/pope-leo-xiv-says-joy-home-perus-chiclayo-welcomes-back-former/"
+          "title": "At papal Mass in Peru, Pope Leo XIV praises the evangelists of the Andes",
+          "url": "https://www.ewtnnews.com/vatican/papal-mass-santa-cruz-de-succhabamba"
         },
         {
-          "title": "Edgard Iv%C3%A1n Rimaycuna Inga",
-          "url": "https://en.wikipedia.org/wiki/Edgard_Iv%C3%A1n_Rimaycuna_Inga"
+          "title": "‘He is so excited’: What to expect from Pope Leo’s Peruvian homecoming - America Magazine",
+          "url": "https://www.americamagazine.org/vatican-dispatch/2026/11/11/pope-leo-homecoming-peru/"
         },
         {
-          "title": "Diocese of Chiclayo",
-          "url": "https://en.wikipedia.org/wiki/Diocese_of_Chiclayo"
-        }
-      ]
-    },
-    {
-      "query": "Russian strikes Ukraine November 13 2026 killed",
-      "results": [
-        {
-          "title": "At least four people killed as Russia and Ukraine trade strikes overnight",
-          "url": "https://www.aljazeera.com/news/2026/11/9/at-least-one-person-killed-as-russia-and-ukraine-trade-strikes-overnight"
+          "title": "A look at Cusco and its devotions as Pope Leo travels to the Imperial City - Vatican News",
+          "url": "https://www.vaticannews.va/en/pope/news/2026-11/a-look-at-cusco-and-its-devotions-as-pope-leo-travels.html"
         },
         {
-          "title": "At least three killed and more than 20 injured in Russian strikes on Ukraine",
-          "url": "https://www.euronews.com/2026/11/13/at-least-three-killed-and-more-than-20-injured-in-russian-strikes-on-ukraine"
+          "title": "No Country Has Done This Before: Peru Claims Pope Leo XIV as Its Own in a Historic Decree",
+          "url": "https://www.latintimes.com/peru-land-pope-leo-xiv-decree-601349"
         },
         {
-          "title": "At least 7 killed, 80 injured in Russian attacks across Ukraine; Zaporizhzhia among worst hit",
-          "url": "https://kyivindependent.com/at-least-7-killed-80-injured-in-russian-attacks-across-ukraine-zaporizhzhia-among-worst-hit/"
-        },
-        {
-          "title": "Three killed, 62 injured in Russian attacks on Zaporizhzhia region over past day",
-          "url": "https://ukrinform.net/rubric-ato/4184591-three-killed-62-injured-in-russian-attacks-on-zaporizhzhia-region-over-past-day.html"
-        },
-        {
-          "title": "Russian Strikes Kill Three Across Ukraine As Kyiv Reports Widespread Attacks",
-          "url": "https://tippinsights.com/russian-strikes-kill-three-across-ukraine-as-kyiv-reports-widespread-attacks/"
-        },
-        {
-          "title": "www.malaymail.com",
-          "url": "https://www.malaymail.com/amp/news/world/2023/10/21/russian-strike-kill-three-wound-four-in-ukraine/97634"
-        },
-        {
-          "title": "April 4, 2026 10:12 PM",
-          "url": "https://www.newsonair.gov.in/10-dead-as-russia-and-ukraine-exchange-strikes-during-zelenskyys-istanbul-visit"
-        },
-        {
-          "title": "Russian strikes on Ukraine overnight kill 7 and injure at least 41",
-          "url": "https://www.yahoo.com/news/russian-strikes-ukraine-overnight-kill-091515858.html"
-        },
-        {
-          "title": "www.malaymail.com",
-          "url": "https://www.malaymail.com/amp/news/world/2022/10/11/death-toll-rises-to-19-in-russian-strikes-on-ukraine-say-emergency-services/32968"
-        }
-      ]
-    },
-    {
-      "query": "APEC Shenzhen summit Trump Xi meeting preview",
-      "results": [
-        {
-          "title": "Trump, Xi, and Putin: What to expect from the APEC summit",
-          "url": "https://www.brookings.edu/articles/trump-xi-and-putin-what-to-expect-from-the-apec-summit/"
-        },
-        {
-          "title": "Trump to Meet Xi and Putin in Shenzhen on Sidelines of APEC Summit",
-          "url": "https://en.politis.com.cy/news/world/1068659/trump-to-meet-xi-and-putin-in-shenzhen-on-sidelines-of-apec-summit"
-        },
-        {
-          "title": "Trump, Xi and Putin plan an unprecedented joint meeting on the sidelines of APEC, White House says - The Boston Globe",
-          "url": "https://www.bostonglobe.com/2026/11/14/world/trump-xi-putin-joint-meeting-apec-white-house/"
-        },
-        {
-          "title": "Trump, Xi and Putin plan an unprecedented meeting on the sidelines of APEC, officials say",
-          "url": "https://www.nbcnews.com/world/china/trump-xi-putin-plan-unprecedented-joint-meeting-sidelines-apec-officia-rcna609275"
-        },
-        {
-          "title": "Trump, Xi and Putin plan an unprecedented joint meeting on the sidelines of APEC, White House says",
-          "url": "https://www.ms.now/news/trump-xi-putin-plan-unprecedented-joint-meeting"
-        },
-        {
-          "title": "Xi-Trump meeting 'a historic moment' that will help avoid missteps, China's top envoy says",
-          "url": "https://www.yahoo.com/news/articles/xi-trump-meeting-historic-moment-093000679.html"
-        },
-        {
-          "title": "Trump to Meet Xi at APEC, Says China ‘Approved’ TikTok Deal",
-          "url": "https://www.bloomberg.com/news/articles/2025-09-19/xi-asks-trump-to-avoid-taking-restrictive-trade-measures-in-call"
-        },
-        {
-          "title": "Trump-Xi meeting looms over APEC conference in South Korea as free trade falters",
-          "url": "https://www.yahoo.com/news/articles/trump-xi-meeting-looms-over-030035724.html"
-        },
-        {
-          "title": "Trump to meet Xi in South Korea at APEC summit later this year",
-          "url": "https://www.yahoo.com/news/articles/trump-meet-xi-south-korea-162356632.html"
-        },
-        {
-          "title": "trump arrives in south korea ahead of key meeting with xi jinping at apec summit",
-          "url": "https://www.tribuneindia.com/news/world/trump-arrives-in-south-korea-ahead-of-key-meeting-with-xi-jinping-at-apec-summit"
-        }
-      ]
-    },
-    {
-      "query": "Alaska Mississippi Senate race update Peltola Colom November 13",
-      "results": [
-        {
-          "title": "Democrat Peltola widens lead over both Sullivans combined in Alaska Senate race - Democracy Docket",
-          "url": "https://www.democracydocket.com/news-alerts/democrat-peltola-widens-lead-over-both-sullivans-combined-in-alaska-senate-race/"
-        },
-        {
-          "title": "Senate election margins widen: Mississippi’s Colom and Alaska’s Peltola increase leads",
-          "url": "https://thehill.com/video-clips/why-the-wait-mary-peltola-scott-colom-leads-widen-in-alaska-and-mississippi-senate-races-mh5msje5xue/"
-        },
-        {
-          "title": "Mississippi Senate: Scott Colom lead over Hyde-Smith pops to more than 4,400 votes",
-          "url": "https://www.cnbc.com/2026/11/10/mississippi-senate-scott-colom-hyde-smith.html"
-        },
-        {
-          "title": "Slim Senate election margins: Mississippi’s Colom leads by 2,696 votes, Alaska’s Peltola up by 637",
-          "url": "https://thehill.com/video-clips/slim-senate-election-margins-mississippis-colom-leads-by-2696-votes-alaskas-peltola-up-by-637-ytzr3nsesfy/"
-        },
-        {
-          "title": "Historically red Mississippi and Alaska win blue Senate seats",
-          "url": "https://www.newarab.com/news/historically-red-mississippi-and-alaska-win-blue-senate-seats"
-        },
-        {
-          "title": "Peltola grows lead in Alaska’s U.S. Senate race after thousands more ballots are counted - Anchorage Daily News",
-          "url": "https://www.adn.com/politics/2026/11/13/peltola-grows-lead-in-alaskas-us-senate-race-after-thousands-more-ballots-are-counted/"
-        },
-        {
-          "title": "No Senate Winners Yet In Alaska And Mississippi",
-          "url": "https://dve.iheart.com/content/2026-11-05-no-senate-winners-yet-in-alaska-and-mississippi/"
-        },
-        {
-          "title": "More than a dozen key races remain too early to call one week after Election Day",
-          "url": "https://www.pbs.org/newshour/politics/more-than-a-dozen-key-races-remain-too-early-to-call-one-week-after-election-day"
-        },
-        {
-          "title": "Mary Peltola plunges into Alaska Senate race",
-          "url": "https://www.axios.com/2026/01/12/peltola-alaska-senate-race"
-        },
-        {
-          "title": "Democratic former Rep. Mary Peltola launches Alaska Senate run",
-          "url": "https://www.nbcnews.com/politics/2026-election/former-democratic-rep-mary-peltola-launches-alaska-senate-run-rcna253193"
-        }
-      ]
-    },
-    {
-      "query": "Gaza ceasefire news November 13 2026",
-      "results": [
-        {
-          "title": "Netanyahu says announcement of Gaza ceasefire's next phase is only a 'declarative move'",
-          "url": "https://www.pbs.org/newshour/world/netanyahu-says-announcement-of-gaza-ceasefires-next-phase-is-only-a-declarative-move"
-        },
-        {
-          "title": "Aa",
-          "url": "https://aa.com.tr/en/middle-east/israeli-attacks-kill-2-palestinians-injure-8-in-gaza-amid-ceasefire-violations/4124535"
-        },
-        {
-          "title": "Israeli strike on Gaza’s Nasser Hospital kills at least six people, officials say",
-          "url": "https://nbcnews.com/world/middle-east/israeli-strike-gaza-nasser-hospital-abu-shaira-doctor-hamas-rcna608932"
-        },
-        {
-          "title": "Egypt, Türkiye, Qatar intelligence chiefs call for more Gaza aid, halt to Israeli violations - EgyptToday",
-          "url": "https://www.egypttoday.com/Article/1/150573/Egypt-T%C3%BCrkiye-Qatar-intelligence-chiefs-call-for-more-Gaza-aid"
-        },
-        {
-          "title": "Father and his 13-year-old son among seven Palestinians killed in Gaza strikes despite ceasefire",
-          "url": "https://www.latintimes.com/seven-palestinians-killed-gaza-strikes-ceasefire-601171"
-        },
-        {
-          "title": "A Ceasefire Measured in Tents: Israel’s Obstruction of Shelter Aid in Gaza - Modern Diplomacy",
-          "url": "https://moderndiplomacy.eu/2026/11/14/a-ceasefire-measured-in-tents-israels-obstruction-of-shelter-aid-in-gaza/"
-        },
-        {
-          "title": "Israeli attacks kill 6 Palestinians, injure around 20 in Gaza despite ceasefire",
-          "url": "https://middleeastmonitor.com/20261113-israeli-attacks-kill-6-palestinians-injure-around-20-in-gaza-despite-ceasefire"
-        },
-        {
-          "title": "Watch CBS News",
-          "url": "https://www.cbsnews.com/video/efforts-to-secure-ceasefire-in-gaza-continue/"
-        },
-        {
-          "title": "Celebrations in Gaza as ceasefire takes hold",
-          "url": "https://www.aljazeera.com/news/2021/5/20/death-destruction-in-gaza-as-israel-defies-truce-call-live"
-        }
-      ]
-    },
-    {
-      "query": "producer price index October 2026 Fed rate hike expectations December",
-      "results": [
-        {
-          "title": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
-          "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html"
-        },
-        {
-          "title": "U.S. producer prices rise by 6.5% year-over-year in October By Investing.com",
-          "url": "https://uk.investing.com/news/economic-indicators/us-producer-prices-rise-by-65-yearoveryear-in-october-4981457"
-        },
-        {
-          "title": "October PPI Data Lifts December Quarter-Point Fed Hike Odds to 91%",
-          "url": "https://www.tokenpost.com/news/investing/56743"
-        },
-        {
-          "title": "U.S. producer prices rise by 6.5% year-over-year in October By Investing.com",
-          "url": "https://za.investing.com/news/economic-indicators/us-producer-prices-rise-by-65-yearoveryear-in-october-4574638"
-        },
-        {
-          "title": "U.S. producer prices rise by 6.5% year-over-year in October By Investing.com",
-          "url": "https://ng.investing.com/news/economic-indicators/us-producer-prices-rise-by-65-yearoveryear-in-october-2806787"
-        },
-        {
-          "title": "PPI Report Shows Producer Prices Rose Only 0.3%, Less Than Expected, and 6.5% Over a Year",
-          "url": "https://www.stocktitan.net/articles/october-2026-ppi-report"
-        },
-        {
-          "title": "October PPI Data: Inflation Hits 6.5%. Will Fed Rate Hike in December?",
-          "url": "https://www.coingabbar.com/en/october-ppi-data-us-inflation-december-fed-rate-expectations"
-        },
-        {
-          "title": "US October PPI Preview: Fed Rate Hike Expectations Rise, PPI May Be Key Variable; How Will US Stocks, Dollar, and Gold Move?",
-          "url": "https://www.tradingkey.com/analysis/economic/indicators/262302060-us-october-ppi-preview-fed-hike-expectations-stocks-dollar-gold-tradingkey"
-        },
-        {
-          "title": "U.S. Producer Prices Cool Monthly, Hit 4-Year Annual High",
-          "url": "https://finwire.io/news/forex-news/us-producer-prices-cool-monthly-hit-4-year-annual-high"
-        }
-      ]
-    },
-    {
-      "query": "Sudan El Fasher RSF news November 2026",
-      "results": [
-        {
-          "title": "Africa: All of Africa Today - November 2, 2026 - allAfrica.com",
-          "url": "https://allafrica.com/stories/202611020103.html"
-        },
-        {
-          "title": "Gedo Hamdan Ahmed",
-          "url": "https://en.wikipedia.org/wiki/Gedo_Hamdan_Ahmed"
-        },
-        {
-          "title": "El Fasher massacre",
-          "url": "https://en.wikipedia.org/wiki/El_Fasher_massacre"
-        },
-        {
-          "title": "Tijani Ibrahim Moussa Mohamed",
-          "url": "https://en.wikipedia.org/wiki/Tijani_Ibrahim_Moussa_Mohamed"
-        },
-        {
-          "title": "Darfur Joint Protection Force",
-          "url": "https://en.wikipedia.org/wiki/Darfur_Joint_Protection_Force"
-        },
-        {
-          "title": "Vegetation is claiming El Fasher, one year after it was depopulated by the RSF - BT News",
-          "url": "https://breakthroughnews.org/2026/11/05/vegetation-is-claiming-el-fasher-one-year-after-it-was-depopulated-by-the-rsf/"
-        },
-        {
-          "title": "Sudanese army, allies announce recapture of key West Kordofan town - Radio Tamazuj",
-          "url": "https://radiotamazuj.org/en/news/article/sudanese-army-allies-announce-recapture-of-key-west-kordofan-town"
-        },
-        {
-          "title": "Amnesty documents murders and tortures by the RSF in El Fasher one year after the fall of the city",
-          "url": "https://www.democrata.es/en/international/amnesty-documents-murders-and-tortures-by-the-rsf-in-el-fasher-one-year-after-the-fall-of-the-city/"
-        },
-        {
-          "title": "Amnesty warns of executions and torture by the RSF in El Fasher a year after their capture",
-          "url": "https://www.democrata.es/en/international/amnesty-warns-of-executions-and-torture-by-the-rsf-in-el-fasher-a-year-after-their-capture/"
-        },
-        {
-          "title": "UN Report Alleges UAE Sent Colombian Mercenaries to Sudan as Nusseibeh Seeks Top UN Post",
-          "url": "https://naturalnews.com/2026-11-11-un-report-uae-sent-colombian-mercenaries-sudan.html"
+          "title": "List of diplomatic visits to the Holy See under Pope Leo XIV",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
         }
       ]
     }
   ],
   "fetched": [],
   "meta": {
-    "id": "2026-11-14",
-    "generated_at": "2026-11-14T11:24:55.454Z",
+    "id": "2026-11-15",
+    "generated_at": "2026-11-15T11:24:43.785Z",
     "model": "claude-opus-5-5",
     "via": "claude-code-routine",
     "searches": 16,
-    "results_count": 149,
-    "cited_count": 44
+    "results_count": 146,
+    "cited_count": 42
   }
 }
