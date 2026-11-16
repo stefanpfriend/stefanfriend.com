@@ -1,0 +1,1059 @@
+{
+  "date": "Monday, November 16, 2026",
+  "edition": "THIRD CARRIER",
+  "tldr_label": "TL;DR: A third US carrier reaches the Gulf as Iran escalates, Trump heads to Asia, and chip stocks slide before Nvidia reports",
+  "tldr_bullets": [
+    {
+      "label": "Gulf",
+      "body": "A third US carrier is reported to have arrived in the Middle East after Iran's second drone attack on Bahrain in three days. Iran claims a mined supertanker sank near Hormuz, which has not been independently verified. [[TAG:danger:escalation]]"
+    },
+    {
+      "label": "Asia trip",
+      "body": "Trump leaves for Manila and Shenzhen, where a meeting with Xi and the first US-China-Russia leaders' trilateral are set for Thursday. [[TAG:info:Thursday]]"
+    },
+    {
+      "label": "Markets",
+      "body": "Asian chipmakers slumped before Nvidia's results on Tuesday. Japan's economy shrank for the first time in a year. [[TAG:warning:AI jitters]]"
+    },
+    {
+      "label": "Europe",
+      "body": "Estonia will close all crossings with Russia from December 1 after what it called a GRU-ordered sabotage attempt. The EU added 145 names to its Russia sanctions list. [[TAG:danger:border shut]]"
+    },
+    {
+      "label": "Gaza",
+      "body": "Israel killed Hamas's Rafah Brigade commander. Australia, Canada, Italy and the UK urged Israel to allow rapid aid access. [[TAG:warning:ceasefire strain]]"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Gulf: Iran Escalates, US Reinforces",
+      "icon": "🛢️",
+      "summary": "Third carrier arrives; GCC condemns Bahrain attack; Iran claims a sunken supertanker",
+      "paragraphs": [
+        {
+          "heading": "Bahrain",
+          "body": "The National reported that Bahrain issued its first nationwide alert in months as it intercepted Iranian attacks aimed at a base hosting US helicopters. The National said Bahrain's defence force and foreign ministry gave different counts of the drones involved. It also reported that the GCC chief called the attack a 'blatant challenge' to peace efforts, and that Qatar, a mediator, called it a dangerous escalation. [[TAG:danger:GCC condemns]]"
+        },
+        {
+          "heading": "Tanker Claims",
+          "body": "Arab News reported that Iran's Revolutionary Guards said two tankers on an unauthorized route struck mines in the southern Strait of Hormuz, and that one, a supertanker carrying over two million barrels, sank. There was no independent verification. A newsletter compiling the claims noted that UKMTO said it was aware of an Indian report of an attack on a Gulf tanker with the crew safe. [[TAG:warning:unverified]]"
+        },
+        {
+          "heading": "Third Carrier",
+          "body": "Al Jazeera and The National reported that the USS Theodore Roosevelt has arrived, bringing the number of US carrier groups in the region to three, though the Pentagon had not formally confirmed it. Iran has stepped up threats against US forces and Gulf states. Reports said Trump is still talking with Iran through Qatari mediators. [[TAG:info:three carriers]]"
+        },
+        {
+          "heading": "Houthis",
+          "body": "The Tribune reported that the Houthis claimed missile strikes on Riyadh's King Khalid Airport and financial center, and the Saudi-led coalition said both missiles were intercepted. The New Arab reported that Houthi attacks killed eight people in Yemen. [[TAG:danger:Riyadh targeted]]"
+        }
+      ],
+      "sources": "The National, Arab News, World Dispatch, Al Jazeera, Yahoo News, Tribune India, The New Arab, Dawn",
+      "citations": [
+        {
+          "outlet": "The National",
+          "title": "Bahrain intercepts Iranian attacks after first nationwide alert in months",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/"
+        },
+        {
+          "outlet": "The National",
+          "title": "Iran attacks Bahrain in 'blatant challenge' to peace push",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/16/iran-attacks-bahrain-in-blatant-challenge-to-peace-push/"
+        },
+        {
+          "outlet": "Arab News",
+          "title": "Arab News",
+          "url": "https://www.arabnews.com/middle-east/iran-says-supertanker-with-2-million-barrels-of-oil-sank-in-gulf-3012053"
+        },
+        {
+          "outlet": "World Dispatch",
+          "title": "World Dispatch - Three carriers for the Gulf, mines nobody will verify, a rocket lost ten minutes up",
+          "url": "https://winradradio.substack.com/p/world-dispatch-three-carriers-for"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Third US aircraft carrier arrives in Middle East amid tensions with Iran",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/third-us-aircraft-carrier-arrives-in-middle-east-amid-tensions-with-iran"
+        },
+        {
+          "outlet": "The National",
+          "title": "Iran escalates threats against US forces and Gulf states as third American carrier arrives",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/16/iran-escalates-threats-against-us-forces-and-gulf-states-as-third-american-carrier-arrives/"
+        },
+        {
+          "outlet": "Yahoo News",
+          "title": "A Third U.S. Aircraft Carrier Will Arrive In the Middle East On Monday. Tensions Are Simmering.",
+          "url": "https://www.yahoo.com/news/us/articles/third-u-aircraft-carrier-arrive-090001856.html"
+        },
+        {
+          "outlet": "Tribune India",
+          "title": "Houthis claim missile strikes on King Khalid Airport, financial centre in Saudi's Riyadh - The Tribune",
+          "url": "https://www.tribuneindia.com/news/ballistic-missiles/houthis-claim-missile-strikes-on-king-khalid-airport-financial-centre-in-saudis-riyadh"
+        },
+        {
+          "outlet": "The New Arab",
+          "title": "Houthi attacks kill eight in Yemen, strike Riyadh airport",
+          "url": "https://newarab.com/news/houthi-attacks-kill-eight-yemen-strike-riyadh-airport"
+        },
+        {
+          "outlet": "Dawn",
+          "title": "Iran claims another attack on Bahrain base - Newspaper - DAWN.COM",
+          "url": "https://www.dawn.com/news/2044789/iran-claims-another-attack-on-bahrain-base"
+        }
+      ]
+    },
+    {
+      "title": "Trump's Asia Week",
+      "icon": "🌐",
+      "summary": "Manila first, then Shenzhen for Xi talks and the first US-China-Russia leaders' meeting",
+      "paragraphs": [
+        {
+          "heading": "Itinerary",
+          "body": "ABC News reported that Trump will stop first in Manila for meetings with Southeast Asian leaders on Tuesday, then attend APEC in Shenzhen. On Thursday he holds a bilateral meeting and working lunch with Xi, followed by the first-ever trilateral with Xi and Putin. Trump and Putin are not scheduled to meet one-on-one. Newsweek said Trump and Xi are expected to discuss implementing their trade agreement. [[TAG:info:Thursday summit]]"
+        },
+        {
+          "heading": "Backdrop",
+          "body": "Deccan Chronicle said Trump travels after a midterm defeat and amid the Nvidia spy allegations. ABC News reported that a senior official said Trump is not expected to raise those allegations with Xi, or to raise Ukraine at the trilateral. The White House says he intends to discuss reducing nuclear arsenals. [[TAG:warning:Ukraine absent]]"
+        }
+      ],
+      "sources": "ABC News, Newsweek, Deccan Chronicle, Manila Times, Star-Advertiser",
+      "citations": [
+        {
+          "outlet": "ABC News",
+          "title": "Trump to meet with Putin and Xi in China next week, US officials say - ABC News",
+          "url": "https://abcnews.com/Politics/trump-meet-putin-xi-china-week-us-officials/story?id=138128914"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Trump heads to Asia for 2nd high-stakes meeting with Chinese President Xi amid Nvidia CEO scandal - ABC News",
+          "url": "https://abcnews.com/Politics/trump-heads-asia-2nd-high-stakes-meeting-chinese/story?id=138059807"
+        },
+        {
+          "outlet": "Newsweek",
+          "title": "Trump Heads to Asia for Historic Meeting With Xi and Putin: What’s at Stake - Newsweek",
+          "url": "https://newsweek.com/trump-heads-to-asia-for-historic-meeting-with-xi-and-putin-whats-at-stake-12718413"
+        },
+        {
+          "outlet": "Deccan Chronicle",
+          "title": "Spy Scandal And Midterm Defeat Heat Up Trump's Asia Visit",
+          "url": "https://www.deccanchronicle.com/world/spy-scandal-and-midterm-defeat-heat-up-trumps-asia-visit-2004865"
+        },
+        {
+          "outlet": "Manila Times",
+          "title": "Trump’s Asia reset: Deals in Manila and Shenzhen, then a rare nuclear summit with Xi and Putin",
+          "url": "https://www.manilatimes.net/2026/11/16/world/trumps-asia-reset-deals-in-manila-and-shenzhen-then-a-rare-nuclear-summit-with-xi-and-putin/2470574"
+        },
+        {
+          "outlet": "Star-Advertiser",
+          "title": "Trump’s Asia trip to include summit with Xi, Putin",
+          "url": "https://www.staradvertiser.com/2026/11/16/breaking-news/trumps-asia-trip-to-include-summit-with-xi-putin/"
+        }
+      ]
+    },
+    {
+      "title": "Markets: The AI Test Week",
+      "icon": "📈",
+      "summary": "Asian chip stocks slide before Nvidia's Tuesday report; Japan's GDP shrinks",
+      "paragraphs": [
+        {
+          "heading": "Chip Sell-off",
+          "body": "investingLive and Business Standard reported that Asian markets fell on Monday, led by chipmakers. Taiwan's benchmark dropped about 4.7%, and Korean chipmakers led regional losses. Business Standard said the AI rally faces tests this week from Nvidia's earnings and Anthropic's IPO. Reported Nikkei declines range from under 1% to about 2% depending on timing. Brent traded near $95. [[TAG:danger:chips slump]]"
+        },
+        {
+          "heading": "Japan Contracts",
+          "body": "Xinhua and the Seoul Economic Daily reported that Japan's real GDP shrank about 0.1% annualized in the third quarter, the first contraction in a year, against forecasts of modest growth. Private consumption fell 0.3% as higher prices weighed on households. [[TAG:warning:first drop in a year]]"
+        },
+        {
+          "heading": "Nvidia and Anthropic",
+          "body": "FXStreet and the Motley Fool said Nvidia's results on Tuesday will be its first since Jensen Huang's exit, with interim CEO Colette Kress leading the call against company guidance of about $108 billion in revenue. CNBC reported that Anthropic set an IPO price range of $70 to $78 a share and expects to begin trading on November 19, according to sources. [[TAG:info:Tuesday earnings]]"
+        }
+      ],
+      "sources": "investingLive, Business Standard, Xinhua, Seoul Economic Daily, FXStreet, Motley Fool, CNBC",
+      "citations": [
+        {
+          "outlet": "investingLive",
+          "title": "investingLive Asia-Pacific market news: Chipmakers hit ahead of Nvidia",
+          "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-chipmakers-hit-ahead-of-nvidia/"
+        },
+        {
+          "outlet": "Business Standard",
+          "title": "Asian shares fall before Nvidia earnings, Anthropic IPO test tech rally",
+          "url": "https://business-standard.com/markets/news/asian-shares-fall-before-nvidia-earnings-anthropic-ipo-test-tech-rally-126111600048_1.html"
+        },
+        {
+          "outlet": "Xinhua",
+          "title": "Japan's Q3 real GDP shrinks 0.1 pct-Xinhua",
+          "url": "https://english.news.cn/20261116/0c28de96af58410caa740fd0f0001fe6/c.html"
+        },
+        {
+          "outlet": "Seoul Economic Daily",
+          "title": "Japan's GDP Shrinks 0.1% in Third Quarter, First Drop in a Year - Seoul Economic Daily",
+          "url": "https://en.sedaily.com/world/2026/11/16/japans-gdp-shrinks-01-percent-in-third-quarter-first-drop"
+        },
+        {
+          "outlet": "FXStreet",
+          "title": "Nvidia earnings preview: The first big test after Jensen Huang’s exit",
+          "url": "https://www.fxstreet.com/news/nvidia-earnings-preview-the-first-big-test-after-jensen-huangs-exit-202611160603"
+        },
+        {
+          "outlet": "Motley Fool",
+          "title": "Nvidia Reports Earnings on Nov. 17. Here's What Investors Should Be Watching.",
+          "url": "https://www.fool.com/investing/2026/11/15/nvidia-reports-earnings-on-nov-17-2026-heres-what-investors-should-be-watching/"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say",
+          "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+        }
+      ]
+    },
+    {
+      "title": "Europe: Borders and Sanctions",
+      "icon": "🇪🇺",
+      "summary": "Estonia shuts Russia crossings after foiled GRU plot; EU lists 145 more; Canaries see record day",
+      "paragraphs": [
+        {
+          "heading": "Estonia",
+          "body": "The Moscow Times and SCMP reported that Estonia will close all three border crossings with Russia, at Narva, Koidula and Luhamaa, from December 1. The government said it foiled a sabotage attempt ordered by Russian military intelligence: an attempted arson attack on the drone maker Threod Systems. Russia's foreign ministry called the move 'Russophobia.' Moscow denies orchestrating sabotage in Europe. [[TAG:danger:crossings close Dec 1]]"
+        },
+        {
+          "heading": "Sanctions",
+          "body": "APA and UNN reported that the EU added 145 individuals and entities to its Russia sanctions lists, targeting the financial system, the oil 'shadow fleet' and disinformation networks, according to French Foreign Minister Jean-Noel Barrot. Ministers said a 22nd sanctions package is being prepared. [[TAG:info:22nd package next]]"
+        },
+        {
+          "heading": "Canary Islands",
+          "body": "The Star, citing Reuters, and Spain in English reported that about 1,488 migrants reached the Canary Islands in one day, most of them landing on El Hierro, beating a 2020 record. Other outlets put the figure near 1,580. Arrivals through October were still down about 5.5% year on year. [[TAG:warning:record day]]"
+        },
+        {
+          "heading": "Ukraine",
+          "body": "NPR and the Kyiv Independent reported that the large prisoner exchange agreed in Abu Dhabi is expected within weeks. Zelensky has called it a positive step but says Ukraine will not cede occupied territory. [[TAG:info:swap pending]]"
+        }
+      ],
+      "sources": "Moscow Times, SCMP, Kyiv Post, APA, UNN, The Star, Spain in English, NPR, Kyiv Independent",
+      "citations": [
+        {
+          "outlet": "Moscow Times",
+          "title": "Estonia to Close Border Crossings With Russia After Foiled Sabotage Attempt - The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/16/estonia-to-close-border-crossings-with-russia-after-foiled-sabotage-attempt-a94269"
+        },
+        {
+          "outlet": "SCMP",
+          "title": "Estonia to close border with Russia, citing foiled sabotage attempt",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374514/estonia-close-russia-border-after-sabotage-bid-foreign-minister-says"
+        },
+        {
+          "outlet": "Kyiv Post",
+          "title": "Estonia to Close All Border Crossings With Russia After GRU-Linked Sabotage Attempt",
+          "url": "https://www.kyivpost.com/post/90202"
+        },
+        {
+          "outlet": "APA",
+          "title": "EU adds another 145 individuals and entities to sanctions list against Russia",
+          "url": "https://en.apa.az/europe/eu-adds-another-145-individuals-and-entities-to-sanctions-list-against-russia-536418"
+        },
+        {
+          "outlet": "UNN",
+          "title": "The EU has approved new sanctions against Russia and is preparing the 22nd package, ministers say",
+          "url": "https://unn.ua/en/news/the-eu-has-approved-new-sanctions-against-russia-and-is-preparing-the-22nd-package-ministers-say"
+        },
+        {
+          "outlet": "The Star",
+          "title": "Nearly 1,500 migrants arrive in Canary Islands in one day",
+          "url": "https://www.thestar.com.my/news/world/2026/11/15/nearly-1500-migrants-arrive-in-canary-islands-in-one-day"
+        },
+        {
+          "outlet": "Spain in English",
+          "title": "Record 1,488 migrants reach Canary Islands in one day - Spain in English",
+          "url": "https://www.spainenglish.com/2026/11/15/record-1488-migrants-reach-canary-islands-in-one-day/"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
+          "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks"
+        },
+        {
+          "outlet": "Kyiv Independent",
+          "title": "Ukraine war latest: 'Large-scale' prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says",
+          "url": "https://kyivindependent.com/ukraine-war-latest-large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/"
+        }
+      ]
+    },
+    {
+      "title": "Israel and Gaza",
+      "icon": "🏛️",
+      "summary": "Yashar and Likud hold first formal talks; Israel kills Rafah Brigade chief; allies press on aid",
+      "paragraphs": [
+        {
+          "heading": "Unity Talks",
+          "body": "The Times of Israel and the Jerusalem Post reported that negotiating teams from Eisenkot's Yashar and Netanyahu's Likud met on Sunday for coalition talks and issued a brief joint statement. Anadolu reported that beforehand Eisenkot called Netanyahu's unity appeal a 'media stunt.' Eisenkot maintains he will not serve in a Netanyahu-led government. Haaretz said Bennett's party also took part, a detail other outlets did not report. [[TAG:info:talks resume]]"
+        },
+        {
+          "heading": "Rafah Commander",
+          "body": "CNN reported that Israel killed Samir Mahmoud Abu Younis, commander of Hamas's Rafah Brigade, two months after killing his predecessor, as the ceasefire stagnates. Both Hamas and the Israeli military confirmed his death. [[TAG:danger:targeted killing]]"
+        },
+        {
+          "heading": "Aid Appeal",
+          "body": "SCMP reported that Australia, Canada, Italy and the UK urged Israel to allow 'immediate, rapid and unimpeded' humanitarian access. They said 150,000 tents and other supplies were being held at the border. [[TAG:warning:aid blocked]]"
+        }
+      ],
+      "sources": "Times of Israel, Jerusalem Post, Anadolu, Haaretz, CNN, SCMP",
+      "citations": [
+        {
+          "outlet": "Times of Israel",
+          "title": "Yashar, Likud hold unity talks as Eisenkot bloc moves to assert control over Knesset",
+          "url": "https://www.timesofisrael.com/yashar-likud-meet-for-unity-talks-as-eisenkot-bloc-moves-to-assert-control-over-knesset/"
+        },
+        {
+          "outlet": "Jerusalem Post",
+          "title": "Likud, Yashar hold coalition negotiations as Gadi Eisenkot works to build gov't",
+          "url": "https://www.jpost.com/israel-election-2026/article-914935"
+        },
+        {
+          "outlet": "Anadolu",
+          "title": "Eisenkot dismisses Netanyahu's unity government appeal as 'media stunt'",
+          "url": "https://aa.com.tr/en/middle-east/eisenkot-dismisses-netanyahus-unity-government-appeal-as-media-stunt/4125448"
+        },
+        {
+          "outlet": "Haaretz",
+          "title": "Netanyahu, Eisenkot Parties Held Talks as PM Pleads for Joint Gov't - Israel Political News",
+          "url": "https://www.haaretz.com/israel-news/israel-politics/2026-11-15/ty-article/.premium/likud-and-yashar-parties-to-meet-for-negotiations-as-netanyahu-pushes-for-unity/000001a1-df20-d1ce-a9a3-ff33ea460000"
+        },
+        {
+          "outlet": "CNN",
+          "title": "Israel kills senior Hamas commander in Gaza two months after killing his predecessor as ceasefire stagnates",
+          "url": "https://www.cnn.com/2026/11/15/middleeast/israel-kills-hamas-commander-gaza-intl"
+        },
+        {
+          "outlet": "SCMP",
+          "title": "Australia, UK, Canada and Italy urge Israel to allow ‘rapid’ Gaza aid access",
+          "url": "https://scmp.com/news/world/middle-east/article/3374519/australia-uk-canada-and-italy-urge-israel-allow-rapid-gaza-aid-access"
+        }
+      ]
+    },
+    {
+      "title": "Pope in the Amazon",
+      "icon": "⛪",
+      "summary": "In Pucallpa, Leo demands justice for slain environmental defenders and condemns abuses",
+      "paragraphs": [
+        {
+          "heading": "Pucallpa",
+          "body": "AP, via Audacy, and Al Jazeera reported that Pope Leo XIV, speaking in the Peruvian Amazon city of Pucallpa, demanded justice for environmental defenders killed for protecting the forest. He backed Indigenous efforts against illegal logging and mining. Vatican News said he decried human rights abuses and exploitation and invoked Pope Francis's 2018 Amazon visit. Counts of slain defenders vary by source and time frame. [[TAG:warning:impunity]]"
+        }
+      ],
+      "sources": "Audacy (AP), Al Jazeera, Vatican News, The Wire",
+      "citations": [
+        {
+          "outlet": "Audacy (AP)",
+          "title": "Pope in Peruvian rainforest demands justice for environmental defenders killed for protecting Amazon",
+          "url": "https://www.audacy.com/wwl/news/world/peru-pope-visit-indigenous-amazon-8a15143716d2d78a691f2eb995f1bda0"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Pope condemns murders of Peru’s Indigenous leaders, deforestation of Amazon",
+          "url": "https://aljazeera.com/news/2026/11/16/pope-condemns-murders-of-perus-indigenous-leaders-deforestation-of-amazon"
+        },
+        {
+          "outlet": "Vatican News",
+          "title": "Pope Leo in the Peruvian Amazon decries human rights abuses and exploitation - Vatican News",
+          "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-in-heart-of-peruvian-amazon-decries-human-rights-abuses.html"
+        },
+        {
+          "outlet": "The Wire",
+          "title": "Pope in Peruvian Rainforest Demands Justice for Environmental Defenders Killed for Protecting Amazon - The Wire",
+          "url": "https://m.thewire.in/article/world/pope-in-peruvian-rainforest-demands-justice-for-environmental-defenders-killed-for-protecting-amazon"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "query": "world news November 16 2026",
+      "results": [
+        {
+          "title": "Monday morning news: November 16, 2026",
+          "url": "https://wng.org/podcasts/monday-morning-news-november-16-2026-1794789486"
+        },
+        {
+          "title": "The World Today (TV news programme)",
+          "url": "https://en.wikipedia.org/wiki/The_World_Today_(TV_news_programme)"
+        },
+        {
+          "title": "Morning Briefing: Nov. 16, 2026",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-16-2026/4126094"
+        },
+        {
+          "title": "Video. Latest news bulletin",
+          "url": "https://www.euronews.com/video/2026/11/16/latest-news-bulletin-november-16th-2026-midday"
+        },
+        {
+          "title": "Newsquawk Daily US Opening News - 16th November 2026",
+          "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---16th-november-2026"
+        },
+        {
+          "title": "10 Things Global News - 16th November 2026",
+          "url": "https://www.10things.news/p/10-things-global-news-16th-november"
+        },
+        {
+          "title": "TODAY'S NEWS, Weekend Edition, November 13-16, 2024",
+          "url": "https://larrys.substack.com/p/todays-news-weekend-edition-november"
+        },
+        {
+          "title": "world news",
+          "url": "https://www.euronews.com/tag/world-news?p=8"
+        },
+        {
+          "title": "world news",
+          "url": "https://www.euronews.com/tag/world-news?p=12"
+        }
+      ]
+    },
+    {
+      "query": "Iran Gulf news November 15 2026 tankers Bahrain",
+      "results": [
+        {
+          "title": "Bahrain intercepts Iranian attacks after first nationwide alert in months",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/"
+        },
+        {
+          "title": "Iran attacks Bahrain in 'blatant challenge' to peace push",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/16/iran-attacks-bahrain-in-blatant-challenge-to-peace-push/"
+        },
+        {
+          "title": "Iran live updates: Bahrain reports Iranian attack, IRGC says air base targeted",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-americans-tired-forever-wars-araghchi/?id=137967256"
+        },
+        {
+          "title": "Bahrain says it intercepted Iranian attacks after Tehran claims it targeted U.S. assets",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/"
+        },
+        {
+          "title": "World Dispatch - Three carriers for the Gulf, mines nobody will verify, a rocket lost ten minutes up",
+          "url": "https://winradradio.substack.com/p/world-dispatch-three-carriers-for"
+        },
+        {
+          "title": "Iran claims another attack on Bahrain base - Newspaper - DAWN.COM",
+          "url": "https://www.dawn.com/news/2044789/iran-claims-another-attack-on-bahrain-base"
+        },
+        {
+          "title": "Arab News",
+          "url": "https://www.arabnews.com/middle-east/iran-says-supertanker-with-2-million-barrels-of-oil-sank-in-gulf-3012053"
+        },
+        {
+          "title": "Iran Strikes Bahrain Base, Mines Hit Tankers",
+          "url": "https://www.briefs.co/news/iran-targets-bahrain-air-base-with-drones-as-hormuz-mine-rep/"
+        },
+        {
+          "title": "Iran escalates threats against US forces and Gulf states as third American carrier arrives",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/16/iran-escalates-threats-against-us-forces-and-gulf-states-as-third-american-carrier-arrives/"
+        },
+        {
+          "title": "Bahrain foreign ministry strongly condemns Iran's seizure of British tanker -",
+          "url": "https://news.yahoo.com/bahrain-foreign-ministry-strongly-condemns-103030747.html"
+        }
+      ]
+    },
+    {
+      "query": "EU sanctions Russia adopted Monday November 16 2026",
+      "results": [
+        {
+          "title": "21st package of sanctions: EU hits Russian energy, financial services and crypto hard - Consilium",
+          "url": "https://link.europa.eu/CCbrdb"
+        },
+        {
+          "title": "EU adopts its largest-ever package of sanctions listings, targeting the industry behind Russia’s war",
+          "url": "https://www.eeas.europa.eu/eeas/eu-adopts-its-largest-ever-package-sanctions-listings-targeting-industry-behind-russias-war_en"
+        },
+        {
+          "title": "Timeline - EU sanctions against Russia - Consilium",
+          "url": "https://www.consilium.europa.eu/en/policies/sanctions-against-russia/timeline-sanctions-against-russia/"
+        },
+        {
+          "title": "Question and Answers: fourth package of restrictive measures against Russia",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/qanda_22_1776"
+        },
+        {
+          "title": "Russia’s war of aggression against Ukraine: EU agrees largest-ever package of listings targeting almost 1600 individuals and entities in Russia’s military-industrial complex - Consilium",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/12/russia-s-war-of-aggression-against-ukraine-eu-agrees-largest-ever-package-of-listings-targeting-almost-1600-individuals-and-entities-in-russia-s-military-industrial-complex/"
+        },
+        {
+          "title": "The EU has approved new sanctions against Russia and is preparing the 22nd package, ministers say",
+          "url": "https://unn.ua/en/news/the-eu-has-approved-new-sanctions-against-russia-and-is-preparing-the-22nd-package-ministers-say"
+        },
+        {
+          "title": "EU adds another 145 individuals and entities to sanctions list against Russia",
+          "url": "https://en.apa.az/europe/eu-adds-another-145-individuals-and-entities-to-sanctions-list-against-russia-536418"
+        },
+        {
+          "title": "EU to expand Russia sanctions lists to include 145 individuals and entities",
+          "url": "https://report.az/en/other-countries/eu-to-expand-russia-sanctions-lists-to-include-145-individuals-and-entities"
+        },
+        {
+          "title": "eu adopts tough new sanctions on russia sources say",
+          "url": "https://www.foxnews.com/world/eu-adopts-tough-new-sanctions-on-russia-sources-say"
+        }
+      ]
+    },
+    {
+      "query": "Asian markets Monday November 16 2026 Nikkei oil Nvidia earnings week",
+      "results": [
+        {
+          "title": "investingLive Asia-Pacific market news: Chipmakers hit ahead of Nvidia",
+          "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-chipmakers-hit-ahead-of-nvidia/"
+        },
+        {
+          "title": "Asia Markets Today: Nikkei Up 0.77%, ASX 200 Down 0.81% — JournalArta Global",
+          "url": "https://journalarta.com/en/2026/11/13/asia-markets-today-nikkei-rises-0-77-to-61719-25-as-asx-200-slips-0-81-and-oil-climbs/"
+        },
+        {
+          "title": "Asian shares fall before Nvidia earnings, Anthropic IPO test tech rally",
+          "url": "https://business-standard.com/markets/news/asian-shares-fall-before-nvidia-earnings-anthropic-ipo-test-tech-rally-126111600048_1.html"
+        },
+        {
+          "title": "Asia Market Today: Nikkei Slips, Oil Eases Before Jakarta Open — JournalArta Global",
+          "url": "https://journalarta.com/en/2026/11/16/nikkei-slips-as-oil-eases-and-jakarta-awaits-mondays-open/"
+        },
+        {
+          "title": "FTSE 100 LIVE: London set for quiet start after Asia's AI sell-off",
+          "url": "https://www.themarketreporter.co.uk/a/0810669a/ftse-100-live-asian-markets-slide-as-ai-jitters-hit-japan-south-korea-an"
+        },
+        {
+          "title": "Asia Stock Markets Today: Nikkei, Hang Seng, Shanghai & KOSPI",
+          "url": "https://liveworldmarket.com/asia-stock-market-dashboard"
+        },
+        {
+          "title": "Equities: Nvidia sell-off weighs on Asian markets - Deutsche Bank",
+          "url": "https://www.fxstreet.com/news/equities-nvidia-sell-off-weighs-on-asian-markets-deutsche-bank-202611160722"
+        },
+        {
+          "title": "asian stock market nikkei soars on positive market mood dxy turns subdued oil eyes 8500 202210040548",
+          "url": "https://www.fxstreet.com/news/asian-stock-market-nikkei-soars-on-positive-market-mood-dxy-turns-subdued-oil-eyes-8500-202210040548"
+        },
+        {
+          "title": "asian stock market nikkei extends rally despite volatility in sp500 futures oil rebounds from 8000 202301250450",
+          "url": "https://www.fxstreet.com/amp/news/asian-stock-market-nikkei-extends-rally-despite-volatility-in-sp500-futures-oil-rebounds-from-8000-202301250450"
+        },
+        {
+          "title": "asian stock market nikkei extends rally despite volatility in sp500 futures oil rebounds from 8000 202301250450",
+          "url": "https://www.fxstreet.com/news/asian-stock-market-nikkei-extends-rally-despite-volatility-in-sp500-futures-oil-rebounds-from-8000-202301250450"
+        }
+      ]
+    },
+    {
+      "query": "USS Theodore Roosevelt third carrier Middle East Trump Iran mediators Qatar",
+      "results": [
+        {
+          "title": "Trump pursues Iran diplomacy as third US aircraft carrier heads toward region",
+          "url": "https://www.stripes.com/theaters/middle_east/2026-11-09/iran-trump-strikes-diplomacy-war-23410322.html"
+        },
+        {
+          "title": "Third US aircraft carrier arrives in Middle East amid tensions with Iran",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/third-us-aircraft-carrier-arrives-in-middle-east-amid-tensions-with-iran"
+        },
+        {
+          "title": "A Third U.S. Aircraft Carrier Will Arrive In the Middle East On Monday. Tensions Are Simmering.",
+          "url": "https://www.yahoo.com/news/us/articles/third-u-aircraft-carrier-arrive-090001856.html"
+        },
+        {
+          "title": "Third US aircraft carrier heads to Middle East as oil prices surge, Iran weighs compromise deal",
+          "url": "https://www.israelhayom.com/2026/10/20/third-us-aircraft-carrier-heads-to-middle-east-as-oil-prices-surge-iran-weighs-compromise-deal/"
+        },
+        {
+          "title": "USS Theodore Roosevelt Heads to Middle East as Third US Carrier in Iran Build-Up",
+          "url": "https://dunyadesk.com/article/uss-theodore-roosevelt-middle-east-third-carrier-iran-nov-2026"
+        },
+        {
+          "title": "Third US Carrier Heads to Mideast as Iran Targets Bahrain",
+          "url": "https://www.jfeed.com/middleeast/tok3ui"
+        },
+        {
+          "title": "USS Roosevelt arrives in Middle East: Is the US-Iran war about to resume?",
+          "url": "https://www.newsbeep.com/812264/"
+        },
+        {
+          "title": "Trump hints at second carrier in Middle East as Iran and US near talks",
+          "url": "https://www.yahoo.com/news/articles/top-iranian-adviser-visits-mediator-112658133.html"
+        },
+        {
+          "title": "Trump considers sending second carrier to Middle East",
+          "url": "https://www.yahoo.com/news/articles/trump-considers-sending-second-carrier-172501041.html"
+        },
+        {
+          "title": "Trump confirms second US aircraft carrier to be sent to Middle East",
+          "url": "https://www.yahoo.com/news/articles/trump-confirms-second-us-aircraft-201337250.html"
+        }
+      ]
+    },
+    {
+      "query": "Estonia closes Russian border suspected sabotage",
+      "results": [
+        {
+          "title": "Estonia to Close All Border Crossings With Russia After GRU-Linked Sabotage Attempt",
+          "url": "https://www.kyivpost.com/post/90202"
+        },
+        {
+          "title": "Estonia to close all border crossings with Russia after GRU-ordered sabotage attempt - Euromaidan Press",
+          "url": "https://euromaidanpress.com/2026/11/15/estonia-to-close-all-border-crossings-with-russia/"
+        },
+        {
+          "title": "Estonia to Close Border Crossings With Russia After Foiled Sabotage Attempt - The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/16/estonia-to-close-border-crossings-with-russia-after-foiled-sabotage-attempt-a94269"
+        },
+        {
+          "title": "Estonia shuts Russian border after foiling attack on drone factory",
+          "url": "https://www.yahoo.com/news/world/articles/estonia-shuts-russian-border-foiling-173500215.html"
+        },
+        {
+          "title": "Estonia to close border with Russia, citing foiled sabotage attempt",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374514/estonia-close-russia-border-after-sabotage-bid-foreign-minister-says"
+        },
+        {
+          "title": "Estonia to close Russia border after 'sabotage' bid on drone maker, foreign minister says - Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/estonia-close-russia-border-sabotage-061034806.html"
+        },
+        {
+          "title": "2025 in Estonia",
+          "url": "https://en.wikipedia.org/wiki/2025_in_Estonia"
+        },
+        {
+          "title": "Estonia closes border crossing with Russia over unusual military activity",
+          "url": "https://www.yahoo.com/news/articles/estonia-closes-border-crossing-russia-141200443.html"
+        },
+        {
+          "title": "Estonia detains 10 suspects who allegedly committed sabotage on orders from Russia",
+          "url": "https://www.foxnews.com/world/estonia-detains-10-suspects-allegedly-committed-sabotage-orders-russia.amp"
+        }
+      ]
+    },
+    {
+      "query": "Israel kills Hamas commander southern Gaza airstrike UK Canada Australia Italy aid statement",
+      "results": [
+        {
+          "title": "Israel kills senior Hamas commander in Gaza two months after killing his predecessor as ceasefire stagnates",
+          "url": "https://www.cnn.com/2026/11/15/middleeast/israel-kills-hamas-commander-gaza-intl"
+        },
+        {
+          "title": "Houthi attacks kill eight in Yemen, strike Riyadh airport",
+          "url": "https://newarab.com/news/houthi-attacks-kill-eight-yemen-strike-riyadh-airport"
+        },
+        {
+          "title": "Israel kills senior Hamas commander in Gaza - Caribbean Broadcasting Corporation",
+          "url": "https://www.cbc.bb/news/international-news/israel-kills-senior-hamas-commander-in-gaza/"
+        },
+        {
+          "title": "Australia, UK, Canada and Italy urge Israel to allow ‘rapid’ Gaza aid access",
+          "url": "https://scmp.com/news/world/middle-east/article/3374519/australia-uk-canada-and-italy-urge-israel-allow-rapid-gaza-aid-access"
+        },
+        {
+          "title": "Israel kills senior Hamas commander in Gaza 2 months after killing his predecessor",
+          "url": "https://www.ksbw.com/article/israel-kills-senior-hamas-official-gaza/74433602"
+        },
+        {
+          "title": "Israel strike in south Lebanon kills Hamas commander",
+          "url": "https://gulfnews.com/world/mena/israel-strike-in-south-lebanon-kills-hamas-commander-1.1723228208278"
+        },
+        {
+          "title": "Israeli Airstrike Kills Three Hamas Military Commanders",
+          "url": "https://www.nbcnews.com/news/amp/ncna185681"
+        },
+        {
+          "title": "Israel says it killed high-ranking Hamas commander in Gaza",
+          "url": "https://www.yahoo.com/news/articles/israel-says-killed-high-ranking-162531845.html"
+        },
+        {
+          "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
+          "url": "https://www.euronews.com/2024/08/01/hamas-military-operations-chief-killed-in-july-airstrike-israel-says"
+        }
+      ]
+    },
+    {
+      "query": "Japan GDP third quarter 2026 contraction",
+      "results": [
+        {
+          "title": "Japan GDP Growth Annualized",
+          "url": "https://tradingeconomics.com/japan/gdp-growth-annualized"
+        },
+        {
+          "title": "Japan's economy contracts for first time in a year",
+          "url": "https://www.newsbytesapp.com/news/business/higher-oil-prices-push-japan-s-economy-into-contraction/story"
+        },
+        {
+          "title": "Japan's GDP Shrinks 0.1% in Third Quarter, First Drop in a Year - Seoul Economic Daily",
+          "url": "https://en.sedaily.com/world/2026/11/16/japans-gdp-shrinks-01-percent-in-third-quarter-first-drop"
+        },
+        {
+          "title": "Japan GDP Contracts 0.1% in Q3 2026 as Nikkei Loses $120 Billion - Hokanews",
+          "url": "https://www.hokanews.com/2026/11/japan-gdp-contracts-01-in-q3-2026-as.html"
+        },
+        {
+          "title": "Japan's Q3 real GDP shrinks 0.1 pct-Xinhua",
+          "url": "https://english.news.cn/20261116/0c28de96af58410caa740fd0f0001fe6/c.html"
+        },
+        {
+          "title": "Japan's Economy Shrinks 0.1% in Q3 as High Living Costs Weigh on Households",
+          "url": "https://www.archyde.com/japans-economy-shrinks-0-1-in-q3-as-high-living-costs-weigh-on-households/"
+        },
+        {
+          "title": "Japan’s GDP contracts sharply to 0.6% contraction, nominal wages jump 2.6%, more than expected",
+          "url": "https://seekingalpha.com/news/4529173-japans-gdp-contracts-sharply-to-06-contraction-nominal-wages-jump-26-more-than-expected"
+        },
+        {
+          "title": "Saturday, January 17, 2026 | 09:05 AM ISTहिंदी में पढें",
+          "url": "https://www.business-standard.com/article/reuters/japan-fourth-quarter-gdp-revised-up-to-annualised-1-1-percent-contraction-116030800081_1.html"
+        },
+        {
+          "title": "Free Trial",
+          "url": "https://www.marketbeat.com/articles/japans-economy-sinks-into-contraction-as-spending-investment-decline-2023-11-14"
+        }
+      ]
+    },
+    {
+      "query": "Houthi attack Riyadh airport November 2026",
+      "results": [
+        {
+          "title": "Saudi Aramco building in Riyadh damaged in ‘attempted’ attack",
+          "url": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province"
+        },
+        {
+          "title": "Houthis claim missile strikes on King Khalid Airport, financial centre in Saudi's Riyadh - The Tribune",
+          "url": "https://www.tribuneindia.com/news/ballistic-missiles/houthis-claim-missile-strikes-on-king-khalid-airport-financial-centre-in-saudis-riyadh"
+        },
+        {
+          "title": "Yemen fighting expands as Houthis attack Saudi airport again: What to know",
+          "url": "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know"
+        },
+        {
+          "title": "2026 in Saudi Arabia",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Saudi_Arabia"
+        },
+        {
+          "title": "Houthis Claim Fresh Ballistic Missile Attack on Riyadh Airport as Saudi Capital Faces Growing Threat",
+          "url": "https://www.inkl.com/news/houthis-claim-fresh-ballistic-missile-attack-on-riyadh-airport-as-saudi-capital-faces-growing-threat"
+        },
+        {
+          "title": "2018 Riyadh missile strike",
+          "url": "https://en.wikipedia.org/wiki/2018_Riyadh_missile_strike"
+        },
+        {
+          "title": "Shafaq News..Houthis: Missile caused significant damage to Riyadh airport",
+          "url": "https://shafaq.com/en/Middle-East/Houthis-Missile-caused-significant-damage-to-Riyadh-airport"
+        },
+        {
+          "title": "Houthi ballistic missile strike on Riyadh airport and financial centre intercepted · Terminair",
+          "url": "https://terminair.com/story/139544-houthi-ballistic-missile-strike-on-riyadh-airport-and"
+        },
+        {
+          "title": "Houthi movement claims to target King Khalid Airport and Riyadh Financial Center with two · Terminair",
+          "url": "https://terminair.com/story/139544-houthi-movement-claims-to-target-king-khalid-airport"
+        }
+      ]
+    },
+    {
+      "query": "Canary Islands migrants single day record November 2026",
+      "results": [
+        {
+          "title": "Nearly 1,500 migrants arrive in Canary Islands in one day",
+          "url": "https://www.thestar.com.my/news/world/2026/11/15/nearly-1500-migrants-arrive-in-canary-islands-in-one-day"
+        },
+        {
+          "title": "Nearly 1,500 migrants reach Canary Islands in one day - The Copenhagen Post",
+          "url": "https://cphpost.dk/2026-11-16/global/nearly-1500-migrants-reach-canary-islands-in-one-day/"
+        },
+        {
+          "title": "Canary Islands smash record for migrant arrivals as more than 1,500 people arrive by small boat in just 24 hours",
+          "url": "https://www.theolivepress.es/spain-news/2026/11/15/canary-islands-migrants-arrivals-el-hierro/"
+        },
+        {
+          "title": "Record 1,488 migrants reach Canary Islands in one day - Spain in English",
+          "url": "https://www.spainenglish.com/2026/11/15/record-1488-migrants-reach-canary-islands-in-one-day/"
+        },
+        {
+          "title": "Nearly 1,500 Migrants Arrive in Canary Islands in One Day",
+          "url": "https://www.ntd.com/nearly-1500-migrants-arrive-in-canary-islands-in-one-day_1185500.html"
+        },
+        {
+          "title": "Canary Islands Record Highest Single-day Migrant Arrivals Since 2020 - Time News",
+          "url": "https://time.news/canary-islands-record-highest-single-day-migrant-arrivals-since-2020/"
+        },
+        {
+          "title": "Spain's Canary Islands record highest single-day migrant arrivals in 32 years-Xinhua",
+          "url": "https://english.news.cn/20261115/141f93131bbd434a8f746d6e7955cefc/c.html"
+        },
+        {
+          "title": "Canary Islands migrant arrivals hit record high — RT World News",
+          "url": "https://rt-english.com/news/648881-canary-islands-migrant-arrivals-record/"
+        },
+        {
+          "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
+          "url": "https://www.euronews.com/my-europe/2024/12/03/record-number-of-migrants-reach-spains-canary-islands-in-2024"
+        },
+        {
+          "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
+          "url": "https://www.euronews.com/2024/12/03/record-number-of-migrants-reach-spains-canary-islands-in-2024"
+        }
+      ]
+    },
+    {
+      "query": "Pope Leo Peru Amazon defenders justice Puerto Maldonado",
+      "results": [
+        {
+          "title": "Pope Leo in the Peruvian Amazon decries human rights abuses and exploitation - Vatican News",
+          "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-in-heart-of-peruvian-amazon-decries-human-rights-abuses.html"
+        },
+        {
+          "title": "Pope in Peruvian Rainforest Demands Justice for Environmental Defenders Killed for Protecting Amazon - The Wire",
+          "url": "https://m.thewire.in/article/world/pope-in-peruvian-rainforest-demands-justice-for-environmental-defenders-killed-for-protecting-amazon"
+        },
+        {
+          "title": "Pope in Peruvian rainforest demands justice for environmental defenders killed for protecting Amazon",
+          "url": "https://www.audacy.com/wwl/news/world/peru-pope-visit-indigenous-amazon-8a15143716d2d78a691f2eb995f1bda0"
+        },
+        {
+          "title": "Pope condemns murders of Peru’s Indigenous leaders, deforestation of Amazon",
+          "url": "https://aljazeera.com/news/2026/11/16/pope-condemns-murders-of-perus-indigenous-leaders-deforestation-of-amazon"
+        },
+        {
+          "title": "Pope in Peruvian rainforest demands justice for environmental defenders killed for protecting Amazon",
+          "url": "https://www.nbcrightnow.com/national/pope-in-peruvian-rainforest-demands-justice-for-environmental-defenders-killed-for-protecting-amazon/article_1229c814-6bf1-5e85-bf06-8b469519a0f5.html"
+        },
+        {
+          "title": "Synod of Bishops for the Pan-Amazon region",
+          "url": "https://en.wikipedia.org/wiki/Synod_of_Bishops_for_the_Pan-Amazon_region"
+        },
+        {
+          "title": "Pope Leo XIV Condemns Amazon Deforestation, Demands Justice for Indigenous Leaders Killed: 6 outlets compared",
+          "url": "https://newscord.org/article/pope-leo-xiv-condemns-amazon-deforestation-demands-justice-for-indigenous-leader--Story_20261115_SonhocomumaAmazniaqua88b37f7"
+        },
+        {
+          "title": "Pope offers defense of indigenous peoples",
+          "url": "https://www.pressreader.com/usa/santa-fe-new-mexican/20180120/281560881210885"
+        },
+        {
+          "title": "Protect the Amazon from big business and greed, Pope Francis urges",
+          "url": "https://www.pressreader.com/guyana/stabroek-news/20180120/281517931537604"
+        },
+        {
+          "title": "Pope to indigenous: Amazon is ‘heart of the church’",
+          "url": "https://www.pressreader.com/usa/porterville-recorder/20180120/281728384935372"
+        }
+      ]
+    },
+    {
+      "query": "Anthropic IPO pricing week November 2026",
+      "results": [
+        {
+          "title": "Anthropic IPO 2026: $70-78 Price Band, Listing Date, Valuation",
+          "url": "https://www.indmoney.com/blog/us-stocks/anthropic-ipo-price-band-valuation-listing-date"
+        },
+        {
+          "title": "Anthropic Sets IPO Price Range at $70 to $78, Valuing Company at Up to $1.4 Trillion",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-sets-ipo-price-range-140602411.html"
+        },
+        {
+          "title": "Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say",
+          "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+        },
+        {
+          "title": "Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say",
+          "url": "https://www.cnbc.com/video/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-looks-to-start-trading-nov-19-sources-say.html"
+        },
+        {
+          "title": "Anthropic sets $70 to $78 per share price range for IPO - Quartz",
+          "url": "https://qz.com/anthropic-ipo-price-range-share-cornerstone-investors-111426"
+        },
+        {
+          "title": "Anthropic IPO: the age of miracles, priced at $78 a share - Asia Times",
+          "url": "https://asiatimes.com/2026/11/anthropic-ipo-the-age-of-miracles-priced-at-78-a-share/"
+        },
+        {
+          "title": "Anthropic",
+          "url": "https://en.wikipedia.org/wiki/Anthropic"
+        },
+        {
+          "title": "Dario Amodei",
+          "url": "https://en.wikipedia.org/wiki/Dario_Amodei"
+        },
+        {
+          "title": "Anthropic IPO Price Range $70–$78: S-1/A, Valuation and Date",
+          "url": "https://decodethefuture.org/en/anthropic-s1-ipo-filing-explained/"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Russia news November 15 2026 strikes prisoner exchange",
+      "results": [
+        {
+          "title": "Russia and Ukraine agree to a large prisoner exchange as talks conclude with no major breakthrough",
+          "url": "https://www.nbcnews.com/world/middle-east/us-russia-ukraine-start-second-day-abu-dhabi-peace-talks-rcna608714"
+        },
+        {
+          "title": "Russia and Ukraine agree to a large prisoner exchange as talks end with no major breakthrough",
+          "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-agree-to-a-large-prisoner-exchange-as-talks-end-with-no-major-breakthrough"
+        },
+        {
+          "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
+          "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks"
+        },
+        {
+          "title": "Russia and Ukraine Agree to a Large Prisoner Exchange as Talks Conclude With No Major Breakthrough",
+          "url": "https://www.military.com/russia-and-ukraine-agree-to-a-large-prisoner-exchange-as-talks-conclude-with-no-major-breakthrough"
+        },
+        {
+          "title": "Russia and Ukraine agree to large prisoner exchange following two days of US-mediated talks - JURIST - News",
+          "url": "https://www.jurist.org/news/2026/11/russia-and-ukraine-agree-to-large-prisoner-exchange-following-two-days-of-us-mediated-talks/"
+        },
+        {
+          "title": "Ukraine war latest: 'Large-scale' prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says",
+          "url": "https://kyivindependent.com/ukraine-war-latest-large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/"
+        },
+        {
+          "title": "Ukraine, Russia exchange strikes hours before US envoys arrive in Moscow to meet Putin - TRT World",
+          "url": "https://www.trtworld.com/article/8af2f1d25ae2"
+        },
+        {
+          "title": "Kyiv hit by Russian strikes as largest prisoner swap of war begins",
+          "url": "https://www.yahoo.com/news/kyiv-hit-russian-strikes-largest-093249750.html"
+        },
+        {
+          "title": "Ukraine begins new major prisoner exchange with Russia",
+          "url": "https://www.yahoo.com/news/ukraine-begins-first-stage-prisoner-120542801.html"
+        },
+        {
+          "title": "russia ukraine exchange hundreds of prisoners of war",
+          "url": "https://newsonair.gov.in/russia-ukraine-exchange-hundreds-of-prisoners-of-war"
+        }
+      ]
+    },
+    {
+      "query": "Trump departs Asia trip APEC Shenzhen schedule Xi meeting November 2026",
+      "results": [
+        {
+          "title": "Trump’s Asia trip to include summit with Xi, Putin",
+          "url": "https://www.staradvertiser.com/2026/11/16/breaking-news/trumps-asia-trip-to-include-summit-with-xi-putin/"
+        },
+        {
+          "title": "Trump to meet with Putin and Xi in China next week, US officials say - ABC News",
+          "url": "https://abcnews.com/Politics/trump-meet-putin-xi-china-week-us-officials/story?id=138128914"
+        },
+        {
+          "title": "Trump heads to Asia for 2nd high-stakes meeting with Chinese President Xi amid Nvidia CEO scandal - ABC News",
+          "url": "https://abcnews.com/Politics/trump-heads-asia-2nd-high-stakes-meeting-chinese/story?id=138059807"
+        },
+        {
+          "title": "Spy Scandal And Midterm Defeat Heat Up Trump's Asia Visit",
+          "url": "https://www.deccanchronicle.com/world/spy-scandal-and-midterm-defeat-heat-up-trumps-asia-visit-2004865"
+        },
+        {
+          "title": "Trump Heads to Asia for Historic Meeting With Xi and Putin: What’s at Stake - Newsweek",
+          "url": "https://newsweek.com/trump-heads-to-asia-for-historic-meeting-with-xi-and-putin-whats-at-stake-12718413"
+        },
+        {
+          "title": "Trump’s Asia reset: Deals in Manila and Shenzhen, then a rare nuclear summit with Xi and Putin",
+          "url": "https://www.manilatimes.net/2026/11/16/world/trumps-asia-reset-deals-in-manila-and-shenzhen-then-a-rare-nuclear-summit-with-xi-and-putin/2470574"
+        },
+        {
+          "title": "trump departs for asia trip to attend asean summit and meet chinas xi jinping",
+          "url": "https://www.tribuneindia.com/news/world/trump-departs-for-asia-trip-to-attend-asean-summit-and-meet-chinas-xi-jinping"
+        },
+        {
+          "title": "Trump heads to Asia and high-stakes meeting with Xi",
+          "url": "https://gulfnews.com/world/americas/trump-heads-to-asia-and-high-stakes-meeting-with-xi-1.500320102"
+        },
+        {
+          "title": "Add Tribune As Your Trusted Source",
+          "url": "https://www.tribuneindia.com/news/world/trump-departs-for-asia-trip-to-attend-asean-summit-and-meet-chinas-xi-jinping/amp"
+        }
+      ]
+    },
+    {
+      "query": "Eisenkot coalition talks November 15 2026",
+      "results": [
+        {
+          "title": "Eisenkot said prioritizing efforts to form coalition with ultra-Orthodox",
+          "url": "https://www.timesofisrael.com/eisenkot-said-prioritizing-efforts-to-form-coalition-with-ultra-orthodox/"
+        },
+        {
+          "title": "Yashar, Likud hold unity talks as Eisenkot bloc moves to assert control over Knesset",
+          "url": "https://www.timesofisrael.com/yashar-likud-meet-for-unity-talks-as-eisenkot-bloc-moves-to-assert-control-over-knesset/"
+        },
+        {
+          "title": "Likud, Yashar hold coalition negotiations as Gadi Eisenkot works to build gov't",
+          "url": "https://www.jpost.com/israel-election-2026/article-914935"
+        },
+        {
+          "title": "Eisenkot dismisses Netanyahu's unity government appeal as 'media stunt'",
+          "url": "https://aa.com.tr/en/middle-east/eisenkot-dismisses-netanyahus-unity-government-appeal-as-media-stunt/4125448"
+        },
+        {
+          "title": "Israel Election 2026 Live Updates: Eisenkot, Netanyahu race to build government",
+          "url": "https://www.jpost.com/israel-election-2026/2026-11-15/live-updates-914894"
+        },
+        {
+          "title": "Israel: PM Netanyahu and Eisenkot to discuss national unity govt formation, appoint representatives for coalition talks",
+          "url": "https://organiser.org/2026/11/15/426514/international/israel-pm-netanyahu-and-eisenkot-to-discuss-national-unity-govt-formation-appoint-representatives-for-coalition-talks/"
+        },
+        {
+          "title": "Netanyahu, Eisenkot Parties Held Talks as PM Pleads for Joint Gov't - Israel Political News",
+          "url": "https://www.haaretz.com/israel-news/israel-politics/2026-11-15/ty-article/.premium/likud-and-yashar-parties-to-meet-for-negotiations-as-netanyahu-pushes-for-unity/000001a1-df20-d1ce-a9a3-ff33ea460000"
+        },
+        {
+          "title": "Inside Eisenkot's Race to Form a Government - Israel Political News",
+          "url": "https://www.haaretz.com/israel-news/israel-politics/2026-11-15/ty-article/.premium/inside-eisenkots-race-to-form-a-government/000001a1-e072-ddc9-abb7-edf24ae60000"
+        },
+        {
+          "title": "National Unity (Israel)",
+          "url": "https://en.wikipedia.org/wiki/National_Unity_(Israel)"
+        }
+      ]
+    },
+    {
+      "query": "Nvidia earnings preview Tuesday Kress expectations November 2026",
+      "results": [
+        {
+          "title": "Nvidia earnings preview: The first big test after Jensen Huang’s exit",
+          "url": "https://www.fxstreet.com/news/nvidia-earnings-preview-the-first-big-test-after-jensen-huangs-exit-202611160603"
+        },
+        {
+          "title": "Nvidia earnings preview: what to expect as Kress faces first test without Huang — TradingView News",
+          "url": "https://www.tradingview.com/news/invezz:ea9565e3c094b:0-nvidia-earnings-preview-what-to-expect-as-kress-faces-first-test-without-huang/"
+        },
+        {
+          "title": "Nvidia Reports Earnings on Nov. 17. Here's What Investors Should Be Watching.",
+          "url": "https://www.fool.com/investing/2026/11/15/nvidia-reports-earnings-on-nov-17-2026-heres-what-investors-should-be-watching/"
+        },
+        {
+          "title": "Nvidia earnings preview: what to expect as Kress faces first test without Huang",
+          "url": "https://invezz.com/news/2026/11/13/nvidia-earnings-preview-q3-kress-huang/"
+        },
+        {
+          "title": "Nvidia heads into November 17 earnings under interim CEO Colette Kress",
+          "url": "https://superpowerdaily.com/posts/nvidia-heads-into-november-17-earnings-under-interim-ceo-colette-kress"
+        },
+        {
+          "title": "NVIDIA earnings 17 Nov 2026: the $108B guide and GPU buyers",
+          "url": "https://ecorpit.com/nvidia-earnings-17-november-2026-interim-ceo-gpu-buyers/"
+        },
+        {
+          "title": "Nvidia Earnings Preview: NVDA’s First Test of the Post Jenson Huang Era",
+          "url": "https://www.forex.com/ie/news-and-analysis/nvidia-earnings-preview-nvda-s-first-test-of-the-post-jenson-huang-era/"
+        },
+        {
+          "title": "What To Expect From NVIDIA's November 2026 Earnings Report",
+          "url": "https://blog.mexc.com/crypto-knowledge/what-to-expect-from-nvidia-november-2026-earnings-report/"
+        },
+        {
+          "title": "NVIDIA reports Nov. 17 against a $108 billion revenue guide",
+          "url": "https://effectstory.com/en/articles/nvidia-q3-fy2027-earnings-preview-kress-interim-ceo"
+        }
+      ]
+    }
+  ],
+  "fetched": [],
+  "meta": {
+    "id": "2026-11-16",
+    "generated_at": "2026-11-16T11:25:28.671Z",
+    "model": "claude-opus-5-5",
+    "via": "claude-code-routine",
+    "searches": 16,
+    "results_count": 150,
+    "cited_count": 42
+  }
+}

@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-16",
+      "date": "Monday, November 16, 2026",
+      "edition": "THIRD CARRIER",
+      "searches": 16,
+      "cited_count": 42,
+      "results_count": 150
+    },
+    {
       "id": "2026-11-15",
       "date": "Sunday, November 15, 2026",
       "edition": "CHOKEPOINTS",
