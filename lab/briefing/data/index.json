@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-17",
+      "date": "Tuesday, November 17, 2026",
+      "edition": "BRIDGES HIT",
+      "searches": 16,
+      "cited_count": 48,
+      "results_count": 148
+    },
+    {
       "id": "2026-11-16",
       "date": "Monday, November 16, 2026",
       "edition": "THIRD CARRIER",
