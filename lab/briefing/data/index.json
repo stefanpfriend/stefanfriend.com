@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-18",
+      "date": "Wednesday, November 18, 2026",
+      "edition": "SHENZHEN EVE",
+      "searches": 16,
+      "cited_count": 40,
+      "results_count": 151
+    },
+    {
       "id": "2026-11-17",
       "date": "Tuesday, November 17, 2026",
       "edition": "BRIDGES HIT",

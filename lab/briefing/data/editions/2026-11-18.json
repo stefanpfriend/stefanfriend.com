@@ -1,0 +1,1041 @@
+{
+  "date": "Wednesday, November 18, 2026",
+  "edition": "SHENZHEN EVE",
+  "tldr_label": "TL;DR: US and Iran trade strikes as Iran hits Kuwait, Xi hosts Putin before Thursday's three-way summit, and Nvidia beats forecasts",
+  "tldr_bullets": [
+    {
+      "label": "Gulf",
+      "body": "US jets struck an Iranian missile site on Qeshm Island. Iran answered with drones at Kuwait and Bahrain, and Qatar opened new talks with Tehran. [[TAG:danger:tit-for-tat]]"
+    },
+    {
+      "label": "APEC",
+      "body": "Xi met Putin in Shenzhen ahead of Thursday's first US-China-Russia leaders' meeting. In Manila, Trump announced a trade deal with the Philippines, though no terms have been released. [[TAG:info:Thursday]]"
+    },
+    {
+      "label": "Nvidia",
+      "body": "Nvidia beat forecasts in its first report without Jensen Huang and guided Q4 revenue to $126 billion to $134 billion. The shares rose modestly after hours following a weak day on Wall Street. [[TAG:success:beat and raise]]"
+    },
+    {
+      "label": "Israel",
+      "body": "The Knesset elected Yashar's Matan Kahana speaker by 66 votes to 52, giving Eisenkot's bloc control of the chamber's agenda. [[TAG:warning:Netanyahu weakened]]"
+    },
+    {
+      "label": "Climate",
+      "body": "A COP31 draft calling for faster fossil-fuel phase-out split negotiators. The EU warned it could make talks 'untenable.' [[TAG:warning:draft contested]]"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Gulf: Strike and Counterstrike",
+      "icon": "🛢️",
+      "summary": "US hits Qeshm launch site; Iran fires at Kuwait and Bahrain; Qatar opens new talks",
+      "paragraphs": [
+        {
+          "heading": "Qeshm and Kuwait",
+          "body": "CBS News and PBS reported that US jets struck an Iranian Revolutionary Guard missile launch site on Qeshm Island on Tuesday, hours after Iranian drones were launched at Bahrain. GMA and Dhaka Tribune reported that Iran then fired at Kuwait, with air defenses activated against drones aimed at Ali Al-Salem air base, which hosts US forces. It was the first attack on Kuwait since early September. Bahrain said it repelled Iranian attacks for the fourth time in six days. [[TAG:danger:widening strikes]]"
+        },
+        {
+          "heading": "Shipping",
+          "body": "Yahoo News reported that at least four tankers have been struck since Friday, and Gulf News reported a crew member missing after an ADNOC vessel was hit. The Revolutionary Guards say they are attacking tankers they deem to be transiting the strait illegally. The US maintains its naval blockade. [[TAG:danger:Hormuz contested]]"
+        },
+        {
+          "heading": "Qatar Mediates",
+          "body": "Euronews reported that Qatar warned the escalation poses a 'grave danger' and held new talks with Iranian officials to narrow the gap between proposals. Spokesperson Majed Al Ansari described the meeting as part of mediation efforts. Qatar called the attacks on Kuwait and Bahrain a dangerous escalation. [[TAG:info:talks continue]]"
+        }
+      ],
+      "sources": "CBS News, PBS, GMA, Dhaka Tribune, Yahoo News, Gulf News, Euronews, Al Jazeera",
+      "citations": [
+        {
+          "outlet": "CBS News",
+          "title": "Iran War Updates: Gulf states and tankers under fire as U.S. and Iran ramp back up tit-for-tat strikes",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
+        },
+        {
+          "outlet": "PBS",
+          "title": "Iran fires at U.S. facility in Bahrain as Tehran resumes strikes on Arab neighbors",
+          "url": "https://www.pbs.org/newshour/world/iran-fires-at-u-s-facility-in-bahrain-as-tehran-resumes-strikes-on-arab-neighbors"
+        },
+        {
+          "outlet": "GMA",
+          "title": "Iran fires at Kuwait, widening strikes after US hit Iranian island",
+          "url": "https://www.gmanetwork.com/news/topstories/world/1009973/iran-fires-at-kuwait-widening-strikes-after-us-hit-iranian-island/story/"
+        },
+        {
+          "outlet": "Dhaka Tribune",
+          "title": "Gulf countries under fire after US hits Iran island",
+          "url": "https://www.dhakatribune.com/world/middle-east/425006/gulf-countries-under-fire-after-us-hits-iran"
+        },
+        {
+          "outlet": "Yahoo News",
+          "title": "Iran attacks Kuwait, Bahrain as Hormuz standoff persists",
+          "url": "https://www.yahoo.com/news/world/articles/iran-attacks-kuwait-bahrain-hormuz-054700871.html"
+        },
+        {
+          "outlet": "Gulf News",
+          "title": "Gulf Crisis Deepens: Iran Targets Bahrain, ADNOC Vessel Attacked, US Responds with Strikes",
+          "url": "https://gulfnews.com/world/mena/middle-east-war-iran-attacks-bahrain-kuwait-drone-threats-keep-gulf-on-high-alert-as-us-hits-irans-qeshm-1.500751444"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Qatar warns Gulf escalation poses 'grave danger' and announces new talks with Iran",
+          "url": "https://www.euronews.com/2026/11/17/qatar-warns-gulf-escalation-poses-grave-danger-and-announces-new-talks-with-iran"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran war live: Kuwait says intercepting ‘hostile’ drone attacks",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/18/iran-war-live-kuwait-says-intercepting-hostile-drone-attacks"
+        }
+      ]
+    },
+    {
+      "title": "APEC: Leaders Converge",
+      "icon": "🌐",
+      "summary": "Xi meets Putin in Shenzhen before Thursday's trilateral; Trump touts Manila trade and Quad deals",
+      "paragraphs": [
+        {
+          "heading": "Shenzhen",
+          "body": "The Standard, citing Xinhua, and China's government website reported that Putin arrived in Shenzhen early Wednesday for the APEC summit and met Xi the same day. CNBC set out what to watch at Thursday's three-way meeting with Trump, the first of its kind. [[TAG:info:trilateral Thursday]]"
+        },
+        {
+          "heading": "Manila",
+          "body": "Rappler and Anadolu reported that Trump announced what he called 'the biggest trade deal' with the Philippines, along with expanded defense cooperation. Marcos's office referred only to an 'understanding' on economic cooperation, there was no signing, and no terms have been released. Asia Media Centre reported that the Quad leaders announced critical-minerals agreements and an AI initiative. The ASEAN-US summit adopted principles against online scams. [[TAG:warning:no terms yet]]"
+        }
+      ],
+      "sources": "The Standard (Xinhua), gov.cn, CNBC, Rappler, Anadolu, Asia Media Centre, PIA",
+      "citations": [
+        {
+          "outlet": "The Standard",
+          "title": "Russia's Putin arrives in Shenzhen for APEC summit, Xinhua reports",
+          "url": "https://www.thestandard.com.hk/china/article/348809/Russias-Putin-arrives-in-Shenzhen-for-APEC-summit-Xinhua-reports"
+        },
+        {
+          "outlet": "gov.cn",
+          "title": "Xi meets Putin in Shenzhen",
+          "url": "https://english.www.gov.cn/news/202611/18/content_WS6afd2bebc6d00ca5f9a0e61d.html"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Three things to watch as Trump, Xi and Putin meet in China",
+          "url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+        },
+        {
+          "outlet": "Rappler",
+          "title": "Trump announces ‘biggest trade deal’ between Philippines, US",
+          "url": "https://www.rappler.com/philippines/marcos-trump-bilateral-meeting-trade-deal/"
+        },
+        {
+          "outlet": "Anadolu",
+          "title": "Trump announces US-Philippines trade deal, expanded defense cooperation",
+          "url": "https://www.aa.com.tr/en/asia-pacific/trump-announces-us-philippines-trade-deal-expanded-defense-cooperation/4128499"
+        },
+        {
+          "outlet": "Asia Media Centre",
+          "title": "Trump in Manila: ASEAN scam pact, Quad minerals deals",
+          "url": "https://www.asiamediacentre.org.nz/trump-in-manila-asean-scam-pact-quad-minerals-deals"
+        },
+        {
+          "outlet": "PIA",
+          "title": "PBBM, Trump reinforce ASEAN-US strategic ties; Summit delivers anti-online scam pact",
+          "url": "https://pia.gov.ph/news/pbbm-trump-reinforce-asean-us-strategic-ties-summit-delivers-anti-online-scam-pact/"
+        }
+      ]
+    },
+    {
+      "title": "Nvidia Beats, Markets Wobble",
+      "icon": "📈",
+      "summary": "Q3 tops forecasts and Q4 guide beats; Dow fell 1.6% before the report; Anthropic prices tonight",
+      "paragraphs": [
+        {
+          "heading": "Results",
+          "body": "Reuters, via Investing.com, reported that Nvidia beat third-quarter forecasts and guided fourth-quarter revenue to $126 billion to $134 billion, above the roughly $125 billion analysts expected. The guidance assumes a lower gross margin and no China data-center sales. Constellation Research put quarterly revenue at $115.8 billion, up 103% from a year earlier. CoinDesk reported a $150 billion addition to the buyback authorization. Reports of the after-hours gain range from about 1% to nearly 4%. [[TAG:success:beat and raise]]"
+        },
+        {
+          "heading": "Leadership",
+          "body": "Euronext, carrying Reuters, reported that Nvidia's chairman said the company would not rehire Jensen Huang as CEO, and cited a Wall Street Journal report that the SEC is investigating the company. Reuters, via StreetInsider, said Nvidia would not take questions on the resignation. [[TAG:warning:SEC probe reported]]"
+        },
+        {
+          "heading": "Markets",
+          "body": "The Washington Post and Motley Fool reported that before the results the Dow fell 1.64%, the S&P 500 1.03% to its lowest close since July, and the Nasdaq 0.74%. FXStreet reported that Asian shares were mixed on Wednesday, with the Kospi leading gains. CNBC reported that Anthropic is likely to price its IPO above its $70 to $78 range, according to sources, ahead of trading on Thursday. [[TAG:info:Anthropic Thursday]]"
+        }
+      ],
+      "sources": "Investing.com (Reuters), Constellation Research, CoinDesk, CBS News, Euronext (Reuters), StreetInsider, Washington Post, Motley Fool, FXStreet, CNBC",
+      "citations": [
+        {
+          "outlet": "Investing.com (Reuters)",
+          "title": "Nvidia earnings beat estimates; attention turns to call By Reuters",
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-earnings-beat-estimates-attention-turns-to-call-5034180"
+        },
+        {
+          "outlet": "Constellation Research",
+          "title": "Nvidia posts strong Q3, ups Q4, fiscal 2028 outlook amid Huang resignation",
+          "url": "https://www.constellationr.com/insights/news/nvidia-posts-strong-q3-ups-q4-fiscal-2028-outlook-amid-huang-resignation"
+        },
+        {
+          "outlet": "CoinDesk",
+          "title": "Nvidia shares rise after big earnings beat, 2028 outlook raise despite leadership uncertainty",
+          "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Nvidia records strong growth in first earnings report without Jensen Huang - CBS News",
+          "url": "https://www.cbsnews.com/news/nvidia-earnings-jensen-huang-colette-kress/"
+        },
+        {
+          "outlet": "Euronext (Reuters)",
+          "title": "Global stocks slip after Nvidia earnings; Anthropic IPO to test AI boom",
+          "url": "https://live.euronext.com/en/financial-news/asia-stocks-cling-gains-after-nvidia-earnings-anthropic-pricing-looms"
+        },
+        {
+          "outlet": "StreetInsider (Reuters)",
+          "title": "Nvidia earnings beat estimates; firm won't take questions on resignation",
+          "url": "https://www.streetinsider.com/Reuters/Nvidia+earnings+beat+estimates;+attention+turns+to+call/27364633.html"
+        },
+        {
+          "outlet": "Washington Post",
+          "title": "How major US stock indexes fared Tuesday 11/17/2026 - The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/11/17/wall-street-stocks-dow-nasdaq/9f975f00-e2cf-11f1-a99e-b3e3805c6b8b_story.html"
+        },
+        {
+          "outlet": "Motley Fool",
+          "title": "Stock Market Today, Nov. 17: Stocks Slide on AI Chip and Tech Pressures, Salesforce Plummets 9%",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-stocks-slide-on-ai-chip-and-tech-pressures-salesforce-plummets-9/"
+        },
+        {
+          "outlet": "FXStreet",
+          "title": "Asian stocks trade mixed after Nvidia earnings, KOSPI leads gains",
+          "url": "https://www.fxstreet.com/news/asian-stocks-trade-mixed-after-nvidia-earnings-kospi-leads-gains-202611180516"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
+        }
+      ]
+    },
+    {
+      "title": "Israel: New Speaker",
+      "icon": "🏛️",
+      "summary": "Knesset elects Yashar's Matan Kahana 66-52, ending Likud's hold on the chamber",
+      "paragraphs": [
+        {
+          "heading": "Vote",
+          "body": "The Times of Israel and CNN reported that the Knesset elected Yashar's Matan Kahana as speaker by 66 votes to 52, replacing Likud's Amir Ohana after a six-hour filibuster by Netanyahu allies. The Eisenkot bloc was joined by the Arab-majority Ra'am and Joint List parties. ABC News (Australia) reported that UTJ backed Likud's candidate, despite its informal talks with Eisenkot's bloc. Likud condemned the result. [[TAG:warning:Netanyahu weakened]]"
+        },
+        {
+          "heading": "What It Unlocks",
+          "body": "Reports said control of the speakership lets Eisenkot's allies advance bills to reverse parts of the judicial overhaul, impose prime ministerial term limits and set up an October 7 inquiry. Ynet reported that the bloc agreed to hold off on the overhaul repeal until Monday in exchange for an end to the filibuster. Netanyahu's caretaker government remains in office while coalition talks continue. [[TAG:info:agenda control]]"
+        }
+      ],
+      "sources": "Times of Israel, CNN, ABC News (Australia), Ynet, Jewish Chronicle",
+      "citations": [
+        {
+          "outlet": "Times of Israel",
+          "title": "Knesset votes 66-52 to elect Yashar's Matan Kahana as speaker, in boost to Eisenkot bloc",
+          "url": "https://www.timesofisrael.com/knesset-votes-66-52-to-elect-yashars-matan-kahana-as-speaker-in-boost-to-eisenkot-bloc/"
+        },
+        {
+          "outlet": "CNN",
+          "title": "Israel’s parliament elects new Knesset speaker, weakening Netanyahu’s grip on power",
+          "url": "https://www.cnn.com/2026/11/17/middleeast/israel-knesset-speaker-netanyahu-intl"
+        },
+        {
+          "outlet": "ABC News (Australia)",
+          "title": "Israeli parliament elects new speaker backed by Netanyahu opponents - ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-18/eisenkot-bloc-replaces-netanyahu-ally-as-knesset-speaker/107397646"
+        },
+        {
+          "outlet": "Ynet",
+          "title": "Matan Kahana elected Knesset speaker with 66 votes as Eisenkot bloc takes control",
+          "url": "https://www.ynetnews.com/article/b1jkmr5cge"
+        },
+        {
+          "outlet": "Jewish Chronicle",
+          "title": "Eisenkot bloc secures Knesset speaker role with Matan Kahana - The Jewish Chronicle",
+          "url": "https://www.thejc.com/news/israel/elections-2026/knesset-speaker-matan-kahana-yashar-eisenkot-bloc-netanyahu-pkvbmgr5"
+        }
+      ]
+    },
+    {
+      "title": "Ukraine and Russia",
+      "icon": "🕊️",
+      "summary": "Europe's negotiators join US-Ukraine talks for the first time; Russian An-12 crash kills 17",
+      "paragraphs": [
+        {
+          "heading": "Europe Joins",
+          "body": "The Kyiv Post reported that Europe's full negotiating team, from France, Britain, Germany, Poland, Italy and the EU, joined online talks with Ukraine and US envoys Witkoff and Kushner for the first time, ahead of discussions in Berlin. The Kremlin has not formally confirmed European participation. Dawn reported that the sides discussed ways to draw Russia into talks. [[TAG:info:Berlin next]]"
+        },
+        {
+          "heading": "Siberia Crash",
+          "body": "The Kyiv Independent and US News, citing Izvestia, reported that a Russian military An-12 transport plane crashed in the Kemerovo region of Siberia, killing all 17 people aboard. Initial reports put the toll at three. The cause is under investigation, and Russia's defense ministry had not commented. [[TAG:danger:17 dead]]"
+        }
+      ],
+      "sources": "Kyiv Post, Dawn, France 24, Kyiv Independent, US News (Reuters)",
+      "citations": [
+        {
+          "outlet": "Kyiv Post",
+          "title": "Europe’s Full Negotiating Team Joins Talks With Witkoff, Kushner, Ukraine for First Time Before Berlin Discussions",
+          "url": "https://www.kyivpost.com/post/90291"
+        },
+        {
+          "outlet": "Dawn",
+          "title": "Ukraine, US and Europe discuss ways to tempt Russia into talks - Newspaper - DAWN.COM",
+          "url": "https://www.dawn.com/news/2045067/ukraine-us-and-europe-discuss-ways-to-tempt-russia-into-talks"
+        },
+        {
+          "outlet": "France 24",
+          "title": "New talks held between Kyiv, Europe and the US, Zelensky says - France 24",
+          "url": "https://www.france24.com/en/europe/20261116-live-600-ukrainian-drones-target-moscow-strike-crimea-bridge-halts-traffic"
+        },
+        {
+          "outlet": "Kyiv Independent",
+          "title": "17 killed in crash of Russian An-12 military plane in Siberia",
+          "url": "https://kyivindependent.com/17-killed-in-crash-of-russian-an-12-military-plane-in-siberia/"
+        },
+        {
+          "outlet": "US News (Reuters)",
+          "title": "Russian Military Transport Aircraft Crashes in Siberia, 17 Dead, Izvestia Reports",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-17/russian-military-transport-aircraft-crashes-in-siberia-17-dead-izvestia-reports"
+        }
+      ]
+    },
+    {
+      "title": "Climate and Chagos",
+      "icon": "🌍",
+      "summary": "COP31 draft urging faster fossil-fuel exit splits talks; Mauritius sets Chagos deadline",
+      "paragraphs": [
+        {
+          "heading": "COP31 Draft",
+          "body": "Al Jazeera and Yahoo News reported that co-host Australia's draft cover decision urges countries to 'accelerate action for the phase out of fossil fuels' and calls for at least $120 billion in adaptation support. EU envoy Wopke Hoekstra warned that the draft as written could make talks 'untenable,' and major fossil-fuel producers oppose the phase-out language. Negotiations chief Chris Bowen said at least one more draft may come before the week ends. [[TAG:warning:deep divisions]]"
+        },
+        {
+          "heading": "Chagos",
+          "body": "Brit Brief and Mauritius News reported that Mauritius has set a December 2026 deadline for progress on the stalled Chagos Islands handover and warned of legal action against the UK. The deal has been in limbo since President Trump criticized it. Reports differ on whether the deadline is for ratification or for a roadmap. [[TAG:info:December deadline]]"
+        }
+      ],
+      "sources": "Al Jazeera, Yahoo News, Modern Ghana, Brit Brief, Mauritius News",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Tensions rise over draft climate deal at COP31",
+          "url": "https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31"
+        },
+        {
+          "outlet": "Yahoo News",
+          "title": "COP31 draft deal calls for 'accelerated action' to exit fossil fuels",
+          "url": "https://www.yahoo.com/news/science/articles/cop31-draft-deal-calls-accelerated-130134626.html"
+        },
+        {
+          "outlet": "Modern Ghana",
+          "title": "Cop31 negotiators unveil draft deal as fossil fuel divisions persist",
+          "url": "https://www.modernghana.com/news/1545070/cop31-negotiators-unveil-draft-deal-as-fossil-fuel.html"
+        },
+        {
+          "outlet": "Brit Brief",
+          "title": "Mauritius PM warns of legal action over Chagos Islands deal - Brit Brief",
+          "url": "https://britbrief.co.uk/politics/diplomacy/mauritius-warns-of-legal-action-over-chagos-deal.html"
+        },
+        {
+          "outlet": "Mauritius News",
+          "title": "Chagos Deal: Ramgoolam and UK Set Roadmap Deadline for December 2026",
+          "url": "https://mauritius-news.com/article/chagos-deal-ramgoolam-and-uk-set-roadmap-deadline-for-december-2026"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "query": "Nvidia third quarter results November 17 2026 revenue Kress",
+      "results": [
+        {
+          "title": "Nvidia posts strong Q3, ups Q4, fiscal 2028 outlook amid Huang resignation",
+          "url": "https://www.constellationr.com/insights/news/nvidia-posts-strong-q3-ups-q4-fiscal-2028-outlook-amid-huang-resignation"
+        },
+        {
+          "title": "NVIDIA CORP - Form 8-K - FY2023",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000225/q3fy24pr.htm"
+        },
+        {
+          "title": "NVIDIA CORP - Form 8-K - FY2022",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581022000163/q3fy23pr.htm"
+        },
+        {
+          "title": "NVIDIA CORP - Form 8-K - FY2025",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/q3fy26pr.htm"
+        },
+        {
+          "title": "NVIDIA CORP - Form 8-K - FY2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000315/q3fy25pr.htm"
+        },
+        {
+          "title": "NVIDIA CORP - Form 8-K - FY2014",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581014000182/q315pr.htm"
+        },
+        {
+          "title": "NVIDIA CORP - Form 8-K - FY2009",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581009000031/q310pressrelease.htm"
+        },
+        {
+          "title": "NVIDIA CORP - Form 8-K - FY2020",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581020000187/q3fy21pr.htm"
+        },
+        {
+          "title": "NVIDIA CORP - Form 8-K - FY2025",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/q3fy26cfocommentary.htm"
+        },
+        {
+          "title": "NVIDIA CORP - Form 8-K - FY2015",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581015000165/q316pr.htm"
+        }
+      ]
+    },
+    {
+      "query": "world news November 18 2026",
+      "results": [
+        {
+          "title": "The World Today (TV news programme)",
+          "url": "https://en.wikipedia.org/wiki/The_World_Today_(TV_news_programme)"
+        },
+        {
+          "title": "Morning Briefing: Nov. 18, 2026",
+          "url": "https://aa.com.tr/en/world/morning-briefing-nov-18-2026/4128568"
+        },
+        {
+          "title": "Morning Recap - November 18, 2026",
+          "url": "https://www.thestandard.com.hk/news/article/348822/Morning-Recap-November-18-2026"
+        },
+        {
+          "title": "Video. Latest news bulletin",
+          "url": "https://www.euronews.com/video/2026/11/18/latest-news-bulletin-november-18th-2026-morning"
+        },
+        {
+          "title": "10 Things Global News - 18th November 2026",
+          "url": "https://www.10things.news/p/10-things-global-news-18th-november-077"
+        },
+        {
+          "title": "Iran war live: Kuwait says intercepting ‘hostile’ drone attacks",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/18/iran-war-live-kuwait-says-intercepting-hostile-drone-attacks"
+        },
+        {
+          "title": "world news",
+          "url": "https://www.euronews.com/tag/world-news?p=8"
+        },
+        {
+          "title": "TODAY'S NEWS, Weekend Edition, November 13-16, 2024",
+          "url": "https://larrys.substack.com/p/todays-news-weekend-edition-november"
+        },
+        {
+          "title": "world news",
+          "url": "https://www.euronews.com/tag/world-news?p=12"
+        },
+        {
+          "title": "world news",
+          "url": "https://www.euronews.com/tag/world-news?p=7"
+        }
+      ]
+    },
+    {
+      "query": "Trump Marcos Manila US-ASEAN summit Quad November 17 2026 outcome",
+      "results": [
+        {
+          "title": "Trump rallies quad leaders at ASEAN",
+          "url": "https://tribune.net.ph/2026/11/17/trump-rallies-quad-leaders-at-asean"
+        },
+        {
+          "title": "Trump in Manila: ASEAN scam pact, Quad minerals deals",
+          "url": "https://www.asiamediacentre.org.nz/trump-in-manila-asean-scam-pact-quad-minerals-deals"
+        },
+        {
+          "title": "PBBM, Trump reinforce ASEAN-US strategic ties; Summit delivers anti-online scam pact",
+          "url": "https://pia.gov.ph/news/pbbm-trump-reinforce-asean-us-strategic-ties-summit-delivers-anti-online-scam-pact/"
+        },
+        {
+          "title": "Trump arrives in Philippines to kick off Asia trip with economic deals and talks with allies",
+          "url": "https://www.pbs.org/newshour/world/trump-arrives-in-philippines-to-kick-off-asia-trip-with-economic-deals-and-talks-with-allies"
+        },
+        {
+          "title": "Trump, other Quad leaders hold meeting amid ASEAN in PH",
+          "url": "https://www.gmanetwork.com/news/topstories/nation/1009846/trump-other-quad-leaders-hold-meeting-amid-asean-in-ph/story/"
+        },
+        {
+          "title": "Trump in Manila: Praise for dictatorship, preparations for war - World Socialist Web Site",
+          "url": "https://www.wsws.org/en/articles/2026/11/18/juzm-n18.html"
+        },
+        {
+          "title": "49th ASEAN Summit Concludes in Manila as Ferdinand Marcos Jr. Hands Chairmanship to Singapore: 18 outlets compared",
+          "url": "https://newscord.org/article/49th-asean-summit-concludes-in-manila-as-ferdinand-marcos-jr-hands-chairmanship--Story_20261118_49thASEANSummitconcl457f9b30"
+        },
+        {
+          "title": "Trump, China and stalled diplomacy: Five takeaways from ASEAN summit",
+          "url": "https://gulfnews.com/world/asia/trump-china-and-stalled-diplomacy-five-takeaways-from-asean-summit-2-1.500324437"
+        },
+        {
+          "title": "Trump in Manila for ASEAN Summits",
+          "url": "https://www.globalsecurity.org/military/library/news/2017/11/mil-171112-voa02.htm"
+        }
+      ]
+    },
+    {
+      "query": "Iran Hormuz Bahrain news November 17 2026",
+      "results": [
+        {
+          "title": "Iran ramps back up attacks on Gulf countries after U.S. strikes",
+          "url": "https://www.yahoo.com/news/world/articles/iran-ramps-retaliation-gulf-countries-083254158.html"
+        },
+        {
+          "title": "Iran attacks Kuwait, Bahrain as Hormuz standoff persists",
+          "url": "https://www.yahoo.com/news/world/articles/iran-attacks-kuwait-bahrain-hormuz-054700871.html"
+        },
+        {
+          "title": "Iran War Updates: Gulf states and tankers under fire as U.S. and Iran ramp back up tit-for-tat strikes",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
+        },
+        {
+          "title": "U.S. launches strikes on Iran's Qeshm Island in Strait of Hormuz",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/"
+        },
+        {
+          "title": "Bahrain reports Iranian attack, IRGC says air base targeted - ABC News",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-americans-tired-forever-wars-araghchi/?id=137967256"
+        },
+        {
+          "title": "Gulf Crisis Deepens: Iran Targets Bahrain, ADNOC Vessel Attacked, US Responds with Strikes",
+          "url": "https://gulfnews.com/world/mena/middle-east-war-iran-attacks-bahrain-kuwait-drone-threats-keep-gulf-on-high-alert-as-us-hits-irans-qeshm-1.500751444"
+        },
+        {
+          "title": "Iran fires at U.S. facility in Bahrain as Tehran resumes strikes on Arab neighbors",
+          "url": "https://www.pbs.org/newshour/world/iran-fires-at-u-s-facility-in-bahrain-as-tehran-resumes-strikes-on-arab-neighbors"
+        },
+        {
+          "title": "Iran says it targets US radar in Bahrain. What do we know?",
+          "url": "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know"
+        },
+        {
+          "title": "US‑Israel war on Iran, Day 18: Iran confirms security chief Ali Larijani killed",
+          "url": "https://gulfnews.com/uae/usisrael-war-with-iran-day-18-trump-pressures-allies-to-help-open-strait-of-hormuz-uae-briefly-closes-airspace-1.500476912"
+        },
+        {
+          "title": "gulfnews.com",
+          "url": "https://gulfnews.com/1.500475750"
+        }
+      ]
+    },
+    {
+      "query": "Nvidia earnings beat shares after hours guidance fourth quarter Kress CNBC",
+      "results": [
+        {
+          "title": "Nvidia Shares Rise After Earnings Beat in First Report Since Jensen Huang's Exit - Decrypt",
+          "url": "https://decrypt.co/383505/nvidia-shares-rise-earnings-beat-first-report-jensen-huang-exit"
+        },
+        {
+          "title": "Nvidia (price up) tops forecasts by $7 billion as Kress steers first report since Huang exit",
+          "url": "https://investinglive.com/stocks/nvidia-price-up-tops-forecasts-by-7-billion-as-kress-steers-first-report-since-huang-exit/"
+        },
+        {
+          "title": "Nvidia records strong growth in first earnings report without Jensen Huang - CBS News",
+          "url": "https://www.cbsnews.com/news/nvidia-earnings-jensen-huang-colette-kress/"
+        },
+        {
+          "title": "Nvidia earnings beat estimates; firm won't take questions on resignation",
+          "url": "https://www.streetinsider.com/Reuters/Nvidia+earnings+beat+estimates;+attention+turns+to+call/27364633.html"
+        },
+        {
+          "title": "Nvidia shares rise after big earnings beat, 2028 outlook raise despite leadership uncertainty",
+          "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization"
+        },
+        {
+          "title": "Nvidia earnings beat estimates; attention turns to call By Reuters",
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-earnings-beat-estimates-attention-turns-to-call-5034180"
+        },
+        {
+          "title": "Nvidia Beats Estimates, Lifts Buyback Capacity to $227 Billion; Shares Rise After Hours — BigGo Finance",
+          "url": "https://finance.biggo.com/news/99c52df5-57c4-40d6-927d-32bd8ddfcaca"
+        },
+        {
+          "title": "Nvidia Posts Big Q3 Earnings Beat",
+          "url": "https://benzinga.com/z/14814700"
+        },
+        {
+          "title": "Nvidia Posts Big Q3 Earnings Beat",
+          "url": "https://benzinga.com/article/14814700"
+        }
+      ]
+    },
+    {
+      "query": "Putin arrives Shenzhen meets Xi APEC November 18",
+      "results": [
+        {
+          "title": "Russia's Putin arrives in Shenzhen for APEC summit, Xinhua reports",
+          "url": "https://www.thestandard.com.hk/china/article/348809/Russias-Putin-arrives-in-Shenzhen-for-APEC-summit-Xinhua-reports"
+        },
+        {
+          "title": "Putin arrives in Shenzhen, China ahead of APEC summit and historic three-way talks with Trump and Xi",
+          "url": "https://www.yahoo.com/news/videos/putin-arrives-shenzhen-china-ahead-191233201.html"
+        },
+        {
+          "title": "Putin arrives in China ahead of trilateral talks with Trump and Xi Jinping",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/18/8063373/"
+        },
+        {
+          "title": "Three things to watch as Trump, Xi and Putin meet in China",
+          "url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+        },
+        {
+          "title": "Xi Jinping meets Putin as Trump arrives in China",
+          "url": "https://en.interfax.com.ua/news/general/1238419.html"
+        },
+        {
+          "title": "Russian president arrives in Shenzhen for APEC meeting - CGTN",
+          "url": "https://news.cgtn.com/news/2026-11-18/Russian-president-arrives-in-Shenzhen-for-APEC-meeting-1S9GRIz7Sec/p.html"
+        },
+        {
+          "title": "Xi meets Putin in Shenzhen",
+          "url": "https://english.www.gov.cn/news/202611/18/content_WS6afd2bebc6d00ca5f9a0e61d.html"
+        },
+        {
+          "title": "Putin arrives in Shenzhen for APEC summit — SCMP",
+          "url": "https://ua.news/en/dovkolo-svitu/putin-pribuv-do-shenchzhenia-na-samit-ates-south-china-morning-post"
+        },
+        {
+          "title": "putin arrives beijing state visit 2338293",
+          "url": "https://www.deccanherald.com/world/putin-arrives-beijing-state-visit-2338293"
+        }
+      ]
+    },
+    {
+      "query": "Qatar announces new talks with Iran Gulf escalation grave danger Kuwait drone attacks",
+      "results": [
+        {
+          "title": "Qatar warns Gulf escalation poses 'grave danger' and announces new talks with Iran",
+          "url": "https://www.euronews.com/2026/11/17/qatar-warns-gulf-escalation-poses-grave-danger-and-announces-new-talks-with-iran"
+        },
+        {
+          "title": "Qatar warns Gulf escalation poses 'grave danger' and announces new talks with Iran - Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/qatar-warns-gulf-escalation-poses-125713703.html"
+        },
+        {
+          "title": "Gulf countries under fire after US hits Iran island",
+          "url": "https://www.dhakatribune.com/world/middle-east/425006/gulf-countries-under-fire-after-us-hits-iran"
+        },
+        {
+          "title": "Gulf region on edge as Qatar leads talks with Iran to stave off new U.S. attacks : NPR",
+          "url": "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war"
+        },
+        {
+          "title": "Gulf countries under fire after US hits Iran island - Yahoo News Singapore",
+          "url": "https://sg.news.yahoo.com/gulf-countries-under-fire-us-100649416.html"
+        },
+        {
+          "title": "Iran fires at Kuwait, widening strikes after US hit Iranian island",
+          "url": "https://www.gmanetwork.com/news/topstories/world/1009973/iran-fires-at-kuwait-widening-strikes-after-us-hit-iranian-island/story/"
+        },
+        {
+          "title": "Kuwait, Bahrain Intercept Iranian Attacks After US Strike on Qeshm Island",
+          "url": "https://www.archyde.com/kuwait-bahrain-intercept-iranian-attacks-after-us-strike-on-qeshm-island/"
+        },
+        {
+          "title": "Iran attacks Kuwait and Bahrain after US strikes on Qeshm Island in Strait of Hormuz",
+          "url": "https://globetv.app/news/iran-attacks-kuwait-and-bahrain-after-us-strikes-on-qeshm-island-in-strait-of-hormuz-6afd867f18453"
+        },
+        {
+          "title": "Iran Launches Aerial Attacks on US Military Installations in Bahrain and Kuwait - Newsy Today",
+          "url": "https://www.newsy-today.com/iran-launches-aerial-attacks-on-us-military-installations-in-bahrain-and-kuwait/"
+        }
+      ]
+    },
+    {
+      "query": "stock market November 17 2026 close Dow S&P Nasdaq",
+      "results": [
+        {
+          "title": "Stock Market News for Nov 17, 2026",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-17-134200250.html"
+        },
+        {
+          "title": "The Close: Tuesday, November 17, 2026",
+          "url": "https://theweekendspread.substack.com/p/the-close-tuesday-november-17-2026"
+        },
+        {
+          "title": "Closing Look — Tuesday, November 17, 2026",
+          "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17"
+        },
+        {
+          "title": "Dow drops more than 800 points, S&P 500 posts lowest close since July",
+          "url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html"
+        },
+        {
+          "title": "Closing milestones of the Nasdaq Composite",
+          "url": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite"
+        },
+        {
+          "title": "Stock Market Today, Nov. 17: Stocks Slide on AI Chip and Tech Pressures, Salesforce Plummets 9%",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-stocks-slide-on-ai-chip-and-tech-pressures-salesforce-plummets-9/"
+        },
+        {
+          "title": "S&P 500 Closes Down 1% as the Dow Sheds 955 Points",
+          "url": "https://247wallst.com/cards/the-dow-s-955-point-drop-led-the-selling-a-sharper-hit-than-gspc-market-bell-01m7nn5ym7r5nqbd4d83yt9zt1"
+        },
+        {
+          "title": "How major US stock indexes fared Tuesday 11/17/2026 - The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/11/17/wall-street-stocks-dow-nasdaq/9f975f00-e2cf-11f1-a99e-b3e3805c6b8b_story.html"
+        },
+        {
+          "title": "Stock Market Today, November 17, 2026: Nvidia Rises After Hours on the Evening It Reports Results",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-17-2026"
+        }
+      ]
+    },
+    {
+      "query": "Anthropic IPO priced November 18 2026",
+      "results": [
+        {
+          "title": "Anthropic IPO 2026: Date, Price Range & Stock (ANT)",
+          "url": "https://www.gradually.ai/en/anthropic-ipo/"
+        },
+        {
+          "title": "Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say",
+          "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+        },
+        {
+          "title": "Anthropic IPO: the age of miracles, priced at $78 a share - Asia Times",
+          "url": "https://asiatimes.com/2026/11/anthropic-ipo-the-age-of-miracles-priced-at-78-a-share/"
+        },
+        {
+          "title": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
+        },
+        {
+          "title": "Anthropic IPO: Date, Price, S-1, Revenue, Ownership & More",
+          "url": "https://www.tmgm.com/en/academy/trading-academy/when-is-anthropic-ipo-everything-you-need-to-know"
+        },
+        {
+          "title": "Anthropic",
+          "url": "https://en.wikipedia.org/wiki/Anthropic"
+        },
+        {
+          "title": "Dario Amodei",
+          "url": "https://en.wikipedia.org/wiki/Dario_Amodei"
+        },
+        {
+          "title": "Anthropic IPO: Can ANT Price Above $78 After Orders Reach Six Times the Shares?",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262304476-anthropic-ipo-ant-price-above-78-orders-six-times-november-14-2026-tradingkey"
+        },
+        {
+          "title": "www.cbinsights.com",
+          "url": "https://www.cbinsights.com/company/anthropic/financials"
+        }
+      ]
+    },
+    {
+      "query": "COP31 draft deal fossil fuels divides nations November 17",
+      "results": [
+        {
+          "title": "COP31 draft deal calls for 'accelerated action' to exit fossil fuels",
+          "url": "https://www.yahoo.com/news/science/articles/cop31-draft-deal-calls-accelerated-130134626.html"
+        },
+        {
+          "title": "Tensions rise over draft climate deal at COP31",
+          "url": "https://www.yahoo.com/news/science/articles/tensions-rise-over-draft-climate-204029559.html"
+        },
+        {
+          "title": "Tensions rise over COP31 draft deal",
+          "url": "https://www.arabnews.pk/middle-east/tensions-rise-over-cop31-draft-deal-3007317"
+        },
+        {
+          "title": "Tensions rise over draft climate deal at COP31",
+          "url": "https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31"
+        },
+        {
+          "title": "Cop31 negotiators unveil draft deal as fossil fuel divisions persist",
+          "url": "https://www.modernghana.com/news/1545070/cop31-negotiators-unveil-draft-deal-as-fossil-fuel.html"
+        },
+        {
+          "title": "COP31 Draft Deal Exposes Deep Divisions Over Fossil Fuels and Climate Finance - Letras Bonitas",
+          "url": "https://letrasbonitashub.com.mx/2026/11/18/cop31-draft-deal-deep-divisions-fossil-fuel-finance/"
+        },
+        {
+          "title": "COP31 Draft Fossil Fuel Phase-Out Faces Major Pushback From China, India, Saudi Arabia - Archynewsy",
+          "url": "https://www.archynewsy.com/cop31-draft-fossil-fuel-phase-out-faces-major-pushback-from-china-india-saudi-arabia/"
+        },
+        {
+          "title": "Countries sharply split on fossil fuels on COP30 climate summit final day",
+          "url": "https://aljazeera.com/news/2025/11/21/countries-sharply-split-on-fossil-fuels-on-cop30-climate-summit-final-day"
+        },
+        {
+          "title": "cop28 draft agreement stops short of fossil fuel phaseout 571162",
+          "url": "https://www.tribuneindia.com/news/world/cop28-draft-agreement-stops-short-of-fossil-fuel-phaseout-571162"
+        },
+        {
+          "title": "malaymail.com",
+          "url": "https://malaymail.com/news/world/2025/11/22/cop30-host-brazil-urges-unity-as-climate-summit-deadlocked-over-fossil-fuels/199298"
+        }
+      ]
+    },
+    {
+      "query": "Russian military transport plane crash Siberia 17 killed",
+      "results": [
+        {
+          "title": "Russian military transport aircraft crashes in Siberia, 17 dead, Izvestia reports",
+          "url": "https://theprint.in/world/russian-military-transport-aircraft-crashes-in-siberia-17-dead-izvestia-reports/3101594/"
+        },
+        {
+          "title": "Russian military transport aircraft crashes in Siberia, 17 dead, Izvestia reports",
+          "url": "https://www.yahoo.com/news/articles/russian-military-transport-aircraft-crashes-191529860.html"
+        },
+        {
+          "title": "Russian Military Transport Aircraft Crashes in Siberia, 17 Dead, Izvestia Reports",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-17/russian-military-transport-aircraft-crashes-in-siberia-17-dead-izvestia-reports"
+        },
+        {
+          "title": "17 killed in crash of Russian An-12 military plane in Siberia",
+          "url": "https://kyivindependent.com/17-killed-in-crash-of-russian-an-12-military-plane-in-siberia/"
+        },
+        {
+          "title": "Military transport plane reportedly crashes in Siberia",
+          "url": "https://www.yahoo.com/news/world/articles/military-transport-plane-reportedly-crashes-173333560.html"
+        },
+        {
+          "title": "17 Killed as Russian Military An-12 Transport Plane Crashes Near…",
+          "url": "https://www.jfeed.com/latest-news/17-killed-as-russian-military-an-12-transport-plane-crashes-near-kemerovo-59519"
+        },
+        {
+          "title": "Russian helicopter crash in northern Siberia kills 18 people — Ministry",
+          "url": "https://www.pressreader.com/malaysia/the-borneo-post/20180805/282621738531985"
+        },
+        {
+          "title": "Dozens killed in Siberia plane disaster",
+          "url": "https://www.aljazeera.com/amp/news/2012/4/2/dozens-killed-in-siberia-plane-disaster"
+        },
+        {
+          "title": "Print Print    Close Close",
+          "url": "https://www.foxnews.com/world/russian-emergencies-ministry-passenger-plane-crashes-in-siberia-killing-at-least-11.print"
+        }
+      ]
+    },
+    {
+      "query": "Mauritius ultimatum UK Chagos Islands December 2026",
+      "results": [
+        {
+          "title": "Chagossian Government",
+          "url": "https://en.wikipedia.org/wiki/Chagossian_Government"
+        },
+        {
+          "title": "2025 in Mauritius",
+          "url": "https://en.wikipedia.org/wiki/2025_in_Mauritius"
+        },
+        {
+          "title": "Mauritius threatens UK lawsuit over Chagos Islands by end of 2026",
+          "url": "https://www.newsminimalist.com/articles/mauritius-threatens-uk-lawsuit-over-chagos-islands-by-end-of-2026-aea4f057"
+        },
+        {
+          "title": "Chagos Deal: Mauritius and UK Set December 2026 Deadline",
+          "url": "https://mauritius-news.com/article/chagos-deal-mauritius-and-uk-set-december-2026-deadline"
+        },
+        {
+          "title": "Chagos Deal: Ramgoolam and UK Set Roadmap Deadline for December 2026",
+          "url": "https://mauritius-news.com/article/chagos-deal-ramgoolam-and-uk-set-roadmap-deadline-for-december-2026"
+        },
+        {
+          "title": "Mauritius PM warns of legal action over Chagos Islands deal - Brit Brief",
+          "url": "https://britbrief.co.uk/politics/diplomacy/mauritius-warns-of-legal-action-over-chagos-deal.html"
+        },
+        {
+          "title": "Mauritius gives UK a deadline to surrender Chagos - Bytes Europe",
+          "url": "https://www.byteseu.com/2528915/"
+        },
+        {
+          "title": "Mauritius Sets December Deadline for UK Chagos Treaty Ratification",
+          "url": "https://uk.headtopics.com/news/mauritius-sets-december-deadline-for-uk-chagos-treaty-89945977"
+        },
+        {
+          "title": "May 22, 2025 9:47 PM",
+          "url": "https://www.newsonair.gov.in/uk-signs-deal-to-hand-over-chagos-islands-to-mauritius"
+        },
+        {
+          "title": "Press release",
+          "url": "https://gov.uk/government/news/uk-mauritius-joint-statement-on-the-chagos-archipelago-20-december-2024"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine news November 17 2026 Europe joins talks Kyiv strikes",
+      "results": [
+        {
+          "title": "Europe’s Full Negotiating Team Joins Talks With Witkoff, Kushner, Ukraine for First Time Before Berlin Discussions",
+          "url": "https://www.kyivpost.com/post/90291"
+        },
+        {
+          "title": "Ukraine, US and Europe discuss ways to tempt Russia into talks - Newspaper - DAWN.COM",
+          "url": "https://www.dawn.com/news/2045067/ukraine-us-and-europe-discuss-ways-to-tempt-russia-into-talks"
+        },
+        {
+          "title": "New talks held between Kyiv, Europe and the US, Zelensky says - France 24",
+          "url": "https://www.france24.com/en/europe/20261116-live-600-ukrainian-drones-target-moscow-strike-crimea-bridge-halts-traffic"
+        },
+        {
+          "title": "Europe's entry adds twist to Ukraine talks - Chinadaily.com.cn",
+          "url": "https://www.chinadaily.com.cn/a/202611/18/WS6afd13cfe4b03ebf8519d214.html"
+        },
+        {
+          "title": "US, Europe Join Ukraine Peace Talks as Strikes Hit Bridges",
+          "url": "https://streamlinefeed.co.ke/news/us-europe-join-ukraine-peace-talks-as-strikes-hit-bridges"
+        },
+        {
+          "title": "Ukraine holds peace talks with US, Europe as conflict escalates",
+          "url": "https://www.byteseu.com/2527003/"
+        },
+        {
+          "title": "21 June 2024 - Ukraine Special Weapons News |",
+          "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2024/06/06-21_index.htm"
+        },
+        {
+          "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
+          "url": "https://www.euronews.com/2026/02/04/europe-today-russia-strikes-kyiv-as-peace-talks-continue-in-abu-dhabi"
+        },
+        {
+          "title": "europe today ukraine peace talks 070203399",
+          "url": "https://ca.news.yahoo.com/europe-today-ukraine-peace-talks-070203399.html"
+        }
+      ]
+    },
+    {
+      "query": "Knesset speaker vote Eisenkot bloc Ohana November 2026",
+      "results": [
+        {
+          "title": "Knesset votes 66-52 to elect Yashar's Matan Kahana as speaker, in boost to Eisenkot bloc",
+          "url": "https://www.timesofisrael.com/knesset-votes-66-52-to-elect-yashars-matan-kahana-as-speaker-in-boost-to-eisenkot-bloc/"
+        },
+        {
+          "title": "Matan Kahana elected Knesset speaker with 66 votes as Eisenkot bloc takes control",
+          "url": "https://www.ynetnews.com/article/b1jkmr5cge"
+        },
+        {
+          "title": "Eisenkot bloc secures Knesset speaker role with Matan Kahana - The Jewish Chronicle",
+          "url": "https://www.thejc.com/news/israel/elections-2026/knesset-speaker-matan-kahana-yashar-eisenkot-bloc-netanyahu-pkvbmgr5"
+        },
+        {
+          "title": "Yashar's Matan Kahana picked for Knesset speaker role, Eisenkot's bloc says",
+          "url": "https://www.jpost.com/israel-election-2026/article-914426"
+        },
+        {
+          "title": "Israel’s parliament elects new Knesset speaker, weakening Netanyahu’s grip on power",
+          "url": "https://www.cnn.com/2026/11/17/middleeast/israel-knesset-speaker-netanyahu-intl"
+        },
+        {
+          "title": "Knesset elects new speaker, Yashar's Kahana wins despite Likud challenge",
+          "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-915171"
+        },
+        {
+          "title": "Israeli parliament elects new speaker backed by Netanyahu opponents - ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-18/eisenkot-bloc-replaces-netanyahu-ally-as-knesset-speaker/107397646"
+        },
+        {
+          "title": "Amir Ohana",
+          "url": "https://en.wikipedia.org/wiki/Amir_Ohana"
+        },
+        {
+          "title": "Speaker of the Knesset",
+          "url": "https://en.wikipedia.org/wiki/Speaker_of_the_Knesset"
+        },
+        {
+          "title": "Yariv Levin",
+          "url": "https://en.wikipedia.org/wiki/Yariv_Levin"
+        }
+      ]
+    },
+    {
+      "query": "Asian markets Wednesday November 18 2026 Nvidia results oil",
+      "results": [
+        {
+          "title": "Global stocks slip after Nvidia earnings; Anthropic IPO to test AI boom",
+          "url": "https://live.euronext.com/en/financial-news/asia-stocks-cling-gains-after-nvidia-earnings-anthropic-pricing-looms"
+        },
+        {
+          "title": "Asia stocks cling to gains after Nvidia earnings as Anthropic pricing looms",
+          "url": "https://www.marketscreener.com/news/asia-stocks-choppy-after-nvidia-earnings-as-anthropic-pricing-looms-ce785edcde8ef622"
+        },
+        {
+          "title": "Premarket: U.S. futures point to a higher open after Nvidia earnings; Anthropic IPO to test AI boom - The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-us-futures-point-to-a-higher-open-after-nvidia-earnings/"
+        },
+        {
+          "title": "Stock futures rise as Nvidia gains on earnings beat and solid outlook: Live updates",
+          "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html"
+        },
+        {
+          "title": "Asia stocks set to snap losing streak on Nvidia beat as Anthropic looms",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/asia-stocks-set-snap-losing-014340794.html"
+        },
+        {
+          "title": "Asia stocks set to snap losing streak on Nvidia beat as Anthropic looms - Markets - Business Recorder",
+          "url": "https://www.brecorder.com/news/40449498/asia-stocks-set-to-snap-losing-streak-on-nvidia-beat-as-anthropic-looms?v=LUXgq5PQFZnrcGLu2MBslgIO"
+        },
+        {
+          "title": "Asian stocks trade mixed after Nvidia earnings, KOSPI leads gains",
+          "url": "https://www.fxstreet.com/news/asian-stocks-trade-mixed-after-nvidia-earnings-kospi-leads-gains-202611180516"
+        },
+        {
+          "title": "stock market today nvidia shares surge and set off a rally on wall street",
+          "url": "https://www.barchart.com/story/news/24261658/stock-market-today-nvidia-shares-surge-and-set-off-a-rally-on-wall-street"
+        },
+        {
+          "title": "The Morning Hark - 22 Feb 2024",
+          "url": "https://morninghark.substack.com/p/the-morning-hark-22-feb-2024"
+        }
+      ]
+    },
+    {
+      "query": "Trump Philippines trade agreement defense cooperation announced Marcos",
+      "results": [
+        {
+          "title": "Trump announces ‘biggest trade deal’ between Philippines, US",
+          "url": "https://www.rappler.com/philippines/marcos-trump-bilateral-meeting-trade-deal/"
+        },
+        {
+          "title": "Trump announces US-Philippines trade deal, expanded defense cooperation",
+          "url": "https://www.aa.com.tr/en/asia-pacific/trump-announces-us-philippines-trade-deal-expanded-defense-cooperation/4128499"
+        },
+        {
+          "title": "Trump announces expanded US-Philippines defense cooperation, says alliance has 'never been better'",
+          "url": "https://www.aa.com.tr/en/asia-pacific/trump-announces-expanded-us-philippines-defense-cooperation-says-alliance-has-never-been-better/4128499"
+        },
+        {
+          "title": "Trump starts Asia trip in Philippines before high-stakes talks with Xi, Putin",
+          "url": "https://www.foxnews.com/live-news/trump-begins-asia-trip-in-philippines-before-trilateral-china-talks-with-xi-putin"
+        },
+        {
+          "title": "Trump: US expanding defense cooperation with the Philippines",
+          "url": "https://www.gmanetwork.com/news/topstories/nation/1009932/trump-us-expanding-defense-cooperation-with-the-philippines/story/"
+        },
+        {
+          "title": "Trump announces 'biggest trade deal' with Philippines",
+          "url": "https://www.newsbytesapp.com/news/world/trump-announces-very-big-trade-deal-with-philippines/story"
+        },
+        {
+          "title": "Trump Announces Biggest Trade Deal With Philippines",
+          "url": "https://philnews.ph/2026/11/18/trump-marcos-trade-deal-2026-philippines-us-tariff"
+        },
+        {
+          "title": "Trump and Marcos discuss defense ties and nuclear energy cooperation",
+          "url": "https://sana.sy/en/international/2359721/"
+        },
+        {
+          "title": "UPDATE 2 - Trump announces US-Philippines trade deal, expanded defense cooperation",
+          "url": "https://www.usmuslims.com/update-2-trump-announces-us-philippines-trade-deal-expanded-defense-cooperation-382318h.htm"
+        },
+        {
+          "title": "Trump lauds defence alliance with Philippines ahead of China talks",
+          "url": "https://politiko.com.ph/trump-lauds-defence-alliance-with-philippines-ahead-of-china-talks/"
+        }
+      ]
+    }
+  ],
+  "fetched": [],
+  "meta": {
+    "id": "2026-11-18",
+    "generated_at": "2026-11-18T11:24:35.212Z",
+    "model": "claude-opus-5-5",
+    "via": "claude-code-routine",
+    "searches": 16,
+    "results_count": 151,
+    "cited_count": 40
+  }
+}
