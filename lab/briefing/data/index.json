@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-19",
+      "date": "Thursday, November 19, 2026",
+      "edition": "SHENZHEN DECLARATION",
+      "searches": 16,
+      "cited_count": 46,
+      "results_count": 145
+    },
+    {
       "id": "2026-11-18",
       "date": "Wednesday, November 18, 2026",
       "edition": "SHENZHEN EVE",
