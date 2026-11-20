@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-20",
+      "date": "Friday, November 20, 2026",
+      "edition": "BARRAGE AFTER SHENZHEN",
+      "searches": 16,
+      "cited_count": 56,
+      "results_count": 144
+    },
+    {
       "id": "2026-11-19",
       "date": "Thursday, November 19, 2026",
       "edition": "SHENZHEN DECLARATION",
