@@ -1,0 +1,1092 @@
+{
+  "date": "Saturday, November 21, 2026",
+  "edition": "CORRECTION",
+  "tldr_label": "TL;DR: The S&P 500 and Dow enter correction as Nvidia faces an SEC probe, NATO calls Russia's missile breach of Poland a grave violation, and COP31 runs into ov",
+  "tldr_bullets": [
+    {
+      "label": "Markets",
+      "body": "The S&P 500 fell 3.7% and the Nasdaq 5.3% on Friday. The S&P and Dow closed about 10% below their records, and the Nasdaq erased its 2026 gain. [[TAG:danger:correction]]"
+    },
+    {
+      "label": "Nvidia",
+      "body": "Nvidia fell about 14% after Reuters reported the SEC is examining its accounting. Anthropic shares came within cents of their $83 IPO price before recovering. [[TAG:danger:SEC probe]]"
+    },
+    {
+      "label": "Poland",
+      "body": "NATO called Russian missiles landing in Poland a grave violation, Tusk called it an apparent intentional provocation, and Rutte is due in Warsaw today. [[TAG:warning:NATO soil]]"
+    },
+    {
+      "label": "Washington",
+      "body": "Back from Asia, Trump praised Xi and Putin as friends at a 90-minute press conference but offered little new on Ukraine. [[TAG:info:few results]]"
+    },
+    {
+      "label": "Climate",
+      "body": "COP31 went into overtime with no political deal after a draft dropped all mention of fossil fuels. [[TAG:warning:overtime]]"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Markets: Into Correction",
+      "icon": "📉",
+      "summary": "S&P 500 drops 3.7% for a seventh loss; Nasdaq wipes out its 2026 gain",
+      "paragraphs": [
+        {
+          "heading": "Friday's Rout",
+          "body": "UPI reported that the S&P 500 fell 3.7% to 6,910.39 on Friday, its seventh straight loss, closing more than 10% below its October record. The Dow fell 949.73 points to 48,147.33 and also entered a correction. The Nasdaq composite dropped 5.3% to 22,617.73, and NBC News and CNBC reported it erased its 2026 gain. [[TAG:danger:seventh loss]]"
+        },
+        {
+          "heading": "Worst Week",
+          "body": "Cappnotes reported that the S&P 500 lost 8.6% for the week, its worst since April 2025, while the Nasdaq fell about 10%. The Inquirer and Axios tied the selloff to accelerating losses in AI stocks, with Axios noting that Anthropic's debut failed to halt the slide. Stockinvest reported chip stocks led the decline. [[TAG:danger:AI repricing]]"
+        },
+        {
+          "heading": "Bonds and the Fed",
+          "body": "FXStreet reported that the 10-year Treasury yield slipped below 5% as investors moved from stocks into bonds, even as Fed minutes showed nearly all policymakers expected further rate increases. Kitco reported that gold and silver also fell as investors cut risk, and that Brent settled at $92.57."
+        }
+      ],
+      "sources": "UPI, NBC News, CNBC, Cappnotes, Inquirer, Axios, Stockinvest, FXStreet, Kitco",
+      "citations": [
+        {
+          "outlet": "UPI",
+          "title": "Dow, S&P 500 enter correction as Nasdaq plunges in AI stock sell-off",
+          "url": "https://www.upi.com/Top_News/US/2026/11/20/stocks-dow-jones-nasdaq-correction-territory/1061795214998/"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "Markets plunge: Nasdaq erases 2026 gains, S&P and Dow enter corrections",
+          "url": "https://nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+          "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+        },
+        {
+          "outlet": "Cappnotes",
+          "title": "Closing Look — Friday, November 20, 2026",
+          "url": "https://cappnotes.substack.com/p/closing-look-friday-november-20-2026"
+        },
+        {
+          "outlet": "Inquirer",
+          "title": "U.S. stocks tumble, and the S&P 500 drops as the sell-off for AI stocks accelerates",
+          "url": "https://www.inquirer.com/business/stock-market-sp-correction-ai-nvidia-anthropic-loss-20261120.html"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Nvidia shares plunge as Anthropic can't stop the AI selloff",
+          "url": "https://www.axios.com/2026/11/20/anthropic-ipo-nvidia-ai-tech-selloff"
+        },
+        {
+          "outlet": "Stockinvest",
+          "title": "S&P 500 Enters Correction and Nasdaq Falls 5.3% as Chip Stocks Slide",
+          "url": "https://stockinvest.us/digest/digest-us-market-close-2026-11-20"
+        },
+        {
+          "outlet": "FXStreet",
+          "title": "US 10-year Treasury yield slips below 5% as global equity rout deepens",
+          "url": "https://www.fxstreet.com/news/us-10-year-treasury-yield-slips-below-5-as-global-equity-rout-deepens-202611201233"
+        },
+        {
+          "outlet": "Kitco",
+          "title": "Gold falls toward $3,500, silver slides as stock markets enter correction territory",
+          "url": "https://kitco.com/news/article/2026-11-20/gold-falls-toward-3500-silver-slides-stock-markets-enter-correction"
+        }
+      ]
+    },
+    {
+      "title": "Nvidia and Anthropic: AI Under Pressure",
+      "icon": "💾",
+      "summary": "SEC reportedly probes Nvidia accounting; Anthropic tests its $83 IPO price",
+      "paragraphs": [
+        {
+          "heading": "Nvidia Probe",
+          "body": "Bloomberg and The Daily Star, citing Reuters, reported that SEC enforcement staff are scrutinizing potential accounting issues at Nvidia. Reuters could not determine when the probe began or which issues are under review, and Nvidia did not immediately comment. Motley Fool said the stock just had its worst week in 18 years. Crypto Briefing dated the start of reporting on the probe to November 17, which does not match other accounts. [[TAG:warning:unconfirmed scope]]"
+        },
+        {
+          "heading": "Anthropic Day Two",
+          "body": "Yahoo Finance reported that Anthropic fell as low as $83.05 on its second trading day, five cents above its IPO price, then closed at $88.30. Other reports put the close at $88.91, so the exact figure is unsettled. MLQ reported that the greenshoe option lifted the total raise to $93.5 billion. Motley Fool tied the decline to the broader AI selloff rather than company news. [[TAG:warning:near IPO price]]"
+        }
+      ],
+      "sources": "Bloomberg, Daily Star, Motley Fool, Crypto Briefing, Yahoo Finance, MLQ",
+      "citations": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Wall Street Regulator Probes Nvidia Accounting, Reuters Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/wall-street-regulator-probing-nvidia-s-accounting-reuters-says"
+        },
+        {
+          "outlet": "The Daily Star",
+          "title": "Nvidia's accounting is a focus of US SEC investigation, sources say",
+          "url": "https://www.thedailystar.net/news/world/news/nvidias-accounting-focus-us-sec-investigation-sources-say-4329306"
+        },
+        {
+          "outlet": "Motley Fool",
+          "title": "After Its Worst Week in 18 Years, Nvidia Now Faces an SEC Investigation. What It Means for Investors",
+          "url": "https://www.fool.com/investing/2026/11/21/after-its-worst-week-in-18-years-nvidia-now-faces-an-sec-investigation-what-it-means-for-investors/"
+        },
+        {
+          "outlet": "Crypto Briefing",
+          "title": "SEC opens civil probe into Nvidia over potential accounting issues",
+          "url": "https://cryptobriefing.com/sec-probes-nvidia-potential-accounting-issues/"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Anthropic Stock Came Within 5 Cents of Its $83 IPO Price on Day 2, Then Bounced 6% to Close at $88.30",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stock-came-within-5-211710460.html"
+        },
+        {
+          "outlet": "MLQ",
+          "title": "Anthropic shares fall toward their $83 IPO price on day two as the greenshoe lifts the raise to $93.5 billion",
+          "url": "https://mlq.ai/news/anthropic-shares-fall-toward-their-83-ipo-price-on-day-two-as-the-greenshoe-lifts-the-raise-to-935-billion/"
+        },
+        {
+          "outlet": "Motley Fool",
+          "title": "Why Anthropic Stock Is Falling Today",
+          "url": "https://www.fool.com/investing/2026/11/20/why-anthropic-stock-is-falling-today/"
+        }
+      ]
+    },
+    {
+      "title": "Poland: NATO Responds",
+      "icon": "🛡️",
+      "summary": "NATO calls missile breach a grave violation; Warsaw seeks more air defenses",
+      "paragraphs": [
+        {
+          "heading": "The Breach",
+          "body": "CBS News reported that Tusk called the landing of Russian missiles on Polish soil an apparent intentional provocation, during an attack that killed at least eight people in Ukraine. PBS reported that NATO called it a grave violation of Polish airspace. Bytes Europe reported that Poland requested additional NATO air defenses. [[TAG:warning:provocation]]"
+        },
+        {
+          "heading": "What Next",
+          "body": "Reports said Rutte is due in Warsaw on Saturday. Al Jazeera reported that analysts see direct Russia-NATO confrontation as unlikely, with Article 4 consultations a possible step. Nacionale reported it was not yet clear whether Poland would formally request Article 4 talks. Kyiv Post reported that European leaders condemned the breach and pledged support for Poland. [[TAG:info:Rutte in Warsaw]]"
+        }
+      ],
+      "sources": "CBS News, PBS, Bytes Europe, Al Jazeera, Nacionale, Kyiv Post",
+      "citations": [
+        {
+          "outlet": "CBS News",
+          "title": "Poland accuses Russia of \"intentional provocation\" as missiles hit NATO soil, kill at least 8 in Ukraine",
+          "url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/"
+        },
+        {
+          "outlet": "PBS",
+          "title": "NATO calls Russian missiles landing in Poland a 'grave violation' of airspace",
+          "url": "https://www.pbs.org/newshour/world/nato-calls-russian-missiles-landing-in-poland-a-grave-violation-of-airspace"
+        },
+        {
+          "outlet": "Bytes Europe",
+          "title": "Poland Requests More NATO Air Defenses After Russian Missiles, Drone Crash on Its Soil",
+          "url": "https://www.byteseu.com/2535558/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Russian missiles hit Poland: What happened, and could NATO respond?",
+          "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond"
+        },
+        {
+          "outlet": "Nacionale",
+          "title": "What happens now after Russian missiles fell in Poland? Warsaw asks NATO for more help",
+          "url": "https://www.nacionale.com/en/articles/what-happens-now-russian-missiles-fell-in-poland-nato-kh-101"
+        },
+        {
+          "outlet": "Kyiv Post",
+          "title": "European Leaders Condemn Russian Airspace Breach and Pledge Poland Support",
+          "url": "https://www.kyivpost.com/post/90785"
+        }
+      ]
+    },
+    {
+      "title": "Washington: Trump Reports Back",
+      "icon": "🏛️",
+      "summary": "Trump praises Xi and Putin as friends; little new on Ukraine or concessions",
+      "paragraphs": [
+        {
+          "heading": "The Press Conference",
+          "body": "CNN reported that Trump spent much of a 90-minute news conference praising Xi and Putin and defended his relationship with Putin after Russia's large attack on Ukraine. CBS News reported that he touted Asia deals. GPB said the trip offered few signs that either leader would make significant concessions. [[TAG:info:little substance]]"
+        },
+        {
+          "heading": "Peace Track",
+          "body": "CNN and NBC News had earlier reported Zelensky's account that US negotiators floated Ukraine ceding parts of Donbas in exchange for NATO membership, which he refused. Al Jazeera noted that NATO accession requires unanimous approval by members. No new terms were reported this week. [[TAG:warning:unresolved]]"
+        }
+      ],
+      "sources": "CNN, CBS News, GPB, NBC News, Al Jazeera",
+      "citations": [
+        {
+          "outlet": "CNN",
+          "title": "Takeaways from Trump’s news briefing on Putin, Xi",
+          "url": "https://edition.cnn.com/2026/11/20/politics/trump-news-conference-takeaways"
+        },
+        {
+          "outlet": "CNN",
+          "title": "Trump defends relationship with Putin",
+          "url": "https://www.cnn.com/2026/11/20/politics/live-news/trump-white-house-press-conference"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Trump touts Asia deals and meeting with Xi and Putin at White House press conference",
+          "url": "https://www.cbsnews.com/live-updates/trump-press-conference-live-stream-2026-11-20/"
+        },
+        {
+          "outlet": "GPB",
+          "title": "Trump touts meeting with Xi and Putin but offers little results",
+          "url": "https://www.gpb.org/news/2026/11/20/trump-holds-press-conference-after-meeting-xi-and-putin"
+        },
+        {
+          "outlet": "CNN",
+          "title": "US floated idea of Ukraine swapping land for NATO membership, Zelensky says",
+          "url": "https://www.cnn.com/2026/11/14/europe/us-ukraine-zelensky-nato-intl"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "U.S. floated idea of Ukraine ceding Donbas for NATO membership, Zelenskyy says",
+          "url": "https://www.nbcnews.com/world/ukraine/us-floated-idea-ukraine-ceding-donbas-nato-membership-zelenskyy-rcna609297"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
+          "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato"
+        }
+      ]
+    },
+    {
+      "title": "Gulf: Mines and Blockade",
+      "icon": "🛢️",
+      "summary": "IRGC reports more tanker mine strikes; experts doubt the scale of the threat",
+      "paragraphs": [
+        {
+          "heading": "Tanker Claims",
+          "body": "Middle East Eye and TRT World reported IRGC statements that more oil tankers struck mines in the Strait of Hormuz, and Daily Times reported another strike on Saturday. These accounts come mainly from the IRGC and have not been independently confirmed. ABC News reported that Trump said Iran does not want a deal acceptable to him. [[TAG:warning:IRGC claims]]"
+        },
+        {
+          "heading": "Skepticism",
+          "body": "The National reported that experts say Iran is exaggerating the sea mine threat to tighten its grip on the strait. It quoted Intertanko as saying it does not believe mines pose a risk to shipping, and noted that US Central Command says primary routes have been cleared. [[TAG:info:disputed]]"
+        }
+      ],
+      "sources": "Middle East Eye, TRT World, Daily Times, ABC News, The National",
+      "citations": [
+        {
+          "outlet": "Middle East Eye",
+          "title": "Iran’s IRGC says two oil tankers hit mines in Strait of Hormuz",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-says-two-oil-tankers-hit-mines-strait-hormuz"
+        },
+        {
+          "outlet": "TRT World",
+          "title": "Three oil tankers hit mines in Strait of Hormuz",
+          "url": "https://www.trtworld.com/article/ce2c4063379d"
+        },
+        {
+          "outlet": "Daily Times",
+          "title": "Another oil tanker strikes naval mine as tensions persist in Strait of Hormuz",
+          "url": "https://dailytimes.com.pk/1584814/another-oil-tanker-strikes-naval-mine-as-tensions-persist-in-strait-of-hormuz/"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Iran live updates: Trump says Iran doesn't want to make a deal 'acceptable' to him",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071&entryId=138171210"
+        },
+        {
+          "outlet": "The National",
+          "title": "Iran exaggerates Hormuz sea mine threat but uses fear to tighten grip",
+          "url": "https://www.thenationalnews.com/news/mena/2026/11/21/iran-exaggerates-hormuz-sea-mine-threat-but-uses-fear-to-tighten-grip/"
+        }
+      ]
+    },
+    {
+      "title": "COP31: Overtime",
+      "icon": "🌍",
+      "summary": "Antalya talks extended with no political deal; fossil fuel language still the fight",
+      "paragraphs": [
+        {
+          "heading": "Extended",
+          "body": "Hurriyet Daily News reported that COP31 was extended after countries failed to conclude negotiations on finance, emissions, adaptation and a just transition, and that a late session approved only technical matters. The Manila Times, carrying UN News, reported that countries are demanding a stronger deal. Time News reported that the talks entered their final hours with no agreement on fossil fuels. [[TAG:warning:no deal yet]]"
+        },
+        {
+          "heading": "Side Deals",
+          "body": "Sight Magazine reported that the conference delivered investment deals for host Turkey even as climate diplomacy stalled. World Today News reported that fossil fuel references had been removed from the draft. A further draft was expected on Saturday."
+        }
+      ],
+      "sources": "Hurriyet Daily News, Manila Times, Time News, Sight Magazine, World Today News",
+      "citations": [
+        {
+          "outlet": "Hurriyet Daily News",
+          "title": "COP31 talks extended as countries seek final deal",
+          "url": "https://www.hurriyetdailynews.com/cop31-concludes-in-antalya-after-two-weeks-of-climate-talks-229651"
+        },
+        {
+          "outlet": "Manila Times",
+          "title": "COP31: Countries demand stronger climate deal as talks in Antalya reach final day",
+          "url": "https://www.manilatimes.net/2026/11/21/world/un-news/cop31-countries-demand-stronger-climate-deal-as-talks-in-antalya-reach-final-day/2475463"
+        },
+        {
+          "outlet": "Time News",
+          "title": "COP31 in Antalya Enters Final Hours With No Fossil-Fuel Deal; Australia Drops Phrase",
+          "url": "https://time.news/cop31-in-antalya-enters-final-hours-with-no-fossil-fuel-deal-australia-drops-phrase/"
+        },
+        {
+          "outlet": "Sight Magazine",
+          "title": "COP31 delivers deals for host Turkey as climate diplomacy stalls",
+          "url": "https://sightmagazine.com.au/news/cop31-delivers-deals-for-host-turkey-as-climate-diplomacy-stalls/"
+        },
+        {
+          "outlet": "World Today News",
+          "title": "COP31 Goes Into Overtime as Fossil Fuel References Removed From Draft Deal",
+          "url": "https://www.world-today-news.com/cop31-goes-into-overtime-as-fossil-fuel-references-removed-from-draft-deal/"
+        }
+      ]
+    },
+    {
+      "title": "Also Watching",
+      "icon": "🧭",
+      "summary": "Gaza offensive ends; Israel unity talks Sunday; Horn of Africa and Japan-China strains",
+      "paragraphs": [
+        {
+          "heading": "Gaza and Israel",
+          "body": "Anadolu reported that Israel ended its central Gaza offensive on Thursday, leaving widespread destruction, and Middle East Monitor reported one Palestinian killed and 13 injured on Friday. The Times of Israel and the Jerusalem Post reported no progress so far in unity talks between Eisenkot's bloc and Likud, and Yahoo reported Eisenkot saying he will form a minority government if needed. [[TAG:warning:truce strained]]"
+        },
+        {
+          "heading": "Horn of Africa",
+          "body": "TimesLive, carrying Reuters, reported that Ethiopia and Eritrea have massed forces along their border, while NBC News reported that Ethiopia and Sudan accuse each other of backing armed fighters. Eritrea denies incursions. [[TAG:danger:war risk]]"
+        },
+        {
+          "heading": "Japan and China",
+          "body": "Nikkei Asia reported that Japanese Prime Minister Takaichi said Japan's position on Taiwan remains unchanged, and Latin Times reported that tensions blocked a formal meeting with Xi in Shenzhen. JKN reported that Beijing is pressing her to retract her Taiwan remarks."
+        }
+      ],
+      "sources": "Anadolu, Middle East Monitor, Times of Israel, Jerusalem Post, Yahoo, TimesLive, NBC News, Nikkei Asia, Latin Times, JKN",
+      "citations": [
+        {
+          "outlet": "Anadolu",
+          "title": "Israeli army ends offensive in central Gaza, leaving widespread destruction despite ceasefire",
+          "url": "https://www.aa.com.tr/en/middle-east/israel-says-central-gaza-offensive-coordinated-with-us-could-last-several-days/4129903"
+        },
+        {
+          "outlet": "Middle East Monitor",
+          "title": "Palestinian killed, 13 injured in Israeli attacks across Gaza despite ceasefire",
+          "url": "https://www.middleeastmonitor.com/20261120-palestinian-killed-13-injured-in-israeli-attacks-across-gaza-despite-ceasefire/"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "No progress reported in Yashar-Likud unity talks; Netanyahu said open to excluding Ben Gvir",
+          "url": "https://www.timesofisrael.com/no-progress-reported-in-yashar-likud-unity-talks-netanyahu-said-open-to-excluding-ben-gvir/"
+        },
+        {
+          "outlet": "Jerusalem Post",
+          "title": "Likud, Yashar hold coalition negotiations as Gadi Eisenkot works to build gov't",
+          "url": "https://www.jpost.com/israel-election-2026/article-914935"
+        },
+        {
+          "outlet": "Yahoo",
+          "title": "Eisenkot says he 'doesn't plan to drag negotiations out,' will form minority gov't if needed",
+          "url": "https://www.yahoo.com/news/politics/articles/eisenkot-says-doesnt-plan-drag-155223438.html"
+        },
+        {
+          "outlet": "TimesLive",
+          "title": "Ethiopia and Eritrea amass forces along border, heightening war fears, sources say",
+          "url": "https://www.timeslive.co.za/news/africa/2026-11-18-ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say/"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "Ethiopia and Sudan accuse each other of backing armed fighters as fears of a wider conflict grow",
+          "url": "https://www.nbcnews.com/world/africa/ethiopia-sudan-accuse-backing-armed-fighters-fears-wider-conflict-grow-rcna609721"
+        },
+        {
+          "outlet": "Nikkei Asia",
+          "title": "APEC live: Takaichi says Japan's position on Taiwan remains the same",
+          "url": "https://asia.nikkei.com/politics/international-relations/apec/apec-live-takaichi-says-japan-s-position-on-taiwan-remains-the-same"
+        },
+        {
+          "outlet": "Latin Times",
+          "title": "Japan's prime minister receives a starkly downgraded welcome in China as tensions over Taiwan block a meeting with Xi Jinping",
+          "url": "https://www.latintimes.com/takaichi-china-apec-summit-taiwan-tensions-601614"
+        },
+        {
+          "outlet": "JKN",
+          "title": "China pressures Sanae Takaichi to retract Taiwan remarks despite reaffirmation of \"One China\" policy",
+          "url": "https://news.jkn.co.kr/editions/english/post/1110976"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "query": "COP31 deal agreed Antalya November 21 2026",
+      "results": [
+        {
+          "title": "COP31: Countries demand stronger climate deal as talks in Antalya reach final day",
+          "url": "https://www.manilatimes.net/2026/11/21/world/un-news/cop31-countries-demand-stronger-climate-deal-as-talks-in-antalya-reach-final-day/2475463"
+        },
+        {
+          "title": "COP31 talks extended as countries seek final deal - Türkiye News",
+          "url": "https://www.hurriyetdailynews.com/cop31-concludes-in-antalya-after-two-weeks-of-climate-talks-229651"
+        },
+        {
+          "title": "COP31 delivers deals for host Turkey as climate diplomacy stalls - Sight Magazine",
+          "url": "https://sightmagazine.com.au/news/cop31-delivers-deals-for-host-turkey-as-climate-diplomacy-stalls/"
+        },
+        {
+          "title": "Climate talks in overtime as nations wrestle with response to worsening global warming",
+          "url": "https://www.2news.com/news/world/climate-talks-in-overtime-as-nations-wrestle-with-response-to-worsening-global-warming/article_68788491-2be6-5e9b-a009-d395b04eb603.html"
+        },
+        {
+          "title": "2026 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
+        },
+        {
+          "title": "2026 UN Climate Change Conference (UNFCCC COP 31)",
+          "url": "https://sdg.iisd.org/events/2026-un-climate-change-conference-unfccc-cop-31/"
+        },
+        {
+          "title": "COP31 Talks Enter Extra Day in Antalya Over Fossil Fuel Mention Dispute, RTÉ Reports - Newsy Today",
+          "url": "https://www.newsy-today.com/cop31-talks-enter-extra-day-in-antalya-over-fossil-fuel-mention-dispute-rte-reports/"
+        },
+        {
+          "title": "COP31 Goes Into Overtime as Fossil Fuel References Removed From Draft Deal - World Today News",
+          "url": "https://www.world-today-news.com/cop31-goes-into-overtime-as-fossil-fuel-references-removed-from-draft-deal/"
+        },
+        {
+          "title": "COP31 in Antalya Enters Final Hours With No Fossil-Fuel Deal; Australia Drops Phrase - Time News",
+          "url": "https://time.news/cop31-in-antalya-enters-final-hours-with-no-fossil-fuel-deal-australia-drops-phrase/"
+        }
+      ]
+    },
+    {
+      "query": "stock market November 20 2026 close Dow S&P Nasdaq",
+      "results": [
+        {
+          "title": "Closing Look — Friday, November 20, 2026",
+          "url": "https://cappnotes.substack.com/p/closing-look-friday-november-20-2026"
+        },
+        {
+          "title": "Dow, S&P 500 enter correction as Nasdaq plunges in AI stock sell-off - UPI.com",
+          "url": "https://www.upi.com/Top_News/US/2026/11/20/stocks-dow-jones-nasdaq-correction-territory/1061795214998/"
+        },
+        {
+          "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+          "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+        },
+        {
+          "title": "Is the stock market down for the year? Only the Nasdaq; the S&P 500 and Dow are barely up for 2026",
+          "url": "https://www.nacionale.com/en/articles/is-the-stock-market-down-for-the-year-2026-sp-500-dow-nasdaq-year-to-date-november-20"
+        },
+        {
+          "title": "Nasdaq falls 5.3% as S&P 500 and Dow enter corrections - FINCHANNEL",
+          "url": "https://finchannel.com/nasdaq-falls-5-3-as-sp-500-and-dow-enter-corrections/142573/american-business-trends/stock-prices/2026/11/"
+        },
+        {
+          "title": "Stock Market Today, November 20, 2026: US Stocks Close Sharply Lower",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
+        },
+        {
+          "title": "US Stock Market Today Nov 20, 2026 — S&P 500, Dow & Nasdaq Close",
+          "url": "https://vittarthi.com/markets/us"
+        },
+        {
+          "title": "S&P 500 Enters Correction and Nasdaq Falls 5.3% as Chip Stocks Slide",
+          "url": "https://stockinvest.us/digest/digest-us-market-close-2026-11-20"
+        },
+        {
+          "title": "US Stock Market Today - Friday, Nov. 20, 2026 - STL.News",
+          "url": "https://www.stl.news/us-stock-market-today-friday-nov-20-2026/"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Russia news November 20 2026 Poland NATO response",
+      "results": [
+        {
+          "title": "European Leaders Condemn Russian Airspace Breach and Pledge Poland Support",
+          "url": "https://www.kyivpost.com/post/90785"
+        },
+        {
+          "title": "Russian missiles hit Poland: What happened, and could NATO respond?",
+          "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond"
+        },
+        {
+          "title": "Poland accuses Russia of \"intentional provocation\" as missiles hit NATO soil, kill at least 8 in Ukraine - CBS News",
+          "url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/"
+        },
+        {
+          "title": "NATO calls Russian missiles landing in Poland a 'grave violation' of airspace",
+          "url": "https://www.pbs.org/newshour/world/nato-calls-russian-missiles-landing-in-poland-a-grave-violation-of-airspace"
+        },
+        {
+          "title": "Russian Missiles Land in Poland, as Europe Held Military Drills Nearby. NATO Calls It a Violation - The Wire",
+          "url": "https://m.thewire.in/article/world/russian-missiles-land-in-poland-as-europe-held-military-drills-nearby-nato-calls-it-a-violation"
+        },
+        {
+          "title": "Poland Requests More NATO Air Defenses After Russian Missiles, Drone Crash on Its Soil - Bytes Europe",
+          "url": "https://www.byteseu.com/2535558/"
+        },
+        {
+          "title": "RUSSIAN BOMBS HIT POLAND",
+          "url": "https://www.pressreader.com/uk/daily-mirror/20221116/281479280403649"
+        },
+        {
+          "title": "Press conference",
+          "url": "https://www.nato.int/cps/fr/natohq/opinions_192582.htm"
+        },
+        {
+          "title": "Watch CBS News",
+          "url": "https://cbsnews.com/video/nato-responds-to-russian-invasion-of-ukraine"
+        },
+        {
+          "title": "Catching up…",
+          "url": "https://camarra.substack.com/p/nov-15-buonasera-mag-poland-up-date"
+        }
+      ]
+    },
+    {
+      "query": "Iran Gulf news November 20 2026",
+      "results": [
+        {
+          "title": "Latest and Breaking Gulf News Today",
+          "url": "https://english.alarabiya.net/News/gulf"
+        },
+        {
+          "title": "Gulf Today",
+          "url": "https://en.wikipedia.org/wiki/Gulf_Today"
+        },
+        {
+          "title": "Iran widens Gulf attacks by targeting U.S. air base in Kuwait and sites in Bahrain",
+          "url": "https://www.pbs.org/newshour/world/iran-widens-gulf-attacks-by-targeting-u-s-air-base-in-kuwait-and-sites-in-bahrain"
+        },
+        {
+          "title": "Iran widens Gulf attacks by targeting a U.S. air base in Kuwait and sites in Bahrain",
+          "url": "https://www.nbcnews.com/world/iran/iran-widens-gulf-attacks-targeting-us-air-base-kuwait-sites-bahrain-rcna610128"
+        },
+        {
+          "title": "Iran live updates: Trump says Iran doesn't want to make a deal 'acceptable' to him - ABC News",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071&entryId=138171210"
+        },
+        {
+          "title": "Trump says Tehran may be working on chemical or biological weapons as tension mounts",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
+        },
+        {
+          "title": "Iran Is Attempting to Escalate the War With New Attacks and Plans to Break the US Naval Blockade",
+          "url": "https://townhall.com/news/dmitri-bolt/2026/11/20/iran-is-escalating-attacks-in-the-strait-of-hormuz-n2686808"
+        },
+        {
+          "title": "Persian Gulf News",
+          "url": "https://www.newsnow.com/us/World/Middle+East/Persian+Gulf"
+        },
+        {
+          "title": "Persian Gulf News",
+          "url": "https://www.newsnow.com/ng/World/Middle+East/Persian+Gulf"
+        }
+      ]
+    },
+    {
+      "query": "why AI stocks sold off Nvidia chip stocks plunge November 20 2026",
+      "results": [
+        {
+          "title": "Nvidia shares plunge as Anthropic can't stop the AI selloff",
+          "url": "https://www.axios.com/2026/11/20/anthropic-ipo-nvidia-ai-tech-selloff"
+        },
+        {
+          "title": "U.S. stocks tumble, and the S&P 500 drops as the sell-off for AI stocks accelerates",
+          "url": "https://www.inquirer.com/business/stock-market-sp-correction-ai-nvidia-anthropic-loss-20261120.html"
+        },
+        {
+          "title": "Markets plunge: Nasdaq erases 2026 gains, S&P and Dow enter corrections",
+          "url": "https://nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394"
+        },
+        {
+          "title": "Tech Carnage Continues, with Anthropic Now Falling",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+        },
+        {
+          "title": "Nvidia, Anthropic shares sink as AI stock selloff deepens",
+          "url": "https://tradersunion.com/news/stocks/show/4351516-nvidia-anthropic-ai-stock-selloff/"
+        },
+        {
+          "title": "AI stocks crashed on Friday. We followed the money to see what broke.",
+          "url": "https://noah-news.com/ai-selloff-following-the-money/"
+        },
+        {
+          "title": "why nvidia stock plunged 10 today",
+          "url": "https://www.nasdaq.com/articles/why-nvidia-stock-plunged-10-today"
+        },
+        {
+          "title": "why nvidia stock was pulling back today",
+          "url": "https://www.nasdaq.com/articles/why-nvidia-stock-was-pulling-back-today"
+        },
+        {
+          "title": "why nvidia stock is sinking today",
+          "url": "https://www.fool.com/investing/2025/03/06/why-nvidia-stock-is-sinking-today"
+        }
+      ]
+    },
+    {
+      "query": "Anthropic stock second day trading November 20 2026 ANT shares",
+      "results": [
+        {
+          "title": "Anthropic Stock Falls 9.6% Before the Bell on Its Second Day of Trading. Facebook and Uber Both Fell 11% on Day 2. Here’s What Happened Next",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stock-falls-9-6-132302383.html"
+        },
+        {
+          "title": "Why Anthropic Stock Is Falling Today",
+          "url": "https://www.fool.com/investing/2026/11/20/why-anthropic-stock-is-falling-today/"
+        },
+        {
+          "title": "Why Anthropic Stock Is Falling Today",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-anthropic-stock-falling-today-164201361.html"
+        },
+        {
+          "title": "Anthropic Stock Came Within 5 Cents of Its $83 IPO Price on Day 2, Then Bounced 6% to Close at $88.30. Facebook Closed Its Day 2 10% Below Its IPO Price",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stock-came-within-5-211710460.html"
+        },
+        {
+          "title": "Anthropic Sinks 9% on Day Two as AI Selloff Deepens: Strategist Warns Against “Chasing the IPO”",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-sinks-9-day-two-144026883.html"
+        },
+        {
+          "title": "Anthropic (ANT) Stock Falls 8.5% on Day 2: What Happened",
+          "url": "https://thetechhacker.com/news/anthropic-stock-ant-falls-day-two-ai-selloff/"
+        },
+        {
+          "title": "Anthropic ANT Stock Takes a Nose Dive, Crashing Near Its Listing Price as AI Bubble Fears Grow - Startup Fortune",
+          "url": "https://startupfortune.com/anthropic-ant-stock-takes-a-nose-dive-crashing-near-its-listing-price-as-ai-bubble-fears-grow/"
+        },
+        {
+          "title": "Anthropic shares fall toward their $83 IPO price on day two as the greenshoe lifts the raise to $93.5 billion",
+          "url": "https://mlq.ai/news/anthropic-shares-fall-toward-their-83-ipo-price-on-day-two-as-the-greenshoe-lifts-the-raise-to-935-billion/"
+        },
+        {
+          "title": "Anthropic Drops Over 14% on Second Day, Just $0.10 Away From $83 IPO Price",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262315899-anthropic-stock-falls-14-percent-nears-83-ipo-price-tradingkey"
+        },
+        {
+          "title": "Anthropic Nears $83 Issue Price: What Events to Watch Next?",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262316010-anthropic-index-inclusion-share-unlocks-earnings-tradingkey"
+        }
+      ]
+    },
+    {
+      "query": "Trump press conference November 20 2026 China trip Putin Xi",
+      "results": [
+        {
+          "title": "Trump touts relationships with Putin and Xi after historic Asia trip - ABC News",
+          "url": "https://abcnews.com/Politics/trump-hold-news-conference-friday-asia-trip/story?id=138307456"
+        },
+        {
+          "title": "Trump holds press conference after meeting with Xi and Putin",
+          "url": "https://www.kosu.org/news/2026-11-20/trump-holds-press-conference-after-meeting-with-xi-and-putin"
+        },
+        {
+          "title": "Trump holds press conference after meeting with Xi and Putin",
+          "url": "https://www.ualrpublicradio.org/npr-news/2026-11-20/trump-holds-press-conference-after-meeting-with-xi-and-putin"
+        },
+        {
+          "title": "Trump touts Asia deals and meeting with Xi and Putin at White House press conference",
+          "url": "https://www.cbsnews.com/live-updates/trump-press-conference-live-stream-2026-11-20/"
+        },
+        {
+          "title": "Trump to brief press Friday as he heads home after historic meeting with ‘friends’ Xi and Putin",
+          "url": "https://www.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines"
+        },
+        {
+          "title": "Trump defends relationship with Putin",
+          "url": "https://www.cnn.com/2026/11/20/politics/live-news/trump-white-house-press-conference"
+        },
+        {
+          "title": "Takeaways from Trump’s news briefing on Putin, Xi",
+          "url": "https://edition.cnn.com/2026/11/20/politics/trump-news-conference-takeaways"
+        },
+        {
+          "title": "Trump touts meeting with Xi and Putin but offers little results",
+          "url": "https://www.gpb.org/news/2026/11/20/trump-holds-press-conference-after-meeting-xi-and-putin"
+        },
+        {
+          "title": "The latest from Trump's press conference : NPR",
+          "url": "https://www.npr.org/2026/11/20/nx-s1-6047636/trump-presser"
+        }
+      ]
+    },
+    {
+      "query": "Gaza news November 20 2026 Israel ceasefire",
+      "results": [
+        {
+          "title": "Israeli tanks roll into central Gaza in first ground operation since ceasefire began",
+          "url": "https://www.nbcnews.com/world/gaza/israel-tanks-gaza-ground-operation-ceasefire-hamas-rcna609979"
+        },
+        {
+          "title": "Israeli forces launch raid on central Gaza despite truce",
+          "url": "https://www.rte.ie/news/middle-east/2026/1118/1599720-gaza-israel-attack/"
+        },
+        {
+          "title": "Israeli troops advance further into Gaza despite ceasefire",
+          "url": "https://www.yahoo.com/news/world/articles/israeli-troops-advance-further-gaza-021840424.html"
+        },
+        {
+          "title": "In first since ceasefire, IDF enters Hamas-controlled Gaza with tanks",
+          "url": "https://www.jpost.com/israel-news/defense-news/article-915349"
+        },
+        {
+          "title": "Israel launches ground operation in central Gaza, dozens flee",
+          "url": "https://www.gmanetwork.com/news/topstories/world/1010022/israel-launches-ground-operation-in-central-gaza-dozens-flee/story/"
+        },
+        {
+          "title": "Israeli army ends offensive in central Gaza, leaving widespread destruction despite ceasefire",
+          "url": "https://www.aa.com.tr/en/middle-east/israel-says-central-gaza-offensive-coordinated-with-us-could-last-several-days/4129903"
+        },
+        {
+          "title": "Seven Wounded as Israel Bombards Gaza, Fires on Displaced Families - Palestine Chronicle",
+          "url": "https://palestinechronicle.com/seven-wounded-as-israel-bombards-gaza-fires-on-displaced-families"
+        },
+        {
+          "title": "Nov. 20: Liberman says no security justification for striking Iran now; if PM decides to do so, it’s politically motivated",
+          "url": "https://timesofisrael.com/liveblog-november-20-2026"
+        },
+        {
+          "title": "Palestinian killed, 13 injured in Israeli attacks across Gaza despite ceasefire",
+          "url": "https://www.middleeastmonitor.com/20261120-palestinian-killed-13-injured-in-israeli-attacks-across-gaza-despite-ceasefire/"
+        }
+      ]
+    },
+    {
+      "query": "Nvidia accounting irregularities regulators Reuters report November 2026",
+      "results": [
+        {
+          "title": "Wall Street Regulator Probes Nvidia Accounting, Reuters Says - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/wall-street-regulator-probing-nvidia-s-accounting-reuters-says"
+        },
+        {
+          "title": "NVIDIA CORP - Form 8-K - FY2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/nvda-20261117.htm"
+        },
+        {
+          "title": "Nvidia's accounting is a focus of US SEC investigation, sources say",
+          "url": "https://www.thedailystar.net/news/world/news/nvidias-accounting-focus-us-sec-investigation-sources-say-4329306"
+        },
+        {
+          "title": "Exclusive-Nvidia’s accounting is a focus of US SEC investigation, sources say - Internazionale",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/20/exclusive-nvidia-s-accounting-is-a-focus-of-us-sec-investigation-sources-say"
+        },
+        {
+          "title": "NVIDIA CORP - Form 10-Q - FY2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000075/nvda-20260726.htm"
+        },
+        {
+          "title": "After Its Worst Week in 18 Years, Nvidia Now Faces an SEC Investigation. What It Means for Investors",
+          "url": "https://www.fool.com/investing/2026/11/21/after-its-worst-week-in-18-years-nvidia-now-faces-an-sec-investigation-what-it-means-for-investors/"
+        },
+        {
+          "title": "Nvidia's accounting is a focus of US SEC investigation, sources say",
+          "url": "https://live.euronext.com/en/financial-news/nvidias-accounting-focus-us-sec-investigation-sources-say"
+        },
+        {
+          "title": "SEC opens civil probe into Nvidia over potential accounting issues",
+          "url": "https://cryptobriefing.com/sec-probes-nvidia-potential-accounting-issues/"
+        },
+        {
+          "title": "NVIDIA CORP - Form ARS - FY2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000038/a2026-annualxreportxwebxfi.pdf"
+        }
+      ]
+    },
+    {
+      "query": "Strait of Hormuz tankers naval mines IRGC November 2026",
+      "results": [
+        {
+          "title": "Iran exaggerates Hormuz sea mine threat but uses fear to tighten grip",
+          "url": "https://www.thenationalnews.com/news/mena/2026/11/21/iran-exaggerates-hormuz-sea-mine-threat-but-uses-fear-to-tighten-grip/"
+        },
+        {
+          "title": "2026 Strait of Hormuz crisis",
+          "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+        },
+        {
+          "title": "2026 Strait of Hormuz campaign",
+          "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_campaign"
+        },
+        {
+          "title": "Three oil tankers hit mines in Strait of Hormuz - TRT World",
+          "url": "https://www.trtworld.com/article/ce2c4063379d"
+        },
+        {
+          "title": "Iran’s IRGC says two oil tankers hit mines in Strait of Hormuz",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-says-two-oil-tankers-hit-mines-strait-hormuz"
+        },
+        {
+          "title": "Another oil tanker strikes naval mine as tensions persist in Strait of Hormuz - Daily Times",
+          "url": "https://dailytimes.com.pk/1584814/another-oil-tanker-strikes-naval-mine-as-tensions-persist-in-strait-of-hormuz/"
+        },
+        {
+          "title": "IRGC says two oil tankers hit mines in the Hormuz Strait",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-two-oil-tankers-hit-mines-hormuz-strait"
+        },
+        {
+          "title": "Two oil tankers ablaze after striking naval mines in the Strait of Hormuz",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-oil-tankers-ablaze-after-striking-naval-mines-strait-hormuz"
+        },
+        {
+          "title": "IRGC Navy Says Two Tankers Hit Mines and Caught Fire in Strait of Hormuz: who 35 outlets blamed",
+          "url": "https://newscord.org/article/irgc-navy-says-two-oil-tankers-hit-mines-and-catch-fire-in-strait-of-hormuz--Story_20261117_OiltankerburnsinStra39e68c94"
+        }
+      ]
+    },
+    {
+      "query": "Rutte Warsaw visit November 21 2026 Article 4",
+      "results": [
+        {
+          "title": "Russian missiles hit Poland: What happened, and could NATO respond?",
+          "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond"
+        },
+        {
+          "title": "List of international prime ministerial trips made by Mark Rutte",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Mark_Rutte"
+        },
+        {
+          "title": "What happens now after Russian missiles fell in Poland? Warsaw asks NATO for more help",
+          "url": "https://www.nacionale.com/en/articles/what-happens-now-russian-missiles-fell-in-poland-nato-kh-101"
+        },
+        {
+          "title": "Russia-Ukraine War: Missiles near NATO drills rattle Europe",
+          "url": "https://organiser.org/2026/11/21/428056/international/poland-reports-russian-missiles-near-european-drills-nato-calls-incident-grave-as-military-tensions-take-a-new-turn/"
+        },
+        {
+          "title": "Two Russian Missiles and a Drone Land in Poland as NATO Calls It a Violation",
+          "url": "https://www.hngn.com/articles/273901/20261120/two-russian-missiles-drone-land-poland-nato-calls-it-violation.htm"
+        },
+        {
+          "title": "Polish PM invokes NATO Article 4 for consultations after drone incursion-Xinhua",
+          "url": "https://english.news.cn/europe/20250910/777294a16b42468cbc3a6c53800135cf/c.html"
+        },
+        {
+          "title": "NATO Condemns Russia's 'Provocative' Attack on Poland as Mark Rutte Plans Warsaw Visit",
+          "url": "https://english.dainikjagranmpcg.com/international/nato-condemns-russias-provocative-attack-on-poland-as-mark-rutte/article-45413"
+        },
+        {
+          "title": "Russian Kh-101 Missile, Two Objects Violate Polish Airspace Near Multinational Drill, PM Tusk Calls Intentional Provocation - Memesita",
+          "url": "https://www.memesita.com/russian-kh-101-missile-two-objects-violate-polish-airspace-near-multinational-drill-pm-tusk-calls-intentional-provocation/"
+        },
+        {
+          "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
+          "url": "https://euronews.com/2025/09/10/poland-activates-nato-article-4-to-consult-allies-after-russian-drone-incursion"
+        }
+      ]
+    },
+    {
+      "query": "Treasury yields dollar oil November 20 2026 Fed",
+      "results": [
+        {
+          "title": "Oil And Stocks Drive Rates Lower, And Take Some Shine Off The U.S. Dollar",
+          "url": "https://seekingalpha.com/article/4970585-oil-and-stocks-drive-rates-lower-take-some-shine-off-us-dollar"
+        },
+        {
+          "title": "Oil and stocks drive rates lower, and take some shine off the US Dollar",
+          "url": "https://www.fxstreet.com/analysis/oil-and-stocks-drive-rates-lower-and-take-some-shine-off-the-us-dollar-202611201225"
+        },
+        {
+          "title": "Tech Carnage Continues, with Anthropic Now Falling",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+        },
+        {
+          "title": "US 10-year Treasury yield slips below 5% as global equity rout deepens",
+          "url": "https://www.fxstreet.com/news/us-10-year-treasury-yield-slips-below-5-as-global-equity-rout-deepens-202611201233"
+        },
+        {
+          "title": "Gold falls toward $3,500, silver slides as stock markets enter correction territory - Kitco PM Report",
+          "url": "https://kitco.com/news/article/2026-11-20/gold-falls-toward-3500-silver-slides-stock-markets-enter-correction"
+        },
+        {
+          "title": "US2Y: U.S. 2 Year Treasury - Stock Price, Quote and News - CNBC",
+          "url": "https://www.cnbc.com/quotes/US2Y"
+        },
+        {
+          "title": "US10Y: U.S. 10 Year Treasury - Stock Price, Quote and News - CNBC",
+          "url": "https://www.cnbc.com/quotes/US10Y"
+        },
+        {
+          "title": "US30Y: U.S. 30 Year Treasury - Stock Price, Quote and News - CNBC",
+          "url": "https://www.cnbc.com/quotes/US30Y"
+        },
+        {
+          "title": "Forex Today: Yields, the Fed and the dollar",
+          "url": "https://www.fxstreet.com/amp/news/forex-today-yields-the-fed-and-the-dollar-202105192007"
+        }
+      ]
+    },
+    {
+      "query": "Israel Eisenkot Likud unity talks news November 20 2026",
+      "results": [
+        {
+          "title": "Yashar, Likud hold unity talks as Eisenkot bloc moves to assert control over Knesset",
+          "url": "https://www.timesofisrael.com/yashar-likud-meet-for-unity-talks-as-eisenkot-bloc-moves-to-assert-control-over-knesset/"
+        },
+        {
+          "title": "Nov. 19: Iranian Foreign Ministry spokesman calls chemical weapons allegations ‘fraudulent’",
+          "url": "https://www.timesofisrael.com/liveblog-november-19-2026/"
+        },
+        {
+          "title": "Likud, Yashar hold coalition negotiations as Gadi Eisenkot works to build gov't",
+          "url": "https://www.jpost.com/israel-election-2026/article-914935"
+        },
+        {
+          "title": "Eisenkot cancels Likud coalition talks over Netanyahu's Knesset speech",
+          "url": "https://www.israelhayom.com/2026/11/10/eisenkot-cancels-likud-coalition-talks-over-netanyahus-knesset-speech/"
+        },
+        {
+          "title": "Israel unity government talks resume as PM Netanyahu and Eisenkot prepare for second round of coalition negotiations",
+          "url": "https://organiser.org/2026/11/20/427552/international/israel-unity-government-talks-resume-as-pm-netanyahu-and-eisenkot-prepare-for-second-round-of-coalition-negotiations/"
+        },
+        {
+          "title": "Eisenkot says he 'doesn't plan to drag negotiations out,' will form minority gov't if needed",
+          "url": "https://www.yahoo.com/news/politics/articles/eisenkot-says-doesnt-plan-drag-155223438.html"
+        },
+        {
+          "title": "Gadi Eisenkot cancels unity coaltion talks with Benjamin Netanyahu following 'divisive' speech",
+          "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-914502"
+        },
+        {
+          "title": "No progress reported in Yashar-Likud unity talks; Netanyahu said open to excluding Ben Gvir",
+          "url": "https://www.timesofisrael.com/no-progress-reported-in-yashar-likud-unity-talks-netanyahu-said-open-to-excluding-ben-gvir/"
+        },
+        {
+          "title": "National Unity (Israel)",
+          "url": "https://en.wikipedia.org/wiki/National_Unity_(Israel)"
+        }
+      ]
+    },
+    {
+      "query": "Africa news November 20 2026 Ethiopia Eritrea Sudan",
+      "results": [
+        {
+          "title": "Ethiopia Tells UN Envoy Eritrea, Sudan Backing Armed Groups and Drone Attacks - allAfrica.com",
+          "url": "https://allafrica.com/stories/202611110604.html"
+        },
+        {
+          "title": "Ethiopia-Eritrea Fighting Reignites, Raising Fears of Wider War - allAfrica.com",
+          "url": "https://allafrica.com/view/group/main/main/id/00098849.html"
+        },
+        {
+          "title": "Ethiopia and Eritrea amass forces along border, heightening war fears, sources say",
+          "url": "https://www.timeslive.co.za/news/africa/2026-11-18-ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say/"
+        },
+        {
+          "title": "Ethiopia and Sudan accuse each other of backing armed fighters as fears of a wider conflict grow",
+          "url": "https://www.nbcnews.com/world/africa/ethiopia-sudan-accuse-backing-armed-fighters-fears-wider-conflict-grow-rcna609721"
+        },
+        {
+          "title": "Ethiopia news live map today",
+          "url": "https://ethiopia.liveuamap.com/"
+        },
+        {
+          "title": "Ethiopia and Eritrea Amass Forces Along Border, Heightening War Fears, Sources Say",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-18/ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say"
+        },
+        {
+          "title": "Ethiopia-Sudan Relations News",
+          "url": "https://www.newsnow.com/us/World/Africa/Ethiopia/Ethiopia~Sudan"
+        },
+        {
+          "title": "Ethiopia-Sudan Relations News",
+          "url": "https://www.newsnow.com/ng/World/Africa/Sudan/Ethiopia~Sudan"
+        },
+        {
+          "title": "Ethiopia News",
+          "url": "https://www.newsnow.com/us/World/Africa/Ethiopia"
+        },
+        {
+          "title": "www.npr.org",
+          "url": "https://www.npr.org/2000/05/12/1074067/ethiopia"
+        }
+      ]
+    },
+    {
+      "query": "Russia Ukraine peace talks NATO membership territory offer November 20 2026",
+      "results": [
+        {
+          "title": "US floated idea of Ukraine swapping land for NATO membership, Zelensky says",
+          "url": "https://www.cnn.com/2026/11/14/europe/us-ukraine-zelensky-nato-intl"
+        },
+        {
+          "title": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
+          "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato"
+        },
+        {
+          "title": "US floated idea swapping Ukrainian territory for NATO membership: Zelensky",
+          "url": "https://thehill.com/policy/international/6221276-zelensky-nato-donbas-deal/"
+        },
+        {
+          "title": "U.S. floated idea of Ukraine ceding Donbas for NATO membership, Zelenskyy says",
+          "url": "https://www.nbcnews.com/world/ukraine/us-floated-idea-ukraine-ceding-donbas-nato-membership-zelenskyy-rcna609297"
+        },
+        {
+          "title": "putin offers cease fire if ukraine exits russian claimed areas and drops nato bid kyiv calls proposal absurd",
+          "url": "https://www.pbs.org/newshour/world/putin-offers-cease-fire-if-ukraine-exits-russian-claimed-areas-and-drops-nato-bid-kyiv-calls-proposal-absurd"
+        },
+        {
+          "title": "Russia: US has promised us Ukrainian territory",
+          "url": "https://www.yahoo.com/news/articles/russia-us-promised-us-ukrainian-171819987.html"
+        },
+        {
+          "title": "nato chief sure trumps ukraine russia peace plan succeed despite difficult talks",
+          "url": "https://noticias.foxnews.com/media/nato-chief-sure-trumps-ukraine-russia-peace-plan-succeed-despite-difficult-talks"
+        },
+        {
+          "title": "Russia presents US with demands for possible Ukraine peace deal, Reuters reports",
+          "url": "https://www.yahoo.com/news/russia-presents-us-demands-possible-071307082.html"
+        },
+        {
+          "title": "Putin: Peace if Ukraine stops NATO plans, gives up regions",
+          "url": "https://kolaking.substack.com/p/putin-peace-if-ukraine-stops-nato"
+        },
+        {
+          "title": "Russia blames war on NATO as it pounds Ukraine, demands territory for talks",
+          "url": "https://www.aljazeera.com/news/2024/7/10/russia-blames-war-on-nato-as-it-pounds-ukraine-demands-territory-for-talks"
+        }
+      ]
+    },
+    {
+      "query": "Asia Pacific news November 21 2026 Japan China Taiwan",
+      "results": [
+        {
+          "title": "Asia Pacific Daily",
+          "url": "https://en.wikipedia.org/wiki/Asia_Pacific_Daily"
+        },
+        {
+          "title": "CNN International Asia Pacific",
+          "url": "https://en.wikipedia.org/wiki/CNN_International_Asia_Pacific"
+        },
+        {
+          "title": "APEC live: Takaichi says Japan's position on Taiwan remains the same - Nikkei Asia",
+          "url": "https://asia.nikkei.com/politics/international-relations/apec/apec-live-takaichi-says-japan-s-position-on-taiwan-remains-the-same"
+        },
+        {
+          "title": "China calls on Japan to withdraw its “incorrect” statements about Taiwan and change its attitude toward historical issues",
+          "url": "https://informat.ro/en/international/china-calls-on-japan-to-retract-statements-on-taiwan-149303"
+        },
+        {
+          "title": "APEC live: How events in Shenzhen unfolded - Nikkei Asia",
+          "url": "https://asia.nikkei.com/politics/international-relations/apec/apec-live-china-releases-leaders-statement-after-its-disappearance-from-apec-website"
+        },
+        {
+          "title": "Japan's prime minister receives a starkly downgraded welcome in China as tensions over Taiwan block a meeting with Xi Jinping",
+          "url": "https://www.latintimes.com/takaichi-china-apec-summit-taiwan-tensions-601614"
+        },
+        {
+          "title": "China pressures Sanae Takaichi to retract Taiwan remarks despite reaffirmation of \"One China\" policy : Global : JKN",
+          "url": "https://news.jkn.co.kr/editions/english/post/1110976"
+        },
+        {
+          "title": "Pacific Winds 20260309",
+          "url": "https://pcisguam.substack.com/p/pacific-winds-20260309"
+        },
+        {
+          "title": "Pacific Winds 20260324",
+          "url": "https://pcisguam.substack.com/p/pacific-winds-20260324"
+        }
+      ]
+    }
+  ],
+  "fetched": [],
+  "meta": {
+    "id": "2026-11-21",
+    "generated_at": "2026-11-21T11:24:14.097Z",
+    "model": "claude-opus-5-5",
+    "via": "claude-code-routine",
+    "searches": 16,
+    "results_count": 146,
+    "cited_count": 49
+  }
+}

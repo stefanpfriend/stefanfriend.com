@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-21",
+      "date": "Saturday, November 21, 2026",
+      "edition": "CORRECTION",
+      "searches": 16,
+      "cited_count": 49,
+      "results_count": 146
+    },
+    {
       "id": "2026-11-20",
       "date": "Friday, November 20, 2026",
       "edition": "BARRAGE AFTER SHENZHEN",
