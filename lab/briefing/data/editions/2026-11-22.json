@@ -1,0 +1,1074 @@
+{
+  "date": "Sunday, November 22, 2026",
+  "edition": "EVERY INCH",
+  "tldr_label": "TL;DR: Rutte vows NATO will defend every inch of Poland ahead of Monday's emergency council, COP31 teeters in a second day of overtime, and Wall Street licks it",
+  "tldr_bullets": [
+    {
+      "label": "NATO",
+      "body": "In Warsaw, Rutte pledged NATO would defend every inch of Polish territory. An emergency North Atlantic Council meets Monday on the missile incursion. [[TAG:warning:Monday council]]"
+    },
+    {
+      "label": "Ukraine",
+      "body": "A Russian ballistic missile strike on Kryvyi Rih, Zelensky's hometown, killed two, including a 7-year-old boy, and wounded 60. [[TAG:danger:civilian toll]]"
+    },
+    {
+      "label": "Climate",
+      "body": "COP31 entered a second day of overtime. A new draft names no fossil fuels, and an EU official warned the summit could end with no deal. [[TAG:warning:on the brink]]"
+    },
+    {
+      "label": "Markets",
+      "body": "The S&P 500 lost 8.6% last week and Nvidia 23%, its worst week since 2008. The VIX closed near 36 heading into a holiday-shortened week. [[TAG:danger:volatility]]"
+    },
+    {
+      "label": "Iran",
+      "body": "Iran held talks with Qatari mediators and insisted the US accept its conditions to reopen Hormuz, while the IRGC claimed new US drone shootdowns. [[TAG:info:stalled]]"
+    }
+  ],
+  "sections": [
+    {
+      "title": "NATO: Every Inch",
+      "icon": "🛡️",
+      "summary": "Rutte pledges to defend Poland; emergency North Atlantic Council meets Monday",
+      "paragraphs": [
+        {
+          "heading": "Rutte in Warsaw",
+          "body": "US News, carrying Reuters, and CP24 reported that Rutte, visiting Warsaw, said NATO will defend every inch of Polish territory after Russian missiles and a drone came down in Poland. Vatican News reported he pledged solidarity. Kyiv Post reported that Supreme Allied Commander Europe Gen. Grynkewich will look for vulnerabilities in NATO's deterrence posture. [[TAG:info:solidarity]]"
+        },
+        {
+          "heading": "Monday Council",
+          "body": "Kyiv Post, Mezha and Censor.net reported that an emergency North Atlantic Council session meets in Brussels on Monday, with Poland bringing concrete proposals. Rapporteur reported Poland will receive strong support. Censor.net reported Warsaw has sought more support for Operation Eastern Sentry. [[TAG:warning:Monday]]"
+        }
+      ],
+      "sources": "US News, CP24, Vatican News, Kyiv Post, Mezha, Censor.net, Rapporteur",
+      "citations": [
+        {
+          "outlet": "US News",
+          "title": "NATO Will Defend Every Inch of Polish Territory, Rutte Says",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-21/nato-will-defend-every-inch-of-polish-territory-rutte-says"
+        },
+        {
+          "outlet": "CP24",
+          "title": "NATO chief pledges to defend Poland after Russian missile incursion",
+          "url": "https://www.cp24.com/news/world/2026/11/21/nato-chief-pledges-to-defend-poland-after-russian-missile-incursion/"
+        },
+        {
+          "outlet": "Vatican News",
+          "title": "NATO Secretary General pledges solidarity with Poland after missile incursion",
+          "url": "https://www.vaticannews.va/en/world/news/2026-11/nato-rutte-pledges-solidarity-with-poland-after-missile-incursio.html"
+        },
+        {
+          "outlet": "Kyiv Post",
+          "title": "NATO Will Defend ‘Every Inch’ of Poland, Rutte Says Ahead of Monday Council Talks",
+          "url": "https://www.kyivpost.com/post/90841"
+        },
+        {
+          "outlet": "Mezha",
+          "title": "NATO to discuss Russian missiles’ violation of Polish airspace",
+          "url": "https://mezha.net/eng/news/mezha-cd95d43472a3a46c51ebb501_nato_to_discuss"
+        },
+        {
+          "outlet": "Censor.net",
+          "title": "On November 23, NATO will hold meeting regarding incursion of Russian missiles into Poland: concrete proposals will be presented",
+          "url": "https://censor.net/en/news/4034973/on-november-23-nato-will-hold-meeting-regarding-incursion-of-russian-missiles-into-poland-concrete"
+        },
+        {
+          "outlet": "Rapporteur",
+          "title": "Poland to receive 'strong support' following new airspace violations",
+          "url": "https://www.rapporteur.com/news/poland-to-receive-strong-support-following-new-airspace-violations/"
+        }
+      ]
+    },
+    {
+      "title": "Ukraine: Kryvyi Rih Hit",
+      "icon": "🚨",
+      "summary": "Missile strike on Zelensky's hometown kills two and wounds 60; drone attacks continue",
+      "paragraphs": [
+        {
+          "heading": "Kryvyi Rih",
+          "body": "CBC and AP, via ABC27, reported that a Russian ballistic missile strike on Kryvyi Rih killed two people, a 7-year-old boy and a 20-year-old woman, and wounded 60, including six children. Officials said about 25 apartment buildings, a hospital and schools were damaged. Russia's Defense Ministry said it hit a thermal power plant. [[TAG:danger:civilians]]"
+        },
+        {
+          "heading": "Front and Proposals",
+          "body": "Kyiv Post, publishing ISW's assessment, reported Russian advances near Kupyansk, Lyman and Dobropillya, and a Ukrainian drone strike on a Russian cargo ship in the Gulf of Finland. ISW also noted Zelensky's proposal for localized ceasefires to evacuate civilians from 15 occupied settlements along the Dnipro. Ukrinform reported Russia launched 148 drones overnight, 117 of which were downed. Casualty figures from Ukrainian sources could not be independently verified."
+        }
+      ],
+      "sources": "CBC, ABC27 (AP), Kyiv Post (ISW), Critical Threats, Ukrinform",
+      "citations": [
+        {
+          "outlet": "CBC",
+          "title": "Russian strike on Zelenskyy's hometown in central Ukraine kills 2, wounds 60",
+          "url": "https://www.cbc.ca/news/world/russia-ukraine-zelenskyy-hometown-9.7431164"
+        },
+        {
+          "outlet": "ABC27 (AP)",
+          "title": "Ballistic missile attack on Zelenskyy’s hometown in central Ukraine kills 2 and wounds scores",
+          "url": "https://www.abc27.com/international/ap-ballistic-missile-attack-on-zelenskyys-hometown-in-central-ukraine-kills-2-and-wounds-scores/amp/"
+        },
+        {
+          "outlet": "Kyiv Post",
+          "title": "ISW Russian Offensive Campaign Assessment, November 21, 2026",
+          "url": "https://www.kyivpost.com/post/90823"
+        },
+        {
+          "outlet": "Critical Threats",
+          "title": "Russian Offensive Campaign Assessment, November 21, 2026",
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-21-2026"
+        },
+        {
+          "outlet": "Ukrinform",
+          "title": "War",
+          "url": "https://www.ukrinform.net/rubric-ato"
+        }
+      ]
+    },
+    {
+      "title": "COP31: On the Brink",
+      "icon": "🌍",
+      "summary": "Second day of overtime; new draft omits fossil fuels as EU warns of no deal",
+      "paragraphs": [
+        {
+          "heading": "Sunday Draft",
+          "body": "Al Jazeera reported that COP31 talks entered a second day of overtime as a new draft faced scrutiny, and Gulf News reported that fossil fuels are still missing from the text. Al-Monitor and Yahoo reported the summit president said a final deal was close. Reports said the draft refers to the 2023 agreement on transitioning away from fossil fuels without naming coal, oil or gas. [[TAG:warning:no fossil language]]"
+        },
+        {
+          "heading": "Conflicting Accounts",
+          "body": "An EU official reportedly called the text backwards and warned of a real possibility of no deal. Observers said Saudi Arabia and other producers pushed to keep fossil fuels out and carbon removal in. Headtopics reported a final deal had been reached, but Reuters-based accounts said approval was still pending, so adoption is unconfirmed. OnlineKhabar reported agreement on a two-year programme on mountains and climate change. [[TAG:info:unconfirmed]]"
+        }
+      ],
+      "sources": "Al Jazeera, Gulf News, Al-Monitor, Yahoo, Headtopics, OnlineKhabar",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "COP31 climate talks on the brink as new draft deal faces scrutiny",
+          "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
+        },
+        {
+          "outlet": "Gulf News",
+          "title": "COP31 Draft Sparks Controversy Over Fossil Fuel Omission Amid Global Climate Talks",
+          "url": "https://gulfnews.com/world/europe/fossil-fuels-still-missing-from-latest-cop31-draft-deal-1.500755945"
+        },
+        {
+          "outlet": "Al-Monitor",
+          "title": "COP31 climate talks close to final deal, says summit president",
+          "url": "https://www.al-monitor.com/originals/2026/11/cop31-climate-talks-close-final-deal-says-summit-president"
+        },
+        {
+          "outlet": "Yahoo",
+          "title": "COP31 climate talks close to final deal, says summit president",
+          "url": "https://www.yahoo.com/news/science/articles/cop31-climate-talks-close-final-233939002.html"
+        },
+        {
+          "outlet": "Headtopics",
+          "title": "COP31 Reaches Final Climate Deal in Antalya After Deadline Extension",
+          "url": "https://ph.headtopics.com/news/cop31-reaches-final-climate-deal-in-antalya-after-deadline-90069171"
+        },
+        {
+          "outlet": "OnlineKhabar",
+          "title": "COP31 agrees to launch 2-year programme on mountains and climate change",
+          "url": "https://english.onlinekhabar.com/cop31-agrees-to-launch-2-year-programme-on-mountains-and-climate-change.html"
+        }
+      ]
+    },
+    {
+      "title": "Markets: After the Rout",
+      "icon": "📉",
+      "summary": "S&P 500 lost 8.6% on the week and Nvidia 23%; VIX near 36 into a holiday week",
+      "paragraphs": [
+        {
+          "heading": "The Damage",
+          "body": "Yahoo Finance reported that the S&P 500 and Dow entered correction on Friday as the Nasdaq erased its 2026 gains. Reports put the S&P 500's weekly loss at 8.6% and Nvidia's at 23%, its worst week since October 2008, and Futu's weekend summary called it Nvidia's largest weekly drop in 18 years. Mostly Markets tied Friday's slide to the report of an SEC probe into Nvidia. The VIX closed at 35.89, its highest since April 2025. [[TAG:danger:worst week]]"
+        },
+        {
+          "heading": "Week Ahead",
+          "body": "TipRanks' weekly preview and Cardano Capital pointed to inflation and growth data as the next test of the Fed's hawkish stance in a holiday-shortened US week. The Rio Times reported the AI rout also rattled Latin American markets, weakening Brazil's real and Chile's peso. [[TAG:info:data ahead]]"
+        }
+      ],
+      "sources": "Yahoo Finance, Futu, Mostly Markets, TipRanks, Cardano Capital, Rio Times",
+      "citations": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Stock market today: Dow and S&P 500 enter correction, Nasdaq sinks 5% to erase 2026 gains as AI trade melts down",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+        },
+        {
+          "outlet": "Futu",
+          "title": "Weekend Headlines Summary: NVIDIA Shares Record Largest Weekly Drop in 18 Years",
+          "url": "https://news.futunn.com/en/post/1005279280/weekend-headlines-summary-nvidia-shares-record-largest-weekly-drop-in"
+        },
+        {
+          "outlet": "Mostly Markets",
+          "title": "Stock Market Today: The S&P 500 Fell Into a Correction as an SEC Report Sank Nvidia",
+          "url": "https://mostlymarkets.substack.com/p/stock-market-today-the-s-and-p-500"
+        },
+        {
+          "outlet": "TipRanks",
+          "title": "The Week That Was, The Week Ahead: Macro and Markets, November 22",
+          "url": "https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-22"
+        },
+        {
+          "outlet": "Cardano Capital",
+          "title": "S&P 500 Enters Correction as Nasdaq Plunges 10% in Its Worst Week Since 2020: Nvidia, Anthropic IPO, Fed Minutes and the Week Ahead",
+          "url": "https://cardanocapital.substack.com/p/s-and-p-500-enters-correction-as"
+        },
+        {
+          "outlet": "Rio Times",
+          "title": "Latin America mood: AI rout rattles a nervous continent",
+          "url": "https://riotimesonline.com/latin-american-pulse-for-saturday-november-21-2026"
+        }
+      ]
+    },
+    {
+      "title": "Iran: Conditions and Claims",
+      "icon": "🛢️",
+      "summary": "Tehran meets Qatari mediators and repeats its terms; IRGC claims US drone shootdowns",
+      "paragraphs": [
+        {
+          "heading": "Diplomacy",
+          "body": "Al Jazeera reported that Iran held talks with Qatari mediators and urged the US to accept its conditions, which include ending the war and lifting sanctions and the naval blockade, before Hormuz reopens. Iranian officials said the talks are not yet formal negotiations. CBS News reported that Trump wants a permanent deal and suggested his next move may not come until 2027. Khaama reported Araghchi saying sanctions and strikes cannot end the war. [[TAG:info:no talks yet]]"
+        },
+        {
+          "heading": "On the Water",
+          "body": "Al Jazeera reported that the IRGC claimed it downed US drones over Hormuz, with no immediate US comment, and that Bahrain said an Iranian attack caused a fire at an industrial facility. ABC News reported the IRGC said its Bahrain attacks targeted US Patriot sites. These claims are unverified. [[TAG:warning:unverified]]"
+        }
+      ],
+      "sources": "Al Jazeera, CBS News, Khaama, ABC News",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran says held talks with Qatari mediators, urges US to accept conditions",
+          "url": "https://www.aljazeera.com/news/2026/11/21/iran-says-held-talks-with-qatari-mediators-urges-us-to-accept-conditions"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Live Updates: Trump says he wants \"permanent\" deal with Iran; warns next move may not come until 2027",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-tehran-denies-chemical-weapons/"
+        },
+        {
+          "outlet": "Khaama",
+          "title": "Iran Tells Trump Sanctions and Military Strikes Cannot End War",
+          "url": "https://www.khaama.com/iran-araghchi-trump-sanctions-military-strikes-war/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran says it downed US drones over Hormuz as bid to end war remains stalled",
+          "url": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Bahrain says Iranian attack caused fire at industrial facility",
+          "url": "https://aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Iran live updates: IRGC says Bahrain attacks targeted US Patriot sites",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
+        }
+      ]
+    },
+    {
+      "title": "Israel: Talks and Gaza Strikes",
+      "icon": "⚖️",
+      "summary": "Eisenkot invites Likud to marathon talks; disputed Gaza strike on aid vehicle",
+      "paragraphs": [
+        {
+          "heading": "Coalition",
+          "body": "France 24 and Euronews reported that Eisenkot invited Netanyahu's Likud to marathon coalition talks starting Sunday. ABC Australia and World Today Journal reported he ruled out serving under Netanyahu. JNS reported that Likud has set its own conditions for a unity government. [[TAG:info:talks Sunday]]"
+        },
+        {
+          "heading": "Gaza",
+          "body": "Al Jazeera, Haaretz and US News reported that an Israeli strike on a vehicle distributing food aid killed three. The Jerusalem Post reported the IDF said the occupants were Islamic Jihad operatives, a claim others dispute. The National reported strikes killed nine across Gaza over two days and that a Board of Peace adviser criticized Israel. [[TAG:danger:accounts conflict]]"
+        }
+      ],
+      "sources": "France 24, Euronews, ABC Australia, World Today Journal, JNS, Al Jazeera, Haaretz, US News, Jerusalem Post, The National",
+      "citations": [
+        {
+          "outlet": "France 24",
+          "title": "Eisenkot invites Netanyahu’s party for ‘marathon’ Israeli coalition talks",
+          "url": "https://www.france24.com/en/middle-east/20261121-eisenkot-invites-netanyahu-s-party-for-marathon-israeli-coalition-talks"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Gadi Eisenkot invites Netanyahu's Likud party for 'marathon' coalition talks",
+          "url": "https://www.euronews.com/2026/11/22/gadi-eisenkot-invites-netanyahus-likud-party-for-marathon-coalition-talks"
+        },
+        {
+          "outlet": "ABC Australia",
+          "title": "Gadi Eisenkot invites Prime Minister Benjamin Netanyahu's party to Israeli coalition talks",
+          "url": "https://www.abc.net.au/news/2026-11-22/gadi-eisenkot-invites-benjamin-netanyahu-israeli-coalition-talks/107413714"
+        },
+        {
+          "outlet": "World Today Journal",
+          "title": "Eisenkot Invites Netanyahu's Likud to Coalition Talks, Rules Out Serving Under Him",
+          "url": "https://world-today-journal.com/eisenkot-invites-netanyahus-likud-to-coalition-talks-rules-out-serving-under-him/"
+        },
+        {
+          "outlet": "JNS",
+          "title": "Likud sets conditions for national unity government with Eisenkot",
+          "url": "https://www.jns.org/news/israel-news/likud-sets-conditions-for-national-unity-government-with-eisenkot"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Israeli strike on vehicle distributing food aid in Gaza kills three",
+          "url": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza"
+        },
+        {
+          "outlet": "Haaretz",
+          "title": "Israeli Strike Kills Three in Vehicle Distributing Aid in Gaza, Medics Say",
+          "url": "https://www.haaretz.com/gaza/2026-11-21/ty-article/israeli-strike-kills-three-in-vehicle-distributing-aid-in-gaza-medics-say/000001a1-fe5b-d9ff-a7b5-ffff29890000"
+        },
+        {
+          "outlet": "US News",
+          "title": "Israeli Strike on Vehicle in Gaza Kills Three, Gaza Health Ministry Says",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-21/israeli-strike-kills-three-in-vehicle-distributing-aid-in-gaza-witnesses-say"
+        },
+        {
+          "outlet": "Jerusalem Post",
+          "title": "IDF confirms vehicle struck in Gaza was used by PIJ terrorists, after claims they were aid workers",
+          "url": "https://www.jpost.com/israel-news/defense-news/article-915643"
+        },
+        {
+          "outlet": "The National",
+          "title": "Strikes kill nine in Gaza as Board of Peace adviser criticises Israel",
+          "url": "https://www.thenationalnews.com/news/mena/2026/11/21/strikes-kill-nine-in-gaza-as-board-of-peace-adviser-criticises-israel/"
+        }
+      ]
+    },
+    {
+      "title": "Africa: Two Fronts",
+      "icon": "🌍",
+      "summary": "Sudan's army gains in West Kordofan; Ethiopia-Eritrea border buildup deepens",
+      "paragraphs": [
+        {
+          "heading": "Sudan",
+          "body": "Sudan Tribune and Anadolu reported that Sudan's army and allies seized several areas from the RSF in West Kordofan, and Al Jazeera analyzed how those gains could turn the tide, noting the region's oil fields. A rights monitor cited by Sudan Tribune accused the RSF of killing civilians there. CFR's tracker noted the RSF still controls Darfur. [[TAG:warning:Kordofan]]"
+        },
+        {
+          "heading": "Ethiopia and Eritrea",
+          "body": "US News, carrying Reuters, reported both countries have massed forces along their border, while Eritrea denies any incursion. France 24 reported troops mobilizing along the border. Reuters could not confirm reports of skirmishes. [[TAG:danger:war risk]]"
+        }
+      ],
+      "sources": "Sudan Tribune, Anadolu, Al Jazeera, CFR, US News, France 24",
+      "citations": [
+        {
+          "outlet": "Sudan Tribune",
+          "title": "Sudan Army & Allies Advance Against RSF in West Kordofan",
+          "url": "https://sudantribune.com/article/321005"
+        },
+        {
+          "outlet": "Anadolu",
+          "title": "Sudanese army says it seized 5 areas from RSF in West Kordofan",
+          "url": "https://aa.com.tr/en/middle-east/-sudanese-army-says-it-seized-5-areas-from-rsf-in-west-kordofan/4127044"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "How SAF successes in Sudan’s Kordofan could turn tide against the RSF",
+          "url": "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf"
+        },
+        {
+          "outlet": "Sudan Tribune",
+          "title": "Rights monitor accuses Sudan’s RSF of killing civilians in West Kordofan",
+          "url": "https://sudantribune.com/article/321517"
+        },
+        {
+          "outlet": "CFR",
+          "title": "Civil War in Sudan",
+          "url": "https://www.cfr.org/global-conflict-tracker/conflict/power-struggle-sudan"
+        },
+        {
+          "outlet": "US News",
+          "title": "Ethiopia and Eritrea Amass Forces Along Border, Heightening War Fears, Sources Say",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-18/ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Ethiopia - Eritrea: Troops mobilise along the border",
+          "url": "https://france24.com/en/ethiopia-eritrea-troops-mobilise-along-the-border"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "query": "COP31 Antalya final agreement adopted November 21 2026",
+      "results": [
+        {
+          "title": "COP31 agrees to launch 2-year programme on mountains and climate change - OnlineKhabar English News",
+          "url": "https://english.onlinekhabar.com/cop31-agrees-to-launch-2-year-programme-on-mountains-and-climate-change.html"
+        },
+        {
+          "title": "COP31 climate talks close to final deal, says summit president",
+          "url": "https://www.yahoo.com/news/science/articles/cop31-climate-talks-close-final-233939002.html"
+        },
+        {
+          "title": "COP31 climate talks close to final deal, says summit president - AL-MONITOR: The Middle Eastʼs leading independent news source since 2012",
+          "url": "https://www.al-monitor.com/originals/2026/11/cop31-climate-talks-close-final-deal-says-summit-president"
+        },
+        {
+          "title": "Türkiye and Australia present revised COP31 agreement as climate talks enter final stage",
+          "url": "https://www.azernews.az/region/267870.html"
+        },
+        {
+          "title": "Türkiye, Australia present revised COP31 agreement draft",
+          "url": "https://report.az/en/region/turkiye-australia-present-revised-cop31-agreement-draft"
+        },
+        {
+          "title": "2026 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
+        },
+        {
+          "title": "COP31 climate talks close to final deal, says summit president",
+          "url": "https://mediaselangor.com/en/2026/11/408500"
+        },
+        {
+          "title": "COP31 Reaches Final Climate Deal in Antalya After Deadline Extension",
+          "url": "https://ph.headtopics.com/news/cop31-reaches-final-climate-deal-in-antalya-after-deadline-90069171"
+        },
+        {
+          "title": "COP31 Final Deal Omits Fossil Fuel Ban Despite Climate Crisis Urgency",
+          "url": "https://au.headtopics.com/news/cop31-final-deal-omits-fossil-fuel-ban-despite-climate-90072782"
+        }
+      ]
+    },
+    {
+      "query": "Rutte Warsaw visit Poland NATO November 21 2026",
+      "results": [
+        {
+          "title": "NATO chief pledges to defend Poland after Russian missile incursion",
+          "url": "https://www.cp24.com/news/world/2026/11/21/nato-chief-pledges-to-defend-poland-after-russian-missile-incursion/"
+        },
+        {
+          "title": "List of international prime ministerial trips made by Mark Rutte",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Mark_Rutte"
+        },
+        {
+          "title": "NATO Will Defend Every Inch of Polish Territory, Rutte Says",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-21/nato-will-defend-every-inch-of-polish-territory-rutte-says"
+        },
+        {
+          "title": "Arab News",
+          "url": "https://www.arabnews.com/world/nato-will-defend-every-inch-of-polish-territory-rutte-says-3013390"
+        },
+        {
+          "title": "NATO Secretary General pledges solidarity with Poland after missile incursion - Vatican News",
+          "url": "https://www.vaticannews.va/en/world/news/2026-11/nato-rutte-pledges-solidarity-with-poland-after-missile-incursio.html"
+        },
+        {
+          "title": "NATO Will Defend ‘Every Inch’ of Poland, Rutte Says Ahead of Monday Council Talks",
+          "url": "https://www.kyivpost.com/post/90841"
+        },
+        {
+          "title": "Rutte: NATO will defend every inch of Poland's territory",
+          "url": "https://en.apa.az/america/rutte-nato-will-defend-every-inch-of-polands-territory-537764"
+        },
+        {
+          "title": "NATO will defend every inch of Poland, Rutte says",
+          "url": "https://sana.sy/en/international/2360596/"
+        },
+        {
+          "title": "NATO Secretary General to visit Poland",
+          "url": "https://www.nato.int/cps/en/natohq/news_230387.htm"
+        },
+        {
+          "title": "NATO Secretary General to visit Poland",
+          "url": "https://www.nato.int/cps/en/natohq/news_233912.htm"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Russia war news November 21 2026",
+      "results": [
+        {
+          "title": "ISW Russian Offensive Campaign Assessment, November 21, 2026",
+          "url": "https://www.kyivpost.com/post/90823"
+        },
+        {
+          "title": "Russian Offensive Campaign Assessment, November 21, 2026",
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-21-2026"
+        },
+        {
+          "title": "War",
+          "url": "https://www.ukrinform.net/rubric-ato"
+        },
+        {
+          "title": "Russia Ukraine war news - latest updates",
+          "url": "https://newsukraine.rbc.ua/war-in-ukraine"
+        },
+        {
+          "title": "Russo-Ukraine War - 18 November 2022 - Day 268",
+          "url": "https://www.globalsecurity.org/military/world/war/russo-ukraine-2022-11-18.htm"
+        },
+        {
+          "title": "Russo-Ukraine War - 26 November 2023 - Day 641",
+          "url": "https://www.globalsecurity.org/military/world/war/russo-ukraine-2023-11-26.htm"
+        },
+        {
+          "title": "Russia-Ukraine war: List of key events, day 636",
+          "url": "https://www.aljazeera.com/news/2023/11/21/russia-ukraine-war-list-of-key-events-day-636"
+        },
+        {
+          "title": "Russo-Ukraine War - 06 November 2023 - Day 621",
+          "url": "https://www.globalsecurity.org/military/world/war/russo-ukraine-2023-11-06.htm"
+        },
+        {
+          "title": "Russia-Ukraine war: List of key events, day 994",
+          "url": "https://www.aljazeera.com/news/2024/11/15/russia-ukraine-war-list-of-key-events-day-994"
+        },
+        {
+          "title": "Russia-Ukraine war: List of key events, day 666",
+          "url": "https://www.aljazeera.com/news/2023/12/21/russia-ukraine-war-list-of-key-events-day-666"
+        }
+      ]
+    },
+    {
+      "query": "Iran US news November 21 2026 Hormuz strikes",
+      "results": [
+        {
+          "title": "Strait of Hormuz news - Today’s latest updates - CBS News",
+          "url": "https://www.cbsnews.com/tag/strait-of-hormuz/"
+        },
+        {
+          "title": "U.S. launches strikes on Iran's Qeshm Island in Strait of Hormuz",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/"
+        },
+        {
+          "title": "Iran says it downed US drones over Hormuz as bid to end war remains stalled",
+          "url": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled"
+        },
+        {
+          "title": "Iran live updates: IRGC says Bahrain attacks targeted US Patriot sites - ABC News",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
+        },
+        {
+          "title": "Trump says Tehran may be working on chemical or biological weapons as tension mounts",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
+        },
+        {
+          "title": "president trump further extends deadline for iran to open strait of hormuz",
+          "url": "https://www.newsonair.gov.in/president-trump-further-extends-deadline-for-iran-to-open-strait-of-hormuz"
+        },
+        {
+          "title": "Full Episode",
+          "url": "https://www.pbs.org/newshour/tag/strait-of-hormuz/page/3"
+        },
+        {
+          "title": "China Daily Global Edition (USA)",
+          "url": "https://www.pressreader.com/usa/china-daily-usa/20190719/281646781724966"
+        },
+        {
+          "title": "Iran warns it could close Strait of Hormuz to US",
+          "url": "https://www.aljazeera.com/amp/news/2016/5/4/iran-warns-it-could-close-strait-of-hormuz-to-us"
+        }
+      ]
+    },
+    {
+      "query": "COP31 deal approved November 22 2026 fossil fuels reaction",
+      "results": [
+        {
+          "title": "COP31 Draft Sparks Controversy Over Fossil Fuel Omission Amid Global Climate Talks",
+          "url": "https://gulfnews.com/world/europe/fossil-fuels-still-missing-from-latest-cop31-draft-deal-1.500755945"
+        },
+        {
+          "title": "COP31 climate talks on the brink as new draft deal faces scrutiny",
+          "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
+        },
+        {
+          "title": "COP31 Enters Overtime as Final Draft Omits Fossil Fuels",
+          "url": "https://azat.tv/en/cop31-final-draft-omits-fossil-fuels-antalya/"
+        },
+        {
+          "title": "COP28 agrees fossil fuel deal",
+          "url": "https://www.pressreader.com/uk/the-week-juniord/20231215/281539410747362"
+        },
+        {
+          "title": "www.malaymail.com",
+          "url": "https://www.malaymail.com/news/world/2023/12/13/nations-strike-deal-at-cop28-to-transition-away-from-fossil-fuels/107305"
+        },
+        {
+          "title": "climate change",
+          "url": "https://www.euronews.com/index.php/tag/climate-change?p=38"
+        },
+        {
+          "title": "www.malaymail.com",
+          "url": "https://www.malaymail.com/news/world/2023/12/09/eu-condemns-out-of-whack-opec-attempt-to-block-cop28-fossil-fuel-deal/106774"
+        },
+        {
+          "title": "COP30 deal urges more funds for poorer countries, omits fossil fuels",
+          "url": "https://www.aljazeera.com/news/2025/11/22/cop30-draft-text-urges-more-funds-for-poorer-countries-omits-fossil-fuels"
+        },
+        {
+          "title": "globalnews.ca",
+          "url": "https://globalnews.ca/video/10169247/landmark-deal-or-litany-of-loopholes-cop28-pact-agrees-to-transition-away-from-fossil-fuels/amp"
+        }
+      ]
+    },
+    {
+      "query": "markets week ahead November 23 2026 stocks correction Nvidia futures",
+      "results": [
+        {
+          "title": "Stock market today: Dow and S&P 500 enter correction, Nasdaq sinks 5% to erase 2026 gains as AI trade melts down",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+        },
+        {
+          "title": "Nvidia results ahead this week; Fed’s Warsh to speak - what’s moving markets By Investing.com",
+          "url": "https://www.investing.com/news/economy-news/nvidia-results-ahead-this-week-feds-warsh-to-speak--whats-moving-markets-5028731"
+        },
+        {
+          "title": "Stock Market Today: The S&P 500 Fell Into a Correction as an SEC Report Sank Nvidia",
+          "url": "https://mostlymarkets.substack.com/p/stock-market-today-the-s-and-p-500"
+        },
+        {
+          "title": "US Stock Futures Decline Ahead of Nvidia Earnings as Investors Await Federal Reserve Signals: Dow Jones, S&P, Nasdaq, Wall Street",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-decline-ahead-095642402.html"
+        },
+        {
+          "title": "S&P 500 Enters Correction as Nasdaq Plunges 10% in Its Worst Week Since 2020: Nvidia, Anthropic IPO, Fed Minutes and the Week Ahead",
+          "url": "https://cardanocapital.substack.com/p/s-and-p-500-enters-correction-as"
+        },
+        {
+          "title": "The Week That Was, The Week Ahead: Macro and Markets, November 22 - TipRanks.com",
+          "url": "https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-22"
+        },
+        {
+          "title": "Dow Jones: Nvidia Plunge Drives Correction, Putting 2025 Gains at Risk",
+          "url": "https://www.fxempire.com/forecasts/article/dow-jones-nvidia-plunge-drives-correction-putting-2025-gains-at-risk-1646294"
+        },
+        {
+          "title": "Weekend Headlines Summary: NVIDIA Shares Record Largest Weekly Drop in 18 Years; Wave of Share Buybacks Hits A-Shares",
+          "url": "https://news.futunn.com/en/post/1005279280/weekend-headlines-summary-nvidia-shares-record-largest-weekly-drop-in"
+        },
+        {
+          "title": "Is the AI Bubble Finally Popping? Nvidia Crashes 48% as Wall Street Experts Sound the Alarm",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ai-bubble-finally-popping-nvidia-140106035.html"
+        }
+      ]
+    },
+    {
+      "query": "Israel Eisenkot Likud talks November 22 2026",
+      "results": [
+        {
+          "title": "Eisenkot invites Netanyahu’s party for ‘marathon’ Israeli coalition talks - France 24",
+          "url": "https://www.france24.com/en/middle-east/20261121-eisenkot-invites-netanyahu-s-party-for-marathon-israeli-coalition-talks"
+        },
+        {
+          "title": "Likud sets conditions for national unity government with Eisenkot - Israel & Jewish News - JNS",
+          "url": "https://www.jns.org/news/israel-news/likud-sets-conditions-for-national-unity-government-with-eisenkot"
+        },
+        {
+          "title": "Gadi Eisenkot invites Netanyahu's Likud party for 'marathon' coalition talks",
+          "url": "https://www.euronews.com/2026/11/22/gadi-eisenkot-invites-netanyahus-likud-party-for-marathon-coalition-talks"
+        },
+        {
+          "title": "Arab News",
+          "url": "https://www.arabnews.com/middle-east/eisenkot-invites-netanyahus-party-for-israeli-coalition-talks-3013421"
+        },
+        {
+          "title": "Gadi Eisenkot invites Prime Minister Benjamin Netanyahu's party to Israeli coalition talks - ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-22/gadi-eisenkot-invites-benjamin-netanyahu-israeli-coalition-talks/107413714"
+        },
+        {
+          "title": "Bibi back in the reckoning? Eisenkot invites Netanyahu’s Likud party for coalition talks",
+          "url": "https://www.deccanherald.com/middle-east/israel-deadlock-bibi-back-in-the-reckoning-eisenkot-invites-netanyahus-likud-party-for-coalition-talks-4227166"
+        },
+        {
+          "title": "Eisenkot Invites Netanyahu's Likud to Coalition Talks, Rules Out Serving Under Him - World Today Journal",
+          "url": "https://world-today-journal.com/eisenkot-invites-netanyahus-likud-to-coalition-talks-rules-out-serving-under-him/"
+        },
+        {
+          "title": "Israël's Eisenkot Invites Netanyahu's Likud to Coalition Talks, Rules Out Serving Under Him - World Today Journal",
+          "url": "https://world-today-journal.com/israels-eisenkot-invites-netanyahus-likud-to-coalition-talks-rules-out-serving-under-him/"
+        },
+        {
+          "title": "likud meeting",
+          "url": "https://www.npr.org/1996/09/05/1044760/likud-meeting"
+        }
+      ]
+    },
+    {
+      "query": "Gaza news November 21 2026",
+      "results": [
+        {
+          "title": "Nov. 21: Man killed in criminal shooting in northern Arab town of Reineh",
+          "url": "https://www.timesofisrael.com/liveblog-november-21-2026/"
+        },
+        {
+          "title": "Israeli attacks on Gaza kill at least four Palestinians",
+          "url": "https://www.yahoo.com/news/world/articles/israeli-attacks-gaza-kill-least-122949906.html"
+        },
+        {
+          "title": "Israeli strike on vehicle distributing food aid in Gaza kills three",
+          "url": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza"
+        },
+        {
+          "title": "Israeli Strike on Vehicle in Gaza Kills Three, Gaza Health Ministry Says",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-21/israeli-strike-kills-three-in-vehicle-distributing-aid-in-gaza-witnesses-say"
+        },
+        {
+          "title": "Israeli Strike Kills Three in Vehicle Distributing Aid in Gaza, Medics Say - Gaza News",
+          "url": "https://www.haaretz.com/gaza/2026-11-21/ty-article/israeli-strike-kills-three-in-vehicle-distributing-aid-in-gaza-medics-say/000001a1-fe5b-d9ff-a7b5-ffff29890000"
+        },
+        {
+          "title": "IDF confirms vehicle struck in Gaza was used by PIJ terrorists, after claims they were aid workers",
+          "url": "https://www.jpost.com/israel-news/defense-news/article-915643"
+        },
+        {
+          "title": "Strikes kill nine in Gaza as Board of Peace adviser criticises Israel",
+          "url": "https://www.thenationalnews.com/news/mena/2026/11/21/strikes-kill-nine-in-gaza-as-board-of-peace-adviser-criticises-israel/"
+        },
+        {
+          "title": "2022 Jabalia fire",
+          "url": "https://en.wikipedia.org/wiki/2022_Jabalia_fire"
+        },
+        {
+          "title": "Gaza Now",
+          "url": "https://en.wikipedia.org/wiki/Gaza_Now"
+        }
+      ]
+    },
+    {
+      "query": "Kryvyi Rih strike November 21 2026 casualties Zelensky",
+      "results": [
+        {
+          "title": "Russian strike on Zelenskyy's hometown in central Ukraine kills 2, wounds 60",
+          "url": "https://www.cbc.ca/news/world/russia-ukraine-zelenskyy-hometown-9.7431164"
+        },
+        {
+          "title": "Zelenskyy’s hometown hit; 2 killed",
+          "url": "https://www.arkansasonline.com/news/2026/nov/22/zelenskyys-hometown-hit-2-killed/"
+        },
+        {
+          "title": "Russia Strikes Zelenskyy's Hometown, Killing 2 - World En.tempo.co",
+          "url": "https://en.tempo.co/read/2124145/russia-strikes-zelenskyys-hometown-killing-2"
+        },
+        {
+          "title": "Ballistic missile attack on Zelenskyy’s hometown in central Ukraine kills 2 and wounds scores",
+          "url": "https://www.abc27.com/international/ap-ballistic-missile-attack-on-zelenskyys-hometown-in-central-ukraine-kills-2-and-wounds-scores/amp/"
+        },
+        {
+          "title": "Russian strike on Zelenskyy’s hometown kills two, injures 60",
+          "url": "https://www.nationalheraldindia.com/international/russian-strike-on-volodymyr-zelenskyys-hometown-kills-two-injures-60"
+        },
+        {
+          "title": "Russian Strike on Zelenskyy's Hometown Kryvyi Rih Kills 2, Wounds 60 - Time News",
+          "url": "https://time.news/russian-strike-on-zelenskyys-hometown-kryvyi-rih-kills-2-wounds-60/"
+        },
+        {
+          "title": "Russian airstrike in Zelenskyy's hometown in Ukraine kills at least 18",
+          "url": "https://www.cbsnews.com/amp/news/russia-strike-ukraine-zelenskky-kryvyi-rih"
+        },
+        {
+          "title": "at least 14 dead in russian strike on zelenskyys hometown ukraine says 3479245",
+          "url": "https://www.deccanherald.com/world/at-least-14-dead-in-russian-strike-on-zelenskyys-hometown-ukraine-says-3479245"
+        },
+        {
+          "title": "Russian strike on Zelenskyy's hometown kills 18, including 9 children, governor says",
+          "url": "https://amp.cbc.ca/lite/story/1.7502959"
+        }
+      ]
+    },
+    {
+      "query": "Ethiopia Eritrea news November 21 2026",
+      "results": [
+        {
+          "title": "Eritrea -- Home - allAfrica.com",
+          "url": "https://allafrica.com/eritrea/"
+        },
+        {
+          "title": "Eritrea : latest political and business news| The Africa Report",
+          "url": "https://www.theafricareport.com/country/eritrea/"
+        },
+        {
+          "title": "Ethiopia and Eritrea Amass Forces Along Border, Heightening War Fears, Sources Say",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-18/ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say"
+        },
+        {
+          "title": "Eritrea",
+          "url": "https://www.aljazeera.com/where/eritrea/"
+        },
+        {
+          "title": "Ethiopia - Eritrea: Troops mobilise along the border - France 24",
+          "url": "https://france24.com/en/ethiopia-eritrea-troops-mobilise-along-the-border"
+        },
+        {
+          "title": "Ethiopia news live map today",
+          "url": "https://ethiopia.liveuamap.com/"
+        },
+        {
+          "title": "Ethiopia News",
+          "url": "https://www.newsnow.com/us/World/Africa/Ethiopia"
+        },
+        {
+          "title": "ethiopia and eritrea at peace",
+          "url": "https://www.npr.org/2000/06/18/1075580/ethiopia-and-eritrea-at-peace"
+        },
+        {
+          "title": "www.npr.org",
+          "url": "https://www.npr.org/2000/05/12/1074067/ethiopia"
+        }
+      ]
+    },
+    {
+      "query": "China news November 21 2026 economy trade truce",
+      "results": [
+        {
+          "title": "China extends trade truce with US by two months",
+          "url": "https://www.yahoo.com/news/politics/articles/china-extends-trade-truce-us-071827892.html"
+        },
+        {
+          "title": "China Extends U.S. Trade Truce By Two Months",
+          "url": "https://www.supplychainbrain.com/general-scm/global-trade-economics/article/16424927/china-extends-us-trade-truce-by-two-months"
+        },
+        {
+          "title": "China's goods surplus tops $1 trillion for a second year amid calls for Beijing to rebalance trade",
+          "url": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html"
+        },
+        {
+          "title": "China Extends US Trade Truce by Two Months",
+          "url": "https://gcaptain.com/china-extends-us-trade-truce-by-two-months/"
+        },
+        {
+          "title": "US, China officially extend trade war truce by 2 months",
+          "url": "https://www.supplychaindive.com/news/us-china-officially-extend-trade-war-truce-by-2-months/874107/"
+        },
+        {
+          "title": "US, China officially extend trade war truce by 2 months",
+          "url": "https://finance.yahoo.com/economy/policy/articles/us-china-officially-extend-trade-140000886.html"
+        },
+        {
+          "title": "China extends U.S. trade truce through January, keeps 10% tariff",
+          "url": "https://qz.com/china-extends-trade-truce-january-tariffs-110926"
+        },
+        {
+          "title": "China Extends Trade Truce with the United States for Two Months - Maaal",
+          "url": "https://maaal.com/en/news/details/china-extends-trade-truce/"
+        },
+        {
+          "title": "Economics Daily",
+          "url": "https://www.bloomberg.com/news/newsletters/2025-05-13/takeaways-from-the-us-china-trade-truce"
+        }
+      ]
+    },
+    {
+      "query": "Europe news November 21 2026 Germany France UK politics",
+      "results": [
+        {
+          "title": "Last Week in Europe - by Ruben Cober - Essential Europe",
+          "url": "https://essentialeurope.substack.com/p/last-week-in-europe-833"
+        },
+        {
+          "title": "pro.imdb.com",
+          "url": "https://pro.imdb.com/title/tt32862533/cast"
+        },
+        {
+          "title": "www.euronews.com",
+          "url": "https://www.euronews.com/index.php/tag/politics?p=2"
+        },
+        {
+          "title": "political crises in france and germany spell more trouble for europes ailing economy analy",
+          "url": "https://www.euronews.com/video/2024/12/05/political-crises-in-france-and-germany-spell-more-trouble-for-europes-ailing-economy-analy"
+        },
+        {
+          "title": "Full Episode",
+          "url": "https://www.pbs.org/newshour/tag/germany/page/9"
+        },
+        {
+          "title": "www.euronews.com",
+          "url": "https://www.euronews.com/index.php/tag/news?p=48"
+        },
+        {
+          "title": "www.euronews.com",
+          "url": "https://www.euronews.com/profiles/1824?p=12"
+        },
+        {
+          "title": "www.euronews.com",
+          "url": "https://www.euronews.com/tag/politics?p=9"
+        },
+        {
+          "title": "www.euronews.com",
+          "url": "https://www.euronews.com/index.php/tag/news?p=116"
+        }
+      ]
+    },
+    {
+      "query": "Iran foreign minister conditions end war talks November 21 2026 sanctions oil trustees",
+      "results": [
+        {
+          "title": "Iran says held talks with Qatari mediators, urges US to accept conditions",
+          "url": "https://www.aljazeera.com/news/2026/11/21/iran-says-held-talks-with-qatari-mediators-urges-us-to-accept-conditions"
+        },
+        {
+          "title": "Iran says it downed US drones over Hormuz as bid to end war remains stalled",
+          "url": "https://aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled"
+        },
+        {
+          "title": "Iran signals readiness for talks but demands US lift restrictions",
+          "url": "https://www.iranintl.com/en/202611093244"
+        },
+        {
+          "title": "Live Updates: Trump says he wants \"permanent\" deal with Iran; warns next move may not come until 2027",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-tehran-denies-chemical-weapons/"
+        },
+        {
+          "title": "\"Still in state of war\": Iran's Deputy FM says Tehran prepared for diplomacy, blockade or military action with US - The Tribune",
+          "url": "https://www.tribuneindia.com/news/deputy-foreign-minister/still-in-state-of-war-irans-deputy-fm-says-tehran-prepared-for-diplomacy-blockade-or-military-action-with-us"
+        },
+        {
+          "title": "Bahrain says Iranian attack caused fire at industrial facility",
+          "url": "https://aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility"
+        },
+        {
+          "title": "Iran Tells Trump Sanctions and Military Strikes Cannot End War",
+          "url": "https://www.khaama.com/iran-araghchi-trump-sanctions-military-strikes-war/"
+        },
+        {
+          "title": "Islamabad Talks",
+          "url": "https://en.wikipedia.org/wiki/Islamabad_Talks"
+        },
+        {
+          "title": "What's happening with Iran-US 'talks'?",
+          "url": "https://gulfnews.com/amp/story/world/mena/whats-happening-with-iran-us-talks-1.500487598"
+        }
+      ]
+    },
+    {
+      "query": "Sudan RSF El Fasher Kordofan news November 2026",
+      "results": [
+        {
+          "title": "Sudan Army & Allies Advance Against RSF in West Kordofan",
+          "url": "https://sudantribune.com/article/321005"
+        },
+        {
+          "title": "Civil War in Sudan",
+          "url": "https://www.cfr.org/global-conflict-tracker/conflict/power-struggle-sudan"
+        },
+        {
+          "title": "Tijani Ibrahim Moussa Mohamed",
+          "url": "https://en.wikipedia.org/wiki/Tijani_Ibrahim_Moussa_Mohamed"
+        },
+        {
+          "title": "Rights monitor accuses Sudan’s RSF of killing civilians in West Kordofan - Sudan Tribune",
+          "url": "https://sudantribune.com/article/321517"
+        },
+        {
+          "title": "Darfur Joint Protection Force",
+          "url": "https://en.wikipedia.org/wiki/Darfur_Joint_Protection_Force"
+        },
+        {
+          "title": "Gedo Hamdan Ahmed",
+          "url": "https://en.wikipedia.org/wiki/Gedo_Hamdan_Ahmed"
+        },
+        {
+          "title": "List of massacres in Sudan",
+          "url": "https://en.wikipedia.org/wiki/List_of_massacres_in_Sudan"
+        },
+        {
+          "title": "Sudanese army says it seized 5 areas from RSF in West Kordofan",
+          "url": "https://aa.com.tr/en/middle-east/-sudanese-army-says-it-seized-5-areas-from-rsf-in-west-kordofan/4127044"
+        },
+        {
+          "title": "How SAF successes in Sudan’s Kordofan could turn tide against the RSF",
+          "url": "https://www.yahoo.com/news/world/articles/saf-successes-sudan-kordofan-could-124917651.html"
+        },
+        {
+          "title": "How SAF successes in Sudan’s Kordofan could turn tide against the RSF",
+          "url": "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf"
+        }
+      ]
+    },
+    {
+      "query": "Latin America news November 21 2026 Venezuela Brazil Mexico",
+      "results": [
+        {
+          "title": "Latin American Union of News Agencies",
+          "url": "https://en.wikipedia.org/wiki/Latin_American_Union_of_News_Agencies"
+        },
+        {
+          "title": "8th Summit of the Americas",
+          "url": "https://en.wikipedia.org/wiki/8th_Summit_of_the_Americas"
+        },
+        {
+          "title": "Latin America - Latest News",
+          "url": "https://www.breitbart.com/latin-america/"
+        },
+        {
+          "title": "Latin America mood: AI rout rattles a nervous continent",
+          "url": "https://riotimesonline.com/latin-american-pulse-for-saturday-november-21-2026"
+        },
+        {
+          "title": "Sitemap - 2017 - Latin America Daily Briefing",
+          "url": "https://latinamericadailybriefing.substack.com/sitemap/2017"
+        },
+        {
+          "title": "guides.lib.uconn.edu",
+          "url": "https://guides.lib.uconn.edu/Spanish/currentnews"
+        },
+        {
+          "title": "Sitemap - 2015 - Latin America Daily Briefing",
+          "url": "https://latinamericadailybriefing.substack.com/sitemap/2015"
+        },
+        {
+          "title": "Friday Reading List - 16 September 2022",
+          "url": "https://boz.substack.com/p/friday-reading-list-16-september"
+        },
+        {
+          "title": "Neither Global Leaders nor Local Residents Have a Narrative That Fits Today’s Venezuela",
+          "url": "https://live-zocalopublicsquare.ws.asu.edu/tag/latin-america-politics"
+        }
+      ]
+    },
+    {
+      "query": "NATO North Atlantic Council meeting November 23 Poland airspace Grynkewich",
+      "results": [
+        {
+          "title": "NATO Will Defend ‘Every Inch’ of Poland, Rutte Says Ahead of Monday Council Talks",
+          "url": "https://www.kyivpost.com/post/90841"
+        },
+        {
+          "title": "NATO to discuss Russian missiles’ violation of Polish airspace",
+          "url": "https://mezha.net/eng/news/mezha-cd95d43472a3a46c51ebb501_nato_to_discuss"
+        },
+        {
+          "title": "On November 23, NATO will hold meeting regarding incursion of Russian missiles into Poland: concrete proposals will be presented",
+          "url": "https://censor.net/en/news/4034973/on-november-23-nato-will-hold-meeting-regarding-incursion-of-russian-missiles-into-poland-concrete"
+        },
+        {
+          "title": "Rutte stated that NATO would defend every inch of Poland's territory",
+          "url": "https://unn.ua/en/news/rutte-stated-that-nato-would-defend-every-inch-of-polands-territory"
+        },
+        {
+          "title": "Poland to receive 'strong support' following new airspace violations",
+          "url": "https://www.rapporteur.com/news/poland-to-receive-strong-support-following-new-airspace-violations/"
+        },
+        {
+          "title": "NATO Will Defend ‘Every Inch’ of Poland, Rutte Says Ahead of Monday Council Talks - Bytes Europe",
+          "url": "https://www.byteseu.com/2538299/"
+        },
+        {
+          "title": "North Atlantic Council honours victims of Polish air crash",
+          "url": "https://www.nato.int/cps/en/natohq/news_62523.htm"
+        },
+        {
+          "title": "9995th Meeting (PM)",
+          "url": "https://press.un.org/en/2025/sc16168.doc.htm"
+        },
+        {
+          "title": "mil 250912 unsc03",
+          "url": "https://www.globalsecurity.org/military/library/news/2025/09/mil-250912-unsc03.htm"
+        },
+        {
+          "title": "Security Council",
+          "url": "https://media.un.org/avlibrary/en/asset/d344/d3447249"
+        }
+      ]
+    }
+  ],
+  "fetched": [],
+  "meta": {
+    "id": "2026-11-22",
+    "generated_at": "2026-11-22T11:24:14.166Z",
+    "model": "claude-opus-5-5",
+    "via": "claude-code-routine",
+    "searches": 16,
+    "results_count": 146,
+    "cited_count": 47
+  }
+}

@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-22",
+      "date": "Sunday, November 22, 2026",
+      "edition": "EVERY INCH",
+      "searches": 16,
+      "cited_count": 47,
+      "results_count": 146
+    },
+    {
       "id": "2026-11-21",
       "date": "Saturday, November 21, 2026",
       "edition": "CORRECTION",
