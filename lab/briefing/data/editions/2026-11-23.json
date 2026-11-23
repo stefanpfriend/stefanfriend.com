@@ -1,0 +1,1055 @@
+{
+  "date": "Monday, November 23, 2026",
+  "edition": "NO DEAL IN ANTALYA",
+  "tldr_label": "TL;DR: COP31 collapses without a deal for the first time since 2009, a Russian strike levels a Dymer apartment block, and futures rebound as Asia moves to prop ",
+  "tldr_bullets": [
+    {
+      "label": "Climate",
+      "body": "The EU, UK, Norway, Panama and island states rejected a final COP31 text that did not mention fossil fuels. The summit ended without a decision after the longest overrun on record. [[TAG:danger:collapse]]"
+    },
+    {
+      "label": "Ukraine",
+      "body": "A Russian drone strike on an apartment block in Dymer, Kyiv region, killed at least 11. Zelensky urged the US to release Patriot interceptors. [[TAG:danger:civilians]]"
+    },
+    {
+      "label": "Markets",
+      "body": "US stock futures rose 2% to 3% on Sunday evening after the worst week since 2020 for the Nasdaq 100. South Korea, China and Taiwan announced market-support steps. [[TAG:info:rebound]]"
+    },
+    {
+      "label": "Nvidia",
+      "body": "Trump urged Nvidia's board to rehire Jensen Huang, while Bessent said the government needs answers on chips reaching China. [[TAG:warning:board resists]]"
+    },
+    {
+      "label": "Israel",
+      "body": "Four hours of Likud-Yashar coalition talks ended without agreement. Eisenkot has until December 6 to form a government. [[TAG:warning:deadlock]]"
+    }
+  ],
+  "sections": [
+    {
+      "title": "COP31: Collapse",
+      "icon": "🌍",
+      "summary": "EU-led bloc rejects text silent on fossil fuels; first COP without a deal since 2009",
+      "paragraphs": [
+        {
+          "heading": "No Agreement",
+          "body": "CBS News and Al-Monitor, carrying Reuters, reported that COP31 ended Sunday without an agreement after the EU and others rejected the final text proposed by Turkey and Australia. RTE and CBC reported the text failed to mention fossil fuels. Yahoo, carrying AFP, called it the first such failure since 2009, and Newsbeep listed the UK, Norway, Panama and island states among those rejecting it. [[TAG:danger:no deal]]"
+        },
+        {
+          "heading": "Blame and Aftermath",
+          "body": "Business Standard reported a different account in which the EU, Russia and Arab states derailed the talks over fuel and climate finance. Developing-country officials accused the EU of backing away from finance commitments. Forbes said Turkey's grid and storage agenda now falls to utilities and lenders. Reuters-based reports said earlier COP commitments remain in force. [[TAG:warning:competing accounts]]"
+        }
+      ],
+      "sources": "CBS News, Al-Monitor, RTE, CBC, Yahoo, Newsbeep, Business Standard, Forbes",
+      "citations": [
+        {
+          "outlet": "CBS News",
+          "title": "U.N. COP31 climate conference ends with no agreement after fossil fuel debate reaches standstill",
+          "url": "https://www.cbsnews.com/news/un-cop31-climate-conference-ends-no-agreement-fossil-fuel-debate-standstill/"
+        },
+        {
+          "outlet": "Al-Monitor",
+          "title": "COP31 climate talks collapse as EU and others reject deal",
+          "url": "https://www.al-monitor.com/originals/2026/11/cop31-climate-talks-collapse-eu-and-others-reject-deal"
+        },
+        {
+          "outlet": "RTE",
+          "title": "COP31 climate talks collapse as EU and others reject deal",
+          "url": "https://www.rte.ie/news/world/2026/1122/1600166-cop31-turkey/"
+        },
+        {
+          "outlet": "CBC",
+          "title": "COP31 climate talks collapse after member states reject deal for not mentioning fossil fuels",
+          "url": "https://www.cbc.ca/news/world/cop31-talks-collapse-fossil-fuel-9.7431847"
+        },
+        {
+          "outlet": "Yahoo",
+          "title": "COP31 in Turkey collapses without deal as EU rejects text silent on fossil fuels",
+          "url": "https://www.yahoo.com/news/world/articles/cop31-turkey-collapses-without-deal-000618355.html"
+        },
+        {
+          "outlet": "Newsbeep",
+          "title": "COP31 Climate Summit That Could Not Say ‘Fossil Fuels’ Ends With No Deal",
+          "url": "https://www.newsbeep.com/us/926709/"
+        },
+        {
+          "outlet": "Business Standard",
+          "title": "EU, Russia and Arab states derail COP31 talks over fuel and climate finance",
+          "url": "https://www.business-standard.com/amp/world-news/cop31-climate-talks-collapse-eu-russia-arab-states-fossil-fuels-finance-126112300457_1.html"
+        },
+        {
+          "outlet": "Forbes",
+          "title": "Turkey Made COP31 An Energy Summit. Utilities And Lenders Must Now Deliver It",
+          "url": "https://www.forbes.com/sites/guneyyildiz/2026/11/22/turkey-made-cop31-an-energy-summit-utilities-and-lenders-must-now-deliver-it/"
+        }
+      ]
+    },
+    {
+      "title": "Ukraine: Dymer and the Deadline",
+      "icon": "🚨",
+      "summary": "Drone strike on Dymer apartment block kills 11; FT says US wants a deal by January",
+      "paragraphs": [
+        {
+          "heading": "Dymer",
+          "body": "Ukrinform reported the death toll from a Russian strike on an apartment block in Dymer, Kyiv region, rose to 11. Kyiv Post put weekend deaths in the region at 15, and Latin Times reported up to 15 residents missing. Al Jazeera reported that Zelensky urged the US to release Patriot missiles. Kyiv Post reported Zelensky saying Russia launched 2,700 drones and 165 missiles in the past week. [[TAG:danger:Kyiv region]]"
+        },
+        {
+          "heading": "January Push",
+          "body": "Kyiv Post, TVP World and the Jerusalem Post, citing the Financial Times, reported that the Trump administration wants a Ukraine-Russia peace deal by early January, before Democrats take control of Congress. The report relies on anonymous sources, and European officials worried it would require major Ukrainian concessions. There has been no official confirmation of the deadline. [[TAG:warning:unconfirmed]]"
+        }
+      ],
+      "sources": "Ukrinform, Kyiv Post, Latin Times, Al Jazeera, TVP World, Jerusalem Post",
+      "citations": [
+        {
+          "outlet": "Ukrinform",
+          "title": "Death toll from Russian strike on apartment building in Kyiv region's Dymer rises to 11",
+          "url": "https://www.ukrinform.net/rubric-ato/4187563-death-toll-from-russian-strike-on-apartment-building-in-kyiv-regions-dymer-rises-to-11.html"
+        },
+        {
+          "outlet": "Kyiv Post",
+          "title": "Russian Strikes Kill 15 in Kyiv Region as Rescuers Search Rubble for Survivors",
+          "url": "https://kyivpost.com/post/90880"
+        },
+        {
+          "outlet": "Latin Times",
+          "title": "Rescuers Search for Up to 15 Missing Residents After Russian Drone Strike Hits Ukrainian Apartment Block",
+          "url": "https://www.latintimes.com/russian-drone-strike-dymer-apartment-building-601693"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Ukraine urges US to release Patriot missiles as Russian strikes kill 15",
+          "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles"
+        },
+        {
+          "outlet": "Kyiv Post",
+          "title": "Russia Launched 2,700 Drones, 165 Missiles in Past Week, Zelensky Says",
+          "url": "https://www.kyivpost.com/post/90844"
+        },
+        {
+          "outlet": "Kyiv Post",
+          "title": "Trump Seeks Ukraine Peace Deal Before Democrats Take Over Congress",
+          "url": "https://www.kyivpost.com/post/90759"
+        },
+        {
+          "outlet": "TVP World",
+          "title": "Trump wants Ukraine peace deal before Democrats take control of Congress",
+          "url": "https://tvpworld.com/96596270/trump-pushes-for-ukraine-peace-deal-by-january-ft-reports"
+        },
+        {
+          "outlet": "Jerusalem Post",
+          "title": "Donald Trump pushes Ukraine-Russia peace deal by January before Democrats take Congress",
+          "url": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-915625"
+        }
+      ]
+    },
+    {
+      "title": "NATO: Poland's Ask",
+      "icon": "🛡️",
+      "summary": "Warsaw seeks more Eastern Sentry assets as allies meet Monday",
+      "paragraphs": [
+        {
+          "heading": "The Request",
+          "body": "United24 reported that Poland requested extra NATO forces under the Eastern Sentry mission after the airspace violation. Latin Times reported Warsaw is seeking more air-defense support but stopped short of formally triggering Article 4. Rapporteur reported Poland will receive strong support from allies. [[TAG:info:Eastern Sentry]]"
+        },
+        {
+          "heading": "Background",
+          "body": "NATO launched Eastern Sentry in September 2025, after Poland requested Article 4 consultations over Russian drones. Al Jazeera reported that analysts see direct confrontation with Russia as unlikely. Allied talks on Poland's proposals are expected Monday. [[TAG:warning:Monday]]"
+        }
+      ],
+      "sources": "United24, Latin Times, Rapporteur, NATO, Al Jazeera",
+      "citations": [
+        {
+          "outlet": "United24",
+          "title": "Poland Requests Extra NATO Forces Under Eastern Sentry Mission After Airspace Violation",
+          "url": "https://united24media.com/world/poland-requests-extra-nato-forces-under-eastern-sentry-mission-after-airspace-violation-24576"
+        },
+        {
+          "outlet": "Latin Times",
+          "title": "Three Russian weapons reportedly crashed in Poland during a mass strike on Ukraine. Warsaw is seeking more NATO air-defense support.",
+          "url": "https://www.latintimes.com/russian-weapons-crash-poland-nato-article-4-601654"
+        },
+        {
+          "outlet": "Rapporteur",
+          "title": "Poland to receive 'strong support' following new airspace violations",
+          "url": "https://www.rapporteur.com/news/poland-to-receive-strong-support-following-new-airspace-violations/"
+        },
+        {
+          "outlet": "NATO",
+          "title": "NATO launches “Eastern Sentry” to bolster posture along eastern flank",
+          "url": "https://www.nato.int/cps/en/natohq/news_237601.htm"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Russian missiles hit Poland: What happened, and could NATO respond?",
+          "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond"
+        }
+      ]
+    },
+    {
+      "title": "Markets: Bounce and Backstops",
+      "icon": "📈",
+      "summary": "US futures rebound 2% to 3%; Seoul, Beijing and Taipei roll out market supports",
+      "paragraphs": [
+        {
+          "heading": "Futures Rebound",
+          "body": "CNBC reported that Nasdaq 100 futures rose about 3% as trading opened Sunday evening, kicking off a holiday-shortened week after the tech rout. Yahoo Finance reported Nvidia futures up about 6% and S&P 500 futures up about 2%, though figures varied by source and time. Investing.com reported Bessent's comments on the Nvidia probe as a market driver. [[TAG:success:rebound]]"
+        },
+        {
+          "heading": "Asia Steps In",
+          "body": "CNBC and Investing.com reported that South Korea announced emergency measures including preparations for a market support fund, China's exchanges eased margin financing rules, and Taiwan tightened short-selling rules. CNBC reported Korea's Kospi fell as much as 5% early Monday. Longbridge reported Tokyo was closed for a holiday. ABC Australia reported that the ASX also fell. [[TAG:warning:intervention]]"
+        }
+      ],
+      "sources": "CNBC, Yahoo Finance, Investing.com, Longbridge, ABC Australia",
+      "citations": [
+        {
+          "outlet": "CNBC",
+          "title": "Nasdaq 100 futures rebound sharply to rise 3%, kick-starting shortened week after tech rout: Live updates",
+          "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Green Week Ahead? Nvidia Futures Rip 6%, Nasdaq and S&P 500 Futures Snap Back 2%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/green-week-ahead-nvidia-futures-060000363.html"
+        },
+        {
+          "outlet": "Investing.com",
+          "title": "Futures bounce after AI selloff; Bessent on Nvidia probe - what’s moving markets",
+          "url": "https://za.investing.com/news/economy-news/futures-bounce-after-ai-selloff-bessent-on-nvidia-probe--whats-moving-markets-4591507"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "How Asian countries are looking to prop up markets as AI downturn sinks stocks",
+          "url": "https://www.cnbc.com/2026/11/23/asia-markets-kospi-taiwan-china-csi300.html"
+        },
+        {
+          "outlet": "Investing.com",
+          "title": "Asian countries take steps to aid stock markets after AI rout",
+          "url": "https://www.investing.com/news/stock-market-news/asian-countries-take-steps-to-aid-stock-markets-after-ai-rout-5044034"
+        },
+        {
+          "outlet": "Longbridge",
+          "title": "ASIA MARKET OPEN",
+          "url": "https://longbridge.com/en/news/306418556"
+        },
+        {
+          "outlet": "ABC Australia",
+          "title": "Wall St crashes to correction territory and ASX falls — as it happened",
+          "url": "https://abc.net.au/news/2026-11-23/asx-markets-business-live-news-november-23/107414602"
+        }
+      ]
+    },
+    {
+      "title": "Nvidia: The Huang Question",
+      "icon": "💾",
+      "summary": "Trump urges board to rehire Huang; Bessent wants answers on chips to China",
+      "paragraphs": [
+        {
+          "heading": "Trump's Plea",
+          "body": "The National and IBTimes reported that Trump called on Nvidia's board to rehire Jensen Huang, calling it the best thing for the USA. The board has said it will not reinstate him. [[TAG:warning:board resists]]"
+        },
+        {
+          "heading": "Bessent",
+          "body": "CBS News reported that Bessent said the government needs answers on Nvidia's role in AI chips reaching China, and described the Alice Huang allegations as kind of a canard. TheWrap and NewsNation also covered his remarks. Commentators differ on whether he opened the door to Huang's return; he did not explicitly endorse it. [[TAG:info:mixed signals]]"
+        }
+      ],
+      "sources": "The National, IBTimes, CBS News, TheWrap, NewsNation",
+      "citations": [
+        {
+          "outlet": "The National",
+          "title": "Trump calls on Nvidia board to rehire Jensen Huang after scandal",
+          "url": "https://www.thenationalnews.com/news/us/2026/11/23/trump-calls-on-nvidia-board-to-rehire-jensen-huang-after-scandal/"
+        },
+        {
+          "outlet": "IBTimes",
+          "title": "'Best Thing for the USA': Trump Issues Extraordinary NVIDIA Plea as He Calls on Board to Rehire Jensen Huang",
+          "url": "https://www.ibtimes.co.uk/trump-urges-nvidia-reinstate-jensen-huang-1834013"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Bessent says we \"need answers\" on role Nvidia played in sending AI chips to China, suggests Alice Huang is \"kind of a canard\"",
+          "url": "https://www.cbsnews.com/news/bessent-nvidia-china-ai-chips-alice-huang-canard/"
+        },
+        {
+          "outlet": "TheWrap",
+          "title": "Scott Bessent on Jensen Huang’s possible Nvidia return",
+          "url": "https://www.thewrap.com/industry-news/tech/scott-bessent-jensen-huang-nvidia-return-alleged-spy/"
+        },
+        {
+          "outlet": "NewsNation",
+          "title": "Nvidia's Jensen Huang didn't come up during China talks: Treasury Secretary Scott Bessent",
+          "url": "https://www.newsnationnow.com/politics/nvidia-jensen-huang-china-talks-trump/"
+        }
+      ]
+    },
+    {
+      "title": "Gulf: Attacks Up, Oil Down",
+      "icon": "🛢️",
+      "summary": "Hormuz attacks hit wartime high and flows fall 15%, yet Brent slides on surplus",
+      "paragraphs": [
+        {
+          "heading": "Escalation",
+          "body": "Yahoo reported that Iranian attacks in the Strait of Hormuz are at their highest level since the conflict began, and Al Jazeera examined what is behind the escalation. ABC News reported that Tehran said the strait will be safe if its demands are met. Many specific attack claims come from the IRGC and remain unverified. [[TAG:danger:escalation]]"
+        },
+        {
+          "heading": "The Oil Paradox",
+          "body": "AGBI reported that Hormuz shipments dropped as attacks increased, citing Vortexa estimates of a roughly 15% fall to about 10.2 million barrels a day. Oilprice.com and Oil and Gas Middle East reported that Brent nonetheless fell for a third week as returning Gulf barrels and surplus forecasts weighed on prices. Flow estimates vary by source. [[TAG:info:surplus]]"
+        }
+      ],
+      "sources": "Yahoo, Al Jazeera, ABC News, AGBI, Oilprice.com, Oil and Gas Middle East",
+      "citations": [
+        {
+          "outlet": "Yahoo",
+          "title": "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began",
+          "url": "https://www.yahoo.com/news/world/articles/iranian-attacks-strait-hormuz-highest-151328519.html"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "What’s behind Iran’s escalation of attacks in the Gulf?",
+          "url": "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Iran live updates: Tehran says Strait of Hormuz will be safe if its demands are met",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648"
+        },
+        {
+          "outlet": "AGBI",
+          "title": "Hormuz oil shipments drop while vessel attacks increase",
+          "url": "https://www.agbi.com/oil-and-gas/2026/11/hormuz-oil-shipments-drop-while-vessel-attacks-increase/"
+        },
+        {
+          "outlet": "Oilprice.com",
+          "title": "Tankers Are Being Hit Daily. So Why Is Oil Falling?",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Tankers-Are-Being-Hit-Daily-So-Why-Is-Oil-Falling.html"
+        },
+        {
+          "outlet": "Oil and Gas Middle East",
+          "title": "Why oil prices are falling: Brent’s third weekly drop as Gulf barrels return despite Hormuz attacks",
+          "url": "https://www.oilandgasmiddleeast.com/news/why-oil-prices-are-falling"
+        }
+      ]
+    },
+    {
+      "title": "Israel and Gaza",
+      "icon": "⚖️",
+      "summary": "Likud-Yashar talks end without deal; Gaza protests as strikes and winter rains continue",
+      "paragraphs": [
+        {
+          "heading": "Coalition",
+          "body": "i24NEWS, JNS and the Japan Times reported that four hours of coalition talks between Eisenkot's Yashar and Netanyahu's Likud ended without a breakthrough, though the sides agreed to keep talking. Eisenkot has until December 6 to form a government. [[TAG:warning:deadlock]]"
+        },
+        {
+          "heading": "Gaza",
+          "body": "Al Jazeera reported that displaced Palestinians protested as Israeli air strikes continued in Gaza. UN News reported that winter rains are deepening the crisis amid restricted access and aid cuts. [[TAG:danger:humanitarian]]"
+        }
+      ],
+      "sources": "i24NEWS, JNS, Japan Times, Al Jazeera, UN News",
+      "citations": [
+        {
+          "outlet": "i24NEWS",
+          "title": "Eisenkot's Yashar and Netanyahu's Likud conclude second round of coalition talks without breakthrough",
+          "url": "https://www.i24news.tv/en/news/israel/politics/artc-eisenkot-s-yashar-and-netanyahu-s-likud-conclude-second-round-of-coalition-talks-without-breakthrough"
+        },
+        {
+          "outlet": "JNS",
+          "title": "Likud, Yashar fail to reach agreement in four-hour coalition talks",
+          "url": "https://www.jns.org/news/israel-news/likud-yashar-fail-to-reach-agreement-in-four-hour-coalition-talks"
+        },
+        {
+          "outlet": "Japan Times",
+          "title": "Netanyahu, Eisenkot parties end talks without deal on forming Israel government",
+          "url": "https://www.japantimes.co.jp/news/2026/11/23/world/politics/netanyahu-eisenkot-talks-israel-government/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Displaced Palestinians protest as Israeli air strikes continue in Gaza",
+          "url": "https://aljazeera.com/news/2026/11/22/displaced-palestinians-protest-as-israeli-air-strikes-continue-in-gaza"
+        },
+        {
+          "outlet": "UN News",
+          "title": "Winter rains deepen Gaza crisis amid restricted access and aid cuts",
+          "url": "https://news.un.org/en/story/2026/11/1168821"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "query": "COP31 Antalya outcome deal adopted November 22 2026",
+      "results": [
+        {
+          "title": "U.N. COP31 climate conference ends with no agreement after fossil fuel debate reaches standstill - CBS News",
+          "url": "https://www.cbsnews.com/news/un-cop31-climate-conference-ends-no-agreement-fossil-fuel-debate-standstill/"
+        },
+        {
+          "title": "COP31 climate talks collapse as EU and others reject deal - AL-MONITOR: The Middle Eastʼs leading independent news source since 2012",
+          "url": "https://www.al-monitor.com/originals/2026/11/cop31-climate-talks-collapse-eu-and-others-reject-deal"
+        },
+        {
+          "title": "COP31 Ends Without a Deal: What Happened in Antalya and What Comes Next",
+          "url": "https://aroundprague.cz/en/news/world/cop31-ends-without-a-deal-what-happened-in-antalya-and-what-comes-next"
+        },
+        {
+          "title": "2026 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
+        },
+        {
+          "title": "2027 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2027_United_Nations_Climate_Change_Conference"
+        },
+        {
+          "title": "Turkey Made COP31 An Energy Summit. Utilities And Lenders Must Now Deliver It",
+          "url": "https://www.forbes.com/sites/guneyyildiz/2026/11/22/turkey-made-cop31-an-energy-summit-utilities-and-lenders-must-now-deliver-it/"
+        },
+        {
+          "title": "BREAKING: COP31 Climate Summit That Could Not Say ‘Fossil Fuels’ Ends With No Deal - United States News Beep",
+          "url": "https://www.newsbeep.com/us/926709/"
+        },
+        {
+          "title": "pmnch.who.int",
+          "url": "https://pmnch.who.int/news-and-events/events/item/2026/10/09/default-calendar/cop31"
+        },
+        {
+          "title": "As Türkiye Prepares to Host COP31, A Look Back at COP30’s Key Outcomes",
+          "url": "https://turkiye.un.org/en/node/307475"
+        }
+      ]
+    },
+    {
+      "query": "Asian markets Monday November 23 2026 stocks Nikkei",
+      "results": [
+        {
+          "title": "Asia Stock Indices: Japan 225 (Nikkei), NIFTY 50 — TradingView",
+          "url": "https://www.tradingview.com/markets/indices/quotes-asia/"
+        },
+        {
+          "title": "Asian Financial Markets - Investing.com",
+          "url": "https://www.investing.com/markets/asia-pacific"
+        },
+        {
+          "title": "Asian Pacific Stocks - Bloomberg - Bloomberg Markets",
+          "url": "https://www.bloomberg.com/markets/stocks/world-indexes/asia-pacific"
+        },
+        {
+          "title": "Asian markets extend losses after Wall Street selloff; U.S. futures rebound (EWJ:NYSEARCA)",
+          "url": "https://seekingalpha.com/news/4675422-asian-markets-extend-losses-after-wall-street-selloff-us-futures-rebound"
+        },
+        {
+          "title": "Indices of the Asian markets",
+          "url": "https://in.tradingview.com/markets/indices/quotes-asia/"
+        },
+        {
+          "title": "ASIA MARKET OPEN",
+          "url": "https://longbridge.com/en/news/306418556"
+        },
+        {
+          "title": "Asia Stock Markets Today: Nikkei, Hang Seng, Shanghai & KOSPI",
+          "url": "https://liveworldmarket.com/asia-stock-market-dashboard"
+        },
+        {
+          "title": "asian markets close mixed nikkei surges 1 8 hang seng dips 1 6",
+          "url": "https://www.newsonair.gov.in/asian-markets-close-mixed-nikkei-surges-1-8-hang-seng-dips-1-6"
+        },
+        {
+          "title": "asian and european stock markets close mixed today",
+          "url": "https://newsonair.gov.in/asian-and-european-stock-markets-close-mixed-today"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Russia news November 22 2026",
+      "results": [
+        {
+          "title": "Ukraine News Today",
+          "url": "https://en.wikipedia.org/wiki/Ukraine_News_Today"
+        },
+        {
+          "title": "Ukrainian National News",
+          "url": "https://en.wikipedia.org/wiki/Ukrainian_National_News"
+        },
+        {
+          "title": "Ukraine News today - Latest news & Video",
+          "url": "https://newsukraine.rbc.ua/"
+        },
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.co.uk/h/World+News/Europe/Eastern+Europe/Ukraine"
+        },
+        {
+          "title": "Ukraine-Russia: Latest news about the invasion and conflict - CBS News",
+          "url": "https://www.cbsnews.com/ukraine-crisis/"
+        },
+        {
+          "title": "War in Ukraine",
+          "url": "https://www.kyivpost.com/topic/war-in-ukraine"
+        },
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.com/us/World/Europe/Eastern+Europe/Ukraine"
+        },
+        {
+          "title": "Full Episode",
+          "url": "https://www.pbs.org/newshour/tag/ukraine/page/52"
+        },
+        {
+          "title": "www.pbs.org",
+          "url": "https://www.pbs.org/newshour/classroom/tag/russia?page=4"
+        }
+      ]
+    },
+    {
+      "query": "Eisenkot Likud coalition talks outcome November 22 2026",
+      "results": [
+        {
+          "title": "Eisenkot's Yashar and Netanyahu's Likud conclude second round of coalition talks without breakthrough - i24NEWS",
+          "url": "https://www.i24news.tv/en/news/israel/politics/artc-eisenkot-s-yashar-and-netanyahu-s-likud-conclude-second-round-of-coalition-talks-without-breakthrough"
+        },
+        {
+          "title": "Likud, Yashar fail to reach agreement in four-hour coalition talks - Israel & Jewish News - JNS",
+          "url": "https://www.jns.org/news/israel-news/likud-yashar-fail-to-reach-agreement-in-four-hour-coalition-talks"
+        },
+        {
+          "title": "Netanyahu, Eisenkot parties end talks without deal on forming Israel government - The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/23/world/politics/netanyahu-eisenkot-talks-israel-government/"
+        },
+        {
+          "title": "Netanyahu, Eisenkot parties end talks without deal on forming Israel govt",
+          "url": "https://www.arabnews.jp/en/middle-east/netanyahu-eisenkot-parties-end-talks-without-deal-on-forming-israel-govt-3001574"
+        },
+        {
+          "title": "Netanyahu, Eisenkot parties end coalition talks in deadlock - Tribune Online",
+          "url": "https://tribuneonlineng.com/netanyahu-eisenkot-parties-end-coalition-talks-in-deadlock/"
+        },
+        {
+          "title": "Likud, Yashar fail to reach agreement in four-hour coalition talks - Israel Today",
+          "url": "https://www.israeltoday.co.il/read/likud-yashar-fail-to-reach-agreement-in-four-hour-coalition-talks"
+        },
+        {
+          "title": "2018%E2%80%932022 Israeli political crisis",
+          "url": "https://en.wikipedia.org/wiki/2018%E2%80%932022_Israeli_political_crisis"
+        },
+        {
+          "title": "Netanyahu-Eisenkot Coalition Talks End Without Agreement",
+          "url": "https://en.didpress.com/40872/"
+        },
+        {
+          "title": "Israel Coalition Talks Between Likud and Yashar End Deadlocked",
+          "url": "https://streamlinefeed.co.ke/news/israel-coalition-talks-between-likud-and-yashar-end-deadlocked"
+        }
+      ]
+    },
+    {
+      "query": "Russian attack Ukraine overnight November 22 2026 drones missiles killed",
+      "results": [
+        {
+          "title": "Russia launches massive missile and drone attack on Ukraine, killing at least 8",
+          "url": "https://www.wtkr.com/politics/russia/russia-launches-massive-missile-and-drone-attack-on-ukraine-killing-at-least-8"
+        },
+        {
+          "title": "Russia launches massive missile and drone attack on Ukraine, killing at least 8",
+          "url": "https://www.10news.com/politics/russia/russia-launches-massive-missile-and-drone-attack-on-ukraine-killing-at-least-8"
+        },
+        {
+          "title": "Russia launches massive missile and drone attack on Ukraine, killing at least 8",
+          "url": "https://www.wcpo.com/politics/russia/russia-launches-massive-missile-and-drone-attack-on-ukraine-killing-at-least-8"
+        },
+        {
+          "title": "Russia launches massive missile and drone attack on Ukraine, killing at least 8",
+          "url": "https://www.newschannel5.com/politics/russia/russia-launches-massive-missile-and-drone-attack-on-ukraine-killing-at-least-8"
+        },
+        {
+          "title": "Russia launches massive missile and drone attack on Ukraine, killing at least 8",
+          "url": "https://www.nbc26.com/politics/russia/russia-launches-massive-missile-and-drone-attack-on-ukraine-killing-at-least-8"
+        },
+        {
+          "title": "Russia launches massive missile and drone attack on Ukraine, killing at least 8",
+          "url": "https://www.kbzk.com/politics/russia/russia-launches-massive-missile-and-drone-attack-on-ukraine-killing-at-least-8"
+        },
+        {
+          "title": "Russian Strikes Kill 12 Near Kyiv as Rescuers Search Rubble",
+          "url": "https://www.hngn.com/articles/273931/20261122/russian-strikes-kill-12-near-kyiv-rescuers-search-rubble.htm"
+        },
+        {
+          "title": "Russian drone, cruise missile and bomb attacks kill at least 6 in Ukraine",
+          "url": "https://www.yahoo.com/news/russian-drone-cruise-missile-attacks-083640589.html"
+        },
+        {
+          "title": "August 21, 2025 2:31 PM",
+          "url": "https://www.newsonair.gov.in/the-ukrainian-air-force-claimed-that-russia-launched-574-drones-and-40-missiles-overnight"
+        }
+      ]
+    },
+    {
+      "query": "NATO emergency council Poland November 23 2026 Eastern Sentry",
+      "results": [
+        {
+          "title": "NATO launches “Eastern Sentry” to bolster posture along eastern flank",
+          "url": "https://www.nato.int/cps/en/natohq/news_237601.htm"
+        },
+        {
+          "title": "Russian missiles hit Poland: What happened, and could NATO respond?",
+          "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond"
+        },
+        {
+          "title": "Poland Requests Extra NATO Forces Under Eastern Sentry Mission After Airspace Violation — UNITED24 Media",
+          "url": "https://united24media.com/world/poland-requests-extra-nato-forces-under-eastern-sentry-mission-after-airspace-violation-24576"
+        },
+        {
+          "title": "Three Russian weapons reportedly crashed in Poland during a mass strike on Ukraine. Warsaw is seeking more NATO air-defense support.",
+          "url": "https://www.latintimes.com/russian-weapons-crash-poland-nato-article-4-601654"
+        },
+        {
+          "title": "Poland to receive 'strong support' following new airspace violations",
+          "url": "https://www.rapporteur.com/news/poland-to-receive-strong-support-following-new-airspace-violations/"
+        },
+        {
+          "title": "East Front News #121: Russian drone and missiles hit Poland - Bytes Europe",
+          "url": "https://www.byteseu.com/2540064/"
+        },
+        {
+          "title": "mil 250912 pl mfa03",
+          "url": "https://www.globalsecurity.org/military/library/news/2025/09/mil-250912-pl-mfa03.htm"
+        },
+        {
+          "title": "mil 250918 latvia mod02",
+          "url": "https://www.globalsecurity.org/military/library/news/2025/09/mil-250918-latvia-mod02.htm"
+        },
+        {
+          "title": "NATO MULTIMEDIA ACCOUNT",
+          "url": "https://www.nato.int/en/news-and-events/events/transcripts/2025/09/12/joint-press-conference"
+        }
+      ]
+    },
+    {
+      "query": "stock futures Sunday November 22 2026 Nvidia rebound week ahead",
+      "results": [
+        {
+          "title": "Green Week Ahead? Nvidia Futures Rip 6%, Nasdaq and S&P 500 Futures Snap Back 2%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/green-week-ahead-nvidia-futures-060000363.html"
+        },
+        {
+          "title": "Futures bounce after AI selloff; Bessent on Nvidia probe - what’s moving markets By Investing.com",
+          "url": "https://za.investing.com/news/economy-news/futures-bounce-after-ai-selloff-bessent-on-nvidia-probe--whats-moving-markets-4591507"
+        },
+        {
+          "title": "Nasdaq 100 futures rebound sharply to rise 3%, kick-starting shortened week after tech rout: Live updates",
+          "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+        },
+        {
+          "title": "Green Week Ahead? Nvidia Futures Rip 6%, Nasdaq and S&P 500 Futures Snap Back 2%",
+          "url": "https://biztoc.com/x/44dfc0dcb625705a"
+        },
+        {
+          "title": "Green Week Ahead? Nvidia Futures Rip 6%, Nasdaq and S&P 500 Futures Snap Back 2%",
+          "url": "https://beincrypto.com/nvidia-futures-rip-as-markets-rebound/"
+        },
+        {
+          "title": "Dow Jones and US stock futures surge as Nasdaq 100 rebounds 3% after AI selloff",
+          "url": "https://beinsure.com/news/dow-jones-and-us-stock-futures-surge-as-nasdaq-100-rebounds/"
+        },
+        {
+          "title": "Nvidia’s selloff is spreading. How exposed is the crypto market?",
+          "url": "https://crypto.news/nvidias-selloff-is-spreading-how-exposed-is-the-crypto-market"
+        },
+        {
+          "title": "Wall Street Futures Rally as Nvidia Faces China Scrutiny and Yardeni Lowers S&P 500 Forecast: Dow Jones, S&P, Nasdaq",
+          "url": "https://uk.advfn.com/market-news/article/26691/wall-street-futures-rally-as-nvidia-faces-china-scrutiny-and-yardeni-lowers-sp-500-forecast-dow-jones-sp-nasdaq"
+        },
+        {
+          "title": "Stock Market Today: Is the Tech Sell-Off Over? Futures Point to a Rebound - CoinCentral",
+          "url": "https://coincentral.com/stock-market-today-is-the-tech-sell-off-over-futures-point-to-a-rebound/"
+        }
+      ]
+    },
+    {
+      "query": "Iran Hormuz news November 22 2026",
+      "results": [
+        {
+          "title": "Iran live updates: Tehran says Strait of Hormuz will be safe if its demands are met - ABC News",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648"
+        },
+        {
+          "title": "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began",
+          "url": "https://www.yahoo.com/news/world/articles/iranian-attacks-strait-hormuz-highest-151328519.html"
+        },
+        {
+          "title": "Trump says Tehran may be working on chemical or biological weapons as tension mounts",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
+        },
+        {
+          "title": "What’s behind Iran’s escalation of attacks in the Gulf?",
+          "url": "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf"
+        },
+        {
+          "title": "Hormuz News Today",
+          "url": "https://www.newsnow.com/us/World/Middle+East/Iran/Strait+of+Hormuz"
+        },
+        {
+          "title": "Morning news brief",
+          "url": "https://www.npr.org/2026/04/06/nx-s1-5771649/morning-news-brief"
+        },
+        {
+          "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
+          "url": "https://euronews.com/video/2026/04/08/europe-today-trump-backs-down-on-iran-again-as-hormuz-set-to-reopen-after-temporary-deal"
+        },
+        {
+          "title": "US‑Israel war on Iran, Day 18: Iran confirms security chief Ali Larijani killed",
+          "url": "https://gulfnews.com/uae/usisrael-war-with-iran-day-18-trump-pressures-allies-to-help-open-strait-of-hormuz-uae-briefly-closes-airspace-1.500476912"
+        },
+        {
+          "title": "morning news brief",
+          "url": "https://www.npr.org/2026/03/31/nx-s1-5759075/morning-news-brief"
+        }
+      ]
+    },
+    {
+      "query": "Trump Jensen Huang return Nvidia CEO call Bessent November 22 2026",
+      "results": [
+        {
+          "title": "Scott Bessent on Jensen Huang’s possible Nvidia return",
+          "url": "https://www.thewrap.com/industry-news/tech/scott-bessent-jensen-huang-nvidia-return-alleged-spy/"
+        },
+        {
+          "title": "Bessent Softens on Huang Return as Nvidia Board Resists - DEV Community",
+          "url": "https://dev.to/jimclydegm/bessent-softens-on-huang-return-as-nvidia-board-resists-1jaj"
+        },
+        {
+          "title": "U.S. Treasury Secretary Scott Bessent Just Delivered Great News to Former Nvidia CEO Jensen Huang. Should You Buy Nvidia Stock Before Nov. 25?",
+          "url": "https://www.fool.com/investing/2026/11/22/u-s-treasury-secretary-scott-bessent-just-delivered-great-news-to-former-nvidia-ceo-jensen-huang-should-you-buy-nvidia-stock-before-nov-25/"
+        },
+        {
+          "title": "Trump calls on Nvidia board to rehire Jensen Huang after scandal",
+          "url": "https://www.thenationalnews.com/news/us/2026/11/23/trump-calls-on-nvidia-board-to-rehire-jensen-huang-after-scandal/"
+        },
+        {
+          "title": "Bessent says we \"need answers\" on role Nvidia played in sending AI chips to China, suggests Alice Huang is \"kind of a canard\" - CBS News",
+          "url": "https://www.cbsnews.com/news/bessent-nvidia-china-ai-chips-alice-huang-canard/"
+        },
+        {
+          "title": "Nvidia's Jensen Huang didn't come up during China talks: Treasury Secretary Scott Bessent",
+          "url": "https://www.newsnationnow.com/politics/nvidia-jensen-huang-china-talks-trump/"
+        },
+        {
+          "title": "Bessent Softens on Jensen Huang. Can Nvidia Stock Finally Catch a Break?",
+          "url": "https://beincrypto.com/bessent-jensen-huang-nvidia-stock-outlook/"
+        },
+        {
+          "title": "'Best Thing for the USA': Trump Issues Extraordinary NVIDIA Plea as He Calls on Board to Rehire Jensen Huang",
+          "url": "https://www.ibtimes.co.uk/trump-urges-nvidia-reinstate-jensen-huang-1834013"
+        },
+        {
+          "title": "Updated Aug 27, 2025 - Business",
+          "url": "https://www.axios.com/2025/08/27/trump-nvidia-stake-bessent-interview"
+        },
+        {
+          "title": "dc.fortune.com",
+          "url": "https://dc.fortune.com/tag/jensen-huang/page/4"
+        }
+      ]
+    },
+    {
+      "query": "Dymer apartment strike Kyiv region November 22 2026 Patriot",
+      "results": [
+        {
+          "title": "Russia Launched 2,700 Drones, 165 Missiles in Past Week, Zelensky Says",
+          "url": "https://www.kyivpost.com/post/90844"
+        },
+        {
+          "title": "Ukraine urges US to release Patriot missiles as Russian strikes kill 15",
+          "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles"
+        },
+        {
+          "title": "Andrii Sybiha Urges Europe to Strip Moscow of War Resources After Deadly Dymer Strike",
+          "url": "https://www.kyivpost.com/post/90859"
+        },
+        {
+          "title": "Russian Strikes Kill 15 in Kyiv Region as Rescuers Search Rubble for Survivors",
+          "url": "https://kyivpost.com/post/90880"
+        },
+        {
+          "title": "Death toll from Russian strike on apartment building in Kyiv region's Dymer rises to 11",
+          "url": "https://www.ukrinform.net/rubric-ato/4187563-death-toll-from-russian-strike-on-apartment-building-in-kyiv-regions-dymer-rises-to-11.html"
+        },
+        {
+          "title": "Russian drone strike kills at least 11 in Kyiv Oblast apartment block",
+          "url": "https://www.dimsumdaily.hk/russian-drone-strike-kills-at-least-11-in-kyiv-oblast-apartment-block%EF%BF%BC/"
+        },
+        {
+          "title": "Rescuers Search for Up to 15 Missing Residents After Russian Drone Strike Hits Ukrainian Apartment Block",
+          "url": "https://www.latintimes.com/russian-drone-strike-dymer-apartment-building-601693"
+        },
+        {
+          "title": "April 2025 Russian attack on Kyiv",
+          "url": "https://en.wikipedia.org/wiki/April_2025_Russian_attack_on_Kyiv"
+        },
+        {
+          "title": "Russian Strikes Kill 12 Near Kyiv as Rescuers Search Rubble",
+          "url": "https://www.hngn.com/articles/273931/20261122/russian-strikes-kill-12-near-kyiv-rescuers-search-rubble.htm"
+        }
+      ]
+    },
+    {
+      "query": "COP31 collapse reaction EU Australia Turkey what next COP32",
+      "results": [
+        {
+          "title": "COP31 climate talks collapse as EU and others reject deal",
+          "url": "https://www.rte.ie/news/world/2026/1122/1600166-cop31-turkey/"
+        },
+        {
+          "title": "COP31 in Turkey collapses without deal as EU rejects text silent on fossil fuels",
+          "url": "https://www.yahoo.com/news/world/articles/cop31-turkey-collapses-without-deal-000618355.html"
+        },
+        {
+          "title": "COP31 climate talks collapse after member states reject deal for not mentioning fossil fuels",
+          "url": "https://www.cbc.ca/news/world/cop31-talks-collapse-fossil-fuel-9.7431847"
+        },
+        {
+          "title": "EU, Russia and Arab states derail COP31 talks over fuel and climate finance",
+          "url": "https://www.business-standard.com/amp/world-news/cop31-climate-talks-collapse-eu-russia-arab-states-fossil-fuels-finance-126112300457_1.html"
+        },
+        {
+          "title": "2026 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
+        },
+        {
+          "title": "Bitter disappointment, but not for me",
+          "url": "https://jaydelovell.substack.com/p/bitter-disappointment-but-not-for"
+        },
+        {
+          "title": "Once a sure thing, Australia's bid to host COP31 falters amid deadlock with Turkey",
+          "url": "https://www.aol.com/news/once-sure-thing-australias-bid-233415379.html"
+        },
+        {
+          "title": "It’s official: Turkey will be boss of COP31 climate talks",
+          "url": "https://www.yahoo.com/news/articles/official-turkey-boss-cop31-climate-000429079.html"
+        },
+        {
+          "title": "20251121 COP31 Presidency Modalities CLEAN AGREED",
+          "url": "https://unfccc.int/sites/default/files/resource/20251121_COP31_Presidency_Modalities-CLEAN-AGREED.pdf"
+        }
+      ]
+    },
+    {
+      "query": "Gaza news November 22 2026",
+      "results": [
+        {
+          "title": "Winter rains deepen Gaza crisis amid restricted access and aid cuts",
+          "url": "https://news.un.org/en/story/2026/11/1168821"
+        },
+        {
+          "title": "Gaza",
+          "url": "https://www.aljazeera.com/tag/gaza/"
+        },
+        {
+          "title": "Home Page",
+          "url": "https://www.ochaopt.org/"
+        },
+        {
+          "title": "Humanitarian Situation Report",
+          "url": "https://www.ochaopt.org/content/humanitarian-situation-report-18-november-2026"
+        },
+        {
+          "title": "Nov. 12: As coalition building ramps up, Haredi leaders said to be fielding multiple overtures",
+          "url": "https://www.timesofisrael.com/liveblog-november-12-2026/"
+        },
+        {
+          "title": "Displaced Palestinians protest as Israeli air strikes continue in Gaza",
+          "url": "https://aljazeera.com/news/2026/11/22/displaced-palestinians-protest-as-israeli-air-strikes-continue-in-gaza"
+        },
+        {
+          "title": "Gaza Now",
+          "url": "https://en.wikipedia.org/wiki/Gaza_Now"
+        },
+        {
+          "title": "Israeli strike on vehicle distributing food aid in Gaza kills three",
+          "url": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza"
+        },
+        {
+          "title": "Israeli strike on Gaza’s Nasser Hospital kills surgeon, five others",
+          "url": "https://www.aljazeera.com/news/2026/11/11/israeli-strikes-hit-tent-camp-as-five-killed-in-gaza"
+        },
+        {
+          "title": "Siege of Gaza City",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Gaza_City"
+        }
+      ]
+    },
+    {
+      "query": "Gulf tankers hit Hormuz oil flow drop Al Jazeera November 2026 Brent price",
+      "results": [
+        {
+          "title": "Tankers Are Being Hit Daily. So Why Is Oil Falling?",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Tankers-Are-Being-Hit-Daily-So-Why-Is-Oil-Falling.html"
+        },
+        {
+          "title": "Hormuz oil shipments drop while vessel attacks increase",
+          "url": "https://www.agbi.com/oil-and-gas/2026/11/hormuz-oil-shipments-drop-while-vessel-attacks-increase/"
+        },
+        {
+          "title": "Crude Oil Choppy as Strait of Hormuz Flows Fall and Traders Price In Renewed US-Iran Strikes - United Sta - Benzinga",
+          "url": "https://www.benzinga.com/markets/commodities/26/11/63516226/crude-oil-choppy-as-strait-of-hormuz-flows-fall-and-traders-price-in-renewed-us-iran-strikes"
+        },
+        {
+          "title": "Hormuz Tanker Attacks Disrupt Oil Flows, Prices Fall",
+          "url": "https://www.briefs.co/news/tanker-attacks-spike-in-hormuz-as-oil-flows-wobble-and-price/"
+        },
+        {
+          "title": "Tankers Burned Near Iran and Brent Still Fell. The Squeeze Moved to Gas and Stocks.",
+          "url": "https://geopoliticsunplugged.substack.com/p/tankers-burned-near-iran-and-brent"
+        },
+        {
+          "title": "Hormuz Tanker Attacks vs Sliding Crude Oil Prices",
+          "url": "https://commodity-board.com/hormuz-tanker-attacks-collide-with-sliding-crude-prices"
+        },
+        {
+          "title": "Why oil prices are falling: Brent’s third weekly drop as Gulf barrels return despite Hormuz attacks",
+          "url": "https://www.oilandgasmiddleeast.com/news/why-oil-prices-are-falling"
+        },
+        {
+          "title": "Why Oil Prices Are Falling While Hormuz Flows Sit at Half Capacity - Discovery Alert",
+          "url": "https://discoveryalert.com/analysis/oil-prices-hormuz-flows-surplus-november-2026/"
+        },
+        {
+          "title": "Hormuz Oil Flows Fall to 10 Million b/d in November 2026",
+          "url": "https://houseofsaud.com/hormuz-oil-volumes-fall-november-2026/"
+        }
+      ]
+    },
+    {
+      "query": "Africa news November 22 2026",
+      "results": [
+        {
+          "title": "News: U.S. and World News Headlines : NPR",
+          "url": "https://www.npr.org/sections/news/"
+        },
+        {
+          "title": "Africa News",
+          "url": "https://www.aljazeera.com/africa/"
+        },
+        {
+          "title": "2026 in Guinea",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Guinea"
+        },
+        {
+          "title": "2026 in the Central African Republic",
+          "url": "https://en.wikipedia.org/wiki/2026_in_the_Central_African_Republic"
+        },
+        {
+          "title": "2026 in Cameroon",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Cameroon"
+        },
+        {
+          "title": "2026 in the Gambia",
+          "url": "https://en.wikipedia.org/wiki/2026_in_the_Gambia"
+        },
+        {
+          "title": "2026 in Gabon",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Gabon"
+        },
+        {
+          "title": "2026 in Burkina Faso",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Burkina_Faso"
+        },
+        {
+          "title": "Top Stories",
+          "url": "https://www.enca.com/"
+        },
+        {
+          "title": "Africanews",
+          "url": "https://www.africanews.com/"
+        }
+      ]
+    },
+    {
+      "query": "Trump Ukraine peace deal before January FT November 2026",
+      "results": [
+        {
+          "title": "Trump Seeks Ukraine Peace Deal Before Democrats Take Over Congress",
+          "url": "https://www.kyivpost.com/post/90759"
+        },
+        {
+          "title": "Trump wants Ukraine peace deal before Democrats take control of Congress",
+          "url": "https://tvpworld.com/96596270/trump-pushes-for-ukraine-peace-deal-by-january-ft-reports"
+        },
+        {
+          "title": "\"Trump Wants Ukraine War End Deal Reached by Early January Next Year\"",
+          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008856560"
+        },
+        {
+          "title": "Donald Trump pushes Ukraine-Russia peace deal by January before Democrats take Congress",
+          "url": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-915625"
+        },
+        {
+          "title": "Trump Pushes Ukraine-Russia Peace Deal Before January",
+          "url": "https://ukrainetoday.org/trump-wants-ukraine-russia-peace-deal-before-january-ft/"
+        },
+        {
+          "title": "Trump wants Ukraine peace deal by early January before Democrats take Congress: Report - Türkiye Today",
+          "url": "https://www.turkiyetoday.com/world/trump-wants-ukraine-peace-deal-by-early-january-before-democrats-take-congress-report-3232893"
+        },
+        {
+          "title": "Donald Trump Is Pressing Ukraine to Strike a Peace Deal With Russia",
+          "url": "https://www.archyde.com/donald-trump-is-pressing-ukraine-to-strike-a-peace-deal-with-russia/"
+        },
+        {
+          "title": "Trump Pushes for Ukraine Peace Deal by January Before Democrats Control Congress - World Today Journal",
+          "url": "https://world-today-journal.com/trump-pushes-for-ukraine-peace-deal-by-january-before-democrats-control-congress/"
+        },
+        {
+          "title": "Trump: We are \"closer than ever\" to a Russia-Ukraine peace deal",
+          "url": "https://www.axios.com/2025/12/28/trump-putin-zelensky-ukraine-russia-peace"
+        }
+      ]
+    },
+    {
+      "query": "Asia news November 22 2026 China Japan Korea Taiwan",
+      "results": [
+        {
+          "title": "CNN International Asia Pacific",
+          "url": "https://en.wikipedia.org/wiki/CNN_International_Asia_Pacific"
+        },
+        {
+          "title": "Nikkei Asia - Business, Politics, Economy and Tech News & Analysis",
+          "url": "https://asia.nikkei.com/"
+        },
+        {
+          "title": "East Asia",
+          "url": "https://en.wikipedia.org/wiki/East_Asia"
+        },
+        {
+          "title": "How Asian countries are looking to prop up markets as AI downturn sinks stocks",
+          "url": "https://www.cnbc.com/2026/11/23/asia-markets-kospi-taiwan-china-csi300.html"
+        },
+        {
+          "title": "Asian countries take steps to aid stock markets after AI rout By Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/asian-countries-take-steps-to-aid-stock-markets-after-ai-rout-5044034"
+        },
+        {
+          "title": "+153%, +54%, +47%: Asia’s AI rout deepens. 3 AI-picked stocks still well ahead By Investing.com",
+          "url": "https://investing.com/news/stock-market-news/153-54-47-asias-ai-rout-deepens-3-aipicked-stocks-still-well-ahead-5044440"
+        },
+        {
+          "title": "Wall St crashes to correction territory and ASX falls — as it happened - ABC News",
+          "url": "https://abc.net.au/news/2026-11-23/asx-markets-business-live-news-november-23/107414602"
+        },
+        {
+          "title": "• A Program of Columbia University",
+          "url": "https://exeas.weai.columbia.edu/links-news-media"
+        },
+        {
+          "title": "Asia security Asia security",
+          "url": "https://www.npr.org/tags/1022871265/asia-security"
+        }
+      ]
+    }
+  ],
+  "fetched": [],
+  "meta": {
+    "id": "2026-11-23",
+    "generated_at": "2026-11-23T11:24:13.846Z",
+    "model": "claude-opus-5-5",
+    "via": "claude-code-routine",
+    "searches": 16,
+    "results_count": 145,
+    "cited_count": 44
+  }
+}
