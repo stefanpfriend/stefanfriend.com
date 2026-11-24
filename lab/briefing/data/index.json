@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-24",
+      "date": "Tuesday, November 24, 2026",
+      "edition": "HUANG RETURNS",
+      "searches": 16,
+      "cited_count": 49,
+      "results_count": 149
+    },
+    {
       "id": "2026-11-23",
       "date": "Monday, November 23, 2026",
       "edition": "NO DEAL IN ANTALYA",
