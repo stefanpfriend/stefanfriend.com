@@ -1,0 +1,1053 @@
+{
+  "date": "Wednesday, November 25, 2026",
+  "edition": "RALLY FADES",
+  "tldr_label": "TL;DR: Chip stocks give back the Huang rally and Asia slides again, Washington readies tariffs on 16 economies, and Putin calls retaliation for refinery strikes",
+  "tldr_bullets": [
+    {
+      "label": "Markets",
+      "body": "The Nasdaq fell 1.5% on Tuesday while the Dow closed back above 50,000. Kospi fell about 6% and Taiwan about 5% on Wednesday, ahead of today's PCE inflation report. [[TAG:danger:chip selloff]]"
+    },
+    {
+      "label": "Nvidia",
+      "body": "Nvidia fell about 6% a day after its 31% jump, and the semiconductor index dropped nearly 8%. Huang faces congressional hearings next week. [[TAG:warning:hearings]]"
+    },
+    {
+      "label": "Tariffs",
+      "body": "The US is preparing Section 301 tariffs on China, the EU and 14 others over industrial overcapacity. Reports cite rates of up to 20%, with allies capped at 15%. [[TAG:warning:trade]]"
+    },
+    {
+      "label": "Ukraine",
+      "body": "Putin said retaliation for Ukrainian refinery strikes is inevitable. A Russian glide-bomb attack on Zaporizhzhia killed two and wounded dozens. [[TAG:danger:escalation]]"
+    },
+    {
+      "label": "Israel",
+      "body": "Eisenkot agreed his first coalition deal, with Lieberman's Yisrael Beytenu, but remains short of 61 seats with a December 6 deadline. [[TAG:info:first partner]]"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Markets: Rally Fades",
+      "icon": "📉",
+      "summary": "Nasdaq drops 1.5% as Dow reclaims 50,000; Asia slides again ahead of PCE data",
+      "paragraphs": [
+        {
+          "heading": "Tuesday Close",
+          "body": "Cappnotes and Startup Fortune reported the Dow rose 423 points to 50,018.70 while the Nasdaq fell 1.48% to 23,733.54 and the S&P 500 slipped 0.5% to 7,201.09. Yahoo Finance described a tech sell-off and a rotation into value. BigGo reported the Philadelphia Semiconductor Index fell nearly 8%. [[TAG:warning:rotation]]"
+        },
+        {
+          "heading": "Asia and the Fed",
+          "body": "Al Jazeera reported Asian markets dived Wednesday as Huang's return failed to quell AI doubts, with Kospi down 6.2%, Taiwan's Taiex 4.8% and the Nikkei 2.8%. AP, via ClickOnDetroit, reported Shanghai at a more-than-one-year low. Investinglive previewed today's October PCE report, with headline inflation seen near 3.8%, the last major reading before a December Fed decision markets expect to bring a hike. [[TAG:danger:Asia selloff]]"
+        }
+      ],
+      "sources": "Cappnotes, Startup Fortune, Yahoo Finance, BigGo Finance, Al Jazeera, ClickOnDetroit (AP), Investinglive",
+      "citations": [
+        {
+          "outlet": "Cappnotes",
+          "title": "Closing Look — Tuesday, November 24, 2026",
+          "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-24"
+        },
+        {
+          "outlet": "Startup Fortune",
+          "title": "The Dow closes at 50,019 while Nasdaq drops 1.48% on an AI chip selloff",
+          "url": "https://startupfortune.com/the-dow-closes-at-50019-while-nasdaq-drops-148-on-an-ai-chip-selloff/"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Stock Market Today, Nov. 24: Tech Sell-Off Drags Nasdaq as Dow Gains on Value Rotation",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-24-221148355.html"
+        },
+        {
+          "outlet": "BigGo Finance",
+          "title": "Dow Reclaims 50,000, Closes Up 423 Points; Philadelphia Semiconductor Index Plunges Nearly 8%, Dragging Down Nasdaq",
+          "url": "https://finance.biggo.com/news/efa4550f-327b-4612-b151-77555e7d62dd"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Asia’s markets dive as return of Nvidia’s Huang fails to quell AI doubts",
+          "url": "https://aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom"
+        },
+        {
+          "outlet": "ClickOnDetroit (AP)",
+          "title": "Asian stocks mostly decline as AI shares tumble after a retreat on Wall Street",
+          "url": "https://www.clickondetroit.com/business/2026/11/25/asian-stocks-mostly-decline-as-ai-shares-fall-following-a-retreat-on-wall-street/"
+        },
+        {
+          "outlet": "Investinglive",
+          "title": "US PCE preview: inflation seen near 3.8% in the Fed's last read before a December hike",
+          "url": "https://investinglive.com/central-banks/us-pce-preview-inflation-seen-near-3-8-in-the-fed-s-last-read-before-a-december-hike/"
+        }
+      ]
+    },
+    {
+      "title": "Nvidia: After the Pop",
+      "icon": "💾",
+      "summary": "Shares fall about 6% after 31% jump; Huang apologizes to staff ahead of hearings",
+      "paragraphs": [
+        {
+          "heading": "Giving It Back",
+          "body": "CNBC reported Nvidia shares fell more than 5% as the comeback rally cooled, and Al Jazeera said the stock cooled after its surge. Startup Fortune reported chip stocks gave back the Huang rally as the semiconductor index dropped 7.9%. Yahoo Finance reported Huang apologized to employees. [[TAG:warning:volatile]]"
+        },
+        {
+          "heading": "Hearings Ahead",
+          "body": "Motley Fool said the real test for Nvidia could come after December 1, and KuCoin reported the stock fell ahead of Huang's congressional testimony. Reports differ on the schedule: some say Huang testifies on December 1 and 3, while others cite House committee sessions on December 1 and 2 and a Senate Banking hearing on December 3. Webtech360 reported that Trump floated a government stake, which other outlets have not yet confirmed. [[TAG:info:Dec 1-3]]"
+        }
+      ],
+      "sources": "CNBC, Al Jazeera, Startup Fortune, Yahoo Finance, Motley Fool, KuCoin, Webtech360",
+      "citations": [
+        {
+          "outlet": "CNBC",
+          "title": "Nvidia shares fall more than 5% as Huang comeback rally cools",
+          "url": "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Nvidia stock cools after Huang’s return-driven surge",
+          "url": "https://www.aljazeera.com/economy/2026/11/24/nvidia-stock-cools-after-huangs-return-driven-surge"
+        },
+        {
+          "outlet": "Startup Fortune",
+          "title": "Chip stocks give back the Jensen Huang rally as the semiconductor index drops 7.9%",
+          "url": "https://startupfortune.com/chip-stocks-give-back-the-jensen-huang-rally-as-the-semiconductor-index-drops-79/"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Nvidia live updates: Nvidia stock falls after massive rally, Jensen Huang apologizes to employees",
+          "url": "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-nvidia-stock-falls-as-exuberance-fades-after-jensen-huangs-return-as-ceo-142100906.html"
+        },
+        {
+          "outlet": "Motley Fool",
+          "title": "The Real Test for Nvidia Could Come After Dec. 1",
+          "url": "https://www.fool.com/investing/2026/11/24/the-real-test-for-nvidia-could-come-after-dec-1/"
+        },
+        {
+          "outlet": "KuCoin",
+          "title": "Nvidia Stock Drops Ahead of Jensen Huang's Congressional Testimony and GTC Event",
+          "url": "https://www.kucoin.com/news/flash/nvidia-stock-drops-ahead-of-jensen-huang-s-congressional-testimony-and-gtc-event"
+        },
+        {
+          "outlet": "Webtech360",
+          "title": "NVIDIA Shares Fall 5.86% as Trump Floats Stake and Huang Faces Hearings",
+          "url": "https://www.webtech360.com/detail/nvidia-share-price-rebounds-31-after-huangs-en-trend-hp2-99922777.html"
+        }
+      ]
+    },
+    {
+      "title": "Trade: Tariffs on 16 Economies",
+      "icon": "🚢",
+      "summary": "Section 301 overcapacity tariffs loom for China, EU and others; allies cite 15% cap",
+      "paragraphs": [
+        {
+          "heading": "The Plan",
+          "body": "The Washington Post, citing AP sources, reported the US is ready to impose tariffs on China, the EU and others over subsidized production. Axios reported Trump is preparing a new round of targeted tariffs. Headtopics reported rates of up to 20%. Benzinga, citing the WSJ, said China could be hit hardest. Accounts of the China rate conflict. [[TAG:warning:rates unsettled]]"
+        },
+        {
+          "heading": "Allies React",
+          "body": "Business Upturn reported the EU, Japan and South Korea are likely to face tariffs of 15% or lower, and Aju Press said Seoul is relying on its agreed ceiling. NoCut News reported USTR would release findings on the 16 economies this week. SCMP said the tariffs are unlikely to take effect before a December summit and could become a bargaining chip. [[TAG:info:15% cap]]"
+        }
+      ],
+      "sources": "Washington Post, Axios, Headtopics, Benzinga, Business Upturn, Aju Press, NoCut News, SCMP",
+      "citations": [
+        {
+          "outlet": "Washington Post",
+          "title": "US ready to slap tariffs on China, EU and others over subsidized production, AP sources say",
+          "url": "https://washingtonpost.com/politics/2026/11/24/trump-tariffs-china-european-union/1403cbf8-e86b-11f1-8db0-6f1e3c389e7c_story.html"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Trump prepares a new round of targeted tariffs",
+          "url": "https://www.axios.com/2026/11/24/trump-tariffs-china-affordability"
+        },
+        {
+          "outlet": "Headtopics",
+          "title": "US announces new tariffs of up to 20% on China, the EU, and 12 other nations",
+          "url": "https://ca.headtopics.com/news/us-announces-new-tariffs-of-up-to-20-on-china-the-eu-and-90167522"
+        },
+        {
+          "outlet": "Benzinga",
+          "title": "Trump Tariffs Return, China Could Be Hit Hardest: WSJ",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63575690/trump-china-tariffs-return"
+        },
+        {
+          "outlet": "Business Upturn",
+          "title": "EU, Japan and South Korea likely to face 15% or lower US tariffs: Reports",
+          "url": "https://businessupturn.com/asia/east-asia/japan/eu-japan-and-south-korea-likely-to-face-15-or-lower-us-tariffs-reports/"
+        },
+        {
+          "outlet": "Aju Press",
+          "title": "Seoul banks on tariff ceiling as Washington changes labels",
+          "url": "https://www.ajupress.com/view/20261125162201004"
+        },
+        {
+          "outlet": "NoCut News",
+          "title": "U.S. USTR To Release Overcapacity Tariff Findings on 16 Countries Including South Korea This Week",
+          "url": "https://en.nocutnews.co.kr/news/6612117"
+        },
+        {
+          "outlet": "SCMP",
+          "title": "US-China trade war stuck in limbo as Trump nears new tariffs",
+          "url": "https://www.scmp.com/plus/economy/china-economy/article/3375755/us-china-trade-war-stuck-limbo-trump-nears-new-tariffs"
+        }
+      ]
+    },
+    {
+      "title": "Ukraine: Retaliation Vow",
+      "icon": "🚨",
+      "summary": "Putin calls retaliation for refinery strikes inevitable; Zaporizhzhia strike kills two",
+      "paragraphs": [
+        {
+          "heading": "Putin's Warning",
+          "body": "Al Arabiya and MLQ reported Putin said Ukraine keeps hitting Russian oil plants despite Trump's requests and that retaliation is inevitable. The Canberra Times, carrying AAP, reported Russia will respond. Reports cited industry estimates that the drone strikes have cut Russian refining volumes sharply since late October. Ukraine's foreign minister replied that Putin could end the war. [[TAG:danger:retaliation]]"
+        },
+        {
+          "heading": "Zaporizhzhia",
+          "body": "Al Jazeera, Meduza and the Washington Post, carrying AP, reported a Russian strike on Zaporizhzhia killed two people. Injury tolls vary: Mezha cited 31, KSAT 48, and Modern Diplomacy 22. AP said Kyiv also explained its naval drone attack in Libya. [[TAG:warning:tolls vary]]"
+        }
+      ],
+      "sources": "Al Arabiya, MLQ, Canberra Times, Al Jazeera, Meduza, Washington Post, Mezha, KSAT, Modern Diplomacy",
+      "citations": [
+        {
+          "outlet": "Al Arabiya",
+          "title": "Putin says Ukraine hits Russian oil plants despite Trump’s requests, promises retaliation",
+          "url": "https://english.alarabiya.net/News/world/2026/11/24/putin-says-russia-will-respond-to-ukrainian-attacks-on-refineries-"
+        },
+        {
+          "outlet": "MLQ",
+          "title": "Putin says retaliation is inevitable after Ukraine hits Russian oil plants",
+          "url": "https://mlq.ai/news/putin-says-retaliation-is-inevitable-after-ukraine-hits-russian-oil-plants/"
+        },
+        {
+          "outlet": "Canberra Times",
+          "title": "Russia to respond to Ukraine's refinery attacks: Putin",
+          "url": "https://www.canberratimes.com.au/story/9397728/russia-to-respond-to-ukraines-refinery-attacks-putin/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Russian strike kills two in Ukraine, days after ship attack off Libya",
+          "url": "https://www.aljazeera.com/news/2026/11/24/russian-attack-kills-two-people-in-ukraines-zaporizhzhia"
+        },
+        {
+          "outlet": "Meduza",
+          "title": "Russian strikes kill two in Ukraine’s Zaporizhzhia, injure dozens",
+          "url": "https://meduza.io/en/news/2026/11/24/russian-strikes-kill-two-in-ukraine-s-zaporizhzhia-injure-dozens"
+        },
+        {
+          "outlet": "Washington Post",
+          "title": "A Russian strike on Ukraine kills 2 and wounds children as Kyiv explains its attack in Libya",
+          "url": "https://www.washingtonpost.com/business/2026/11/24/russia-ukraine-libya-sea-drone-attacks/6f5e2676-e7f6-11f1-8db0-6f1e3c389e7c_story.html"
+        },
+        {
+          "outlet": "Mezha",
+          "title": "Two people were killed and 31 injured in the Russian attack on Zaporizhzhia",
+          "url": "https://mezha.net/eng/news/mezha-9475e9f2f772e0fc0ebf7646_two_people_were"
+        },
+        {
+          "outlet": "KSAT",
+          "title": "A Russian strike on Ukraine kills 2 and wounds 48 as Kyiv explains its attack in Libya",
+          "url": "https://www.ksat.com/business/2026/11/24/a-russian-strike-on-ukraine-kills-2-and-wounds-48-as-kyiv-explains-its-attack-in-libya/"
+        },
+        {
+          "outlet": "Modern Diplomacy",
+          "title": "Russian Strike on Zaporizhzhia Kills Two and Injures 22, Including Children",
+          "url": "https://moderndiplomacy.eu/2026/11/24/russian-strike-on-zaporizhzhia-kills-two-and-injures-22-including-children/"
+        }
+      ]
+    },
+    {
+      "title": "Hormuz: Traffic Down 40%",
+      "icon": "🛢️",
+      "summary": "Crossings fall 40% as three tankers hit in minutes; Brent stays near three-month lows",
+      "paragraphs": [
+        {
+          "heading": "Attacks and Traffic",
+          "body": "Al Jazeera reported Hormuz oil traffic is down 40 percent and asked whether Iran's tanker attacks are working. The figure refers to vessel crossings, not oil volumes. Maritime Executive reported three tankers were hit within minutes in the strait. Yahoo reported that Araghchi called a US land blockade of Iran impossible. [[TAG:danger:shipping]]"
+        },
+        {
+          "heading": "Prices",
+          "body": "Oilprice.com reported oil holding near three-month lows despite Hormuz mine claims. Marketcalls reported attacks rising while oil flows sit at about half of normal. Flow estimates differ widely across trackers. [[TAG:info:surplus]]"
+        }
+      ],
+      "sources": "Al Jazeera, Maritime Executive, Yahoo, Oilprice.com, Marketcalls",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Hormuz oil traffic is down 40 percent: Are Iran’s tanker attacks working?",
+          "url": "https://www.aljazeera.com/news/2026/11/24/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working"
+        },
+        {
+          "outlet": "Maritime Executive",
+          "title": "Three Tankers Hit Within Minutes in Strait of Hormuz",
+          "url": "https://maritime-executive.com/article/three-tankers-hit-within-minutes-in-strait-of-hormuz"
+        },
+        {
+          "outlet": "Yahoo",
+          "title": "Iran live updates: US land blockade of Iran 'impossible,' Araghchi says",
+          "url": "https://www.yahoo.com/news/politics/articles/iran-live-updates-tehran-says-093556957.html"
+        },
+        {
+          "outlet": "Oilprice.com",
+          "title": "Oil Prices Hold Near Three-Month Lows Despite Hormuz Mine Claims",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Hold-Near-Three-Month-Lows-Despite-Hormuz-Mine-Claims.html"
+        },
+        {
+          "outlet": "Marketcalls",
+          "title": "Strait of Hormuz: Attacks Rise, Oil Flows at Half",
+          "url": "https://www.marketcalls.in/commodities/strait-of-hormuz-november-2026.html"
+        }
+      ]
+    },
+    {
+      "title": "Israel: First Partner",
+      "icon": "⚖️",
+      "summary": "Eisenkot strikes first coalition deal with Lieberman; Israel kills Hamas security chief",
+      "paragraphs": [
+        {
+          "heading": "Coalition",
+          "body": "Al Jazeera and The New Arab reported Eisenkot secured his first coalition partner, Lieberman's Yisrael Beytenu. i24NEWS reported the deal was agreed but not yet signed, while QNC reported it signed. i24NEWS also reported the Democrats halted talks over Eisenkot's contacts with Likud. The Times of Israel reported the bloc hopes to swear in a government as soon as next Wednesday. The two parties' combined seats remain short of 61. [[TAG:info:short of 61]]"
+        },
+        {
+          "heading": "Gaza",
+          "body": "The Washington Post reported Israel killed Hamas's internal security chief in Gaza. Al Jazeera reported strikes killed seven as doctors warned of a meningitis outbreak, and Wafa gave the same toll. [[TAG:danger:truce strained]]"
+        }
+      ],
+      "sources": "Al Jazeera, The New Arab, i24NEWS, QNC News, Times of Israel, Washington Post, Wafa",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Israel’s Eisenkot secures first coalition partner in bid to form government",
+          "url": "https://www.aljazeera.com/news/2026/11/25/israels-eisenkot-secures-first-coalition-partner-in-bid-to-form-government"
+        },
+        {
+          "outlet": "The New Arab",
+          "title": "Israel’s Eisenkot clinches first coalition agreement for govt",
+          "url": "https://www.newarab.com/news/israels-eisenkot-clinches-first-coalition-agreement-govt"
+        },
+        {
+          "outlet": "i24NEWS",
+          "title": "Eisenkot and Lieberman agree to sign first coalition deal; Democrats halt talks over contacts with Likud",
+          "url": "https://www.i24news.tv/en/news/israel-election-s-2026/artc-eisenkot-and-lieberman-agree-to-sign-first-coalition-deal-democrats-halt-talks-over-contacts-with-likud"
+        },
+        {
+          "outlet": "QNC News",
+          "title": "Eisenkot Signs First Coalition Agreement With Lieberman Party in Bid to Form Israel Government",
+          "url": "https://qncnews.com/2026/11/25/eisenkot-signs-first-coalition-agreement-with-lieberman-party-in-bid-to-form-israel-government/"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "Report: Eisenkot-led bloc hopes to swear in government as soon as next Wednesday, Yisrael Beytenu expected to get defense, absorption ministries",
+          "url": "https://www.timesofisrael.com/liveblog_entry/report-eisenkot-led-bloc-hopes-to-swear-in-government-as-soon-as-next-wednesday-yisrael-beytenu-expected-to-get-defense-absorption-ministries/"
+        },
+        {
+          "outlet": "Washington Post",
+          "title": "Israel kills Hamas internal security chief in Gaza",
+          "url": "https://www.washingtonpost.com/world/2026/11/24/israel-kills-hamas-internal-security-chief-gaza/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Israeli air strikes in Gaza kill 7 as doctors warn of meningitis outbreak",
+          "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strikes-in-gaza-kill-7-as-doctors-warn-of-meningitis-outbreak"
+        },
+        {
+          "outlet": "Wafa",
+          "title": "Seven Palestinians killed in Israeli airstrikes across the Gaza Strip since dawn today",
+          "url": "https://english.wafa.ps/Pages/Details/177259"
+        }
+      ]
+    },
+    {
+      "title": "Africa: Crises Compound",
+      "icon": "🌍",
+      "summary": "Ebola responders shelter amid Ituri fighting; Sudan drone deaths climb",
+      "paragraphs": [
+        {
+          "heading": "Roundup",
+          "body": "allAfrica's daily roundup reported Amnesty International called for a war crimes investigation into shelling in Alamata, Tigray, and that fighting near a hospital in Ituri left Ebola responders sheltering. It cited more than 11,700 confirmed Ebola cases across eight provinces. The Rio Times' Africa brief reported Sudan drone deaths have topped 1,630. Ebola death figures differ slightly between sources. [[TAG:danger:Ebola]]"
+        }
+      ],
+      "sources": "allAfrica, Rio Times",
+      "citations": [
+        {
+          "outlet": "allAfrica",
+          "title": "Africa: All of Africa Today - November 24, 2026",
+          "url": "https://allafrica.com/stories/202611240173.html"
+        },
+        {
+          "outlet": "Rio Times",
+          "title": "Africa Intelligence Brief for Tuesday, November 24, 2026",
+          "url": "https://www.riotimesonline.com/africa-intelligence-brief-tuesday-november-24-2026/"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "query": "stock market November 24 2026 close Dow S&P Nasdaq",
+      "results": [
+        {
+          "title": "Closing Look — Tuesday, November 24, 2026",
+          "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-24"
+        },
+        {
+          "title": "Stock Market Today, Nov. 24: Tech Sell-Off Drags Nasdaq as Dow Gains on Value Rotation",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-24-221148355.html"
+        },
+        {
+          "title": "The Dow closes at 50,019 while Nasdaq drops 1.48% on an AI chip selloff - Startup Fortune",
+          "url": "https://startupfortune.com/the-dow-closes-at-50019-while-nasdaq-drops-148-on-an-ai-chip-selloff/"
+        },
+        {
+          "title": "Stock Market Close Nov 24, 2026: S&P 500, Dow, Nasdaq",
+          "url": "https://portfolio-terminal.com/markets/stock-market-close"
+        },
+        {
+          "title": "Market Review: November 24, 2026 - Investrade",
+          "url": "https://investrade.com/market-review-november-24-2026/"
+        },
+        {
+          "title": "Dow Reclaims 50,000, Closes Up 423 Points; Philadelphia Semiconductor Index Plunges Nearly 8%, Dragging Down Nasdaq — BigGo Finance",
+          "url": "https://finance.biggo.com/news/efa4550f-327b-4612-b151-77555e7d62dd"
+        },
+        {
+          "title": "Market Digest — Tuesday, November 24, 2026",
+          "url": "https://stockmarketwatch.com/digest/2026-11-24"
+        },
+        {
+          "title": "Nasdaq Slides as Dow Climbs to 50,019",
+          "url": "https://wisevoter.com/world/us/2026/11/25/nasdaq-falls-dow-rises-50019"
+        },
+        {
+          "title": "US Stock Market Today: 5 Critical Moves as Nasdaq Falls",
+          "url": "https://www.stl.news/us-stock-market-today-november-24-2026/"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Russia news November 24 2026",
+      "results": [
+        {
+          "title": "Ukraine News Today",
+          "url": "https://en.wikipedia.org/wiki/Ukraine_News_Today"
+        },
+        {
+          "title": "Ukraine-Russia: Latest news about the invasion and conflict - CBS News",
+          "url": "https://www.cbsnews.com/ukraine-crisis/"
+        },
+        {
+          "title": "Ukrainian National News",
+          "url": "https://en.wikipedia.org/wiki/Ukrainian_National_News"
+        },
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.co.uk/h/World+News/Europe/Eastern+Europe/Ukraine"
+        },
+        {
+          "title": "Russia-Ukraine war",
+          "url": "https://www.aljazeera.com/tag/ukraine-russia-crisis/"
+        },
+        {
+          "title": "Ukraine war live map: front line and news today",
+          "url": "https://liveuamap.com/"
+        },
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.com/us/World/Europe/Eastern+Europe/Ukraine"
+        },
+        {
+          "title": "Full Episode",
+          "url": "https://www.pbs.org/newshour/tag/ukraine/page/52"
+        },
+        {
+          "title": "www.pbs.org",
+          "url": "https://www.pbs.org/newshour/classroom/tag/russia?page=4"
+        }
+      ]
+    },
+    {
+      "query": "Iran news November 24 2026 Hormuz US",
+      "results": [
+        {
+          "title": "Iran live updates: US land blockade of Iran 'impossible,' Araghchi says",
+          "url": "https://www.yahoo.com/news/politics/articles/iran-live-updates-tehran-says-093556957.html"
+        },
+        {
+          "title": "Trump says Tehran may be working on chemical or biological weapons as tension mounts",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
+        },
+        {
+          "title": "IRGC says Bahrain attacks targeted US Patriot sites - ABC News",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
+        },
+        {
+          "title": "Iran developing chemical weapons, Israeli defense minister says",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/"
+        },
+        {
+          "title": "Hormuz oil traffic is down 40 percent: Are Iran’s tanker attacks working?",
+          "url": "https://www.aljazeera.com/news/2026/11/24/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working"
+        },
+        {
+          "title": "president trump further extends deadline for iran to open strait of hormuz",
+          "url": "https://www.newsonair.gov.in/president-trump-further-extends-deadline-for-iran-to-open-strait-of-hormuz"
+        },
+        {
+          "title": "Full Episode",
+          "url": "https://www.pbs.org/newshour/tag/strait-of-hormuz/page/3"
+        },
+        {
+          "title": "China Daily Global Edition (USA)",
+          "url": "https://www.pressreader.com/usa/china-daily-usa/20190719/281646781724966"
+        },
+        {
+          "title": "Iran warns Israel against aiding US mission in Strait of Hormuz",
+          "url": "https://www.aljazeera.com/news/2019/08/iran-warns-israel-aiding-mission-strait-hormuz-190809113216286.html"
+        }
+      ]
+    },
+    {
+      "query": "Israel Eisenkot government news November 24 2026",
+      "results": [
+        {
+          "title": "Report: Eisenkot-led bloc hopes to swear in government as soon as next Wednesday, Yisrael Beytenu expected to get defense, absorption ministries",
+          "url": "https://www.timesofisrael.com/liveblog_entry/report-eisenkot-led-bloc-hopes-to-swear-in-government-as-soon-as-next-wednesday-yisrael-beytenu-expected-to-get-defense-absorption-ministries/"
+        },
+        {
+          "title": "Israel’s Eisenkot clinches first coalition agreement for govt",
+          "url": "https://www.newarab.com/news/israels-eisenkot-clinches-first-coalition-agreement-govt"
+        },
+        {
+          "title": "Israel’s Eisenkot secures first coalition partner in bid to form government",
+          "url": "https://www.aljazeera.com/news/2026/11/25/israels-eisenkot-secures-first-coalition-partner-in-bid-to-form-government"
+        },
+        {
+          "title": "Gadi Eisenkot to announce path to forming Israeli gov't despite stalled talks",
+          "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-915780"
+        },
+        {
+          "title": "Gadi Eisenkot weighs gov't options as UTJ receives rabbinical approval for talks",
+          "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-915989"
+        },
+        {
+          "title": "Gadi Eisenkot Secures First Coalition Deal in Israel Govt",
+          "url": "https://www.khaama.com/gadi-eisenkot-first-coalition-deal-israel/"
+        },
+        {
+          "title": "Eisenkot wins first coalition ally as Israel faces post-election deadlock",
+          "url": "https://dailypioneer.com/world/eisenkot-wins-first-coalition-ally-as-israel-faces-post-election-deadlock"
+        },
+        {
+          "title": "Yashar (political party)",
+          "url": "https://en.wikipedia.org/wiki/Yashar_(political_party)"
+        },
+        {
+          "title": "Eisenkot Plans to Notify President of New Government Next Week - World Today News",
+          "url": "https://www.world-today-news.com/eisenkot-plans-to-notify-president-of-new-government-next-week/"
+        }
+      ]
+    },
+    {
+      "query": "Zaporizhzhia Russian strike November 24 2026 killed",
+      "results": [
+        {
+          "title": "Russian strike kills two in Ukraine, days after ship attack off Libya",
+          "url": "https://www.aljazeera.com/news/2026/11/24/russian-attack-kills-two-people-in-ukraines-zaporizhzhia"
+        },
+        {
+          "title": "Russian strikes kill two in Ukraine’s Zaporizhzhia, injure dozens — Meduza",
+          "url": "https://meduza.io/en/news/2026/11/24/russian-strikes-kill-two-in-ukraine-s-zaporizhzhia-injure-dozens"
+        },
+        {
+          "title": "A Russian strike on Ukraine kills 2 and wounds children as Kyiv explains its attack in Libya - The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/11/24/russia-ukraine-libya-sea-drone-attacks/6f5e2676-e7f6-11f1-8db0-6f1e3c389e7c_story.html"
+        },
+        {
+          "title": "A Russian strike on Ukraine kills 2 and wounds 48 as Kyiv explains its attack in Libya",
+          "url": "https://www.ksat.com/business/2026/11/24/a-russian-strike-on-ukraine-kills-2-and-wounds-48-as-kyiv-explains-its-attack-in-libya/"
+        },
+        {
+          "title": "A Russian Strike on Ukraine Kills 2 and Wounds Children as Kyiv Explains Its Attack in Libya",
+          "url": "https://www.usnews.com/news/business/articles/2026-11-24/a-russian-strike-on-ukraine-kills-2-and-wounds-children-as-kyiv-explains-its-attack-in-libya"
+        },
+        {
+          "title": "Zaporizhzhia strikes (2022%E2%80%93present)",
+          "url": "https://en.wikipedia.org/wiki/Zaporizhzhia_strikes_(2022%E2%80%93present)"
+        },
+        {
+          "title": "Russian Strike on Zaporizhzhia Kills Two and Injures 22, Including Children - Modern Diplomacy",
+          "url": "https://moderndiplomacy.eu/2026/11/24/russian-strike-on-zaporizhzhia-kills-two-and-injures-22-including-children/"
+        },
+        {
+          "title": "Two people were killed and 31 injured in the Russian attack on Zaporizhzhia",
+          "url": "https://mezha.net/eng/news/mezha-9475e9f2f772e0fc0ebf7646_two_people_were"
+        },
+        {
+          "title": "Russian strike on Zaporizhzhia kills two, injures 50 · h.ua",
+          "url": "https://en.h.ua/index.php/2026/11/25/russian-strike-zaporizhzhia-kills-two-injures-50"
+        }
+      ]
+    },
+    {
+      "query": "Putin retaliate refineries Ukraine ceasefire November 24 2026",
+      "results": [
+        {
+          "title": "Russia to respond to Ukraine's refinery attacks: Putin",
+          "url": "https://www.canberratimes.com.au/story/9397728/russia-to-respond-to-ukraines-refinery-attacks-putin/"
+        },
+        {
+          "title": "Putin says Ukraine hits Russian oil plants despite Trump’s requests, promises retaliation",
+          "url": "https://english.alarabiya.net/News/world/2026/11/24/putin-says-russia-will-respond-to-ukrainian-attacks-on-refineries-"
+        },
+        {
+          "title": "Putin says retaliation is inevitable after Ukraine hits Russian oil plants",
+          "url": "https://mlq.ai/news/putin-says-retaliation-is-inevitable-after-ukraine-hits-russian-oil-plants/"
+        },
+        {
+          "title": "Putin Warns Retaliation 'Inevitable' After Ukraine Drone Strikes on Oil Plants - Newsy Today",
+          "url": "https://www.newsy-today.com/putin-warns-retaliation-inevitable-after-ukraine-drone-strikes-on-oil-plants/"
+        },
+        {
+          "title": "Putin Says Retaliation 'Inevitable' After Ukraine Resumes Refinery Strikes - Archynewsy",
+          "url": "https://www.archynewsy.com/putin-says-retaliation-inevitable-after-ukraine-resumes-refinery-strikes/"
+        },
+        {
+          "title": "Putin vows inevitable retaliation as Ukraine hits Russian oi — Shorty News",
+          "url": "https://shorty-news.com/world/putin-vows-inevitable-retaliation-as-ukraine-hits-russian/"
+        },
+        {
+          "title": "Putin Vows Retaliation Over Ukraine Strikes on Russian Oil Refineries · Clash Report",
+          "url": "https://clashreport.com/world/articles/putin-retaliation-ukraine-refinery-strikes-afmloo85p9i"
+        },
+        {
+          "title": "Putin agrees in Trump call to 30-day ceasefire with Ukraine on energy targets, Kremlin says",
+          "url": "https://www.yahoo.com/news/putin-agrees-trump-proposal-stop-174159727.html"
+        },
+        {
+          "title": "Putin agrees to 30-day energy infrastructure ceasefire; Ukraine willing to consider it",
+          "url": "https://amp.cbc.ca/lite/story/1.7486333"
+        }
+      ]
+    },
+    {
+      "query": "PCE inflation report November 25 2026 Fed December",
+      "results": [
+        {
+          "title": "Wednesday’s PCE Report Marks Final Major Inflation Test Before Fed Decision",
+          "url": "https://www.investing.com/analysis/wednesdays-pce-report-marks-final-major-inflation-test-before-fed-decision-200692279"
+        },
+        {
+          "title": "US PCE preview: inflation seen near 3.8% in the Fed's last read before a December hike",
+          "url": "https://investinglive.com/central-banks/us-pce-preview-inflation-seen-near-3-8-in-the-fed-s-last-read-before-a-december-hike/"
+        },
+        {
+          "title": "Inflation report to provide Fed's preferred gauge of prices - AOL",
+          "url": "https://www.aol.com/articles/inflation-report-feds-preferred-gauge-100505000.html"
+        },
+        {
+          "title": "US PCE Inflation Release Calendar — 2026 Schedule & Release Dates",
+          "url": "https://www.smartcalendars.ai/en/feeds/pce-inflation-release-calendar"
+        },
+        {
+          "title": "Economic Release Calendar - Trimmed Mean PCE Inflation Rate",
+          "url": "https://fred.stlouisfed.org/releases/calendar?rid=323&ve=2019-12-31&view=week&vs=2019-01-01"
+        },
+        {
+          "title": "PCE Inflation Report Wednesday Is the Last Major Inflation Release Before the Fed's December 9 Decision",
+          "url": "https://www.stocktitan.net/articles/october-2026-pce-inflation-preview"
+        },
+        {
+          "title": "PCE Inflation Report: What It Means for Stocks in 2026",
+          "url": "https://alphio.ai/blog/pce-inflation-report-stock-market-fed-december-hike-2026"
+        },
+        {
+          "title": "PCE Release Date: Next Core PCE Report, Time & Countdown",
+          "url": "https://fxbacktest.app/calendar/pce/"
+        },
+        {
+          "title": "pce price index monthly change",
+          "url": "https://www.tradingeconomics.com/united-states/pce-price-index-monthly-change"
+        }
+      ]
+    },
+    {
+      "query": "Asian markets Wednesday November 25 2026",
+      "results": [
+        {
+          "title": "Daily Market Outlook, November 25, 2026",
+          "url": "https://tickmill.com/blog/daily-market-outlook-november-25-2026"
+        },
+        {
+          "title": "Market Quick Take - Chip stocks slump again in New York and Seoul - 25 November 2026",
+          "url": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---chip-stocks-slump-again-in-new-york-and-seoul---25-november-2026-25112026"
+        },
+        {
+          "title": "Asia’s markets dive as return of Nvidia’s Huang fails to quell AI doubts",
+          "url": "https://aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom"
+        },
+        {
+          "title": "Asia Market Wrap 25 November: Early Session, Taiex Falls 7.57% as Eight Markets Drop",
+          "url": "https://edgeconsultancykw.com/asia-market-wrap-25-november-2026/"
+        },
+        {
+          "title": "Asian stocks mostly decline as AI shares tumble after a retreat on Wall Street",
+          "url": "https://www.clickondetroit.com/business/2026/11/25/asian-stocks-mostly-decline-as-ai-shares-fall-following-a-retreat-on-wall-street/"
+        },
+        {
+          "title": "U.S. Stock Futures Edge Lower Ahead of Inflation Data",
+          "url": "https://www.ic.com/blog/u-s-stock-futures-edge-lower-ahead-of-inflation-data-25-november-ic/"
+        },
+        {
+          "title": "Asia Stocks Today: Nikkei and ASX 200 Rise as Nasdaq Futures Slide",
+          "url": "https://journalarta.com/en/2026/11/25/asia-stocks-today-nikkei-and-asx-200-rise-as-nasdaq-futures-slide/"
+        },
+        {
+          "title": "November 26, 2025 6:23 PM",
+          "url": "https://www.newsonair.gov.in/asian-stock-markets-closes-in-positive-zone-today/"
+        },
+        {
+          "title": "November 19, 2025 6:38 PM",
+          "url": "https://www.newsonair.gov.in/asian-markets-end-mixed-european-stocks-trade-higher"
+        }
+      ]
+    },
+    {
+      "query": "Trump administration raise tariffs China 15 trading partners November 2026",
+      "results": [
+        {
+          "title": "US-China trade war stuck in limbo as Trump nears new tariffs",
+          "url": "https://www.scmp.com/plus/economy/china-economy/article/3375755/us-china-trade-war-stuck-limbo-trump-nears-new-tariffs"
+        },
+        {
+          "title": "Trump Tariffs Return, China Could Be Hit Hardest: WSJ - NVIDIA (NASDAQ:NVDA) - Benzinga",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63575690/trump-china-tariffs-return"
+        },
+        {
+          "title": "US ready to slap tariffs on China, EU and others over subsidized production, AP sources say - The Washington Post",
+          "url": "https://washingtonpost.com/politics/2026/11/24/trump-tariffs-china-european-union/1403cbf8-e86b-11f1-8db0-6f1e3c389e7c_story.html"
+        },
+        {
+          "title": "Trump prepares a new round of targeted tariffs",
+          "url": "https://www.axios.com/2026/11/24/trump-tariffs-china-affordability"
+        },
+        {
+          "title": "Learning Resources, Inc. v. Trump",
+          "url": "https://en.wikipedia.org/wiki/Learning_Resources,_Inc._v._Trump"
+        },
+        {
+          "title": "Donald Trump’s New Tariff Plans Could Hit China, EU & More Trading Partners - Reality Tea",
+          "url": "https://realitytea.com/2026/11/25/donald-trump-tariff-hikes-plan-china-eu-japan"
+        },
+        {
+          "title": "US announces new tariffs of up to 20% on China, the EU, and 12 other nations - Business",
+          "url": "https://ca.headtopics.com/news/us-announces-new-tariffs-of-up-to-20-on-china-the-eu-and-90167522"
+        },
+        {
+          "title": "October 21, 2025 11:55 AM",
+          "url": "https://www.newsonair.gov.in/us-president-trump-signals-tariffs-up-to-155-on-china"
+        },
+        {
+          "title": "trump tariff deadline extension china trade war talks",
+          "url": "https://www.fortune.com/2025/08/11/trump-tariff-deadline-extension-china-trade-war-talks"
+        }
+      ]
+    },
+    {
+      "query": "Nvidia stock November 24 2026 Huang Congress hearing semiconductor index",
+      "results": [
+        {
+          "title": "Nvidia Stock Drops Ahead of Jensen Huang's Congressional Testimony and GTC Event",
+          "url": "https://www.kucoin.com/news/flash/nvidia-stock-drops-ahead-of-jensen-huang-s-congressional-testimony-and-gtc-event"
+        },
+        {
+          "title": "Nvidia live updates: Nvidia stock falls after massive rally, Jensen Huang apologizes to employees",
+          "url": "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-nvidia-stock-falls-as-exuberance-fades-after-jensen-huangs-return-as-ceo-142100906.html"
+        },
+        {
+          "title": "Daily Market Briefing · Hot Topics Focus (Morning Report…",
+          "url": "https://longbridge.com/en/topics/45322779"
+        },
+        {
+          "title": "The Real Test for Nvidia Could Come After Dec. 1",
+          "url": "https://www.fool.com/investing/2026/11/24/the-real-test-for-nvidia-could-come-after-dec-1/"
+        },
+        {
+          "title": "Chip stocks give back the Huang rally as money rotates to retail.",
+          "url": "https://cnttrading.substack.com/p/daily-market-2026-11-24"
+        },
+        {
+          "title": "Nvidia stock cools after Huang’s return-driven surge",
+          "url": "https://www.aljazeera.com/economy/2026/11/24/nvidia-stock-cools-after-huangs-return-driven-surge"
+        },
+        {
+          "title": "Nvidia shares fall more than 5% as Huang comeback rally cools",
+          "url": "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html"
+        },
+        {
+          "title": "Chip stocks give back the Jensen Huang rally as the semiconductor index drops 7.9% - Startup Fortune",
+          "url": "https://startupfortune.com/chip-stocks-give-back-the-jensen-huang-rally-as-the-semiconductor-index-drops-79/"
+        },
+        {
+          "title": "NVIDIA Shares Fall 5.86% as Trump Floats Stake and Huang Faces Hearings — Nov. 25, 2026",
+          "url": "https://www.webtech360.com/detail/nvidia-share-price-rebounds-31-after-huangs-en-trend-hp2-99922777.html"
+        }
+      ]
+    },
+    {
+      "query": "Gaza news November 24 2026",
+      "results": [
+        {
+          "title": "Early Edition: November 24, 2026",
+          "url": "https://justsecurity.org/165763/early-edition-november-24-2026"
+        },
+        {
+          "title": "Nov. 24: Netanyahu reportedly unsuccessful in attempts to hold talks with UTJ lawmakers",
+          "url": "https://www.timesofisrael.com/liveblog-november-24-2026/"
+        },
+        {
+          "title": "Israeli air strikes in Gaza kill 7 as doctors warn of meningitis outbreak",
+          "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strikes-in-gaza-kill-7-as-doctors-warn-of-meningitis-outbreak"
+        },
+        {
+          "title": "Gaza Now",
+          "url": "https://en.wikipedia.org/wiki/Gaza_Now"
+        },
+        {
+          "title": "Seven Palestinians killed in Israeli airstrikes across the Gaza Strip since dawn today",
+          "url": "https://english.wafa.ps/Pages/Details/177259"
+        },
+        {
+          "title": "Israel kills Hamas internal security chief in Gaza - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/11/24/israel-kills-hamas-internal-security-chief-gaza/"
+        },
+        {
+          "title": "Siege of Gaza City",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Gaza_City"
+        },
+        {
+          "title": "Timeline of the Gaza war (24 November 2023 %E2%80%93 11 January 2024)",
+          "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Gaza_war_(24_November_2023_%E2%80%93_11_January_2024)"
+        },
+        {
+          "title": "Israeli Attacks in Gaza Kill Seven Palestinians, Including Head of Internal Security Service - News From Antiwar.com",
+          "url": "https://news.antiwar.com/2026/11/24/israeli-attacks-in-gaza-kill-seven-palestinians-including-head-of-internal-security-service/"
+        }
+      ]
+    },
+    {
+      "query": "Europe news November 24 2026 EU",
+      "results": [
+        {
+          "title": "Your gateway to the EU, News, Highlights",
+          "url": "https://european-union.europa.eu/index_en"
+        },
+        {
+          "title": "Video. Latest news bulletin",
+          "url": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-evening"
+        },
+        {
+          "title": "Joint statement by the Commission and the High Representative ahead of the International Day for the Elimination of Violence against Women - European Civil Protection and Humanitarian Aid Operations",
+          "url": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/joint-statement-commission-and-high-representative-ahead-international-day-elimination-violence-2026-11-24_en"
+        },
+        {
+          "title": "Europe",
+          "url": "https://www.euronews.com/news/europe"
+        },
+        {
+          "title": "Weekly European Agenda 23/11/2026 - European Movement",
+          "url": "https://europeanmovement.eu/eu-weekly/weekly-european-agenda-23-11-2026/"
+        },
+        {
+          "title": "Events for 24 November 2026",
+          "url": "https://ieu-monitoring.com/event/eu-parliament-agenda-for-24-november-2026"
+        },
+        {
+          "title": "9th European Political Community Summit",
+          "url": "https://en.wikipedia.org/wiki/9th_European_Political_Community_Summit"
+        },
+        {
+          "title": "2026 in Uruguay",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Uruguay"
+        },
+        {
+          "title": "2026 in Serbia",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Serbia"
+        }
+      ]
+    },
+    {
+      "query": "Eisenkot Lieberman Yisrael Beytenu coalition agreement signed November 2026",
+      "results": [
+        {
+          "title": "Eisenkot Secures First Coalition Deal in Bid to Form Israeli Government - Jordan News",
+          "url": "https://www.jordannews.jo/Section-20/Middle-East/Eisenkot-Secures-First-Coalition-Deal-in-Bid-to-Form-Israeli-Government-59324"
+        },
+        {
+          "title": "Eisenkot and Lieberman agree to sign first coalition deal; Democrats halt talks over contacts with Likud - i24NEWS",
+          "url": "https://www.i24news.tv/en/news/israel-election-s-2026/artc-eisenkot-and-lieberman-agree-to-sign-first-coalition-deal-democrats-halt-talks-over-contacts-with-likud"
+        },
+        {
+          "title": "Particle: Eisenkot Secures Pact With Lieberman to Boost Government Bid",
+          "url": "https://particle.news/story/eisenkot-secures-pact-with-lieberman-to-boost-government-bid"
+        },
+        {
+          "title": "Eisenkot signs first coalition pact with Lieberman as Democrats suspend talks - tl;dr daily news",
+          "url": "https://tldrdailynews.com/news/world/politics/eisenkot-signs-first-coalition-pact-with-lieberman-as-democrats-suspend-talks-qcbx-b29sc"
+        },
+        {
+          "title": "Eisenkot and Liberman Agree to Sign Coalition Deal",
+          "url": "https://www.jfeed.com/news-israel/eisenkot-liberman-coalition-agreement"
+        },
+        {
+          "title": "Gadi Eisenkot’s Yashar Agrees Coalition Pact With Avigdor Lieberman’s Party - SSBCrack News",
+          "url": "https://news.ssbcrack.com/gadi-eisenkots-yashar-agrees-coalition-pact-with-avigdor-liebermans-party/"
+        },
+        {
+          "title": "Eisenkot and Liberman agree coalition terms as bloc eyes swearing-in next week",
+          "url": "https://www.israel.com/news/eisenkot-and-liberman-agree-coalition-terms-as-bloc-eyes-swearing-in-next-week"
+        },
+        {
+          "title": "Eisenkot and Lieberman agree coalition deal in Israel · Pollar",
+          "url": "https://pollar.news/en/event/israel-eisenkot-strikes-coalition-deal"
+        },
+        {
+          "title": "Eisenkot Signs First Coalition Agreement With Lieberman Party in Bid to Form Israel Government",
+          "url": "https://qncnews.com/2026/11/25/eisenkot-signs-first-coalition-agreement-with-lieberman-party-in-bid-to-form-israel-government/"
+        }
+      ]
+    },
+    {
+      "query": "Hormuz oil traffic down 40 percent tanker attacks Brent November 24 2026",
+      "results": [
+        {
+          "title": "Strait of Hormuz: Attacks Rise, Oil Flows at Half",
+          "url": "https://www.marketcalls.in/commodities/strait-of-hormuz-november-2026.html"
+        },
+        {
+          "title": "Oil Prices Hold Near Three-Month Lows Despite Hormuz Mine Claims",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Hold-Near-Three-Month-Lows-Despite-Hormuz-Mine-Claims.html"
+        },
+        {
+          "title": "Three Tankers Hit Within Minutes in Strait of Hormuz",
+          "url": "https://maritime-executive.com/article/three-tankers-hit-within-minutes-in-strait-of-hormuz"
+        },
+        {
+          "title": "Hormuz oil traffic is down 40 percent: Are Iran’s tanker attacks working?",
+          "url": "https://quietbrief.com/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working-us-israel-war-on-iran-news/"
+        },
+        {
+          "title": "Brent crude trades below $90 as Gulf tanker attacks continue — WhatsNewPaper",
+          "url": "https://whatsnewpaper.com/story/1vgd1wg"
+        },
+        {
+          "title": "Strait of Hormuz Closed, Day 269",
+          "url": "https://straits.live/"
+        },
+        {
+          "title": "Tanker Attacks in Strait of Hormuz Push Brent Above $91,…",
+          "url": "https://hamerintel.com/data/articles/24449"
+        },
+        {
+          "title": "Strait of Hormuz Live Traffic Tracker — Real-Time Shipping & Oil Crisis Monitor",
+          "url": "https://hormuzstraitmonitor.com/"
+        },
+        {
+          "title": "24 hour energy shock world 160000254",
+          "url": "https://finance.yahoo.com/news/24-hour-energy-shock-world-160000254.html"
+        },
+        {
+          "title": "First oil tanker attacked in the Strait of Hormuz according to Oman",
+          "url": "https://www.yahoo.com/news/articles/first-oil-tanker-attacked-strait-103431717.html"
+        }
+      ]
+    },
+    {
+      "query": "Section 301 overcapacity tariffs EU Japan Korea reaction November 25 2026",
+      "results": [
+        {
+          "title": "U.S. USTR To Release Overcapacity Tariff Findings on 16 Countries Including South Korea This Week - NOCUTNEWS",
+          "url": "https://en.nocutnews.co.kr/news/6612117"
+        },
+        {
+          "title": "Trump Tariffs on EU and China: Section 301 Explained",
+          "url": "https://admiralmarkets.com/analytics/traders-blog/trump-tariffs-eu-china-section-301-overcapacity"
+        },
+        {
+          "title": "Section 301: Washington Targets Europe's Overcapacity",
+          "url": "https://steelnews.biz/section-301-washington-targets-europes-overcapacity/"
+        },
+        {
+          "title": "EU, Japan and South Korea likely to face 15% or lower US tariffs: Reports · Business Upturn",
+          "url": "https://businessupturn.com/asia/east-asia/japan/eu-japan-and-south-korea-likely-to-face-15-or-lower-us-tariffs-reports/"
+        },
+        {
+          "title": "Trump Administration Poised to Unveil New Section 301 Tariffs on 16 Trading Partners After Excess-Capacity Probe",
+          "url": "https://political.org/2026/11/24/trump-administration-poised-to-unveil-new-section-301-tariffs-on-16-trading-partners-after-excess-capacity-probe/"
+        },
+        {
+          "title": "Trump administration set to unveil new tariffs after probe on exc",
+          "url": "https://www.globalbankingandfinance.com/trump-administration-set-unveil-new-tariffs-probe-excess/"
+        },
+        {
+          "title": "Trump Tariffs on 16 Economies: Can Section 301 Survive WTO Law?",
+          "url": "https://www.diplomacyandlaw.com/post/trump-tariffs"
+        },
+        {
+          "title": "Seoul banks on tariff ceiling as Washington changes labels",
+          "url": "https://www.ajupress.com/view/20261125162201004"
+        },
+        {
+          "title": "US launches unfair-trade probes to rebuild Trump's tariff pressure",
+          "url": "https://finance.yahoo.com/news/us-opens-unfair-trade-probes-231414981.html"
+        }
+      ]
+    },
+    {
+      "query": "Africa news November 24 2026",
+      "results": [
+        {
+          "title": "Africa: All of Africa Today - November 24, 2026 - allAfrica.com",
+          "url": "https://allafrica.com/stories/202611240173.html"
+        },
+        {
+          "title": "Today at the newsstand November 24, 2026",
+          "url": "https://ghanaweb.com/GhanaHomePage/NewsArchive/Today-at-the-newsstand-November-24-2026-2062692"
+        },
+        {
+          "title": "Africa News",
+          "url": "https://www.aljazeera.com/africa/"
+        },
+        {
+          "title": "News Africa",
+          "url": "https://www.enca.com/news"
+        },
+        {
+          "title": "2026 in Guinea",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Guinea"
+        },
+        {
+          "title": "2026 in Cameroon",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Cameroon"
+        },
+        {
+          "title": "2026 in the Central African Republic",
+          "url": "https://en.wikipedia.org/wiki/2026_in_the_Central_African_Republic"
+        },
+        {
+          "title": "Africa Intelligence Brief for Tuesday, November 24, 2026",
+          "url": "https://www.riotimesonline.com/africa-intelligence-brief-tuesday-november-24-2026/"
+        },
+        {
+          "title": "2024 in Ivory Coast",
+          "url": "https://en.wikipedia.org/wiki/2024_in_Ivory_Coast"
+        }
+      ]
+    }
+  ],
+  "fetched": [],
+  "meta": {
+    "id": "2026-11-25",
+    "generated_at": "2026-11-25T11:23:55.886Z",
+    "model": "claude-opus-5-5",
+    "via": "claude-code-routine",
+    "searches": 16,
+    "results_count": 145,
+    "cited_count": 46
+  }
+}
