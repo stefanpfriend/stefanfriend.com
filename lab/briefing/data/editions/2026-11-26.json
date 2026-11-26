@@ -1,0 +1,1069 @@
+{
+  "date": "Thursday, November 26, 2026",
+  "edition": "HOT PRINT, NEW TARIFFS",
+  "tldr_label": "TL;DR: October PCE inflation hits 3.8%, the US proposes tariffs of 15% to 35% on 14 economies, and Wall Street claws back from an intraday Nasdaq bear market be",
+  "tldr_bullets": [
+    {
+      "label": "Fed",
+      "body": "PCE inflation rose to 3.8% in October and core to 3.3%, above forecasts. The data cements expectations of a December 9 Fed rate hike. [[TAG:danger:hot print]]"
+    },
+    {
+      "label": "Tariffs",
+      "body": "USTR proposed Section 301 tariffs on 14 economies, including China, the EU and Japan. Comments are open until January 5, and China and the EU pushed back. [[TAG:warning:trade war]]"
+    },
+    {
+      "label": "Markets",
+      "body": "The Nasdaq 100 briefly fell into a bear market before a late rebound, and the Dow erased an 1,100-point loss. US markets are closed for Thanksgiving. [[TAG:warning:volatile]]"
+    },
+    {
+      "label": "Ukraine",
+      "body": "Ukraine said it hit five jets at Russia's Savasleyka airbase. The FT reported the US has shelved business incentives for Moscow in favor of land-for-peace talks. [[TAG:info:strategy shift]]"
+    },
+    {
+      "label": "Gulf",
+      "body": "Trump said the Iran war is funded through January. The Houthis stepped up attacks on Saudi Arabia, and the IRGC claimed more tanker mine strikes. [[TAG:danger:escalation]]"
+    }
+  ],
+  "sections": [
+    {
+      "title": "The Fed: Hot Print",
+      "icon": "💵",
+      "summary": "October PCE rises to 3.8% and core to 3.3%, cementing a December hike",
+      "paragraphs": [
+        {
+          "heading": "The Numbers",
+          "body": "Morningstar reported October PCE inflation of 3.8%, in line with expectations and up from 3.6%. StockAnalysis reported core prices beat forecasts, at 3.3% against an expected 3.2%. Quartz said real consumer spending was essentially flat while personal income rose. [[TAG:danger:core beat]]"
+        },
+        {
+          "heading": "Policy",
+          "body": "Tl;dr Daily News said the print solidifies a December rate hike, and Traders4Traders called it the Fed's last clean read before the December 9 decision. The next PCE report is due December 23. [[TAG:warning:Dec 9]]"
+        }
+      ],
+      "sources": "Morningstar, StockAnalysis, Quartz, tl;dr Daily News, Traders4Traders",
+      "citations": [
+        {
+          "outlet": "Morningstar",
+          "title": "October PCE Report: PCE Inflation Index Up 3.8%, in Line With Expectations",
+          "url": "https://www.morningstar.com/economy/october-pce-report-pce-inflation-index-up-38-line-with-expectations"
+        },
+        {
+          "outlet": "StockAnalysis",
+          "title": "US PCE inflation rises from 3.6% to 3.8% in October as core prices beat forecasts",
+          "url": "https://stockanalysis.com/news/us-pce-inflation-october-2026/"
+        },
+        {
+          "outlet": "Quartz",
+          "title": "October PCE inflation hits 3.8%: 12 numbers on prices, spending and the Fed",
+          "url": "https://qz.com/october-pce-report-inflation-numbers"
+        },
+        {
+          "outlet": "tl;dr Daily News",
+          "title": "October PCE Inflation Accelerates to 3.8%, Solidifying December Fed Rate Hike",
+          "url": "https://tldrdailynews.com/news/business/economy/october-pce-inflation-accelerates-to-38percent-solidifying-december-fed-rate-hike-jk0oc6awls"
+        },
+        {
+          "outlet": "Traders4Traders",
+          "title": "PCE Inflation, 25 November 2026: The Fed's Last Clean Read",
+          "url": "https://traders4traders.com/blog/pce-inflation-november-2026-fed-last-read"
+        }
+      ]
+    },
+    {
+      "title": "Trade: Tariffs on 14 Economies",
+      "icon": "🚢",
+      "summary": "USTR proposes 15% to 35% Section 301 duties; China calls it unilateral, EU rejects premise",
+      "paragraphs": [
+        {
+          "heading": "The Proposal",
+          "body": "Holland and Knight, Kelley Drye and Legal500 reported that USTR made affirmative findings in 14 of 16 excess-capacity investigations and proposed tariffs. The economies include China, the EU, Japan, Korea, Taiwan, India and Vietnam, and decisions on Mexico and Norway were deferred. Traders Agency reported rates of 15% to 35%, with allies capped at 15%. Comments run until January 5, with hearings in January, so nothing is final. [[TAG:warning:proposed]]"
+        },
+        {
+          "heading": "Pushback",
+          "body": "France 24 reported that China, the EU and other major economies called the plan unacceptable. China's commerce ministry called the investigation unilateral and reserved the right to respond. The EU said it expects the US to honor last year's 15% deal. Particle reported higher conditional penalties for China. Reported China rates conflict across sources. [[TAG:danger:retaliation risk]]"
+        }
+      ],
+      "sources": "Holland and Knight, Kelley Drye, Legal500, Traders Agency, France 24, Particle",
+      "citations": [
+        {
+          "outlet": "Holland and Knight",
+          "title": "USTR Proposes Tariffs Following 14 Section 301 Manufacturing Excess Capacity Investigations",
+          "url": "https://www.hklaw.com/en/insights/publications/2026/11/ustr-proposes-tariffs-following-14-section-301"
+        },
+        {
+          "outlet": "Kelley Drye",
+          "title": "USTR Proposes Section 301 Overcapacity Tariffs on 14 of 16 Economies",
+          "url": "https://www.kelleydrye.com/viewpoints/blogs/trade-and-manufacturing-monitor/ustr-proposes-section-301-overcapacity-tariffs-on-14-of-16-economies-investigated-public-comment-period-and-public-hearing-will-precede-any-final-action"
+        },
+        {
+          "outlet": "Legal500",
+          "title": "USTR Proposes New Section 301 Tariffs On 14 Economies Over Structural Excess Capacity",
+          "url": "https://www.legal500.com/intelligence/global/international-law/ustr-proposes-new-section-301-tariffs-on-14-economies-over-structural-excess-capacity"
+        },
+        {
+          "outlet": "Traders Agency",
+          "title": "USTR Proposes New Section 301 Tariffs of 15%-35% on China, EU, Japan and 11 Other Trading Partners",
+          "url": "https://tradersagency.com/blog/ustr-proposes-new-section-301-tariffs-of-15percent-35percent-on-china-eu-japan-and-11-other-trading-partners-over-manufacturing-overcapacity"
+        },
+        {
+          "outlet": "France 24",
+          "title": "'Unacceptable': China, EU among major economies against new US tariffs",
+          "url": "https://www.france24.com/en/americas/20261126-unacceptable-major-economies-push-back-against-new-us-tariffs"
+        },
+        {
+          "outlet": "Particle",
+          "title": "U.S. Proposes Section 301 Tariffs on 14 Economies With Higher Conditional Penalties for China",
+          "url": "https://particle.news/story/us-proposes-section-301-tariffs-on-14-economies-with-higher-conditional-penalties-for-china"
+        }
+      ]
+    },
+    {
+      "title": "Markets: A Deep V",
+      "icon": "📉",
+      "summary": "Nasdaq 100 briefly hits bear territory before rebound; Asia rises as US takes holiday",
+      "paragraphs": [
+        {
+          "heading": "Wednesday",
+          "body": "Motley Fool and Yahoo Finance reported the Dow erased an 1,100-point loss to close higher after a late comeback. Cappnotes put the Dow up 0.33% at 50,182.95 and the Nasdaq down 0.62% at 23,585.80. Yahoo Finance reported the Nasdaq 100 flirted with bear-market territory, down 20% from its October high, and Longbridge described a deep V reversal. Bloomberg argued the selloff is unraveling the AI trade's circular deals. [[TAG:warning:bear touch]]"
+        },
+        {
+          "heading": "Thursday",
+          "body": "WSLS, carrying AP, reported world shares pushed higher Thursday, led by AI stocks, while US markets were closed for Thanksgiving. Oninvest reported Asian markets rose despite Trump's tariff plans. Index figures varied by source. [[TAG:info:holiday]]"
+        }
+      ],
+      "sources": "Motley Fool, Yahoo Finance, Cappnotes, Longbridge, Bloomberg, WSLS (AP), Oninvest",
+      "citations": [
+        {
+          "outlet": "Motley Fool",
+          "title": "Stock Market Today, Nov. 25: Dow Erases 1,100-Point Loss as Wall Street Stages Dramatic Late-Day Comeback",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-dow-erases-1-100-point-loss-as-wall-street-stages-dramatic-late-day-comeback/"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Stock market today: Dow erases losses to end positive, S&P 500 and Nasdaq recover ground amid AI sell-off",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+        },
+        {
+          "outlet": "Cappnotes",
+          "title": "Closing Look — Wednesday, November 25, 2026",
+          "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Nasdaq 100 Flirts With Bear Market Territory, Drops 20% From October Highs",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-flirts-bear-market-175314664.html"
+        },
+        {
+          "outlet": "Longbridge",
+          "title": "Nasdaq's Thrilling \"Deep V\" Reversal Averts Major Drop, but AI Trade Still \"Bottom Fishing\"",
+          "url": "https://longbridge.com/en/news/306839345"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "The US Stock Selloff Is Unravelling the AI Trade’s Circular Deals",
+          "url": "https://bloomberg.com/news/newsletters/2026-11-25/the-us-stock-selloff-is-unravelling-the-ai-trade-s-circular-deals"
+        },
+        {
+          "outlet": "WSLS (AP)",
+          "title": "World shares push higher, while markets in US will be closed for Thanksgiving",
+          "url": "https://www.wsls.com/business/2026/11/26/asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses/"
+        },
+        {
+          "outlet": "Oninvest",
+          "title": "Asian markets rose on November 26 in tandem with U.S. index futures, defying Trump's tariffs",
+          "url": "https://en.oninvest.com/article/asian-markets-rose-in-tandem-with-u-s-index-futures"
+        }
+      ]
+    },
+    {
+      "title": "Ukraine: Airbase Hit, Pitch Changed",
+      "icon": "✈️",
+      "summary": "Ukraine says five jets hit at Savasleyka; US reportedly drops business lures for Moscow",
+      "paragraphs": [
+        {
+          "heading": "Savasleyka",
+          "body": "Al Jazeera, Ukrainska Pravda and AeroTime reported that Ukraine's General Staff said its forces hit three MiG-31s and two Su-34s at Russia's Savasleyka airbase east of Moscow. New Voice of Ukraine said the base is home to MiG-31K jets that carry Kinzhal missiles. Russia did not immediately comment, and the damage claims are Ukraine's alone. [[TAG:info:Ukrainian claim]]"
+        },
+        {
+          "heading": "Peace Track",
+          "body": "US News, Meduza and European Pravda, citing the Financial Times, reported the Trump administration has shelved plans to entice Russia with business ventures and shifted back to a land-for-peace approach. US News, carrying Reuters, said a US official called the report inaccurate. [[TAG:warning:disputed]]"
+        }
+      ],
+      "sources": "Al Jazeera, Ukrainska Pravda, AeroTime, New Voice of Ukraine, US News, Meduza, European Pravda",
+      "citations": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Ukraine says five jets damaged in attack on Russia’s Savasleyka airbase",
+          "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck"
+        },
+        {
+          "outlet": "Ukrainska Pravda",
+          "title": "Ukrainian forces hit three MiG-31s and two Su-34s at Russia's Savasleyka airbase",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/25/8064590/"
+        },
+        {
+          "outlet": "AeroTime",
+          "title": "Ukraine says strike on major Russian air base damaged five military jets",
+          "url": "https://www.aerotime.aero/articles/ukraine-says-strike-on-major-russian-air-base-damaged-five-military-jets"
+        },
+        {
+          "outlet": "New Voice of Ukraine",
+          "title": "Ukraine hits Russia’s Savasleyka air base, home to MiG-31K jets",
+          "url": "https://english.nv.ua/russian-war/ukraine-hits-russia-s-savasleyka-air-base-home-to-mig-31k-jets-50662483.html"
+        },
+        {
+          "outlet": "US News",
+          "title": "US Shelves Plans for Business Deals With Russia to End Ukraine War, FT Says",
+          "url": "https://www.usnews.com/news/top-news/articles/2026-11-25/us-shelves-proposals-to-use-business-deals-with-russia-to-end-ukraine-war-ft-reports"
+        },
+        {
+          "outlet": "Meduza",
+          "title": "Trump administration abandons business deals as incentive for Russia to end Ukraine war, shifts back to ‘land for peace’ approach, FT reports",
+          "url": "https://meduza.io/en/feature/2026/11/25/trump-administration-abandons-business-deals-as-incentive-for-russia-to-end-ukraine-war-shifts-back-to-land-for-peace-approach-ft-reports"
+        },
+        {
+          "outlet": "European Pravda",
+          "title": "US shifts focus to territory and security after shelving Russia business deals",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/25/8064535/"
+        }
+      ]
+    },
+    {
+      "title": "Gulf: Funded Through January",
+      "icon": "🛢️",
+      "summary": "Trump says Iran war funded into January; Houthis hit Saudi targets; IRGC claims mine strikes",
+      "paragraphs": [
+        {
+          "heading": "Washington",
+          "body": "WSBT and Gulf News reported Trump said the Iran war is funded through January, when an incoming Democratic Congress could curb it. The New Arab reported Trump said there is no rush on Iran. [[TAG:info:January]]"
+        },
+        {
+          "heading": "Houthis and Hormuz",
+          "body": "The New Arab and CNBC reported the Houthis stepped up attacks on Saudi Arabia, including a claimed strike on a Saudi refinery. These claims are the Houthis' own. ABC News and Oilprice.com reported IRGC claims that two more tankers hit mines, which Reuters could not verify. Arab News reported an IRGC claim that an LNG tanker caught fire. [[TAG:danger:Saudi attacks]]"
+        }
+      ],
+      "sources": "WSBT, Gulf News, The New Arab, CNBC, ABC News, Oilprice.com, Arab News",
+      "citations": [
+        {
+          "outlet": "WSBT",
+          "title": "Trump says Iran war funded through January as Israel warns of chemical weapons development",
+          "url": "https://wsbt.com/news/nation-world/trump-says-iran-war-funded-through-january-as-israel-warns-of-chemical-weapons-development-strait-hormuz"
+        },
+        {
+          "outlet": "Gulf News",
+          "title": "Middle East conflict: Saudi-led Coalition Intercepts four Drones, Trump Warns on Iran War Funding",
+          "url": "https://gulfnews.com/world/mena/middle-east-conflict-trump-says-iran-war-funded-through-january-amid-saudi-yemen-escalation-1.500759977"
+        },
+        {
+          "outlet": "The New Arab",
+          "title": "Trump says no rush on Iran, Houthis ups attacks on Saudi Arabia",
+          "url": "https://www.newarab.com/news/trump-says-no-rush-iran-houthis-ups-attacks-saudi-arabia"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
+          "url": "https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Iran live updates: IRGC claims 2 oil tankers hit mines in Strait of Hormuz",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648"
+        },
+        {
+          "outlet": "Oilprice.com",
+          "title": "Iran Reports Fresh Tanker Explosions as Hormuz Attacks Intensify",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Reports-Fresh-Tanker-Explosions-as-Hormuz-Attacks-Intensify.html"
+        },
+        {
+          "outlet": "Arab News",
+          "title": "Arab News",
+          "url": "https://www.arabnews.com/middle-east/iran-claims-lng-tanker-ablaze-in-hormuz-after-hitting-mine-3013942"
+        }
+      ]
+    },
+    {
+      "title": "Israel: Closing In",
+      "icon": "⚖️",
+      "summary": "Liberman says coalition possible by next week; Likud expects to be left out; Gaza strikes go on",
+      "paragraphs": [
+        {
+          "heading": "Coalition",
+          "body": "The Times of Israel reported Liberman said Eisenkot can form a coalition with a clear Jewish majority by the end of next week, and that the bloc is fighting over ministries. The Jerusalem Post reported Likud officials expect Eisenkot to form a government without them, and that Netanyahu urged UTJ not to rush into a deal. Yahoo said Eisenkot is closer to ousting Netanyahu. [[TAG:info:UTJ key]]"
+        },
+        {
+          "heading": "Gaza",
+          "body": "ClickOrlando, carrying AP, reported Israeli strikes killed eight in Gaza overnight, while Arab News reported nine killed, including a deputy education minister. The Times of Israel reported Netanyahu signaled to Kushner he is willing to move forward on the Gaza plan. [[TAG:danger:tolls differ]]"
+        }
+      ],
+      "sources": "Times of Israel, Jerusalem Post, Yahoo, ClickOrlando (AP), Arab News",
+      "citations": [
+        {
+          "outlet": "Times of Israel",
+          "title": "Liberman: Eisenkot can form coalition with ‘clear Jewish majority’ by end of next week",
+          "url": "https://www.timesofisrael.com/liberman-eisenkot-can-form-coalition-with-clear-jewish-majority-by-end-of-next-week/"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "Eisenkot bloc said to fight over ministries as PM frets 'only a miracle' will save him",
+          "url": "https://www.timesofisrael.com/eisenkot-bloc-said-to-fight-over-ministries-as-pm-frets-only-a-miracle-will-save-him/"
+        },
+        {
+          "outlet": "Jerusalem Post",
+          "title": "Likud: Gadi Eisenkot likely to form government without Netanyahu's party",
+          "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-916196"
+        },
+        {
+          "outlet": "Jerusalem Post",
+          "title": "Netanyahu urges UTJ not to rush into anti-Netanyahu bloc deal as sides agree on status quo freeze",
+          "url": "http://www.jpost.com/israel-news/politics-and-diplomacy/article-916139"
+        },
+        {
+          "outlet": "Yahoo",
+          "title": "Eisenkot closer to ousting Netanyahu after coalition deal",
+          "url": "https://www.yahoo.com/news/politics/articles/eisenkot-closer-ousting-netanyahu-coalition-134038673.html"
+        },
+        {
+          "outlet": "ClickOrlando (AP)",
+          "title": "Israeli strikes kill 8 in Gaza, and other Mideast news",
+          "url": "https://www.clickorlando.com/news/world/2026/11/26/israeli-strikes-kill-8-in-gaza-and-other-mideast-news/"
+        },
+        {
+          "outlet": "Arab News",
+          "title": "Officials: Israel kills 9 in Gaza, including deputy minister of education",
+          "url": "https://www.arabnews.pk/middle-east/officials-israel-kills-9-in-gaza-including-deputy-minister-of-education-3008130"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "Nov. 25: PM reportedly signaled to Kushner he is willing to move forward on Gaza plan",
+          "url": "https://www.timesofisrael.com/liveblog-november-25-2026/"
+        }
+      ]
+    },
+    {
+      "title": "Also Watching",
+      "icon": "🧭",
+      "summary": "Bank of Korea hikes to 3.25%; Ramaphosa wins Phala Phala court ruling",
+      "paragraphs": [
+        {
+          "heading": "Seoul Hikes",
+          "body": "The Korea Herald, Korea Times and Al Jazeera reported the Bank of Korea raised its benchmark rate by a quarter point to 3.25% and sharply upgraded its growth forecasts. Korea JoongAng Daily reported growth forecasts of 3.9% for 2026 and 4.1% for 2027. Two board members dissented in favor of holding. [[TAG:warning:tightening]]"
+        },
+        {
+          "heading": "South Africa",
+          "body": "The Citizen reported President Ramaphosa won a court ruling in the Phala Phala case, which set aside a panel report that had opened the way to impeachment proceedings. An appeal is possible. [[TAG:info:court win]]"
+        }
+      ],
+      "sources": "Korea Herald, Korea Times, Al Jazeera, Korea JoongAng Daily, The Citizen",
+      "citations": [
+        {
+          "outlet": "Korea Herald",
+          "title": "BOK raises rate to 3.25% in final hike of year",
+          "url": "https://www.koreaherald.com/article/10949940"
+        },
+        {
+          "outlet": "Korea Times",
+          "title": "BOK raises key rate by quarter point to 3.25% as inflation concerns mount",
+          "url": "https://www.koreatimes.co.kr/economy/20261126/bok-raises-key-rate-by-quarter-point-to-325-as-inflation-concerns-mount"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "South Korea’s central bank hikes interest rates, raises GDP growth forecast",
+          "url": "https://www.aljazeera.com/economy/2026/11/26/south-koreas-central-bank-hikes-interest-rates-raises-gdp-growth-forecast"
+        },
+        {
+          "outlet": "Korea JoongAng Daily",
+          "title": "Bank of Korea raises interest rate to 3.25% and boosts growth forecasts",
+          "url": "https://www.koreajoongangdaily.com/business/bok-lifts-rate-to-325-as-it-sharply-upgrades-growth-forecasts-through-next-year/12991322"
+        },
+        {
+          "outlet": "The Citizen",
+          "title": "In case you missed it: CR bags win on Phala Phala",
+          "url": "https://citizen.co.za/news/in-case-you-missed-it-25-november-2026"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "query": "PCE inflation October report released November 25 2026 result",
+      "results": [
+        {
+          "title": "October PCE Report: PCE Inflation Index Up 3.8%, in Line With Expectations",
+          "url": "https://www.morningstar.com/economy/october-pce-report-pce-inflation-index-up-38-line-with-expectations"
+        },
+        {
+          "title": "US PCE inflation rises from 3.6% to 3.8% in October as core prices beat forecasts",
+          "url": "https://stockanalysis.com/news/us-pce-inflation-october-2026/"
+        },
+        {
+          "title": "October PCE inflation hits 3.8%: 12 numbers on prices, spending and the Fed",
+          "url": "https://qz.com/october-pce-report-inflation-numbers"
+        },
+        {
+          "title": "October 2026 PCE Inflation Report: Prices Up 3.8%",
+          "url": "https://www.wichitaliberty.org/economics/october-2026-pce-inflation-report/"
+        },
+        {
+          "title": "PCE inflation report shows prices up 3.8 percent from a year earlier",
+          "url": "https://theintelligent.us/politics/2026/pce-inflation-report-shows-prices-38-percent-year-earlier"
+        },
+        {
+          "title": "PCE Inflation, 25 November 2026: The Fed's Last Clean Read",
+          "url": "https://traders4traders.com/blog/pce-inflation-november-2026-fed-last-read"
+        },
+        {
+          "title": "PCE Inflation Report Wednesday Is the Last Major Inflation Release Before the Fed's December 9 Decision",
+          "url": "https://www.stocktitan.net/articles/october-2026-pce-inflation-preview"
+        },
+        {
+          "title": "Personal Consumption Expenditures Price Index, Excluding Food and Energy",
+          "url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index-excluding-food-and-energy"
+        },
+        {
+          "title": "October PCE Inflation Accelerates to 3.8%, Solidifying December Fed Rate Hike - tl;dr daily news",
+          "url": "https://tldrdailynews.com/news/business/economy/october-pce-inflation-accelerates-to-38percent-solidifying-december-fed-rate-hike-jk0oc6awls"
+        }
+      ]
+    },
+    {
+      "query": "stock market November 25 2026 close Dow S&P Nasdaq",
+      "results": [
+        {
+          "title": "The Close: Wednesday, November 25, 2026",
+          "url": "https://theweekendspread.substack.com/p/the-close-wednesday-november-25-2026"
+        },
+        {
+          "title": "Stock market news for Nov. 25, 2026",
+          "url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
+        },
+        {
+          "title": "Closing Look — Wednesday, November 25, 2026",
+          "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+        },
+        {
+          "title": "Stock market today: Dow erases losses to end positive, S&P 500 and Nasdaq recover ground amid AI sell-off",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+        },
+        {
+          "title": "Stock Market Today, Nov. 25: Dow Erases 1,100-Point Loss as Wall Street Stages Dramatic Late-Day Comeback",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-dow-erases-1-100-point-loss-as-wall-street-stages-dramatic-late-day-comeback/"
+        },
+        {
+          "title": "US Close Nov 25, 2026: S&P 500 -0.25%, NVDA -3.91%",
+          "url": "https://swingfolio.com/daily/us/2026-11-25/afternoon"
+        },
+        {
+          "title": "US Stocks Mixed at Close as Nasdaq Falls and Dow Inches Higher · Business Upturn",
+          "url": "https://businessupturn.com/usa/money/us-markets/us-stocks-mixed-at-close-as-nasdaq-falls-and-dow-inches-higher/"
+        },
+        {
+          "title": "U.S. Stock Market Today: 4 Critical Gains and Losses",
+          "url": "https://www.stl.news/us-stock-market-today-november-25-2026/"
+        },
+        {
+          "title": "Nasdaq Slides as Dow Climbs to 50,019",
+          "url": "https://wisevoter.com/world/us/2026/11/25/nasdaq-falls-dow-rises-50019"
+        }
+      ]
+    },
+    {
+      "query": "USTR Section 301 tariffs announced November 25 2026 overcapacity",
+      "results": [
+        {
+          "title": "USTR Proposes Tariffs Following 14 Section 301 Manufacturing Excess Capacity Investigations",
+          "url": "https://www.hklaw.com/en/insights/publications/2026/11/ustr-proposes-tariffs-following-14-section-301"
+        },
+        {
+          "title": "USTR Proposes New Section 301 Tariffs On 14 Economies Over Structural Excess Capacity",
+          "url": "https://www.legal500.com/intelligence/global/international-law/ustr-proposes-new-section-301-tariffs-on-14-economies-over-structural-excess-capacity"
+        },
+        {
+          "title": "USTR Proposes Section 301 Overcapacity Tariffs on 14 of 16 Economies…",
+          "url": "https://www.kelleydrye.com/viewpoints/blogs/trade-and-manufacturing-monitor/ustr-proposes-section-301-overcapacity-tariffs-on-14-of-16-economies-investigated-public-comment-period-and-public-hearing-will-precede-any-final-action"
+        },
+        {
+          "title": "USTR Announces Affirmative Section 301 Excess Capacity Determinations Across 14 Economies",
+          "url": "https://casrai.org/news/ustr-section-301-structural-excess-capacity-tariff-determinations-14-economies-2026"
+        },
+        {
+          "title": "USTR Proposes Section 301 Tariffs on 14 Economies in Structural Excess Capacity Investigations — Global Trade & Sanctions Law — November 25, 2026",
+          "url": "https://www.globaltradeandsanctionslaw.com/ustr-proposes-section-301-tariffs-on-14-economies-in-structural-excess-capacity-investigations/"
+        },
+        {
+          "title": "USTR Announces Proposed Section 301 Excess Capacity Tariffs on Fourteen Economies",
+          "url": "https://www.internationaltradeinsights.com/2026/11/ustr-announces-proposed-section-301-excess-capacity-tariffs-on-fourteen-economies/"
+        },
+        {
+          "title": "REGENERON PHARMACEUTICALS, INC. - Form 10-Q - FY2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000872589/000087258926000034/regn-20260930.htm"
+        },
+        {
+          "title": "REGENERON PHARMACEUTICALS, INC. - Form 10-Q - FY2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000872589/000087258926000025/regn-20260630.htm"
+        },
+        {
+          "title": "USTR Proposes New Section 301 Tariffs of 15%-35% on China, EU, Japan and 11 Other Trading Partners Over Manufacturing…",
+          "url": "https://tradersagency.com/blog/ustr-proposes-new-section-301-tariffs-of-15percent-35percent-on-china-eu-japan-and-11-other-trading-partners-over-manufacturing-overcapacity"
+        },
+        {
+          "title": "Gildan Activewear Inc. - Form 6-K - FY2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001061894/000106189426000027/exhibit991q32026mda.htm"
+        }
+      ]
+    },
+    {
+      "query": "Ukraine Russia news November 25 2026",
+      "results": [
+        {
+          "title": "Ukraine News Today",
+          "url": "https://en.wikipedia.org/wiki/Ukraine_News_Today"
+        },
+        {
+          "title": "Ukrainian National News",
+          "url": "https://en.wikipedia.org/wiki/Ukrainian_National_News"
+        },
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.co.uk/h/World+News/Europe/Eastern+Europe/Ukraine"
+        },
+        {
+          "title": "Ukraine says five jets damaged in attack on Russia’s Savasleyka airbase",
+          "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck"
+        },
+        {
+          "title": "Ukraine News Today Live",
+          "url": "https://www.newsnow.com/us/World/Europe/Eastern+Europe/Ukraine"
+        },
+        {
+          "title": "Full Episode",
+          "url": "https://www.pbs.org/newshour/tag/ukraine/page/52"
+        },
+        {
+          "title": "www.pbs.org",
+          "url": "https://www.pbs.org/newshour/classroom/tag/russia?page=4"
+        },
+        {
+          "title": "Ukraine-Russia updates: Zelenskyy says ban on Russian oil could lead to peace",
+          "url": "https://www.foxnews.com/live-news/ukraine-russia-updates-zelenskyy-says-ban-on-russian-oil-could-lead-to-peace"
+        },
+        {
+          "title": "Al Jazeera",
+          "url": "https://www.aljazeera.com/amp/news/liveblog/2023/1/31/russia-ukraine-live-news-western-allies-at-odds-over-fighter-jets"
+        }
+      ]
+    },
+    {
+      "query": "China EU reaction USTR Section 301 proposed tariffs November 26 2026",
+      "results": [
+        {
+          "title": "'Unacceptable': China, EU among major economies against new US tariffs - France 24",
+          "url": "https://www.france24.com/en/americas/20261126-unacceptable-major-economies-push-back-against-new-us-tariffs"
+        },
+        {
+          "title": "Particle: U.S. Proposes Section 301 Tariffs on EU, China and 14 Other Trading Partners",
+          "url": "https://particle.news/story/us-proposes-section-301-tariffs-on-eu-china-and-14-other-trading-partners"
+        },
+        {
+          "title": "Particle: U.S. Proposes Section 301 Tariffs on 14 Economies With Higher Conditional Penalties for China",
+          "url": "https://particle.news/story/us-proposes-section-301-tariffs-on-14-economies-with-higher-conditional-penalties-for-china"
+        },
+        {
+          "title": "Particle: U.S. Proposes Broad Tariffs on China, the EU and Japan",
+          "url": "https://particle.news/story/us-proposes-broad-tariffs-on-china-the-eu-and-japan"
+        },
+        {
+          "title": "New Tariffs: US Targets China, EU, India in Section 301 Plan",
+          "url": "https://www.livenewsworld.com/us-section-301-tariffs-china-eu-14-economies/"
+        },
+        {
+          "title": "US Proposes New Tariffs on 14 Partners, Sparking Global Pushback - tl;dr daily news",
+          "url": "https://tldrdailynews.com/news/world/world/us-proposes-new-tariffs-on-14-partners-sparking-global-pushback-gg2bxx2vyd"
+        },
+        {
+          "title": "US Proposes New Tariffs on 14 Trading Partners Including China, EU as Inflation Hits 3.8% - Memesita",
+          "url": "https://www.memesita.com/us-proposes-new-tariffs-on-14-trading-partners-including-china-eu-as-inflation-hits-3-8/"
+        },
+        {
+          "title": "News & Analysis as of",
+          "url": "https://www.jdsupra.com/topics/public-comment/tariffs/trade-relations"
+        },
+        {
+          "title": "News & Analysis as of",
+          "url": "https://www.jdsupra.com/topics/ustr/public-comment"
+        }
+      ]
+    },
+    {
+      "query": "Savasleyka airbase Ukraine strike November 26 2026 Russia response",
+      "results": [
+        {
+          "title": "Ukrainian forces hit three MiG-31s and two Su-34s at Russia's Savasleyka airbase",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/25/8064590/"
+        },
+        {
+          "title": "Ukraine hits Russia’s Savasleyka air base, home to MiG-31K jets / The New Voice of Ukraine",
+          "url": "https://english.nv.ua/russian-war/ukraine-hits-russia-s-savasleyka-air-base-home-to-mig-31k-jets-50662483.html"
+        },
+        {
+          "title": "Savasleyka air base",
+          "url": "https://en.wikipedia.org/wiki/Savasleyka_air_base"
+        },
+        {
+          "title": "Three Russian MiG-31s and two Su-34s hit at the Savasleyka airfield - General Staff",
+          "url": "https://unn.ua/en/news/three-russian-mig-31s-and-two-su-34s-struck-at-the-savasleyka-airfield-general-staff"
+        },
+        {
+          "title": "Marinovka air base",
+          "url": "https://en.wikipedia.org/wiki/Marinovka_air_base"
+        },
+        {
+          "title": "Ukraine Strikes Savasleyka Airbase, Damaging Five Russian Jets - tl;dr daily news",
+          "url": "https://tldrdailynews.com/news/world/military/ukraine-strikes-savasleyka-airbase-damaging-five-russian-jets-j2tx5uwdxi"
+        },
+        {
+          "title": "Millerovo air base attack",
+          "url": "https://en.wikipedia.org/wiki/Millerovo_air_base_attack"
+        },
+        {
+          "title": "Ukraine says strike on major Russian air base damaged five military jets",
+          "url": "https://www.aerotime.aero/articles/ukraine-says-strike-on-major-russian-air-base-damaged-five-military-jets"
+        },
+        {
+          "title": "Ukraine Says Five Russian Warplanes Hit at Key Airbase · Clash Report",
+          "url": "https://clashreport.com/world/articles/ukraine-says-five-russian-warplanes-hit-at-key-airbase-3p470nbycf6"
+        }
+      ]
+    },
+    {
+      "query": "Asian markets Thursday November 26 2026",
+      "results": [
+        {
+          "title": "Daily Market Outlook, November 26, 2026",
+          "url": "https://tickmill.com/blog/daily-market-outlook-november-26-2026"
+        },
+        {
+          "title": "Asia Market Quick Take",
+          "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--26-november-2026-26112026"
+        },
+        {
+          "title": "Asian markets rose on November 26 in tandem with U.S. index futures, defying Trump's tariffs",
+          "url": "https://en.oninvest.com/article/asian-markets-rose-in-tandem-with-u-s-index-futures"
+        },
+        {
+          "title": "World shares push higher, while markets in US will be closed for Thanksgiving",
+          "url": "https://www.wsls.com/business/2026/11/26/asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses/"
+        },
+        {
+          "title": "Asia Markets Today: Nikkei Drops While ASX 200 Gains Ahead of Jakarta Open",
+          "url": "https://journalarta.com/en/2026/11/26/asia-markets-today-nikkei-drops-while-asx-200-gains-ahead-of-jakarta-open/"
+        },
+        {
+          "title": "Asian Markets Gain as Kospi Leads Tech-Led Recovery",
+          "url": "https://businessnewsthisweek.com/business/asian-markets-gain-as-kospi-leads-tech-led-recovery/"
+        },
+        {
+          "title": "November 26, 2025 6:23 PM",
+          "url": "https://www.newsonair.gov.in/asian-stock-markets-closes-in-positive-zone-today/"
+        },
+        {
+          "title": "November 26, 2024 6:31 PM",
+          "url": "https://www.newsonair.gov.in/most-asian-markets-end-in-red"
+        },
+        {
+          "title": "major asian and european markets end in green",
+          "url": "https://www.newsonair.gov.in/major-asian-and-european-markets-end-in-green/"
+        }
+      ]
+    },
+    {
+      "query": "Iran Hormuz news November 25 2026",
+      "results": [
+        {
+          "title": "Iran Reports Fresh Tanker Explosions as Hormuz Attacks Intensify",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Reports-Fresh-Tanker-Explosions-as-Hormuz-Attacks-Intensify.html"
+        },
+        {
+          "title": "Iran live updates: Trump says war 'funded' through January, Houthis claim new attacks",
+          "url": "https://www.yahoo.com/news/politics/articles/iran-live-updates-tehran-says-093556957.html"
+        },
+        {
+          "title": "Iran live updates: IRGC claims 2 oil tankers hit mines in Strait of Hormuz - Good Morning America",
+          "url": "https://www.goodmorningamerica.com/news/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands-138369648"
+        },
+        {
+          "title": "Iran live updates: IRGC claims 2 oil tankers hit mines in Strait of Hormuz - ABC News",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648"
+        },
+        {
+          "title": "Arab News",
+          "url": "https://www.arabnews.com/middle-east/iran-claims-lng-tanker-ablaze-in-hormuz-after-hitting-mine-3013942"
+        },
+        {
+          "title": "Iran developing chemical weapons, Israeli defense minister says",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/"
+        },
+        {
+          "title": "Hormuz News Today",
+          "url": "https://www.newsnow.com/us/World/Middle+East/Iran/Strait+of+Hormuz"
+        },
+        {
+          "title": "Morning news brief",
+          "url": "https://www.npr.org/2026/04/06/nx-s1-5771649/morning-news-brief"
+        },
+        {
+          "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
+          "url": "https://euronews.com/video/2026/04/08/europe-today-trump-backs-down-on-iran-again-as-hormuz-set-to-reopen-after-temporary-deal"
+        }
+      ]
+    },
+    {
+      "query": "Bank of Korea raises interest rate November 26 2026",
+      "results": [
+        {
+          "title": "BOK raises rate to 3.25% in final hike of year - The Korea Herald",
+          "url": "https://www.koreaherald.com/article/10949940"
+        },
+        {
+          "title": "BOK Raises Base Rate to 3.25% Amid Semiconductor Boom and Inflation Pressures",
+          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008864699"
+        },
+        {
+          "title": "South Korea’s central bank hikes interest rates, raises GDP growth forecast",
+          "url": "https://www.aljazeera.com/economy/2026/11/26/south-koreas-central-bank-hikes-interest-rates-raises-gdp-growth-forecast"
+        },
+        {
+          "title": "[BREAKING] BOK raises key rate by quarter point to 3.25% as inflation concerns mount - The Korea Times",
+          "url": "https://www.koreatimes.co.kr/economy/20261126/bok-raises-key-rate-by-quarter-point-to-325-as-inflation-concerns-mount"
+        },
+        {
+          "title": "Bank of Korea raises interest rate to 3.25% and boosts growth forecasts",
+          "url": "https://www.koreajoongangdaily.com/business/bok-lifts-rate-to-325-as-it-sharply-upgrades-growth-forecasts-through-next-year/12991322"
+        },
+        {
+          "title": "Korea Resumes Rate Hikes, Lifting Benchmark to 3.25% - Seoul Economic Daily",
+          "url": "https://en.sedaily.com/economy/2026/11/26/korea-resumes-rate-hikes-lifting-benchmark-to-325-percent"
+        },
+        {
+          "title": "www.malaymail.com",
+          "url": "https://www.malaymail.com/amp/news/money/2023/01/13/bank-of-korea-raises-rates-to-14-year-high-as-expected/49958"
+        },
+        {
+          "title": "Bank of Korea raises rates for first time since Nov 2017",
+          "url": "https://investing.com/news/economic-indicators/bank-of-korea-raises-rates-for-first-time-since-nov-2017-1705793"
+        },
+        {
+          "title": "SKorean central bank raises rate to 2.5 percent",
+          "url": "https://www.foxnews.com/world/skorean-central-bank-raises-rate-to-2-5-percent.amp"
+        }
+      ]
+    },
+    {
+      "query": "Israel Eisenkot coalition news November 25 2026 UTJ Likud",
+      "results": [
+        {
+          "title": "Liberman: Eisenkot can form coalition with ‘clear Jewish majority’ by end of next week",
+          "url": "https://www.timesofisrael.com/liberman-eisenkot-can-form-coalition-with-clear-jewish-majority-by-end-of-next-week/"
+        },
+        {
+          "title": "UTJ to seek rabbis’ okay to formally open coalition talks with Eisenkot bloc",
+          "url": "https://www.timesofisrael.com/utj-to-seek-rabbis-okay-to-formally-open-coalition-talks-with-eisenkot-bloc/"
+        },
+        {
+          "title": "Eisenkot closer to ousting Netanyahu after coalition deal",
+          "url": "https://www.yahoo.com/news/politics/articles/eisenkot-closer-ousting-netanyahu-coalition-134038673.html"
+        },
+        {
+          "title": "Eisenkot bloc said to fight over ministries as PM frets 'only a miracle' will save him",
+          "url": "https://www.timesofisrael.com/eisenkot-bloc-said-to-fight-over-ministries-as-pm-frets-only-a-miracle-will-save-him/"
+        },
+        {
+          "title": "Netanyahu urges UTJ not to rush into anti-Netanyahu bloc deal as sides agree on status quo freeze",
+          "url": "http://www.jpost.com/israel-news/politics-and-diplomacy/article-916139"
+        },
+        {
+          "title": "Likud: Gadi Eisenkot likely to form government without Netanyahu's party",
+          "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-916196"
+        },
+        {
+          "title": "Gadi Eisenkot weighs gov't options as UTJ receives rabbinical approval for talks",
+          "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-915989"
+        },
+        {
+          "title": "Israeli war cabinet",
+          "url": "https://en.wikipedia.org/wiki/Israeli_war_cabinet"
+        },
+        {
+          "title": "2026 Israeli legislative election",
+          "url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election"
+        },
+        {
+          "title": "Likud officials expect Eisenkot to form government without Netanyahu's party — urgent.news",
+          "url": "https://urgent.news/2026/11/26/likud-officials-expect-eisenkot-to-form-government-without-netanyahus"
+        }
+      ]
+    },
+    {
+      "query": "Nasdaq bear market intraday November 25 2026 Nvidia AI selloff",
+      "results": [
+        {
+          "title": "Nasdaq 100 Falls Into Bear Market Amid AI Sector Sell-Off and Tariff Concerns",
+          "url": "https://www.kucoin.com/news/flash/nasdaq-100-falls-into-bear-market-amid-ai-sector-sell-off-and-tariff-concerns"
+        },
+        {
+          "title": "The US Stock Selloff Is Unravelling the AI Trade’s Circular Deals - Bloomberg",
+          "url": "https://bloomberg.com/news/newsletters/2026-11-25/the-us-stock-selloff-is-unravelling-the-ai-trade-s-circular-deals"
+        },
+        {
+          "title": "Nasdaq 100 on pace to enter bear market as AI trade melts down: AlphaCheck",
+          "url": "https://finance.yahoo.com/markets/article/ai-trade-melts-down-as-tarrif-worries-fed-hike-odds-spook-market-alphacheck-150907700.html"
+        },
+        {
+          "title": "Nasdaq 100 Nears Bear Market as AI Selloff Hits",
+          "url": "https://www.briefs.co/news/nasdaq-100-nears-bear-market-as-ai-fueled-optimism-sours/"
+        },
+        {
+          "title": "Nasdaq 100 Flirts With Bear Market Territory, Drops 20% From October Highs",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-flirts-bear-market-175314664.html"
+        },
+        {
+          "title": "Nasdaq 100 Shows Signs of a Deep V-Reversal Near Bear Market Threshold Amid AI Sector Volatility",
+          "url": "https://www.kucoin.com/news/flash/nasdaq-100-stages-deep-v-reversal-near-bear-market-threshold-amid-ai-sector-volatility"
+        },
+        {
+          "title": "Nasdaq's Thrilling \"Deep V\" Reversal Averts Major Drop, but AI Trade Still \"Bottom Fishing\"",
+          "url": "https://longbridge.com/en/news/306839345"
+        },
+        {
+          "title": "Stock Market Today: Dow Erases 1,100-Point AI Drop",
+          "url": "https://pomegra.io/news/stock-market-today-dow-erases-1100-point-ai-drop"
+        },
+        {
+          "title": "Selloff or Market Correction? Either Way, Here's What to Do NextSee Overvalued Stocks",
+          "url": "https://investing.com/news/stock-market-news/ai-tide-lifts-nasdaq-to-record-intraday-high-3322109"
+        }
+      ]
+    },
+    {
+      "query": "Gaza news November 25 2026",
+      "results": [
+        {
+          "title": "Nov. 25: PM reportedly signaled to Kushner he is willing to move forward on Gaza plan",
+          "url": "https://www.timesofisrael.com/liveblog-november-25-2026/"
+        },
+        {
+          "title": "Gaza",
+          "url": "https://www.aljazeera.com/tag/gaza/"
+        },
+        {
+          "title": "Gaza Now",
+          "url": "https://en.wikipedia.org/wiki/Gaza_Now"
+        },
+        {
+          "title": "Israeli strikes kill 8 in Gaza, and other Mideast news",
+          "url": "https://www.clickorlando.com/news/world/2026/11/26/israeli-strikes-kill-8-in-gaza-and-other-mideast-news/"
+        },
+        {
+          "title": "Israeli strikes kill 8 in Gaza, and other Mideast news - Daily Journal",
+          "url": "https://dailyjournal.net/2026/11/26/israeli-strikes-kill-8-in-gaza-and-other-mideast-news/"
+        },
+        {
+          "title": "Officials: Israel kills 9 in Gaza, including deputy minister of education",
+          "url": "https://www.arabnews.pk/middle-east/officials-israel-kills-9-in-gaza-including-deputy-minister-of-education-3008130"
+        },
+        {
+          "title": "Gaza hosts weddings and opens restaurants amid protests",
+          "url": "https://israelhayom.com/2026/11/25/gaza-weddings-restaurants-bodybuilding-contests-protests"
+        },
+        {
+          "title": "Siege of Gaza City",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Gaza_City"
+        },
+        {
+          "title": "2022 Jabalia fire",
+          "url": "https://en.wikipedia.org/wiki/2022_Jabalia_fire"
+        }
+      ]
+    },
+    {
+      "query": "Trump Iran war funded through January Houthis attacks November 25 2026",
+      "results": [
+        {
+          "title": "Middle East conflict: Saudi-led Coalition Intercepts four Drones, Trump Warns on Iran War Funding",
+          "url": "https://gulfnews.com/world/mena/middle-east-conflict-trump-says-iran-war-funded-through-january-amid-saudi-yemen-escalation-1.500759977"
+        },
+        {
+          "title": "Trump Says Iran War Funding Extends Roughly Through January 2027",
+          "url": "https://unishka.substack.com/p/trump-says-iran-war-funding-extends"
+        },
+        {
+          "title": "Trump says no rush on Iran, Houthis ups attacks on Saudi Arabia",
+          "url": "https://www.newarab.com/news/trump-says-no-rush-iran-houthis-ups-attacks-saudi-arabia"
+        },
+        {
+          "title": "Iran live updates: IRGC claims 2 oil tankers hit mines in Strait of Hormuz - ABC News",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648"
+        },
+        {
+          "title": "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
+          "url": "https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html"
+        },
+        {
+          "title": "Iran live updates: Trump says war 'funded' through January, Houthis claim new attacks",
+          "url": "https://www.yahoo.com/news/world/articles/iran-live-updates-tehran-says-093556900.html"
+        },
+        {
+          "title": "Australia and the 2026 Iran war",
+          "url": "https://en.wikipedia.org/wiki/Australia_and_the_2026_Iran_war"
+        },
+        {
+          "title": "March%E2%80%93May 2025 United States attacks in Yemen",
+          "url": "https://en.wikipedia.org/wiki/March%E2%80%93May_2025_United_States_attacks_in_Yemen"
+        },
+        {
+          "title": "Trump says Iran war funded through January as Israel warns of chemical weapons development",
+          "url": "https://wsbt.com/news/nation-world/trump-says-iran-war-funded-through-january-as-israel-warns-of-chemical-weapons-development-strait-hormuz"
+        },
+        {
+          "title": "What's Trump's strategy now with Iran? To keep things as they are",
+          "url": "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are"
+        }
+      ]
+    },
+    {
+      "query": "European Council summit November 26 2026 Ukraine carbon market",
+      "results": [
+        {
+          "title": "Budget, Ukraine, migration: Five takeaways from the EU leaders’ summit",
+          "url": "https://www.euronews.com/2026/10/16/budget-ukraine-migration-five-takeaways-from-the-eu-leaders-summit"
+        },
+        {
+          "title": "Hungary veto on Ukraine and carbon market to hijack EU summit",
+          "url": "https://euobserver.com/207493/hungary-veto-on-ukraine-and-carbon-market-to-hijack-eu-summit/"
+        },
+        {
+          "title": "War-driven energy prices put EU ETS carbon market under fire",
+          "url": "https://www.theparliamentmagazine.eu/news/article/wardriven-energy-prices-put-eu-carbon-market-under-fire"
+        },
+        {
+          "title": "THE EUROPEAN COUNCIL, BETWEEN SUPPORT FOR UKRAINE, ENERGY SHOCK AND A COMPETITIVENESS TURN",
+          "url": "https://euroscope6.substack.com/p/the-european-council-between-support"
+        },
+        {
+          "title": "Burnham, EU Leaders Agree Deals on Trade, Carbon Markets and Youth Mobility",
+          "url": "https://www.kyivpost.com/post/90756"
+        },
+        {
+          "title": "2008 EU%E2%80%93Ukraine Summit",
+          "url": "https://en.wikipedia.org/wiki/2008_EU%E2%80%93Ukraine_Summit"
+        },
+        {
+          "title": "EU leaders meet in Brussels to discuss energy prices, Ukraine, China trade and European security",
+          "url": "https://www.ir-ia.com/news/eu-leaders-meet-in-brussels-to-discuss-energy-prices-ukraine-china-trade-and-european-security/"
+        },
+        {
+          "title": "2023 EU%E2%80%93Ukraine Summit",
+          "url": "https://en.wikipedia.org/wiki/2023_EU%E2%80%93Ukraine_Summit"
+        },
+        {
+          "title": "EU leaders press for energy relief, stronger trade tools and Ukraine support",
+          "url": "https://ieu-monitoring.com/editorial/eu-leaders-press-for-energy-relief-stronger-trade-tools-and-ukraine-support/1252463"
+        }
+      ]
+    },
+    {
+      "query": "Africa news November 25 2026",
+      "results": [
+        {
+          "title": "Africa: All of Africa Today - November 23, 2026 - allAfrica.com",
+          "url": "https://allafrica.com/stories/202611230153.html"
+        },
+        {
+          "title": "Africa: All of Africa Today - November 20, 2026 - allAfrica.com",
+          "url": "https://allafrica.com/stories/202611200223.html"
+        },
+        {
+          "title": "Africa: All of Africa Today - November 6, 2026 - allAfrica.com",
+          "url": "https://allafrica.com/stories/202611060129.html"
+        },
+        {
+          "title": "Africa News",
+          "url": "https://www.aljazeera.com/africa/"
+        },
+        {
+          "title": "In case you missed it: CR bags win on Phala Phala",
+          "url": "https://citizen.co.za/news/in-case-you-missed-it-25-november-2026"
+        },
+        {
+          "title": "2026 in Guinea",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Guinea"
+        },
+        {
+          "title": "2026 in the Central African Republic",
+          "url": "https://en.wikipedia.org/wiki/2026_in_the_Central_African_Republic"
+        },
+        {
+          "title": "2026 in Cameroon",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Cameroon"
+        },
+        {
+          "title": "News Africa",
+          "url": "https://www.enca.com/news"
+        }
+      ]
+    },
+    {
+      "query": "Trump administration Russia business deals incentive abandoned Ukraine FT November 2026",
+      "results": [
+        {
+          "title": "FT: Trump drops Russia business deal incentives in Ukraine peace talks",
+          "url": "https://en.lb.ua/news/2026/11/25/51432_ft_donald_trump_shelves_plans.html"
+        },
+        {
+          "title": "Trump administration shelves plans to entice Russia into peace deal with business ventures - FT",
+          "url": "https://hromadske.ua/en/heopolityka/274973-trump-administration-shelves-plans-to-entice-russia-into-peace-deal-with-business-ventures-ft"
+        },
+        {
+          "title": "US Shelves Plans for Business Deals With Russia to End Ukraine War, FT Says",
+          "url": "https://www.usnews.com/news/top-news/articles/2026-11-25/us-shelves-proposals-to-use-business-deals-with-russia-to-end-ukraine-war-ft-reports"
+        },
+        {
+          "title": "Trump administration abandons business deals as incentive for Russia to end Ukraine war, shifts back to ‘land for peace’ approach, FT reports — Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/25/trump-administration-abandons-business-deals-as-incentive-for-russia-to-end-ukraine-war-shifts-back-to-land-for-peace-approach-ft-reports"
+        },
+        {
+          "title": "US shelves plans for business deals with Russia to end Ukraine war, FT says",
+          "url": "https://www.spokesman.com/stories/2026/nov/24/us-shelves-plans-for-business-deals-with-russia-to/"
+        },
+        {
+          "title": "US shifts focus to territory and security after shelving Russia business deals",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/25/8064535/"
+        },
+        {
+          "title": "US shelves proposals to use business deals with Russia to end Ukraine war, FT reports",
+          "url": "https://uk.finance.yahoo.com/news/us-shelves-proposals-business-deals-051552709.html"
+        },
+        {
+          "title": "Trump's plans for business deals with Russia to end the war in Ukraine have been postponed - FT",
+          "url": "https://unn.ua/en/news/trumps-plans-for-business-deals-with-russia-to-end-the-war-in-ukraine-have-been-postponed-ft"
+        },
+        {
+          "title": "August 2025 White House multilateral meeting on Ukraine",
+          "url": "https://en.wikipedia.org/wiki/August_2025_White_House_multilateral_meeting_on_Ukraine"
+        },
+        {
+          "title": "zelenskyy says the u s is gearing up to do business with russia as strikes continue",
+          "url": "https://www.npr.org/2026/02/08/nx-s1-5705359/zelenskyy-says-the-u-s-is-gearing-up-to-do-business-with-russia-as-strikes-continue"
+        }
+      ]
+    }
+  ],
+  "fetched": [],
+  "meta": {
+    "id": "2026-11-26",
+    "generated_at": "2026-11-26T11:24:36.702Z",
+    "model": "claude-opus-5-5",
+    "via": "claude-code-routine",
+    "searches": 16,
+    "results_count": 147,
+    "cited_count": 46
+  }
+}
