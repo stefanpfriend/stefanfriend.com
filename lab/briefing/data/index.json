@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-27",
+      "date": "Friday, November 27, 2026",
+      "edition": "EUROPEANS IN THE CROSSFIRE",
+      "searches": 16,
+      "cited_count": 48,
+      "results_count": 140
+    },
+    {
       "id": "2026-11-26",
       "date": "Thursday, November 26, 2026",
       "edition": "HOT PRINT, NEW TARIFFS",
